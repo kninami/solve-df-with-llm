@@ -29,7 +29,7 @@ An investigator or analyst who cites a published guesses-per-hour or guesses-per
 
 ## Used By
 
-- [[techniques/Dictionary attack password recovery via mangling-rule generation and cloud GPU execution]]
+- [[techniques/Recover passwords using a dictionary attack with generated mangling rules on cloud GPUs]]
 
 ## References
 

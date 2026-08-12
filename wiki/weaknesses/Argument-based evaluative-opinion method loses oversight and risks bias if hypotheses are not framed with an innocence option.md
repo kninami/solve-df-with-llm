@@ -29,7 +29,7 @@ Because the method is explicitly intended to produce transparent, auditable reas
 
 ## Used By
 
-- [[techniques/Argument-based structured evaluation of digital evidence probative value]]
+- [[techniques/Evaluate digital evidence probative value using structured argumentation]]
 
 ## References
 

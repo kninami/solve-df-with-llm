@@ -29,7 +29,7 @@ An organization adopting this DFRCF/DFMM structure to self-assess its forensic r
 
 ## Used By
 
-- [[techniques/Digital forensic readiness assessment and by-design frameworks]]
+- [[techniques/Assess and design for digital forensic readiness]]
 
 ## References
 

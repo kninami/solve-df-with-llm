@@ -29,7 +29,7 @@ An investigator applying this class of technique to a real case involving a copy
 
 ## Used By
 
-- [[techniques/Statistical median-difference and object-detection-based copy-move video tampering localization]]
+- [[techniques/Localize copy-move video tampering using median-difference and object detection]]
 
 ## References
 

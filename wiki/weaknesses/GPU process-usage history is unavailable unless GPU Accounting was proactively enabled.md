@@ -29,7 +29,7 @@ This is a "wasn't turned on before the incident" class of evidence gap: an inves
 
 ## Used By
 
-- [[techniques/Cross-mapped pointer-chasing recovery of NVIDIA GPU driver structures in memory]]
+- [[techniques/Recover NVIDIA GPU driver structures from memory using cross-mapped pointer chasing]]
 
 ## References
 

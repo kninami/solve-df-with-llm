@@ -29,7 +29,7 @@ Real-world deepfake video encountered in an investigation (e.g., footage shared 
 
 ## Used By
 
-- [[techniques/Frequency-domain deepfake detection]]
+- [[techniques/Detect deepfakes using frequency-domain analysis]]
 
 ## References
 

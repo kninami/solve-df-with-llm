@@ -29,7 +29,7 @@ Because forward-only file carving is the dominant approach in practical tooling 
 
 ## Used By
 
-- [[techniques/Out-of-order fragment file carving]]
+- [[techniques/Carve out-of-order file fragments]]
 
 ## References
 

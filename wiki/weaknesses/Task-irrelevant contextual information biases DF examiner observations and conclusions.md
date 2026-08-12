@@ -29,7 +29,7 @@ This means the same evidence file, examined by different examiners who received 
 
 ## Used By
 
-- [[techniques/Contextual case-information-guided review of digital evidence]]
+- [[techniques/Review digital evidence guided by contextual case information]]
 
 ## References
 

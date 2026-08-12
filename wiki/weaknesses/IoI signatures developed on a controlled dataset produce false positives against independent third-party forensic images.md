@@ -29,7 +29,7 @@ An investigator who adopts a community-shared IoI signature and trusts its repor
 
 ## Used By
 
-- [[techniques/SPARQL-based cross-artifact inconsistency detection over CASE-UCO forensic knowledge graphs]]
+- [[techniques/Detect cross-artifact inconsistencies in CASE-UCO knowledge graphs using SPARQL]]
 
 ## References
 

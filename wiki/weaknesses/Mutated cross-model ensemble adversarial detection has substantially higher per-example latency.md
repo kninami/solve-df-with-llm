@@ -29,7 +29,7 @@ In a forensic setting where a large volume of PDFs (or similar files) must be tr
 
 ## Used By
 
-- [[techniques/Mutated cross-model ensemble detection of adversarial classifier evasion]]
+- [[techniques/Detect adversarial classifier evasion using a mutated cross-model ensemble]]
 
 ## References
 

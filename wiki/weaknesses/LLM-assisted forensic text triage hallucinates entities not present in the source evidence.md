@@ -29,7 +29,7 @@ A hallucinated entity presented alongside genuinely extracted forensic data risk
 
 ## Used By
 
-- [[techniques/Clustering-assisted LLM triage of unstructured forensic string-search output]]
+- [[techniques/Triage unstructured string-search output using clustering-assisted LLM analysis]]
 
 ## References
 

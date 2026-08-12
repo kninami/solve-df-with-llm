@@ -29,7 +29,7 @@ A monitoring tool that continuously runs on an ICS engineering workstation could
 
 ## Used By
 
-- [[techniques/Continuous project-file integrity monitoring and version-based restoration for ICS]]
+- [[techniques/Monitor and restore ICS project-file integrity continuously]]
 
 ## References
 

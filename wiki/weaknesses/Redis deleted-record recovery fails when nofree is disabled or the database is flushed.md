@@ -29,7 +29,7 @@ An investigator applying this recovery technique to a live-acquired or memory-du
 
 ## Used By
 
-- [[techniques/Redis dictEntry memory-address diffing for deleted key recovery]]
+- [[techniques/Recover deleted Redis keys using dictEntry memory-address diffing]]
 
 ## References
 

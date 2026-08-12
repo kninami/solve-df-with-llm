@@ -29,7 +29,7 @@ If an investigator collects only the main database file after the generating app
 
 ## Used By
 
-- [[techniques/SQLite deleted record recovery]]
+- [[techniques/Recover deleted SQLite records]]
 
 ## References
 

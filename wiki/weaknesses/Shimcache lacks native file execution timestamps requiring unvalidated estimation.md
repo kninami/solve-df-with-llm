@@ -29,7 +29,7 @@ Treating an estimated execution-time interval as if it were an authoritative log
 
 ## Used By
 
-- [[techniques/Shimcache execution time estimation]]
+- [[techniques/Estimate file execution times from Shimcache]]
 
 ## References
 

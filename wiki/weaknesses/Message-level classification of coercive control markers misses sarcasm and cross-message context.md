@@ -29,7 +29,7 @@ Coercive control is specifically defined as a cumulative, longitudinal pattern r
 
 ## Used By
 
-- [[techniques/Hybrid regex-BERT longitudinal linguistic-marker triage of chat evidence]]
+- [[techniques/Triage chat evidence for linguistic markers using a hybrid regex-BERT model]]
 
 ## References
 

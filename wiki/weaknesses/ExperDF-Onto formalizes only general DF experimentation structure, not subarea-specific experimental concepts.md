@@ -29,7 +29,7 @@ A researcher or practitioner in a specific DF subfield (e.g. mobile, memory, or 
 
 ## Used By
 
-- [[techniques/OWL ontology-based formalization of controlled digital forensics experiments]]
+- [[techniques/Formalize controlled digital forensics experiments using an OWL ontology]]
 
 ## References
 

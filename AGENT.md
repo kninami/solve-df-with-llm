@@ -73,9 +73,9 @@ This keeps the wiki readable without introducing a separate graph layer.
 
 ### Technique Naming Rules
 
-- Prefer the narrowest directly executable or directly describable technique name over an umbrella capability name.
-- Use concrete method names such as `Brute force attack`, `Dictionary attack`, or `Disk image verification` when the source distinguishes those methods.
-- Avoid broad umbrella names such as `Password cracking` when the source material supports one or more narrower technique pages instead.
+- Per `STYLE_GUIDE.md`, technique names begin with a present-tense imperative verb (e.g. "Locate", "Connect", "Use") and use sentence case. Every technique name must pass the investigator test: "As an investigator, I want to [technique name]..." must read naturally.
+- Prefer the narrowest directly executable or directly describable technique over an umbrella capability, expressed as a verb phrase — e.g. `Perform a dictionary attack`, `Verify a disk image's hash` rather than the umbrella `Crack passwords`.
+- Avoid broad umbrella names such as `Crack passwords` when the source material supports one or more narrower technique pages instead.
 - If a source discusses several sibling techniques, split them into separate technique pages when practical rather than collapsing them into one broad page.
 - Use an umbrella technique name only when the source does not distinguish the component methods clearly, or when the user explicitly asks for the broader page.
 
@@ -126,10 +126,13 @@ reuse-first process instead:
    page for the same concept.
 3. If no matching page exists, create one, but name and describe it at the level of a reusable
    method/defect *category* rather than that paper's specific implementation — e.g. prefer
-   `Frequency-domain deepfake detection` over `High-frequency DCT reconstruction deepfake
-   detection`, and prefer `N-gram-based file type identification` over `N-gram SVM file type
-   identification`. Put the paper's specific implementation detail in `Details`/`Examples`, and
-   record the narrower original phrasing in `aliases` so it stays searchable.
+   `Detect deepfakes using frequency-domain artifacts` over `Detect deepfakes via high-frequency
+   DCT reconstruction`, and prefer `Identify file types using n-gram analysis` over `Identify file
+   types using an n-gram SVM`. As elsewhere, the name itself is still a present-tense imperative
+   verb phrase per `STYLE_GUIDE.md` — only the *specificity level* (category vs. paper-specific
+   implementation) changes for corpus ingestion. Put the paper's specific implementation detail in
+   `Details`/`Examples`, and record the narrower original phrasing in `aliases` so it stays
+   searchable.
 4. A single paper does not need to produce a fixed number of pages. A narrow, single-purpose
    paper may reuse existing pages entirely (source_refs-only update, no new page); a broad survey
    paper may justify several new pages. Do not target a fixed "N pages per paper" ratio.

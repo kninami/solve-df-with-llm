@@ -29,7 +29,7 @@ An investigator hoping to present a single, fully-ordered timeline covering all 
 
 ## Used By
 
-- [[techniques/Hyper timeline construction from implicit and explicit timing information across time domains]]
+- [[techniques/Construct a hyper timeline from implicit and explicit timing information]]
 
 ## References
 

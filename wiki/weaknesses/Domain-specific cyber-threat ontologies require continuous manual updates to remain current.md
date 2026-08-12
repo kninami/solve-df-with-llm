@@ -29,7 +29,7 @@ An investigator relying on a domain-specific ontology to identify all applicable
 
 ## Used By
 
-- [[techniques/Domain-specific infrastructure ontology for cyber-threat and evidence mapping]]
+- [[techniques/Map cyber threats and evidence using a domain-specific infrastructure ontology]]
 
 ## References
 

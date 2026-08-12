@@ -30,7 +30,7 @@ An investigator who successfully applies this class of technique against one man
 
 ## Used By
 
-- [[techniques/Reverse-engineered weak app-level lock defeat and content decryption]]
+- [[techniques/Defeat a weak app-level lock and decrypt content via reverse engineering]]
 
 ## References
 

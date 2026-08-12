@@ -29,7 +29,7 @@ An investigator or organization selecting an IoT forensic process model to guide
 
 ## Used By
 
-- [[techniques/Structured IoT-specific digital forensic process model application]]
+- [[techniques/Apply a structured IoT-specific digital forensic process model]]
 
 ## References
 

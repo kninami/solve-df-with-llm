@@ -29,7 +29,7 @@ A synthetic dataset intended for training or validating forensic tools that cont
 
 ## Used By
 
-- [[techniques/Automated synthesis of digital forensic training and validation datasets]]
+- [[techniques/Synthesize digital forensic training and validation datasets]]
 
 ## References
 

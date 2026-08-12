@@ -29,7 +29,7 @@ In an evaluated case, a "Student List for 2024" table was dropped and a "Student
 
 ## Used By
 
-- [[techniques/SQLite deleted record recovery]]
+- [[techniques/Recover deleted SQLite records]]
 
 ## References
 

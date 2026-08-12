@@ -29,7 +29,7 @@ An investigator relying solely on a reverse-engineered backup-protocol tool for 
 
 ## Used By
 
-- [[techniques/Reverse-engineered proprietary backup-protocol data acquisition]]
+- [[techniques/Acquire data by reverse-engineering a proprietary backup protocol]]
 
 ## References
 

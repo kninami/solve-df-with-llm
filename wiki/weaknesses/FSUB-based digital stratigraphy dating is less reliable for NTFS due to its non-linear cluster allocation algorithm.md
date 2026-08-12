@@ -29,7 +29,7 @@ An investigator applying the digital-stratigraphy/FSUB technique to an NTFS-form
 
 ## Used By
 
-- [[techniques/FSUB-based digital stratigraphy dating of non-allocated-space data on recycled storage media]]
+- [[techniques/Date non-allocated-space data on recycled storage media using FSUB-based digital stratigraphy]]
 
 ## References
 

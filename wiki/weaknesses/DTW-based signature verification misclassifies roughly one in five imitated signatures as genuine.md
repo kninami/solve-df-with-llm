@@ -29,7 +29,7 @@ Because the method is intended to provide "additional numerical strength" to an 
 
 ## Used By
 
-- [[techniques/DTW-based dynamic-feature similarity decision support for forensic signature examination]]
+- [[techniques/Examine forensic signatures using DTW-based dynamic-feature similarity]]
 
 ## References
 

@@ -30,8 +30,8 @@ An investigator relying solely on in-memory secret recovery may find it fails in
 
 ## Used By
 
-- [[techniques/Memory string-pattern recovery of application credentials]]
-- [[techniques/Live host Bitcoin wallet artifact triage]]
+- [[techniques/Recover application credentials from memory using string-pattern search]]
+- [[techniques/Triage Bitcoin wallet artifacts on a live host]]
 
 ## References
 

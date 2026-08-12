@@ -29,7 +29,7 @@ A digital forensic lab that adopts a generic, published RuleForge ruleset withou
 
 ## Used By
 
-- [[techniques/Dictionary attack password recovery via mangling-rule generation and cloud GPU execution]]
+- [[techniques/Recover passwords using a dictionary attack with generated mangling rules on cloud GPUs]]
 
 ## References
 

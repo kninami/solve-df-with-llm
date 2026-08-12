@@ -29,7 +29,7 @@ An investigator who encounters a compromised container host cannot assume a json
 
 ## Used By
 
-- [[techniques/Content-similarity-based reassembly of fragmented structured-text log files]]
+- [[techniques/Reassemble fragmented structured-text log files using content similarity]]
 
 ## References
 

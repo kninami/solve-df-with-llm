@@ -29,7 +29,7 @@ An investigator who selects a memory acquisition tool based on general reputatio
 
 ## Used By
 
-- [[techniques/Scenario-based memory acquisition tool quality assessment]]
+- [[techniques/Assess memory acquisition tool quality using investigative scenarios]]
 
 ## References
 

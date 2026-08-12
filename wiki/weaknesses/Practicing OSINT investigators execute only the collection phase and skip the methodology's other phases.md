@@ -29,7 +29,7 @@ Skipping the processing/validation and analysis phases means collected open-sour
 
 ## Used By
 
-- [[techniques/Structured open-source intelligence investigation methodology]]
+- [[techniques/Conduct a structured open-source intelligence investigation]]
 
 ## References
 

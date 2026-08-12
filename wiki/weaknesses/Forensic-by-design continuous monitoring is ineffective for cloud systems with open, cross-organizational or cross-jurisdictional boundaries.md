@@ -29,7 +29,7 @@ An organization that adopts forensic-by-design expecting it to provide comprehen
 
 ## Used By
 
-- [[techniques/Digital forensic readiness assessment and by-design frameworks]]
+- [[techniques/Assess and design for digital forensic readiness]]
 
 ## References
 

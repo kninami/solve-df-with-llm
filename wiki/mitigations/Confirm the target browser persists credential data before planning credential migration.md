@@ -20,7 +20,7 @@ Before planning a browser-credential-migration-based cloud access strategy, conf
 
 ## How To Apply
 
-Identify the browser(s) installed and used on the target device (from installed-application artefacts, prefetch, or shortcut/link files) before committing time to a credential-migration approach, and check whether that specific browser is known to persist session data (the great majority of Chromium-, Firefox-, and IE-based browsers do) or is a privacy-focused/incognito-only browser (which does not). Where the browser does not persist data, pursue an alternative access route instead — direct API token capture (see [[techniques/Captured-credential-based cloud account access]]), a memory-based credential search on a still-running system, or legal process directly to the cloud service provider.
+Identify the browser(s) installed and used on the target device (from installed-application artefacts, prefetch, or shortcut/link files) before committing time to a credential-migration approach, and check whether that specific browser is known to persist session data (the great majority of Chromium-, Firefox-, and IE-based browsers do) or is a privacy-focused/incognito-only browser (which does not). Where the browser does not persist data, pursue an alternative access route instead — direct API token capture (see [[techniques/Access a cloud account using captured credentials]]), a memory-based credential search on a still-running system, or legal process directly to the cloud service provider.
 
 ## References
 

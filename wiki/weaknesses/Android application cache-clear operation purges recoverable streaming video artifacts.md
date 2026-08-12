@@ -29,7 +29,7 @@ Because this is a standard, documented Android OS feature requiring no special k
 
 ## Used By
 
-- [[techniques/Streaming application cache artifact recovery]]
+- [[techniques/Recover streaming application cache artifacts]]
 
 ## References
 

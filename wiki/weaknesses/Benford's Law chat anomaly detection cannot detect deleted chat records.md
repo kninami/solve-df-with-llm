@@ -29,7 +29,7 @@ An investigator relying on this technique to identify tampering or fraud risk sh
 
 ## Used By
 
-- [[techniques/Benford's Law leading-digit anomaly detection for chat message legitimacy triage]]
+- [[techniques/Detect chat message anomalies using Benford's Law leading-digit analysis]]
 
 ## References
 

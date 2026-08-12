@@ -29,7 +29,7 @@ Digital evidence preservation principles generally require that original evidenc
 
 ## Used By
 
-- [[techniques/Controlled-address cryptocurrency transfer preservation]]
+- [[techniques/Preserve cryptocurrency by transferring it to a controlled address]]
 
 ## References
 

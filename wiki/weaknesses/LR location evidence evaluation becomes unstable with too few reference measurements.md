@@ -29,7 +29,7 @@ An investigator who reports an LR calculated from a sparse reference set risks p
 
 ## Used By
 
-- [[techniques/Likelihood ratio evaluation of single-point device location evidence]]
+- [[techniques/Evaluate single-point device location evidence using a likelihood ratio]]
 
 ## References
 

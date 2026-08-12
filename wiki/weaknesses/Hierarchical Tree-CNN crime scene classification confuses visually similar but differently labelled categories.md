@@ -29,7 +29,7 @@ A practitioner using the Tree-CNN model to triage casework images could have an 
 
 ## Used By
 
-- [[techniques/Hierarchical Tree-CNN and BoVW-SVM crime scene image classification for casework triage]]
+- [[techniques/Classify crime scene images for casework triage using Tree-CNN and BoVW-SVM]]
 
 ## References
 

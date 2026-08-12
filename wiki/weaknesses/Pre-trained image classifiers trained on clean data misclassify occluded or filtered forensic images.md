@@ -29,7 +29,7 @@ Real-world forensic images recovered from a seized device are far more likely th
 
 ## Used By
 
-- [[techniques/Pre-trained model selection for forensic image content classification]]
+- [[techniques/Select a pre-trained model for forensic image content classification]]
 
 ## References
 

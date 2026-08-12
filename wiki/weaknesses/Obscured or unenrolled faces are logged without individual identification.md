@@ -29,7 +29,7 @@ Presence at a scene can still be inferred from these entries (timestamps, torso/
 
 ## Used By
 
-- [[techniques/On-device facial recognition presence log analysis]]
+- [[techniques/Analyze on-device facial recognition presence logs]]
 
 ## References
 

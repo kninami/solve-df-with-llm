@@ -29,7 +29,7 @@ In a documented case, `squashfs-tools` alone recovered only 8.32% of a corrupted
 
 ## Used By
 
-- [[techniques/Statistical bitflip repair of compressed forensic filesystem images]]
+- [[techniques/Repair compressed forensic filesystem images using statistical bitflip correction]]
 
 ## References
 

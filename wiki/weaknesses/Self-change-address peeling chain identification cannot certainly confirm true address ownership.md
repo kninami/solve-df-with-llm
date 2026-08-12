@@ -29,7 +29,7 @@ An investigator relying on peeling-chain identification results to support an at
 
 ## Used By
 
-- [[techniques/Self-change-address-based peeling chain identification on the Bitcoin blockchain]]
+- [[techniques/Identify Bitcoin peeling chains using self-change-address analysis]]
 
 ## References
 

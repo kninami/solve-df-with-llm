@@ -29,7 +29,7 @@ Custom-compiled or embedded Linux kernels (common in IoT devices, for instance) 
 
 ## Used By
 
-- [[techniques/Profile-substitution guideline selection for memory forensics]]
+- [[techniques/Select a substitute memory-forensics profile using guideline-based rules]]
 
 ## References
 

@@ -29,7 +29,7 @@ An investigator relying solely on OBD-based diagnostic acquisition may conclude 
 
 ## Used By
 
-- [[techniques/UDS-DoIP vehicle ECU diagnostic acquisition and manipulation-indicator analysis]]
+- [[techniques/Acquire vehicle ECU diagnostics using UDS-DoIP and analyze manipulation indicators]]
 
 ## References
 

@@ -29,7 +29,7 @@ An investigator examining a device a suspect claims was "factory reset" to elimi
 
 ## Used By
 
-- [[techniques/Low-level binary differencing analysis of factory-reset data remnants on encrypted Android devices]]
+- [[techniques/Analyze factory-reset data remnants on encrypted Android devices using binary differencing]]
 
 ## References
 

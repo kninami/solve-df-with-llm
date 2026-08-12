@@ -29,7 +29,7 @@ In one evaluated attack scenario, the correctly attacked level indicator (LIT301
 
 ## Used By
 
-- [[techniques/Shapley value ICS asset attribution]]
+- [[techniques/Attribute ICS anomalies to assets using Shapley values]]
 
 ## References
 

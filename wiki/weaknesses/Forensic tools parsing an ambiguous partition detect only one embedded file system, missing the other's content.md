@@ -29,7 +29,7 @@ Because ambiguous partitions are a corner case rather than something that occurs
 
 ## Used By
 
-- [[techniques/Ambiguous file system partition construction as an anti-forensic technique]]
+- [[techniques/Construct an ambiguous file system partition as an anti-forensic technique]]
 
 ## References
 

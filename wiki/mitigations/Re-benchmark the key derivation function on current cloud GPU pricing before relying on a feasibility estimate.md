@@ -20,7 +20,7 @@ Before deciding whether a dictionary attack against a target's key derivation fu
 
 ## How To Apply
 
-Identify the specific key derivation scheme protecting the recovered credential (algorithm, iteration count, any custom application-specific construction) and, using [[techniques/Cloud GPU dictionary attack against recovered encrypted credentials]], run a short timed benchmark against currently available consumer-grade cloud GPU instances at current rental pricing to compute an up-to-date guesses-per-second and guesses-per-cost figure, rather than citing a historical benchmark from prior published research or an older investigation.
+Identify the specific key derivation scheme protecting the recovered credential (algorithm, iteration count, any custom application-specific construction) and, using [[techniques/Recover passwords using a dictionary attack with generated mangling rules on cloud GPUs]], run a short timed benchmark against currently available consumer-grade cloud GPU instances at current rental pricing to compute an up-to-date guesses-per-second and guesses-per-cost figure, rather than citing a historical benchmark from prior published research or an older investigation.
 
 ## References
 

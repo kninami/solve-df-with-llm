@@ -29,7 +29,7 @@ Digital evidence is often perceived as objective and reproducible in a way that 
 
 ## Used By
 
-- [[techniques/Contextual case-information-guided review of digital evidence]]
+- [[techniques/Review digital evidence guided by contextual case information]]
 
 ## References
 

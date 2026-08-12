@@ -29,7 +29,7 @@ An investigator who plans an acquisition strategy around root access, based on p
 
 ## Used By
 
-- [[techniques/Root-access-based acquisition of Android private application storage]]
+- [[techniques/Acquire Android private application storage using root access]]
 
 ## References
 

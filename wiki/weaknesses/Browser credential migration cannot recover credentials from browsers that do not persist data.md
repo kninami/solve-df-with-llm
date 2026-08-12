@@ -29,7 +29,7 @@ If a suspect used a privacy-focused or incognito-only browser specifically to ac
 
 ## Used By
 
-- [[techniques/Captured-credential-based cloud account access]]
+- [[techniques/Access a cloud account using captured credentials]]
 
 ## References
 

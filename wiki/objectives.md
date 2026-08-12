@@ -5,7 +5,7 @@ Objectives are maintained here as a single navigation page rather than as separa
 
 ## DFO-1015 Prepare for a digital investigation
 
-Conduct activities in preparation of conducting a digital investigation.
+Conduct activities to prepare for a digital investigation.
 
 - Sort order: 0
 
@@ -23,7 +23,7 @@ Rank the evidence sources based on their relevance and potential value to the in
 
 ## DFO-1010 Preserve digital evidence
 
-Ensure the integrity and authenticity of digital evidence is maintained.
+Maintain the integrity and authenticity of digital evidence.
 
 - Sort order: 3
 
@@ -63,7 +63,7 @@ Filter the data to be considered in the investigation for practical, legal, or p
 
 - Sort order: 9
 
-## DFO-1013 Access partitions, volumes and file systems data
+## DFO-1013 Access partitions, volumes, and file systems data
 
 Process core data storage structures such as partitions, volumes, and file systems, recovering content and metadata.
 

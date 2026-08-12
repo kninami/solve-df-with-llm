@@ -20,7 +20,7 @@ Treat OBD/UDS/DoIP diagnostic acquisition as covering only the subset of in-vehi
 
 ## How To Apply
 
-During the forensic readiness phase, explicitly document which in-vehicle components are and are not reachable via the diagnostic interface for the target vehicle's architecture, rather than assuming the diagnostic bus provides full coverage. For components confirmed outside that reach — or where hardware debug interfaces like JTAG cannot be confirmed absent without direct inspection — apply non-destructive [[techniques/In-system programming eMMC extraction]] where feasible, or destructive [[techniques/X-ray guided chip-off flash extraction]] where ISP access is unavailable, following the same preference-order documented for those techniques.
+During the forensic readiness phase, explicitly document which in-vehicle components are and are not reachable via the diagnostic interface for the target vehicle's architecture, rather than assuming the diagnostic bus provides full coverage. For components confirmed outside that reach — or where hardware debug interfaces like JTAG cannot be confirmed absent without direct inspection — apply non-destructive [[techniques/Extract eMMC storage using in-system programming]] where feasible, or destructive [[techniques/Extract flash chip contents using X-ray-guided chip-off]] where ISP access is unavailable, following the same preference-order documented for those techniques.
 
 ## References
 

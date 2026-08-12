@@ -29,7 +29,7 @@ A structure-signature-based memory forensics tool that assumes a single fixed la
 
 ## Used By
 
-- [[techniques/Structure-signature-based extraction of web server runtime artefacts from process memory]]
+- [[techniques/Extract web server runtime artefacts from process memory using structure signatures]]
 
 ## References
 

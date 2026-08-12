@@ -29,7 +29,7 @@ An examiner relying on a monolithic tool's final output has no visibility into w
 
 ## Used By
 
-- [[techniques/Abstraction-layer decomposition of forensic analysis tool internals for stage-level error identification]]
+- [[techniques/Decompose forensic analysis tool internals into abstraction-layer stages to identify errors]]
 
 ## References
 

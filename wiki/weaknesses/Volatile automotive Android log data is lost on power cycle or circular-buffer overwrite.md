@@ -30,7 +30,7 @@ First responders, tow operators, or investigators who power down a vehicle (or a
 
 ## Used By
 
-- [[techniques/Android system-log-based automotive forensic reconstruction]]
+- [[techniques/Reconstruct automotive events from Android system logs]]
 
 ## References
 

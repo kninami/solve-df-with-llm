@@ -29,7 +29,7 @@ An investigator relying on the interconnectivity-identification phase to map out
 
 ## Used By
 
-- [[techniques/Structured IoT-specific digital forensic process model application]]
+- [[techniques/Apply a structured IoT-specific digital forensic process model]]
 
 ## References
 

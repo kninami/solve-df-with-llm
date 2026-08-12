@@ -29,7 +29,7 @@ If a query clip's fingerprint collides with multiple stored blockchain entries f
 
 ## Used By
 
-- [[techniques/Blockchain-anchored digital evidence integrity and chain-of-custody management]]
+- [[techniques/Anchor digital evidence integrity and chain of custody on a blockchain]]
 
 ## References
 

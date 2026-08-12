@@ -29,7 +29,7 @@ An investigator relying on this class of tool to build a reference library of ap
 
 ## Used By
 
-- [[techniques/Mobile application artifact location discovery and extraction]]
+- [[techniques/Discover and extract mobile application artifact locations]]
 
 ## References
 

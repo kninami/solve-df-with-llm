@@ -29,7 +29,7 @@ An organization considering this synthetic-dataset-training approach for a broad
 
 ## Used By
 
-- [[techniques/Synthetic-dataset-trained blind network protocol identification]]
+- [[techniques/Identify network protocols blindly using a synthetic-dataset-trained classifier]]
 
 ## References
 

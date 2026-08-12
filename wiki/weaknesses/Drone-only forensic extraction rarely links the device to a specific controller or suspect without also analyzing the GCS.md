@@ -29,7 +29,7 @@ An investigator who acquires and analyzes only a recovered drone, without also o
 
 ## Used By
 
-- [[techniques/Multi-component drone and ground-control-station forensic extraction framework]]
+- [[techniques/Extract forensic evidence from a drone and its ground control station]]
 
 ## References
 

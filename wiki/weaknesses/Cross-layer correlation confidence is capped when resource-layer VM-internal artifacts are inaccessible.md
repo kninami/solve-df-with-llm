@@ -29,7 +29,7 @@ An investigator working within a CSP's access constraints may correctly execute 
 
 ## Used By
 
-- [[techniques/Confidence-graded cross-layer evidence correlation for pooled cloud resources]]
+- [[techniques/Correlate cross-layer evidence for pooled cloud resources with graded confidence]]
 
 ## References
 

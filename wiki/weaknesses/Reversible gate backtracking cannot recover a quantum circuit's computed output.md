@@ -29,7 +29,7 @@ An investigator applying this technique should understand it as a method for ver
 
 ## Used By
 
-- [[techniques/Reversible quantum gate backtracking for live quantum computer forensics]]
+- [[techniques/Recover a live quantum computer's initial state using reversible gate backtracking]]
 
 ## References
 

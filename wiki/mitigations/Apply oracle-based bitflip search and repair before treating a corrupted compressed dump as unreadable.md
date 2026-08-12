@@ -20,7 +20,7 @@ Before writing off a corrupted gzip/LZMA-compressed forensic dump as unreadable 
 
 ## How To Apply
 
-See [[techniques/Statistical bitflip repair of compressed forensic filesystem images]] for the full method: estimate the bitflip rate from the observed corrupted-fragment count, generate single-bitflip (then, if needed, double-bitflip) repair candidates for each corrupted fragment, and validate each candidate with checksum, decompressed-length, and successful-inflate checks before accepting it as repaired. Where independent file-length metadata (e.g., an inode table) is available, use it to further filter valid candidates. This is worth attempting whenever the corruption is suspected to stem from natural storage bitflips (block/stream compression on flash media) rather than intentional data destruction, which would not exhibit the same sparse, low-rate error pattern.
+See [[techniques/Repair compressed forensic filesystem images using statistical bitflip correction]] for the full method: estimate the bitflip rate from the observed corrupted-fragment count, generate single-bitflip (then, if needed, double-bitflip) repair candidates for each corrupted fragment, and validate each candidate with checksum, decompressed-length, and successful-inflate checks before accepting it as repaired. Where independent file-length metadata (e.g., an inode table) is available, use it to further filter valid candidates. This is worth attempting whenever the corruption is suspected to stem from natural storage bitflips (block/stream compression on flash media) rather than intentional data destruction, which would not exhibit the same sparse, low-rate error pattern.
 
 ## References
 

@@ -29,7 +29,7 @@ An analyst who observes an unchanged or stale access timestamp on a Linux system
 
 ## Used By
 
-- [[techniques/Software-stack layered MACB timestamp compliance profiling]]
+- [[techniques/Profile MACB timestamp compliance across the software stack]]
 
 ## References
 

@@ -643,16 +643,6 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - url: https://doi.org/10.1016/j.fsidi.2024.301679
 - note: DFRWS EU 2024. Source file: raw/DI/An abstract model for digital forensic analysis tools - A foundation for systematic error mitigation analysis.pdf
 
-### DFCite-1065
-
-- type: article
-- author: Nishshanka, Bandula and Shepherd, Chris and Ariyarathna, Randika and Weerakkody, Lalindu and Palihena, Jayanga
-- title: An android-based field investigation tool to estimate the potential trajectories of perforated AK bullets in 1 mm sheet metal surfaces
-- year: 2021
-- journal: Forensic Science International: Digital Investigation, 38, 301267
-- url: https://doi.org/10.1016/j.fsidi.2021.301267
-- note: Source file: raw/DI/An android-based field investigation tool to estimate the potential trajectories of perforated AK bullets in 1 mm sheet metal surfaces.pdf
-
 ### DFCite-1066
 
 - type: article

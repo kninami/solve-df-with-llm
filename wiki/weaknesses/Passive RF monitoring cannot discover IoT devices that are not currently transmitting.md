@@ -29,7 +29,7 @@ A device count or location estimate produced by a brief monitoring session shoul
 
 ## Used By
 
-- [[techniques/Passive RF signal triangulation for pre-entry IoT device discovery]]
+- [[techniques/Discover IoT devices before entry using passive RF signal triangulation]]
 
 ## References
 

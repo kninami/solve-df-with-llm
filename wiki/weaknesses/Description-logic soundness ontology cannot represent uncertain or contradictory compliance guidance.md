@@ -29,7 +29,7 @@ An investigator relying on the ontology's automated reasoning to determine which
 
 ## Used By
 
-- [[techniques/Ontology-based investigative soundness requirement reasoning]]
+- [[techniques/Reason about investigative soundness requirements using an ontology]]
 
 ## References
 

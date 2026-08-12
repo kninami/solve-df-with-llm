@@ -29,7 +29,7 @@ An investigator who receives only a copied or transferred audio file — without
 
 ## Used By
 
-- [[techniques/Audio latency and tailing-based smartwatch recording authentication]]
+- [[techniques/Authenticate smartwatch audio recordings using latency and tailing analysis]]
 
 ## References
 

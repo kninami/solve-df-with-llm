@@ -2,8 +2,6 @@
 id: DFM-1075
 type: mitigation
 name: Visually screen bullet hole shape for ricochet or low-stabilization irregularity before applying length-based trajectory estimation
-source_refs:
-  - DFCite-1065
 updated_at: 2026-08-10
 status: complete
 ---
@@ -21,7 +19,3 @@ Before using the bullet-hole-length trajectory estimation tool on a given perfor
 ## How To Apply
 
 At the scene, photograph and visually assess each candidate bullet hole for regular versus irregular perimeter shape before measuring hole length for the tool; for holes assessed as irregular (suggestive of ricochet or poor in-flight stabilization), use an alternative trajectory-reconstruction method instead, and apply the tool's standard ±5° uncertainty margin when reporting any accepted estimate.
-
-## References
-
-- [DFCite-1065] Nishshanka et al., 2021, "An android-based field investigation tool to estimate the potential trajectories of perforated AK bullets in 1 mm sheet metal surfaces", FSI: Digital Investigation 38.

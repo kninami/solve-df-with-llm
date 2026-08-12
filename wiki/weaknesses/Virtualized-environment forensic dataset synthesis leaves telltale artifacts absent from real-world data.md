@@ -29,7 +29,7 @@ A dataset built via virtualized-environment synthesis is well suited for testing
 
 ## Used By
 
-- [[techniques/Automated synthesis of digital forensic training and validation datasets]]
+- [[techniques/Synthesize digital forensic training and validation datasets]]
 
 ## References
 

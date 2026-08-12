@@ -29,7 +29,7 @@ An investigator who successfully applies this reverse-engineered parsing method 
 
 ## Used By
 
-- [[techniques/Reverse-engineered RTOS-dedicated vehicle file system analysis with unallocated-space video frame recovery]]
+- [[techniques/Analyze a reverse-engineered vehicle RTOS file system and recover unallocated video frames]]
 
 ## References
 

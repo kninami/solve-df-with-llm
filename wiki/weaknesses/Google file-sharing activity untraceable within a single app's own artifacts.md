@@ -29,7 +29,7 @@ An examiner working from a single application's artifact set risks concluding a 
 
 ## Used By
 
-- [[techniques/Cross-application artifact correlation via shared identifiers]]
+- [[techniques/Correlate artifacts across applications using shared identifiers]]
 
 ## References
 

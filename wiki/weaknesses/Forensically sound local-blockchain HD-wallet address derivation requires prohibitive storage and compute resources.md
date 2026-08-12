@@ -29,7 +29,7 @@ A smaller or under-resourced investigative unit cannot simply adopt this confide
 
 ## Used By
 
-- [[techniques/HD-wallet-aware local blockchain query for cryptocurrency address derivation]]
+- [[techniques/Derive cryptocurrency addresses using an HD-wallet-aware local blockchain query]]
 
 ## References
 

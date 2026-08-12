@@ -29,7 +29,7 @@ In a real investigation, the specific camera device that produced a photograph, 
 
 ## Used By
 
-- [[techniques/Defective-pixel-based picture acquisition timeslot classification]]
+- [[techniques/Classify photo capture timeslots using defective-pixel patterns]]
 
 ## References
 

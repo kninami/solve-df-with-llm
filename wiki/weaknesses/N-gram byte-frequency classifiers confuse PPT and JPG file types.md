@@ -29,7 +29,7 @@ A file-type identification tool relying solely on n-gram byte-frequency features
 
 ## Used By
 
-- [[techniques/N-gram-based file type identification]]
+- [[techniques/Identify file types using n-gram analysis]]
 
 ## References
 

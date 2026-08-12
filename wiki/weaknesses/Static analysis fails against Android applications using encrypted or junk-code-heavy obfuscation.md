@@ -29,7 +29,7 @@ An investigator or malware analyst who relies primarily on static analysis tooli
 
 ## Used By
 
-- [[techniques/Static and dynamic detection and deobfuscation of Android application code obfuscation]]
+- [[techniques/Detect and deobfuscate Android application code obfuscation]]
 
 ## References
 

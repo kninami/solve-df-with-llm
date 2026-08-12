@@ -29,7 +29,7 @@ A knowledge graph automatically built from ASR transcripts and named-entity extr
 
 ## Used By
 
-- [[techniques/Multimodal intercepted-call knowledge-graph platform for organized-crime network analysis]]
+- [[techniques/Analyze organized-crime networks using a multimodal intercepted-call knowledge graph]]
 
 ## References
 

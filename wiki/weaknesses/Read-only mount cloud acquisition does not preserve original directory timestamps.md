@@ -29,7 +29,7 @@ An investigator who examines directory timestamps after acquisition (e.g., to es
 
 ## Used By
 
-- [[techniques/Read-only mount-based cloud storage acquisition]]
+- [[techniques/Acquire cloud storage using a read-only mount]]
 
 ## References
 

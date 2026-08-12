@@ -29,7 +29,7 @@ An investigator using this class of model to attribute a questioned audio record
 
 ## Used By
 
-- [[techniques/CNN-BiLSTM structured representation learning of SGMM audio features for source recording device recognition]]
+- [[techniques/Recognize source recording devices using CNN-BiLSTM audio feature learning]]
 
 ## References
 

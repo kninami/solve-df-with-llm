@@ -29,7 +29,7 @@ An investigator relying on this class of tool to rule out malicious web page vis
 
 ## Used By
 
-- [[techniques/Machine-learning-based malicious webpage detection from browser cache artefacts]]
+- [[techniques/Detect malicious webpages from browser cache artefacts using machine learning]]
 
 ## References
 

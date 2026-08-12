@@ -29,7 +29,7 @@ A malware author aware of this class of static-analysis-based detector can trivi
 
 ## Used By
 
-- [[techniques/Similarity-based Android malware family detection]]
+- [[techniques/Detect Android malware families using similarity scoring]]
 
 ## References
 

@@ -29,7 +29,7 @@ Extra false-positive detections after the true attack window inflate the reporte
 
 ## Used By
 
-- [[techniques/Unsupervised deep-learning behavioral anomaly detection]]
+- [[techniques/Detect behavioral anomalies using unsupervised deep learning]]
 
 ## References
 

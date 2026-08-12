@@ -20,7 +20,7 @@ When a cloud service provider does not support VM-internal evidence acquisition 
 
 ## How To Apply
 
-Identify what externalized artifacts the specific CSP offering does support — persistent storage logs, uploaded/downloaded file records, network flow logs, or externalized profile containers — and combine them with Access- and Control-layer identifier and temporal correlation using the framework in [[techniques/Confidence-graded cross-layer evidence correlation for pooled cloud resources]]. In the investigative report, explicitly state which of the five attribution conditions (user identifier, resource identifier, temporal information, VM-internal artifact, externalized artifact) were and were not met, and the resulting High/Medium/Low confidence tier, so downstream decision-makers understand the attribution's actual evidentiary strength.
+Identify what externalized artifacts the specific CSP offering does support — persistent storage logs, uploaded/downloaded file records, network flow logs, or externalized profile containers — and combine them with Access- and Control-layer identifier and temporal correlation using the framework in [[techniques/Correlate cross-layer evidence for pooled cloud resources with graded confidence]]. In the investigative report, explicitly state which of the five attribution conditions (user identifier, resource identifier, temporal information, VM-internal artifact, externalized artifact) were and were not met, and the resulting High/Medium/Low confidence tier, so downstream decision-makers understand the attribution's actual evidentiary strength.
 
 ## References
 

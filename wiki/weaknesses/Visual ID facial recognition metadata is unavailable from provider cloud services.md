@@ -29,7 +29,7 @@ Investigators who submit a subpoena or search warrant to Amazon's cloud services
 
 ## Used By
 
-- [[techniques/In-system programming eMMC extraction]]
+- [[techniques/Extract eMMC storage using in-system programming]]
 
 ## References
 

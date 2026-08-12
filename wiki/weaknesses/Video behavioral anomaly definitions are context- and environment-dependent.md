@@ -29,7 +29,7 @@ Deploying a video anomaly detector trained on one environment's normal-behavior 
 
 ## Used By
 
-- [[techniques/Unsupervised deep-learning behavioral anomaly detection]]
+- [[techniques/Detect behavioral anomalies using unsupervised deep learning]]
 
 ## References
 

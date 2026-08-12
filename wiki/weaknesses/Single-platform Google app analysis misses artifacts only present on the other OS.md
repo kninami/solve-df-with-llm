@@ -29,7 +29,7 @@ An investigator who examines only the suspect's Android phone (or only their iPh
 
 ## Used By
 
-- [[techniques/Cross-platform Android-iOS artifact acquisition]]
+- [[techniques/Acquire artifacts across Android and iOS builds of the same application]]
 
 ## References
 

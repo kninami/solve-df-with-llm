@@ -29,7 +29,7 @@ An investigator relying on environment classification derived from separated bac
 
 ## Used By
 
-- [[techniques/Deep-learning-based background noise extraction and environment classification from mixed audio]]
+- [[techniques/Extract and classify background noise from mixed audio using deep learning]]
 
 ## References
 

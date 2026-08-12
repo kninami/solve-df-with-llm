@@ -30,7 +30,7 @@ This is a structural false-positive source distinct from ordinary deletion: in a
 
 ## Used By
 
-- [[techniques/SQLite deleted record recovery]]
+- [[techniques/Recover deleted SQLite records]]
 
 ## References
 

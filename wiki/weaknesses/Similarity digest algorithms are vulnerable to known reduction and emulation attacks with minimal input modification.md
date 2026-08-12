@@ -29,7 +29,7 @@ An investigator relying on a similarity digest match (or non-match) as evidence 
 
 ## Used By
 
-- [[techniques/Similarity-based Android malware family detection]]
+- [[techniques/Detect Android malware families using similarity scoring]]
 
 ## References
 

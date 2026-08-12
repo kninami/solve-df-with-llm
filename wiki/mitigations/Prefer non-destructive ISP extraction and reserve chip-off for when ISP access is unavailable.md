@@ -20,7 +20,7 @@ Before resorting to destructive chip-off, evaluate whether the target flash chip
 
 ## How To Apply
 
-Inspect and, where necessary, X-ray the target board to determine whether the flash chip's required interface lines (all control, I/O, and power/ground pins needed for the relevant protocol) are exposed at accessible test points — see [[techniques/In-system programming eMMC extraction]] for the non-destructive alternative. Only when this is confirmed insufficient should chip-off proceed, and the decision, along with the specific technical justification (e.g., "only 1 of 8 required I/O lines exposed"), should be documented in the case file given the irreversible nature of the step.
+Inspect and, where necessary, X-ray the target board to determine whether the flash chip's required interface lines (all control, I/O, and power/ground pins needed for the relevant protocol) are exposed at accessible test points — see [[techniques/Extract eMMC storage using in-system programming]] for the non-destructive alternative. Only when this is confirmed insufficient should chip-off proceed, and the decision, along with the specific technical justification (e.g., "only 1 of 8 required I/O lines exposed"), should be documented in the case file given the irreversible nature of the step.
 
 ## References
 

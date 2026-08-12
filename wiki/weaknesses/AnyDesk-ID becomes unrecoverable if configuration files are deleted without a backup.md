@@ -29,7 +29,7 @@ If an investigator relies solely on the seized device's own configuration files 
 
 ## Used By
 
-- [[techniques/Remote-access session cross-device identifier correlation]]
+- [[techniques/Correlate remote-access session identifiers across devices]]
 
 ## References
 

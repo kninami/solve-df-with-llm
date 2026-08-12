@@ -29,7 +29,7 @@ Ride-history data is one of the most forensically valuable artefact types for mi
 
 ## Used By
 
-- [[techniques/Captured-credential-based cloud account access]]
+- [[techniques/Access a cloud account using captured credentials]]
 
 ## References
 

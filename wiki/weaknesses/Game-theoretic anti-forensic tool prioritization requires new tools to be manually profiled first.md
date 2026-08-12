@@ -29,7 +29,7 @@ An investigator relying on this framework's equilibrium-derived recommendations 
 
 ## Used By
 
-- [[techniques/Memory-augmented game-theoretic counter-anti-forensic tool prioritization]]
+- [[techniques/Prioritize counter-anti-forensic tools using a memory-augmented game-theoretic model]]
 
 ## References
 

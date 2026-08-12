@@ -29,7 +29,7 @@ An organization evaluating a published blockchain-based IoT forensic framework f
 
 ## Used By
 
-- [[techniques/Blockchain-anchored digital evidence integrity and chain-of-custody management]]
+- [[techniques/Anchor digital evidence integrity and chain of custody on a blockchain]]
 
 ## References
 

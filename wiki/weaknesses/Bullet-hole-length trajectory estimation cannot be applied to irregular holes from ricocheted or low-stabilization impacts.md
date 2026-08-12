@@ -7,8 +7,6 @@ categories:
   - ASTM_INCOMP
 mitigation_ids:
   - DFM-1075
-source_refs:
-  - DFCite-1065
 updated_at: 2026-08-10
 status: complete
 ---
@@ -29,8 +27,4 @@ A field investigator who applies the tool indiscriminately to any bullet hole on
 
 ## Used By
 
-- [[techniques/Bullet-hole-length-based mobile trajectory angle estimation for sheet-metal perforations]]
-
-## References
-
-- [DFCite-1065] Nishshanka et al., 2021, "An android-based field investigation tool to estimate the potential trajectories of perforated AK bullets in 1 mm sheet metal surfaces", FSI: Digital Investigation 38.
+- [[techniques/Estimate bullet trajectory angle from sheet-metal bullet-hole length]]

@@ -29,7 +29,7 @@ Because cycling ride data (including accident-relevant metrics like speed and lo
 
 ## Used By
 
-- [[techniques/Multi-phase sliding-window carving recovery of corrupted FIT ride-data files]]
+- [[techniques/Recover corrupted FIT ride-data files using multi-phase sliding-window carving]]
 
 ## References
 

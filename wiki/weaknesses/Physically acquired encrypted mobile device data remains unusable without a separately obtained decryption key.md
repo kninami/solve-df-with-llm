@@ -29,7 +29,7 @@ An investigator who successfully performs a technically difficult and destructiv
 
 ## Used By
 
-- [[techniques/Vulnerability-exploitation-based mobile device lock bypass acquisition]]
+- [[techniques/Bypass a mobile device lock using vulnerability exploitation]]
 
 ## References
 

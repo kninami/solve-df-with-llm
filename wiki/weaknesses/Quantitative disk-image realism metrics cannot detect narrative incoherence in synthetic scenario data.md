@@ -29,7 +29,7 @@ A dataset or tool-testing exercise that relies solely on quantitative realism me
 
 ## Used By
 
-- [[techniques/Metrics-based synthetic disk image realism validation]]
+- [[techniques/Validate synthetic disk image realism using quantitative metrics]]
 
 ## References
 

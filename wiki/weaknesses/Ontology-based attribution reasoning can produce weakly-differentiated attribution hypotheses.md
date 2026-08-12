@@ -29,7 +29,7 @@ If an investigator or analyst treats the top-ranked attribution hypothesis as a 
 
 ## Used By
 
-- [[techniques/Ontology-based cyber-attack attribution reasoning]]
+- [[techniques/Reason about cyber-attack attribution using an ontology]]
 
 ## References
 

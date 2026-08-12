@@ -29,7 +29,7 @@ An investigator who treats a generated query's successful execution as sufficien
 
 ## Used By
 
-- [[techniques/Fine-tuned LLM text-to-SQL query generation for SQLite forensic analysis]]
+- [[techniques/Generate SQLite forensic queries using a fine-tuned text-to-SQL LLM]]
 
 ## References
 

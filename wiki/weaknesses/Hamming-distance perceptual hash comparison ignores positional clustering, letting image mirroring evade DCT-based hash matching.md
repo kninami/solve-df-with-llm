@@ -29,7 +29,7 @@ An investigator or large-scale content-matching provider relying on Hamming Dist
 
 ## Used By
 
-- [[techniques/Spatial-encoding-aware perceptual hash distance metrics]]
+- [[techniques/Compare perceptual hashes using spatial-encoding-aware distance metrics]]
 
 ## References
 
