@@ -10,7 +10,10 @@ mitigation_ids:
 source_refs:
   - DFCite-1014
   - DFCite-1020
-updated_at: 2026-08-09
+  - DFCite-1148
+  - DFCite-1149
+  - DFCite-1191
+updated_at: 2026-08-13
 status: complete
 ---
 
@@ -32,8 +35,13 @@ An investigator relying solely on in-memory secret recovery may find it fails in
 
 - [[techniques/Recover application credentials from memory using string-pattern search]]
 - [[techniques/Triage Bitcoin wallet artifacts on a live host]]
+- [[techniques/Decrypt IndexedDB storage in private-mode Gecko-based browsers using a memory-recovered cipherkey]]
+- [[techniques/Recover ransomware encryption keys from memory using cipher-structure pattern matching]]
 
 ## References
 
 - [DFCite-1014] Breitinger et al., 2022, "A forensic analysis of rclone and rclone's prospects for digital forensic investigations of cloud storage", FSI: Digital Investigation 43.
 - [DFCite-1020] Holmes and Buchanan, 2023, "A framework for live host-based Bitcoin wallet forensics and triage", FSI: Digital Investigation 44. Evaluation of an Electrum wallet found its encrypted extended private key and addresses recoverable from process memory only while the application was running; 15 minutes after termination, neither was found in the memory dump, though the encrypted wallet file itself remained recoverable from disk regardless.
+- [DFCite-1148] Soni, Kaur and Aziz, 2024, "Decoding digital interactions: An extensive study of TeamViewer's Forensic Artifacts across Windows and android platforms", FSI: Digital Investigation 51. TeamViewer's dynamic session password was recoverable from process memory via marker-string search both during and after session termination in this study's tests.
+- [DFCite-1149] Kim, Lee and Park, 2024, "Decrypting IndexedDB in private mode of Gecko-based browsers", FSI: Digital Investigation 49. The AEAD cipherkey needed to decrypt a Gecko-based browser's private-mode IndexedDB storage is recoverable from process memory (or a Windows hibernation file) only while the private session remains active or hibernated; once the browser is closed or the system is shut down without hibernation, the cipherkey is gone, although the encrypted on-disk IndexedDB files themselves remain recoverable.
+- [DFCite-1191] Fernandez de Loaysa Babiano, Macfarlane and Davies, 2023, "Evaluation of live forensic techniques, towards Salsa20-Based cryptographic ransomware mitigation", FSI: Digital Investigation 46, 301572. Modern ransomware typically removes a per-file Salsa20 key/nonce from memory shortly after that file is encrypted, so periodic memory captures throughout the ransomware's execution window (rather than one capture at the end) were needed to recover over 90% of the keys used across a 4,000-file test dataset.

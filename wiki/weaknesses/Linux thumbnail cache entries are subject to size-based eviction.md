@@ -29,7 +29,7 @@ An investigator relying on thumbnail-cache-based provenance reconstruction shoul
 
 ## Used By
 
-- [[techniques/Reconstruct deleted-file provenance from Linux thumbnail cache and recent-files history]]
+- [[techniques/Reconstruct deleted-file provenance using cross-artifact metadata-remnant correlation]]
 
 ## References
 

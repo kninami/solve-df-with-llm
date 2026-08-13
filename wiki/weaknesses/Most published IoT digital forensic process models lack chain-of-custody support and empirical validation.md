@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1050
 source_refs:
   - DFCite-1040
-updated_at: 2026-08-09
+  - DFCite-1121
+updated_at: 2026-08-12
 status: complete
 ---
 
@@ -18,6 +19,8 @@ status: complete
 ## Summary
 
 The review found that "although 60.87% of the studies mention the chain of custody (CoC), only 17.39% effectively integrate it into the evidence preservation phase," and that among studies mentioning CoC at all, several do so only superficially without formal introduction as a defined process step. Separately, 52.17% of studies presented no method for empirical validation of their proposed model, with only a minority using case studies (21.74%), simulated scenarios (8.70%), or controlled experiments (4.35%).
+
+A second, independent comparative study applying a ten-parameter assessment checklist (heterogeneity, specificity, scalability, logging, forensic readiness, ISO certification, authorization, chain-of-custody preservation, evidence integrity, and data extraction methodology) across a separate survey of IoT forensic frameworks corroborates this finding: "although the conservation of custody series is a vital step for a proper investigation, however only a few frameworks have addressed this perspective," concluding that "without linear linkage preservation, the validity of data is uncertain and questionable." The same study found ISO certification and forensic readiness were similarly rare across reviewed frameworks.
 
 ## Why It Matters
 

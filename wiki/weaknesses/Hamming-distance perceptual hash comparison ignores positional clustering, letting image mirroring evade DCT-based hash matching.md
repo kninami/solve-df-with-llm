@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1098
 source_refs:
   - DFCite-1091
-updated_at: 2026-08-10
+  - DFCite-1259
+updated_at: 2026-08-13
 status: complete
 ---
 
@@ -17,7 +18,7 @@ status: complete
 
 ## Summary
 
-The paper's findings show that "the relative position of bits in the hash does encode useful information" that Hamming Distance simply discards by treating every differing bit identically regardless of location; consequently, "perceived hash weaknesses may actually be deficits in the distance metric being used" rather than deficits in the hash-generation mechanism itself. Mirroring an image (flipping on the x- or y-axis) is specifically identified as a worst-case transform for DCT-based hashes under Hamming Distance comparison.
+The paper's findings show that "the relative position of bits in the hash does encode useful information" that Hamming Distance simply discards by treating every differing bit identically regardless of location; consequently, "perceived hash weaknesses may actually be deficits in the distance metric being used" rather than deficits in the hash-generation mechanism itself. Mirroring an image (flipping on the x- or y-axis) is specifically identified as a worst-case transform for DCT-based hashes under Hamming Distance comparison. An earlier million-image-scale evaluation of six perceptual hashing algorithms independently reached the same conclusion from the opposite direction: across nearly all tested algorithms, mirroring produced the largest degradation in intra-image Hamming-distance score of the seven content-preserving modifications tested — see [[techniques/Evaluate perceptual hashing algorithm robustness using large-scale Hamming-distance distribution analysis]].
 
 ## Why It Matters
 
@@ -34,3 +35,4 @@ An investigator or large-scale content-matching provider relying on Hamming Dist
 ## References
 
 - [DFCite-1091] McKeown, 2025, "Beyond Hamming Distance: Exploring spatial encoding in perceptual hashes", FSI: Digital Investigation 52.
+- [DFCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509. Earlier million-image-scale study independently identifying mirroring as the most destructive content-preserving modification across nearly all tested algorithms.

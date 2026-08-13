@@ -29,7 +29,7 @@ Because the alteration is irreversible, any subsequent need to re-examine the de
 
 ## Used By
 
-- [[techniques/Extract flash chip contents using X-ray-guided chip-off]]
+- [[techniques/Extract flash chip contents via chip-off desoldering]]
 
 ## References
 

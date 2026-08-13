@@ -11,7 +11,8 @@ aliases:
   - Spatial-encoding-aware perceptual hash distance metrics
 source_refs:
   - DFCite-1091
-updated_at: 2026-08-10
+  - DFCite-1259
+updated_at: 2026-08-13
 status: complete
 ---
 
@@ -24,6 +25,8 @@ Perceptual hashes are almost universally compared using Normalised Hamming Dista
 ## Details
 
 Three prototype metrics were evaluated: Normalised Convolution Distance applies a convolutional kernel to the XOR difference matrix between two hashes, producing larger values where differing bits are spatially clustered rather than spread out; Hatched Matrix Distance summarizes row/column-wise minimum and mean values to capture "hatched" weight patterns common in DCT-based hashes; and 2-D N-gram Cosine Distance slides an n×n window across the reshaped hash matrix and computes cosine distance between the resulting flattened n-gram arrays. Tested against pHash, dHash, and wHash (Wavelet Hashing) algorithms, results show measurable improvement over Hamming Distance for certain transform classes, and — notably — the worst-case evasion transform for DCT-based hashes (horizontal/vertical image mirroring) can be completely mitigated using a spatially-aware distance metric, without needing to modify the underlying hash-generation mechanism at all.
+
+This work builds on an earlier million-image-scale benchmark of six perceptual hashing algorithms' Hamming-distance discrimination behavior (see [[techniques/Evaluate perceptual hashing algorithm robustness using large-scale Hamming-distance distribution analysis]]), which first identified mirroring as the most destructive content-preserving modification across nearly all tested algorithms and motivated investigating whether the deficit lay in the hash or in the distance metric used to compare hashes.
 
 ## Examples
 
@@ -40,3 +43,4 @@ Three prototype metrics were evaluated: Normalised Convolution Distance applies 
 ## References
 
 - [DFCite-1091] McKeown, 2025, "Beyond Hamming Distance: Exploring spatial encoding in perceptual hashes", FSI: Digital Investigation 52.
+- [DFCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509.

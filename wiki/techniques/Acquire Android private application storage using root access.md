@@ -11,7 +11,8 @@ aliases:
   - Root-access-based acquisition of Android private application storage
 source_refs:
   - DFCite-1077
-updated_at: 2026-08-10
+  - DFCite-1208
+updated_at: 2026-08-13
 status: complete
 ---
 
@@ -28,6 +29,7 @@ Rooting grants the forensic acquisition process privileges beyond what the Andro
 ## Examples
 
 - Across the reviewed literature, root access was consistently identified as the prerequisite step enabling extraction and analysis of app-private data for the great majority of Android app-forensics studies surveyed, spanning both physical and logical acquisition workflows.
+- Life360 (Aagaard et al., 2023): logical acquisition (MOBILedit) of a rooted Android test device recovered private application storage closely matching the artifact set obtained from iOS builds of the same app (location history, circle membership, chat content), while an unrooted Android device of the same app version yielded substantially fewer artifacts, confirming root access as the key differentiator for Android app-private-storage completeness independent of OS version.
 
 ## Related Objectives
 

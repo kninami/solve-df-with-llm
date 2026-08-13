@@ -9,7 +9,9 @@ mitigation_ids:
   - DFM-1071
 source_refs:
   - DFCite-1061
-updated_at: 2026-08-10
+  - DFCite-1247
+  - DFCite-1267
+updated_at: 2026-08-13
 status: complete
 ---
 
@@ -17,7 +19,7 @@ status: complete
 
 ## Summary
 
-The authors note directly, discussing even a simple AKF-generated demonstration scenario, that "there are still...many artifacts that would not be present in a real-world dataset," citing prior work reaching similar conclusions that evidence of synthesizer use is easily discoverable, in part because the use of virtualized hardware and an automation agent leaves its own signature.
+The authors note directly, discussing even a simple AKF-generated demonstration scenario, that "there are still...many artifacts that would not be present in a real-world dataset," citing prior work reaching similar conclusions that evidence of synthesizer use is easily discoverable, in part because the use of virtualized hardware and an automation agent leaves its own signature. ForTrace's own evaluation independently catalogs three concrete categories of such self-identifying artifacts: file-system traces (the framework's own installation directory, Python runtime directories, and Prefetch entries from modules invoking `regedit`/`psexec`), Registry traces (its `changeUser()` function writes the last active user's username and password in plain text to `HKLM\Microsoft\Windows NT\CurrentVersion\Winlogon`), and Event Log traces (installation and scenario-execution events persist even when the scenario itself later disables logging). A follow-up evaluation on a Linux scenario further attributed most of these traces specifically to the client-side software component (an "Agent") running inside the guest to drive and report on the simulation — not to virtualization itself — finding that removing the agent entirely and controlling the guest purely from the host (see [[techniques/Synthesize digital forensic training and validation datasets]]) eliminated the agent's installation logs, password-less sudo configuration, its own Python library and `__pycache__` directory, and its running process and autostart entry. One trace nonetheless persisted even without any agent present: a shell-history entry from the one-time command needed to make the interactive console's command prompt static and machine-parseable, since that command is itself typed into, and logged by, the guest's shell.
 
 ## Why It Matters
 
@@ -34,3 +36,5 @@ A dataset built via virtualized-environment synthesis is well suited for testing
 ## References
 
 - [DFCite-1061] Gonzales et al., 2025, "AKF: A modern synthesis framework for building datasets in digital forensics", FSI: Digital Investigation 55.
+- [DFCite-1247] Göbel et al., 2022, "ForTrace - A holistic forensic data set synthesis framework", FSI: Digital Investigation 40, 301344. Catalogs concrete file-system, Registry, and Event Log traces left by its own synthesis framework, including a plaintext credential leak via the `changeUser()` function.
+- [DFCite-1267] Wolf, Göbel, and Baier, 2024, "Hypervisor-based data synthesis: On its potential to tackle the curse of client-side agent remnants in forensic image generation", FSI: Digital Investigation 48, 301690. Attributes most prior catalogued traces to the client-side agent specifically and demonstrates most (but not all) are eliminated by removing it.

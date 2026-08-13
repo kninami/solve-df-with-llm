@@ -10,9 +10,11 @@ weakness_ids:
 aliases:
   - Memory string-pattern recovery of application credentials
   - rclone.conf password recovery
+  - TeamViewer dynamic password memory recovery
 source_refs:
   - DFCite-1014
-updated_at: 2026-08-09
+  - DFCite-1148
+updated_at: 2026-08-12
 status: complete
 ---
 
@@ -29,6 +31,7 @@ The technique requires first identifying, via static/dynamic analysis of the tar
 ## Examples
 
 - rclone constructs `[password][rclone-config]` before SHA-256-hashing it into the `rclone.conf` decryption key; searching a memory dump for the literal substring `[rclone-config]` recovered the plaintext password even after the rclone process had exited.
+- TeamViewer's Windows client embeds each dynamically generated session password in a structured JSON message tagged with the marker string `TeamViewerCredentialsEvent`; searching a live process memory dump for this marker recovered the plaintext dynamic password (and the associated TeamViewer ID) both during and after session termination.
 
 ## Related Objectives
 
@@ -41,3 +44,4 @@ The technique requires first identifying, via static/dynamic analysis of the tar
 ## References
 
 - [DFCite-1014] Breitinger et al., 2022, "A forensic analysis of rclone and rclone's prospects for digital forensic investigations of cloud storage", FSI: Digital Investigation 43.
+- [DFCite-1148] Soni, Kaur and Aziz, 2024, "Decoding digital interactions: An extensive study of TeamViewer's Forensic Artifacts across Windows and android platforms", FSI: Digital Investigation 51. Demonstrates recovering a TeamViewer session's plaintext dynamic password from process memory by searching for the `TeamViewerCredentialsEvent` marker string.

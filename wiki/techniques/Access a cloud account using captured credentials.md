@@ -8,13 +8,19 @@ objective_ids:
 weakness_ids:
   - DFW-1019
   - DFW-1055
+  - DFW-1205
+  - DFW-1242
 aliases:
   - Captured-credential-based cloud account access
   - Cloud API acquisition via captured authentication tokens
+  - Webex credential migration for cloud data collection
+  - Grand theft API
 source_refs:
   - DFCite-1013
   - DFCite-1045
-updated_at: 2026-08-09
+  - DFCite-1217
+  - DFCite-1257
+updated_at: 2026-08-13
 status: complete
 ---
 
@@ -32,8 +38,10 @@ Many applications and cloud services store only a thin local cache and instead s
 
 ## Examples
 
+- Vehicle Assistant Apps (VAA): a proof-of-concept tool (`gta.py`) extracted OAuth 2.0 access/refresh tokens from a vehicle owner's smartphone VAA and used them to directly query the vehicle manufacturer's cloud API, retrieving vehicle telemetry (current status, health, trip history, charging/refueling records) and, for some manufacturers, remote-control capability (e.g. door lock/unlock), without needing physical access to the vehicle itself. Token storage varied by manufacturer, from cleartext (BMW) to encrypted/obfuscated storage requiring further extraction effort.
 - Micromobility rental applications (Lime, TIER, Nextbike, Voi): each stored only a limited local subset of ride data, while the corresponding provider APIs returned substantially richer temporal, geo, and payment data once authenticated with a captured token.
 - Migrating a suspect's Chrome (Chromium-based) session cookies from a Windows target device to an investigator's Windows device, by decrypting the DPAPI-protected credential using the target device's registry key material and re-encrypting it with the investigator device's own DPAPI key, successfully auto-logged into Google, Naver, and other accounts and retrieved chat history, cloud-stored files, and device location data.
+- Cisco Webex (Hur et al., 2023): rather than browser session cookies, the migrated credential was an OAuth token stored in the app's own decrypted `spark_roaming_store.db` `Credentials` table; migrating it to a fresh Webex installation on another device by either (a) regenerating the same DPAPI-protected key on the destination Windows device before re-protecting the extracted credential database, or (b) re-encrypting the credential database directly with a freshly-generated DB key on any OS, allowed the migrated device to log in and operate as the suspect's account offline-app instance, continuing to collect cloud-synced data (including newly-created meetings and messages) generated after the original acquisition point.
 
 ## Related Objectives
 
@@ -43,8 +51,12 @@ Many applications and cloud services store only a thin local cache and instead s
 
 - [[weaknesses/Micromobility ride-history location data can be fabricated via provider APIs]]
 - [[weaknesses/Browser credential migration cannot recover credentials from browsers that do not persist data]]
+- [[weaknesses/Migrated application credentials can retrieve data generated after the acquisition point, risking misattribution to the original evidence timeframe]]
+- [[weaknesses/Cloud-acquired vehicle telemetry integrity depends entirely on the manufacturer providing unaltered data]]
 
 ## References
 
 - [DFCite-1013] Hilgert et al., 2021, "A forensic analysis of micromobility solutions", FSI: Digital Investigation 38.
 - [DFCite-1045] Hur et al., 2023, "A study on cloud data access through browser credential migration in Windows environment", FSI: Digital Investigation 45.
+- [DFCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.
+- [DFCite-1257] Ebbers et al., 2024, "Grand theft API: A forensic analysis of vehicle cloud data", FSI: Digital Investigation 48, 301691.

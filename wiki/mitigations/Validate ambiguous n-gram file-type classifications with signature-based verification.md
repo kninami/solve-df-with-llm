@@ -4,7 +4,8 @@ type: mitigation
 name: Validate ambiguous n-gram file-type classifications with signature-based verification
 source_refs:
   - DFCite-1003
-updated_at: 2026-08-09
+  - DFCite-1211
+updated_at: 2026-08-13
 status: complete
 ---
 
@@ -20,8 +21,9 @@ For file-type pairs known to be confusable under n-gram byte-frequency analysis 
 
 ## How To Apply
 
-When an n-gram classifier assigns a file fragment to a type known to be part of a historically confusable pair, run a secondary signature-based or header/footer check (e.g., examine the fragment for embedded JPEG or ZIP-container structure typical of `.ppt`/`.pptx`) before finalizing the file-type determination in a report. Where the fragment is too small for signature verification, flag the classification as low-confidence rather than presenting it as definitive.
+When an n-gram classifier assigns a file fragment to a type known to be part of a historically confusable pair, run a secondary signature-based or header/footer check (e.g., examine the fragment for embedded JPEG or ZIP-container structure typical of `.ppt`/`.pptx`) before finalizing the file-type determination in a report. Where the fragment is too small for signature verification, flag the classification as low-confidence rather than presenting it as definitive. See [[techniques/Identify a file's type using magic-number signature matching]] for the concrete signature-based mechanism used to perform this secondary check, and its documented accuracy/tool-selection caveats.
 
 ## References
 
 - [DFCite-1003] Sester et al., 2021, "A comparative study of support vector machine and neural networks for file type identification using n-gram analysis", FSI: Digital Investigation 36.
+- [DFCite-1211] Dubettier et al., 2023, "File type identification tools for digital investigations", FSI: Digital Investigation 46, 301574.

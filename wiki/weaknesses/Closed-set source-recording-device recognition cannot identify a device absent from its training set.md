@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1093
 source_refs:
   - DFCite-1085
-updated_at: 2026-08-10
+  - DFCite-1103
+updated_at: 2026-08-12
 status: complete
 ---
 
@@ -18,6 +19,8 @@ status: complete
 ## Summary
 
 The authors explicitly name this as a direction for future work rather than something the current method addresses: "our future work will place a stronger emphasis on open-set recording device source recognition tasks, addressing real-world scenarios where devices not seen during training must be identified." Separately, the paper's own error analysis found that "incorrect recognition results... are mainly concentrated on the three brands: Xiaomi, Huawei, and iPhone. The primary reason for this is that these three brands have a larger number of models compared to other brands," meaning within-brand model confusion is a distinct, additional accuracy limitation.
+
+The same closed-set limitation applies to CAM1D, a multi-signature PCE-trend method for identifying the source camera of seam-carved images [DFCite-1103]: the authors state plainly that "we consider a closed-set problem in which the test photo was taken by one of the cameras under testing," and note that an open-set deployment (where the true source camera may not be among the candidates) would require choosing a minimum decision-score threshold — a design question the paper leaves unresolved.
 
 ## Why It Matters
 
@@ -30,7 +33,9 @@ An investigator using this class of model to attribute a questioned audio record
 ## Used By
 
 - [[techniques/Recognize source recording devices using CNN-BiLSTM audio feature learning]]
+- [[techniques/Identify a seam-carved image's source camera using multi-signature PCE trend analysis]]
 
 ## References
 
 - [DFCite-1085] Zeng et al., 2024, "Audio source recording device recognition based on representation learning of sequential Gaussian mean matrix", FSI: Digital Investigation 48.
+- [DFCite-1103] Irshad et al., 2023, "CAMID: An assuasive approach to reveal source camera through inconspicuous evidence", FSI: Digital Investigation 46.

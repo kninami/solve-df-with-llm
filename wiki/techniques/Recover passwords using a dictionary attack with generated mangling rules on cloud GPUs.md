@@ -35,6 +35,8 @@ A dictionary attack's effectiveness depends on both the quality of its ruleset (
 - Recovering an Electrum wallet's encrypted extended private key (protected by only 2 fast SHA-256 operations and one AES-256 block decrypt) achieved 16.6 billion guesses/hour for ~£25 on a single rented NVIDIA RTX 3090 instance; recovering a Ledger BIP39 seed phrase password (PBKDF2-HMAC-SHA512, 2048 iterations) achieved 2.4 trillion guesses/hour for ~£25 by splitting the dictionary across 40 rented instances in parallel.
 - RuleForge's MDBSCAN Combo configuration, trained and attacking against the RockYou960 leaked-password dataset, achieved a significantly higher hit rate than PACK and classic Levenshtein-based rule generation methods across most tested guess-count budgets.
 
+Before committing to this attack, an investigator can first gauge whether it is a worthwhile use of time using [[techniques/Estimate password-cracking feasibility using large-scale breach-corpus guessability analysis]], and can compose the base wordlist attacked here to match the target's known context using [[techniques/Generate a contextual password dictionary using knowledge-graph seed-word traversal and similarity ranking]], which directly addresses the training-wordlist-similarity limitation noted below.
+
 ## Related Objectives
 
 - `DFO-1016` Overcome protection mechanisms

@@ -17,7 +17,8 @@ aliases:
   - WAL-based SQLite recovery
 source_refs:
   - DFCite-1004
-updated_at: 2026-08-09
+  - DFCite-1231
+updated_at: 2026-08-13
 status: complete
 ---
 
@@ -40,6 +41,7 @@ SQLite does not erase deleted data immediately; depending on the deletion path a
 - Tools such as SQLite Deleted Records Parser and Undark implement freeblock/freelist traversal.
 - FQLite reconstructs complete records from residual cell headers and payloads on a page whose own header had already been overwritten (carving-based).
 - Recovering a fully `secure_delete`-wiped record from an uncommitted WAL frame (WAL-based).
+- Running Undark against SQLite database files that had themselves first been recovered by file-carving a BMW infotainment system's unallocated disk space (metadata-based/freeblock recovery layered on top of file-level carving) recovered several times more SMS messages than the carved files' own visible `messages` table contained, and surfaced call-log records for which the carved files had no visible `calls` table at all — illustrating that deleted-record recovery and unallocated-space file carving are complementary layers, not substitutes for each other.
 
 ## Related Objectives
 
@@ -54,3 +56,4 @@ SQLite does not erase deleted data immediately; depending on the deletion path a
 ## References
 
 - [DFCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.
+- [DFCite-1231] Marques, Domingues, Frade and Negrão, 2026, "Forensic analysis of the infotainment system of BMW vehicles", FSI: Digital Investigation 56, 302066. Demonstrates Undark-based freeblock/freelist recovery applied to SQLite database files that were themselves recovered via unallocated-space file carving, recovering several times more messages and entire call-log record sets absent from the carved files' visible tables.
