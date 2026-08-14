@@ -1302,3 +1302,133 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: IEEE Access, 12, pp. 111007-111020
 - url: https://doi.org/10.1109/ACCESS.2024.3441106
 - note: "Reference-only: proposes a hybrid LSTM-GRU model with differential privacy and secure multi-party computation to flag an 'IsMediaTampering' label in blockchain-based supply-chain transaction records, claiming 95% accuracy. Not used as a technique/weakness/mitigation source because the model operates purely on transactional metadata (Transaction ID, Supplier ID, Customer ID, Product Name, Quantity, Price, Confidentiality Score) with no image/audio/video content analysis of any kind despite the 'multimedia forensics' framing, and the paper's own feature-correlation matrix (Figure 2) shows near-zero correlation between every input feature and the target label, undermining confidence in the reported accuracy. Source file: raw/IEEE Access/Enhancing Blockchain Security Against Data Tampering- Leveraging Hybrid Model in Multimedia Forensics and Multi-Party Computation for Supply Chain Data Protection.pdf."
+
+### DFCite-2031
+
+- type: article
+- author: Oh, Junghoon and Lee, Sangjin and Hwang, Hyunuk
+- title: "Forensic detection of timestamp manipulation for digital forensic investigation"
+- year: 2024
+- journal: IEEE Access, 12, pp. 72544-72565
+- url: https://doi.org/10.1109/ACCESS.2024.3395644
+- note: "Proposes an improved NTFS $LogFile- and $UsnJrnl-based timestamp-manipulation detection algorithm that extracts and cross-checks Redo/Undo timestamp-change data directly from the journals, correctly identifies benign file-system-tunneling events that cause false positives in prior journal-based methods, and detects additional manipulation patterns (SetFileTime()/PowerShell-based $SI-E manipulation, $FN timestamp manipulation via file move, 100-nanosecond-unit zeroing) that prior detection methods miss entirely; validated against 14 real-world APT malware samples and released as the NTFS Log Tracker v1.9 tool. Source file: raw/IEEE Access/Forensic Detection of Timestamp Manipulation for Digital Forensic Investigation.pdf."
+
+### DFCite-2032
+
+- type: article
+- author: Oh, Junghoon and Lee, Sangjin and Hwang, Hyunuk
+- title: "Forensic recovery of file system metadata for digital forensic investigation"
+- year: 2022
+- journal: IEEE Access, 10, pp. 111591-111606
+- url: https://doi.org/10.1109/ACCESS.2022.3213030
+- note: "Proposes the first record-level $LogFile recovery method for NTFS, generating a record-carving signature from each logging page's own sequence number (since $LogFile records have no fixed magic-number value at their start, unlike prior page/file-level carving methods), correctly reconstructing $LogFile structure and recovering records even when restart-page or logging-page headers are damaged; outperforms X-Ways Forensics and Bulk Extractor across 12 damage scenarios and is applied to the real 2014 MV Sewol ferry sinking case to determine that CCTV metadata for the vessel's final two recording intervals was never flushed to $MFT before the system stopped. Source file: raw/IEEE Access/Forensic Recovery of File System Metadata for Digital Forensic Investigation.pdf."
+
+### DFCite-2033
+
+- type: article
+- author: Ahn, Na Young and Lee, Dong Hoon
+- title: "Forensics and anti-forensics of a NAND flash memory: From a copy-back program perspective"
+- year: 2021
+- journal: IEEE Access, 9, pp. 14130-14137
+- url: https://doi.org/10.1109/ACCESS.2021.3052353
+- note: "Identifies that a NAND flash memory's internal copy-back program background operation (moving a page's data to a new block to counter charge-retention degradation) leaves the original data readable as 'unmanaged data' in the source page even after the host believes it has been deleted, creating a forensic recovery opportunity; also proposes a 'secure copy-back program' countermeasure (overwriting or applying deletion pulses to the source page, with victim-cell-aware program prohibition to limit adjacent-cell reliability damage) that a device vendor could implement to eliminate this recovery opportunity going forward. Source file: raw/IEEE Access/Forensics and Anti-Forensics of a NAND Flash Memory- From a Copy-Back Program Perspective.pdf."
+
+### DFCite-2034
+
+- type: article
+- author: Dimitriadis, Athanasios and Lontzetidis, Efstratios and Kulvatunyou, Boonserm and Ivezic, Nenad and Gritzalis, Dimitris and Mavridis, Ioannis
+- title: "Fronesis: Digital forensics-based early detection of ongoing cyber-attacks"
+- year: 2023
+- journal: IEEE Access, 11, pp. 728-743
+- url: https://doi.org/10.1109/ACCESS.2022.3233404
+- note: "Proposes Fronesis, an OWL/SWRL ontology and rule-based reasoning approach that recognizes MITRE ATT&CK techniques from digital artifacts (volatile and non-volatile), associates them to tactics, maps tactics to Cyber Kill Chain (CKC) phases, and detects an ongoing cyber-attack when related, chronologically subsequent CKC phases form one of four 'Combinations Of Sequences of CKC Phases' (COSPs); demonstrated on an email phishing scenario and evaluated for rule-engine runtime scalability, while its own stated limitation is that it cannot detect attacks that do not follow the CKC model or that use adversarial techniques not yet defined in MITRE ATT&CK. Source file: raw/IEEE Access/Fronesis- Digital Forensics-Based Early Detection of Ongoing Cyber-Attacks.pdf."
+
+### DFCite-2035
+
+- type: article
+- author: Manivannan, Aravindhan and Amalanathan, Anthoniraj
+- title: "GeoForensic-AI: A lightweight and explainable forensic AI framework for modern digital ecosystems"
+- year: 2026
+- journal: IEEE Access, 14, pp. 96450-96467
+- url: https://doi.org/10.1109/ACCESS.2026.3686828
+- note: "Proposes a seven-layer forensic AI framework combining a Bayesian-network/Temporal-Graph-Neural-Network fusion for causal attack-chain reconstruction, SHAP/LIME explainability, a DistilBERT-based MITRE ATT&CK TTP attribution engine, federated learning (FedAvg, DP-FedProx) with differential privacy for multi-institution privacy-preserving analysis, and geo-location-tagged event enrichment; reports 98.1% weighted-average detection accuracy across five benchmark datasets, but its own stated limitations include IP-geolocation-based attribution degrading under VPN/proxy-obscured traffic (~4% baseline misattribution rate) and a minimum 8GB GPU memory requirement limiting edge deployment. Source file: raw/IEEE Access/GeoForensic-AI- A Lightweight and Explainable Forensic AI Framework for Modern Digital Ecosystems.pdf."
+
+### DFCite-2036
+
+- type: article
+- author: Alashjaee, Abdullah Mujawib and Alqahtani, Fahad
+- title: "Improving digital forensic security: A secure storage model with authentication and optimal key generation based encryption"
+- year: 2024
+- journal: IEEE Access, 12, pp. 29738-29747
+- url: https://doi.org/10.1109/ACCESS.2024.3369604
+- note: "Proposes DFA-AOKGE, a cloud (IaaS) digital forensic architecture combining SDN/blockchain-distributed decentralized evidence storage across peers, a circle-equation-based Secure Block Verification Mechanism for two-factor user authentication, Enhanced-Equilibrium-Optimizer-generated cryptographic keys, and multikey homomorphic encryption of stored evidence. Caveat: the paper's own narrative claims of 'reduced'/'minimal' response, evidence-insertion, and evidence-verification times are directly contradicted by its own Table 1, which shows DFA-AOKGE recording the HIGHEST (slowest) values of all three compared systems (FAuB, CFLOG) in every row; only the key-generation/encryption/decryption timing comparison against CB-EL-GAMAL/Paillier (Table 3) is internally consistent with its narrative. Cited with this data-quality caveat noted per the provenance-check discipline. Source file: raw/IEEE Access/Improving Digital Forensic Security- A Secure Storage Model With Authentication and Optimal Key Generation Based Encryption.pdf."
+
+### DFCite-2037
+
+- type: article
+- author: Elgohary, Hany M. and Darwish, Saad M. and Elkaffas, Saleh Mesbah
+- title: "Improving uncertainty in chain of custody for image forensics investigation applications"
+- year: 2022
+- journal: IEEE Access, 10, pp. 14669-14679
+- url: https://doi.org/10.1109/ACCESS.2022.3147809
+- note: "Stores an image chain-of-custody's block validity using MRSH-v2 fuzzy hashing (rather than a conventional cryptographic hash) inside a Hyperledger Fabric/Composer permissioned blockchain, so that permissible (benign) alteration between two versions of the same evidence image is tolerated via similarity comparison (>95% similarity treated as the same original evidence) rather than causing a false integrity failure; reports a 30% faster average block response time versus SHA-256 and a 54% reduction in all-against-all pairwise comparison time versus a naive approach, and its own 'Security Analysis' section discusses that an active adversary can defeat MRSH-v2-style fuzzy-hash blacklisting/whitelisting checks by manipulating as little as one bit per hash-triggering building block. Source file: raw/IEEE Access/Improving Uncertainty in Chain of Custody for Image Forensics Investigation Applications.pdf."
+
+### DFCite-2038
+
+- type: article
+- author: Almomani, Iman and Almashat, Tala and El-Shafai, Walid
+- title: "Maloid-DS: Labeled dataset for Android malware forensics"
+- year: 2024
+- journal: IEEE Access, 12, pp. 73481-73529
+- url: https://doi.org/10.1109/ACCESS.2024.3400211
+- note: "Builds and releases Maloid-DS, a 47,971-sample, 345-family labeled Android malware dataset organized into 7 behavioral categories (Adware, Backdoor, Banking, Ransomware, Riskware, SMSMalware, Spyware), each family verified via VirusTotal and given a detailed behavioral description, collected from official (Drebin, AMD, CIC MalDroid 2017/2020) and unofficial (VirusTotal, GitHub, code repositories) sources; its own limitations section acknowledges that sample collection bias toward more readily available or well-known malware families may underrepresent rare and emerging malware types/variants. Source file: raw/IEEE Access/Maloid-DS- Labeled Dataset for Android Malware Forensics.pdf."
+
+### DFCite-2039
+
+- type: article
+- author: Thomas-Brans, F. and Heckmann, T. and Markantonakis, K. and Sauveron, D.
+- title: "New diagnostic forensic protocol for damaged secure digital memory cards"
+- year: 2022
+- journal: IEEE Access, 10, pp. 33742-33757
+- url: https://doi.org/10.1109/ACCESS.2022.3158958
+- note: "Proposes a decision-diagram-based diagnostic protocol for physically damaged SD/micro-SD cards, sequencing non-invasive techniques (optical inspection, 2D/3D X-ray, scanning acoustic microscopy) before invasive techniques (electrical tests, infrared thermal analysis, chemical decapsulation) to localize a failure (crack, corrosion, bonding defect, short circuit) while minimizing additional damage; introduces infrared thermal imaging as a new SD-card diagnostic technique and validates the full protocol on a real, non-functional evidentiary SD card, localizing a bonding-level defect in the memory die. Source file: raw/IEEE Access/New Diagnostic Forensic Protocol for Damaged Secure Digital Memory Cards.pdf."
+
+### DFCite-2040
+
+- type: article
+- author: Casino, Fran and Dasaklis, Thomas K. and Spathoulas, Georgios P. and Anagnostopoulos, Marios and Ghosal, Amrita and Bőröcz, István and Solanas, Agusti and Conti, Mauro and Patsakis, Constantinos
+- title: "Research trends, challenges, and emerging topics in digital forensics: A review of reviews"
+- year: 2022
+- journal: IEEE Access, 10, pp. 25464-25493
+- url: https://doi.org/10.1109/ACCESS.2022.3154059
+- note: "Reference-only: a 'review of reviews' (umbrella meta-review) synthesizing 109 survey/review papers and 51 grey-literature reports across seven digital forensics research domains (cloud, networks, mobile, IoT, filesystem/memory/database, blockchain, multimedia) into a cross-domain challenge taxonomy (Table 10), forensic framework/standards catalog, and readability/reporting discussion. Not used as a technique/weakness/mitigation source since it synthesizes prior surveys' identified research gaps at a meta-analytical, research-roadmap level rather than describing, evaluating, or critiquing any specific first-person investigative technique of its own. Source file: raw/IEEE Access/Research Trends, Challenges, and Emerging Topics in Digital Forensics- A Review of Reviews.pdf."
+
+### DFCite-2041
+
+- type: article
+- author: Alsubaei, Faisal S. and Almazroi, Abdulwahab Ali and Ayub, Nasir
+- title: "Enhancing phishing detection: A novel hybrid deep learning framework for cybercrime forensics"
+- year: 2024
+- journal: IEEE Access, 12, pp. 8373-8389
+- url: https://doi.org/10.1109/ACCESS.2024.3351946
+- note: "Proposes RNT-J, a ResNeXt-GRU deep learning model (with autoencoder+ResNet ensemble feature extraction, SMOTE class-balancing, and Jaya-algorithm hyperparameter optimization) for classifying a URL/webpage as phishing or legitimate from structural features, reporting 98% accuracy and an 11-19% improvement over compared algorithms on a 10,000-instance Kaggle phishing dataset. Provenance note: the paper's own text states phishing websites account for '3.27% of all observations' in the raw data, but its own Figure 11 ('Imbalance data') shows a 7500:2500 (25%) split; cited with this internal inconsistency noted, and its comparative accuracy claims should be read as measured on a SMOTE-balanced train/test split of a single dataset rather than an independent real-world holdout. Source file: raw/IEEE Access/Enhancing Phishing Detection- A Novel Hybrid Deep Learning Framework for Cybercrime Forensics.pdf."
+
+### DFCite-2042
+
+- type: article
+- author: Mostafa, Aya A. and Pérez-González, Fernando and Masciopinto, Miguel
+- title: "Exploring the pitfalls of black boxes in media forensics: A case study in source camera identification"
+- year: 2025
+- journal: IEEE Access, 13, pp. 76528-76547
+- url: https://doi.org/10.1109/ACCESS.2025.3563784
+- note: "Rigorously re-examines a widely-cited black-box deep-learning device-level source camera identification method (a hybrid ResNet101-SVM classifier) using a novel 'Sybil' methodology that partitions each device's own images by content to disentangle device-specific from content/color-based learning; across VISION, UNISA2020, FloreView, and a custom dataset, finds strong, consistent evidence (low Device-based Error Rate, high Content-based Error Rate, Normalized-Frobenius-Distance metrics) that the classifier's high reported accuracy is attributable to dataset content/color biases rather than genuine device-specific fingerprints, and that even carefully constructed datasets like FloreView are not immune to such biases. Source file: raw/IEEE Access/Exploring the Pitfalls of Black Boxes in Media Forensics- A Case Study in Source Camera Identification.pdf."
+
+### DFCite-2043
+
+- type: article
+- author: Malik, Muhammad Fahad and Gul, Ammara and Saadia, Ayesha and Alserhani, Faeiz M.
+- title: "Few-shot learning with prototypical networks for improved memory forensics"
+- year: 2025
+- journal: IEEE Access, 13, pp. 79397-79409
+- url: https://doi.org/10.1109/ACCESS.2025.3565802
+- note: "Applies prototypical few-shot learning (denoised, A-Hash-subgrouped Dumpware10 memory-dump images, four-class-plus-benign base training, tested incrementally up to 11 classes) to memory-forensics malware detection, reporting up to 92.79% accuracy with reduced training data/time versus prior deep-learning baselines. However, its own Tables 9-10 show markedly worse recall (as low as 0.2112-0.311 across configurations) and F1-score than compared supervised and other few-shot methods despite comparable accuracy, indicating a high false-negative rate for the malicious class. Source file: raw/IEEE Access/Few-Shot Learning With Prototypical Networks for Improved Memory Forensics.pdf."

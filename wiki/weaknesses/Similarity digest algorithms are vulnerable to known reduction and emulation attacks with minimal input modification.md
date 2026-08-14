@@ -10,6 +10,7 @@ mitigation_ids:
 source_refs:
   - DFCite-1100
   - DFCite-2013
+  - DFCite-2037
 updated_at: 2026-08-14
 status: complete
 ---
@@ -37,3 +38,4 @@ An investigator relying on a similarity digest match (or non-match) as evidence 
 
 - [DFCite-1100] Martín-Pérez et al., 2021, "Bringing order to approximate matching: Classification and attacks on similarity digest algorithms", FSI: Digital Investigation 36.
 - [DFCite-2013] Mahrous et al., 2021, "An enhanced blockchain-based IoT digital forensics architecture using fuzzy hash", IEEE Access 9 — uses SSDEEP similarity above a fixed threshold as its blockchain evidence-block tamper check, which is exposed to this same attack surface.
+- [DFCite-2037] Elgohary et al., 2022, "Improving uncertainty in chain of custody for image forensics investigation applications", IEEE Access 10 — its own "Security Analysis" section independently confirms this same attack surface for MRSH-v2-style fuzzy hashing, describing how an active adversary can defeat blacklist/whitelist fuzzy-hash matching by manipulating as little as one bit per hash-triggering building block.
