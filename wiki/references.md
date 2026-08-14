@@ -1432,3 +1432,93 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: IEEE Access, 13, pp. 79397-79409
 - url: https://doi.org/10.1109/ACCESS.2025.3565802
 - note: "Applies prototypical few-shot learning (denoised, A-Hash-subgrouped Dumpware10 memory-dump images, four-class-plus-benign base training, tested incrementally up to 11 classes) to memory-forensics malware detection, reporting up to 92.79% accuracy with reduced training data/time versus prior deep-learning baselines. However, its own Tables 9-10 show markedly worse recall (as low as 0.2112-0.311 across configurations) and F1-score than compared supervised and other few-shot methods despite comparable accuracy, indicating a high false-negative rate for the malicious class. Source file: raw/IEEE Access/Few-Shot Learning With Prototypical Networks for Improved Memory Forensics.pdf."
+
+### DFCite-2044
+
+- type: article
+- author: Singh, Avinash and Ikuesan, Richard Adeyemi and Venter, Hein
+- title: "Secure storage model for digital forensic readiness"
+- year: 2022
+- journal: IEEE Access, 10, pp. 19469-19480
+- url: https://doi.org/10.1109/ACCESS.2022.3151403
+- note: "Proposes SecureRS, a proactive secure-storage model and Django/REST proof-of-concept tool for digital forensic readiness: ingests potential digital evidence (PDE) over an authenticated HTTPS API, applies pre/post-encryption hash checkpoints (MD5) for tamper detection, encrypts with Fernet (AES-128-CBC/HMAC), stores with randomized filenames and read-only permissions, and requires 2FA plus session/hash re-verification for investigator download; its own performance evaluation notes the Fernet library requires loading a full file into memory, imposing a practical file-size ceiling the authors say could be addressed by switching to file-streaming encryption. Source file: raw/IEEE Access/Secure Storage Model for Digital Forensic Readiness.pdf."
+
+### DFCite-2045
+
+- type: article
+- author: Wang, Yu
+- title: "Self-supervised CLIP-based image recognition and analysis for electronic data forensics"
+- year: 2026
+- journal: IEEE Access, 14, pp. 3062-3078
+- url: https://doi.org/10.1109/ACCESS.2025.3648849
+- note: "Extends the CLIP image-text model with a cross-attention module for fine-grained image-text alignment and two self-supervised tasks (masked-region reconstruction, local-global feature consistency) to detect and localize image tampering (splicing, copy-paste, removal) without manual tamper annotations, outperforming supervised CNN and transformer baselines on CASIA/Columbia/NIST16/COVERAGE (e.g. 90.45-91.63% accuracy, 90.69-91.39% F1) with the smallest parameter count and FLOPs among compared methods. Its own discussion acknowledges that because CLIP's pretraining targets general natural image-text pairs, a forged image whose caption is highly semantically consistent with its (altered) content can cause semantic misalignment/cross-modal noise interference, risking misclassification or confidence drift on domain-specific forensic tasks. Source file: raw/IEEE Access/Self-Supervised CLIP-Based Image Recognition and Analysis for Electronic Data Forensics.pdf."
+
+### DFCite-2046
+
+- type: article
+- author: Ibrahim, Yasmine M. and Essameldin, Reem and Saad, Saad M.
+- title: "Social media forensics: An adaptive cyberbullying-related hate speech detection approach based on neural networks with uncertainty"
+- year: 2024
+- journal: IEEE Access, 12, pp. 59474-59484
+- url: https://doi.org/10.1109/ACCESS.2024.3393295
+- note: "Combines a One-Against-One multiclass MLP classifier ensemble with Neutrosophic Logic (truth/indeterminacy/falsity membership converted from class probabilities via interval neutrosophic sets) for fine-grained cyberbullying-type classification (age, ethnicity, gender, religion, other) on Twitter datasets, reaching 95-98% accuracy and outperforming fuzzy-logic and standalone-MLP baselines by 2-3 percentage points; across every tested method and experiment in the paper (proposed model, RF, LR, SVM, fuzzy-logic comparator, BERT-augmented variant), the 'gender' cyberbullying subtype consistently shows the lowest precision/recall/F1 of the five classes. Source file: raw/IEEE Access/Social Media Forensics- An Adaptive Cyberbullying-Related Hate Speech Detection Approach Based on Neural Networks With Uncertainty.pdf."
+
+### DFCite-2047
+
+- type: article
+- author: Gopinathan, Nandan and Shanmugam, Prabhakar Karthikeyan
+- title: "Synchrophasor forensics: Tracking spatiotemporal anomalies and diagnosing grid frequency events with machine learning for enhanced situational awareness"
+- year: 2024
+- journal: IEEE Access, 12, pp. 166588-166611
+- url: https://doi.org/10.1109/ACCESS.2024.3495018
+- note: "Proposes a two-stage grid-frequency-event forensic pipeline (SPEDA-ML): stationary-wavelet-transform denoising and sliding-window ARIMA residual analysis feed a novel Synchrophasor Event Detection Index (SPEDI, a normalized weighted combination of standard deviation, variance, CDF, stationarity, and duration) that screens fast/slow events from PMU synchrophasor frequency data, which are then classified by type (oscillatory, frequency-excursion, impulsive, islanding) using ML classifiers, with XGBoost performing best (99.3% accuracy/F1). However, the paper's own Table 6 event-classification counts for the ISO-NE6 dataset show severe class imbalance (Short Oscillatory Event: 157, Long OE: 3, FE Load/Generator loss: 8, FE sustainable: 2, Impulsive: 0), and the paper itself acknowledges that 'accuracy provides a broad view of the model's performance, but it fails to include the distribution of different classes, especially in imbalanced datasets.' Source file: raw/IEEE Access/Synchrophasor Forensics- Tracking Spatiotemporal Anomalies and Diagnosing Grid Frequency Events with Machine Learning for Enhanced Situational Awareness.pdf."
+
+### DFCite-2048
+
+- type: article
+- author: Chang, Ching-Chun and Echizen, Isao
+- title: "Tell-tale watermarks for explanatory reasoning in synthetic media forensics"
+- year: 2026
+- journal: IEEE Access, 14, pp. 18206-18221
+- url: https://doi.org/10.1109/ACCESS.2026.3660000
+- note: "Proposes tell-tale watermarking: three purpose-built reference watermarks (a blank-canvas semantic watermark, a colour-wheel photometric watermark, a wave-interference geometric watermark) jointly optimised with an encoder/decoder pair so their extracted traces respond predictably and interpretably to semantic (inpainting-based), photometric (brightness/contrast/hue/saturation), and geometric (rotation/translation/scale/shear) transformations, letting a combinatorial-optimisation 'explanatory reasoning' stage infer the most plausible sequence and parameters of transformations applied to an image. Because it is a proactive defence, the technique only provides traceability for media that was watermarked prior to any synthesis/editing; the paper's own conclusion explicitly contrasts this with reactive detection baselines that 'assume no preventative mechanism is applied at creation time,' and separately notes reasoning is restricted to a fixed transform ordering (semantic then photometric then geometric), leaving full editing-timeline reconstruction unsolved. Source file: raw/IEEE Access/Tell-Tale Watermarks for Explanatory Reasoning in Synthetic Media Forensics.pdf."
+
+### DFCite-2049
+
+- type: article
+- author: Al-Fehani, Maryam and Al-Baseer, Abdullatif and Al-Kuwari, Saif
+- title: "TFD-Video: Threshold-aware federated deepfake detection for video forensics"
+- year: 2026
+- journal: IEEE Access, 14, pp. 23264-23278
+- url: https://doi.org/10.1109/ACCESS.2026.3660914
+- note: "Proposes TFD, a federated-learning deepfake-video-detection framework in which each client (e.g. a forensic lab or law enforcement agency) trains a shared R(2+1)D-18 3D-CNN backbone locally and shares only a compact per-filter threshold vector (~2KB/round) rather than full dense model weights, letting the server aggregate a common structured-sparsity pattern by weighted averaging while each client's actual model weights and raw video data stay local; on FaceForensics++ and Celeb-DF, TFD reaches accuracy/AUROC/F1 within a small margin of full FedAvg (e.g. 0.918 vs. 0.932 accuracy) while cutting cumulative communication by roughly two orders of magnitude and pruning ~70% of filters. The paper's own Section IV.E explicitly flags that its threshold-averaging aggregation 'is effective under benign conditions but not inherently robust to adversarial manipulation' if a malicious client distorts its submitted threshold vector to corrupt the global sparsity pattern. Source file: raw/IEEE Access/TFD-Video- Threshold-Aware Federated Deepfake Detection for Video Forensics.pdf."
+
+### DFCite-2050
+
+- type: article
+- author: Alashjaee, Abdullah Mujawib
+- title: "Toward a conflict resolution protocol for cloud forensics investigation"
+- year: 2024
+- journal: IEEE Access, 12, pp. 72013-72022
+- url: https://doi.org/10.1109/ACCESS.2024.3402623
+- note: "Proposes a bilateral cloud-forensic evidence-collection model in which both the cloud provider and consumer independently collect forensic data via interceptors, plus a Comparison and Dispute Resolution Protocol (CDRP) that first attempts mathematical reconciliation of two specific discrepancy sources (mismatched collection-interval start/end points, request transmission time) via correction equations, then falls back to a peer-to-peer, AI-mediated (Bayesian-belief-network-based) argument-tree negotiation (the ReConsider tool) when reconciliation fails; a case study found dispute resolution success correlated with how often each disputing party revised their claims, with one participant's persistent non-revision of claims stalling resolution on several argument-tree nodes. Source file: raw/IEEE Access/Toward a Conflict Resolution Protocol for Cloud Forensics Investigation.pdf."
+
+### DFCite-2051
+
+- type: article
+- author: Baracchi, Daniele and Boato, Giulia and De Natale, Francesco and Iuliani, Massimo and Montibeller, Andrea and Pasquini, Cecilia and Piva, Alessandro and Shullani, Dasara
+- title: "Toward open-world multimedia forensics through media signature encoding"
+- year: 2024
+- journal: IEEE Access, 12, pp. 59930-59947
+- url: https://doi.org/10.1109/ACCESS.2024.3391809
+- note: "Introduces media signature encoding: a siamese-autoencoder-based network (trained with a quadruplet reconstruction-plus-separation loss) that maps content- and container-based features extracted from an image or video into a compact metric-space descriptor, letting Euclidean distance between two signatures act as a proxy for whether the underlying media shared a similar processing/manipulation/sharing toolchain, even for toolchains never seen during training; validated on video-inpainting/user-editing (media4provider) and social-media-sharing (media4community) toolchain discrimination, but the paper's own leave-one-out analysis found separability among unknown AI-based inpainting tools (OPN, STTN, GMCNN) specifically is poor even when the whole AI-based family is correctly clustered, and separability from Vegas Pro/Adobe Premiere-processed data was also weaker than for other toolchain pairs. Source file: raw/IEEE Access/Toward Open-World Multimedia Forensics Through Media Signature Encoding.pdf."
+
+### DFCite-2052
+
+- type: article
+- author: Sarhan, Soliman Abd Elmonsef and Youness, Hassan A. and Bahaa-Eldin, Ayman M. and Taha, Ayman Elsayed
+- title: "VoIP network forensics of instant messaging calls"
+- year: 2024
+- journal: IEEE Access, 12, pp. 9012-9024
+- url: https://doi.org/10.1109/ACCESS.2024.3352897
+- note: "Proposes a Network Forensic Approach (NFA) that captures and deep-packet-inspects (nDPI) encrypted IM-application network traffic, uses STUN-message peer-IP-exchange records (or, when STUN is absent, a correlation method comparing subscriber traffic objects) to identify both parties of a voice/video IM call without any physical access to end-user devices, and compiles a comprehensive Call Detailed Record (CDR) database via Elasticsearch/Logstash; achieved 92.5% success identifying voice IM calls and participants in a real-world 8-device, multi-app (WhatsApp, Signal, Facebook Messenger, Snapchat, Telegram, FaceTime) test network, but the open-source nDPI tool's traffic-classification limitations caused 2 of 27 calls to fail identification and led the dataset to only recognize 5 of the tested IM applications' distinct signatures, which the paper's own discussion attributes to nDPI's classification accuracy and recommends addressing with a commercial DPI tool. Source file: raw/IEEE Access/VoIP Network Forensics of Instant Messaging Calls.pdf."
