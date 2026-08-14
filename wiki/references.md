@@ -1522,3 +1522,43 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: IEEE Access, 12, pp. 9012-9024
 - url: https://doi.org/10.1109/ACCESS.2024.3352897
 - note: "Proposes a Network Forensic Approach (NFA) that captures and deep-packet-inspects (nDPI) encrypted IM-application network traffic, uses STUN-message peer-IP-exchange records (or, when STUN is absent, a correlation method comparing subscriber traffic objects) to identify both parties of a voice/video IM call without any physical access to end-user devices, and compiles a comprehensive Call Detailed Record (CDR) database via Elasticsearch/Logstash; achieved 92.5% success identifying voice IM calls and participants in a real-world 8-device, multi-app (WhatsApp, Signal, Facebook Messenger, Snapchat, Telegram, FaceTime) test network, but the open-source nDPI tool's traffic-classification limitations caused 2 of 27 calls to fail identification and led the dataset to only recognize 5 of the tested IM applications' distinct signatures, which the paper's own discussion attributes to nDPI's classification accuracy and recommends addressing with a commercial DPI tool. Source file: raw/IEEE Access/VoIP Network Forensics of Instant Messaging Calls.pdf."
+
+### DFCite-2053
+
+- type: article
+- author: Desai, Pranita Maruti and Shelake, Vijay Maruti
+- title: "A combined approach for private indexing mechanism"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 6
+- url: https://doi.org/10.15394/jdfsl.2022.1790
+- note: "Proposes combining classic phonetic-encoding (Soundex) indexing with multibit-tree/Cryptographic-Long-term-Key (CLK) bloom-filter indexing for privacy-preserving record linkage (PPRL), letting two or more parties (e.g. investigating agencies each holding a private database of subject records) identify likely-matching records referring to the same real-world entity across their databases without exposing the underlying identifying data; the combined method outperformed multibit-tree indexing alone on reduction ratio, pairs completeness, F-score, and running time on two real bibliographic datasets, but the paper's own conclusion states privacy 'can be jeopardized when some of the parties are not genuine.' Source file: raw/JDFSL/A Combined Approach For Private Indexing Mechanism.pdf."
+
+### DFCite-2054
+
+- type: article
+- author: Salamh, Fahad E. and Karabiyik, Umit and Rogers, Marcus K.
+- title: "A constructive DIREST security threat modeling for drone as a service"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 2
+- url: https://doi.org/10.15394/jdfsl.2021.1695
+- note: "Proposes DIREST-TMM, a re-prioritized STRIDE-derived threat model (DoS, Information disclosure, Repudiation, Escalation of privilege, Spoofing GPS protocol, Tampering) and a four-phase (assess/identify/evaluate/treat) risk assessment framework for Drone as a Service (DaaS), grounded in a static firmware analysis of a Zino Hubsan drone (binwalk unpacking, strings-based OS/kernel fingerprinting, Shannon entropy profiling to find unencrypted 'blind spot' regions) that found the drone's 'latest' firmware release bundled a roughly three-year-outdated Linux 3.10.101 kernel with 192 known vulnerabilities (43.8% denial-of-service), and identified public vendor-website firmware distribution (rather than authenticated OTA updates) as a notable attack vector. Source file: raw/JDFSL/A Constructive DIREST Security Threat Modeling for Drone as a Service.pdf."
+
+### DFCite-2055
+
+- type: article
+- author: Berham, Stuart and Morris, Sarah
+- title: "A critical comparison of Brave Browser and Google Chrome forensic artefacts"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 4
+- url: https://doi.org/10.15394/jdfsl.2022.1752
+- note: "Critically compares Brave Browser v88.1.20.110 and Google Chrome v88.0.4323.190 on Windows 10, finding near-identical on-disk artifact locations, file formats (SQLite/ESE/JSON), and internal structures for Bookmarks, Cache, Cookies, History, Media History, and File Download History; finds that deleted SQLite History-database rows in both browsers are unrecoverable via binary carving because the freed space is zeroed out on deletion (no WAL, no free pages, auto-vacuum off), but that wider Windows OS artifacts (Windows Search ESE database, Prefetch, Alternate Data Streams, and especially SRUDB.dat/SRUM) can recover the full or partial deleted record instead. Source file: raw/JDFSL/A CRITICAL COMPARISON OF BRAVE BROWSER AND GOOGLE CHROME FORENSIC ARTEFACTS.pdf."
+
+### DFCite-2056
+
+- type: article
+- author: Angelopoulou, Olga and Jones, Andy and Horsman, Graeme and Pourmoafi, Seyedali
+- title: "A study of the data remaining on second-hand mobile devices in the UK"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 5
+- url: https://doi.org/10.58940/1558-7223.1785
+- note: "Purchased and forensically examined 100 secondhand mobile phones/tablets from UK secondhand markets (eBay, auctions, secondhand shops) using logical acquisition (XRY, MobilEdit) with manual-examination fallback, finding 52% had been factory-reset/wiped with no recoverable data, but 24% still contained data, and in 17-20% of the total sample the previous owner's identity (name, address, contacts, financial details, images) was fully recoverable because no attempt had been made to remove it before sale. Source file: raw/JDFSL/A Study of the Data Remaining on Second-Hand Mobile Devices in the UK Authors .pdf."
