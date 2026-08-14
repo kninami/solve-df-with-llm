@@ -7,12 +7,14 @@ objective_ids:
   - DFO-1002
 weakness_ids:
   - DFW-1005
+  - DFW-2012
 aliases:
   - N-gram SVM file type identification
   - n-gram file type identification
 source_refs:
   - DFCite-1003
-updated_at: 2026-08-09
+  - DFCite-2012
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -37,7 +39,9 @@ Each file is truncated to remove the header/magic-byte region before analysis, s
 ## Related Weaknesses
 
 - [[weaknesses/N-gram byte-frequency classifiers confuse PPT and JPG file types]]
+- [[weaknesses/ML-based file fragment classifiers are vulnerable to byte-level adversarial perturbations]]
 
 ## References
 
 - [DFCite-1003] Sester et al., 2021, "A comparative study of support vector machine and neural networks for file type identification using n-gram analysis", FSI: Digital Investigation 36.
+- [DFCite-2012] Mary and Sreeja, 2026, "Adversarial shadows in digital forensics: New insights into file fragment classification vulnerabilities and defenses", IEEE Access 14 — surveys how byte-level statistical classifiers of this kind (n-gram/byte-frequency-based) are specifically susceptible to statistically-stealthy adversarial byte manipulation.

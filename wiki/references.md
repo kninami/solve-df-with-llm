@@ -1002,3 +1002,203 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 36, 301120
 - url: https://doi.org/10.1016/j.fsidi.2021.301120
 - note: Source file: raw/DI/Bringing order to approximate matching- Classification and attacks on similarity digest algorithms.pdf
+
+### DFCite-2001
+
+- type: article
+- author: Sanil, Gangothri and Prakash, Krishna and Prabhu, Srikanth and Nayak, Vinod C. and Sengupta, Saptarshi
+- title: "2D-3D facial image analysis for identification of facial features using machine learning algorithms with hyper-parameter optimization for forensics applications"
+- year: 2023
+- journal: IEEE Access, 11, pp. 82521-82538
+- url: https://doi.org/10.1109/ACCESS.2023.3298443
+- note: "Introduces a 468-landmark MediaPipe-based Euclidean/geodesic-distance-ratio feature pipeline with hyperparameter-tuned classifiers (XGBoost best at 78% accuracy) for distinguishing same-vs-different facial identity, including identical twins and look-alikes, for forensic use. Source file: raw/IEEE Access/2D-3D Facial Image Analysis for Identification of Facial Features Using Machine Learning Algorithms With Hyper-Parameter Optimization for Forensics Applications.pdf. Note: entity IDs in this batch use the reserved 2001+ block, not the sequential 1101+ range, because this worktree is ingesting raw/IEEE Access in parallel with a separate agent continuing raw/DI ingestion in the main worktree/checkout; see wiki/log.md for details."
+
+### DFCite-2002
+
+- type: article
+- author: Javed, Abdul Rehman and Ahmed, Waqas and Alazab, Mamoun and Jalil, Zunera and Kifayat, Kashif and Gadekallu, Thippa Reddy
+- title: "A comprehensive survey on computer forensics: State-of-the-art, tools, techniques, challenges, and future directions"
+- year: 2022
+- journal: IEEE Access, 10, pp. 11065-11089
+- url: https://doi.org/10.1109/ACCESS.2022.3142508
+- note: "Surveys computer forensic domains (OS, file system, live memory, web, email, network, multimedia forensics) and their toolkits, and proposes a Feature Scoring Model (FSM) that ranks a domain's candidate toolkits by summed, equally-weighted supported-feature counts. Source file: raw/IEEE Access/A Comprehensive Survey on Computer Forensics- State-of-the-Art, Tools, Techniques, Challenges, and Future Directions.pdf."
+
+### DFCite-2003
+
+- type: article
+- author: Jiménez, María B. and Fernández, David and Rivadeneira, Jorge Eduardo and Flores-Moyano, Ricardo
+- title: "A filtering model for evidence gathering in an SDN-oriented digital forensic and incident response context"
+- year: 2024
+- journal: IEEE Access, 12, pp. 75792-75808
+- url: https://doi.org/10.1109/ACCESS.2024.3405588
+- note: "Presents a dual-detector filtering intelligence model (a neural-network unusual-traffic detector on OpenFlow SBI data, and a finite-state-machine unexpected-behavior detector using multi-source majority consensus) that triggers DFIR evidence acquisition only for forensically relevant SDN events, reporting 97.2% average accuracy but only 77% recall for the usual-traffic class. Source file: raw/IEEE Access/A Filtering Model for Evidence Gathering in an SDN-Oriented Digital Forensic and Incident Response Context.pdf."
+
+### DFCite-2004
+
+- type: article
+- author: Alotibi, Gaseb
+- title: "A high abstract digital forensic readiness metamodel for securing smart cities"
+- year: 2024
+- journal: IEEE Access, 12, pp. 187427-187443
+- url: https://doi.org/10.1109/ACCESS.2024.3483173
+- note: "Develops HADFRM, a model-driven-engineering metamodel unifying 18 overlapping/redundant existing smart-city digital forensic readiness frameworks into five common processes (incident response, data acquisition, data preservation, data analysis, reporting/presentation) and 38 common concepts with UML relationships, illustrated on a smart-home cybercrime scenario. Source file: raw/IEEE Access/A High Abstract Digital Forensic Readiness Metamodel for Securing Smart Cities.pdf."
+
+### DFCite-2005
+
+- type: article
+- author: Abbasi, Ahmed and Javed, Abdul Rehman and Yasin, Amanullah and Jalil, Zunera and Kryvinska, Natalia and Tariq, Usman
+- title: "A large-scale benchmark dataset for anomaly detection and rare event classification for audio forensics"
+- year: 2022
+- journal: IEEE Access, 10, pp. 38885-38894
+- url: https://doi.org/10.1109/ACCESS.2022.3166602
+- note: "Builds an 8,922-clip benchmark dataset blending 7 rare forensic sound events (gunshot, scream, glass break, explosion, baby cry, footsteps, police siren) into 15 background environments, then detects/classifies them using MFCC+spectral-feature extraction, PCA feature reduction, and six ML classifiers, with MLP performing best (up to 99.08% accuracy) but accuracy and AUC varying substantially by classifier-environment combination. Source file: raw/IEEE Access/A Large-Scale Benchmark Dataset for Anomaly Detection and Rare Event Classification for Audio Forensics.pdf."
+
+### DFCite-2006
+
+- type: article
+- author: Kao, Hsin-Hsiung and Feng, Joe-Mei and Li, Chen-Yu and Lin, Cheng-Hung
+- title: "A local hierarchical LLM framework for privacy-preserving memory forensics of cryptocurrency wallets"
+- year: 2026
+- journal: IEEE Access, 14, pp. 55891-55902
+- url: https://doi.org/10.1109/ACCESS.2026.3682641
+- note: "Presents a fully local (offline) three-tier LangChain/LLaMA-3.1-8B reasoning pipeline (Single-Layer Baseline -> Dual-Layer Supervisor -> Tri-Layer RAG-Decider) over keyword/regex-extracted, normalized CSV memory-forensic evidence for MetaMask crypto-wallet investigations, reaching human-evaluation and automated-metric quality close to cloud-hosted ChatGPT-4o while keeping all case data on investigator hardware. Source file: raw/IEEE Access/A Local Hierarchical LLM Framework for Privacy-Preserving Memory Forensics of Cryptocurrency Wallets.pdf."
+
+### DFCite-2007
+
+- type: article
+- author: Ali, Rabei Raad and Mohamad, Kamaruddin Malik Bin and Mostafa, Salama A. and Zebari, Dilovan Asaad and Jubair, Mohammed Ahmed and Turki-Hadj Alouane, M.
+- title: "A meta-heuristic method for reassemble bifragmented intertwined JPEG image files in digital forensic investigation"
+- year: 2023
+- journal: IEEE Access, 11, pp. 111789-111800
+- url: https://doi.org/10.1109/ACCESS.2023.3321680
+- note: "Proposes MHRI, a three-rule method (restart-marker strange-block removal, Coherence of Euclidean Distance boundary-similarity metric, and a genetic-algorithm cost-function search) to reassemble JPEG images whose fragments are bifragmented and intertwined with another JPEG or non-JPEG file in the scan area, achieving 48.4% overall accuracy across DFRWS public/private datasets, outperforming RXmK/XmK/mK/RevIt baselines. Source file: raw/IEEE Access/A Meta-Heuristic Method for Reassemble Bifragmented Intertwined JPEG Image Files in Digital Forensic Investigation.pdf."
+
+### DFCite-2008
+
+- type: article
+- author: He, Junjie and Zhu, Pei and Liu, Zhenghui and Cao, Yi
+- title: "A novel digital audio encryption and forensics watermarking scheme"
+- year: 2024
+- journal: IEEE Access, 12, pp. 103565-103582
+- url: https://doi.org/10.1109/ACCESS.2024.3434576
+- note: "Proposes a scrambling-and-multiplication audio encryption scheme combined with a signal-energy-ratio-quantifying fragile watermark, letting an authorized downloader verify whether encrypted audio stored on a third-party server has been tampered with, locate the attacked frame(s), and approximately reconstruct tampered content (reliable up to roughly 3/8 of samples deleted). Source file: raw/IEEE Access/A Novel Digital Audio Encryption and Forensics Watermarking Scheme.pdf."
+
+### DFCite-2009
+
+- type: article
+- author: Hakim, Arif Rahman and Ramli, Kalamullah and Gunawan, Teddy Surya and Windarta, Susila
+- title: "A novel digital forensic framework for data breach investigation"
+- year: 2023
+- journal: IEEE Access, 11, pp. 42644-42659
+- url: https://doi.org/10.1109/ACCESS.2023.3270619
+- note: "Proposes a data-breach-specific investigation framework built on the Data Breach Breakdown (DBB) phases (Infiltration, Propagation, Aggregation, Exfiltration), host/network-device/security-device evidence categorization, a Chain of Artifacts (CoA) correlation structure, timeline analysis, and attack-flow analysis, mapped directly onto the 5WH (what/who/when/where/why/how) investigative questions; validated on a replicated spear-phishing/Zerologon/lateral-movement data-breach case study. Source file: raw/IEEE Access/A Novel Digital Forensic Framework for Data Breach Investigation.pdf."
+
+### DFCite-2010
+
+- type: article
+- author: Henriques, João and Caldeira, Filipe and Cruz, Tiago and Simões, Paulo
+- title: "A survey on forensics and compliance auditing for critical infrastructure protection"
+- year: 2024
+- journal: IEEE Access, 12, pp. 2409-2444
+- url: https://doi.org/10.1109/ACCESS.2023.3348552
+- note: "Survey of forensics and compliance auditing (FCA) for critical infrastructure/IACS/SCADA protection, contributing an FCA taxonomy (7 dimensions: critical infrastructures, governance, preparedness, data acquisition, evidence identification, reporting, deployment) and a converged reference architecture (ingesting, data lake, analytics, forensic analysis, audit compliance, visualization/dashboards, monitoring, real-time search, orchestration modules) for building unified forensics-and-compliance-auditing platforms. Source file: raw/IEEE Access/A Survey on Forensics and Compliance Auditing for Critical Infrastructure Protection.pdf."
+
+### DFCite-2011
+
+- type: article
+- author: Kao, Hsin-Hsiung
+- title: "Accelerating multilingual cryptocurrency forensics: An NLP-driven approach for efficient mnemonic identification"
+- year: 2025
+- journal: IEEE Access, 13, pp. 10513-10527
+- url: https://doi.org/10.1109/ACCESS.2025.3528429
+- note: "Trains and compares RNN, LSTM, BiLSTM, and TextCNN deep-learning models to identify BIP39 cryptocurrency-wallet mnemonic phrases across 11 languages/formats within unstructured forensic text, finding TextCNN reaches 99.9993% accuracy (0% FNR) and runs 40.47x faster than a traditional mnemonic-library-matching baseline. Source file: raw/IEEE Access/Accelerating Multilingual Cryptocurrency Forensics- An NLP-Driven Approach for Efficient Mnemonic Identification.pdf."
+
+### DFCite-2012
+
+- type: article
+- author: Mary, Teena and Sreeja, C. S.
+- title: "Adversarial shadows in digital forensics: New insights into file fragment classification vulnerabilities and defenses"
+- year: 2026
+- journal: IEEE Access, 14, pp. 11064-11083
+- url: https://doi.org/10.1109/ACCESS.2026.3655822
+- note: "Survey proposing an FFC-native adversarial taxonomy (attacker knowledge, attack objective, byte-level manipulation strategy, fragment validity/statistical stealth, attack timing) and systematically analyzing byte-level perturbation techniques (bit-flipping, byte substitution, reordering, entropy manipulation, padding/structural manipulation) and layered defenses (constraint-preserving adversarial training, attack-surface management, detection/rejection, lifecycle-level poisoning defenses) for ML/DL-based file fragment classification models used in file recovery, type identification, and evidence reconstruction. Source file: raw/IEEE Access/Adversarial Shadows in Digital Forensics- New Insights Into File Fragment Classification Vulnerabilities and Defenses.pdf."
+
+### DFCite-2013
+
+- type: article
+- author: Mahrous, Wael A. and Farouk, Mahmoud and Darwish, Saad M.
+- title: "An enhanced blockchain-based IoT digital forensics architecture using fuzzy hash"
+- year: 2021
+- journal: IEEE Access, 9, pp. 151327-151336
+- url: https://doi.org/10.1109/ACCESS.2021.3126715
+- note: "Encodes a blockchain evidence chain's Merkle tree using an SSDEEP fuzzy hash (in addition to conventional SHA256 fingerprinting) rather than a conventional hash alone, so a node can validate that a block is unaltered ('original evidence') using a similarity threshold (>=90%) that tolerates permissible/benign IoT-sensor-driven alteration between near-identical evidence versions rather than requiring byte-exact matches; simulated on a Raspberry Pi to confirm feasibility for resource-constrained IoT nodes. Source file: raw/IEEE Access/An Enhanced Blockchain-Based IoT Digital Forensics Architecture Using Fuzzy Hash.pdf."
+
+### DFCite-2014
+
+- type: article
+- author: Yalinkilic, Ali Berk and Vatansever, Saffet
+- title: "An enhanced STFT segmentation framework for ENF-based media forensics"
+- year: 2024
+- journal: IEEE Access, 12, pp. 117850-117862
+- url: https://doi.org/10.1109/ACCESS.2024.3449099
+- note: "Proposes an adaptive anterior/posterior STFT segmentation scheme that extracts additional Electric Network Frequency (ENF) samples from the beginning and end of a recording that the conventional fixed-segment STFT method discards, producing a longer, more distinctive ENF signal for time-of-recording verification; combinable with existing ENF-accuracy-enhancement techniques (RFA, E-MLE) for further gains, tested on the ENF-WHU dataset. Source file: raw/IEEE Access/An Enhanced STFT Segmentation Framework for ENF-Based Media Forensics.pdf."
+
+### DFCite-2015
+
+- type: article
+- author: Rizvi, Syed and Scanlon, Mark and McGibney, Jimmy and Sheppard, John
+- title: "Application of artificial intelligence to network forensics: Survey, challenges and future directions"
+- year: 2022
+- journal: IEEE Access, 10, pp. 110362-110384
+- url: https://doi.org/10.1109/ACCESS.2022.3214506
+- note: "Surveys AI (expert systems, ML, DL, ensemble/hybrid) applications across network traffic analysis, intrusion detection systems, IoT/cloud/DNS-tunneling/smart-grid/vehicle network forensics, finding across the literature that public IDS benchmark datasets (e.g. CICIDS-2017, CSE-CIC-IDS2018) remain vulnerable to class imbalance and unverified real-world representativeness, driving persistently high false-positive/false-alarm rates in deployed AI-based NIDS. Source file: raw/IEEE Access/Application of Artificial Intelligence to Network Forensics- Survey, Challenges and Future Directions.pdf."
+
+### DFCite-2016
+
+- type: article
+- author: dos Santos, Hericson and dos Santos Martins, Tiago and Domingues Barreto, Jorge Andre and Vasconcelos Nakamura, Luis Hideo and Mazzoni Ranieri, Caetano and de Grande, Robson E. and Rocha Filho, Geraldo P. and Meneguette, Rodolfo I.
+- title: "ChaSAM: An architecture based on perceptual hashing for image detection in computer forensics"
+- year: 2024
+- journal: IEEE Access, 12, pp. 104611-104628
+- url: https://doi.org/10.1109/ACCESS.2024.3435027
+- note: "Proposes ChaSAM Forensics, a parallelized perceptual-hash image-matching architecture for CSAM/revenge-pornography detection, introducing two new hash algorithms (chHash, a 32x32 black/white-thresholded DCT hash; domiHash, a dHash variant comparing diagonal rather than row/column pixel differences for rotation robustness) and a two-iteration hash-pairing scheme (e.g. dHash then chHash) that raised true-positive filtering from 29.52% to 96.43% on a 12,920-image synthetic CSAM-style test corpus. Source file: raw/IEEE Access/ChaSAM- An Architecture Based on Perceptual Hashing for Image Detection in Computer Forensics.pdf."
+
+### DFCite-2017
+
+- type: article
+- author: Shin, Jiho and Moon, Byoung Hun
+- title: "Cloud database forensics in practice: Structural challenges and investigative lessons from Azure SQL Database"
+- year: 2025
+- journal: IEEE Access, 13, pp. 204168-204178
+- url: https://doi.org/10.1109/ACCESS.2025.3639429
+- note: "Experimentally reproduces the three canonical on-premises SQL Server deleted-record recovery techniques (transaction log analysis via fn_dblog, buffer pool analysis via sys.dm_os_buffer_descriptors, and data page analysis via DBCC PAGE) against a PaaS Azure SQL Database, finding transaction log analysis is the only technique that remains partially applicable (time-limited, since logs disappear unpredictably after deletion), while buffer-pool and data-page recovery are structurally blocked by the platform's abstraction of OS/file/memory access. Source file: raw/IEEE Access/Cloud Database Forensics in Practice- Structural Challenges and Investigative Lessons From Azure SQL Database.pdf."
+
+### DFCite-2018
+
+- type: article
+- author: Ogunseyi, Taiwo Blessing and Adedayo, Oluwasola Mary
+- title: "Cryptographic techniques for data privacy in digital forensics"
+- year: 2023
+- journal: IEEE Access, 11, pp. 142392-142410
+- url: https://doi.org/10.1109/ACCESS.2023.3343360
+- note: "Surveys cryptographic privacy-preserving digital forensics techniques (homomorphic encryption, commutative encryption, secret sharing, searchable encryption, identity-based encryption) and proposes a conceptual Privacy-Preserving Digital Forensics (PPDF) model using homomorphic encryption with a two-stage keyword search (broad disjunctive first-keyword search on case-related data, followed by a narrower conjunctive second-keyword search on case-pertinent data) so that only the final, decrypted analysis result - not the full underlying dataset - is ever exposed in plaintext to the investigator. Source file: raw/IEEE Access/Cryptographic Techniques for Data Privacy in Digital Forensics.pdf."
+
+### DFCite-2019
+
+- type: article
+- author: K, Ramya and Rath, Sutirth and Venkataraman, P. B. and Kumar, Ratnesh
+- title: "Cyber physical systems security: Bridging privacy, verification, intelligence, and forensics"
+- year: 2026
+- journal: IEEE Access, 14, pp. 34030-34049
+- url: https://doi.org/10.1109/ACCESS.2026.3668412
+- note: "Broad survey unifying differential privacy, physically unclonable functions, blockchain, AI/ML intrusion detection, formal verification, and digital forensics for cyber-physical systems (CPS) security; its forensics section (VIII) identifies the field's shift from reactive investigation to proactive forensic readiness via a three-phase (before/during/after-attack) evidence lifecycle, and explicitly flags that existing CPS forensic solutions remain disjointed, addressing either cyber evidence or physical evidence but not both in an integrated investigation. Source file: raw/IEEE Access/Cyber Physical Systems Security- Bridging Privacy, Verification, Intelligence, and Forensics.pdf."
+
+### DFCite-2020
+
+- type: article
+- author: Sharma, Prinkle and Gillanders, James
+- title: "Cybersecurity and forensics in connected autonomous vehicles: A review of the state-of-the-art"
+- year: 2022
+- journal: IEEE Access, 10, pp. 108979-108997
+- url: https://doi.org/10.1109/ACCESS.2022.3213843
+- note: "Reviews connected autonomous vehicle (CAV) architecture, sensor/communication/actuator cyberattacks, and forensic approaches, presenting a combined proactive (live pre-defined-data collection, automated preservation/event-detection/analysis, preliminary report) and reactive (identification, preservation, collection, analysis, final report) digital forensics investigation process; documents that as of the paper's writing, NIST had released no CAV-specific forensic standards or guidelines, leaving ISO/IEC 27037 as the only broadly applicable digital-evidence-handling standard and no validated CAV-specific tools. Source file: raw/IEEE Access/Cybersecurity and Forensics in Connected Autonomous Vehicles- A Review of the State-of-the-Art.pdf."

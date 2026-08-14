@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1105
 source_refs:
   - DFCite-1100
-updated_at: 2026-08-10
+  - DFCite-2013
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -21,7 +22,7 @@ The study demonstrates concrete, low-cost attacks against specific widely-used a
 
 ## Why It Matters
 
-An investigator relying on a similarity digest match (or non-match) as evidence — for example, that a file is/is not related to a known blacklisted or allow-listed artifact — is relying on a comparison that a knowledgeable adversary can manipulate in either direction with a small, often practical number of byte-level changes, without needing to break any cryptographic primitive. Because the specific vulnerability depends on the target algorithm's internal design (feature length, mapping function, storing structure, coverage), the same investigator's confidence in a match should vary by which specific similarity digest algorithm produced it.
+An investigator relying on a similarity digest match (or non-match) as evidence — for example, that a file is/is not related to a known blacklisted or allow-listed artifact, or that a blockchain-recorded evidence block's fuzzy hash still matches its original (per DFCite-2013's SSDEEP-based Merkle-tree tamper check) — is relying on a comparison that a knowledgeable adversary can manipulate in either direction with a small, often practical number of byte-level changes, without needing to break any cryptographic primitive. Because the specific vulnerability depends on the target algorithm's internal design (feature length, mapping function, storing structure, coverage), the same investigator's confidence in a match should vary by which specific similarity digest algorithm produced it. In particular, an SSDEEP-based evidence-integrity check that treats similarity at or above a fixed threshold (e.g. 90%) as proof of authenticity is exposed to ssdeep's known emulation-attack surface, where an adversary could in principle craft a tampered evidence block that still scores above the threshold.
 
 ## Related Mitigations
 
@@ -30,7 +31,9 @@ An investigator relying on a similarity digest match (or non-match) as evidence 
 ## Used By
 
 - [[techniques/Similarity-based Android malware family detection]]
+- [[techniques/Blockchain-anchored digital evidence integrity and chain-of-custody management]]
 
 ## References
 
 - [DFCite-1100] Martín-Pérez et al., 2021, "Bringing order to approximate matching: Classification and attacks on similarity digest algorithms", FSI: Digital Investigation 36.
+- [DFCite-2013] Mahrous et al., 2021, "An enhanced blockchain-based IoT digital forensics architecture using fuzzy hash", IEEE Access 9 — uses SSDEEP similarity above a fixed threshold as its blockchain evidence-block tamper check, which is exposed to this same attack surface.
