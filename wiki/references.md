@@ -3746,3 +3746,53 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Journal of Digital Forensics, Security and Law, 15, Article 6
 - url: https://doi.org/10.15394/jdfsl.2021.1551
 - note: "Introduces CounterSteg, free software for positively identifying and attributing LSB image steganography by bit-plane/color-channel visual comparison of a suspect payload image against its located original cover image, evaluated against eight steganographic programs of varying quality; also provides a 14-location checklist for locating a surviving original cover image and a similar-image search facility. Source for new technique [[techniques/Detect image LSB steganography using bit-plane cover-image comparison]], its weakness, and mitigation. Source file: raw/JDFSL/Identification of LSB image Steganography using Cover Image Comparisons.pdf."
+
+### DFCite-2068
+
+- type: article
+- author: Abel-Boozer, Alex and John, Arun and Mukherjee, Tathagata
+- title: "Internet of Things software and hardware architectures and their impacts on forensic investigations: Current approaches and challenges"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 4
+- url: https://doi.org/10.58940/1558-7223.1759
+- note: "A secondary survey (not primary research) proposing a generic five-layer IoT device architecture model (Physical Interface, Device, Network/Transport, Presentation, Integration layers) and surveying device-family case studies (Amazon Alexa, Google Nest, Windows 10 IoT, smartwatches, vehicles, IoMT, IIoT) and forensic frameworks (real-time, ML/AI-based, blockchain-based, fog-based), each drawn from other primary papers. Used only to extend the existing [[techniques/Acquire forensic artifacts from a smart IoT device across hardware, companion-app, network, and cloud sources]] technique with its five-layer architectural framing and illustrative device-family examples, per the style guide's preference for primary sources over survey papers except where the survey adds genuine synthesis value (the layering model itself). Source file: raw/JDFSL/Internet of Things Software and Hardware Architectures and Their Impacts on Forensic Investigations- Current Approaches and Challenges.pdf."
+
+### DFCite-2069
+
+- type: article
+- author: Abiodun, Orunsolu Abdul and Sodiya, A. S. and Kareem, S. O. and Oladimeji, G. B.
+- title: "Performance assessment of some phishing predictive models based on minimal feature corpus"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 5
+- url: https://doi.org/10.58940/1558-7223.1692
+- note: "Proposes a Frequency Feature Assessment Algorithm that reduces a phishing feature corpus to a minimal, high-relevance 13-feature URL/webpage set, then benchmarks five classical ML classifiers on it, finding Random Tree best (96.1% accuracy, 0.39% FP rate). Source for new technique [[techniques/Select phishing-detection features using frequency-analysis minimal feature selection]], its weakness, and mitigation. Source file: raw/JDFSL/Performance Assessment of some Phishing predictive models based on Minimal Feature corpus Authors .pdf."
+
+### DFCite-2070
+
+- type: article
+- author: David, Anne and Morris, Sarah and Appleby-Thomas, Gareth
+- title: "Social media user relationship framework (SMURF)"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 1
+- url: https://doi.org/10.15394/jdfsl.2021.1698
+- note: "Proof-of-concept live-triage framework (SMURF) automating recovery of browser artifacts (history, cache, session-store) indicating social media registration, search/view, sharing, and association/relationship activity, weighted on a five-level evidential-reliability scale, validated against Autopsy 4.15.0 on a Twitter case study. Source for new technique [[techniques/Infer social media user activity and relationships from browser artifacts using a weighted evidence scale]], its weakness, and mitigation. Source file: raw/JDFSL/Social Media User Relationship Framework (SMURF).pdf."
+
+### DFCite-2071
+
+- type: article
+- author: Steel, Chad M. S. and Newman, Emily and O'Rourke, Suzanne and Quayle, Ethel
+- title: "Technical behaviours of child sexual exploitation material offenders"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 2
+- url: https://doi.org/10.15394/jdfsl.2022.1794
+- note: "Anonymous self-report survey (n=78) of previously convicted CSEM offenders quantifying gateway/overall technology usage, storage rationale, and countermeasure usage rates (browsing-history deletion, in-private browsing, secure wiping, mislabeled directories, encryption, VPN, Tor), finding encryption usage was not elevated relative to a general-population reference group and that a substantial minority stored no material at all. Source for new technique [[techniques/Anticipate common CSEM-offender technical countermeasures during a forensic examination]], its weakness, and mitigation. Source file: raw/JDFSL/TECHNICAL BEHAVIOURS OF CHILD SEXUAL EXPLOITATION MATERIAL OFFENDERS.pdf."
+
+### DFCite-2072
+
+- type: article
+- author: Bergman, Jesper and Popov, Oliver B.
+- title: "The Digital Detective's Discourse: A toolset for forensically sound collaborative dark web content annotation and collection"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 5
+- url: https://doi.org/10.15394/jdfsl.2022.1740
+- note: "Presents the D3 toolset: a Tor Browser/Firefox add-on for in-browser annotation and categorization of dark web content, a hash-verified central archiving/sync server, and ML classifiers (85-96% accuracy) trained on the resulting labelled data set, evaluated with Cohen's kappa inter-annotator agreement (0.84 overall). Source for new technique [[techniques/Collect and annotate dark web content for investigation using a forensically sound, hash-verified toolset]], its weakness, and mitigation. Source file: raw/JDFSL/The Digital Detective_s Discourse - A toolset for forensically sound collaborative dark web content annotation and collection.pdf."
