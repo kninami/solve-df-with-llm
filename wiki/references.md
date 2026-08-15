@@ -3796,3 +3796,43 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Journal of Digital Forensics, Security and Law, 17, Article 5
 - url: https://doi.org/10.15394/jdfsl.2022.1740
 - note: "Presents the D3 toolset: a Tor Browser/Firefox add-on for in-browser annotation and categorization of dark web content, a hash-verified central archiving/sync server, and ML classifiers (85-96% accuracy) trained on the resulting labelled data set, evaluated with Cohen's kappa inter-annotator agreement (0.84 overall). Source for new technique [[techniques/Collect and annotate dark web content for investigation using a forensically sound, hash-verified toolset]], its weakness, and mitigation. Source file: raw/JDFSL/The Digital Detective_s Discourse - A toolset for forensically sound collaborative dark web content annotation and collection.pdf."
+
+### DFCite-2073
+
+- type: article
+- author: Olber, Paweł
+- title: "The survey on cross-border collection of digital evidence by representatives from Polish prosecutors' offices and judicial authorities"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 3
+- url: https://doi.org/10.58940/1558-7223.1700
+- note: "Survey (n=138) of Polish prosecutorial/judicial representatives on cross-border cloud digital evidence collection practices, finding significant proportions incorrectly believe police have remote cross-border search authority or that searching a foreign-hosted email inbox via a browser is legal, and documenting the Article 32 public-availability/voluntary-consent exceptions and the 24/7 contact-point mechanism as the correct lawful bases. Source for new technique [[techniques/Acquire cross-border cloud evidence using a Budapest Convention Article 32 lawful-access basis]], its weakness, and mitigation. Source file: raw/JDFSL/The survey on cross-border collection of digital evidence by representatives from Polish prosecutors’ offices and judicial authorities.pdf."
+
+### DFCite-2074
+
+- type: article
+- author: Lonardo, Thomas and Rea, Alan and White, Doug
+- title: "To license or not to license reexamined: An updated report on licensing of digital examiners under state private investigator statutes"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 1
+- url: https://doi.org/10.15394/jdfsl.2022.1770
+- note: "Reference-only: a state-by-state US regulatory/statutory review of whether private investigator (PI) licensing statutes apply to digital examiners (DEs), covering exemption categories (employer/employee, practicing attorney, computer-forensics-specific, expert witness, other) and per-state civil/criminal penalties for unlicensed practice. Not used as a technique/weakness/mitigation source because it addresses professional-licensing/business-liability compliance for the examiner rather than an investigative technique or an ASTM-categorizable evidence-quality defect (the paper's own penalties concern the examiner's legal exposure, not evidence admissibility or completeness); cited for completeness. Source file: raw/JDFSL/To License or Not to License Reexamined- An Updated Report on Licensing of Digital Examiners Under State Private Investigator Statutes.pdf."
+
+### DFCite-2075
+
+- type: article
+- author: Herrera, Lazaro A.
+- title: "Viability of consumer grade hardware for learning computer forensics principles"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 3
+- url: https://doi.org/10.15394/jdfsl.2022.1683
+- note: "Validates budget consumer-grade forensic hardware/software against forensics-grade hardware using NIST CFTT Federated Testing, finding a $50 CoolGear write blocker failed hardware-write-block validation (modified sectors) in every tested configuration, and that free imaging software (Roadkil's Diskimage) and consumer flash-drive-based imaging tools (Tableau Imager without its matched hardware bridge) also failed to capture correctly in specific configurations. Used to extend [[techniques/Validate a forensic tool's conformance using a CFTT-aligned specification]] with a third (consumer-hardware-validation) instantiation and to source a new weakness/mitigation pair on consumer write-blocker reliability. Source file: raw/JDFSL/Viability of Consumer Grade Hardware for Learning Computer Forensics Principles.pdf."
+
+### DFCite-2076
+
+- type: article
+- author: Korkin, Igor
+- title: "Windows kernel hijacking is not an option: MemoryRanger comes to the rescue again"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 4
+- url: https://doi.org/10.58940/1558-7223.1726
+- note: "Presents three new Windows kernel hijacking attacks (Handle Table Hijacking, Hijacking NTFS data structures, and Token Hijacking) that bypass OS security features including the SidHash token-integrity check, and the updated MemoryRanger hypervisor's isolated-enclave defense against them, tested on Windows 10 1903 x64. Source for new technique [[techniques/Detect Windows Token Hijacking privilege escalation by comparing token content against a legitimately elevated process]], its weakness, and mitigation. Source file: raw/JDFSL/Windows Kernel Hijacking Is Not an Option- MemoryRanger Comes to the Rescue Again.pdf."
