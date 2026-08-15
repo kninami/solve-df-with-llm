@@ -3716,3 +3716,33 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Journal of Digital Forensics, Security and Law, 16, Article 5
 - url: https://doi.org/10.58940/1558-7223.1743
 - note: "Real-case-study forensic investigation of an e-banking phishing attack: recovers the victim's browsing history from a UFED-Cellebrite mobile extraction to identify the fake domain visited, mirrors the live phishing site with HTTrack to recover its WordPress-based file structure and a log file containing multiple victims' plaintext submitted data, and resolves/WHOIS-queries the site's hosting IP to reach information described as 'thought to belong to the attacker.' Source for new techniques [[techniques/Recover a phishing website's captured victim data and server-side artifacts by mirroring its file structure]] and [[techniques/Attribute a phishing website's hosting infrastructure using WHOIS and IP lookup]], their shared weakness, and mitigation. Source file: raw/JDFSL/DON_T BITE THE BAIT- PHISHING ATTACK FOR INTERNET BANKING (E-BANKING).pdf."
+
+### DFCite-2065
+
+- type: article
+- author: Sohail, Humna
+- title: "Fault lines in the application of international humanitarian law to cyberwarfare"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 8
+- url: https://doi.org/10.15394/jdfsl.2022.1761
+- note: "Reference-only: a legal-theory analysis of International Humanitarian Law (IHL)/Law of Armed Conflict doctrine applied to cyberwarfare — interpreting 'attack' and 'object' (including whether data is a protected object) under Additional Protocol I, and the difficulty of state attribution (effective-control vs. overall-control tests) for classifying an armed conflict as international or non-international. Not used as a technique/weakness/mitigation source because it is legal/doctrinal analysis with no first-person investigative technique within the digital forensic investigation lifecycle covered by the SOLVE-IT objectives; cited for completeness. Source file: raw/JDFSL/Fault Lines In The Application Of International Humanitarian Law To Cyberwarfare.pdf."
+
+### DFCite-2066
+
+- type: article
+- author: Gilbert, Alissa and Seigfried-Spellar, Kathryn C.
+- title: "Forensic discoverability of iOS vault applications"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 1
+- url: https://doi.org/10.15394/jdfsl.2022.1773
+- note: "Comparative study of five iOS vault/photo-vault apps (KeepSafe, Photo Vault, Calculator+, Secret Safe, Purple photo vault) processed through three forensic toolkits (Cellebrite, Axiom, Mobilyze), finding every vault app left recoverable residual evidence (thumbnails, database BLOBs, duplicate copies, live-preview videos, and in one case a plaintext PIN) despite claiming to protect hidden photos, and that toolkit completeness varied unpredictably per app. Source for new technique [[techniques/Recover hidden photos from an iOS vault application's residual artifacts]], its weakness, and mitigation. Source file: raw/JDFSL/Forensic Discoverability of iOS Vault Applications.pdf."
+
+### DFCite-2067
+
+- type: article
+- author: Pelosi, Michael and Easttom, Chuck
+- title: "Positive identification of least significant bit (LSB) image steganography using cover image comparisons"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 15, Article 6
+- url: https://doi.org/10.15394/jdfsl.2021.1551
+- note: "Introduces CounterSteg, free software for positively identifying and attributing LSB image steganography by bit-plane/color-channel visual comparison of a suspect payload image against its located original cover image, evaluated against eight steganographic programs of varying quality; also provides a 14-location checklist for locating a surviving original cover image and a similar-image search facility. Source for new technique [[techniques/Detect image LSB steganography using bit-plane cover-image comparison]], its weakness, and mitigation. Source file: raw/JDFSL/Identification of LSB image Steganography using Cover Image Comparisons.pdf."
