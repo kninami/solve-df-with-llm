@@ -5,13 +5,13 @@ Last updated: 2026-08-15
 ## Source Snapshot
 
 - Seed source: `raw/` paper corpus (DI: 442 papers, IEEE Access: 52 papers, JDFSL: 24 papers — 518 total)
-- Ingestion progress: 367 / 518 papers ingested — `raw/DI` 310/442 (alphabetical), `raw/IEEE Access` 52/52 (COMPLETE), `raw/JDFSL` 5/24 (alphabetical)
-- References indexed: 363
+- Ingestion progress: 377 / 518 papers ingested — `raw/DI` 320/442 (alphabetical), `raw/IEEE Access` 52/52 (COMPLETE), `raw/JDFSL` 5/24 (alphabetical)
+- References indexed: 373
 - Objectives: 23 (fixed hub, from earlier SOLVE-IT bootstrap; retained as navigation scaffold)
-- Techniques: 307
-- Weaknesses: 327
-- Mitigations: 328
-- **ID ranges:** `raw/DI` entities use the sequential 1001+ block; `raw/IEEE Access` and `raw/JDFSL` entities use a reserved 2001+ block, assigned by a concurrent worktree to avoid ID collisions with in-flight `raw/DI` ingestion. The two ranges were merged into a single wiki on 2026-08-15; see wiki/log.md for the merge commit and per-batch detail.
+- Techniques: 315
+- Weaknesses: 334
+- Mitigations: 335
+- **ID ranges:** `raw/DI` entities use the sequential 1001+ block; `raw/IEEE Access` and `raw/JDFSL` entities use a reserved 2001+ block, assigned by a concurrent worktree to avoid ID collisions with in-flight `raw/DI` ingestion. The two ranges were merged into a single wiki on 2026-08-15; see wiki/log.md for the merge commit and per-batch detail. Post-merge `raw/DI` ingestion (files 311+) continues the sequential 1001+ block (next available: DFT-1277, DFW-1287, DFM-1288, DFCite-1318), disjoint from the `raw/JDFSL` worktree's reserved 2058+ block.
 
 ## Fixed Pages
 
@@ -28,29 +28,29 @@ Last updated: 2026-08-15
 
 ## Coverage Status
 
-- Technique pages generated: 307
-- Weakness pages generated: 327
-- Mitigation pages generated: 328
+- Technique pages generated: 315
+- Weakness pages generated: 334
+- Mitigation pages generated: 335
 - Objective hub generated: yes (fixed navigation page, not yet re-derived from paper corpus)
 
 ## Objectives (technique counts reflect current paper-derived techniques only)
 
 | ID | Name | # Techniques |
 | --- | --- | ---: |
-| [[objectives#DFO-1019 Detect anti-forensics and other anomalies|DFO-1019]] | Detect anti-forensics and other anomalies | 61 |
-| [[objectives#DFO-1001 Reconstruct events|DFO-1001]] | Reconstruct events | 35 |
-| [[objectives#DFO-1008 Establish identities|DFO-1008]] | Establish identities | 26 |
+| [[objectives#DFO-1019 Detect anti-forensics and other anomalies|DFO-1019]] | Detect anti-forensics and other anomalies | 64 |
+| [[objectives#DFO-1001 Reconstruct events|DFO-1001]] | Reconstruct events | 36 |
+| [[objectives#DFO-1008 Establish identities|DFO-1008]] | Establish identities | 27 |
 | [[objectives#DFO-1006 Acquire data|DFO-1006]] | Acquire data | 24 |
 | [[objectives#DFO-1016 Overcome protection mechanisms|DFO-1016]] | Overcome protection mechanisms | 20 |
 | [[objectives#DFO-1004 Conduct research|DFO-1004]] | Conduct research | 20 |
 | [[objectives#DFO-1012 Locate potentially relevant content|DFO-1012]] | Locate potentially relevant content | 19 |
+| [[objectives#DFO-1011 Extract artifacts stored by applications|DFO-1011]] | Extract artifacts stored by applications | 18 |
 | [[objectives#DFO-1018 Read data from digital evidence storage formats|DFO-1018]] | Read data from digital evidence storage formats | 17 |
-| [[objectives#DFO-1011 Extract artifacts stored by applications|DFO-1011]] | Extract artifacts stored by applications | 17 |
 | [[objectives#DFO-1015 Prepare for a digital investigation|DFO-1015]] | Prepare for a digital investigation | 14 |
 | [[objectives#DFO-1003 Review content for relevance|DFO-1003]] | Review content for relevance | 11 |
-| [[objectives#DFO-1005 Prioritize digital evidence sources|DFO-1005]] | Prioritize digital evidence sources | 10 |
+| [[objectives#DFO-1002 Extract data from specific formats|DFO-1002]] | Extract data from specific formats | 11 |
+| [[objectives#DFO-1005 Prioritize digital evidence sources|DFO-1005]] | Prioritize digital evidence sources | 11 |
 | [[objectives#DFO-1010 Preserve digital evidence|DFO-1010]] | Preserve digital evidence | 9 |
-| [[objectives#DFO-1002 Extract data from specific formats|DFO-1002]] | Extract data from specific formats | 9 |
 | [[objectives#DFO-1021 Access device data for acquisition|DFO-1021]] | Access device data for acquisition | 8 |
 | [[objectives#DFO-1017 Extract artifacts stored by the operating system|DFO-1017]] | Extract artifacts stored by the operating system | 7 |
 | [[objectives#DFO-1013 Access partitions, volumes, and file systems data|DFO-1013]] | Access partitions, volumes, and file systems data | 5 |
@@ -58,7 +58,7 @@ Last updated: 2026-08-15
 | [[objectives#DFO-1007 Reduce data under consideration|DFO-1007]] | Reduce data under consideration | 3 |
 | [[objectives#DFO-1014 Find potential digital evidence sources|DFO-1014]] | Find potential digital evidence sources | 2 |
 | [[objectives#DFO-1023 Extract specific artifact types|DFO-1023]] | Extract specific artifact types | 1 |
-All other objectives currently have 0 techniques derived from ingested papers.
+All other objectives (DFO-1009, DFO-1022) currently have 0 techniques derived from ingested papers.
 
 ## Notes
 
@@ -86,3 +86,5 @@ All other objectives currently have 0 techniques derived from ingested papers.
 - **Batch 17 (2026-08-13, files 261-270):** ingested GreenForensics, Hamming distributions of popular perceptual hashing techniques, Harder better faster stronger (context-based password dictionaries), Have you been upstairs (iPhone floor registrations), Hit and run (Progressive Snapshot vehicle telematics), Horodocs (blockchain timestamping), How viable is password cracking (breach-corpus guessability), Hybrid DN-MobileNet (source camera ID from video), Hypervisor memory acquisition for ARM, and Hypervisor-based data synthesis (agent-less ForTrace). Reuse-first checks: the two password-cracking papers were kept as separate new technique pages from the existing [[techniques/Recover passwords using a dictionary attack with generated mangling rules on cloud GPUs]] rather than merged into it, since one composes a contextual candidate dictionary (a distinct input-generation technique) and the other is a population-level feasibility/risk-assessment methodology rather than an attack-execution technique — both now cross-link to it instead. The Hamming-distributions paper was made its own technique (a benchmarking methodology) while its findings were folded as an added `source_ref` into the existing [[weaknesses/Hamming-distance perceptual hash comparison ignores positional clustering, letting image mirroring evade DCT-based hash matching]] and cross-linked from [[techniques/Compare perceptual hashes using spatial-encoding-aware distance metrics]], since it independently confirms (at million-image scale) the same mirroring-evasion finding that paper mechanistically explains. The hypervisor-based-data-synthesis paper was reuse-only: no new page, since it is a direct extension of the existing agent-based ForTrace instance already covered by [[techniques/Synthesize digital forensic training and validation datasets]], [[weaknesses/Virtualized-environment forensic dataset synthesis leaves telltale artifacts absent from real-world data]], and [[mitigations/Disclose and account for virtualization and synthesizer artifacts when using synthetic forensic datasets]], all three of which were extended with its agent-less-architecture findings (most, but not all, prior catalogued traces are attributable to the client-side agent and eliminated by removing it; a shell-history trace persists regardless). The Progressive Snapshot paper's undocumented-API acquisition method extended [[techniques/Acquire cloud storage data comprehensively using combined open and internal API access]] as a third case-study instance, while its distinct vehicle-incident-reconstruction use case became a new technique. Created 9 new technique pages (DFT-1225 to DFT-1233), 9 new weakness pages (DFW-1243 to DFW-1251), and 9 new mitigation pages (DFM-1244 to DFM-1252); added 10 references (DFCite-1258 to DFCite-1267). All 9 new techniques were mapped to the objective matching their actual content (DFO-1019, DFO-1004, DFO-1016 x2, DFO-1001 x2, DFO-1010, DFO-1008, DFO-1006). No instruction-like or prompt-injection-style text directed at an AI agent was found in any of the ten source PDFs. Verified: no duplicate `DFT-`/`DFW-`/`DFM-`/`DFCite-` IDs; no broken `[[...]]` wikilinks; every weakness has `categories` + `mitigation_ids`; every technique has `objective_ids` + `weakness_ids`; every new/edited file starts with a clean `---` frontmatter delimiter. Total ingestion progress: 270/518 papers; technique/weakness/mitigation/reference counts: 224/249/250/266. Next batch, if ingestion continues: `raw/DI`, files 271-280 (alphabetical).
 - **2026-08-14 file-numbering correction:** while preparing the log entry after processing what was tracked internally as "files 31-40," a recount of the directory listing found the working file-index list used for that batch had skipped three files ("Enhancing Phishing Detection...", "Exploring the Pitfalls of Black Boxes in Media Forensics...", "Few-Shot Learning With Prototypical Networks..."), which are actually alphabetical positions 31-33; the papers actually processed under the "31-40" label were really positions 34-43. All three skipped papers were ingested immediately as a catch-up (still same-day, same session) before any log entry referencing the incorrect range was written, so no log entry in this file ever cites the wrong range — the combined batch log entry for this session correctly covers files 31-43 (13 papers). Ingestion progress is accurate at 43/52 `raw/IEEE Access` files as of this correction; the next batch begins at file 44.
 - **2026-08-14: parallel-worktree `raw/IEEE Access` ingestion begins.** This worktree (a separate isolated git worktree from the main checkout) was tasked with ingesting all 52 `raw/IEEE Access` papers and, time permitting, the 24 `raw/JDFSL` papers, while a separate concurrent agent continues `raw/DI` ingestion past file 100 in the main checkout/worktree. Because this worktree's branch point predates that later `raw/DI` progress and the STYLE_GUIDE.md-alignment commit, all reuse-first searches in this session were performed only against this worktree's own on-disk pages (90/103/103 techniques/weaknesses/mitigations, 100 references, from `raw/DI` files 1-100), not the main checkout's later state — this is expected and intentional per the task's ID-reservation design, not an oversight. All new entity IDs from this point use the reserved 2001+ block (DFT-2001+, DFW-2001+, DFM-2001+, DFCite-2001+) to avoid collision at merge time with the main worktree's concurrently-assigned sequential 1101+ IDs. New technique names follow the current (STYLE_GUIDE.md) present-tense-imperative-verb convention even though this worktree's pre-existing 90 technique pages still use the earlier noun-phrase convention, since STYLE_GUIDE.md and the current AGENT.md (read directly from the main checkout path per the task instructions) govern all new content regardless of this worktree's stale docs.
+
+- **Batch 2026-08-15 (raw/DI files 311-320):** post-merge `raw/DI` ingestion resumes in the sequential 1001+ block (disjoint from the parallel `raw/JDFSL` worktree's reserved 2058+ block). Ingested "Microsoft's Your Phone environment from a digital forensic perspective" (DFCite-1308), "Modern macOS userland runtime analysis" (DFCite-1309), "Module extraction and DLL hijacking detection via single or multiple memory dumps" (DFCite-1310), "Money laundering through video games, a criminals' playground" (DFCite-1311), "Monitoring an anonymity network" (DFCite-1312), "Mount SMB.pcap" (DFCite-1313), "Multimedia source identification using an improved weight PRNU noise extraction model in short compressed videos" (DFCite-1314, reuse-extended the existing PRNU video technique), "NapierOne" (DFCite-1315, reuse-extended the existing dataset-synthesis technique), "Navigating the digital frontier" (DFCite-1316, reference-only editorial), and "Neural AutoForensics" (DFCite-1317). Broadened the existing .NET-specific runtime-offset-fragility weakness/mitigation pair (DFW-1275/DFM-1276) to cover the new macOS Objective-C/Swift runtime technique as well, since both describe the same underlying category (manually reverse-engineered runtime structures breaking across versions); renamed both pages and updated the one inbound link. See wiki/log.md for full per-paper detail.

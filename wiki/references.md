@@ -3078,6 +3078,107 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 50, 301809
 - url: https://doi.org/10.1016/j.fsidi.2024.301809
 - note: "Recovers IndexedDB records (including incognito-mode data that never touches disk) from Chromium-based browser and desktop-application memory by carving LevelDB's internal C++ objects and reconstructing its MemTable SkipList, validated on Chrome, Edge, and Microsoft Teams."
+
+### DFCite-1308
+
+- type: article
+- author: Domingues, Patricio and Andrade, Luis Miguel and Frade, Miguel
+- title: "Microsoft's Your Phone environment from a digital forensic perspective"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 38, 301177
+- url: https://doi.org/10.1016/j.fsidi.2021.301177
+- note: "Primary source for the SQLite database and registry artifacts left by Microsoft's Your Phone Android Companion app and Windows 10 Your Phone app, including the notification-deletion-on-acknowledgment behavior this weakness documents."
+
+### DFCite-1309
+
+- type: article
+- author: Manna, Modhuparna and Case, Andrew and Ali-Gombe, Aisha and Richard III, Golden G.
+- title: "Modern macOS userland runtime analysis"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 38, 301221
+- url: https://doi.org/10.1016/j.fsidi.2021.301221
+- note: "Introduces Volatility plugins that walk the Objective-C and Swift runtimes' internal data structures to enumerate loaded classes, instances, variables, and methods for generic macOS userland malware detection, directly analogous to the same authors' .NET runtime work already cited by DFT-1264."
+
+### DFCite-1310
+
+- type: article
+- author: Fernández-Álvarez, Pedro and Rodríguez, Ricardo J.
+- title: "Module extraction and DLL hijacking detection via single or multiple memory dumps"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 44, 301505
+- url: https://doi.org/10.1016/j.fsidi.2023.301505
+- note: "Source for the Modex/Intermodex module-aggregation methodology and the accompanying path/size-based DLL hijacking detection technique and its documented blind spot."
+
+### DFCite-1311
+
+- type: article
+- author: Cooke, Dan and Marshall, Angus
+- title: "Money laundering through video games, a criminals' playground"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 50, 301802
+- url: https://doi.org/10.1016/j.fsidi.2024.301802
+- note: "Applies frequency-based money-laundering indicators to real Steam Marketplace trade data for CSGO, providing the source technique and its documented limitation that high trade frequency alone does not confirm laundering."
+
+### DFCite-1312
+
+- type: article
+- author: Simioni, Marco and Gladyshev, Pavel and Habibnia, Babak and de Souza, Paulo Roberto Nunes
+- title: "Monitoring an anonymity network: Toward the deanonymization of hidden services"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 38, 301135
+- url: https://doi.org/10.1016/j.fsidi.2021.301135
+- note: "Source for the availability-correlation (Hamming Distance) deanonymization method applied to the I2P network, including the documented node-expiration-timeout blind spot and its discrete-filter mitigation."
+
+### DFCite-1313
+
+- type: article
+- author: Hilgert, Jan-Niclas and Mahr, Axel and Lambertz, Martin
+- title: "Mount SMB.pcap: Reconstructing file systems and file operations from network traffic"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 50, 301807
+- url: https://doi.org/10.1016/j.fsidi.2024.301807
+- note: "Source for the SMB-traffic file-system-mounting methodology and SMB Command Fingerprinting technique, including the documented limitation that protocol-only reconstruction conceals source/destination network context."
+
+### DFCite-1314
+
+- type: article
+- author: Su, Kaiqing and Tian, Nili and Pan, Qing
+- title: "Multimedia source identification using an improved weight photo response non-uniformity noise extraction model in short compressed videos"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 42-43, 301473
+- url: https://doi.org/10.1016/j.fsidi.2022.301473
+- note: "Extends the existing PRNU video source-camera identification technique with a variance-stabilized-transform multi-scale filtering and QP-weighting extraction model that improves recognition on short, heavily compressed videos by about 20% over prior models."
+
+### DFCite-1315
+
+- type: article
+- author: Davies, Simon R. and Macfarlane, Richard and Buchanan, William J.
+- title: "NapierOne: A modern mixed file data set alternative to Govdocs1"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 40, 301330
+- url: https://doi.org/10.1016/j.fsidi.2021.301330
+- note: "Documents a real-world-file-curation methodology (consensus file-type ranking, VirusTotal/dedup/format validation) for building a modern mixed-file benchmark corpus, extending the existing dataset-synthesis technique page with a curation-based (rather than simulation-based) approach."
+
+### DFCite-1316
+
+- type: misc
+- author: Geradts, Zeno
+- title: "Navigating the digital frontier – Key themes in digital forensics"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 53, 301940
+- url: https://doi.org/10.1016/j.fsidi.2025.301940
+- note: "Editorial survey of the issue's themes; reference-only, contains no first-person investigative technique, weakness, or mitigation of its own."
+
+### DFCite-1317
+
+- type: article
+- author: Sewak, Mohit and Sahay, Sanjay K. and Rathore, Hemant
+- title: "Neural AutoForensics: Comparing Neural Sample Search and Neural Architecture Search for malware detection and forensics"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 43, 301444
+- url: https://doi.org/10.1016/j.fsidi.2022.301444
+- note: "Source for the DRo-based Neural Sample Search (DRo-NSS) training-sample-selection technique and its benchmark reliance on the aging 2015 Malicia dataset, companion paper to the already-cited GreenForensics work (DFCite-1258)."
+
 ### DFCite-2001
 
 - type: article

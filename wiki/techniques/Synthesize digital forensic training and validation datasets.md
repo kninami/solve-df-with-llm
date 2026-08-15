@@ -2,7 +2,7 @@
 id: DFT-1064
 type: technique
 name: Synthesize digital forensic training and validation datasets
-description: Build synthetic datasets for forensic tool training, testing, and validation by scripting simulated human activity and automatically executing it against a target environment, rather than manually populating devices or systems by hand — either by having an LLM agent author a Markdown-based "storyboard" of user activities executed on a real or emulated mobile device, or by driving a virtualized desktop/network environment through a modular declarative-scripting framework, with generated-artifact provenance documented for later use.
+description: Build reusable datasets for forensic tool training, testing, and validation without manually populating devices or systems by hand — either by scripting simulated human activity and automatically executing it against a target environment (an LLM-authored mobile-device storyboard, or a declaratively-scripted virtualized desktop/network environment), or by systematically curating and validating a corpus of real-world files, with generated- or curated-artifact provenance documented for later use.
 objective_ids:
   - DFO-1004
 weakness_ids:
@@ -16,6 +16,7 @@ aliases:
   - Automated Kinetic Framework
   - ChatGPT-assisted teaching scenario storyboarding
   - ForTrace
+  - NapierOne
 source_refs:
   - DFCite-1059
   - DFCite-1061
@@ -23,7 +24,8 @@ source_refs:
   - DFCite-1247
   - DFCite-1267
   - DFCite-1273
-updated_at: 2026-08-14
+  - DFCite-1315
+updated_at: 2026-08-15
 status: complete
 ---
 
@@ -45,9 +47,12 @@ Manually building forensic datasets by hand is time-consuming and rarely reflect
 
 **Manually-authored teaching scenarios (ChatGPT-assisted storyboarding)**: rather than executing a storyboard against a real or emulated device/VM, a general-purpose LLM can be prompted directly to author the narrative content of a digital forensics teaching scenario for manual population — an overall multi-month storyboard of a scenario's events (e.g. an intellectual-property-theft case progressing from an employee's discontent to a decision to exfiltrate data), character profiles and personas for victims/perpetrators including background, motive, and search-term themes, and synthetic content artifacts (chat conversations, emails, assignment documents, anonymised messages) that would populate the resulting disk image. This lighter-weight approach requires manual construction of the actual evidence artifacts from the generated narrative content, rather than automated on-device execution, but was found to produce well-constructed, useful storyboards through iterative prompting (later corrected for less-realistic scenario choices when explicitly asked to improve them).
 
+**Real-world curated mixed-file corpora (NapierOne)**: rather than simulating activity, this approach systematically curates a benchmark corpus of real-world files spanning the file types most commonly encountered in casework, addressing a documented reproducibility gap in prior research (a survey of ransomware-detection literature found that most published test datasets were undocumented in enough detail to be reconstructed). The methodology: (1) identify candidate file types by aggregating usage-popularity statistics from more than 10 independent sources into a consensus ranking, rather than by relying on any single source; (2) gather 5,000 real-world example files for each identified file type, creating multiple subsets per type where a type has meaningfully distinct sub-characteristics (e.g. separate ZIP subsets for each compression method, since ransomware-relevant entropy varies by compression method); (3) deliberately include file types that naturally exhibit high entropy even when legitimate (e.g. certain archive and image formats), since entropy-based ransomware/encryption detection can otherwise mistake such files for encrypted ransomware output; (4) validate every gathered file (virus scanning via VirusTotal, deduplication, and file-format verification) before inclusion; (5) document and publish each data subset for reuse. The result — NapierOne — comprises nearly 500,000 files across roughly 100 data subsets spanning 44 distinct file types, published as a complement to (not a replacement for) the older Govdocs1 corpus, whose files are now over a decade old and under-represent newer formats such as XLSX/DOCX/PPTX.
+
 ## Examples
 
 - The mobile storyboard toolchain's initial field trials found human participants could not reliably distinguish AI-generated storyboard content from authentic user activity, though this was not a rigorous, statistically validated assessment.
+- NapierOne's consensus file-type ranking process combined usage statistics from more than 10 independent sources rather than any single source, and its validation pipeline (VirusTotal scanning, deduplication, format verification) was applied to every one of the nearly 500,000 files across its roughly 100 published data subsets before release.
 - AKF's sample ransomware scenario demonstrated its declarative syntax, CASE-based artifact logging, and generative-AI-assisted scenario authoring end to end on a virtualized Windows environment.
 - Prompted with "generate an outline timeline of a scenario where someone within a workplace starts a new job and slowly becomes discontent and begins to steal intellectual property", GPT-4 produced a 6-month narrative arc with month-by-month behavioral and internet-history themes, which further prompting expanded into specific candidate search terms and synthetic supporting messages for each month.
 - ForTrace's multi-user exfiltration validation scenario had a simulated malicious user disable the Windows Event Log and Prefetch before using a VeraCrypt container to exfiltrate data over SMB, then re-enable the disabled services and securely delete the user account; despite this, security-auditing log entries and a memory-recoverable password (via Volatility) still revealed the malicious activity, and its separate malware-synthesis validation scenario planted a Registry Run-key persistence mechanism whose corresponding `userinit.exe`-launched process was independently recoverable from a memory dump.
@@ -71,3 +76,4 @@ Manually building forensic datasets by hand is time-consuming and rarely reflect
 - [DFCite-1247] Göbel et al., 2022, "ForTrace - A holistic forensic data set synthesis framework", FSI: Digital Investigation 40, 301344.
 - [DFCite-1267] Wolf, Göbel, and Baier, 2024, "Hypervisor-based data synthesis: On its potential to tackle the curse of client-side agent remnants in forensic image generation", FSI: Digital Investigation 48, 301690.
 - [DFCite-1273] Schmidt and Baier, 2026, "Improving trace synthesis by utilizing computer vision for user action emulation", FSI: Digital Investigation 56, 302073. Replaces template-matching-based GUI interaction targeting with a computer-vision object-detection model for more robust and realistic agent-less scenario driving.
+- [DFCite-1315] Davies, Macfarlane, and Buchanan, 2022, "NapierOne: A modern mixed file data set alternative to Govdocs1", FSI: Digital Investigation 40, 301330. Documents the real-world-file-curation methodology and resulting benchmark corpus used as a complement to Govdocs1 for ransomware-detection and other forensic tool testing.

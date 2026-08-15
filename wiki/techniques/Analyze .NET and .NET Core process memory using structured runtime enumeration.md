@@ -37,7 +37,7 @@ Starting from a process's application-domain list (`SystemDomain::m_appDomainIdL
 
 ## Related Weaknesses
 
-- [[weaknesses/Structured .NET Framework memory analysis relies on manually reverse-engineered internal offsets that can break across runtime versions]]
+- [[weaknesses/Structured runtime memory analysis relies on manually reverse-engineered internal offsets that can break across runtime or OS versions]]
 
 ## References
 
