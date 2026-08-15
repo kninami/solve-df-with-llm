@@ -1562,3 +1562,13 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Journal of Digital Forensics, Security and Law, 17, Article 5
 - url: https://doi.org/10.58940/1558-7223.1785
 - note: "Purchased and forensically examined 100 secondhand mobile phones/tablets from UK secondhand markets (eBay, auctions, secondhand shops) using logical acquisition (XRY, MobilEdit) with manual-examination fallback, finding 52% had been factory-reset/wiped with no recoverable data, but 24% still contained data, and in 17-20% of the total sample the previous owner's identity (name, address, contacts, financial details, images) was fully recoverable because no attempt had been made to remove it before sale. Source file: raw/JDFSL/A Study of the Data Remaining on Second-Hand Mobile Devices in the UK Authors .pdf."
+
+### DFCite-2057
+
+- type: article
+- author: Hopkins, Brandon J. and Riggle, Kevin A.
+- title: "An economical method for securely disintegrating solid-state drives using blenders"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 1
+- url: https://doi.org/10.58940/1558-7223.1681
+- note: "Reference-only: an end-of-life media-sanitization/engineering study (not an investigative technique) demonstrating that sharp-blade household blenders with sufficient peak power (>=1,380W) and blade speed (>=28,000 RPM) can pulverize a 2.5-inch SSD to NSA's <2mm particle-size destruction standard within 20 minutes, as a low-cost alternative to commercial disintegrators. Not used as a technique/weakness/mitigation source because it addresses pre-investigation organizational data destruction rather than any activity within the digital forensic investigation lifecycle covered by the SOLVE-IT objectives; cited for completeness. Source file: raw/JDFSL/An Economical Method for Securely Disintegrating Solid-State Drives Using Blenders.pdf."
