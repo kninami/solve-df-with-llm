@@ -4,7 +4,8 @@ type: mitigation
 name: Independently cross-validate black-box vehicle forensic tool output before relying on it for reconstruction
 source_refs:
   - DFCite-1196
-updated_at: 2026-08-13
+  - DFCite-1277
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -25,3 +26,4 @@ Where an open-source or alternative parser exists for the same underlying data s
 ## References
 
 - [DFCite-1196] Mayer, 2026, "Examining black-box forensic tools in digital vehicle forensics: Capabilities, limitations, and practical implications", FSI: Digital Investigation 56, 302067.
+- [DFCite-1277] Choi, Park and Kong, 2026, "Integrated validation framework for EDR data reliability: Application to Korean traffic accident cases", FSI: Digital Investigation 56, 302071. Provides a concrete, automated implementation of independent cross-validation for EDR output using dashcam video, audio, and text evidence — see [[techniques/Validate EDR data reliability by synchronizing it with dashcam video, audio, and text evidence]].

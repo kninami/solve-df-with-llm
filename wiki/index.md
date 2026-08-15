@@ -1,16 +1,16 @@
 # SOLVE-IT Wiki Index
 
-Last updated: 2026-08-13
+Last updated: 2026-08-14
 
 ## Source Snapshot
 
 - Seed source: `raw/` paper corpus (DI: 442 papers, IEEE Access: 52 papers, JDFSL: 24 papers — 518 total)
-- Ingestion progress: 270 / 518 papers ingested (raw/DI, alphabetical order)
-- References indexed: 266
+- Ingestion progress: 310 / 518 papers ingested (raw/DI, alphabetical order)
+- References indexed: 306
 - Objectives: 23 (fixed hub, from earlier SOLVE-IT bootstrap; retained as navigation scaffold)
-- Techniques: 224
-- Weaknesses: 249
-- Mitigations: 250
+- Techniques: 259
+- Weaknesses: 277
+- Mitigations: 278
 
 ## Fixed Pages
 
@@ -27,33 +27,33 @@ Last updated: 2026-08-13
 
 ## Coverage Status
 
-- Technique pages generated: 224
-- Weakness pages generated: 249
-- Mitigation pages generated: 250
+- Technique pages generated: 259
+- Weakness pages generated: 277
+- Mitigation pages generated: 278
 - Objective hub generated: yes (fixed navigation page, not yet re-derived from paper corpus)
 
 ## Objectives (technique counts reflect current paper-derived techniques only)
 
 | ID | Name | # Techniques |
 | --- | --- | ---: |
-| [[objectives#DFO-1019 Detect anti-forensics and other anomalies|DFO-1019]] | Detect anti-forensics and other anomalies | 38 |
-| [[objectives#DFO-1001 Reconstruct events|DFO-1001]] | Reconstruct events | 27 |
-| [[objectives#DFO-1008 Establish identities|DFO-1008]] | Establish identities | 20 |
-| [[objectives#DFO-1004 Conduct research|DFO-1004]] | Conduct research | 17 |
-| [[objectives#DFO-1006 Acquire data|DFO-1006]] | Acquire data | 17 |
-| [[objectives#DFO-1016 Overcome protection mechanisms|DFO-1016]] | Overcome protection mechanisms | 17 |
-| [[objectives#DFO-1012 Locate potentially relevant content|DFO-1012]] | Locate potentially relevant content | 14 |
-| [[objectives#DFO-1011 Extract artifacts stored by applications|DFO-1011]] | Extract artifacts stored by applications | 14 |
-| [[objectives#DFO-1018 Read data from digital evidence storage formats|DFO-1018]] | Read data from digital evidence storage formats | 11 |
-| [[objectives#DFO-1005 Prioritize digital evidence sources|DFO-1005]] | Prioritize digital evidence sources | 9 |
-| [[objectives#DFO-1003 Review content for relevance|DFO-1003]] | Review content for relevance | 8 |
-| [[objectives#DFO-1002 Extract data from specific formats|DFO-1002]] | Extract data from specific formats | 7 |
+| [[objectives#DFO-1019 Detect anti-forensics and other anomalies|DFO-1019]] | Detect anti-forensics and other anomalies | 48 |
+| [[objectives#DFO-1001 Reconstruct events|DFO-1001]] | Reconstruct events | 30 |
+| [[objectives#DFO-1008 Establish identities|DFO-1008]] | Establish identities | 21 |
+| [[objectives#DFO-1006 Acquire data|DFO-1006]] | Acquire data | 23 |
+| [[objectives#DFO-1016 Overcome protection mechanisms|DFO-1016]] | Overcome protection mechanisms | 20 |
+| [[objectives#DFO-1004 Conduct research|DFO-1004]] | Conduct research | 19 |
+| [[objectives#DFO-1012 Locate potentially relevant content|DFO-1012]] | Locate potentially relevant content | 16 |
+| [[objectives#DFO-1011 Extract artifacts stored by applications|DFO-1011]] | Extract artifacts stored by applications | 16 |
+| [[objectives#DFO-1018 Read data from digital evidence storage formats|DFO-1018]] | Read data from digital evidence storage formats | 15 |
+| [[objectives#DFO-1005 Prioritize digital evidence sources|DFO-1005]] | Prioritize digital evidence sources | 10 |
+| [[objectives#DFO-1003 Review content for relevance|DFO-1003]] | Review content for relevance | 9 |
+| [[objectives#DFO-1002 Extract data from specific formats|DFO-1002]] | Extract data from specific formats | 8 |
 | [[objectives#DFO-1010 Preserve digital evidence|DFO-1010]] | Preserve digital evidence | 7 |
-| [[objectives#DFO-1015 Prepare for a digital investigation|DFO-1015]] | Prepare for a digital investigation | 6 |
-| [[objectives#DFO-1017 Extract artifacts stored by the operating system|DFO-1017]] | Extract artifacts stored by the operating system | 6 |
+| [[objectives#DFO-1015 Prepare for a digital investigation|DFO-1015]] | Prepare for a digital investigation | 7 |
+| [[objectives#DFO-1017 Extract artifacts stored by the operating system|DFO-1017]] | Extract artifacts stored by the operating system | 7 |
 | [[objectives#DFO-1020 Document digital forensic activities|DFO-1020]] | Document digital forensic activities | 4 |
 | [[objectives#DFO-1013 Access partitions, volumes, and file systems data|DFO-1013]] | Access partitions, volumes, and file systems data | 4 |
-| [[objectives#DFO-1021 Access device data for acquisition|DFO-1021]] | Access device data for acquisition | 3 |
+| [[objectives#DFO-1021 Access device data for acquisition|DFO-1021]] | Access device data for acquisition | 6 |
 | [[objectives#DFO-1014 Find potential digital evidence sources|DFO-1014]] | Find potential digital evidence sources | 2 |
 | [[objectives#DFO-1023 Extract specific artifact types|DFO-1023]] | Extract specific artifact types | 1 |
 | [[objectives#DFO-1007 Reduce data under consideration|DFO-1007]] | Reduce data under consideration | 1 |

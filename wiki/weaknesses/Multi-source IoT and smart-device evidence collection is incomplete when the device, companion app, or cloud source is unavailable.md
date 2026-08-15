@@ -10,7 +10,9 @@ mitigation_ids:
 source_refs:
   - DFCite-1216
   - DFCite-1232
-updated_at: 2026-08-13
+  - DFCite-1278
+  - DFCite-1280
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -36,3 +38,5 @@ An investigator who plans an investigation assuming full three-source coverage m
 
 - [DFCite-1216] Youn et al., 2021, "Forensic analysis for AI speaker with display Echo Show 2nd generation as a case study", FSI: Digital Investigation 38, 301130.
 - [DFCite-1232] Castelo Gómez et al., 2022, "Forensic analysis of the Xiaomi Mi Smart Sensor Set", FSI: Digital Investigation 42-43, 301451. Illustrates the same dependency from the opposite direction: with hardware and direct cloud-API acquisition both unobtainable, only the companion-app and network-traffic sources remained, and the investigators could not confirm whether the sensors themselves retain any local data since analysis of the sensors' own storage was never achieved.
+- [DFCite-1278] Lorenz, Stinehour, Chennamaneni, Subhani and Torre, 2023, "IoT forensic analysis: A family of experiments with Amazon Echo devices", FSI: Digital Investigation 45, 301541. A full Echo Show eMMC search for a known message recipient's name returned zero hits despite the device's own logs fully documenting the send event by account number, confirming the recipient's identity and the message's text content exist only in Amazon's cloud, not on the device.
+- [DFCite-1280] Dragonas, Lambrinoudakis and Kotsis, 2023, "IoT forensics: Analysis of a HIKVISION's mobile app", DFRWS 2023 USA; FSI: Digital Investigation 45, 301560. Explicitly scopes its analysis to the companion app alone, leaving the CCTV system's own device-side log records and unallocated storage space unexamined, and recommends correlating both sources for a fuller picture in an actual investigation.

@@ -31,6 +31,8 @@ Decryption proceeds in three phases. First, a regular-expression search for the 
 - Recovering the cipherkey for a Firefox private-session IndexedDB DB file from a live physical memory dump by pattern-matching the `CipherKeyManager` hashtable's fixed header fields, then bruteforce-validating candidates against the file's AEAD authentication tag and decrypting all 10 test DB files and 10 BLOB files (10/10 each) in the paper's live-session test case.
 - Recovering all 20 encrypted IndexedDB files from a Windows 10 PC that had been fully shut down using the Hibernate power option, by extracting the cipherkey from the resulting `Hiberfil.sys` file rather than from live RAM.
 
+Chromium-based browsers (Chrome, Edge) take a different architectural approach: rather than encrypting on-disk IndexedDB files, they store incognito/private-mode IndexedDB data only in volatile memory and never write it to disk at all, so recovering it requires directly carving and reconstructing the LevelDB backend's in-memory structures rather than recovering a decryption key — see [[techniques/Recover IndexedDB records from Chromium-based application memory using class-object carving]].
+
 ## Related Objectives
 
 - `DFO-1016` Overcome protection mechanisms

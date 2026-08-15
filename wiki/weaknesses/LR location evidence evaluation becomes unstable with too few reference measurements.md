@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1036
 source_refs:
   - DFCite-1026
-updated_at: 2026-08-09
+  - DFCite-1294
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -30,7 +31,9 @@ An investigator who reports an LR calculated from a sparse reference set risks p
 ## Used By
 
 - [[techniques/Evaluate single-point device location evidence using a likelihood ratio]]
+- [[techniques/Evaluate iPhone Health app distance data using a likelihood ratio]]
 
 ## References
 
 - [DFCite-1026] Spichiger, 2023, "A likelihood ratio approach for the evaluation of single point device locations", FSI: Digital Investigation 44.
+- [DFCite-1294] Vink, Sjerps, Boztas and van Zandwijk, 2022, "Likelihood ratio method for the interpretation of iPhone health app data in digital forensics", FSI: Digital Investigation 41, 301389. Sensitivity analysis found LRs ranging from 10⁻¹¹ to 13 depending on how narrowly the reference dataset was filtered by case information, with the most extreme values traced to small underlying sample sizes rather than genuine discriminating power.

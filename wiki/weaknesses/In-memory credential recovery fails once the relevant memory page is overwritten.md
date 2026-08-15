@@ -13,7 +13,9 @@ source_refs:
   - DFCite-1148
   - DFCite-1149
   - DFCite-1191
-updated_at: 2026-08-13
+  - DFCite-1280
+  - DFCite-1285
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -37,6 +39,8 @@ An investigator relying solely on in-memory secret recovery may find it fails in
 - [[techniques/Triage Bitcoin wallet artifacts on a live host]]
 - [[techniques/Decrypt IndexedDB storage in private-mode Gecko-based browsers using a memory-recovered cipherkey]]
 - [[techniques/Recover ransomware encryption keys from memory using cipher-structure pattern matching]]
+- [[techniques/Decrypt an encrypted Realm database using a RAM-extracted key]]
+- [[techniques/Plan a key-extraction-based lawful interception strategy using an operation-level and key-lifetime taxonomy]]
 
 ## References
 
@@ -45,3 +49,5 @@ An investigator relying solely on in-memory secret recovery may find it fails in
 - [DFCite-1148] Soni, Kaur and Aziz, 2024, "Decoding digital interactions: An extensive study of TeamViewer's Forensic Artifacts across Windows and android platforms", FSI: Digital Investigation 51. TeamViewer's dynamic session password was recoverable from process memory via marker-string search both during and after session termination in this study's tests.
 - [DFCite-1149] Kim, Lee and Park, 2024, "Decrypting IndexedDB in private mode of Gecko-based browsers", FSI: Digital Investigation 49. The AEAD cipherkey needed to decrypt a Gecko-based browser's private-mode IndexedDB storage is recoverable from process memory (or a Windows hibernation file) only while the private session remains active or hibernated; once the browser is closed or the system is shut down without hibernation, the cipherkey is gone, although the encrypted on-disk IndexedDB files themselves remain recoverable.
 - [DFCite-1191] Fernandez de Loaysa Babiano, Macfarlane and Davies, 2023, "Evaluation of live forensic techniques, towards Salsa20-Based cryptographic ransomware mitigation", FSI: Digital Investigation 46, 301572. Modern ransomware typically removes a per-file Salsa20 key/nonce from memory shortly after that file is encrypted, so periodic memory captures throughout the ransomware's execution window (rather than one capture at the end) were needed to recover over 90% of the keys used across a 4,000-file test dataset.
+- [DFCite-1280] Dragonas, Lambrinoudakis and Kotsis, 2023, "IoT forensics: Analysis of a HIKVISION's mobile app", DFRWS 2023 USA; FSI: Digital Investigation 45, 301560. A HIKVISION companion app's encrypted Realm database key was recoverable from process RAM only while the app remained logged in to the corresponding account; the paper notes some app-side databases may become effectively unrecoverable once a user logs out.
+- [DFCite-1285] Lindenmeier, Hammer, Gruber, Röckl and Freiling, 2024, "Key extraction-based lawful access to encrypted data: Taxonomy and survey", FSI: Digital Investigation 50, 301796. Surveys dozens of key-extraction approaches and finds no practical, reliable technique yet exists for extracting short-term (single-connection) cryptographic keys before they are shredded from memory, in contrast to well-studied long-term key extraction.

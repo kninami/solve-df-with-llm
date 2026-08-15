@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1185
 source_refs:
   - DFCite-1188
-updated_at: 2026-08-13
+  - DFCite-1271
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -30,7 +31,9 @@ An investigator who assumes a validated EM-SCA model can be reused as-is across 
 ## Used By
 
 - [[techniques/Adapt an EM side-channel-analysis model to new devices using transfer learning]]
+- [[techniques/Classify IoT device software activity using deep-learning electromagnetic side-channel analysis]]
 
 ## References
 
 - [DFCite-1188] Navanesan et al., 2024, "Ensuring cross-device portability of electromagnetic side-channel analysis for digital forensics", FSI: Digital Investigation 48, 301684.
+- [DFCite-1271] Han, Kim and Kwon, 2026, "Identifying Internet of Things software activities using deep learning-based electromagnetic side-channel analysis", FSI: Digital Investigation 56, 302072. Confirms that classifier reliability depends on capture and representation choices (frequency- vs. time-domain), consistent with the broader device/session generalization instability documented here.

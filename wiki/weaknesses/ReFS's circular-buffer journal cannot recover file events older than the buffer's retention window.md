@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1215
 source_refs:
   - DFCite-1227
-updated_at: 2026-08-13
+  - DFCite-1269
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -30,7 +31,9 @@ An investigator reconstructing a file-activity timeline from ReFS journaling art
 ## Used By
 
 - [[techniques/Reconstruct file-system events from ReFS Logfile transaction-opcode replay]]
+- [[techniques/Identify a data-wiping tool from ReFS Logfile deletion opcode patterns]]
 
 ## References
 
 - [DFCite-1227] Lee et al., 2021, "Forensic analysis of ReFS journaling", FSI: Digital Investigation 38.
+- [DFCite-1269] Kim and Lee, 2026, "Identification of data wiping tools based on deletion patterns in ReFS $Logfile", FSI: Digital Investigation 56, 302069. Notes that a full $Logfile buffer causes reuse (overwriting) of older wiping-related transaction records, and recommends corroborating $Logfile-based wiping-tool findings with other artifacts.

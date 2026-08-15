@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1025
 source_refs:
   - DFCite-1017
-updated_at: 2026-08-09
+  - DFCite-1287
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -30,7 +31,9 @@ An investigator working within a CSP's access constraints may correctly execute 
 ## Used By
 
 - [[techniques/Correlate cross-layer evidence for pooled cloud resources with graded confidence]]
+- [[techniques/Perform self-service memory introspection on a tenant's own cloud virtual machine]]
 
 ## References
 
 - [DFCite-1017] Park et al., 2026, "A forensic investigation framework for desktop-as-a-service in cloud environments", FSI: Digital Investigation 58.
+- [DFCite-1287] Sentanoe, Dangl and Reiser, 2022, "KVMIveggur: Flexible, secure, and efficient support for self-service virtual machine introspection", DFRWS 2022 USA; FSI: Digital Investigation 42, 301397. Proposes a secure, access-controlled architecture a cloud provider could deploy to give tenants self-service VM-internal memory introspection, structurally closing this gap rather than only supplementing it with externalized artifacts.

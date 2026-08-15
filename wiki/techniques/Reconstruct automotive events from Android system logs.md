@@ -41,7 +41,7 @@ Both a vehicle's own Android-based infotainment system and a phone used alongsid
 
 ## Related Weaknesses
 
-- [[weaknesses/Volatile automotive Android log data is lost on power cycle or circular-buffer overwrite]]
+- [[weaknesses/Android's volatile circular log buffers discard older entries and are lost entirely on power loss]]
 
 ## References
 

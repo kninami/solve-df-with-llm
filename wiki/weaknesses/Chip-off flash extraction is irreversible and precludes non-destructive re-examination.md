@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1023
 source_refs:
   - DFCite-1016
-updated_at: 2026-08-09
+  - DFCite-1302
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -30,7 +31,9 @@ Because the alteration is irreversible, any subsequent need to re-examine the de
 ## Used By
 
 - [[techniques/Extract flash chip contents via chip-off desoldering]]
+- [[techniques/Transplant a damaged device's electronic components onto a donor board using dental burr lapping]]
 
 ## References
 
 - [DFCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.
+- [DFCite-1302] Heckmann, Souvignet, Sauveron and Naccache, 2021, "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment", FSI: Digital Investigation 36, 301092. Dental-burr-based component transplantation carries the same physical-alteration irreversibility, mechanized via mechanical lapping rather than thermal desoldering.

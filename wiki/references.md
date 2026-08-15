@@ -2662,3 +2662,419 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 48, 301690
 - url: https://doi.org/10.1016/j.fsidi.2023.301690
 - note: "Reworks the ForTrace dataset-synthesis framework to eliminate its client-side agent, controlling guest VMs purely via QEMU Monitor input injection and OCR/screenshot-based feedback, removing most (but not all) agent-specific traces."
+
+### DFCite-1268
+
+- type: article
+- author: Wu, Tianqi and Breitinger, Frank and Baggili, Ibrahim
+- title: "I know where you have been last summer: Extracting privacy-sensitive information via forensic analysis of the Mercedes-Benz NTG5/2 infotainment system"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 56, 302068
+- url: https://doi.org/10.1016/j.fsidi.2026.302068
+- note: "Reverse-engineers the Mercedes-Benz Harman NTG5/2 QNX6FS infotainment system's proprietary GPS trail binary format and correlates it with door/ignition event logs, and introduces NTGCarver, a schema-aware freelist-scanning tool that recovers deleted trail records generic SQLite recovery tools miss."
+
+### DFCite-1269
+
+- type: article
+- author: Kim, Soojin and Lee, Sangjin
+- title: "Identification of data wiping tools based on deletion patterns in ReFS $Logfile"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 56, 302069
+- url: https://doi.org/10.1016/j.fsidi.2026.302069
+- note: "Documents ReFS 3.7's Logfile Redo-Record opcode sequences (including opcodes undocumented in prior ReFS journaling research) produced by twelve data-wiping tools/algorithms, showing each leaves a distinguishable repeated-deletion pattern."
+
+### DFCite-1270
+
+- type: article
+- author: van der Meer, Vincent and Le-Khac, Nhien-An
+- title: "Identifying interception possibilities for WhatsApp communication"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 56, 302070
+- url: https://doi.org/10.1016/j.fsidi.2026.302070
+- note: "Demonstrates four live-interception scenarios for WhatsApp (SMS-verification-code account takeover, covert WhatsApp Web session pairing, STUN-based call-participant IP extraction, and contact-list-based OSINT) within a four-stage interception forensic framework."
+
+### DFCite-1271
+
+- type: article
+- author: Han, Jaehyeok and Kim, Jiyoung and Kwon, Taekyoung
+- title: "Identifying Internet of Things software activities using deep learning-based electromagnetic side-channel analysis"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 56, 302072
+- url: https://doi.org/10.1016/j.fsidi.2026.302072
+- note: "Trains frequency-domain CNN classifiers on SoC electromagnetic emissions to identify which of several running algorithms an IoT device is executing, showing frequency-domain features generalize better than time-domain features."
+
+### DFCite-1272
+
+- type: inproceedings
+- author: Son, Jihun and Kim, Gyubin and Jung, Hyunwoo and Bang, Jewan and Park, Jungheum
+- title: "IF-DSS: A forensic investigation framework for decentralized storage services"
+- year: 2023
+- booktitle: DFRWS 2023 APAC; Forensic Science International: Digital Investigation, 46, 301611
+- url: https://doi.org/10.1016/j.fsidi.2023.301611
+- note: "Proposes a four-area (node/peer/gateway/internet) forensic investigation framework for decentralized storage services such as IPFS/Filecoin, including a file-chunk-reassembly method and case studies on phishing-URL tracing and large-scale illegal file sharing."
+
+### DFCite-1273
+
+- type: article
+- author: Schmidt, Lukas and Baier, Harald
+- title: "Improving trace synthesis by utilizing computer vision for user action emulation"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 56, 302073
+- url: https://doi.org/10.1016/j.fsidi.2026.302073
+- note: "Extends agent-less forensic dataset synthesis with computer-vision-based UI-element detection for driving simulated user interaction, replacing fixed screen coordinates or accessibility APIs with more robust and less detectable interaction targeting."
+
+### DFCite-1274
+
+- type: article
+- author: Savchenko, Ella and Ottmann, Jenny and Freiling, Felix
+- title: "In the time loop: Data remanence in main memory of virtual machines"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 49, 301758
+- url: https://doi.org/10.1016/j.fsidi.2024.301758
+- note: "Experimentally shows that a KVM virtual machine's RAM retains on average ~99% of written data across a software reboot, but none across a power-cycle or clean-snapshot revert, directly informing both memory-remanence recovery opportunities and cross-sample contamination risk."
+
+### DFCite-1275
+
+- type: article
+- author: Antonson, Nils and Quick, Darren and Choo, Kim-Kwang Raymond
+- title: "Infotainment system Forensics: Ford SYNC 3 gen 2 infotainment system as a use case"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 53, 301917
+- url: https://doi.org/10.1016/j.fsidi.2025.301917
+- note: "Demonstrates a non-destructive USB software jailbreak plus SSH-mod and WiFi/SFTP logical extraction of a Ford SYNC 3 gen 2 APIM module's QNX-based file system, as a cheaper alternative to eMMC chip-off, and proposes a 10-stage DVF-centric process framework."
+
+### DFCite-1276
+
+- type: article
+- author: Wei, Yichen and Chow, Kam-Pui and Yiu, Siu-Ming
+- title: "Insider threat prediction based on unsupervised anomaly detection scheme for proactive forensic investigation"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 38, 301126
+- url: https://doi.org/10.1016/j.fsidi.2021.301126
+- note: "Proposes cascaded-autoencoder unsupervised data purification plus a joint dimension-reduction/GMM-density-estimation network for insider-threat behavior-sequence anomaly detection, with a hypergraph-partitioning correction module that halves the false-positive rate relative to prior unsupervised baselines."
+
+### DFCite-1277
+
+- type: article
+- author: Choi, Youngsoo and Park, Jongjin and Kong, Seung-Hyun
+- title: "Integrated validation framework for EDR data reliability: Application to Korean traffic accident cases"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 56, 302071
+- url: https://doi.org/10.1016/j.fsidi.2026.302071
+- note: "Cross-validates EDR speed/acceleration/RPM data against dashboard-camera video, audio, and OCR-extracted text using a sliding-window Pearson/cosine similarity algorithm, estimating EDR Time Zero with average similarity scores of 0.978 (speed) and 0.83 (acceleration) across 22 real Korean accident cases."
+
+### DFCite-1278
+
+- type: article
+- author: Lorenz, Scott and Stinehour, Stanley and Chennamaneni, Anitha and Subhani, Abdul B. and Torre, Damiano
+- title: "IoT forensic analysis: A family of experiments with Amazon Echo devices"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 45, 301541
+- url: https://doi.org/10.1016/j.fsidi.2023.301541
+- note: "Establishes the ISP tear-down/pinout methodology across seven Echo Show generations and the Echo Spot, an automated dropbox-log touch-event carving script, and a search-warrant-affidavit legal framework for IoT device seizure; the primary source underlying the wiki's ISP-eMMC-extraction and multi-source-IoT-acquisition techniques' Echo Show coverage."
+
+### DFCite-1279
+
+- type: article
+- author: Jennings, Luke and Sorell, Matthew and Espinosa, Hugo G.
+- title: "Interpreting the location data extracted from the Apple Health database"
+- year: 2023
+- booktitle: DFRWS 2023 EU
+- journal: Forensic Science International: Digital Investigation, 44, 301504
+- url: https://doi.org/10.1016/j.fsidi.2023.301504
+- note: "Documents an SQLite-join-based methodology for extracting Apple Health workout geolocation and time-zone data, and demonstrates via a 5+ year real dataset that a 'Rowing' activity-type label can in fact be misclassified bell-ringing, discovered only through coordinate/OSINT cross-referencing."
+
+### DFCite-1280
+
+- type: article
+- author: Dragonas, Evangelos and Lambrinoudakis, Costas and Kotsis, Michael
+- title: "IoT forensics: Analysis of a HIKVISION's mobile app"
+- year: 2023
+- booktitle: DFRWS 2023 USA
+- journal: Forensic Science International: Digital Investigation, 45, 301560
+- url: https://doi.org/10.1016/j.fsidi.2023.301560
+- note: "Demonstrates companion-app-only CCTV forensic analysis (Android/iOS), RAM-based Realm database key recovery via fridump3, and identifies that the CCTV device's own logs and unallocated space remain unexamined by an app-only analysis."
+
+### DFCite-1281
+
+- type: article
+- author: Friedl, Sabrina and Pernul, Günther
+- title: "IoT Forensics Readiness - influencing factors"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 49, 301768
+- url: https://doi.org/10.1016/j.fsidi.2024.301768
+- note: "Reference-only systematic literature review synthesizing organizational factors (technological resource/technique, management process, human factor, standardization approach, legal aspect) influencing IoT forensic readiness; no first-person investigative technique of its own."
+
+### DFCite-1282
+
+- type: inproceedings
+- author: Wu, Tina and Breitinger, Frank and Niemann, Stephen
+- title: "IoT network traffic analysis: Opportunities and challenges for forensic investigators?"
+- year: 2021
+- booktitle: DFRWS 2021 APAC
+- journal: Forensic Science International: Digital Investigation, 38, 301123
+- url: https://doi.org/10.1016/j.fsidi.2021.301123
+- note: "Systematically port-scans and entropy-tests network traffic from 32 consumer IoT devices, finding 9 sent exploitable cleartext data, and shows 77% of devices' cloud data crosses multiple national jurisdictions; introduces an open-source triage tool (IoT Network Analyzer)."
+
+### DFCite-1283
+
+- type: article
+- author: Nordvik, Rune and Axelsson, Stefan
+- title: "It is about time — Do exFAT implementations handle timestamps correctly?"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 42-43, 301476
+- url: https://doi.org/10.1016/j.fsidi.2022.301476
+- note: "Controlled cross-OS/cross-driver/cross-tool experiments show Windows, MacOS, and Linux exFAT drivers implement the UTCOffset timestamp field inconsistently, and that Autopsy, FTK Imager, X-Ways, and EnCase each interpret the resulting timestamps differently, some incorrectly by hours."
+
+### DFCite-1284
+
+- type: inproceedings
+- author: Rais, Muhammad Haris and Awad, Rima Asmar and Lopez, Juan and Ahmed, Irfan
+- title: "JTAG-based PLC memory acquisition framework for industrial control systems"
+- year: 2021
+- booktitle: DFRWS 2021 USA
+- journal: Forensic Science International: Digital Investigation, 37, 301196
+- url: https://doi.org/10.1016/j.fsidi.2021.301196
+- note: "Presents Kyros, the first published framework for reliable full-memory JTAG acquisition of proprietary PLCs, validated via a two-week Allen-Bradley ControlLogix 5561 case study with shared acquisition profiles and memory dumps."
+
+### DFCite-1285
+
+- type: article
+- author: Lindenmeier, Christian and Hammer, Andreas and Gruber, Jan and Röckl, Jonas and Freiling, Felix
+- title: "Key extraction-based lawful access to encrypted data: Taxonomy and survey"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 50, 301796
+- url: https://doi.org/10.1016/j.fsidi.2024.301796
+- note: "Proposes the KEX-LI category (extracting only decryption keys from a device for lawful interception, rather than full plaintext) and a two-axis operation-level/key-lifetime taxonomy for selecting a practical key-extraction approach."
+
+### DFCite-1286
+
+- type: inproceedings
+- author: Lamshöft, Kevin and Neubert, Tom and Hielscher, Jonas and Vielhauer, Claus and Dittmann, Jana
+- title: "Knock, knock, log: Threat analysis, detection & mitigation of covert channels in syslog using port scans as cover"
+- year: 2022
+- booktitle: DFRWS 2022 EU
+- journal: Forensic Science International: Digital Investigation, 40, 301335
+- url: https://doi.org/10.1016/j.fsidi.2022.301335
+- note: "Threat-analyzes a covert C2 channel hiding messages in TCP port-scan destination-port ordering, retrievable from firewall syslogs, and proposes a transfer-learned DCNN detector plus indicators of compromise and countermeasures."
+
+### DFCite-1287
+
+- type: inproceedings
+- author: Sentanoe, Stewart and Dangl, Thomas and Reiser, Hans P.
+- title: "KVMIveggur: Flexible, secure, and efficient support for self-service virtual machine introspection"
+- year: 2022
+- booktitle: DFRWS 2022 USA
+- journal: Forensic Science International: Digital Investigation, 42, 301397
+- url: https://doi.org/10.1016/j.fsidi.2022.301397
+- note: "Proposes and benchmarks a secure, access-controlled architecture enabling cloud tenants to run self-service VM introspection (e.g. Volatility memory forensics) against their own KVM-hosted VMs via three isolation flavors, without requiring provider-privileged host access."
+
+### DFCite-1288
+
+- type: article
+- author: Kingra, Staffy and Aggarwal, Naveen and Kaur, Nirmal
+- title: "LBPNet: Exploiting texture descriptor for deepfake detection"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 42-43, 301452
+- url: https://doi.org/10.1016/j.fsidi.2022.301452
+- note: "Proposes LBPNet, an LBP-texture-coded-image CNN deepfake detector demonstrating strong compression robustness (93.8% accuracy at hard compression) but poor cross-manipulation-type generalization (dropping to near-chance in several tested combinations)."
+
+### DFCite-1289
+
+- type: article
+- author: Chernyshev, Maxim and Baig, Zubair and Syed, Naeem and Doss, Robin and Shore, Malcolm
+- title: "Large language models in digital forensics: capabilities, challenges and future directions"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 56, 302043
+- url: https://doi.org/10.1016/j.fsidi.2025.302043
+- note: "Reference-only systematic literature review (33 papers) mapping LLM-assisted digital forensic capabilities to the DFRWS process model; a secondary synthesis of others' techniques rather than a first-person investigative method of its own."
+
+### DFCite-1290
+
+- type: article
+- author: Humphries, Georgina and Nordvik, Rune and Manifavas, Harry and Cobley, Phil and Sorell, Matthew
+- title: "Law enforcement educational challenges for mobile forensics"
+- year: 2021
+- booktitle: DFRWS 2021 APAC
+- journal: Forensic Science International: Digital Investigation, 38, 301129
+- url: https://doi.org/10.1016/j.fsidi.2021.301129
+- note: "Reference-only gap analysis of 94 mobile-forensic education/training course offerings across 30+ countries plus educator/trainer surveys and interviews; a training-curriculum study, not an investigative technique."
+
+### DFCite-1291
+
+- type: article
+- author: Nguyen, Xuan Hau and Tran, Thai Son and Le, Van Thinh and Nguyen, Kim Duy and Truong, Dinh-Tu
+- title: "Learning Spatio-temporal features to detect manipulated facial videos created by the Deepfake techniques"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 36, 301108
+- url: https://doi.org/10.1016/j.fsidi.2021.301108
+- note: "Proposes a 3D-CNN that learns joint spatio-temporal features from stacked 16-frame face sequences, reaching over 99% accuracy on FaceForensics++ and VidTIMIT; validated only on face-swap-style manipulation, with reenactment-type generalization named as future work."
+
+### DFCite-1292
+
+- type: article
+- author: Valois, Pedro H.V. and Macedo, João and Ribeiro, Leo S.F. and dos Santos, Jefersson A. and Avila, Sandra
+- title: "Leveraging self-supervised learning for scene classification in child sexual abuse imagery"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 53, 301918
+- url: https://doi.org/10.1016/j.fsidi.2025.301918
+- note: "Introduces indoor scene classification for CSAM triage via self-supervised ResNet-50 pretraining (Barlow Twins), and — evaluated with Brazilian Federal Police partners against real CSAM — documents a large domain gap (71.6% public-benchmark vs. 36.7% real-CSAM balanced accuracy)."
+
+### DFCite-1293
+
+- type: inproceedings
+- author: Shi, Chen and Cheng, Chris Chao-Chun and Guan, Yong
+- title: "LibDroid: Summarizing information flow of android native libraries via static analysis"
+- year: 2022
+- booktitle: DFRWS 2022 USA
+- journal: Forensic Science International: Digital Investigation, 42, 301405
+- url: https://doi.org/10.1016/j.fsidi.2022.301405
+- note: "Builds a queryable native-library data-flow summary database (ANLD, 13,138 libraries from 2,627 apps) via LLVM-based static taint analysis, closing the native-code blind spot in existing Android taint-analysis tools and demonstrating detection of covert malware C2 communication."
+
+### DFCite-1294
+
+- type: article
+- author: Vink, Marouschka and Sjerps, Marjan M.J. and Boztas, Abdul and van Zandwijk, Jan Peter
+- title: "Likelihood ratio method for the interpretation of iPhone health app data in digital forensics"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 41, 301389
+- url: https://doi.org/10.1016/j.fsidi.2022.301389
+- note: "Presents a numerical likelihood-ratio method for interpreting disputed iPhone Health app walking-distance data, with a sensitivity analysis showing LR stability depends heavily on how much case-specific reference data remains after filtering."
+
+### DFCite-1295
+
+- type: article
+- author: Bergum, Ulf and Toolan, Fergus and Stephens, Paul and Humphries, Georgina
+- title: "Live data forensic tool testbed: Proof of concept"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 54, 301973
+- url: https://doi.org/10.1016/j.fsidi.2025.301973
+- note: "Introduces a simulated, journaled-ground-truth CPU/RAM testbed proof of concept for validating RAM acquisition tool accuracy and memory footprint, addressing the current absence of any standard method to evaluate live-data-forensics tools."
+
+### DFCite-1296
+
+- type: inproceedings
+- author: Nguyen, Thanh and Orenbach, Meni and Atamli, Ahmad
+- title: "Live system call trace reconstruction on Linux"
+- year: 2022
+- booktitle: DFRWS 2022 USA
+- journal: Forensic Science International: Digital Investigation, 42, 301398
+- url: https://doi.org/10.1016/j.fsidi.2022.301398
+- note: "Presents a non-intrusive VMI-based method to reconstruct live Linux system call traces via register polling, matching strace's accuracy with negligible overhead versus the ~100x slowdown of intrusive trap-based tracing, demonstrated against real ransomware."
+
+### DFCite-1297
+
+- type: inproceedings
+- author: Cheng, Chris Chao-Chun and Shi, Chen and Gong, Neil Zhenqiang and Guan, Yong
+- title: "LogExtractor: Extracting digital evidence from android log messages via string and taint analysis"
+- year: 2021
+- booktitle: DFRWS 2021 USA
+- journal: Forensic Science International: Digital Investigation, 37, 301193
+- url: https://doi.org/10.1016/j.fsidi.2021.301193
+- note: "First tool to automatically identify and extract evidentiary data from Android log messages via a tainted-DFA string/taint analysis combining JSA, FlowDroid, and IccTA, evaluated on 65 benchmark apps and 12.1K real-world apps."
+
+### DFCite-1298
+
+- type: inproceedings
+- author: Serhal, Cezar and Le-Khac, Nhien-An
+- title: "Machine learning based approach to analyze file meta data for smart phone file triage"
+- year: 2021
+- booktitle: DFRWS 2021 USA
+- journal: Forensic Science International: Digital Investigation, 37, 301194
+- url: https://doi.org/10.1016/j.fsidi.2021.301194
+- note: "Trains six ML classifiers on 12 engineered file-metadata features (no content inspection) from nearly 2 million real terrorism-case files to triage smartphone extraction files as Interesting/Not Interesting, with Random Forest reaching 0.986 F1-score."
+
+### DFCite-1299
+
+- type: inproceedings
+- author: O'Shaughnessy, Stephen and Breitinger, Frank
+- title: "Malware family classification via efficient Huffman features"
+- year: 2021
+- booktitle: DFRWS 2021 USA
+- journal: Forensic Science International: Digital Investigation, 37, 301192
+- url: https://doi.org/10.1016/j.fsidi.2021.301192
+- note: "Introduces efficient Huffman features (eHf), a non-domain-specific compression-based malware feature representation that is 2-6x faster than LZJD/NCD with comparable accuracy and is resilient to import-table reordering obfuscation."
+
+### DFCite-1300
+
+- type: article
+- author: de-Marcos, Luis and Domínguez-Díaz, Adrián and Stapic, Zlatko
+- title: "Mapping the Tor darkmarket ecosystem: A network analysis of topics, communication channels, and languages"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 56, 302032
+- url: https://doi.org/10.1016/j.fsidi.2025.302032
+- note: "Models 82,285 Tor darkmarket onion services and 57,071 external identification forms as a bipartite graph, using k-core extraction and degree centrality to reveal structurally distinct topic subnetworks and identify high-leverage hub services/IDs for disruption."
+
+### DFCite-1301
+
+- type: inproceedings
+- author: Waguespack, Karley M. and Smith, Kaitlyn J. and Muliri, Olame A. and Vijayakanthan, Ramyapandian and Ali-Gombe, Aisha
+- title: "MARS: The first line of defense for IoT incident response"
+- year: 2024
+- booktitle: DFRWS 2024 USA
+- journal: Forensic Science International: Digital Investigation, 49, 301754
+- url: https://doi.org/10.1016/j.fsidi.2024.301754
+- note: "Proposes MARS, a TrustZone-TEE-isolated host-based IoT intrusion detection system that transforms changed flash-memory blocks into audio spectra for remote CNN-based anomaly classification, achieving 100% test accuracy in a proof-of-concept evaluation."
+
+### DFCite-1302
+
+- type: article
+- author: Heckmann, Th. and Souvignet, Th. and Sauveron, D. and Naccache, D.
+- title: "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 36, 301092
+- url: https://doi.org/10.1016/j.fsidi.2020.301092
+- note: "Repurposes dental/whole-body medical X-ray, dental burr, and dental molding paste for low-cost forensic PCB diagnosis, 3D-tomography-guided track repair, and dental-burr-based donor-board component transplantation."
+
+### DFCite-1303
+
+- type: inproceedings
+- author: Manna, Modhuparna and Case, Andrew and Ali-Gombe, Aisha and Richard III, Golden G.
+- title: "Memory analysis of .NET and .Net Core applications"
+- year: 2022
+- booktitle: DFRWS 2022 USA
+- journal: Forensic Science International: Digital Investigation, 42, 301404
+- url: https://doi.org/10.1016/j.fsidi.2022.301404
+- note: "Introduces a suite of Volatility plugins for structured memory analysis of .NET and .NET Core applications (memory-only assemblies, classes, fields, field values, native/IL methods), automatically recovering malware C2 configuration and capability profiles from real .NET malware samples."
+
+### DFCite-1304
+
+- type: inproceedings
+- author: Rais, Muhammad Haris and Awad, Rima Asmar and Lopez, Juan and Ahmed, Irfan
+- title: "Memory forensic analysis of a programmable logic controller in industrial control systems"
+- year: 2022
+- booktitle: DFRWS 2022 EU
+- journal: Forensic Science International: Digital Investigation, 40, 301339
+- url: https://doi.org/10.1016/j.fsidi.2022.301339
+- note: "Reverse-engineers over twenty internal data structures in an Allen-Bradley ControlLogix 1756-L61 PLC's memory via dynamic differential analysis, recovering control-logic, IO tag states, firmware, configuration, and event logs, packaged as a reusable memory-analysis profile."
+
+### DFCite-1305
+
+- type: article
+- author: Kang, Soojin and Kim, Giyoon and Park, Myungseo and Kim, Jongsung
+- title: "Methods for decrypting the data encrypted by the latest Samsung smartphone backup programs in Windows and macOS"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 39, 301310
+- url: https://doi.org/10.1016/j.fsidi.2021.301310
+- note: "Reverse-engineers nine key-derivation/encryption algorithms used by the latest Samsung Smart Switch backup program in Windows and (for the first time) macOS, decrypts all backup file categories, and benchmarks realistic GPU-cluster PIN-recovery timeframes."
+
+### DFCite-1306
+
+- type: article
+- author: Kim, Soram and Kim, Giyoon and Shin, Sumin and Youn, Byungchul and Song, Jian and Lee, Insoo and Kim, Jongsung
+- title: "Methods for recovering deleted data from the Realm database: Case study on Minitalk and Xabber"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 40, 301353
+- url: https://doi.org/10.1016/j.fsidi.2022.301353
+- note: "First in-depth study of deleted-data recovery for the Realm database (an increasingly popular SQLite alternative), proposing table/column/field-unit node-structure-based recovery and validating it against two real messenger apps with strongly divergent recovery rates."
+
+### DFCite-1307
+
+- type: inproceedings
+- author: Jeong, Byeongchan and Lee, Sangjin and Park, Jungheum
+- title: "MIC: Memory analysis of IndexedDB data on Chromium-based applications"
+- year: 2024
+- booktitle: DFRWS 2024 APAC
+- journal: Forensic Science International: Digital Investigation, 50, 301809
+- url: https://doi.org/10.1016/j.fsidi.2024.301809
+- note: "Recovers IndexedDB records (including incognito-mode data that never touches disk) from Chromium-based browser and desktop-application memory by carving LevelDB's internal C++ objects and reconstructing its MemTable SkipList, validated on Chrome, Edge, and Microsoft Teams."

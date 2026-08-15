@@ -12,7 +12,8 @@ aliases:
   - ReFS Logfile and Change Journal forensic methodology
 source_refs:
   - DFCite-1227
-updated_at: 2026-08-13
+  - DFCite-1269
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -30,6 +31,7 @@ The Change Journal, similar in role to NTFS's `$UsnJrnl`, records USN-style chan
 
 - The released ARIN (Awesome ReFS Investigation tool) parses both the Change Journal and the Logfile from a ReFS volume image or extracted journaling files and displays a reconstructed event history with inferred timestamps.
 - On an experimental ReFS volume, comparing ARIN's Logfile-derived reconstruction of ten known user actions (file creation, content write, copy/paste, rename, directory creation, move, and two deletions) against the same events derived independently from the Change Journal produced an exact match for both event type and timestamp, validating the Logfile-only reconstruction methodology even when the Change Journal (which is disabled by default) is unavailable.
+- A later study of ReFS 3.7 volumes (a newer on-disk format version than 3.4) discovered additional Redo-Record opcodes absent from the original opcode catalog, and used opcode-sequence replay to build a reference database distinguishing the deletion patterns of twelve different anti-forensic data-wiping tools and algorithms (see [[techniques/Identify a data-wiping tool from ReFS Logfile deletion opcode patterns]]).
 
 ## Related Objectives
 
@@ -42,3 +44,4 @@ The Change Journal, similar in role to NTFS's `$UsnJrnl`, records USN-style chan
 ## References
 
 - [DFCite-1227] Lee et al., 2021, "Forensic analysis of ReFS journaling", FSI: Digital Investigation 38.
+- [DFCite-1269] Kim and Lee, 2026, "Identification of data wiping tools based on deletion patterns in ReFS $Logfile", FSI: Digital Investigation 56, 302069. Extends the opcode catalog to ReFS 3.7 and applies opcode-sequence replay to anti-forensic wiping-tool identification.
