@@ -3179,6 +3179,106 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - url: https://doi.org/10.1016/j.fsidi.2022.301444
 - note: "Source for the DRo-based Neural Sample Search (DRo-NSS) training-sample-selection technique and its benchmark reliance on the aging 2015 Malicia dataset, companion paper to the already-cited GreenForensics work (DFCite-1258)."
 
+### DFCite-1318
+
+- type: article
+- author: Read, Huw O.L. and Xynos, Konstantinos and Sutherland, Iain and Bovee, Matthew and Tamburro, Clyde
+- title: "Nintendo 3DS forensics: A secondhand case study"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 50, 301815
+- url: https://doi.org/10.1016/j.fsidi.2024.301815
+- note: "Source for the meet.dat StreetPass Mii Plaza database decoding technique and the empirical finding that secondhand Nintendo 3DS consoles routinely retain unwiped personal photos, network credentials, and only country/state-level location data."
+
+### DFCite-1319
+
+- type: article
+- author: Oh, Junghoon and Lee, Sangjin and Hwang, Hyunuk
+- title: "NTFS Data Tracker: Tracking file data history based on $LogFile"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 39, 301309
+- url: https://doi.org/10.1016/j.fsidi.2021.301309
+- note: "Source for the Simulation of MFT Transaction (SMT) technique reconstructing a file's complete data history from $LogFile, including the documented spurious-intermediate-event artifact and its filtering mitigation."
+
+### DFCite-1320
+
+- type: article
+- author: Trozze, Arianna and Davies, Toby and Kleinberg, Bennett
+- title: "Of degens and defrauders: Using open-source investigative tools to investigate decentralized finance frauds and money laundering"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 46, 301575
+- url: https://doi.org/10.1016/j.fsidi.2023.301575
+- note: "Source for the open-source Ethereum DeFi rug-pull investigation and money-laundering-tracing methodology, including the graded scammer-association heuristics and their documented ambiguity for weaker heuristics."
+
+### DFCite-1321
+
+- type: article
+- author: Gharaibeh, Taha and Baggili, Ibrahim and Mahmoud, Anas
+- title: "On enhancing memory forensics with FAME: Framework for advanced monitoring and execution"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 49, 301757
+- url: https://doi.org/10.1016/j.fsidi.2024.301757
+- note: "Source for the JIT-Python-interpreter Volatility acceleration technique (PyPy yielding a 15-20% speedup) and its self-acknowledged limitation to a specific hardware/configuration benchmark."
+
+### DFCite-1322
+
+- type: article
+- author: Olivier, Martin S.
+- title: "On the classification of questioned PDF documents — Attributing PDF documents to the tools that created them"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 57, 302104
+- url: https://doi.org/10.1016/j.fsidi.2026.302104
+- note: "Source for the PDF structural-toolmark tool-attribution technique and its documented configuration-dependence limitation."
+
+### DFCite-1323
+
+- type: article
+- author: Azahari, Afiqah and Balzarotti, Davide
+- title: "On the inadequacy of open-source application logs for digital forensics"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 49, 301750
+- url: https://doi.org/10.1016/j.fsidi.2024.301750
+- note: "Source for the five-task application-log forensic-adequacy taxonomy and the empirical finding that a large fraction of studied open-source applications omit timestamps or correlation identifiers."
+
+### DFCite-1324
+
+- type: misc
+- author: Lanagan, Sean and Choo, Kim-Kwang Raymond
+- title: "On the need for AI to triage encrypted data containers in U.S. law enforcement applications"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 38, 301217
+- url: https://doi.org/10.1016/j.fsidi.2021.301217
+- note: "A legal/policy analysis of Fourth Amendment border-search doctrine proposing that AI/XAI could be used to triage encrypted containers for child-exploitation-material evidence; reference-only, no implemented investigative technique, weakness, or mitigation of its own."
+
+### DFCite-1325
+
+- type: article
+- author: Andreoli, Anthony and Lounis, Anis and Debbabi, Mourad and Hanna, Aiman
+- title: "On the prevalence of software supply chain attacks: Empirical study and investigative framework"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 44, 301508
+- url: https://doi.org/10.1016/j.fsidi.2023.301508
+- note: "Source for the semantic-graph-query and Bayesian malicious-intent-scoring SSCA detection framework, including its documented dependence on previously characterized attack behaviors."
+
+### DFCite-1326
+
+- type: article
+- author: Groß, Tobias and Busch, Marcel and Müller, Tilo
+- title: "One key to rule them all: Recovering the master key from RAM to break Android's file-based encryption"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 36, 301113
+- url: https://doi.org/10.1016/j.fsidi.2021.301113
+- note: "Source for the Android FBE master-key RAM-recovery technique and the extended TSK/Plaso decryption tooling, including the documented limitation that only devices with the vulnerable KDF (7 of 13 tested) are susceptible."
+
+### DFCite-1327
+
+- type: article
+- author: Ngo, Hung Q. and Le-Khac, Nhien-An
+- title: "Ontology-based case study management towards bridging training and actual investigation gaps in digital forensics"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 47, 301621
+- url: https://doi.org/10.1016/j.fsidi.2023.301621
+- note: "Source for the DFOSINT knowledge-map ontology and Case Study Browser technique, including the documented finding of wide, hard-to-assess variation in OSINT investigation report completeness."
+
 ### DFCite-2001
 
 - type: article
