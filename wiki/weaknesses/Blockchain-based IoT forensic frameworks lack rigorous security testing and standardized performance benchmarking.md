@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1062
 source_refs:
   - DFCite-1052
-updated_at: 2026-08-10
+  - DFCite-2036
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -34,3 +35,4 @@ An organization comparing published blockchain-based IoT forensic frameworks to 
 ## References
 
 - [DFCite-1052] Akinbi et al., 2022, "A systematic literature review of blockchain-based Internet of Things (IoT) forensic investigation process models", FSI: Digital Investigation 42-43.
+- [DFCite-2036] Alashjaee and Alqahtani, 2024, "Improving digital forensic security: A secure storage model with authentication and optimal key generation based encryption", IEEE Access 12 — a concrete illustration of this weakness: its own narrative claims of reduced response/evidence-insertion/evidence-verification times directly contradict its own comparative results table, which shows its proposed system recording the highest (slowest) values of every compared metric.

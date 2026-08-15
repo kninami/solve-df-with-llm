@@ -10,7 +10,8 @@ mitigation_ids:
 source_refs:
   - DFCite-1085
   - DFCite-1103
-updated_at: 2026-08-12
+  - DFCite-2022
+updated_at: 2026-08-14
 status: complete
 ---
 
@@ -24,7 +25,7 @@ The same closed-set limitation applies to CAM1D, a multi-signature PCE-trend met
 
 ## Why It Matters
 
-An investigator using this class of model to attribute a questioned audio recording to a specific device must confirm the actual candidate device (or an identical model) was represented in the model's training set; otherwise the model will still output some classification (forcing the recording into the closest trained class) rather than correctly indicating "not recognized," which risks a confident-looking but wrong attribution being presented as evidence. This risk is compounded for suspect devices from high-model-count brands.
+An investigator using this class of model to attribute a questioned audio recording to a specific device must confirm the actual candidate device (or an identical model) was represented in the model's training set; otherwise the model will still output some classification (forcing the recording into the closest trained class) rather than correctly indicating "not recognized," which risks a confident-looking but wrong attribution being presented as evidence. This risk is compounded for suspect devices from high-model-count brands. The same limitation applies to closed-set acoustic-environment classification (DFCite-2022): a CRNN trained on only 3 or 4 fixed environment/device categories has no mechanism to correctly flag a recording made in a genuinely different, untrained environment or with an untrained microphone type as "unknown" rather than forcing it into the nearest trained class.
 
 ## Related Mitigations
 
@@ -34,8 +35,10 @@ An investigator using this class of model to attribute a questioned audio record
 
 - [[techniques/Recognize source recording devices using CNN-BiLSTM audio feature learning]]
 - [[techniques/Identify a seam-carved image's source camera using multi-signature PCE trend analysis]]
+- [[techniques/Classify a recording's acoustic environment and microphone type using CNN-LSTM spectrogram analysis]]
 
 ## References
 
 - [DFCite-1085] Zeng et al., 2024, "Audio source recording device recognition based on representation learning of sequential Gaussian mean matrix", FSI: Digital Investigation 48.
 - [DFCite-1103] Irshad et al., 2023, "CAMID: An assuasive approach to reveal source camera through inconspicuous evidence", FSI: Digital Investigation 46.
+- [DFCite-2022] Qamhan et al., 2021, "Digital audio forensics: Microphone and environment classification using deep learning", IEEE Access 9 — its environment and microphone classifiers are both trained and evaluated as closed-set tasks over a fixed 3-environment/4-microphone taxonomy, with no open-set/unknown-class handling.
