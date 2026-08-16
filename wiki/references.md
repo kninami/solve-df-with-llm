@@ -3279,6 +3279,106 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - url: https://doi.org/10.1016/j.fsidi.2023.301621
 - note: "Source for the DFOSINT knowledge-map ontology and Case Study Browser technique, including the documented finding of wide, hard-to-assess variation in OSINT investigation report completeness."
 
+### DFCite-1329
+
+- type: article
+- author: Sunde, Nina and Horsman, Graeme
+- title: "Part 2: The Phase-oriented Advice and Review Structure (PARS) for digital forensic investigations"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 36, 301074
+- url: https://doi.org/10.1016/j.fsidi.2020.301074
+- note: "Source for the phase-oriented, multi-checkpoint peer review methodology (PARS) and its documented rationale against single end-of-case review."
+
+### DFCite-1330
+
+- type: article
+- author: van Dijk, Romke and van de Wetering, Judith and Argentini, Ranieri and Gorka, Leonie and van Luenen, Anne Fleur and Minnema, Sieds and Rijgersberg, Edwin and Ugen, Mattijs and Mann, Zoltán Ádám and Geradts, Zeno
+- title: "PaSSw0rdVib3s!: AI-assisted password recognition for digital forensic investigations"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301870
+- url: https://doi.org/10.1016/j.fsidi.2025.301870
+- note: "Source for the fine-tuned-language-model password-recognition ranking technique and its finding that training-data variety (not just password/leak corpora) is critical to ranking accuracy."
+
+### DFCite-1331
+
+- type: article
+- author: Zubair, Nauman and Ayub, Adeen and Yoo, Hyunguk and Ahmed, Irfan
+- title: "PEM: Remote forensic acquisition of PLC memory in industrial control systems"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 40, 301336
+- url: https://doi.org/10.1016/j.fsidi.2022.301336
+- note: "Source for the PEM nondisruptive remote PLC memory-duplicator-injection acquisition technique and its inherent control-logic-alteration trade-off."
+
+### DFCite-1332
+
+- type: article
+- author: Guarnieri, Gabriele and Fontani, Marco and Guzzi, Francesco and Carrato, Sergio and Jerian, Martino
+- title: "Perspective registration and multi-frame super-resolution of license plates in surveillance videos"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 36, 301087
+- url: https://doi.org/10.1016/j.fsidi.2020.301087
+- note: "Source for the perspective-registration multi-frame license-plate super-resolution technique and its explicit rejection of deep-learning upscaling for forensic use due to black-box/bias risk."
+
+### DFCite-1333
+
+- type: article
+- author: McKeown, Sean and Aaby, Peter and Steyven, Andreas
+- title: "PHASER: Perceptual hashing algorithms evaluation and results - An open source forensic framework"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301680
+- url: https://doi.org/10.1016/j.fsidi.2023.301680
+- note: "Open-source modular framework operationalizing the same authors' Hamming-distance inter/intra-score evaluation methodology (DFCite-1259) into a pluggable hash/transform/distance triplet architecture; folded into the existing perceptual-hashing-evaluation technique page as the framework implementation of that methodology."
+
+### DFCite-1334
+
+- type: article
+- author: Steinebach, Martin and Zenglein, Sascha and Brandl, Katharina
+- title: "Phishing detection on tor hidden services"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 36, 301117
+- url: https://doi.org/10.1016/j.fsidi.2021.301117
+- note: "Source for the content-similarity Tor hidden-service phishing-clone detection technique, including the real-world SecureDrop clone incident and the documented threshold evasion/false-positive tension."
+
+### DFCite-1335
+
+- type: article
+- author: Nunes, Fabian and Domingues, Patrício and Frade, Miguel
+- title: "Post-mortem digital forensic analysis of the Garmin Connect application for Android"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 47, 301624
+- url: https://doi.org/10.1016/j.fsidi.2023.301624
+- note: "Source for the Garmin Connect/Vivosmart 4 companion-app artifact extraction technique (GC4AA/ALEAPP) and the documented auto_vacuum=FULL deleted-notification-recovery blind spot."
+
+### DFCite-1336
+
+- type: article
+- author: Domingues, Patrício and Francisco, Jose and Frade, Miguel
+- title: "Post-mortem digital forensics analysis of the Zepp Life android application"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 45, 301555
+- url: https://doi.org/10.1016/j.fsidi.2023.301555
+- note: "Source for the Zepp Life/Mi Band 6 companion-app artifact extraction technique (ZL_std/ZL_autopsy), combined with the Garmin Connect paper into one wearable-companion-app extraction technique page per the reuse-first corpus-ingestion policy."
+
+### DFCite-1337
+
+- type: article
+- author: Qasim, Syed Ali and Jo, Wooyeon and Ahmed, Irfan
+- title: "PREE: Heuristic builder for reverse engineering of network protocols in industrial control systems"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 45, 301565
+- url: https://doi.org/10.1016/j.fsidi.2023.301565
+- note: "Source for the cross-protocol heuristic ICS protocol field-identification technique (PREE) and its inherent bound to previously-known protocol field conventions."
+
+### DFCite-1338
+
+- type: article
+- author: Göbel, Thomas and Breitinger, Frank and Baier, Harald
+- title: "Optimising data set creation in the cybersecurity landscape with a special focus on digital forensics: Principles, characteristics, and use cases"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301882
+- url: https://doi.org/10.1016/j.fsidi.2025.301882
+- note: "Systematic literature review deriving 15 dataset-quality properties and 10 common failure modes; folded into the existing dataset-synthesis technique page as a cross-cutting quality-principles checklist applicable to any dataset-creation method."
+
 ### DFCite-2001
 
 - type: article

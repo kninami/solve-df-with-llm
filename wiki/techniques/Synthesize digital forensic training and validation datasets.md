@@ -17,6 +17,7 @@ aliases:
   - ChatGPT-assisted teaching scenario storyboarding
   - ForTrace
   - NapierOne
+  - FAIR-plus digital-forensics dataset quality principles (P1-P15)
 source_refs:
   - DFCite-1059
   - DFCite-1061
@@ -25,6 +26,7 @@ source_refs:
   - DFCite-1267
   - DFCite-1273
   - DFCite-1315
+  - DFCite-1338
 updated_at: 2026-08-15
 status: complete
 ---
@@ -48,6 +50,8 @@ Manually building forensic datasets by hand is time-consuming and rarely reflect
 **Manually-authored teaching scenarios (ChatGPT-assisted storyboarding)**: rather than executing a storyboard against a real or emulated device/VM, a general-purpose LLM can be prompted directly to author the narrative content of a digital forensics teaching scenario for manual population — an overall multi-month storyboard of a scenario's events (e.g. an intellectual-property-theft case progressing from an employee's discontent to a decision to exfiltrate data), character profiles and personas for victims/perpetrators including background, motive, and search-term themes, and synthetic content artifacts (chat conversations, emails, assignment documents, anonymised messages) that would populate the resulting disk image. This lighter-weight approach requires manual construction of the actual evidence artifacts from the generated narrative content, rather than automated on-device execution, but was found to produce well-constructed, useful storyboards through iterative prompting (later corrected for less-realistic scenario choices when explicitly asked to improve them).
 
 **Real-world curated mixed-file corpora (NapierOne)**: rather than simulating activity, this approach systematically curates a benchmark corpus of real-world files spanning the file types most commonly encountered in casework, addressing a documented reproducibility gap in prior research (a survey of ransomware-detection literature found that most published test datasets were undocumented in enough detail to be reconstructed). The methodology: (1) identify candidate file types by aggregating usage-popularity statistics from more than 10 independent sources into a consensus ranking, rather than by relying on any single source; (2) gather 5,000 real-world example files for each identified file type, creating multiple subsets per type where a type has meaningfully distinct sub-characteristics (e.g. separate ZIP subsets for each compression method, since ransomware-relevant entropy varies by compression method); (3) deliberately include file types that naturally exhibit high entropy even when legitimate (e.g. certain archive and image formats), since entropy-based ransomware/encryption detection can otherwise mistake such files for encrypted ransomware output; (4) validate every gathered file (virus scanning via VirusTotal, deduplication, and file-format verification) before inclusion; (5) document and publish each data subset for reuse. The result — NapierOne — comprises nearly 500,000 files across roughly 100 data subsets spanning 44 distinct file types, published as a complement to (not a replacement for) the older Govdocs1 corpus, whose files are now over a decade old and under-represent newer formats such as XLSX/DOCX/PPTX.
+
+**Cross-cutting quality principles (Göbel, Breitinger, and Baier)**: independent of which creation method (simulation, curation, or manual population) is used, a systematic literature review identified 15 recurring properties the digital forensics community expects of a high-quality dataset — including representativeness, complexity, heterogeneity, ground-truth annotation, open-format distribution, ongoing maintenance, sufficient quantity, realistic wear/depth, realistic non-case-relevant background noise (to avoid "scenario-data dominance," where every artifact present is suspiciously case-relevant), standardized metadata, and appropriately controlled sensitivity for data containing PII or illegal material — alongside ten common failure modes (time cost, missing wear and tear, lack of standardization, timeliness decay once an image is frozen, legal barriers to sharing real-world data, poor adaptability to new settings, missing or insufficient ground truth, lack of variety across device/platform types, and missing metadata). These properties and failure modes function as a checklist applicable to evaluating or planning any dataset-creation effort, whether it uses the simulation-based, curation-based, or manual approaches described above.
 
 ## Examples
 
@@ -77,3 +81,4 @@ Manually building forensic datasets by hand is time-consuming and rarely reflect
 - [DFCite-1267] Wolf, Göbel, and Baier, 2024, "Hypervisor-based data synthesis: On its potential to tackle the curse of client-side agent remnants in forensic image generation", FSI: Digital Investigation 48, 301690.
 - [DFCite-1273] Schmidt and Baier, 2026, "Improving trace synthesis by utilizing computer vision for user action emulation", FSI: Digital Investigation 56, 302073. Replaces template-matching-based GUI interaction targeting with a computer-vision object-detection model for more robust and realistic agent-less scenario driving.
 - [DFCite-1315] Davies, Macfarlane, and Buchanan, 2022, "NapierOne: A modern mixed file data set alternative to Govdocs1", FSI: Digital Investigation 40, 301330. Documents the real-world-file-curation methodology and resulting benchmark corpus used as a complement to Govdocs1 for ransomware-detection and other forensic tool testing.
+- [DFCite-1338] Göbel, Breitinger, and Baier, 2025, "Optimising data set creation in the cybersecurity landscape with a special focus on digital forensics: Principles, characteristics, and use cases", FSI: Digital Investigation 52, 301882. Systematic literature review deriving 15 cross-cutting dataset-quality properties and 10 common failure modes applicable to any dataset-creation method covered by this page.
