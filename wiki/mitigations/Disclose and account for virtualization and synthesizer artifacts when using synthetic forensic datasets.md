@@ -6,7 +6,8 @@ source_refs:
   - DFCite-1061
   - DFCite-1247
   - DFCite-1267
-updated_at: 2026-08-13
+  - DFCite-2123
+updated_at: 2026-08-16
 status: complete
 ---
 
@@ -31,3 +32,4 @@ Where feasible, prefer preventing a trace from being created at all over cleanin
 - [DFCite-1061] Gonzales et al., 2025, "AKF: A modern synthesis framework for building datasets in digital forensics", FSI: Digital Investigation 55.
 - [DFCite-1247] Göbel et al., 2022, "ForTrace - A holistic forensic data set synthesis framework", FSI: Digital Investigation 40, 301344.
 - [DFCite-1267] Wolf, Göbel, and Baier, 2024, "Hypervisor-based data synthesis: On its potential to tackle the curse of client-side agent remnants in forensic image generation", FSI: Digital Investigation 48, 301690.
+- [DFCite-2123] Du, Hargreaves, Sheppard, and Scanlon, 2021, "TraceGen: User activity emulation for digital forensic test image generation", FSI: Digital Investigation 38, 301133. Recommends comparing automated-action artifacts against the equivalent human-performed action before relying on an automated synthesis library's fidelity for operating-system-level artifacts specifically.

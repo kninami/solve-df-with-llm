@@ -4720,3 +4720,99 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 54, 301972
 - url: https://doi.org/10.1016/j.fsidi.2025.301972
 - note: "Applies byte-frequency distribution and Shannon entropy features with six machine-learning classifiers (CNN best at 96% accuracy) to identify which of eight tools created a given PDF document, and shows markedly lower accuracy for version-level identification within a single tool. Source for a new technique/weakness/mitigation triad on PDF creator-tool identification. Source file: raw/DI/Tool type identification for forensic digital document examination.pdf."
+
+### DFCite-2117
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Towards a joint semantic analysis in mobile forensics environments"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "Presents JoSemA, a knowledge-guided topic-modeling approach combining unsupervised topic discovery with investigator-curated expert-knowledge concept dictionaries to triage large volumes of extracted mobile-device communication. Source for a new technique/weakness/mitigation triad on knowledge-guided topic modeling and its novel-terminology blind spot. Source file: raw/DI/Towards a joint semantic analysis in mobile forensics environments.pdf."
+
+### DFCite-2118
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Towards a practical usage for the Sleuth Kit supporting file system add-ons"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "Implements and validates new The Sleuth Kit file-system-specific modules for XFS, Btrfs, F2FS, and a Hikvision DVR-specific format, against constructed ground-truth test images. Source for a new technique/weakness/mitigation triad on TSK module extension and F2FS inline/direct-pointer-file recovery limitations. Source file: raw/DI/Towards a practical usage for the Sleuth Kit supporting file system add-ons.pdf."
+
+### DFCite-2119
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Towards a unified XAI-based framework for digital forensic investigations"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "Proposes applying LIME and SHAP explainable-AI tools to digital forensic machine-learning classifiers (e.g. memory-forensics-based malware detection) to verify predictions rely on evidentially meaningful features. Source for a new technique/weakness/mitigation triad on forensic-AI explainability. Source file: raw/DI/Towards a unified XAI-based framework for digital forensic investigations.pdf."
+
+### DFCite-2120
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Towards controlled and forensic-ready experimentation in digital forensics"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "A position paper applying software-engineering and empirical-science controlled-experimentation lessons to digital forensic research methodology, identifying common gaps in explicit hypotheses, controlled variables, and documented provenance. Source for a new weakness/mitigation pair on forensic-ready experimentation. Source file: raw/DI/Towards controlled and forensic-ready experimentation in digital forensics.pdf."
+
+### DFCite-2121
+
+- type: article
+- author: Awad, Ruba A. and Rais, Muhammad H. and Rogers, Marcus
+- title: "Towards generic memory forensic framework for programmable logic controllers"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 44, 301513
+- url: https://doi.org/10.1016/j.fsidi.2022.301513
+- note: "Reverse-engineers the UMAS proprietary protocol of a Schneider Electric Modicon M221 PLC for protocol-based memory acquisition, and demonstrates control-logic-tampering detection via differential memory analysis on a simulated traffic-light scenario. Used to extend the existing PLC memory-forensics differential-analysis technique with a second vendor/device case study, per the reuse-first ingestion policy. Source file: raw/DI/Towards generic memory forensic framework for programmable logic controllers.pdf."
+
+### DFCite-2122
+
+- type: article
+- author: Lohre, Karolin and Baier, Harald and Hardi, Lukas and Attenberger, Andreas
+- title: "Towards reliable data in the scope of unmanned aircraft systems"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 53, 301914
+- url: https://doi.org/10.1016/j.fsidi.2025.301914
+- note: "Proposes a three-category conceptual framework (single-source LR/SQE; multi-UAS-source sensor-cross-validation/state-estimation; UAS-plus-external-source similarity analysis) to assess the reliability of Unmanned Aircraft System sensor data. Source for a new technique/weakness/mitigation triad on UAS data reliability assessment and its DIY-drone reference-data gap. Source file: raw/DI/Towards reliable data in the scope of unmanned aircraft systems.pdf."
+
+### DFCite-2123
+
+- type: inproceedings
+- author: Du, Xiaoyu and Hargreaves, Christopher and Sheppard, John and Scanlon, Mark
+- title: "TraceGen: User activity emulation for digital forensic test image generation"
+- year: 2021
+- booktitle: DFRWS 2021 APAC; Forensic Science International: Digital Investigation, 38, 301133
+- url: https://doi.org/10.1016/j.fsidi.2021.301133
+- note: "Presents TraceGen, a VirtualBox-based, CSV-scripted VM-external/internal user-activity emulation framework for generating synthetic Windows forensic test images with ground-truth action logs, documenting a ShellBag artifact-fidelity gap between automated and manual file-copy actions. Used to extend the existing dataset-synthesis technique and its virtualization-artifact-fidelity weakness/mitigation pair, per the reuse-first ingestion policy. Source file: raw/DI/TraceGen- User activity emulation for digital forensic test image generation.pdf."
+
+### DFCite-2124
+
+- type: article
+- author: Qamhan, Mustafa and Alotaibi, Yousef A. and Selouani, Sid Ahmed
+- title: "Transformer for authenticating the source microphone in digital audio forensics"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 45, 301539
+- url: https://doi.org/10.1016/j.fsidi.2023.301539
+- note: "Applies an Audio Spectrogram Transformer to microphone classification, achieving 94.18%/84.19% inter-/intra-model accuracy on the AF-DB dataset and 99.38% on the KSU-DB dataset, while acknowledging the KSU-DB result may conflate microphone and recording-device fingerprints. Source for a new technique/weakness/mitigation triad on transformer-based microphone identification. Source file: raw/DI/Transformer for authenticating the source microphone in digital audio forensics.pdf."
+
+### DFCite-2125
+
+- type: article
+- author: Zavřel, Jan and Koutenský, Michal and Dolejška, Daniel and Veselý, Vladimír
+- title: "Tumbling down the stairs: Exploiting a tumbler's attempt to hide with ordinary-looking transactions using wallet fingerprinting"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301869
+- url: https://doi.org/10.1016/j.fsidi.2025.301869
+- note: "Presents a wallet-implementation-parameter fingerprinting method for identifying a Bitcoin mixing service's own internal transactions and traversing its peel chains, applied to the Anonymixer service, tracing 0.8534 BTC across 344 service and 461 customer addresses. Source for a new technique/weakness/mitigation triad on mixer wallet fingerprinting and its probabilistic-confidence limitation. Source file: raw/DI/Tumbling down the stairs- Exploiting a tumbler's attempt to hide with ordinary-looking transactions using wallet fingerprinting.pdf."
+
+### DFCite-2126
+
+- type: article
+- author: Deutschmann, Matthias and Baier, Harald
+- title: "Ubi est indicium? On forensic analysis of the UBI file system"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301689
+- url: https://doi.org/10.1016/j.fsidi.2023.301689
+- note: "Presents UBIFT, an open-source, TSK-inspired forensic toolkit for the UBI/UBIFS flash file system, with journal-aware deleted-file recovery validated against a real Foscam camera flash dump and compared to existing UBI Reader/UBIFS Dumper tools. Source for a new technique/weakness/mitigation triad on UBIFS journal-based recovery and its garbage-collection time-sensitivity. Source file: raw/DI/Ubi est indicium_ On forensic analysis of the UBI file system.pdf."

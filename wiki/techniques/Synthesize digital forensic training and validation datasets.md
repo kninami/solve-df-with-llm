@@ -24,6 +24,7 @@ aliases:
   - Mobile forensic corpora quantity/quality/timeliness assessment
   - Structured/semi-structured/unstructured dataset organization taxonomy
   - SMIFD-1000
+  - TraceGen
 source_refs:
   - DFCite-1059
   - DFCite-1061
@@ -39,6 +40,7 @@ source_refs:
   - DFCite-1357
   - DFCite-2084
   - DFCite-2085
+  - DFCite-2123
 updated_at: 2026-08-16
 status: complete
 ---
@@ -89,6 +91,8 @@ Manually building forensic datasets by hand is time-consuming and rarely reflect
 
 **Classifying and legally clearing a dataset before sharing it**: independent of how a dataset was created, a novel taxonomy helps a researcher describe and clear it for release. Datasets are first classified by *organization* — structured (conforms to a predefined schema, e.g. a relational table), semi-structured (has self-describing organizational markers but no fixed schema, e.g. JSON/XML/tagged data), or unstructured (no predefined model, e.g. free text, most email, audio, video, and social-media postings) — and separately by *origin*, i.e. whether the data is synthetic (random, rule-based, computer-simulated, or AI-generated) or human-driven (simulated/test data, scenario data, experimental data, or real-world data), since origin is what determines whether sharing restrictions apply. Before releasing a dataset containing or derived from real-world data, its content should be reviewed against four sensitivity categories: direct identifiers (name, SSN, email, phone — always personal data, must be removed), indirect/quasi-identifiers (age, zip code, gender — personal only if linkable to an individual via auxiliary information), sensitive data (personal files, passwords, video footage, chat messages), and illegal/protected data (CSAM, copyrighted material, or data covered by license/IP restrictions that cannot be shared at all). Under data-protection regimes such as GDPR, whether metadata (internal, e.g. EXIF timestamps embedded in a file, or external, e.g. filesystem timestamps/access rights) itself counts as personal data depends on whether it can be linked to an individual using available contextual information, so metadata handling requires the same case-by-case review as the underlying content.
 
+**Early VM-external/internal action-scripting for Windows (TraceGen)**: a precursor to AKF's approach, TraceGen automates user-activity emulation on a VirtualBox-hosted Windows VM through a combination of VM-external actions (issued from the host via VBoxManage, e.g. booting the VM, setting BIOS time, capturing network traffic) and VM-internal actions (Python scripts run inside the guest via `VBoxManage guestcontrol`, using libraries such as `pywinauto` for Win32 GUI automation and `shutil` for file operations) sequenced into "stories" from a simple CSV-driven action list, each entry specifying a timestamp, action, and parameters. A "compressed-time simulation" mode adjusts the VM's clock before each action rather than running in real time, letting weeks or months of simulated usage history be generated in hours; a "live simulation" mode instead runs actions in real time for full timestamp-source consistency at the cost of much longer generation time. Comparing artifacts left by an automated file-copy action (via Python's `shutil`) against the same action performed manually by a human (via GUI copy-paste) found the automated version omitted expected ShellBag registry-key artifacts the manual GUI interaction generated, an early documented instance of the artifact-fidelity gap that [[weaknesses/Virtualized-environment forensic dataset synthesis leaves telltale artifacts absent from real-world data]] more broadly describes, and one of the findings that motivated later tools' agent-less approaches.
+
 ## Related Objectives
 
 - `DFO-1004` Conduct research
@@ -114,3 +118,4 @@ Manually building forensic datasets by hand is time-consuming and rarely reflect
 - [DFCite-1357] Gonçalves, Dolos, Stebner, Attenberger, and Baier, 2022, "Revisiting the dataset gap problem – On availability, assessment and perspective of mobile forensic corpora", FSI: Digital Investigation 43, 301439. Source for the quantity/quality/timeliness mobile-forensic-corpora assessment methodology and its finding that most available mobile corpora are insufficiently realistic or outdated.
 - [DFCite-2084] Breitinger and Jotterand, 2023, "Sharing datasets for digital forensic: A novel taxonomy and legal concerns", FSI: Digital Investigation 45, 301562. Source for the structured/semi-structured/unstructured organization taxonomy, the synthetic/human origin taxonomy, and the direct/indirect/sensitive/illegal data-sensitivity categories used to clear a dataset for sharing under GDPR and copyright law.
 - [DFCite-2085] Rana, Hasnat, and Rahaman, 2022, "SMIFD-1000: Social media image forgery detection database", FSI: Digital Investigation 41, 301392. Source for the curated, richly-annotated (pixel-level and attribute-level) real-world social-media image-splicing dataset covered as an example of curated real-world dataset construction.
+- [DFCite-2123] Du, Hargreaves, Sheppard, and Scanlon, 2021, "TraceGen: User activity emulation for digital forensic test image generation", FSI: Digital Investigation 38, 301133. Source for the early VM-external/internal CSV-driven action-scripting approach and its documented ShellBag artifact-fidelity gap between automated and manual file-copy actions.

@@ -11,7 +11,8 @@ aliases:
   - PLC memory analysis profile methodology
 source_refs:
   - DFCite-1304
-updated_at: 2026-08-14
+  - DFCite-2121
+updated_at: 2026-08-16
 status: complete
 ---
 
@@ -25,11 +26,14 @@ Because PLC vendors do not publish memory-layout documentation and each model's 
 
 The methodology proceeds through five stages: exploring the vendor's engineering/control software to understand project organization (task/program/routine/rung hierarchy), named-structure conventions, unique I/O bit-pattern configuration options, and available logs and configuration settings; generating a graduated series of test cases (from a minimal single-instruction project up to multiple programs/routines/rungs) and acquiring a memory dump after each; identifying each named or targeted data structure's definition by locating its configured name string in the dump and analyzing the surrounding bytes for structural boundary markers, forward/reverse pointer links, and length fields (e.g. the general-purpose 40-byte "Asg_DT" assignment structure used for every task, program, routine, and physical/logical I/O tag, found reliably bounded by a fixed `80 00 00 0A` start/end marker); identifying instances of each defined structure in an unknown dump by walking the discovered pointer chains and boundary markers (list-walking, preferred over pure data-carving since a walk that reaches the same destination through multiple paths cross-validates the walk's reliability, with data-carving reserved as a fallback for stale/de-linked historical data list-walking cannot reach); and formalizing the resulting knowledge into a verified rule set, packaged as a reusable Python library, that a subsequent examiner can apply directly against a same-model controller's memory dump without repeating the reverse-engineering process.
 
+A separate application of this same differential-analysis methodology to a Schneider Electric Modicon M221 PLC additionally reverse-engineered the controller's proprietary UMAS (Unified Messaging Application Services) communication protocol itself, by capturing and comparing traffic during engineering-software read/upload and write/download operations to recover the protocol's function codes and packet structure without any vendor documentation; this protocol-level knowledge then let the investigator issue raw read-memory requests directly (function code 0x28) to acquire the PLC's full memory without needing a JTAG connection, complementing the JTAG-based acquisition route for controllers where protocol reverse-engineering is preferred or JTAG access is impractical. Once acquired, the memory dump's meaningful regions were located via a combination of embedded-file/executable detection (Binwalk) and differential analysis of successive dumps taken as project configuration changes were made through the engineering software, revealing a chain of pointers from a fixed, version-independent starting address through a configuration block to the control logic, project metadata, and I/O data blocks. The control logic itself (stored as compiled instruction-set bytecode) was decompiled using an existing decompiler (Eupheus) where possible, with differential analysis of consecutive memory dumps used to manually resolve any instructions the decompiler did not recognize.
+
 ## Examples
 
 - Applying the finalized profile to an unknown test dump correctly reconstructed the exact control-logic (programs, routines, rungs, instructions, and tag operands) shown in the engineering software's own project view, and separately located a decoy attacker's machine name and username (`I-AM-ATTACKER\unsafe`) recorded in the controller's licensing/connection metadata, differing from the expected legitimate operator's machine recorded elsewhere in the same dump.
 - Comparing controller mode-change logs recovered from memory against the reconstructed user-activity timeline surfaced two PLC mode-change events with no corresponding entry in the expected activity sequence, flaggable as anomalies warranting further investigation.
 - Recovering both the volatile (RAM) and non-volatile (flash) copies of the running firmware from two independently-located firmware base addresses, and comparing their extracted file sizes, allowed cross-validation of firmware integrity, since a completed, unmodified backup/restore cycle should leave both copies matching.
+- Against a simulated Modicon M221 traffic-light control scenario, injecting a single unauthorized "OR" instruction into the running control logic via the engineering software (causing the green and red lights to illuminate simultaneously, a real-world-relevant safety-critical tampering scenario) was successfully detected by acquiring and differentially comparing a memory dump from before and after the manipulation: the injected low-level instruction bytes were directly visible in the diff and, once decompiled, matched exactly the instruction the engineering software reported adding.
 
 ## Related Objectives
 
@@ -42,3 +46,4 @@ The methodology proceeds through five stages: exploring the vendor's engineering
 ## References
 
 - [DFCite-1304] Rais, Awad, Lopez and Ahmed, 2022, "Memory forensic analysis of a programmable logic controller in industrial control systems", DFRWS 2022 EU; FSI: Digital Investigation 40, 301339.
+- [DFCite-2121] Awad, Rais, and Rogers, 2023, "Towards generic memory forensic framework for programmable logic controllers", FSI: Digital Investigation 44, 301513. Source for the UMAS protocol reverse-engineering-based acquisition route and the traffic-light control-logic-tampering detection case study for a Schneider Electric Modicon M221 PLC.

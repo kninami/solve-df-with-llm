@@ -5,13 +5,13 @@ Last updated: 2026-08-16
 ## Source Snapshot
 
 - Seed source: `raw/` paper corpus (DI: 442 papers, IEEE Access: 52 papers, JDFSL: 24 papers — 518 total)
-- Ingestion progress: 476 / 518 papers ingested — `raw/DI` 400/442 (alphabetical), `raw/IEEE Access` 52/52 (COMPLETE), `raw/JDFSL` 24/24 (COMPLETE)
-- References indexed: 471
+- Ingestion progress: 486 / 518 papers ingested — `raw/DI` 410/442 (alphabetical), `raw/IEEE Access` 52/52 (COMPLETE), `raw/JDFSL` 24/24 (COMPLETE)
+- References indexed: 481
 - Objectives: 23 (fixed hub, from earlier SOLVE-IT bootstrap; retained as navigation scaffold)
-- Techniques: 378
-- Weaknesses: 403
-- Mitigations: 406
-- **ID ranges:** as of 2026-08-16, this repo has a single active writer again, so ID assignment reverted to plain "highest existing ID + 1" across the whole wiki (no reserved blocks) per AGENT.md — the prior `raw/DI` 1001+ block and `raw/IEEE Access`/`raw/JDFSL` 2001+ block are now a single continuous sequence (next available: DFT-2095, DFW-2100, DFM-2101, DFCite-2117). See wiki/log.md for the two 2026-08-15/16 merge commits and per-batch detail on the historical two-range split.
+- Techniques: 385
+- Weaknesses: 411
+- Mitigations: 414
+- **ID ranges:** as of 2026-08-16, this repo has a single active writer again, so ID assignment reverted to plain "highest existing ID + 1" across the whole wiki (no reserved blocks) per AGENT.md — the prior `raw/DI` 1001+ block and `raw/IEEE Access`/`raw/JDFSL` 2001+ block are now a single continuous sequence (next available: DFT-2102, DFW-2108, DFM-2109, DFCite-2127). See wiki/log.md for the two 2026-08-15/16 merge commits and per-batch detail on the historical two-range split.
 
 ## Fixed Pages
 
@@ -28,33 +28,33 @@ Last updated: 2026-08-16
 
 ## Coverage Status
 
-- Technique pages generated: 378
-- Weakness pages generated: 403
-- Mitigation pages generated: 406
+- Technique pages generated: 385
+- Weakness pages generated: 411
+- Mitigation pages generated: 414
 - Objective hub generated: yes (fixed navigation page, not yet re-derived from paper corpus)
 
 ## Objectives (technique counts reflect current paper-derived techniques only)
 
 | ID | Name | # Techniques |
 | --- | --- | ---: |
-| [[objectives#DFO-1019 Detect anti-forensics and other anomalies|DFO-1019]] | Detect anti-forensics and other anomalies | 78 |
-| [[objectives#DFO-1001 Reconstruct events|DFO-1001]] | Reconstruct events | 43 |
-| [[objectives#DFO-1008 Establish identities|DFO-1008]] | Establish identities | 39 |
-| [[objectives#DFO-1004 Conduct research|DFO-1004]] | Conduct research | 33 |
+| [[objectives#DFO-1019 Detect anti-forensics and other anomalies|DFO-1019]] | Detect anti-forensics and other anomalies | 79 |
+| [[objectives#DFO-1001 Reconstruct events|DFO-1001]] | Reconstruct events | 45 |
+| [[objectives#DFO-1008 Establish identities|DFO-1008]] | Establish identities | 41 |
+| [[objectives#DFO-1004 Conduct research|DFO-1004]] | Conduct research | 35 |
 | [[objectives#DFO-1006 Acquire data|DFO-1006]] | Acquire data | 27 |
 | [[objectives#DFO-1016 Overcome protection mechanisms|DFO-1016]] | Overcome protection mechanisms | 23 |
+| [[objectives#DFO-1012 Locate potentially relevant content|DFO-1012]] | Locate potentially relevant content | 23 |
 | [[objectives#DFO-1011 Extract artifacts stored by applications|DFO-1011]] | Extract artifacts stored by applications | 23 |
-| [[objectives#DFO-1012 Locate potentially relevant content|DFO-1012]] | Locate potentially relevant content | 22 |
-| [[objectives#DFO-1018 Read data from digital evidence storage formats|DFO-1018]] | Read data from digital evidence storage formats | 19 |
+| [[objectives#DFO-1018 Read data from digital evidence storage formats|DFO-1018]] | Read data from digital evidence storage formats | 21 |
 | [[objectives#DFO-1002 Extract data from specific formats|DFO-1002]] | Extract data from specific formats | 17 |
 | [[objectives#DFO-1015 Prepare for a digital investigation|DFO-1015]] | Prepare for a digital investigation | 15 |
-| [[objectives#DFO-1003 Review content for relevance|DFO-1003]] | Review content for relevance | 12 |
+| [[objectives#DFO-1003 Review content for relevance|DFO-1003]] | Review content for relevance | 13 |
 | [[objectives#DFO-1005 Prioritize digital evidence sources|DFO-1005]] | Prioritize digital evidence sources | 12 |
 | [[objectives#DFO-1010 Preserve digital evidence|DFO-1010]] | Preserve digital evidence | 11 |
 | [[objectives#DFO-1021 Access device data for acquisition|DFO-1021]] | Access device data for acquisition | 10 |
 | [[objectives#DFO-1017 Extract artifacts stored by the operating system|DFO-1017]] | Extract artifacts stored by the operating system | 9 |
+| [[objectives#DFO-1013 Access partitions, volumes, and file systems data|DFO-1013]] | Access partitions, volumes, and file systems data | 8 |
 | [[objectives#DFO-1020 Document digital forensic activities|DFO-1020]] | Document digital forensic activities | 8 |
-| [[objectives#DFO-1013 Access partitions, volumes, and file systems data|DFO-1013]] | Access partitions, volumes, and file systems data | 6 |
 | [[objectives#DFO-1007 Reduce data under consideration|DFO-1007]] | Reduce data under consideration | 3 |
 | [[objectives#DFO-1014 Find potential digital evidence sources|DFO-1014]] | Find potential digital evidence sources | 2 |
 | [[objectives#DFO-1009 Create visualizations|DFO-1009]] | Create visualizations | 2 |
