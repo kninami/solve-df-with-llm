@@ -5068,3 +5068,63 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 37, 301184
 - url: https://doi.org/10.1016/j.fsidi.2021.301184
 - note: "Reference-only: a DFIR skillmap survey combining a 32-respondent practitioner survey, an analysis of 37 training courses, and a review of 66 LinkedIn job listings to rank required DFIR skills (network forensics, incident handling, system forensics most demanded; cloud forensics and encrypted-traffic analysis identified as training gaps). Describes no first-person investigative technique, weakness, or mitigation of its own; cited for context only. Source file: raw/DI/What do incident response practitioners need to know_ A skillmap for the years ahead.pdf."
+
+### DFCite-2153
+
+- type: article
+- author: Ng, Magdalene and James, Jade and Bull, Ray
+- title: "'What you say in the lab, stays in the lab': A reflexive thematic analysis of current challenges and future directions of digital forensic investigations in the UK"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 51, 301839
+- url: https://doi.org/10.1016/j.fsidi.2024.301839
+- note: "Reference-only: a reflexive thematic analysis of 16 semi-structured interviews with UK digital forensic investigators, identifying four themes (tensions with investigating officers/legal professionals, psychological/emotional challenges, AI/automation potential and pitfalls, and the role of academia/tool validation). A qualitative workforce/workplace-culture study describing no first-person investigative technique, weakness, or mitigation of its own; cited for context only. Source file: raw/DI/“What you say in the lab, stays in the lab”- A reflexive thematic analysis of current challenges and future directions of digital forensic investigations in the UK.pdf."
+
+### DFCite-2154
+
+- type: article
+- author: Olegård, Johannes and Axelsson, Stefan and Li, Yuhong
+- title: "When is logging sufficient? — Tracking event causality for improved forensic analysis and correlation"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301877
+- url: https://doi.org/10.1016/j.fsidi.2025.301877
+- note: "Proposes 'gretel numbers,' unique per-event identifiers plus causal-predecessor references embedded in logs across applications, protocols, and system calls, to enable deterministic (non-timestamp-based) log correlation, evaluated via an Nginx/EBPF proof-of-concept showing minimal CPU/RAM overhead but a 150% log-size increase. Source for a new technique/weakness/mitigation set on forensic-readiness causal logging design. Source file: raw/DI/When is logging sufficient_ — Tracking event causality for improved forensic analysis and correlation.pdf."
+
+### DFCite-2155
+
+- type: article
+- author: Block, Frank
+- title: "Windows memory forensics: Identification of (malicious) modifications in memory-mapped image files"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 45, 301561
+- url: https://doi.org/10.1016/j.fsidi.2023.301561
+- note: "Presents imgmalfind, a Volatility 3 plugin that reliably detects modified memory-mapped image file pages (immune to Windows memory-combining, unlike prior PrototypePte/QueryWorkingSetEx/ModifiedList approaches) and pinpoints the exact modified bytes via Image Section Object comparison, detecting API hooks, AMSI/ETW bypasses, Module Stomping, and Process Hollowing missed by Volatility's apihooks plugin. Source for a new technique/weakness/mitigation set on MMIF modification detection. Source file: raw/DI/Windows memory forensics- Identification of (malicious) modifications in memory-mapped image files.pdf."
+
+### DFCite-2156
+
+- type: article
+- author: Almubairik, Norah Ahmed and Khan, Fakhri Alam and Mohammad, Rami Mustafa and Alshahrani, Mubarak
+- title: "WristSense framework: Exploring the forensic potential of wrist-wear devices through case studies"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301862
+- url: https://doi.org/10.1016/j.fsidi.2025.301862
+- note: "Presents WristSense, a vendor-independent framework using a Sensor-Feature Cross-Reference Table (SFCRT) to infer a wrist device's plausible health-data evidence categories (Potential Circumstantial Evidence) from its documented sensors, validated across five Huawei/Amazfit/Xiaomi/Samsung devices; documents a Samsung encryption barrier and vendor-acknowledged biometric sensor inaccuracy. Source for a new technique/weakness/mitigation set on multi-vendor wrist-device evidence-category inference. Source file: raw/DI/WristSense framework- Exploring the forensic potential of wrist-wear devices through case studies.pdf."
+
+### DFCite-2157
+
+- type: article
+- author: Lee, Kukheon and Choi, Jong-Hyun and Park, Jungheum and Lee, Sangjin
+- title: "Your car is recording: Metadata-driven dashcam analysis system"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 38, 301131
+- url: https://doi.org/10.1016/j.fsidi.2021.301131
+- note: "Systematically reverse-engineers 22 metadata items across a 7-level taxonomy (filesystem, container, OS/application) from 14 dashcam models by 11 manufacturers, proposes a normalized database schema integrating them, and demonstrates event reconstruction, multi-timestamp abnormal detection, and combined-characteristic source-model identification. Extended the existing dashcam geospatial-mapping technique (DFT-1138) and its consistency-validation mitigation (DFM-1141) with the broader metadata taxonomy and formal timestamp-ordering check; produced a new technique/weakness/mitigation set on dashcam source-model identification. Source file: raw/DI/Your car is recording- Metadata-driven dashcam analysis system.pdf."
+
+### DFCite-2158
+
+- type: article
+- author: Mahr, Andrew and Cichon, Meghan and Mateo, Sophia and Grajeda, Cinthya and Baggili, Ibrahim
+- title: "Zooming into the pandemic! A forensic analysis of the Zoom Application"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 36, 301107
+- url: https://doi.org/10.1016/j.fsidi.2021.301107
+- note: "First primary disk, network, and memory forensic analysis of the Zoom video-conferencing application across Android, iOS, macOS, and Windows, documenting JID-keyed SQLite database structure, HTTPS credential decryption, memory-resident chat recovery, a triage SQL query set, and an anti-forensic finding that deleting a contact clears the counterpart's chat interface/database without their consent. Source for a new technique/weakness/mitigation set on Zoom forensic analysis. Source file: raw/DI/Zooming into the pandemic! A forensic analysis of the Zoom Application.pdf."
