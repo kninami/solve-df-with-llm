@@ -9,6 +9,7 @@ weakness_ids:
   - DFW-1006
   - DFW-1007
   - DFW-1008
+  - DFW-1314
 aliases:
   - SQLite deleted record recovery
   - metadata-based SQLite recovery
@@ -19,7 +20,8 @@ source_refs:
   - DFCite-1004
   - DFCite-1231
   - DFCite-1268
-updated_at: 2026-08-14
+  - DFCite-1354
+updated_at: 2026-08-15
 status: complete
 ---
 
@@ -44,6 +46,7 @@ SQLite does not erase deleted data immediately; depending on the deletion path a
 - Recovering a fully `secure_delete`-wiped record from an uncommitted WAL frame (WAL-based).
 - Running Undark against SQLite database files that had themselves first been recovered by file-carving a BMW infotainment system's unallocated disk space (metadata-based/freeblock recovery layered on top of file-level carving) recovered several times more SMS messages than the carved files' own visible `messages` table contained, and surfaced call-log records for which the carved files had no visible `calls` table at all — illustrating that deleted-record recovery and unallocated-space file carving are complementary layers, not substitutes for each other.
 - NTGCarver, a purpose-built freeblock/freelist scanner for a Mercedes-Benz infotainment `Trails.sqlite` table, validates each candidate freelist record against the table's known field layout (specifically a single-byte "valid" flag expected to equal `0x09`) before accepting it, recovering GPS trail records dating back roughly two years — more than several general-purpose SQLite recovery tools recovered from the same file, because schema-aware structural validation both rules out coincidentally record-shaped garbage bytes and confirms partially-overwritten candidates that a generic parser discards.
+- A realistic four-user Telegram Android scenario (thousands of exchanged text messages and media files) found the examined version (7.9.3) used WAL journaling (1,000-page checkpoint) with both Auto Vacuum and Secure Delete disabled by default — meaning deleted records generally remain untouched in the main database indefinitely once checkpointed, and the most recently deleted content is additionally recoverable from the WAL file before its next checkpoint — but actual recoverability in practice varied substantially with elapsed time since deletion, the device's power/connectivity state (on, off, airplane mode) at acquisition, and the specific way the user had interacted with the app (creating, reading, or deleting messages), and cross-checking several current forensic tools against the same dataset found their accuracy and completeness diverged noticeably from one another.
 
 ## Related Objectives
 
@@ -54,9 +57,11 @@ SQLite does not erase deleted data immediately; depending on the deletion path a
 - [[weaknesses/SQLite B-tree rebalancing causes valid data in freelist pages to be misidentified as deleted]]
 - [[weaknesses/SQLite carving misattributes reinserted-table records to the wrong table]]
 - [[weaknesses/SQLite WAL checkpoint discards deleted data before recovery]]
+- [[weaknesses/Telegram deleted-message recoverability depends unpredictably on elapsed time, device power state, and app interaction]]
 
 ## References
 
 - [DFCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.
 - [DFCite-1231] Marques, Domingues, Frade and Negrão, 2026, "Forensic analysis of the infotainment system of BMW vehicles", FSI: Digital Investigation 56, 302066. Demonstrates Undark-based freeblock/freelist recovery applied to SQLite database files that were themselves recovered via unallocated-space file carving, recovering several times more messages and entire call-log record sets absent from the carved files' visible tables.
 - [DFCite-1268] Wu, Breitinger and Baggili, 2026, "I know where you have been last summer: Extracting privacy-sensitive information via forensic analysis of the Mercedes-Benz NTG5/2 infotainment system", FSI: Digital Investigation 56, 302068. Introduces NTGCarver, a schema-aware freelist-scanning tool that outperforms generic SQLite recovery tools on a table with a known record layout.
+- [DFCite-1354] Vasilaras, Dosis, Kotsis, and Rizomiliotis, 2022, "Retrieving deleted records from Telegram", FSI: Digital Investigation 43, 301447. First systematic study of Telegram deleted chat/media record retrieval, documenting the app's default WAL/no-Auto-Vacuum/no-Secure-Delete configuration and testing recoverability across elapsed time, device power state, and interaction-type conditions.

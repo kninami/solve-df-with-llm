@@ -1521,7 +1521,7 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - year: 2026
 - journal: Forensic Science International: Digital Investigation, 56, 302068
 - url: https://doi.org/10.1016/j.fsidi.2026.302068
-- note: "Provenance note: the source PDF is filed under the misleading, non-descriptive name raw/DI/def-ipv figure process.pdf; its actual content is this full 10-page paper on detecting Windows PE-based file exfiltration via NTFS $SI Atime combined with UEFI NVAR boot-order-change artifacts. Cited under its true title per the actual PDF content."
+- note: "Provenance note: the source PDF is filed under the misleading, non-descriptive name raw/DI/def-ipv figure process.pdf; its actual content is this full 10-page paper on detecting Windows PE-based file exfiltration via NTFS $SI Atime combined with UEFI NVAR boot-order-change artifacts. Cited under its true title per the actual PDF content. Duplicate note (2026-08-15): the corpus separately contains a second, byte-for-byte text-identical copy of this same paper properly filed as raw/DI/Residual forensic indicators of file exfiltration in windows preinstallation environment.pdf (confirmed via pdftotext diff, 0 differing lines; MD5 hashes differ, consistent with differing embedded file metadata only). This second copy was encountered during alphabetical ingestion of files 351-360 and was not re-ingested as a duplicate reference; DFT-1152/DFW-1155 remain the sole technique/weakness pages for this paper's content."
 
 ### DFCite-1154
 
@@ -3478,6 +3478,96 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 52, 301867
 - url: https://doi.org/10.1016/j.fsidi.2025.301867
 - note: "Conceptual/definitional paper proposing an expanded definition of Preservation and a new definition of Reference Data for evolving distributed systems, explicitly stating it does not aim to provide practical guidance and offering only speculative future-research directions; reference-only, no implemented investigative technique, weakness, or mitigation of its own."
+
+### DFCite-1349
+
+- type: article
+- author: Neale, Christopher and Kennedy, Ian and Nuseibeh, Bashar
+- title: "Reasoning about artefact tampering"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 58, 302147
+- url: https://doi.org/10.1016/j.fsidi.2026.302147
+- note: "Source for the extended-S-TLA inductive-reasoning artefact-tampering-recognition technique and its documented lack of feature-match-strength weighting."
+
+### DFCite-1350
+
+- type: article
+- author: Stoykova, Radina and Andersen, Stig and Franke, Katrin and Axelsson, Stefan
+- title: "Reliability assessment of digital forensic investigations in the Norwegian police"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 40, 301351
+- url: https://doi.org/10.1016/j.fsidi.2022.301351
+- note: "Empirical audit of 124 reports from 21 Norwegian criminal cases finding none sufficiently documented to assess digital evidence reliability; source for the insufficient-documentation weakness addressed by the reliability-validation-framework technique."
+
+### DFCite-1351
+
+- type: article
+- author: Stoykova, Radina and Franke, Katrin
+- title: "Reliability validation enabling framework (RVEF) for digital forensics in criminal investigations"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 45, 301554
+- url: https://doi.org/10.1016/j.fsidi.2023.301554
+- note: "Source for the general three-level (technology/method/application) reliability-documentation framework combined with the earlier file-system-specific validation procedure into one technique page."
+
+### DFCite-1352
+
+- type: article
+- author: Nordvik, Rune and Stoykova, Radina and Franke, Katrin and Axelsson, Stefan and Toolan, Fergus
+- title: "Reliability validation for file system interpretation"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 37, 301174
+- url: https://doi.org/10.1016/j.fsidi.2021.301174
+- note: "Source for the file-system-reverse-engineering reliability-validation procedure and its documented critique of dual-tool verification as an unreliable validation method."
+
+### DFCite-1353
+
+- type: article
+- author: Liang, Fu-Yuan and Gao, Shu-Hui and Xu, Liang-Ju
+- title: "Research on smartphone image source identification based on PRNU features collected multivariate sampling strategy"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 54, 301991
+- url: https://doi.org/10.1016/j.fsidi.2025.301991
+- note: "Source for the multi-patch PRNU smartphone photo source-attribution technique and its Relative-Range-to-Max-quantified finding of regional PRNU instability within a single image."
+
+### DFCite-1354
+
+- type: article
+- author: Vasilaras, Alexandros and Dosis, Donatos and Kotsis, Michael and Rizomiliotis, Panagiotis
+- title: "Retrieving deleted records from Telegram"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 43, 301447
+- url: https://doi.org/10.1016/j.fsidi.2022.301447
+- note: "First systematic Telegram deleted-record retrieval study; folded into the existing SQLite deleted-record-recovery technique page as an applied case study, with a new weakness on its documented time/power-state/interaction-dependent recoverability."
+
+### DFCite-1355
+
+- type: article
+- author: Kombrink, Meike and van Lierop, Stijn and Stolwijk, Dionne and Worring, Marcel and Vrijdag, Derk and Geradts, Zeno
+- title: "REVEAL: A large-scale comprehensive image dataset for steganalysis"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 55, 302006
+- url: https://doi.org/10.1016/j.fsidi.2025.302006
+- note: "Large-scale multi-camera, multi-algorithm steganalysis benchmark dataset; folded into the existing dataset-synthesis technique page as a domain-specific large-scale image benchmark approach."
+
+### DFCite-1356
+
+- type: article
+- author: Im, Sorin and Park, Hyunah and Joun, Jihun and Lee, Sangjin and Park, Jungheum
+- title: "Revisiting logical image formats for future digital forensics: A comprehensive analysis on L01 and AFF4-L"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 50, 301811
+- url: https://doi.org/10.1016/j.fsidi.2024.301811
+- note: "Source for the L01/AFF4-L logical-image integrity-validation technique and its documented whole-file-integrity-verification gap enabling elaborate metadata manipulation to evade detection."
+
+### DFCite-1357
+
+- type: article
+- author: Gonçalves, Patrik and Dolos, Klara and Stebner, Michelle and Attenberger, Andreas and Baier, Harald
+- title: "Revisiting the dataset gap problem – On availability, assessment and perspective of mobile forensic corpora"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 43, 301439
+- url: https://doi.org/10.1016/j.fsidi.2022.301439
+- note: "Mobile-forensic-corpora availability survey and quantity/quality/timeliness assessment methodology; folded into the existing dataset-synthesis technique page as an assessment-methodology complement to the general dataset-quality-principles paragraph."
 
 ### DFCite-2001
 
