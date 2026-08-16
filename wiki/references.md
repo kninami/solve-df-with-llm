@@ -4623,3 +4623,100 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 56, 302069
 - url: https://doi.org/10.1016/j.fsidi.2026.302069
 - note: "An ethnographic study (160 hours of field observation, interviews, casework-database analysis) of a Swiss cantonal police digital forensic unit's operationalisation, finding referral to the DFU depends heavily on individual investigators' informal technical awareness rather than a standardized process. Source for a new weakness/mitigation pair on the resulting under-referral risk for cases with relevant digital evidence. Source file: raw/DI/The implementation of digital forensic science in a Swiss police force.pdf."
+
+### DFCite-2107
+
+- type: article
+- author: van Zandwijk, Jan Peter and Boztas, Abdul
+- title: "The phone reveals your motion: digital traces of walking, driving and other movements on iPhones"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 37, 301170
+- url: https://doi.org/10.1016/j.fsidi.2021.301170
+- note: "Extends prior iPhone Health-app movement-evidence research to WhatsApp logfile connectivity events and the iOS cache_encryptedC.db motion-state cache (MotionStateHistory, StepCountHistory, NatalieHistory), measuring detection accuracy against ground-truth movement periods. Source for a new technique/weakness/mitigation triad on multi-source phone movement-trace detection. Source file: raw/DI/The phone reveals your motion- Digital traces of walking, driving and other movements on iPhones.pdf."
+
+### DFCite-2108
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "The provenance of Apple Health data: A timeline of update history"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301691
+- note: "Analyzes the Apple Health data_provenances table to reconstruct a timeline of every device that has synced data to an Apple ID's shared health record, and finds distance-data provenance timestamps can lag the underlying activity by up to a year while step-count timestamps remain reliably synchronous. Source for a new technique/weakness/mitigation triad on provenance-based device-timeline reconstruction. Source file: raw/DI/The provenance of Apple Health data- A timeline of update history.pdf."
+
+### DFCite-2109
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "The role of R&D in combating digital deception"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "Reference-only: a one-page editorial introducing a journal special issue on digital deception, summarizing the issue's contents rather than presenting original investigative research itself. Not ingested as a technique/weakness/mitigation source; cited for completeness. Source file: raw/DI/The role of R&D in combating digital deception.pdf."
+
+### DFCite-2110
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "The shift of DarkNet illegal drug trade preferences in cryptocurrency: The question of traceability and deterrence"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301756
+- note: "Applies CorEx temporal topic modeling and VADER sentiment analysis to ClearNet (Reddit) forum discussion of DarkNet drug markets to track a multi-year shift in cryptocurrency payment preference (Bitcoin toward Monero). Source for a new technique/weakness/mitigation triad on forum-derived cryptocurrency preference-shift tracking and its purchasing-behavior corroboration gap. Source file: raw/DI/The shift of DarkNet illegal drug trade preferences in cryptocurrency- The question of traceability and deterrence.pdf."
+
+### DFCite-2111
+
+- type: article
+- author: Marshall, Angus M.
+- title: "The unwanted effects of imprecise language in forensic science standards"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 40, 301349
+- url: https://doi.org/10.1016/j.fsidi.2022.301349
+- note: "Analyzes terminology overload and inconsistency (particularly 'verification' and 'customer'/'end-user') across ISO/IEC 17025, ISO/IEC 27041/27042, ILAC G19, and a national forensic regulator's codes of practice, and the resulting confirmation-bias risk. Source for a new weakness/mitigation pair on standards-terminology confusion in method validation. Source file: raw/DI/The unwanted effects of imprecise language in forensic science standards.pdf."
+
+### DFCite-2112
+
+- type: article
+- author: Shang, Dingjie and Sakzad, Amin and Hall, Stuart W.
+- title: "Thumb: A forensic automation framework leveraging MLLMs and OCR on Android device"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 54, 301949
+- url: https://doi.org/10.1016/j.fsidi.2025.301949
+- note: "Presents Thumb, an MLLM-agent-and-OCR-driven Android forensic automation framework accepting natural-language experiment descriptions and performing automated differential artifact analysis (thumbnails, cache, databases, XML) on a rooted physical device. Source for a new technique/weakness/mitigation triad on MLLM-driven Android automation and its dynamic-content (video/ad) failure mode. Source file: raw/DI/Thumb- A forensic automation framework leveraging MLLMs and OCR on Android device.pdf."
+
+### DFCite-2113
+
+- type: article
+- author: Porter, Kyle and Nordvik, Rune and Toolan, Fergus and Axelsson, Stefan
+- title: "Timestamp prefix carving for filesystem metadata extraction"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 38, 301266
+- url: https://doi.org/10.1016/j.fsidi.2021.301266
+- note: "Extends Generic Metadata Time Carving with a prefix-based approximate timestamp matching algorithm, substantially improving NTFS/Ext4 filesystem metadata record recall (e.g. 41.6% to 97.2% for $MFT records on a large NTFS image) with no measured precision cost. Source for a new technique/weakness/mitigation triad on prefix-based metadata carving. Source file: raw/DI/Timestamp prefix carving for filesystem metadata extraction.pdf."
+
+### DFCite-2114
+
+- type: article
+- author: Baier, Daniel and Basse, Alexander and Hilgert, Jan-Niclas and Lambertz, Martin
+- title: "TLS key material identification and extraction in memory: Current state and future challenges"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 49, 301766
+- url: https://doi.org/10.1016/j.fsidi.2024.301766
+- note: "Systematizes current techniques, tools, and methodologies for identifying and extracting TLS key material from memory (brute force, structure identification, hooking, memory diffing, machine learning) across dead- and live-forensics scenarios, and identifies TLS 1.3 support as a significant open research gap. Source for a new technique/weakness/mitigation triad on TLS key extraction and the TLS 1.3 support gap. Source file: raw/DI/TLS key material identification and extraction in memory- Current state and future challenges.pdf."
+
+### DFCite-2115
+
+- type: article
+- author: Andersen, Daniel Bing and Sunde, Nina and Porter, Kyle
+- title: "Tool induced biases? Misleading data presentation as a biasing source in digital forensic analysis"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301881
+- url: https://doi.org/10.1016/j.fsidi.2025.301881
+- note: "A controlled mock-murder-scenario experiment comparing Cellebrite Physical Analyzer and APOLLO pattern-of-life analysis output, identifying four tool-presentation factors (misleading naming, lack of detail/context, data-loss-by-aggregation, misleading timestamp presentation) causing investigator misinterpretation independent of underlying data-extraction accuracy. Source for a new weakness/mitigation pair on tool-presentation-induced misinterpretation. Source file: raw/DI/Tool induced biases_ Misleading data presentation as a biasing source in digital forensic analysis.pdf."
+
+### DFCite-2116
+
+- type: article
+- author: Zia, Muhammad Abdul Moiz and Adedayo, Oluwasola Mary
+- title: "Tool type identification for forensic digital document examination"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 54, 301972
+- url: https://doi.org/10.1016/j.fsidi.2025.301972
+- note: "Applies byte-frequency distribution and Shannon entropy features with six machine-learning classifiers (CNN best at 96% accuracy) to identify which of eight tools created a given PDF document, and shows markedly lower accuracy for version-level identification within a single tool. Source for a new technique/weakness/mitigation triad on PDF creator-tool identification. Source file: raw/DI/Tool type identification for forensic digital document examination.pdf."
