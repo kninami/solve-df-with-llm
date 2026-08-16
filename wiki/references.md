@@ -3379,6 +3379,106 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - url: https://doi.org/10.1016/j.fsidi.2025.301882
 - note: "Systematic literature review deriving 15 dataset-quality properties and 10 common failure modes; folded into the existing dataset-synthesis technique page as a cross-cutting quality-principles checklist applicable to any dataset-creation method."
 
+### DFCite-1339
+
+- type: article
+- author: van der Meer, Vincent and van den Bos, Jeroen and Jonker, Hugo and Dassen, Laurent
+- title: "Problem solved: A reliable, deterministic method for JPEG fragmentation point detection"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301687
+- url: https://doi.org/10.1016/j.fsidi.2023.301687
+- note: "Source for the bit-level Huffman/quantization-overflow JPEG fragmentation-point validation technique and its documented worst-case (HT-max) validation weakness."
+
+### DFCite-1340
+
+- type: article
+- author: Sadineni, Lakshminarayana and Pilli, Emmanuel S. and Battula, Ramesh Babu
+- title: "ProvLink-IoT: A novel provenance model for Link-Layer Forensics in IoT networks"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 46, 301600
+- url: https://doi.org/10.1016/j.fsidi.2023.301600
+- note: "Source for the link-layer (6TiSCH/TSCH/6top) half of the combined PROV-based IoT provenance-graph forensic technique, including its documented provenance storage/growth overhead."
+
+### DFCite-1341
+
+- type: article
+- author: Sadineni, Lakshminarayana and Pilli, Emmanuel S. and Battula, Ramesh Babu
+- title: "ProvNet-IoT: Provenance based network layer forensics in Internet of Things"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 43, 301441
+- url: https://doi.org/10.1016/j.fsidi.2022.301441
+- note: "Source for the network-layer half of the combined PROV-based IoT provenance-graph forensic technique, validated against the Edge-IIoT and IoT Network Intrusion datasets."
+
+### DFCite-1342
+
+- type: article
+- author: Schneider, Janine and Düsel, Linus and Lorch, Benedikt and Drafz, Julia and Freiling, Felix
+- title: "Prudent design principles for digital tampering experiments"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 40, 301334
+- url: https://doi.org/10.1016/j.fsidi.2022.301334
+- note: "Source for the three lessons-learned design principles for digital-evidence-tampering experiments, including the documented task-description-ambiguity failure mode."
+
+### DFCite-1343
+
+- type: article
+- author: Jarrett, Matt and Morris, Sarah
+- title: "Purple dawn: Dead disk forensics on Google's Fuchsia operating system"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 39, 301269
+- url: https://doi.org/10.1016/j.fsidi.2021.301269
+- note: "Source for the Fuchsia FVM/Zircon/MinFS/BlobFS dead-disk forensic analysis technique and the documented zxcrypt MinFS-examination blind spot."
+
+### DFCite-1344
+
+- type: article
+- author: Sandvik, Jens-Petter and Franke, Katrin and Abie, Habtamu and Årnes, Andre
+- title: "Quantifying data volatility for IoT forensics with examples from Contiki OS"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 40, 301343
+- url: https://doi.org/10.1016/j.fsidi.2022.301343
+- note: "Source for the quantitative IoT flash-storage data-volatility triage model and its documented underestimation of true volatility relative to empirical measurement."
+
+### DFCite-1345
+
+- type: article
+- author: Sharma, Shweta and Krishna, C. Rama and Kumar, Rakesh
+- title: "RansomDroid: Forensic analysis and detection of Android Ransomware using unsupervised machine learning technique"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 37, 301168
+- url: https://doi.org/10.1016/j.fsidi.2021.301168
+- note: "Source for the unsupervised (GMM) reverse-engineered-static-feature Android ransomware detection technique and its documented obfuscation/video-threat blind spots."
+
+### DFCite-1346
+
+- type: article
+- author: Hirano, Manabu and Hodota, Ryo and Kobayashi, Ryotaro
+- title: "RanSAP: An open dataset of ransomware storage access patterns for training machine learning models"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 40, 301314
+- url: https://doi.org/10.1016/j.fsidi.2021.301314
+- note: "Hypervisor-based dynamic storage-access-pattern ransomware dataset; folded into the existing dataset-synthesis technique page as a dynamic-behavior dataset generation approach."
+
+### DFCite-1347
+
+- type: article
+- author: Voigt, Lena L. and Freiling, Felix and Hargreaves, Christopher J.
+- title: "Re-imagen: Generating coherent background activity in synthetic scenario-based forensic datasets using large language models"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 50, 301805
+- url: https://doi.org/10.1016/j.fsidi.2024.301805
+- note: "LLM-persona-driven coherent background-activity generation for synthetic disk images; folded into the existing dataset-synthesis technique page as it builds directly on the same agent-less GUI automation tool already covered there."
+
+### DFCite-1348
+
+- type: article
+- author: Spichiger, Hannes and Adelstein, Frank
+- title: "Preserving meaning of evidence from evolving systems"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301867
+- url: https://doi.org/10.1016/j.fsidi.2025.301867
+- note: "Conceptual/definitional paper proposing an expanded definition of Preservation and a new definition of Reference Data for evolving distributed systems, explicitly stating it does not aim to provide practical guidance and offering only speculative future-research directions; reference-only, no implemented investigative technique, weakness, or mitigation of its own."
+
 ### DFCite-2001
 
 - type: article

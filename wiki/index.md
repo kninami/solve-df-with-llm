@@ -5,13 +5,13 @@ Last updated: 2026-08-15
 ## Source Snapshot
 
 - Seed source: `raw/` paper corpus (DI: 442 papers, IEEE Access: 52 papers, JDFSL: 24 papers — 518 total)
-- Ingestion progress: 397 / 518 papers ingested — `raw/DI` 340/442 (alphabetical), `raw/IEEE Access` 52/52 (COMPLETE), `raw/JDFSL` 5/24 (alphabetical)
-- References indexed: 393
+- Ingestion progress: 407 / 518 papers ingested — `raw/DI` 350/442 (alphabetical), `raw/IEEE Access` 52/52 (COMPLETE), `raw/JDFSL` 5/24 (alphabetical)
+- References indexed: 403
 - Objectives: 23 (fixed hub, from earlier SOLVE-IT bootstrap; retained as navigation scaffold)
-- Techniques: 331
-- Weaknesses: 350
-- Mitigations: 351
-- **ID ranges:** `raw/DI` entities use the sequential 1001+ block; `raw/IEEE Access` and `raw/JDFSL` entities use a reserved 2001+ block, assigned by a concurrent worktree to avoid ID collisions with in-flight `raw/DI` ingestion. The two ranges were merged into a single wiki on 2026-08-15; see wiki/log.md for the merge commit and per-batch detail. Post-merge `raw/DI` ingestion (files 311+) continues the sequential 1001+ block (next available: DFT-1293, DFW-1303, DFM-1305, DFCite-1339), disjoint from the `raw/JDFSL` worktree's reserved 2058+ block.
+- Techniques: 337
+- Weaknesses: 356
+- Mitigations: 357
+- **ID ranges:** `raw/DI` entities use the sequential 1001+ block; `raw/IEEE Access` and `raw/JDFSL` entities use a reserved 2001+ block, assigned by a concurrent worktree to avoid ID collisions with in-flight `raw/DI` ingestion. The two ranges were merged into a single wiki on 2026-08-15; see wiki/log.md for the merge commit and per-batch detail. Post-merge `raw/DI` ingestion (files 311+) continues the sequential 1001+ block (next available: DFT-1299, DFW-1309, DFM-1311, DFCite-1349), disjoint from the `raw/JDFSL` worktree's reserved 2058+ block.
 
 ## Fixed Pages
 
@@ -28,32 +28,32 @@ Last updated: 2026-08-15
 
 ## Coverage Status
 
-- Technique pages generated: 331
-- Weakness pages generated: 350
-- Mitigation pages generated: 351
+- Technique pages generated: 337
+- Weakness pages generated: 356
+- Mitigation pages generated: 357
 - Objective hub generated: yes (fixed navigation page, not yet re-derived from paper corpus)
 
 ## Objectives (technique counts reflect current paper-derived techniques only)
 
 | ID | Name | # Techniques |
 | --- | --- | ---: |
-| [[objectives#DFO-1019 Detect anti-forensics and other anomalies|DFO-1019]] | Detect anti-forensics and other anomalies | 66 |
-| [[objectives#DFO-1001 Reconstruct events|DFO-1001]] | Reconstruct events | 38 |
+| [[objectives#DFO-1019 Detect anti-forensics and other anomalies|DFO-1019]] | Detect anti-forensics and other anomalies | 67 |
+| [[objectives#DFO-1001 Reconstruct events|DFO-1001]] | Reconstruct events | 39 |
 | [[objectives#DFO-1008 Establish identities|DFO-1008]] | Establish identities | 30 |
 | [[objectives#DFO-1006 Acquire data|DFO-1006]] | Acquire data | 24 |
+| [[objectives#DFO-1004 Conduct research|DFO-1004]] | Conduct research | 23 |
 | [[objectives#DFO-1016 Overcome protection mechanisms|DFO-1016]] | Overcome protection mechanisms | 22 |
-| [[objectives#DFO-1004 Conduct research|DFO-1004]] | Conduct research | 22 |
 | [[objectives#DFO-1012 Locate potentially relevant content|DFO-1012]] | Locate potentially relevant content | 19 |
 | [[objectives#DFO-1011 Extract artifacts stored by applications|DFO-1011]] | Extract artifacts stored by applications | 19 |
 | [[objectives#DFO-1018 Read data from digital evidence storage formats|DFO-1018]] | Read data from digital evidence storage formats | 17 |
 | [[objectives#DFO-1015 Prepare for a digital investigation|DFO-1015]] | Prepare for a digital investigation | 15 |
-| [[objectives#DFO-1002 Extract data from specific formats|DFO-1002]] | Extract data from specific formats | 13 |
+| [[objectives#DFO-1002 Extract data from specific formats|DFO-1002]] | Extract data from specific formats | 14 |
+| [[objectives#DFO-1005 Prioritize digital evidence sources|DFO-1005]] | Prioritize digital evidence sources | 12 |
 | [[objectives#DFO-1003 Review content for relevance|DFO-1003]] | Review content for relevance | 11 |
-| [[objectives#DFO-1005 Prioritize digital evidence sources|DFO-1005]] | Prioritize digital evidence sources | 11 |
 | [[objectives#DFO-1010 Preserve digital evidence|DFO-1010]] | Preserve digital evidence | 9 |
 | [[objectives#DFO-1021 Access device data for acquisition|DFO-1021]] | Access device data for acquisition | 9 |
 | [[objectives#DFO-1017 Extract artifacts stored by the operating system|DFO-1017]] | Extract artifacts stored by the operating system | 7 |
-| [[objectives#DFO-1013 Access partitions, volumes, and file systems data|DFO-1013]] | Access partitions, volumes, and file systems data | 5 |
+| [[objectives#DFO-1013 Access partitions, volumes, and file systems data|DFO-1013]] | Access partitions, volumes, and file systems data | 6 |
 | [[objectives#DFO-1020 Document digital forensic activities|DFO-1020]] | Document digital forensic activities | 5 |
 | [[objectives#DFO-1007 Reduce data under consideration|DFO-1007]] | Reduce data under consideration | 3 |
 | [[objectives#DFO-1014 Find potential digital evidence sources|DFO-1014]] | Find potential digital evidence sources | 2 |
@@ -93,3 +93,5 @@ The only objective with 0 techniques derived from ingested papers is DFO-1022 (S
 - **Batch 2026-08-15 (raw/DI files 321-330):** ingested "Nintendo 3DS forensics: A secondhand case study" (DFCite-1318), "NTFS Data Tracker" (DFCite-1319), "Of degens and defrauders" (DFCite-1320, Ethereum DeFi rug-pull investigation and money-laundering tracing), "On enhancing memory forensics with FAME" (DFCite-1321, JIT-interpreter Volatility acceleration), "On the classification of questioned PDF documents" (DFCite-1322, PDF toolmark tool-attribution), "On the inadequacy of open-source application logs for digital forensics" (DFCite-1323, five-task log-adequacy taxonomy), "On the need for AI to triage encrypted data containers in U.S. law enforcement applications" (DFCite-1324, a Fourth Amendment legal/policy paper — reference-only, no implemented technique), "On the prevalence of software supply chain attacks" (DFCite-1325, semantic-graph SSCA detection), "One key to rule them all" (DFCite-1326, Android FBE master-key RAM recovery), and "Ontology-based case study management" (DFCite-1327, DFOSINT knowledge-map ontology). Nine new technique pages with paired weakness/mitigation pages; no reuse-only extensions this batch (all nine passed the reuse-first search without a genuine category-level match). See wiki/log.md for full per-paper detail.
 
 - **Batch 2026-08-15 (raw/DI files 331-340):** ingested "Optimising data set creation in the cybersecurity landscape" (DFCite-1338, reuse-extended the dataset-synthesis technique with a 15-property/10-issue quality checklist), "Part 2: PARS" (DFCite-1329, phase-oriented multi-checkpoint peer review), "PaSSw0rdVib3s!" (DFCite-1330, fine-tuned-LLM password-recognition ranking), "PEM" (DFCite-1331, nondisruptive remote PLC memory acquisition via control-logic injection), "Perspective registration and multi-frame super-resolution of license plates" (DFCite-1332), "PHASER" (DFCite-1333, reuse-extended the existing perceptual-hashing-evaluation technique as its open-source framework implementation), "Phishing detection on tor hidden services" (DFCite-1334), "Post-mortem digital forensic analysis of the Garmin Connect application for Android" (DFCite-1335) and "Post-mortem digital forensics analysis of the Zepp Life android application" (DFCite-1336, combined into one wearable-companion-app extraction technique per the reuse-first policy), and "PREE" (DFCite-1337, cross-protocol ICS heuristic field identification). Seven new technique pages with paired weakness/mitigation pages; two papers reuse-extended existing pages rather than minting new ones. See wiki/log.md for full per-paper detail.
+
+- **Batch 2026-08-15 (raw/DI files 341-350):** ingested "Preserving meaning of evidence from evolving systems" (DFCite-1348, a conceptual/definitional paper explicitly stating it provides no practical guidance — reference-only), "Problem solved" (DFCite-1339, deterministic bit-level JPEG fragmentation-point detection), "ProvLink-IoT" (DFCite-1340) and "ProvNet-IoT" (DFCite-1341, combined into one PROV-based IoT provenance-graph forensic technique), "Prudent design principles for digital tampering experiments" (DFCite-1342), "Purple dawn" (DFCite-1343, Google Fuchsia dead-disk forensics), "Quantifying data volatility for IoT forensics" (DFCite-1344, Contiki OS Coffee File System volatility model), "RanSAP" (DFCite-1346) and "Re-imagen" (DFCite-1347, both reuse-extended the dataset-synthesis technique), and "RansomDroid" (DFCite-1345, unsupervised Android ransomware detection). Six new technique pages with paired weakness/mitigation pages; two papers reuse-extended the existing dataset-synthesis technique; one paper judged reference-only; two sibling IoT-provenance papers combined into one technique. See wiki/log.md for full per-paper detail.
