@@ -14,6 +14,7 @@ source_refs:
   - DFCite-2013
   - DFCite-2037
   - DFCite-2092
+  - DFCite-2131
 updated_at: 2026-08-16
 status: complete
 ---
@@ -28,6 +29,8 @@ A related but distinct attack surface, empirically measured by [[techniques/Benc
 
 Beyond deliberate adversarial attacks, ssdeep's own reference implementation carries independent, non-adversarial reliability defects that further erode confidence in its similarity output. A "last segment bug" causes the final segment of an input file to be silently dropped from the similarity hash whenever the last byte happens to trigger a new segment boundary, discarding information about the file's ending without any indication to the user that this occurred. Separately, ssdeep's second (larger block-size) signature is truncated to a hard 32-character limit inherited from a legacy 64-character total-signature-length constraint, discarding otherwise-computable hash information for larger inputs purely to preserve a compact representation. An evaluation study documenting these and related inconsistencies found the two corresponding fixes (removing the last-segment bug, removing the 32-character limit) measurably increased runtime throughput (~14% for the second-signature fix) without changing the algorithm's core design, and further found ssdeep's similarity score degrades toward zero after only four concatenated copies of an unmodified 5 KB block -- a "digest comparison impediment" distinct from either the adversarial attacks or the implementation bugs above, where alternative algorithms (MRSH-v2, sdhash, FbHash) correctly continued reporting near-100% similarity regardless of duplication factor.
 
+A related, non-adversarial reliability concern is threshold sensitivity: using similarity hashing to increase AV malware-detection coverage or to cluster samples into malware families produces materially different conclusions depending purely on the similarity threshold chosen, with no standard, universally appropriate threshold value established in the literature. A threshold requiring 100% compatibility is the most conservative but still increases coverage measurably; progressively lower thresholds increase coverage further but correspondingly raise the risk of false positives, and different individual tools/AV engines respond to threshold changes to very different degrees. Separately, malware packing (even with a single common open-source packer, UPX) significantly reduces the similarity score between a packed sample and its own unpacked original, though it does not eliminate the ability to cluster same-packer variants together via the commonality the packer itself introduces.
+
 ## Why It Matters
 
 An investigator relying on a similarity digest match (or non-match) as evidence — for example, that a file is/is not related to a known blacklisted or allow-listed artifact, or that a blockchain-recorded evidence block's fuzzy hash still matches its original (per DFCite-2013's SSDEEP-based Merkle-tree tamper check) — is relying on a comparison that a knowledgeable adversary can manipulate in either direction with a small, often practical number of byte-level changes, without needing to break any cryptographic primitive. Because the specific vulnerability depends on the target algorithm's internal design (feature length, mapping function, storing structure, coverage), the same investigator's confidence in a match should vary by which specific similarity digest algorithm produced it. In particular, an SSDEEP-based evidence-integrity check that treats similarity at or above a fixed threshold (e.g. 90%) as proof of authenticity is exposed to ssdeep's known emulation-attack surface, where an adversary could in principle craft a tampered evidence block that still scores above the threshold.
@@ -41,6 +44,7 @@ An investigator relying on a similarity digest match (or non-match) as evidence 
 - [[techniques/Detect Android malware families using similarity scoring]]
 - [[techniques/Benchmark approximate matching algorithms using an automated test framework]]
 - [[techniques/Anchor digital evidence integrity and chain of custody on a blockchain]]
+- [[techniques/Increase antivirus malware detection coverage by clustering samples using similarity hashing]]
 
 ## References
 
@@ -49,3 +53,4 @@ An investigator relying on a similarity digest match (or non-match) as evidence 
 - [DFCite-2013] Mahrous et al., 2021, "An enhanced blockchain-based IoT digital forensics architecture using fuzzy hash", IEEE Access 9 — uses SSDEEP similarity above a fixed threshold as its blockchain evidence-block tamper check, which is exposed to this same attack surface.
 - [DFCite-2037] Elgohary et al., 2022, "Improving uncertainty in chain of custody for image forensics investigation applications", IEEE Access 10 — its own "Security Analysis" section independently confirms this same attack surface for MRSH-v2-style fuzzy hashing, describing how an active adversary can defeat blacklist/whitelist fuzzy-hash matching by manipulating as little as one bit per hash-triggering building block.
 - [DFCite-2092] Jakobs, Lambertz, and Hilgert, 2022, "ssdeeper: Evaluating and improving ssdeep", FSI: Digital Investigation 42, 301402. Documents non-adversarial ssdeep implementation defects (the last-segment bug, the 32-character second-signature limitation) and the digest-comparison-impediment effect of file duplication, independent of the deliberate adversarial attacks above.
+- [DFCite-2131] Botacin, Galhardo Moia, and Ceschin, 2021, "Understanding uses and misuses of similarity hashing functions for malware detection and family clustering in actual scenarios", FSI: Digital Investigation 38, 301220. Documents similarity-threshold-selection sensitivity and malware-packing's effect on similarity-hashing-based clustering, both non-adversarial reliability concerns independent of the deliberate attacks above.

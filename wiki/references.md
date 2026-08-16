@@ -4816,3 +4816,99 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 48, 301689
 - url: https://doi.org/10.1016/j.fsidi.2023.301689
 - note: "Presents UBIFT, an open-source, TSK-inspired forensic toolkit for the UBI/UBIFS flash file system, with journal-aware deleted-file recovery validated against a real Foscam camera flash dump and compared to existing UBI Reader/UBIFS Dumper tools. Source for a new technique/weakness/mitigation triad on UBIFS journal-based recovery and its garbage-collection time-sensitivity. Source file: raw/DI/Ubi est indicium_ On forensic analysis of the UBI file system.pdf."
+
+### DFCite-2127
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "uicing V8: A primary account for the memory forensics of the V8 JavaScript engine"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "Presents V8MapScan, a Volatility 3 plugin that recovers live JavaScript heap objects from a memory image of any V8-embedding process by locating V8's internal Map (hidden-class) metadata and using it to correctly interpret referencing objects' fields. Source for a new technique/weakness/mitigation triad on V8 heap forensics and garbage-collection data loss. Source file: raw/DI/uicing V8- A primary account for the memory forensics of the V8 JavaScript engine.pdf."
+
+### DFCite-2128
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Uncertainty and error in location traces"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "Proposes a five-stage (production, persistence, detection/extraction, examination/display, interpretation/reconstruction) error taxonomy for location-trace reliability, documenting concrete cases including an AirTag airplane-mode buffering error placing a device roughly 1,734 km from its actual position, and forensic-tool coordinate rounding/accuracy-metadata omission. Source for a new technique/weakness/mitigation triad on location-trace reliability assessment. Source file: raw/DI/Uncertainty and error in location traces.pdf."
+
+### DFCite-2129
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Uncovering digital traces of DeepSeek: Cross-platform mobile and network forensics"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "Examines DeepSeek's Android and iOS mobile apps for local-storage and network-traffic-interception forensic artifacts, finding the Android build retains essentially no local conversation content (no SSL pinning, enabling straightforward MITM interception) while iOS caches full content in Cache.db. Used to extend the existing conversational-AI-artifact-collection technique and to source a new weakness/mitigation pair on cross-platform storage-completeness divergence. Source file: raw/DI/Uncovering digital traces of DeepSeek- Cross-platform mobile and network forensics.pdf."
+
+### DFCite-2130
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Uncovering the impact of SNS processing on device source authentication"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 56, 302072
+- note: "Proposes a device-aware multi-stage pipeline (style normalization, transfer learning, dynamic multimodal feature fusion, confidence calibration) for source-device identification of SNS-processed images, documenting a 'false confidence' failure mode where a zero-shot raw-image-trained classifier reports ~81-82% confidence at ~0% accuracy on SNS-processed images. Source for a new technique/weakness/mitigation triad on SNS-robust source-device authentication. Source file: raw/DI/Uncovering the impact of SNS processing on device source authentication.pdf."
+
+### DFCite-2131
+
+- type: article
+- author: Botacin, Marcus and Galhardo Moia, Vitor H. and Ceschin, Fabricio
+- title: "Understanding uses and misuses of similarity hashing functions for malware detection and family clustering in actual scenarios"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 38, 301220
+- url: https://doi.org/10.1016/j.fsidi.2021.301220
+- note: "Empirically evaluates similarity hashing (J-sdhash, ssdeep) for increasing antivirus malware-detection coverage and for malware family clustering, documenting threshold-selection sensitivity, AV-ground-truth-labeling difficulty, and packing's effect on clustering. Source for a new technique reusing the existing similarity-digest weakness/mitigation pair, extended with threshold-sensitivity and packing findings. Source file: raw/DI/Understanding uses and misuses of similarity hashing functions for malware detection and family clustering in actual scenarios.pdf."
+
+### DFCite-2132
+
+- type: article
+- author: Ragheb, Omar and Safwat, Mena and Azer, Marianne A.
+- title: "Unearthing the hidden path of MANET's nodes with signal strength measurements: Forensics challenges, survey and a novel approach for data collection, preservation and examination"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 53, 301916
+- url: https://doi.org/10.1016/j.fsidi.2025.301916
+- note: "Proposes Ad-hoc Forensics Fog (AFF), a Fog-Computing-based framework using a three-antenna 'Cocktail Fork' receiver and RSS triangulation to passively track MANET node locations and detect Hello Flood attacks, validated on the OMNeT++ network simulator. Source for a new technique/weakness/mitigation triad on fog-based MANET node tracking. Source file: raw/DI/Unearthing the hidden path of MANET's nodes with signal strength measurements- Forensics challenges, survey and a novel approach for data collection, preservation and examination.pdf."
+
+### DFCite-2133
+
+- type: article
+- author: Tippe, Pascal and Deckers, Christoph
+- title: "Unmixing the mix: Patterns and challenges in Bitcoin mixer investigations"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301876
+- url: https://doi.org/10.1016/j.fsidi.2025.301876
+- note: "Uses Neo4j graph-database analysis of test transactions through two real Bitcoin mixing services, plus a review of three U.S. legal cases (ChipMixer, Helix, Bitcoin Fog), to characterize mixer operational patterns and the role of off-chain information in operator identification. Source for a new technique/weakness/mitigation triad on graph-database-based mixer tracing. Source file: raw/DI/Unmixing the mix- Patterns and challenges in Bitcoin mixer investigations.pdf."
+
+### DFCite-2134
+
+- type: article
+- author: Sharma, Pankaj and Awasthi, Lalit Kumar
+- title: "Unveiling the hidden dangers: Security risks and forensic analysis of smart bulbs"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 50, 301794
+- url: https://doi.org/10.1016/j.fsidi.2024.301794
+- note: "Presents DEF-IoTF/FIvM-IoT, a combined application-level (companion Android app) and hardware-level (Wi-Fi module chip via the Wifi_Cred tool) smart-bulb forensic extraction framework across seven bulb brands, documenting wear-leveling-driven persistence of prior Wi-Fi credentials in flash. Used to extend the existing multi-source IoT acquisition technique and to source a new weakness/mitigation pair on Android-rooting risk. Source file: raw/DI/Unveiling the hidden dangers- Security risks and forensic analysis of smart bulbs.pdf."
+
+### DFCite-2135
+
+- type: article
+- author: Li, Zhihao and Zhang, Zeyu and Yan, Ruibin and Gao, Yuan and Yin, Dechun and Gu, Yijun
+- title: "Unveiling the mysteries of the dark web: A comprehensive graph-based multi-view analysis"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 57, 302105
+- url: https://doi.org/10.1016/j.fsidi.2026.302105
+- note: "Presents a dark web crawler integrating three complementary crawling strategies with a one-size-fits-all multi-node/multi-edge-type graph model, crawling 9.87 million pages/35.17 million edges over 72 hours and substantially outperforming single-strategy baseline crawlers, particularly for surface-web-to-dark-web boundary discovery. Source for a new technique/weakness/mitigation triad on multi-source dark web mapping. Source file: raw/DI/Unveiling the mysteries of the dark web- A comprehensive graph-based multi-view analysis.pdf."
+
+### DFCite-2136
+
+- type: article
+- author: Rouhi, Rahimeh and Bertini, Flavio and Montesi, Danilo
+- title: "User profiles' image clustering for digital investigations"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 38, 301171
+- url: https://doi.org/10.1016/j.fsidi.2021.301171
+- note: "Presents a hierarchical graph-based SPN image-clustering method that detects and removes non-source-fingerprinted 'shared images' before clustering 'taken images' by camera source, evaluated on the VISION dataset with simulated social-network-platform compression, showing sharp recall degradation for heavily-compressed (Facebook Low Resolution) images. Source for a new technique/weakness/mitigation triad on user-profile image clustering. Source file: raw/DI/User profiles' image clustering for digital investigations.pdf."

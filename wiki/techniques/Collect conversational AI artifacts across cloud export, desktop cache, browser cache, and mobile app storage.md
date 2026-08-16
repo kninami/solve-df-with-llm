@@ -16,7 +16,8 @@ source_refs:
   - DFCite-1131
   - DFCite-1215
   - DFCite-1226
-updated_at: 2026-08-13
+  - DFCite-2129
+updated_at: 2026-08-16
 status: complete
 ---
 
@@ -37,6 +38,8 @@ The framework was demonstrated as a case study across four major conversational 
 - Tyagi et al., 2025: on a rooted Android device (Magnet AXIOM-imaged) and a jailbroken/GrayKey-imaged iOS device, ChatGPT and Copilot stored full plaintext conversation content, user account identifiers, and browser-visited-link data locally under each app's own data directory on both platforms; Gemini stored essentially no forensically significant conversation data locally on either platform, instead requiring collection via the account's Google Takeout cloud export, from which prompts, responses, location history, and account profile data (name, gender, email) were recovered.
 - Dragonas et al., 2024: a dedicated study of OpenAI's ChatGPT mobile app on Android and iOS found conversation content stored in plaintext JSON files (iOS, under `/Library/Application Support/conversations-account-ID/`) or a SQLite database (Android, `<user-ID>_<account-ID>_conversations.db`, with metadata in the `DBConversation` table and message text in `DBMessage`), plus draft messages, added custom-GPT metadata, and PII (account ID, user ID, device ID, workspace ID, external IP address) scattered across accompanying protobuf/plist/XML preference files; the cloud-native data export (requested in-app and delivered by email as a `.zip` archive) instead surfaces `conversations.json` (full metadata), `chats.html` (content without metadata), `user.json`, `shared_conversations.json`, `message_feedback.json`, and `model_comparisons.json`. At the time of study, none of Cellebrite Physical Analyzer, Oxygen Forensic Detective, ALEAPP, iLEAPP, or RLEAPP could parse the app's data automatically, requiring manual database/JSON review until the authors' own contributed ALEAPP/iLEAPP/RLEAPP parsers were adopted.
 
+A study of DeepSeek's mobile apps additionally supplements this artifact set with network-traffic-based collection: intercepting the app's HTTPS traffic (via a MITM proxy, after bypassing certificate pinning where present -- see [[techniques/Bypass certificate pinning to intercept encrypted IoT companion-app network traffic using a Frida-based MITM proxy]] for the same general technique applied to a different device class) recovers prompt/response content in transit even where local on-device storage retains little or nothing. This is a critical complement for DeepSeek specifically, since (per this study) the Android app was found to have no SSL/TLS certificate pinning at all, permitting straightforward interception with a standard MITM proxy, and Android local storage retained essentially no conversation history content (relying on server-side/session state instead), while the iOS app cached full conversation content locally in a `Cache.db` file, illustrating that platform choice alone can determine whether local extraction or network interception is the productive collection path for a given app.
+
 ## Related Objectives
 
 - `DFO-1011` Extract artifacts stored by applications
@@ -46,9 +49,11 @@ The framework was demonstrated as a case study across four major conversational 
 - [[weaknesses/Conversational AI service-side export and API collection cannot recover conversations the user has already deleted]]
 - [[weaknesses/Location data recovered from an LLM mobile app artifact may reflect IP-based geolocation rather than the device's actual GPS position]]
 - [[weaknesses/Conversation identifiers for the same conversational AI exchange can diverge across a user's client platforms and cloud export]]
+- [[weaknesses/An AI chatbot's mobile app stores conversation history completeness inconsistently across its own iOS and Android builds]]
 
 ## References
 
 - [DFCite-1131] Cho et al., 2025, "Conversational AI forensics: A case study on ChatGPT, Gemini, Copilot, and Claude", FSI: Digital Investigation 52.
 - [DFCite-1215] Tyagi et al., 2025, "Forensic analysis and privacy implications of LLM mobile apps: A case study of ChatGPT, Copilot, and Gemini", FSI: Digital Investigation 54, 301974.
 - [DFCite-1226] Dragonas et al., 2024, "Forensic analysis of OpenAI's ChatGPT mobile application", FSI: Digital Investigation 50, 301801.
+- [DFCite-2129] "Uncovering digital traces of DeepSeek: Cross-platform mobile and network forensics", FSI: Digital Investigation 48, 2024. Source for the network-traffic-interception collection surface and the iOS-versus-Android local-storage-completeness gap.

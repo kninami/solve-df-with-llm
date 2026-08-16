@@ -8,6 +8,7 @@ objective_ids:
 weakness_ids:
   - DFW-1171
   - DFW-1203
+  - DFW-2114
 aliases:
   - TEASR (Tool for Evidence Acquisition from Smart Relays)
   - Acquire forensic artifacts from a smart-relay IoT device across firmware, companion-app, network, and cloud-API sources
@@ -15,6 +16,8 @@ aliases:
   - Xiaomi Mi Smart Sensor Set multi-source forensic examination
   - Amazon iRobot Roomba cloud forensic acquisition
   - PyRoomba
+  - DEF-IoTF
+  - FIvM-IoT
 source_refs:
   - DFCite-1177
   - DFCite-1216
@@ -23,6 +26,7 @@ source_refs:
   - DFCite-1280
   - DFCite-2068
   - DFCite-2086
+  - DFCite-2134
 updated_at: 2026-08-16
 status: complete
 ---
@@ -49,6 +53,7 @@ A cross-device survey formalizes this same multi-source pattern as a generic fiv
 - Amazon Echo Show 2nd generation (Youn et al., 2021): chip-off extraction of the device's 153-ball BGA eMMC flash chip recovered the Ext4-formatted `android_data` partition containing account settings, system logs (including wake-word-detection and app-usage events), and a media database with creation timestamps, hashes, and paths of photos/videos taken by the device; the paired Alexa companion smartphone app recovered account credentials (via a Chrome-based Silk-browser password decrypt) and search-keyword/shopping-list history; and the Alexa cloud API, once account credentials were obtained, returned historical conversation logs, connected-device lists, and photo/video history with timestamps. Correlating the device's serial number (found in both the companion app's CardID and the Echo Show's own hardware) confirmed which smartphone controlled which physical device, and combining cloud-recorded search/shopping activity with device-side photo timestamps built a timeline of user behavior for a hypothetical case study.
 - Xiaomi Mi Smart Sensor Set (Castelo Gómez et al., 2022): with hardware-level acquisition of the "Mi Control Hub" and its Zigbee window/motion/switch sensors ruled out entirely (JTAG/chip-off attempted but not achievable by the authors, and the hub's earlier remote-acquisition path required a firmware version the device could no longer be downgraded to), the companion-app layer supplied a rooted Android device's `/data/com.xiaomi.smarthome` directory containing paired-device lists, per-device action logs, the hub's MAC address and geolocation, and — in plaintext, unencrypted `shared_prefs` XML — the home WiFi network's SSID/BSSID/password; the network layer supplied both WiFi traffic (hub-to-cloud UDP updates whenever a sensor's state changed, plus periodic ICMP connectivity checks) and sniffed Zigbee traffic (per-device 802.15.4 hardware addresses, and a request/data/acknowledgement packet triplet for every sensor state change), which together substituted for the direct cloud-API access that could not be obtained for this device.
 - A search across an Echo Show's entire eMMC image for the plaintext name of a message recipient ("Robert Paulson") found zero hits, even though the device's own touch-event and message-send logs fully documented the sending action (recipient's Amazon account number, keystroke-level timing, and a screenshot confirmation of the sent message) — the recipient's actual name was recoverable only via a request to Amazon's cloud service for the account number's associated identity.
+- Smart light bulbs (Wipro, Philips, Syska, Crompton, MI, Halonix, Havells): the DEF-IoTF/FIvM-IoT framework extracts application-level evidence (login credentials, access tokens, cached web content, timestamps, and connected-device metadata) from each brand's companion Android app via non-rooted ADB extraction (limited to accessible partitions) or rooted extraction (fuller access, at the cost of the rooting process's own data-integrity risk), and separately extracts device-level evidence by physically desoldering and connecting to the bulb's Wi-Fi communication module (a small, low-power flash-based chip such as TYWE3L, TYWE2L, ESPRESSif, or ESP8266) via an Arduino-based interface, using a purpose-built tool (Wifi_Cred) to recover the module's stored Wi-Fi network name, password, MAC address, and other connection configuration directly from its flash memory -- notably including a prior Wi-Fi network's credentials still present in flash due to wear-leveling, even after the bulb was reset and reconfigured onto a new network.
 - Amazon iRobot Roomba (cloud-connected robot vacuum): analysis of Roomba's cloud infrastructure uncovered undocumented APIs, from which the authors built PyRoomba, an open-source Python tool that acquires a Roomba's complete mission history and navigational data — mission logs, generated floor-plan maps of the cleaned space, mission duration, detected-object identifications, and degree-of-coverage statistics — directly via the cloud API rather than through the official mobile app. Across six navigation runs in two differently-laid-out environments, PyRoomba recovered more detailed environmental information than Roomba's own mobile app, and a simulated crime-scene case study demonstrated PyRoomba could detect environmental changes (objects identified as hazards or obstacles, e.g. a body or knife in the vacuum's path) purely from cloud-acquired data, none of which required physical access to or examination of the device itself.
 - HIKVISION's "Hik-Connect" CCTV companion app (Android and iOS): the app's `ezvizlog.db`/`YSDCLogItem.sqlite` database logged every "Live View" and "Playback" action against a specific CCTV system's serial number and WAN IP with start/stop timestamps, while a separate `image.db` tracked user-created screenshots/recordings and their originating camera; correlating these with the app's `user-ID.xml` login-timestamp file established which account accessed which CCTV system and when, entirely from the companion app's own storage without needing to examine the CCTV device or its cloud service.
 
@@ -60,6 +65,7 @@ A cross-device survey formalizes this same multi-source pattern as a generic fiv
 
 - [[weaknesses/Failure to enter a smart-device SoC's flash boot mode prevents firmware acquisition for some device models]]
 - [[weaknesses/Multi-source IoT and smart-device evidence collection is incomplete when the device, companion app, or cloud source is unavailable]]
+- [[weaknesses/Rooting an Android companion device for deeper IoT app data access risks data loss and device-integrity compromise]]
 
 ## References
 
@@ -70,3 +76,4 @@ A cross-device survey formalizes this same multi-source pattern as a generic fiv
 - [DFCite-1280] Dragonas, Lambrinoudakis and Kotsis, 2023, "IoT forensics: Analysis of a HIKVISION's mobile app", DFRWS 2023 USA; FSI: Digital Investigation 45, 301560. Demonstrates companion-app-only forensic analysis of a CCTV remote-access app, recovering the connected CCTV system's identity and the user's Live View/Playback history without needing access to the CCTV hardware itself.
 - [DFCite-2068] Abel-Boozer, John & Mukherjee, 2021, "Internet of Things Software and Hardware Architectures and Their Impacts on Forensic Investigations: Current Approaches and Challenges", JDFSL 16(4). Secondary survey providing the generic five-layer IoT architecture model (Physical Interface, Device, Network/Transport, Presentation, Integration) and device-family examples (Amazon Alexa, Google Nest, Windows 10 IoT, smartwatches, vehicles) that formalize and illustrate this technique's multi-source acquisition pattern.
 - [DFCite-2086] Onik, Alsmadi, Baggili, and Webb, 2024, "So fresh, so clean: Cloud forensic analysis of the Amazon iRobot Roomba vacuum", FSI: Digital Investigation 48, 301686. Source for PyRoomba, an open-source tool that acquires a Roomba's mission history, floor-plan maps, and navigational data via undocumented cloud APIs rather than through the official app.
+- [DFCite-2134] Sharma and Awasthi, 2024, "Unveiling the hidden dangers: Security risks and forensic analysis of smart bulbs", FSI: Digital Investigation 50, 301794. Source for the DEF-IoTF/FIvM-IoT combined application-level (companion Android app) and hardware-level (Wi-Fi module chip, via the Wifi_Cred tool) smart-bulb extraction framework, including the wear-leveling-driven prior-credential-persistence finding.
