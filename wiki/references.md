@@ -4138,3 +4138,192 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Journal of Digital Forensics, Security and Law, 16, Article 1
 - url: https://doi.org/10.58940/1558-7223.1681
 - note: "Reference-only: an end-of-life media-sanitization/engineering study (not an investigative technique) demonstrating that sharp-blade household blenders with sufficient peak power (>=1,380W) and blade speed (>=28,000 RPM) can pulverize a 2.5-inch SSD to NSA's <2mm particle-size destruction standard within 20 minutes, as a low-cost alternative to commercial disintegrators. Not used as a technique/weakness/mitigation source because it addresses pre-investigation organizational data destruction rather than any activity within the digital forensic investigation lifecycle covered by the SOLVE-IT objectives; cited for completeness. Source file: raw/JDFSL/An Economical Method for Securely Disintegrating Solid-State Drives Using Blenders.pdf."
+
+### DFCite-2058
+
+- type: article
+- author: Khalid, Zainab and Qadir, Sana
+- title: "An evaluation framework for digital image forensics tools"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 4
+- url: https://doi.org/10.58940/1558-7223.1727
+- note: "Proposes the first CFTT-aligned conformance-testing evaluation framework for Digital Image Forensics Tools (DIFTs): 18 profiles, 18 core assertions across 7 profiles and 30 optional assertions across 16 profiles, checked with 69 test cases. Applies it to FotoForensics, Ghiro, Imago Forensics, and Exif Reader, finding most tools fail to correctly determine an image's modification timestamp and that Exif Reader alone fails the core Error Level Analysis tamper-detection assertion. Also states hash-digest matching as the primary counter to image metadata manipulation. Used to generalize [[techniques/Validate a forensic tool's conformance using a CFTT-aligned specification]] beyond its original drone-forensics scope, extend [[weaknesses/No single forensic tool satisfies all core and optional requirements when tested against a CFTT-aligned specification]], and source the new [[mitigations/Use hash-digest matching against known-original images to detect image metadata tampering]]. Source file: raw/JDFSL/An Evaluation Framework For Digital Image Forensics Tools.pdf."
+
+### DFCite-2059
+
+- type: article
+- author: Gogia, Gaurav and Rughani, Parag H.
+- title: "An ML based digital forensics software for triage analysis through face recognition"
+- year: 2023
+- journal: Journal of Digital Forensics, Security and Law, Manuscript 1772
+- note: "Describes SynFO, a command-line ML-based digital forensics tool that automates disk imaging/hashing, format-aware embedded-picture extraction (header/footer carving for raw containers, Zip extraction for office documents, PDF/EPUB library reading), and automated person-of-interest identification via dlib/face_recognition (HOG or CNN face detection, 128-d landmark matching, one-to-one/one-to-many/many-to-one/many-to-many modes). Reports a verification failure under night-plus-rain conditions and an explicit embedded-extraction gap for MS Office 2019/365 documents. Source for new techniques [[techniques/Identify a person of interest across extracted images using automated face recognition matching]] and [[techniques/Extract embedded picture files from documents and disk images using format-aware carving]], their weaknesses, and mitigations. Source file: raw/JDFSL/AN ML BASED DIGITAL FORENSICS SOFTWARE FOR TRIAGE ANALYSIS THROUGH FACE RECOGNITION.pdf."
+
+### DFCite-2060
+
+- type: article
+- author: Sharma, Neha and Panda, Jeebananda
+- title: "Assessment of 3D mesh watermarking techniques"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 2
+- url: https://doi.org/10.15394/jdfsl.2022.1745
+- note: "Reference-only: a two-decade literature survey of 3D mesh digital watermarking algorithms (geometrical-transformation, direct-spectral, multi-resolution, parameterization, vertex-norm-distribution, and intelligent-carrier-selection approaches) for copyright/IP protection of CAD, medical-imaging, and VR mesh models, with an attack-based (geometric/connectivity/file-format) robustness comparison. Not used as a technique/weakness/mitigation source because it addresses watermark-algorithm design and evaluation for content owners/designers rather than any first-person investigative technique within the digital forensic investigation lifecycle covered by the SOLVE-IT objectives; cited for completeness. Source file: raw/JDFSL/Assessment of 3D mesh watermarking techniques.pdf."
+
+### DFCite-2061
+
+- type: article
+- author: Bohora, Karina and Bothe, Amol and Sheth, Damini and Chopade, Rupali and Pachghare, V. K.
+- title: "Backup and recovery mechanisms of Cassandra database: A review"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 15, Article 5
+- url: https://doi.org/10.15394/jdfsl.2021.1613
+- note: "Reviews Apache Cassandra's tombstone-based deletion mechanism (explicit delete vs. TTL expiry), the `gc_grace_seconds`/compaction lifecycle that permanently removes tombstones, the `nodetool`/`sstabledump` inspection procedure for `deletion_info`/`marked_deleted`/`local_delete_time` markers, and broader NoSQL backup/disaster-recovery approaches. Source for new technique [[techniques/Recover deleted Cassandra records by inspecting SSTable tombstone markers]], its weakness, and mitigation. Source file: raw/JDFSL/Backup and Recovery Mechanisms of Cassandra Database- A Review.pdf."
+
+### DFCite-2062
+
+- type: article
+- author: Novak, Martin
+- title: "Digital evidence in appeals of criminal cases before the U.S. Courts of Appeal: A review of decisions and examination of the legal landscape from 2016 - 2020"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 3
+- url: https://doi.org/10.15394/jdfsl.2022.1734
+- note: "Reference-only: a legal/appellate-decision review (112 U.S. Courts of Appeal cases, 2016-2020) of the jurisprudence surrounding border searches of electronic devices, compelled decryption (Fifth Amendment testimonial/foregone-conclusion doctrine), Network Investigative Tool (NIT) warrants (the FBI Playpen/Operation Pacifier case line and Rule 41(b) amendment), and geo-fence warrants (Carpenter v. United States CSLI doctrine). Not used as a technique/weakness/mitigation source because it is legal/constitutional analysis of case outcomes rather than a first-person investigative technique within the digital forensic investigation lifecycle covered by the SOLVE-IT objectives; cited for completeness. Source file: raw/JDFSL/Digital Evidence In Appeals Of Criminal Cases Before The U.S. Courts Of Appeal- A Review Of Decisions And Examination Of The Legal Landscape From 2016 – 2020.pdf."
+
+### DFCite-2063
+
+- type: article
+- author: Asante, Audrey and Amankona, Vincent
+- title: "Digital forensic readiness framework based on honeypot and honeynet for BYOD"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 2
+- url: https://doi.org/10.58940/1558-7223.1706
+- note: "Proposes an ISO/IEC 27043-aligned digital forensic readiness (DFR) framework for BYOD environments (BYOD Devices, Management, People, Technology components) that uses combined low- and high-interaction honeypot/honeynet technology, MDM, and personal/corporate space isolation to detect security incidents and capture potential digital evidence, explicitly improving on a prior low-interaction-only honeyd-based BYOD DFR model. Used to extend [[techniques/Assess and design for digital forensic readiness]] with a new BYOD/honeypot instantiation, and to source a new weakness/mitigation pair on low-interaction honeypot detection limits. Source file: raw/JDFSL/DIGITAL FORENSIC READINESS FRAMEWORK BASED ON HONEYPOT AND HONEYNET FOR BYOD.pdf."
+
+### DFCite-2064
+
+- type: article
+- author: Kara, Ilker
+- title: "Don't bite the bait: Phishing attack for internet banking (e-banking)"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 5
+- url: https://doi.org/10.58940/1558-7223.1743
+- note: "Real-case-study forensic investigation of an e-banking phishing attack: recovers the victim's browsing history from a UFED-Cellebrite mobile extraction to identify the fake domain visited, mirrors the live phishing site with HTTrack to recover its WordPress-based file structure and a log file containing multiple victims' plaintext submitted data, and resolves/WHOIS-queries the site's hosting IP to reach information described as 'thought to belong to the attacker.' Source for new techniques [[techniques/Recover a phishing website's captured victim data and server-side artifacts by mirroring its file structure]] and [[techniques/Attribute a phishing website's hosting infrastructure using WHOIS and IP lookup]], their shared weakness, and mitigation. Source file: raw/JDFSL/DON_T BITE THE BAIT- PHISHING ATTACK FOR INTERNET BANKING (E-BANKING).pdf."
+
+### DFCite-2065
+
+- type: article
+- author: Sohail, Humna
+- title: "Fault lines in the application of international humanitarian law to cyberwarfare"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 8
+- url: https://doi.org/10.15394/jdfsl.2022.1761
+- note: "Reference-only: a legal-theory analysis of International Humanitarian Law (IHL)/Law of Armed Conflict doctrine applied to cyberwarfare — interpreting 'attack' and 'object' (including whether data is a protected object) under Additional Protocol I, and the difficulty of state attribution (effective-control vs. overall-control tests) for classifying an armed conflict as international or non-international. Not used as a technique/weakness/mitigation source because it is legal/doctrinal analysis with no first-person investigative technique within the digital forensic investigation lifecycle covered by the SOLVE-IT objectives; cited for completeness. Source file: raw/JDFSL/Fault Lines In The Application Of International Humanitarian Law To Cyberwarfare.pdf."
+
+### DFCite-2066
+
+- type: article
+- author: Gilbert, Alissa and Seigfried-Spellar, Kathryn C.
+- title: "Forensic discoverability of iOS vault applications"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 1
+- url: https://doi.org/10.15394/jdfsl.2022.1773
+- note: "Comparative study of five iOS vault/photo-vault apps (KeepSafe, Photo Vault, Calculator+, Secret Safe, Purple photo vault) processed through three forensic toolkits (Cellebrite, Axiom, Mobilyze), finding every vault app left recoverable residual evidence (thumbnails, database BLOBs, duplicate copies, live-preview videos, and in one case a plaintext PIN) despite claiming to protect hidden photos, and that toolkit completeness varied unpredictably per app. Source for new technique [[techniques/Recover hidden photos from an iOS vault application's residual artifacts]], its weakness, and mitigation. Source file: raw/JDFSL/Forensic Discoverability of iOS Vault Applications.pdf."
+
+### DFCite-2067
+
+- type: article
+- author: Pelosi, Michael and Easttom, Chuck
+- title: "Positive identification of least significant bit (LSB) image steganography using cover image comparisons"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 15, Article 6
+- url: https://doi.org/10.15394/jdfsl.2021.1551
+- note: "Introduces CounterSteg, free software for positively identifying and attributing LSB image steganography by bit-plane/color-channel visual comparison of a suspect payload image against its located original cover image, evaluated against eight steganographic programs of varying quality; also provides a 14-location checklist for locating a surviving original cover image and a similar-image search facility. Source for new technique [[techniques/Detect image LSB steganography using bit-plane cover-image comparison]], its weakness, and mitigation. Source file: raw/JDFSL/Identification of LSB image Steganography using Cover Image Comparisons.pdf."
+
+### DFCite-2068
+
+- type: article
+- author: Abel-Boozer, Alex and John, Arun and Mukherjee, Tathagata
+- title: "Internet of Things software and hardware architectures and their impacts on forensic investigations: Current approaches and challenges"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 4
+- url: https://doi.org/10.58940/1558-7223.1759
+- note: "A secondary survey (not primary research) proposing a generic five-layer IoT device architecture model (Physical Interface, Device, Network/Transport, Presentation, Integration layers) and surveying device-family case studies (Amazon Alexa, Google Nest, Windows 10 IoT, smartwatches, vehicles, IoMT, IIoT) and forensic frameworks (real-time, ML/AI-based, blockchain-based, fog-based), each drawn from other primary papers. Used only to extend the existing [[techniques/Acquire forensic artifacts from a smart IoT device across hardware, companion-app, network, and cloud sources]] technique with its five-layer architectural framing and illustrative device-family examples, per the style guide's preference for primary sources over survey papers except where the survey adds genuine synthesis value (the layering model itself). Source file: raw/JDFSL/Internet of Things Software and Hardware Architectures and Their Impacts on Forensic Investigations- Current Approaches and Challenges.pdf."
+
+### DFCite-2069
+
+- type: article
+- author: Abiodun, Orunsolu Abdul and Sodiya, A. S. and Kareem, S. O. and Oladimeji, G. B.
+- title: "Performance assessment of some phishing predictive models based on minimal feature corpus"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 5
+- url: https://doi.org/10.58940/1558-7223.1692
+- note: "Proposes a Frequency Feature Assessment Algorithm that reduces a phishing feature corpus to a minimal, high-relevance 13-feature URL/webpage set, then benchmarks five classical ML classifiers on it, finding Random Tree best (96.1% accuracy, 0.39% FP rate). Source for new technique [[techniques/Select phishing-detection features using frequency-analysis minimal feature selection]], its weakness, and mitigation. Source file: raw/JDFSL/Performance Assessment of some Phishing predictive models based on Minimal Feature corpus Authors .pdf."
+
+### DFCite-2070
+
+- type: article
+- author: David, Anne and Morris, Sarah and Appleby-Thomas, Gareth
+- title: "Social media user relationship framework (SMURF)"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 1
+- url: https://doi.org/10.15394/jdfsl.2021.1698
+- note: "Proof-of-concept live-triage framework (SMURF) automating recovery of browser artifacts (history, cache, session-store) indicating social media registration, search/view, sharing, and association/relationship activity, weighted on a five-level evidential-reliability scale, validated against Autopsy 4.15.0 on a Twitter case study. Source for new technique [[techniques/Infer social media user activity and relationships from browser artifacts using a weighted evidence scale]], its weakness, and mitigation. Source file: raw/JDFSL/Social Media User Relationship Framework (SMURF).pdf."
+
+### DFCite-2071
+
+- type: article
+- author: Steel, Chad M. S. and Newman, Emily and O'Rourke, Suzanne and Quayle, Ethel
+- title: "Technical behaviours of child sexual exploitation material offenders"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 2
+- url: https://doi.org/10.15394/jdfsl.2022.1794
+- note: "Anonymous self-report survey (n=78) of previously convicted CSEM offenders quantifying gateway/overall technology usage, storage rationale, and countermeasure usage rates (browsing-history deletion, in-private browsing, secure wiping, mislabeled directories, encryption, VPN, Tor), finding encryption usage was not elevated relative to a general-population reference group and that a substantial minority stored no material at all. Source for new technique [[techniques/Anticipate common CSEM-offender technical countermeasures during a forensic examination]], its weakness, and mitigation. Source file: raw/JDFSL/TECHNICAL BEHAVIOURS OF CHILD SEXUAL EXPLOITATION MATERIAL OFFENDERS.pdf."
+
+### DFCite-2072
+
+- type: article
+- author: Bergman, Jesper and Popov, Oliver B.
+- title: "The Digital Detective's Discourse: A toolset for forensically sound collaborative dark web content annotation and collection"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 5
+- url: https://doi.org/10.15394/jdfsl.2022.1740
+- note: "Presents the D3 toolset: a Tor Browser/Firefox add-on for in-browser annotation and categorization of dark web content, a hash-verified central archiving/sync server, and ML classifiers (85-96% accuracy) trained on the resulting labelled data set, evaluated with Cohen's kappa inter-annotator agreement (0.84 overall). Source for new technique [[techniques/Collect and annotate dark web content for investigation using a forensically sound, hash-verified toolset]], its weakness, and mitigation. Source file: raw/JDFSL/The Digital Detective_s Discourse - A toolset for forensically sound collaborative dark web content annotation and collection.pdf."
+
+### DFCite-2073
+
+- type: article
+- author: Olber, Paweł
+- title: "The survey on cross-border collection of digital evidence by representatives from Polish prosecutors' offices and judicial authorities"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 3
+- url: https://doi.org/10.58940/1558-7223.1700
+- note: "Survey (n=138) of Polish prosecutorial/judicial representatives on cross-border cloud digital evidence collection practices, finding significant proportions incorrectly believe police have remote cross-border search authority or that searching a foreign-hosted email inbox via a browser is legal, and documenting the Article 32 public-availability/voluntary-consent exceptions and the 24/7 contact-point mechanism as the correct lawful bases. Source for new technique [[techniques/Acquire cross-border cloud evidence using a Budapest Convention Article 32 lawful-access basis]], its weakness, and mitigation. Source file: raw/JDFSL/The survey on cross-border collection of digital evidence by representatives from Polish prosecutors’ offices and judicial authorities.pdf."
+
+### DFCite-2074
+
+- type: article
+- author: Lonardo, Thomas and Rea, Alan and White, Doug
+- title: "To license or not to license reexamined: An updated report on licensing of digital examiners under state private investigator statutes"
+- year: 2022
+- journal: Journal of Digital Forensics, Security and Law, 17, Article 1
+- url: https://doi.org/10.15394/jdfsl.2022.1770
+- note: "Reference-only: a state-by-state US regulatory/statutory review of whether private investigator (PI) licensing statutes apply to digital examiners (DEs), covering exemption categories (employer/employee, practicing attorney, computer-forensics-specific, expert witness, other) and per-state civil/criminal penalties for unlicensed practice. Not used as a technique/weakness/mitigation source because it addresses professional-licensing/business-liability compliance for the examiner rather than an investigative technique or an ASTM-categorizable evidence-quality defect (the paper's own penalties concern the examiner's legal exposure, not evidence admissibility or completeness); cited for completeness. Source file: raw/JDFSL/To License or Not to License Reexamined- An Updated Report on Licensing of Digital Examiners Under State Private Investigator Statutes.pdf."
+
+### DFCite-2075
+
+- type: article
+- author: Herrera, Lazaro A.
+- title: "Viability of consumer grade hardware for learning computer forensics principles"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 3
+- url: https://doi.org/10.15394/jdfsl.2022.1683
+- note: "Validates budget consumer-grade forensic hardware/software against forensics-grade hardware using NIST CFTT Federated Testing, finding a $50 CoolGear write blocker failed hardware-write-block validation (modified sectors) in every tested configuration, and that free imaging software (Roadkil's Diskimage) and consumer flash-drive-based imaging tools (Tableau Imager without its matched hardware bridge) also failed to capture correctly in specific configurations. Used to extend [[techniques/Validate a forensic tool's conformance using a CFTT-aligned specification]] with a third (consumer-hardware-validation) instantiation and to source a new weakness/mitigation pair on consumer write-blocker reliability. Source file: raw/JDFSL/Viability of Consumer Grade Hardware for Learning Computer Forensics Principles.pdf."
+
+### DFCite-2076
+
+- type: article
+- author: Korkin, Igor
+- title: "Windows kernel hijacking is not an option: MemoryRanger comes to the rescue again"
+- year: 2021
+- journal: Journal of Digital Forensics, Security and Law, 16, Article 4
+- url: https://doi.org/10.58940/1558-7223.1726
+- note: "Presents three new Windows kernel hijacking attacks (Handle Table Hijacking, Hijacking NTFS data structures, and Token Hijacking) that bypass OS security features including the SidHash token-integrity check, and the updated MemoryRanger hypervisor's isolated-enclave defense against them, tested on Windows 10 1903 x64. Source for new technique [[techniques/Detect Windows Token Hijacking privilege escalation by comparing token content against a legitimately elevated process]], its weakness, and mitigation. Source file: raw/JDFSL/Windows Kernel Hijacking Is Not an Option- MemoryRanger Comes to the Rescue Again.pdf."

@@ -1,17 +1,17 @@
 # SOLVE-IT Wiki Index
 
-Last updated: 2026-08-15
+Last updated: 2026-08-16
 
 ## Source Snapshot
 
 - Seed source: `raw/` paper corpus (DI: 442 papers, IEEE Access: 52 papers, JDFSL: 24 papers — 518 total)
-- Ingestion progress: 417 / 518 papers ingested — `raw/DI` 360/442 (alphabetical), `raw/IEEE Access` 52/52 (COMPLETE), `raw/JDFSL` 5/24 (alphabetical)
-- References indexed: 412
+- Ingestion progress: 436 / 518 papers ingested — `raw/DI` 360/442 (alphabetical), `raw/IEEE Access` 52/52 (COMPLETE), `raw/JDFSL` 24/24 (COMPLETE)
+- References indexed: 431
 - Objectives: 23 (fixed hub, from earlier SOLVE-IT bootstrap; retained as navigation scaffold)
-- Techniques: 341
-- Weaknesses: 362
-- Mitigations: 363
-- **ID ranges:** `raw/DI` entities use the sequential 1001+ block; `raw/IEEE Access` and `raw/JDFSL` entities use a reserved 2001+ block, assigned by a concurrent worktree to avoid ID collisions with in-flight `raw/DI` ingestion. The two ranges were merged into a single wiki on 2026-08-15; see wiki/log.md for the merge commit and per-batch detail. Post-merge `raw/DI` ingestion (files 311+) continues the sequential 1001+ block (next available: DFT-1303, DFW-1315, DFM-1317, DFCite-1358), disjoint from the `raw/JDFSL` worktree's reserved 2058+ block.
+- Techniques: 354
+- Weaknesses: 376
+- Mitigations: 378
+- **ID ranges:** `raw/DI` entities use the sequential 1001+ block (next available: DFT-1303, DFW-1315, DFM-1317, DFCite-1358). `raw/IEEE Access` and `raw/JDFSL` entities use a reserved 2001+ block, assigned to concurrent worktrees to avoid ID collisions with in-flight `raw/DI` ingestion (used through DFCite-2076; `raw/JDFSL` is now fully ingested, so this block is closed unless `raw/DI` sequential numbering later reaches it). See wiki/log.md for the two merge commits (2026-08-15, 2026-08-16) and per-batch detail.
 
 ## Fixed Pages
 
@@ -28,26 +28,26 @@ Last updated: 2026-08-15
 
 ## Coverage Status
 
-- Technique pages generated: 341
-- Weakness pages generated: 362
-- Mitigation pages generated: 363
+- Technique pages generated: 354
+- Weakness pages generated: 376
+- Mitigation pages generated: 378
 - Objective hub generated: yes (fixed navigation page, not yet re-derived from paper corpus)
 
 ## Objectives (technique counts reflect current paper-derived techniques only)
 
 | ID | Name | # Techniques |
 | --- | --- | ---: |
-| [[objectives#DFO-1019 Detect anti-forensics and other anomalies|DFO-1019]] | Detect anti-forensics and other anomalies | 68 |
+| [[objectives#DFO-1019 Detect anti-forensics and other anomalies|DFO-1019]] | Detect anti-forensics and other anomalies | 72 |
 | [[objectives#DFO-1001 Reconstruct events|DFO-1001]] | Reconstruct events | 39 |
-| [[objectives#DFO-1008 Establish identities|DFO-1008]] | Establish identities | 31 |
-| [[objectives#DFO-1006 Acquire data|DFO-1006]] | Acquire data | 24 |
+| [[objectives#DFO-1008 Establish identities|DFO-1008]] | Establish identities | 34 |
+| [[objectives#DFO-1006 Acquire data|DFO-1006]] | Acquire data | 26 |
 | [[objectives#DFO-1004 Conduct research|DFO-1004]] | Conduct research | 23 |
 | [[objectives#DFO-1016 Overcome protection mechanisms|DFO-1016]] | Overcome protection mechanisms | 22 |
-| [[objectives#DFO-1012 Locate potentially relevant content|DFO-1012]] | Locate potentially relevant content | 19 |
-| [[objectives#DFO-1011 Extract artifacts stored by applications|DFO-1011]] | Extract artifacts stored by applications | 19 |
-| [[objectives#DFO-1018 Read data from digital evidence storage formats|DFO-1018]] | Read data from digital evidence storage formats | 17 |
+| [[objectives#DFO-1012 Locate potentially relevant content|DFO-1012]] | Locate potentially relevant content | 20 |
+| [[objectives#DFO-1011 Extract artifacts stored by applications|DFO-1011]] | Extract artifacts stored by applications | 20 |
+| [[objectives#DFO-1018 Read data from digital evidence storage formats|DFO-1018]] | Read data from digital evidence storage formats | 18 |
 | [[objectives#DFO-1015 Prepare for a digital investigation|DFO-1015]] | Prepare for a digital investigation | 15 |
-| [[objectives#DFO-1002 Extract data from specific formats|DFO-1002]] | Extract data from specific formats | 14 |
+| [[objectives#DFO-1002 Extract data from specific formats|DFO-1002]] | Extract data from specific formats | 15 |
 | [[objectives#DFO-1005 Prioritize digital evidence sources|DFO-1005]] | Prioritize digital evidence sources | 12 |
 | [[objectives#DFO-1003 Review content for relevance|DFO-1003]] | Review content for relevance | 11 |
 | [[objectives#DFO-1010 Preserve digital evidence|DFO-1010]] | Preserve digital evidence | 10 |
@@ -59,6 +59,7 @@ Last updated: 2026-08-15
 | [[objectives#DFO-1014 Find potential digital evidence sources|DFO-1014]] | Find potential digital evidence sources | 2 |
 | [[objectives#DFO-1009 Create visualizations|DFO-1009]] | Create visualizations | 1 |
 | [[objectives#DFO-1023 Extract specific artifact types|DFO-1023]] | Extract specific artifact types | 1 |
+
 The only objective with 0 techniques derived from ingested papers is DFO-1022 (Store acquired data).
 
 ## Notes

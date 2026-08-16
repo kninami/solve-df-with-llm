@@ -11,6 +11,7 @@ weakness_ids:
   - DFW-1186
   - DFW-1228
   - DFW-1235
+  - DFW-2061
 aliases:
   - Digital forensic readiness assessment and by-design frameworks
   - DFRCF
@@ -25,6 +26,7 @@ aliases:
   - FIS
   - FRoMEPP
   - Forensic Readiness for Material Extrusion based Printing Process
+  - DFR framework for BYOD using honeypot and honeynet
 source_refs:
   - DFCite-1068
   - DFCite-1069
@@ -32,7 +34,8 @@ source_refs:
   - DFCite-1189
   - DFCite-1239
   - DFCite-1250
-updated_at: 2026-08-13
+  - DFCite-2063
+updated_at: 2026-08-15
 status: complete
 ---
 
@@ -56,6 +59,8 @@ Organizations that lack a way to measure or build in their forensic readiness ar
 
 **Material-extrusion 3D-printing forensic readiness (FRoMEPP)**: a further FbD instantiation targets material-extrusion (fused filament fabrication) 3D printing, where a sabotaged part's failure during operation may cause serious downstream damage and no forensic readiness model previously existed for additive manufacturing. FRoMEPP identifies information sources across both the cyber domain (OS logs, network traffic, and application logs from CAD/slicer/printer-control software) and the physical domain (the printer's direct-manipulable kinetics and thermodynamics sub-processes — filament, nozzle, and printing-bed kinetics; nozzle and printing-bed thermodynamics), then works through a four-stage lifecycle (Identify information sources, Configure a monitoring scheme, Acquire the physical and cyber data, and Consolidate & Archive it) using a shared 16-digit unique identifier (printer ID, year, month, date, hour, minute, and object ID) to correlate every printed object with its corresponding cyber and physical logs. Physical-domain data is treated as more evidentially reliable than cyber-domain logs specifically because it is generated later in the attack chain and is not under the attacker's control in most cyberattack scenarios, whereas cyber logs alone can reveal an intrusion but not conclusively attribute a physical defect to it.
 
+**BYOD forensic readiness using honeypot and honeynet (DFR-BYOD)**: a further FbD instantiation targets Bring Your Own Device (BYOD) environments, whose mix of employee-owned devices and organizational network access creates security risks (end-user anonymity, private-data leakage) that generic DFR models do not address. The framework organizes four components — BYOD Devices, Management, People, and Technology — around a central Technology domain that combines a policy database, network access control, mobile device management (MDM), space isolation between an employee's personal and corporate app/data spaces, and honeypot/honeynet technology to detect security incidents and capture potential digital evidence (PDE). Consistent with ISO/IEC 27043, the framework maps its four operational phases (Preparation, Gathering, Processing, Presentation) to the standard's processes: Preparation covers scenario definition and threat/vulnerability identification for BYOD resources; Gathering monitors BYOD device activity via honeypots and MDM to identify PDE sources and collect attacker methods/tools/patterns; Processing stores and normalizes evidence (with hashing/encryption and cross-honeypot time synchronization) into forensic, profile, and log-files databases requiring authorization to access; and Presentation produces investigation documentation and supports legal/administrative decision-making. It explicitly improves on an earlier honeyd-based BYOD DFR model (Kebande et al., 2016) whose single low-interaction honeypot limited detection and collection of security incidents, by incorporating both low-interaction (e.g., Dionaea, HoneyDroid, Cowrie, Glastopf, BOF, DTK, HoneyBot, GHH) and high-interaction (e.g., Argos, Sebek, HoneySpider) honeypots so organizations can trade off detection depth against deployment risk per honeypot type.
+
 ## Examples
 
 - The DFRCF/DFMM structure was validated against feedback from 10 interviewed forensic practitioners and academics, who reshaped several of the framework's domains before the final version was produced.
@@ -64,6 +69,7 @@ Organizations that lack a way to measure or build in their forensic readiness ar
 - In Log-of-logs' Case I ("History Deletion"), a superuser deleted a MySQL server's command history to hide a planted logic bomb; because MySQL does not log executed commands by default, the local Admin Server retained no trace, but the Log-of-logs server's periodically synchronized `mysql.log` and hash chain preserved the deleted activity for reconstruction.
 - The FIR/FIS proposal's worked trigger example: sudden inconsistency in LiDAR/radar object detection, or loss of GNSS satellite signal, would each independently trigger permanent retention of the surrounding high-resolution sensor window, since either could indicate a system malfunction, sensor failure, or an external GPS-spoofing/jamming manipulation attempt.
 - FRoMEPP was implemented and validated on a real Ultimaker-3 printer against three sabotage attacks: a car wheel's thermal profile analysis showed a repeated, reversible 10°C reduction at one spoke across all layers (ruling out a hardware fault), a drone propeller's per-layer bitmap analysis recovered a 1 mm x 2 mm malicious internal cavity across 80% of the affected layers, and a drive shaft's Cura `quality_changes` log recovered a printing profile ("Tmp_profile") that had increased print speed and reduced bottom-layer count before being reverted back to the original profile after use, which the timing-profile analysis independently corroborated by finding the internal layers printed measurably faster than the known-good baseline.
+- The DFR-BYOD framework's Technology domain architecture places honeypots and honeynet servers (with their own time-synchronization) alongside MDM, a policy database, and network access control behind a load balancer and honeywall firewall, feeding an evidence-normalization/validation stage that writes to separate profile, forensic, and log-files databases — illustrating how PDE from multiple honeypot sources is consolidated into a single forensically-sound evidence pipeline.
 
 ## Related Objectives
 
@@ -76,6 +82,7 @@ Organizations that lack a way to measure or build in their forensic readiness ar
 - [[weaknesses/3D-printing forensic logs from only the cyber or only the physical domain cannot independently attribute a sabotage defect to an attacker]]
 - [[weaknesses/A superuser can delete, modify, or disable local logs and services without leaving a local trace]]
 - [[weaknesses/Autonomous-vehicle forensic incident recorders miss events that never fire a predefined trigger]]
+- [[weaknesses/A low-interaction honeypot limits detection and collection of potential digital evidence in a BYOD forensic readiness framework]]
 
 ## References
 
@@ -85,3 +92,4 @@ Organizations that lack a way to measure or build in their forensic readiness ar
 - [DFCite-1189] Manral and Somani, 2021, "Establishing forensics capabilities in the presence of superuser insider threats", FSI: Digital Investigation 38, 301263. Proposes the Log-of-logs framework, replicating forensically relevant local artifacts to an isolated, hash-chained remote server outside a superuser's privilege domain.
 - [DFCite-1239] Dološ et al., 2026, "Forensic readiness for autonomous mobility: The forensic incident recorder and information system concept", FSI: Digital Investigation 56, 302044.
 - [DFCite-1250] Rais et al., 2023, "FRoMEPP: Digital forensic readiness framework for material extrusion based 3D printing process", FSI: Digital Investigation 44, 301510.
+- [DFCite-2063] Asante & Amankona, 2021, "Digital Forensic Readiness Framework Based on Honeypot and Honeynet for BYOD", JDFSL 16(2). Proposes the DFR-BYOD framework combining low- and high-interaction honeypots, MDM, and space isolation to detect security incidents and capture PDE in BYOD environments, aligned with ISO/IEC 27043.
