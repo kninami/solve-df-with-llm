@@ -4,7 +4,8 @@ type: mitigation
 name: Manually verify ASR transcripts and PERSON-entity extractions before relying on Autocrime-derived knowledge-graph relationships
 source_refs:
   - DFCite-1086
-updated_at: 2026-08-10
+  - DFCite-2091
+updated_at: 2026-08-16
 status: complete
 ---
 
@@ -20,8 +21,9 @@ Manually verify ASR transcriptions and, especially, PERSON-entity extractions be
 
 ## How To Apply
 
-Before relying on a speaker/entity relationship in the platform's knowledge graph as investigative evidence, have an analyst manually verify the underlying ASR transcript and named-entity extraction, prioritizing PERSON entities given their measured low accuracy. For any language outside the evaluated set (English, German), treat platform output as an unvalidated lead requiring independent confirmation rather than a reliable automated result.
+Before relying on a speaker/entity relationship in the platform's knowledge graph as investigative evidence, have an analyst manually verify the underlying ASR transcript and named-entity extraction, prioritizing PERSON entities given their measured low accuracy. For any language outside the evaluated set (English, German), treat platform output as an unvalidated lead requiring independent confirmation rather than a reliable automated result. This same manual-verification discipline applies to any forensic ASR transcription workflow, not only knowledge-graph platforms: treat an automated transcript's Word Error Rate as elevated by default for non-native-speaker audio, informal/low-quality recordings, or difficult-to-pronounce vocabulary, use the automated transcript to triage which files or time ranges merit close attention rather than as a final report-ready record, and have a qualified transcriber manually verify any specific segment before it is quoted or relied upon in a formal report.
 
 ## References
 
 - [DFCite-1086] Madikeri et al., 2025, "Autocrime - open multimodal platform for combating organized crime", FSI: Digital Investigation 54.
+- [DFCite-2091] Negrao and Domingues, 2021, "SpeechToText: An open-source software for automatic detection and transcription of voice recordings in digital forensics", FSI: Digital Investigation 38, 301223.

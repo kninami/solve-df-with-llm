@@ -4427,3 +4427,103 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 48, 301686
 - url: https://doi.org/10.1016/j.fsidi.2024.301686
 - note: "Reverse-engineers Amazon iRobot Roomba's undocumented cloud APIs to build PyRoomba, an open-source tool acquiring mission history, floor-plan maps, and navigational/object-detection data without physical device access or risking the official companion app inadvertently triggering the device. Used to extend the existing multi-source IoT acquisition technique and the autonomous-evidence-contamination weakness/mitigation pair. Source file: raw/DI/So fresh, so clean- Cloud forensic analysis of the Amazon iRobot Roomba vacuum.pdf."
+
+### DFCite-2087
+
+- type: article
+- author: Hargreaves, Chris and Hargreaves, Dave and Bonett, Graeme
+- title: "SOLVE-IT: A proposed digital forensic knowledge base inspired by MITRE ATT&CK"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301688
+- url: https://doi.org/10.1016/j.fsidi.2024.301688
+- note: "Reference-only: proposes the SOLVE-IT knowledge base of digital forensic techniques, weaknesses, and mitigations organized by investigative objective, directly inspired by MITRE ATT&CK -- this is the academic paper this very wiki's own DFO-/DFT-/DFW-/DFM- schema and reuse-first ingestion methodology are modeled on (see AGENT.md). Not ingested as a technique/weakness/mitigation source itself because its contribution is the meta-structure for organizing a knowledge base, not a first-person investigative technique, defect, or fix; cited here for provenance and completeness. Source file: raw/DI/SOLVE-IT- A proposed digital forensic knowledge base inspired by MITRE ATT&CK.pdf."
+
+### DFCite-2088
+
+- type: article
+- author: Boztas, Abiodun and Rizzo, Christopher and Ganley, Katie
+- title: "Some areas where digital forensics can support the addressing of legal challenges linked to forensic genetic genealogy"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 49, 301751
+- url: https://doi.org/10.1016/j.fsidi.2024.301751
+- note: "Reference-only: a legal/policy discussion of how established digital forensic principles (chain of custody, hash/integrity verification, access-control audit logging, anonymization) could support compliance and admissibility challenges specific to forensic genetic genealogy databases. Not ingested as a technique/weakness/mitigation source because it applies already-covered general DF principles (hash verification, access-control logging, chain of custody -- each already represented elsewhere in this wiki) to a new legal context without introducing a new investigative method, defect, or fix of its own; cited for completeness. Source file: raw/DI/Some areas where digital forensics can support the addressing of legal challenges linked to forensic genetic genealogy.pdf."
+
+### DFCite-2089
+
+- type: article
+- author: Klier, Samantha and Baier, Harald
+- title: "Source Camera Identification - Do we have a gold standard?"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 52, 301858
+- url: https://doi.org/10.1016/j.fsidi.2024.301858
+- note: "Proposes the Source Camera Target Model (SCTM), a four-level target-granularity taxonomy (Physical Device, Configured Device, Virtual Model, Physical Model) crossed with a three-class problem taxonomy (Verification, Identification, Exploration), and finds SPN-based source camera identification has been validated almost exclusively for the Verification class on outdated hardware. Source for a new technique on matching SCI methods to problem class/target granularity, and a new weakness/mitigation pair on SPN's validation gap. Source file: raw/DI/Source Camera Identification - Do we have a gold standard.pdf."
+
+### DFCite-2090
+
+- type: article
+- author: Horsman, Graeme
+- title: "Sources of error in digital forensics"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301693
+- url: https://doi.org/10.1016/j.fsidi.2024.301693
+- note: "Presents a six-source (client, wider investigative team, practitioner, tools/instruments, methods, trace) by ten-stage taxonomy of where error can enter a digital forensic investigation, extending prior tool-internal error-mitigation modeling to the whole investigative process. Used to extend the existing abstraction-layer tool-error-identification technique and to source a new process-level weakness/mitigation pair. Source file: raw/DI/Sources of error in digital forensics.pdf."
+
+### DFCite-2091
+
+- type: article
+- author: Negrao, Miguel and Domingues, Patricio
+- title: "SpeechToText: An open-source software for automatic detection and transcription of voice recordings in digital forensics"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 38, 301223
+- url: https://doi.org/10.1016/j.fsidi.2021.301223
+- note: "Presents an Autopsy-integrated, fully local (no cloud dependency) voice-activity-detection-plus-ASR pipeline (inaSpeechSegmenter + Mozilla DeepSpeech) for automatically detecting and transcribing speech in forensic audio/video evidence, evaluated across 14 popular messaging/collaboration apps. Source for a new technique, reusing and extending the existing multilingual-ASR-accuracy weakness/mitigation pair with corroborating non-native-speaker WER evidence. Source file: raw/DI/SpeechToText- An open-source software for automatic detection and transcription of voice recordings in digital forensics.pdf."
+
+### DFCite-2092
+
+- type: inproceedings
+- author: Jakobs, Carlo and Lambertz, Martin and Hilgert, Jan-Niclas
+- title: "ssdeeper: Evaluating and improving ssdeep"
+- year: 2022
+- booktitle: DFRWS 2022 USA; Forensic Science International: Digital Investigation, 42, 301402
+- url: https://doi.org/10.1016/j.fsidi.2022.301402
+- note: "Documents inconsistencies and implementation bugs in the ssdeep reference implementation (a last-segment-dropping bug, a 32-character second-signature limitation) and evaluates proposed fixes/optimizations for runtime, accuracy, and security trade-offs. Used to extend the existing similarity-digest-algorithm-attack weakness with non-adversarial reliability defects, and to extend the corresponding mitigation with concrete ssdeep patch-set recommendations. Source file: raw/DI/ssdeeper- Evaluating and improving ssdeep.pdf."
+
+### DFCite-2093
+
+- type: article
+- author: Sunde, Nina
+- title: "Strategies for safeguarding examiner objectivity and evidence reliability during digital forensic investigations"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 40, 301317
+- url: https://doi.org/10.1016/j.fsidi.2021.301317
+- note: "Surveys 53 digital forensic practitioners on how they handle contextual bias, examiner objectivity, and evidence reliability during analysis of the same evidence file, finding dual-tool verification the most common reliability technique despite its known limitations, and that 34%/38% of practitioners applied no objectivity/reliability technique at all. Used to extend the existing dual-tool-verification weakness with empirical usage-rate evidence, and to source a new weakness/mitigation pair on the practitioner-behavior gap. Source file: raw/DI/Strategies for safeguarding examiner objectivity and evidence reliability during digital forensic investigations.pdf."
+
+### DFCite-2094
+
+- type: article
+- author: Du, Fuqiang and Yu, Min and Li, Boquan and Chow, Kam Pui and Jiang, Jianguo and Zhang, Yixin and Liang, Yachao and Li, Min and Huang, Weiqing
+- title: "TAENet: Two-branch Autoencoder Network for Interpretable Deepfake Detection"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 50, 301808
+- url: https://doi.org/10.1016/j.fsidi.2024.301808
+- note: "Presents TAENet, a two-branch autoencoder that disentangles real and forged image content into separately visualizable pixel-level maps for interpretable deepfake detection, while maintaining accuracy comparable to a plain ResNet18 baseline. Source for a new technique, reusing the existing cross-manipulation-type generalization weakness (TAENet's own cross-dataset AUC is explicitly acknowledged by its authors as insufficient). Source file: raw/DI/TAENet- Two-branch Autoencoder Network for Interpretable Deepfake Detection.pdf."
+
+### DFCite-2095
+
+- type: article
+- author: Seiden, Steven and Webb, Andrew M. and Baggili, Ibrahim
+- title: "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301871
+- url: https://doi.org/10.1016/j.fsidi.2025.301871
+- note: "Presents AppTap, a tool for jailbreak-free dynamic analysis of iOS applications on ARM-based Macs using differential filesystem snapshotting for artifact-to-action attribution, evaluated against the top 200 US App Store apps/games (46% successfully ran). Source for a new technique, extending the existing Argus jailbreak-requirement weakness/mitigation pair, and sourcing a new weakness/mitigation pair on the method's own install-failure rate. Source file: raw/DI/Tapping .IPAs- An automated analysis of iPhone applications using apple silicon macs.pdf."
+
+### DFCite-2096
+
+- type: article
+- author: Findlay, Ben
+- title: "Techniques and methods for obtaining access to data protected by linux-based encryption -- A reference guide for practitioners"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301662
+- url: https://doi.org/10.1016/j.fsidi.2023.301662
+- note: "A practitioner reference guide to identifying and accessing Linux full-disk (LUKS/dm-crypt) and per-directory (eCryptfs, fscrypt) encryption, with worked at-scene/live and post-scene command-line examples. Source for a new technique on live command-line detection and access, and a new weakness/mitigation pair on the live-versus-post-scene access-opportunity gap. Source file: raw/DI/Techniques and methods for obtaining access to data protected by linux-based encryption – A reference guide for practitioners.pdf."

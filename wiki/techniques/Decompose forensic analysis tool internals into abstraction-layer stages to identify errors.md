@@ -11,7 +11,8 @@ aliases:
   - Abstraction-layer decomposition of forensic analysis tool internals for stage-level error identification
 source_refs:
   - DFCite-1064
-updated_at: 2026-08-10
+  - DFCite-2090
+updated_at: 2026-08-16
 status: complete
 ---
 
@@ -24,6 +25,8 @@ Modern forensic tools are often used as black boxes: an investigator supplies an
 ## Details
 
 The model breaks tool processing into interconnected stages (e.g. parse image format, validate disk image, identify partitions, identify file system, recover deleted files) and, for each stage, proposes candidate standardized output (e.g. hashes of the raw image data at the parse stage; a list of partitions with start/end sectors, including any recovered deleted partitions, at the partition-identification stage) that a tool could expose for independent verification. The compiled list of potential errors at each stage functions as a set of alternative hypotheses to "the tool result is correct," providing a systematic foundation for reasoning about uncertainty in a tool's final output rather than accepting it uncritically. A demonstration dataset, annotated using the Cyber-investigation Analysis Standard Expression (CASE), illustrates the approach.
+
+A complementary process-level model extends this stage-by-stage error-source analysis beyond a single tool's internals to the entire digital forensic investigative process. It maps ten investigative process stages (from receiving a request for assistance through to giving evidence in court) against six sources from which an error can originate at any of those stages: the **client** (e.g. an incomplete or misleading brief); the **wider investigative team** (e.g. an officer mishandling an exhibit before it reaches the DF practitioner); the **practitioner** (e.g. a mistaken manual interpretation); **tools/instruments** (the abstraction-layer error sources this technique's own model addresses); **methods** (a flawed or inappropriate analysis procedure, independent of any specific tool bug); and the **trace** itself (e.g. an artifact whose meaning is inherently ambiguous or was corrupted before acquisition). Mapping which of these six sources can introduce an error at each of the ten stages gives an organization a structured basis for targeting quality-assurance effort at the stages and sources most likely to matter for a given investigation, complementing this technique's narrower focus on a single tool's internal processing stages.
 
 ## Examples
 
@@ -40,3 +43,4 @@ The model breaks tool processing into interconnected stages (e.g. parse image fo
 ## References
 
 - [DFCite-1064] Hargreaves et al., 2024, "An abstract model for digital forensic analysis tools - A foundation for systematic error mitigation analysis", FSI: Digital Investigation 48.
+- [DFCite-2090] Horsman, 2024, "Sources of error in digital forensics", FSI: Digital Investigation 48, 301693. Source for the complementary six-source (client, wider investigative team, practitioner, tools/instruments, methods, trace)-by-ten-stage process-level error taxonomy.

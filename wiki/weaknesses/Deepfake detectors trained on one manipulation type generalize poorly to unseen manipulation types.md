@@ -33,8 +33,10 @@ An investigator who validates a deepfake detector against one manipulation datas
 - [[techniques/Detect deepfakes using local binary pattern texture inconsistency]]
 - [[techniques/Detect deepfakes using 3D convolutional spatio-temporal feature learning]]
 - [[techniques/Detect deepfakes using a Swin-Transformer spatio-temporal architecture]] (reports improved cross-dataset generalization relative to CNN-LSTM/GRU spatio-temporal baselines, though it was not evaluated for cross-manipulation-type transfer in the same sense as the LBP-texture study above)
+- [[techniques/Detect deepfakes with pixel-level interpretability using a two-branch content-disentanglement autoencoder]] (its own cross-dataset generalization testing reached only ~75% average AUC, which its authors explicitly characterize as insufficient for reliable deepfake detection)
 
 ## References
 
 - [DFCite-1288] Kingra, Aggarwal and Kaur, 2022, "LBPNet: Exploiting texture descriptor for deepfake detection", FSI: Digital Investigation 42-43, 301452.
 - [DFCite-1291] Nguyen, Tran, Le, Nguyen and Truong, 2021, "Learning Spatio-temporal features to detect manipulated facial videos created by the Deepfake techniques", FSI: Digital Investigation 36, 301108. Validated only against face-swap-style manipulation and explicitly names extending to reenactment-style manipulation methods (Face2Face, NeuralTextures) as future work.
+- [DFCite-2094] Du, Yu, Li, Chow, Jiang, Zhang, Liang, Li, and Huang, 2024, "TAENet: Two-branch Autoencoder Network for Interpretable Deepfake Detection", FSI: Digital Investigation 50, 301808. Its cross-dataset generalization testing (~75% average AUC) is explicitly acknowledged by its own authors as insufficient for reliable deepfake detection.

@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1313
 source_refs:
   - DFCite-1352
-updated_at: 2026-08-15
+  - DFCite-2093
+updated_at: 2026-08-16
 status: complete
 ---
 
@@ -18,6 +19,8 @@ status: complete
 ## Summary
 
 The reliability-validation-for-file-system-interpretation research explicitly highlights that dual-tool verification "is not reliable given the fact that: (i) libraries and functionalities are reused in different tools; and (ii) the procedure relies on the erroneous assumption that different programmers do not make the same errors which is disproved in a study of N-version programming." Because file system reverse engineering by different commercial and open-source tools often draws on the same limited pool of shared parsing libraries, or on independently-authored code subject to the same class of misunderstanding of an undocumented structure, agreement between two tools' outputs does not constitute independent confirmation.
+
+A survey of practicing digital forensic examiners found dual-tool verification to be, despite these known limitations, the single most frequently self-reported technique for examining or controlling evidence reliability during analysis (used by 13 of 33 practitioners who reported using any technique at all), more common than metadata examination, cross-checking findings, hash calculation, manual verification of tool output, or timeline analysis -- underscoring that the technique's continued widespread use in practice outpaces critical awareness of its limitations.
 
 ## Why It Matters
 
@@ -34,3 +37,4 @@ An investigator or organization that relies on dual-tool verification as its pri
 ## References
 
 - [DFCite-1352] Nordvik, Stoykova, Franke, Axelsson, and Toolan, 2021, "Reliability validation for file system interpretation", FSI: Digital Investigation 37, 301174.
+- [DFCite-2093] Sunde, Nina, 2022, "Strategies for safeguarding examiner objectivity and evidence reliability during digital forensic investigations", FSI: Digital Investigation 40, 301317. Empirically confirms dual-tool verification is the most common self-reported evidence-reliability technique among surveyed practitioners despite its documented unreliability.

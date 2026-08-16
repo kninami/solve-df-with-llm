@@ -9,7 +9,8 @@ mitigation_ids:
   - DFM-1090
 source_refs:
   - DFCite-1082
-updated_at: 2026-08-10
+  - DFCite-2095
+updated_at: 2026-08-16
 status: complete
 ---
 
@@ -30,7 +31,9 @@ An investigator relying on this class of tool to build a reference library of ap
 ## Used By
 
 - [[techniques/Discover and extract mobile application artifact locations]]
+- [[techniques/Perform dynamic analysis of iOS applications on ARM-based macOS using differential filesystem snapshotting]] (this technique's whole motivation is avoiding the jailbreak requirement documented here for iOS specifically, by running the app natively on ARM-based macOS instead)
 
 ## References
 
 - [DFCite-1082] Boztas et al., 2025, "Argus: A new approach for forensic analysis of apps on mobile devices", FSI: Digital Investigation 53.
+- [DFCite-2095] Seiden, Webb, and Baggili, 2025, "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs", FSI: Digital Investigation 52, 301871. Source for a jailbreak-free alternative for the iOS side of this weakness.
