@@ -5008,3 +5008,63 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 40, 301376
 - url: https://doi.org/10.1016/j.fsidi.2022.301376
 - note: "Presents Vision, a modular pre-definition/discovery/analysis/post-processing framework for on-scene credential discovery and reconstruction (cryptocurrency keys, disk encryption, secure messengers), validated across three real law-enforcement case studies including a USD 500,000 cryptocurrency seizure. Source for a new technique/weakness/mitigation triad on on-scene credential-discovery frameworks. Source file: raw/DI/Vision- An empirical framework for examiners to accessing password-protected resources for on-the-scene digital investigations Author links open overlay panel .pdf."
+
+### DFCite-2147
+
+- type: article
+- author: Oh, Dong Bin and Kim, Donghyun and Kim, Donghyun and Kim, Huy Kang
+- title: "volGPT: Evaluation on triaging ransomware process in memory forensics with Large Language Model"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 49, 301756
+- url: https://doi.org/10.1016/j.fsidi.2024.301756
+- note: "Presents volGPT, a Volatility-plugin LLM prompting tool that triages ransomware-infected memory dumps' processes with 94.1% average accuracy and ~10% triage-efficiency compression across five ransomware families, and documents hallucinated false-positive verdicts and decision-rule-driven false negatives (vssvc.exe/vssadmin.exe/cmd.exe). Source for a new technique/weakness/mitigation set on LLM-based memory-process triage. Source file: raw/DI/volGPT- Evaluation on triaging ransomware process in memory forensics with Large Language Model.pdf."
+
+### DFCite-2148
+
+- type: article
+- author: Mangeard, Philippe and Tejaswi, Bhaskar and Mannan, Mohammad and Youssef, Amr
+- title: "WARNE: A stalkerware evidence collection tool"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301677
+- url: https://doi.org/10.1016/j.fsidi.2023.301677
+- note: "Presents WARNE, a tool that exploits stalkerware app vulnerabilities (insecure local storage via non-rooted Android backup, XSS, unrestricted file upload, broken authentication, CSRF) to gather abuser-identifying evidence, tested against 30 stalkerware apps with useful results for 20. Source for a new technique/weakness/mitigation set on stalkerware-abuser identification. Source file: raw/DI/WARNE- A stalkerware evidence collection tool.pdf."
+
+### DFCite-2149
+
+- type: article
+- author: Vanini, Céline and Hargreaves, Christopher J. and van Beek, Harm and Breitinger, Frank
+- title: "Was the clock correct? Exploring timestamp interpretation through time anchors for digital forensic event reconstruction"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 49, 301759
+- url: https://doi.org/10.1016/j.fsidi.2024.301759
+- note: "Formalizes 'time anchor' (a paired local/external timestamp artifact), anchoring vs. non-anchoring events, and time anomalies as a method to validate system clock correctness and estimate clock skew for event reconstruction, demonstrated on Chrome cache/history and Windows Time Service artifacts across skewed and unskewed VM pairs. Source for a new technique/weakness/mitigation set on clock-correctness validation. Source file: raw/DI/Was the clock correct_ Exploring timestamp interpretation through time anchors for digital forensic event reconstruction.pdf."
+
+### DFCite-2150
+
+- type: article
+- author: Maybir, James and Chapman, Brendan
+- title: "Web scraping of ecstasy user reports as a novel tool for detecting drug market trends"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 37, 301172
+- url: https://doi.org/10.1016/j.fsidi.2021.301172
+- note: "Web-scrapes 4,358 user-reported ecstasy pill listings from pillreports.net to derive Australia/New Zealand regional distribution, temporal trends, and an inferred east-to-west onshore trafficking pathway, validated against ACIC wastewater and EDRS survey data. Source for a new technique/weakness/mitigation set on OSINT drug-market trend detection. Source file: raw/DI/Web scraping of ecstasy user reports as a novel tool for detecting drug market trends.pdf."
+
+### DFCite-2151
+
+- type: article
+- author: Eichhorn, Maximilian and Schneider, Janine and Pugliese, Gaston
+- title: "Well Played, Suspect! - Forensic examination of the handheld gaming console 'Steam Deck'"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301688
+- url: https://doi.org/10.1016/j.fsidi.2023.301688
+- note: "First forensic examination of Valve's Steam Deck/SteamOS, using differential forensic analysis across 10 scripted action sets to catalog local artifacts (Wi-Fi credentials, accounts, games, screenshots, friends, wallet traces, logs) and releasing an Autopsy plugin collection; documents that chat/voice content itself is not stored locally, only remotely with 2-week retention. Source for a new technique/weakness/mitigation set on gaming console forensics. Source file: raw/DI/Well Played, Suspect! – Forensic examination of the handheld gaming console Steam Deck.pdf."
+
+### DFCite-2152
+
+- type: article
+- author: Hranický, Radek and Breitinger, Frank and Ryšavý, Ondřej and Sheppard, John and Schaedler, Florin and Morgenstern, Holger and Malik, Simon
+- title: "What do incident response practitioners need to know? A skillmap for the years ahead"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 37, 301184
+- url: https://doi.org/10.1016/j.fsidi.2021.301184
+- note: "Reference-only: a DFIR skillmap survey combining a 32-respondent practitioner survey, an analysis of 37 training courses, and a review of 66 LinkedIn job listings to rank required DFIR skills (network forensics, incident handling, system forensics most demanded; cloud forensics and encrypted-traffic analysis identified as training gaps). Describes no first-person investigative technique, weakness, or mitigation of its own; cited for context only. Source file: raw/DI/What do incident response practitioners need to know_ A skillmap for the years ahead.pdf."
