@@ -4327,3 +4327,103 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Journal of Digital Forensics, Security and Law, 16, Article 4
 - url: https://doi.org/10.58940/1558-7223.1726
 - note: "Presents three new Windows kernel hijacking attacks (Handle Table Hijacking, Hijacking NTFS data structures, and Token Hijacking) that bypass OS security features including the SidHash token-integrity check, and the updated MemoryRanger hypervisor's isolated-enclave defense against them, tested on Windows 10 1903 x64. Source for new technique [[techniques/Detect Windows Token Hijacking privilege escalation by comparing token content against a legitimately elevated process]], its weakness, and mitigation. Source file: raw/JDFSL/Windows Kernel Hijacking Is Not an Option- MemoryRanger Comes to the Rescue Again.pdf."
+
+### DFCite-2077
+
+- type: article
+- author: Rathore, Hemant and Samavedhi, Adithya and Sahay, Sanjay K.
+- title: "Robust malware detection models: Learning from adversarial attacks and defenses"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 37, 301183
+- url: https://doi.org/10.1016/j.fsidi.2021.301183
+- note: "Source for the GAAN gradient-based evasion attack against permission/intent-feature Android malware classifiers and a three-way comparison of adversarial retraining, GAN-based retraining, and hybrid distillation defenses. Used to extend the existing gradient-based evasion-attack technique, weakness, and adversarial-retraining mitigation pages with GAAN-specific results and additional defense-strategy detail rather than mint new pages. Source file: raw/DI/Robust Malware Detection Models- Learning from Adversarial Attacks and Defenses.pdf."
+
+### DFCite-2078
+
+- type: article
+- author: Yang, Hongseok and Han, Sanghyug and Kim, Mindong and Kim, Gibum
+- title: "Samsung tracking tag application forensics in criminal investigations"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301875
+- url: https://doi.org/10.1016/j.fsidi.2025.301875
+- note: "Introduces S.TASER (Smart Tag Parser), a tool for recovering Samsung SmartTag/SmartTag2 identification and location-history artifacts from the SmartThings, SmartThings Find, and Samsung Find companion apps, including under five anti-forensics deletion/logout/withdrawal scenarios. Used to extend the existing Bluetooth-tracker companion-app extraction technique with Samsung-specific artifact paths, and to source a new weakness/mitigation pair on recovering a tag's identity after cache-overwriting re-registration. Source file: raw/DI/Samsung tracking tag application forensics in criminal investigations.pdf."
+
+### DFCite-2079
+
+- type: article
+- author: Maggio, Ryan D. and Case, Andrew and Ali-Gombe, Aisha and Richard III, Golden G.
+- title: "Seance: Divination of tool-breaking changes in forensically important binaries"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 37, 301189
+- url: https://doi.org/10.1016/j.fsidi.2021.301189
+- note: "Presents Seance, a symbolic-execution-based system that automatically fingerprints a target binary's data-structure member offsets and detects whether they changed between versions, informing memory-forensic framework developers which module versions their tool actually supports. Source for a new technique, weakness, and mitigation on detecting and mitigating tool-breaking data-structure layout changes across binary versions. Source file: raw/DI/Seance- Divination of tool-breaking changes in forensically important binaries.pdf."
+
+### DFCite-2080
+
+- type: article
+- author: Faust, Fabian and Thierry, Aurelien and Muller, Tilo and Freiling, Felix
+- title: "Selective Imaging of File System Data on Live Systems"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 36, 301115
+- url: https://doi.org/10.1016/j.fsidi.2021.301115
+- note: "Presents SIT, a modular, forensically-sound live selective-imaging tool for Windows file system data built on the DFIR ORC framework and AFF4 container format, with a dedicated validation module for detecting acquisition-time corruption or interference. Source for a new live-selective-imaging technique, reusing the existing autonomous-contamination weakness and sourcing a new multi-hash-validation mitigation. Source file: raw/DI/Selective Imaging of File System Data on Live Systems Author links open overlay panel .pdf."
+
+### DFCite-2081
+
+- type: article
+- author: Gong, Yanan and Chow, Kam Pui and Yiu, Siu Ming and Ting, Hing Fung
+- title: "Sensitivity analysis for a Bitcoin simulation model"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 43, 301449
+- url: https://doi.org/10.1016/j.fsidi.2022.301449
+- note: "Uses sensitivity analysis to validate a Bitcoin blockchain simulation model, then uses the validated model's known ground truth to measure the error rates of the multi-input and one-time-change address-clustering heuristics (46.5% and 90.4% average error respectively). Source for a new technique on simulation-based heuristic error-rate measurement and a new weakness/mitigation pair on heuristic-clustering misattribution risk. Source file: raw/DI/Sensitivity analysis for a Bitcoin simulation model.pdf."
+
+### DFCite-2082
+
+- type: article
+- author: Harris, Martyn and Jacobson, Jessica and Provetti, Alessandro
+- title: "Sentiment and time-series analysis of direct-message conversations"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 49, 301753
+- url: https://doi.org/10.1016/j.fsidi.2024.301753
+- note: "Presents a semi-automated framework combining time-series analysis (moving averages, first-order differencing) of message volume, sentiment, and lexical diversity with named-entity recognition to flag candidate events of interest in long-running mobile messaging conversations. Source for a new technique on event-of-interest identification and a new weakness/mitigation pair on informal-text sentiment-classifier reliability. Source file: raw/DI/Sentiment and time-series analysis of direct-message conversations.pdf."
+
+### DFCite-2083
+
+- type: article
+- author: Kingra, Staffy and Aggarwal, Naveen and Kaur, Nirmal
+- title: "SFormer: An end-to-end spatio-temporal transformer architecture for deepfake detection"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 51, 301817
+- url: https://doi.org/10.1016/j.fsidi.2024.301817
+- note: "Presents SFormer, an end-to-end transformer-based deepfake detector combining a Swin Transformer for spatial feature extraction with a transformer encoder for temporal analysis, evaluated across five benchmark datasets with cross-dataset generalization testing. Source for a new technique page, reusing the existing cross-manipulation-type generalization weakness. Source file: raw/DI/SFormer- An end-to-end spatio-temporal transformer architecture for deepfake detection.pdf."
+
+### DFCite-2084
+
+- type: article
+- author: Breitinger, Frank and Jotterand, Alexandre
+- title: "Sharing datasets for digital forensic: A novel taxonomy and legal concerns"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 45, 301562
+- url: https://doi.org/10.1016/j.fsidi.2023.301562
+- note: "Proposes a dataset-organization taxonomy (structured/semi-structured/unstructured; synthetic/human origin) and a data-sensitivity classification (direct/indirect identifiers, sensitive data, illegal/protected data) for clearing digital forensic datasets for sharing under GDPR and copyright law. Used to extend the existing dataset-synthesis technique's Details with taxonomy/legal-sharing guidance rather than mint a new page, per the reuse-first ingestion policy. Source file: raw/DI/Sharing datasets for digital forensic- A novel taxonomy and legal concerns.pdf."
+
+### DFCite-2085
+
+- type: article
+- author: Rana, Md. Mehedi Rahman and Hasnat, Abul and Rahaman, G.M. Atiqur
+- title: "SMIFD-1000: Social media image forgery detection database"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 41, 301392
+- url: https://doi.org/10.1016/j.fsidi.2022.301392
+- note: "Introduces a 1,000-image (500 real/500 spliced) social-media-sourced image-forgery dataset with pixel-level and attribute-level (technical and social-motif) annotations, and benchmarks seven established splicing-localization algorithms against it, finding substantially degraded true-positive rates relative to curated-dataset performance. Used to extend the existing dataset-synthesis technique and to source a new weakness/mitigation pair on splicing-localization real-world recall. Source file: raw/DI/SMIFD-1000- Social media image forgery detection database.pdf."
+
+### DFCite-2086
+
+- type: article
+- author: Onik, Abdur Rahman and Alsmadi, Ruba and Baggili, Ibrahim and Webb, Andrew M.
+- title: "So fresh, so clean: Cloud forensic analysis of the Amazon iRobot Roomba vacuum"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301686
+- url: https://doi.org/10.1016/j.fsidi.2024.301686
+- note: "Reverse-engineers Amazon iRobot Roomba's undocumented cloud APIs to build PyRoomba, an open-source tool acquiring mission history, floor-plan maps, and navigational/object-detection data without physical device access or risking the official companion app inadvertently triggering the device. Used to extend the existing multi-source IoT acquisition technique and the autonomous-evidence-contamination weakness/mitigation pair. Source file: raw/DI/So fresh, so clean- Cloud forensic analysis of the Amazon iRobot Roomba vacuum.pdf."

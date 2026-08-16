@@ -32,6 +32,7 @@ An investigator who validates a deepfake detector against one manipulation datas
 
 - [[techniques/Detect deepfakes using local binary pattern texture inconsistency]]
 - [[techniques/Detect deepfakes using 3D convolutional spatio-temporal feature learning]]
+- [[techniques/Detect deepfakes using a Swin-Transformer spatio-temporal architecture]] (reports improved cross-dataset generalization relative to CNN-LSTM/GRU spatio-temporal baselines, though it was not evaluated for cross-manipulation-type transfer in the same sense as the LBP-texture study above)
 
 ## References
 

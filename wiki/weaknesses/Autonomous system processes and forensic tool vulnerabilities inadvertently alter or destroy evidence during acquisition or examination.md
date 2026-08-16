@@ -8,9 +8,12 @@ categories:
   - ASTM_INCOMP
 mitigation_ids:
   - DFM-1132
+  - DFM-2075
 source_refs:
   - DFCite-1127
-updated_at: 2026-08-12
+  - DFCite-2080
+  - DFCite-2086
+updated_at: 2026-08-16
 status: complete
 ---
 
@@ -24,14 +27,21 @@ Defining contamination as "the inadvertent transfer of traits to an object of re
 
 Because these transfers happen autonomously — triggered by routine system behavior rather than a deliberate investigative action — an investigator can unknowingly contaminate evidence during both live, at-scene response and later laboratory analysis, and may not realize contamination occurred unless they specifically anticipated the responsible mechanism. Left unaddressed, this can add, alter, or subtract data relevant to a case, undermining the integrity of derived evidence (e.g. an SQLite database copy) even when the original disk image or exhibit remains untouched.
 
+The same contamination risk extends to autonomous/robotic IoT devices: interacting with a cloud-connected robot vacuum's official companion app during examination (e.g. opening its status screen) can itself trigger the device to start a new cleaning mission or otherwise change state, altering the very mission-history and map data an investigator is trying to preserve; acquiring the equivalent information via a read-only cloud API call avoids this risk entirely.
+
+This same live-system risk applies to the acquisition tooling itself: software running on a live target system to perform selective imaging is exposed to interferences, data corruption, and crashes that are largely outside the investigator's control, since the hardware and software used to copy the bits are under the target's, not the investigator's, control (unlike a write-blocked post-mortem hard-drive copy).
+
 ## Related Mitigations
 
 - [[mitigations/Identify and neutralize autonomous background processes and tool vulnerabilities before and during a forensic examination]]
+- [[mitigations/Validate live-acquired forensic images using multiple hash algorithms and container-level provenance metadata]]
 
 ## Used By
 
-- (No technique page derived from this source; this weakness stands alone per the reuse-first ingestion policy for conceptual/definitional papers.)
+- [[techniques/Perform live selective imaging of file system data using a modular AFF4-based acquisition tool]]
 
 ## References
 
 - [DFCite-1127] Gruber, Hargreaves, and Freiling, 2023, "Contamination of digital evidence: Understanding an underexposed risk", FSI: Digital Investigation 44, 301501.
+- [DFCite-2080] Faust, Thierry, Müller, and Freiling, 2021, "Selective Imaging of File System Data on Live Systems", FSI: Digital Investigation 36, 301115. Documents forensic-soundness risks specific to running selective-imaging software on a live target system, and a validation-module design to detect resulting corruption or interference.
+- [DFCite-2086] Onik, Alsmadi, Baggili, and Webb, 2024, "So fresh, so clean: Cloud forensic analysis of the Amazon iRobot Roomba vacuum", FSI: Digital Investigation 48, 301686. Documents the risk of a companion-app interaction triggering an autonomous IoT device's own state-changing behavior during examination, and the PyRoomba tool built to avoid it via direct cloud-API acquisition.

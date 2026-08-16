@@ -22,6 +22,8 @@ aliases:
   - Re-imagen
   - REVEAL
   - Mobile forensic corpora quantity/quality/timeliness assessment
+  - Structured/semi-structured/unstructured dataset organization taxonomy
+  - SMIFD-1000
 source_refs:
   - DFCite-1059
   - DFCite-1061
@@ -35,7 +37,9 @@ source_refs:
   - DFCite-1347
   - DFCite-1355
   - DFCite-1357
-updated_at: 2026-08-15
+  - DFCite-2084
+  - DFCite-2085
+updated_at: 2026-08-16
 status: complete
 ---
 
@@ -83,6 +87,8 @@ Manually building forensic datasets by hand is time-consuming and rarely reflect
 - REVEAL's 300,000+ image dataset was subjected to more than 50 different steganography algorithms applied after multiple image-preprocessing chains, and includes over 200 distinct image sizes ranging from 256×256 to 7680×4320 — an order of magnitude broader coverage of algorithms and resolutions than any of the three prior most-used steganalysis datasets, none of which tested more than 6 steganography schemes.
 - The mobile-forensic-corpora survey found that of 31 identified public mobile corpora, only about one in four contained sufficient quantity and quality of realistic traces, and more than half were assessed as outdated relative to contemporary devices — quantitatively confirming, for the mobile domain specifically, the same "dataset gap" problem previously documented for digital forensic corpora in general.
 
+**Classifying and legally clearing a dataset before sharing it**: independent of how a dataset was created, a novel taxonomy helps a researcher describe and clear it for release. Datasets are first classified by *organization* — structured (conforms to a predefined schema, e.g. a relational table), semi-structured (has self-describing organizational markers but no fixed schema, e.g. JSON/XML/tagged data), or unstructured (no predefined model, e.g. free text, most email, audio, video, and social-media postings) — and separately by *origin*, i.e. whether the data is synthetic (random, rule-based, computer-simulated, or AI-generated) or human-driven (simulated/test data, scenario data, experimental data, or real-world data), since origin is what determines whether sharing restrictions apply. Before releasing a dataset containing or derived from real-world data, its content should be reviewed against four sensitivity categories: direct identifiers (name, SSN, email, phone — always personal data, must be removed), indirect/quasi-identifiers (age, zip code, gender — personal only if linkable to an individual via auxiliary information), sensitive data (personal files, passwords, video footage, chat messages), and illegal/protected data (CSAM, copyrighted material, or data covered by license/IP restrictions that cannot be shared at all). Under data-protection regimes such as GDPR, whether metadata (internal, e.g. EXIF timestamps embedded in a file, or external, e.g. filesystem timestamps/access rights) itself counts as personal data depends on whether it can be linked to an individual using available contextual information, so metadata handling requires the same case-by-case review as the underlying content.
+
 ## Related Objectives
 
 - `DFO-1004` Conduct research
@@ -106,3 +112,5 @@ Manually building forensic datasets by hand is time-consuming and rarely reflect
 - [DFCite-1347] Voigt, Freiling, and Hargreaves, 2024, "Re-imagen: Generating coherent background activity in synthetic scenario-based forensic datasets using large language models", FSI: Digital Investigation 50, 301805. Source for the LLM-persona-driven coherent background-activity generation approach, built on the same agent-less GUI automation tool as the ForTrace variant already covered by this page.
 - [DFCite-1355] Kombrink, van Lierop, Stolwijk, Worring, Vrijdag, and Geradts, 2025, "REVEAL: A large-scale comprehensive image dataset for steganalysis", FSI: Digital Investigation 55, 302006. Source for the large-scale, multi-camera, multi-algorithm steganalysis benchmark dataset approach.
 - [DFCite-1357] Gonçalves, Dolos, Stebner, Attenberger, and Baier, 2022, "Revisiting the dataset gap problem – On availability, assessment and perspective of mobile forensic corpora", FSI: Digital Investigation 43, 301439. Source for the quantity/quality/timeliness mobile-forensic-corpora assessment methodology and its finding that most available mobile corpora are insufficiently realistic or outdated.
+- [DFCite-2084] Breitinger and Jotterand, 2023, "Sharing datasets for digital forensic: A novel taxonomy and legal concerns", FSI: Digital Investigation 45, 301562. Source for the structured/semi-structured/unstructured organization taxonomy, the synthetic/human origin taxonomy, and the direct/indirect/sensitive/illegal data-sensitivity categories used to clear a dataset for sharing under GDPR and copyright law.
+- [DFCite-2085] Rana, Hasnat, and Rahaman, 2022, "SMIFD-1000: Social media image forgery detection database", FSI: Digital Investigation 41, 301392. Source for the curated, richly-annotated (pixel-level and attribute-level) real-world social-media image-splicing dataset covered as an example of curated real-world dataset construction.
