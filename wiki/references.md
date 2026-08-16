@@ -4912,3 +4912,99 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 38, 301171
 - url: https://doi.org/10.1016/j.fsidi.2021.301171
 - note: "Presents a hierarchical graph-based SPN image-clustering method that detects and removes non-source-fingerprinted 'shared images' before clustering 'taken images' by camera source, evaluated on the VISION dataset with simulated social-network-platform compression, showing sharp recall degradation for heavily-compressed (Facebook Low Resolution) images. Source for a new technique/weakness/mitigation triad on user-profile image clustering. Source file: raw/DI/User profiles' image clustering for digital investigations.pdf."
+
+### DFCite-2137
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Using deep learning to detect social media 'trolls'"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "Presents an OCR-plus-bidirectional-RNN pipeline for detecting toxic content embedded as text within social media images, achieving ~92% accuracy on standard fonts but degrading to 62-88% on stylized/decorative fonts. Source for a new technique/weakness/mitigation triad on OCR-based toxic-content detection. Source file: raw/DI/Using deep learning to detect social media 'trolls'.pdf."
+
+### DFCite-2138
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Using file and folder naming and structuring to improve automated detection of child sexual abuse images on the Dark Web"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "Proposes prioritizing CSAM image-content-analysis scanning using known file/folder naming and structuring conventions to improve detection efficiency on dark web sites. Source for a new technique/weakness/mitigation triad on naming-heuristic-prioritized CSAM detection and its evasion-by-novel-naming limitation. Source file: raw/DI/Using file and folder naming and structuring to improve automated detection of child sexual abuse images on the Dark Web.pdf."
+
+### DFCite-2139
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Using micro-services and artificial intelligence to analyze images in criminal evidences"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "Presents INSIDE, a Kafka/Spark-based microservice architecture decomposing large-scale criminal-evidence image triage into independently-scalable specialized classifiers (firearms, ammunition, ID documents, nudity, age, OCR, face recognition). Source for a new technique/weakness/mitigation triad on microservice-based image triage and classifier recall limitations. Source file: raw/DI/Using micro-services and artificial intelligence to analyze images in criminal evidences.pdf."
+
+### DFCite-2140
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Using relational graphs for exploratory analysis of network traffic data"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48
+- note: "Presents Granef/Graneful, a graph-database-backed interactive network-traffic exploration tool with a multi-node-type (host/host-data/connection/application-data) relational data model, evaluated via a System Usability Scale user study (score 78). Source for a new technique/weakness/mitigation triad on relational-graph network-forensic exploration and its data-model-unfamiliarity risk. Source file: raw/DI/Using relational graphs for exploratory analysis of network traffic data.pdf."
+
+### DFCite-2141
+
+- type: article
+- author: Anda, Fabio and Dixon, Edward and Bou-Harb, Elias
+- title: "Vec2UAge: Enhancing underage age estimation performance through facial embeddings"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 36, 301119
+- url: https://doi.org/10.1016/j.fsidi.2021.301119
+- note: "Presents Vec2UAge, a FaceNet-embedding-based regression model for underage facial age estimation, trained on combined underage-skewed datasets (VisAGe, Selfie-FV) with augmentation-fidelity checking, achieving a 2.36-year test MAE. Used to extend the existing regression-age-estimation weakness with a counter-example and to source a new technique. Source file: raw/DI/Vec2UAge- Enhancing underage age estimation performance through facial embeddings.pdf."
+
+### DFCite-2142
+
+- type: article
+- author: Li, Jian and Wang, Fei and Ma, Bin and Wang, Chunpeng and Wu, Xiaoming
+- title: "Video capturing device identification through block-based PRNU matching"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301873
+- url: https://doi.org/10.1016/j.fsidi.2025.301873
+- note: "Proposes a block-based PRNU matching algorithm for video capturing device identification that tolerates video stabilization's heterogeneous per-region geometric transformations, outperforming traditional frame-based matching under move/panrot stabilization modes while reducing average processing time from 2432.3s to 340.2s. Used to extend the existing PRNU video source-camera technique and its stabilization-mitigation page. Source file: raw/DI/Video capturing device identification through block-based PRNU matching.pdf."
+
+### DFCite-2143
+
+- type: article
+- author: Anmol, Tigga and Sitara, K.
+- title: "Video source camera identification using fusion of texture features and noise fingerprint"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 49, 301746
+- url: https://doi.org/10.1016/j.fsidi.2024.301746
+- note: "Fuses LBP and GLCM texture features with PRNU-derived HOWS statistics into a 170-value feature vector classified by SVM for video source camera identification, showing good performance on VISION/SOCRatES but inadequate results on QUFVD. Used to extend the existing PRNU video source-camera technique with a texture-fusion classification variant. Source file: raw/DI/Video source camera identification using fusion of texture features and noise fingerprint.pdf."
+
+### DFCite-2144
+
+- type: article
+- author: Yang, Hyomin and Kim, Junho and Park, Jungheum
+- title: "Video source identification using machine learning: A case study of 16 instant messaging applications"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 50, 301812
+- url: https://doi.org/10.1016/j.fsidi.2024.301812
+- note: "Classifies which of 16 instant messaging applications transmitted a video using ISOBMFF container structure, video/audio metadata, and H.264/H.265 encoding-parameter features with an Extra Trees ensemble classifier, achieving 99.96% accuracy with a top-14-feature subset. Source for a new technique/weakness/mitigation triad on messaging-app video-source identification. Source file: raw/DI/Video source identification using machine learning- A case study of 16 instant messaging applications.pdf."
+
+### DFCite-2145
+
+- type: article
+- author: Raymer, Emma and MacDermott, Aine and Akinbi, Alex
+- title: "Virtual reality forensics: Forensic analysis of Meta Quest 2"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 47, 301658
+- url: https://doi.org/10.1016/j.fsidi.2023.301658
+- note: "Presents a forensically-sound ADB-based (non-rooted) acquisition and analysis methodology for the Meta Quest 2 VR headset, recovering live-data, backup, internal-storage, and cloud-account artifacts, while documenting the inability to root the device to access application databases. Source for a new technique/weakness/mitigation triad on VR headset forensic acquisition. Source file: raw/DI/Virtual reality forensics- Forensic analysis of Meta Quest 2.pdf."
+
+### DFCite-2146
+
+- type: article
+- author: Bang, Jewan and Park, Jungheum and Lee, Sangjin
+- title: "Vision: An empirical framework for examiners to accessing password-protected resources for on-the-scene digital investigations"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 40, 301376
+- url: https://doi.org/10.1016/j.fsidi.2022.301376
+- note: "Presents Vision, a modular pre-definition/discovery/analysis/post-processing framework for on-scene credential discovery and reconstruction (cryptocurrency keys, disk encryption, secure messengers), validated across three real law-enforcement case studies including a USD 500,000 cryptocurrency seizure. Source for a new technique/weakness/mitigation triad on on-scene credential-discovery frameworks. Source file: raw/DI/Vision- An empirical framework for examiners to accessing password-protected resources for on-the-scene digital investigations Author links open overlay panel .pdf."

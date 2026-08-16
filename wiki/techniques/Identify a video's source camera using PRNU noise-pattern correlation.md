@@ -11,10 +11,14 @@ aliases:
   - Photo response non-uniformity (PRNU) video source camera identification
   - Sensor pattern noise (SPN) video device attribution
   - Weighted PRNU extraction via variance-stabilized transform and QP weighting
+  - Block-based PRNU matching for video capturing device identification
+  - LBP-GLCM-PRNU feature fusion for video source camera identification (VSCI)
 source_refs:
   - DFCite-1164
   - DFCite-1314
-updated_at: 2026-08-15
+  - DFCite-2142
+  - DFCite-2143
+updated_at: 2026-08-16
 status: complete
 ---
 
@@ -30,11 +34,17 @@ For each of the video's N frames I_i, a denoising filter F (wavelet-based filter
 
 **Improved extraction for short, heavily compressed videos**: standard PRNU extraction struggles most on short videos re-compressed for sharing on multimedia social networking sites, since aggressive compression and limited frame counts both suppress the noise signal. A weighted extraction model addresses this in three steps: first, the video decoder is modified to capture frames *before* the in-loop deblocking filter is applied, since that filter otherwise removes a substantial portion of the PRNU signal along with genuine compression artifacts; second, a multi-scale iterative least-squares filtering algorithm built on the variance-stabilizing transform (VST) — which converts the compression noise's signal-dependent variance into an approximately constant variance, making standard denoising filters more effective — extracts more noise residual per frame than single-scale wavelet/Wiener filtering; third, each frame's contribution to the averaged reference/query pattern is weighted using a maximum-likelihood estimate derived from the frame's quantization parameter (QP), giving less weight to more heavily compressed (noisier) frames, and a shared-component removal step suppresses noise not unique to the specific sensor. Evaluated on the public VISION database, this approach improved source-identification recognition performance by about 20% on average over prior extraction models, specifically for short compressed videos.
 
+**Block-based matching for stabilized video**: rather than attempting to blindly invert a stabilized video's per-frame geometric transformation before correlating whole-frame PRNU patterns (the traditional approach, which requires estimating up to four transformation parameters -- scaling, rotation, and two-dimensional translation -- and is correspondingly slow), an alternative divides each test frame's extracted PRNU into several equal-sized horizontal blocks and matches each block independently against a corresponding region of the reference PRNU. Because stabilization frequently applies heterogeneous, block-scale-varying transformations to different parts of a frame (blocks near the frame edges are typically modified more than those near the rotation axis close to center), matching at the block level, rather than requiring the whole frame to align at once, tolerates this heterogeneity and needs to estimate only a scaling parameter per block (rotation is ignored, since it has comparatively little effect on small blocks), substantially reducing both computational cost and the negative impact of stabilization on correlation accuracy. Formally, dividing the test PRNU into more, smaller blocks increases the number of independent matching probes taken from the same total signal, which (since PRNU behaves statistically like white noise) provably increases the expected peak correlation value obtainable relative to unblocked frame-level matching, up to the point additional blocks stop adding useful independent signal.
+
+**Texture-feature fusion for higher-order VSCI classification**: rather than relying on PRNU correlation alone, an alternative feeds Higher Order Wavelet Statistics (HOWS) computed from a video I-frame's PRNU together with two complementary texture-descriptor features -- Local Binary Pattern (LBP, a per-pixel local-neighborhood texture descriptor) and Gray Level Co-occurrence Matrix (GLCM, a statistical measure of how pairs of pixel intensities co-occur at a given spatial offset) -- concatenated into a single 170-value feature vector per I-frame and classified with a multi-class Support Vector Machine, trained per brand or per model rather than verified device-by-device via a correlation threshold. Because PRNU's discriminative strength is itself content-dependent (degrading for very dark, highly textured, or heavily-processed footage), fusing it with two texture-based feature families that do not depend on the same noise-extraction mechanism provides complementary discriminative signal in exactly the conditions where PRNU alone is weakest.
+
 ## Examples
 
 - Reference PRNU patterns are typically built from a large set (often 50+) of flat-field or high-texture-variance frames/images from the same candidate camera, per the same averaging approach used in image-based PRNU identification.
 - NCC/PCE similarity matrices visibly differ between a genuine (positive) match, which shows a sharp correlation peak at the true alignment offset, and a non-match (negative), which shows only diffuse, near-zero correlation with no distinct peak.
 - On the VISION database, bypassing the decoder's loop filter, applying VST-based multi-scale iterative least-squares filtering, and QP-weighting the frame contributions together improved recognition performance by roughly 20% on average over existing PRNU extraction models for short compressed videos.
+- Testing block-based matching (six equal-height horizontal blocks) against six Apple devices' videos captured in three modes (still, move, panrot) found it consistently outperformed traditional frame-based matching under move and panrot modes (e.g. AUC 0.96933 versus 0.80144 for one-frame move-mode identification), while achieving comparable detection performance for still-mode video (where stabilization operates only infrequently) and reducing average per-frame processing time from 2432.3 to 340.2 seconds across the tested devices.
+- Fusing LBP, GLCM, and PRNU-HOWS features and classifying with an SVM achieved model-level accuracy of 87.5% on the VISION dataset and good performance on the SOCRatES dataset, but the same approach's results on the QUFVD dataset were found inadequate, illustrating that a texture-fusion approach's cross-dataset generalization is not guaranteed even where in-dataset accuracy is strong.
 
 ## Related Objectives
 
@@ -48,3 +58,5 @@ For each of the video's N frames I_i, a denoising filter F (wavelet-based filter
 
 - [DFCite-1164] Akbari et al., 2022, "Digital forensic analysis for source video identification: A survey", FSI: Digital Investigation 41, 301390.
 - [DFCite-1314] Su, Tian, and Pan, 2022, "Multimedia source identification using an improved weight photo response non-uniformity noise extraction model in short compressed videos", FSI: Digital Investigation 42-43, 301473.
+- [DFCite-2142] Li, Wang, Ma, Wang, and Wu, 2025, "Video capturing device identification through block-based PRNU matching", FSI: Digital Investigation 52, 301873. Source for the block-based PRNU matching algorithm addressing heterogeneous stabilization transformations.
+- [DFCite-2143] Anmol and Sitara, 2024, "Video source camera identification using fusion of texture features and noise fingerprint", FSI: Digital Investigation 49, 301746. Source for the LBP/GLCM/PRNU-HOWS feature-fusion SVM classification approach, including its inadequate cross-dataset (QUFVD) generalization finding.
