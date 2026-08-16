@@ -4527,3 +4527,99 @@ Sorted by ID ascending. Never delete an entry; mark retired entries with `status
 - journal: Forensic Science International: Digital Investigation, 48, 301662
 - url: https://doi.org/10.1016/j.fsidi.2023.301662
 - note: "A practitioner reference guide to identifying and accessing Linux full-disk (LUKS/dm-crypt) and per-directory (eCryptfs, fscrypt) encryption, with worked at-scene/live and post-scene command-line examples. Source for a new technique on live command-line detection and access, and a new weakness/mitigation pair on the live-versus-post-scene access-opportunity gap. Source file: raw/DI/Techniques and methods for obtaining access to data protected by linux-based encryption – A reference guide for practitioners.pdf."
+
+### DFCite-2097
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "Temporal metadata analysis: A learning classifier system approach"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301694
+- note: "Presents the Digital Trace Inspector (DTI), which trains a Michigan-style learning classifier system (ExSTraCS), optionally seeded with YARA-inspired expert-knowledge rules, to correlate temporal metadata across artifact types for event-timeline reconstruction. Source for a new technique/weakness/mitigation triad on learning-classifier-system-based temporal metadata correlation and its training-data-dependence limitation. Source file: raw/DI/Temporal metadata analysis- A learning classifier system approach.pdf."
+
+### DFCite-2098
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "The case for Zero Trust Digital Forensics"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301695
+- note: "Proposes Zero Trust Digital Forensics (ZTDF), applying the cybersecurity Zero Trust 'never trust, always verify' principle to digital forensic practice via a three-part artifact-integrity taxonomy (temporal, syntactic, semantic). Source for a new technique/weakness/mitigation triad on default-trust verification, linking to the existing tampering-recognition technique as one concrete implementation. Source file: raw/DI/The case for Zero Trust Digital Forensics.pdf."
+
+### DFCite-2099
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "The complexity of internet of things forensics: A state-of-the-art review"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 45, 301552
+- note: "Reference-only: a systematic literature review cataloging and critiquing prior IoT digital forensic process models and frameworks (Next Big Thing, FAIoT, DFIF-IoT, PRoFIT, FoBI, IoTDots, DFR-IoT, FEAAS, and others). Not ingested as a primary technique/weakness/mitigation source per the style guide's primary-source preference: it surveys and synthesizes prior published frameworks (several of which are already represented in this wiki via their own primary-source papers, e.g. the existing IoT process-model and multi-source IoT acquisition techniques) without proposing a new investigative method, defect, or fix of its own; cited for completeness. Source file: raw/DI/The complexity of internet of things forensics- A state-of-the-art review.pdf."
+
+### DFCite-2100
+
+- type: article
+- author: Unknown (author list not extracted from source PDF metadata)
+- title: "The current state of cryptocurrency forensics"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 46, 301576
+- note: "Reference-only: a literature-survey paper cataloging and tabulating prior published cryptocurrency-forensics research by topic (blockchain analysis, wallet/exchange forensics, network forensics) and identifying host-based mobile/computer cryptocurrency forensics as comparatively underexplored relative to blockchain/network forensics. Not ingested as a primary technique/weakness/mitigation source per the style guide's primary-source preference: several of the primary studies it surveys are already represented in this wiki via their own papers (e.g. the existing Bitcoin address-clustering, wallet-triage, and taint-analysis techniques); cited for completeness and as corroboration of the identified research gap. Source file: raw/DI/The current state of cryptocurrency forensics..pdf."
+
+### DFCite-2101
+
+- type: article
+- author: Al-Sharif, Ziad A. and Al-Senjalawi, Reem and Alzoubi, Omar A.
+- title: "The effects of document's format, size, and storage media on memory forensics"
+- year: 2024
+- journal: Forensic Science International: Digital Investigation, 48, 301692
+- url: https://doi.org/10.1016/j.fsidi.2024.301692
+- note: "Empirically measures how document file format (TXT/RTF/DOCX/ODT/PDF), storage medium (local disk, cloud services, remote desktop), and open/closed state independently affect the proportion of document content recoverable from a RAM image. Source for a new technique/weakness/mitigation triad on format/medium/timing-aware document recovery from memory. Source file: raw/DI/The effects of document_s format, size, and storage media on memory forensics.pdf."
+
+### DFCite-2102
+
+- type: article
+- author: Toffalini, Flavio and Oliveri, Andrea and Graziano, Mariano and Zhou, Jianying and Balzarotti, Davide
+- title: "The evidence beyond the wall: Memory forensics in SGX environments"
+- year: 2021
+- journal: Forensic Science International: Digital Investigation, 39, 301313
+- url: https://doi.org/10.1016/j.fsidi.2021.301313
+- note: "Presents a methodology and open-source Volatility plugins for SGX enclave memory forensics -- SGX-aware acquisition, kernel-structure enumeration of loaded/zombie enclaves, and user-space memory-layout/interface reverse engineering -- evaluated against 45 SGX applications and two malware-enclave samples. Source for a new technique/weakness/mitigation triad on SGX enclave memory forensics. Source file: raw/DI/The evidence beyond the wall- Memory forensics in SGX environments.pdf."
+
+### DFCite-2103
+
+- type: article
+- author: Kowalski, Piotr A. and Kusy, Maciej and Kocierz, Karol
+- title: "The forensic information identification based on machine learning algorithms"
+- year: 2023
+- journal: Forensic Science International: Digital Investigation, 47, 301619
+- url: https://doi.org/10.1016/j.fsidi.2023.301619
+- note: "Applies k-means spatial clustering (cluster count selected via the Calinski-Harabasz index) and kernel density estimation to visualize temporal and spatial crime hot-spots in the City of Baltimore across seven crime types. Source for a new technique/weakness/mitigation set on crime hot-spot visualization and the finding that statistically optimal clusters do not align with administrative boundaries. Source file: raw/DI/The forensic information identification based on machine learning algorithms.pdf."
+
+### DFCite-2104
+
+- type: article
+- author: Bengtsson, Johnny
+- title: "The ghost in the building: Non-invasive spoofing and covert attacks on automated buildings"
+- year: 2025
+- journal: Forensic Science International: Digital Investigation, 52, 301880
+- url: https://doi.org/10.1016/j.fsidi.2025.301880
+- note: "Demonstrates non-invasive spoofing (drone-triggered PIR presence events) and covert attacks (thermal/CO2 shielding evading PIR/CO2 sensors) against a building automation and control system, and a spoofed home-automation-system event log injection, proposing sensor fusion as a detection approach. Source for a new technique/weakness/mitigation triad on sensor-fusion-based tampering detection in building-automation event logs. Source file: raw/DI/The ghost in the building- Non-invasive spoofing and covert attacks on automated buildings.pdf."
+
+### DFCite-2105
+
+- type: article
+- author: Calderoni, Luca and Magnani, Antonio
+- title: "The impact of face image compression in future generation electronic identity documents"
+- year: 2022
+- journal: Forensic Science International: Digital Investigation, 40, 301345
+- url: https://doi.org/10.1016/j.fsidi.2022.301345
+- note: "Measures the effect of JPEG2000 compression on face-verification accuracy (EER, FRR@FAR thresholds) for eMRTD-plausible compressed image sizes (32-10 KB), finding sharply tool-dependent results between an open-source library (DLib, substantial degradation) and a commercial SDK (VeriLook, negligible degradation). Source for a new technique/weakness/mitigation triad on tool-specific compression-accuracy benchmarking for eMRTD face verification. Source file: raw/DI/The impact of face image compression in future generation electronic identity documents Author links open overlay panel .pdf."
+
+### DFCite-2106
+
+- type: article
+- author: Ryser, Elenore and Baechler, Simon
+- title: "The implementation of digital forensic science in a Swiss police force"
+- year: 2026
+- journal: Forensic Science International: Digital Investigation, 56, 302069
+- url: https://doi.org/10.1016/j.fsidi.2026.302069
+- note: "An ethnographic study (160 hours of field observation, interviews, casework-database analysis) of a Swiss cantonal police digital forensic unit's operationalisation, finding referral to the DFU depends heavily on individual investigators' informal technical awareness rather than a standardized process. Source for a new weakness/mitigation pair on the resulting under-referral risk for cases with relevant digital evidence. Source file: raw/DI/The implementation of digital forensic science in a Swiss police force.pdf."
