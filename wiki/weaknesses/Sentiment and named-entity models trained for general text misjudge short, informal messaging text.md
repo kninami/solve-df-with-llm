@@ -1,14 +1,14 @@
 ---
-id: DFW-2076
+id: LWW-2076
 type: weakness
 name: Sentiment and named-entity models trained for general text misjudge short, informal messaging text
 description: Sentiment-analysis and named-entity-recognition models are typically trained on comparatively formal, data-rich source text, but mobile messaging text is short, noisy, and full of platform-specific abbreviations, acronyms, and emoji, causing an off-the-shelf or lightly-adapted classifier to produce an unreliable proportion of misjudged sentiment polarity or missed/incorrect entity labels.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2077
+  - LWM-2077
 source_refs:
-  - DFCite-2082
+  - LWCite-2082
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ A time-series-based conversation review workflow that flags "events of interest"
 
 ## References
 
-- [DFCite-2082] Harris, Jacobson, and Provetti, 2024, "Sentiment and time-series analysis of direct-message conversations", FSI: Digital Investigation 49, 301753.
+- [LWCite-2082] Harris, Jacobson, and Provetti, 2024, "Sentiment and time-series analysis of direct-message conversations", FSI: Digital Investigation 49, 301753.

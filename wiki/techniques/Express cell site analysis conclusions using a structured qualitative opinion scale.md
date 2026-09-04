@@ -1,17 +1,17 @@
 ---
-id: DFT-1110
+id: LWT-1110
 type: technique
 name: Express cell site analysis conclusions using a structured qualitative opinion scale
 description: Report a cell site analysis finding using a defined five-category verbal scale of technical opinion strength (ranging from strong positive support through to a deductive exclusion), each grounded in an explicit description of the underlying observations, rather than presenting an unsupported quantitative probability for how discriminating the finding is.
 objective_ids:
   - DFO-1020
 weakness_ids:
-  - DFW-1115
+  - LWW-1115
 aliases:
   - Case Assessment and Interpretation (CAI) model for cell site analysis
   - CAI verbal scale reporting
 source_refs:
-  - DFCite-1108
+  - LWCite-1108
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The five categories range from strongest to weakest support: (1) the cell was ob
 
 ## References
 
-- [DFCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.
+- [LWCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.

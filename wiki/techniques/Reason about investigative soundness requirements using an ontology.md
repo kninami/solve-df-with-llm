@@ -1,18 +1,18 @@
 ---
-id: DFT-1034
+id: LWT-1034
 type: technique
 name: Reason about investigative soundness requirements using an ontology
 description: Encode digital forensic standards and guidelines (e.g., ISO/IEC 27037/27041/27042/27043, NIST SP800-86, Interpol guidelines) as a formal description-logic ontology, then use automated reasoning (instance retrieval, classification, conjunctive query answering) to tell an investigator, for a specific evidence source and investigation phase, which soundness requirements (auditability, repeatability, reproducibility, justifiability, sufficiency, reliability) must be satisfied and how.
 objective_ids:
   - DFO-1020
 weakness_ids:
-  - DFW-1035
+  - LWW-1035
 aliases:
   - Ontology-based investigative soundness requirement reasoning
   - Digital Evidence Admissibility Ontology
   - DEA Ontology
 source_refs:
-  - DFCite-1025
+  - LWCite-1025
 updated_at: 2026-08-09
 status: complete
 ---
@@ -41,4 +41,4 @@ The ontology models the standard forensic process (identification, collection, e
 
 ## References
 
-- [DFCite-1025] Matijević Gostojić and Vuković, 2023, "A knowledge-based system for supporting the soundness of digital forensic investigations", FSI: Digital Investigation 46.
+- [LWCite-1025] Matijević Gostojić and Vuković, 2023, "A knowledge-based system for supporting the soundness of digital forensic investigations", FSI: Digital Investigation 46.

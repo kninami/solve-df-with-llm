@@ -1,14 +1,14 @@
 ---
-id: DFW-1179
+id: LWW-1179
 type: weakness
 name: Non-DJI drone flight logs record substantially fewer parameters than DJI logs, reducing available forensic detail
 description: Parrot and Yuneec drones log far fewer flight parameters and log entries per second than DJI drones, so a flight path reconstructed from a non-DJI drone's log is inherently less precise and less detailed than one reconstructed from a comparable DJI log.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1179
+  - LWM-1179
 source_refs:
-  - DFCite-1181
+  - LWCite-1181
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator reconstructing a flight path from a Parrot or Yuneec drone's fli
 
 ## References
 
-- [DFCite-1181] Kumar and Agrawal, 2021, "Drone GPS data analysis for flight path reconstruction: A study on DJI, Parrot & Yuneec make drones", FSI: Digital Investigation 38. Reports the parameter counts and per-second log entry rates (268/45 for DJI vs. 21/11 for Parrot and 22/19 for Yuneec) underlying this weakness.
+- [LWCite-1181] Kumar and Agrawal, 2021, "Drone GPS data analysis for flight path reconstruction: A study on DJI, Parrot & Yuneec make drones", FSI: Digital Investigation 38. Reports the parameter counts and per-second log entry rates (268/45 for DJI vs. 21/11 for Parrot and 22/19 for Yuneec) underlying this weakness.

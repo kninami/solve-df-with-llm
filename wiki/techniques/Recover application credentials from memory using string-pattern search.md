@@ -1,19 +1,19 @@
 ---
-id: DFT-1020
+id: LWT-1020
 type: technique
 name: Recover application credentials from memory using string-pattern search
 description: Recover a password or other secret from a process memory dump by searching for a known, application-specific string pattern that the application reliably places adjacent to the secret in memory while constructing a key-derivation input or prompt, rather than searching for the secret's value directly.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1020
+  - LWW-1020
 aliases:
   - Memory string-pattern recovery of application credentials
   - rclone.conf password recovery
   - TeamViewer dynamic password memory recovery
 source_refs:
-  - DFCite-1014
-  - DFCite-1148
+  - LWCite-1014
+  - LWCite-1148
 updated_at: 2026-08-12
 status: complete
 ---
@@ -43,5 +43,5 @@ The technique requires first identifying, via static/dynamic analysis of the tar
 
 ## References
 
-- [DFCite-1014] Breitinger et al., 2022, "A forensic analysis of rclone and rclone's prospects for digital forensic investigations of cloud storage", FSI: Digital Investigation 43.
-- [DFCite-1148] Soni, Kaur and Aziz, 2024, "Decoding digital interactions: An extensive study of TeamViewer's Forensic Artifacts across Windows and android platforms", FSI: Digital Investigation 51. Demonstrates recovering a TeamViewer session's plaintext dynamic password from process memory by searching for the `TeamViewerCredentialsEvent` marker string.
+- [LWCite-1014] Breitinger et al., 2022, "A forensic analysis of rclone and rclone's prospects for digital forensic investigations of cloud storage", FSI: Digital Investigation 43.
+- [LWCite-1148] Soni, Kaur and Aziz, 2024, "Decoding digital interactions: An extensive study of TeamViewer's Forensic Artifacts across Windows and android platforms", FSI: Digital Investigation 51. Demonstrates recovering a TeamViewer session's plaintext dynamic password from process memory by searching for the `TeamViewerCredentialsEvent` marker string.

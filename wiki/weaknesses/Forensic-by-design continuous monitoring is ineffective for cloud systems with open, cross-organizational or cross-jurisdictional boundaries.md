@@ -1,14 +1,14 @@
 ---
-id: DFW-1079
+id: LWW-1079
 type: weakness
 name: Forensic-by-design continuous monitoring is ineffective for cloud systems with open, cross-organizational or cross-jurisdictional boundaries
 description: The system-engineering-integrated forensic-by-design framework's continuous evidence-monitoring and collection approach cannot be envisioned beyond a system's own organizational or software boundaries without clear, abiding cross-party agreements, and becomes substantially more complex — and potentially ineffective — for cloud systems whose components or data span multiple organizations or legal jurisdictions.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1079
+  - LWM-1079
 source_refs:
-  - DFCite-1069
+  - LWCite-1069
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An organization that adopts forensic-by-design expecting it to provide comprehen
 
 ## References
 
-- [DFCite-1069] Akilal and Kechadi, 2022, "An improved forensic-by-design framework for cloud computing with systems engineering standard compliance", FSI: Digital Investigation 40.
+- [LWCite-1069] Akilal and Kechadi, 2022, "An improved forensic-by-design framework for cloud computing with systems engineering standard compliance", FSI: Digital Investigation 40.

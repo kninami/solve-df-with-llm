@@ -1,9 +1,9 @@
 ---
-id: DFM-1245
+id: LWM-1245
 type: mitigation
 name: Select higher-entropy perceptual hash algorithms validated by large-scale distance-distribution benchmarking
 source_refs:
-  - DFCite-1259
+  - LWCite-1259
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Run (or consult published results from) a large-scale inter/intra-score distribu
 
 ## References
 
-- [DFCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509.
+- [LWCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509.

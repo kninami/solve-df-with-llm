@@ -1,17 +1,17 @@
 ---
-id: DFT-1190
+id: LWT-1190
 type: technique
 name: Intercept mobile app network traffic using a MITM proxy
 description: Route a mobile app's network traffic through an investigator-controlled man-in-the-middle (MITM) proxy configured with a trusted CA certificate, decrypting and inspecting the app's HTTPS requests and responses when the app does not implement certificate pinning.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1197
+  - LWW-1197
 aliases:
   - MITM traffic capture of a mobile app
   - Fiddler/Charles proxy-based mobile app traffic interception
 source_refs:
-  - DFCite-1208
+  - LWCite-1208
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ This is the baseline network-traffic-capture technique, distinct from active cer
 
 ## References
 
-- [DFCite-1208] Aagaard et al., 2023, "Family locating sharing app forensics: Life360 as a case study", FSI: Digital Investigation 44, 301478.
+- [LWCite-1208] Aagaard et al., 2023, "Family locating sharing app forensics: Life360 as a case study", FSI: Digital Investigation 44, 301478.

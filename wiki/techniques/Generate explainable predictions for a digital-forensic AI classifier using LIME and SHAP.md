@@ -1,5 +1,5 @@
 ---
-id: DFT-2097
+id: LWT-2097
 type: technique
 name: Generate explainable predictions for a digital-forensic AI classifier using LIME and SHAP
 description: Apply model-agnostic explainable-AI (XAI) tools -- LIME (Local Interpretable Model-agnostic Explanations) and SHAP (SHapley Additive exPlanations) -- to a black-box machine-learning classifier used in a digital forensic investigation (e.g. malware detection from memory artifacts), producing a per-feature contribution breakdown for each individual prediction so an investigator or model developer can verify the classifier's decision relied on evidentially meaningful features rather than a spurious correlation.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1004
   - DFO-1019
 weakness_ids:
-  - DFW-2102
+  - LWW-2102
 aliases:
   - XAI-DF
   - Unified XAI-based framework for digital forensic investigations
 source_refs:
-  - DFCite-2119
+  - LWCite-2119
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ LIME operates by perturbing the input around the specific instance being explain
 
 ## References
 
-- [DFCite-2119] "Towards a unified XAI-based framework for digital forensic investigations", FSI: Digital Investigation 48, 2024.
+- [LWCite-2119] "Towards a unified XAI-based framework for digital forensic investigations", FSI: Digital Investigation 48, 2024.

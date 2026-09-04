@@ -1,9 +1,9 @@
 ---
-id: DFM-1159
+id: LWM-1159
 type: mitigation
 name: Continuously validate and retrain cybercrime classifiers against held-out communication source domains before deployment
 source_refs:
-  - DFCite-1161
+  - LWCite-1161
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Maintain a held-out set of source domains distinct from the training pool and pe
 
 ## References
 
-- [DFCite-1161] Omeleze Baror et al., 2026, "DFR–HCI: A forensic-ready microservice architecture for human-to-human communication-based cybercrime detection", FSI: Digital Investigation 58, 302134.
+- [LWCite-1161] Omeleze Baror et al., 2026, "DFR–HCI: A forensic-ready microservice architecture for human-to-human communication-based cybercrime detection", FSI: Digital Investigation 58, 302134.

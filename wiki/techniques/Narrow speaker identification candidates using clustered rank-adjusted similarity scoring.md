@@ -1,16 +1,16 @@
 ---
-id: DFT-1177
+id: LWT-1177
 type: technique
 name: Narrow speaker identification candidates using clustered rank-adjusted similarity scoring
 description: Cluster a large collection of unlabeled audio recordings by presumed common speaker using voice-embedding similarity, then score each cluster against every enrolled individual in a speaker database using a rank-adjusted cosine-similarity function, to narrow a very large pool of candidates down to a short, human-reviewable list for further corroboration.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1184
+  - LWW-1184
 aliases:
   - Cluster-scoring speaker identification pipeline
 source_refs:
-  - DFCite-1187
+  - LWCite-1187
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The pipeline has five stages. Feature extraction converts each audio recording i
 
 ## References
 
-- [DFCite-1187] Moura et al., 2024, "Enhancing speaker identification in criminal investigations through clusterization and rank-based scoring", FSI: Digital Investigation 49.
+- [LWCite-1187] Moura et al., 2024, "Enhancing speaker identification in criminal investigations through clusterization and rank-based scoring", FSI: Digital Investigation 49.

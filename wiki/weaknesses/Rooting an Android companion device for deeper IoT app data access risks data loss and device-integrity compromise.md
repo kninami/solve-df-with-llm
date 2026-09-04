@@ -1,5 +1,5 @@
 ---
-id: DFW-2114
+id: LWW-2114
 type: weakness
 name: Rooting an Android companion device for deeper IoT app data access risks data loss and device-integrity compromise
 description: Non-rooted extraction from an Android IoT companion app's data directory via ADB can only access a limited subset of application data due to Android permission restrictions, but obtaining the deeper access rooting provides carries its own risk of altering or losing data during the rooting process, and the specific rooting procedure required varies by the device's operating system version, adding an additional layer of procedural risk and complexity.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-2115
+  - LWM-2115
 source_refs:
-  - DFCite-2134
+  - LWCite-2134
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator choosing to root a companion device to access fuller IoT-app evi
 
 ## References
 
-- [DFCite-2134] Sharma and Awasthi, 2024, "Unveiling the hidden dangers: Security risks and forensic analysis of smart bulbs", FSI: Digital Investigation 50, 301794.
+- [LWCite-2134] Sharma and Awasthi, 2024, "Unveiling the hidden dangers: Security risks and forensic analysis of smart bulbs", FSI: Digital Investigation 50, 301794.

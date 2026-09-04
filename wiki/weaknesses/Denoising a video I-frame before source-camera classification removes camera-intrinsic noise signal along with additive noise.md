@@ -1,14 +1,14 @@
 ---
-id: DFW-1250
+id: LWW-1250
 type: weakness
 name: Denoising a video I-frame before source-camera classification removes camera-intrinsic noise signal along with additive noise
 description: Unconditionally denoising a video I-frame before feeding it to a deep-learning source-camera classifier strips genuine, discriminative camera-intrinsic noise patterns along with the unwanted additive noise, degrading classification accuracy on already low-noise frames or on devices with advanced built-in noise reduction that leave comparatively little additive noise to remove in the first place.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1251
+  - LWM-1251
 source_refs:
-  - DFCite-1265
+  - LWCite-1265
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ A forensic examiner applying an always-denoise source-camera-identification pipe
 
 ## References
 
-- [DFCite-1265] Tigga and Sitara, 2026, "Hybrid DN-MobileNet: A study on an effective framework for source camera identification from videos", FSI: Digital Investigation 57, 302090.
+- [LWCite-1265] Tigga and Sitara, 2026, "Hybrid DN-MobileNet: A study on an effective framework for source camera identification from videos", FSI: Digital Investigation 57, 302090.

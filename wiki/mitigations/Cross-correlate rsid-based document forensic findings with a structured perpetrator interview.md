@@ -1,9 +1,9 @@
 ---
-id: DFM-1190
+id: LWM-1190
 type: mitigation
 name: Cross-correlate rsid-based document forensic findings with a structured perpetrator interview
 source_refs:
-  - DFCite-1195
+  - LWCite-1195
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Before or alongside the rsid examination, gather as much detail as possible abou
 
 ## References
 
-- [DFCite-1195] Spennemann, Spennemann and Singh, 2024, "Examining and detecting academic misconduct in written documents using revision save identifier numbers in MS Word as exemplified by multiple scenarios", FSI: Digital Investigation 51, 301821.
+- [LWCite-1195] Spennemann, Spennemann and Singh, 2024, "Examining and detecting academic misconduct in written documents using revision save identifier numbers in MS Word as exemplified by multiple scenarios", FSI: Digital Investigation 51, 301821.

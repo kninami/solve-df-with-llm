@@ -1,14 +1,14 @@
 ---
-id: DFW-1081
+id: LWW-1081
 type: weakness
 name: IoI signatures developed on a controlled dataset produce false positives against independent third-party forensic images
 description: Two of five Indicator of Inconsistency (IoI) SPARQL signatures, initially developed and validated only against a controlled five-image dataset, produced 49 spurious matches (76% specificity) when run against independent third-party forensic images, because their detection logic was scoped too broadly (e.g. matching any filename containing a keyword, or accepting a benign write pattern as corroborating evidence) in ways the controlled dataset had not exposed.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1081
+  - LWM-1081
 source_refs:
-  - DFCite-1071
+  - LWCite-1071
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who adopts a community-shared IoI signature and trusts its repor
 
 ## References
 
-- [DFCite-1071] Gunestas et al., 2026, "An indicator of inconsistency framework for detecting contradictory digital artifacts", FSI: Digital Investigation 58.
+- [LWCite-1071] Gunestas et al., 2026, "An indicator of inconsistency framework for detecting contradictory digital artifacts", FSI: Digital Investigation 58.

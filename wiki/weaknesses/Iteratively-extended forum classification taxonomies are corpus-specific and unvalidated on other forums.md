@@ -1,14 +1,14 @@
 ---
-id: DFW-1195
+id: LWW-1195
 type: weakness
 name: Iteratively-extended forum classification taxonomies are corpus-specific and unvalidated on other forums
 description: A taxonomy extended through residual n-gram analysis of one corpus captures the statistical and morphological patterns specific to that single forum's vocabulary, language mix, and platform conventions, and has not been calibrated or validated against a different forum, a different cryptoasset community, or a different language mix.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1195
+  - LWM-1195
 source_refs:
-  - DFCite-1204
+  - LWCite-1204
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Applying a taxonomy (and its deterministic rule set) extended for one forum dire
 
 ## References
 
-- [DFCite-1204] Medina-Merodio et al., 2026, "Extending taxonomies for P2P crypto forum classification in the dark web: An iterative methodological approach", FSI: Digital Investigation 57.
+- [LWCite-1204] Medina-Merodio et al., 2026, "Extending taxonomies for P2P crypto forum classification in the dark web: An iterative methodological approach", FSI: Digital Investigation 57.

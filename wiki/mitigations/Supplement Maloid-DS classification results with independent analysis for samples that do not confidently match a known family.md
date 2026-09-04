@@ -1,9 +1,9 @@
 ---
-id: DFM-2038
+id: LWM-2038
 type: mitigation
 name: Supplement Maloid-DS classification results with independent analysis for samples that do not confidently match a known family
 source_refs:
-  - DFCite-2038
+  - LWCite-2038
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where a classifier trained on Maloid-DS returns a low-confidence result or no cl
 
 ## References
 
-- [DFCite-2038] Almomani et al., 2024 — Section VII "How to Update the Maloid Dataset" describes the community-contribution, automated-collection, and periodic-expert-review mechanisms intended to progressively close the coverage gaps acknowledged in Section VI.
+- [LWCite-2038] Almomani et al., 2024 — Section VII "How to Update the Maloid Dataset" describes the community-contribution, automated-collection, and periodic-expert-review mechanisms intended to progressively close the coverage gaps acknowledged in Section VI.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1275
+id: LWM-1275
 type: mitigation
 name: Weigh the diagnostic benefit of X-raying multi-level flash memory against the risk of introducing bit errors
 source_refs:
-  - DFCite-1302
+  - LWCite-1302
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Where feasible, identify the memory type (SLC, MLC, TLC, QLC NAND) before applyi
 
 ## References
 
-- [DFCite-1302] Heckmann, Souvignet, Sauveron and Naccache, 2021, "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment", FSI: Digital Investigation 36, 301092.
+- [LWCite-1302] Heckmann, Souvignet, Sauveron and Naccache, 2021, "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment", FSI: Digital Investigation 36, 301092.

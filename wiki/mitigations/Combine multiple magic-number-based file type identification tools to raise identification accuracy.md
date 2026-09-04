@@ -1,9 +1,9 @@
 ---
-id: DFM-1200
+id: LWM-1200
 type: mitigation
 name: Combine multiple magic-number-based file type identification tools to raise identification accuracy
 source_refs:
-  - DFCite-1211
+  - LWCite-1211
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Before adopting a file type identification tool, verify its actual mechanism (co
 
 ## References
 
-- [DFCite-1211] Dubettier et al., 2023, "File type identification tools for digital investigations", FSI: Digital Investigation 46, 301574.
+- [LWCite-1211] Dubettier et al., 2023, "File type identification tools for digital investigations", FSI: Digital Investigation 46, 301574.

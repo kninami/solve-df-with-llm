@@ -1,9 +1,9 @@
 ---
-id: DFM-1218
+id: LWM-1218
 type: mitigation
 name: Flag carved database log records that span file-system cluster boundaries as fragmentation-uncertain
 source_refs:
-  - DFCite-1229
+  - LWCite-1229
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ After locating a candidate log record via its fixed-length signature, calculate 
 
 ## References
 
-- [DFCite-1229] Choi and Lee, 2023, "Forensic analysis of SQL server transaction log in unallocated area of file system", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301605.
+- [LWCite-1229] Choi and Lee, 2023, "Forensic analysis of SQL server transaction log in unallocated area of file system", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301605.

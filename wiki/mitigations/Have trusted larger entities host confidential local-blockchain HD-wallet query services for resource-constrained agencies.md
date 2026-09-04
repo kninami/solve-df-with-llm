@@ -1,9 +1,9 @@
 ---
-id: DFM-1104
+id: LWM-1104
 type: mitigation
 name: Have trusted larger entities host confidential local-blockchain HD-wallet query services for resource-constrained agencies
 source_refs:
-  - DFCite-1099
+  - LWCite-1099
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Establish a hosting relationship with a trusted larger entity capable of running
 
 ## References
 
-- [DFCite-1099] Thomas et al., 2022, "BlockQuery: Toward forensically sound cryptocurrency investigation", FSI: Digital Investigation 40.
+- [LWCite-1099] Thomas et al., 2022, "BlockQuery: Toward forensically sound cryptocurrency investigation", FSI: Digital Investigation 40.

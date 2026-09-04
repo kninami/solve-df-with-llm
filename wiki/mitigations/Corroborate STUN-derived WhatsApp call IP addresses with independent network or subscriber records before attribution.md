@@ -1,9 +1,9 @@
 ---
-id: DFM-1254
+id: LWM-1254
 type: mitigation
 name: Corroborate STUN-derived WhatsApp call IP addresses with independent network or subscriber records before attribution
 source_refs:
-  - DFCite-1270
+  - LWCite-1270
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Request subscriber-mapping records from the relevant ISP for the captured IP add
 
 ## References
 
-- [DFCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.
+- [LWCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.

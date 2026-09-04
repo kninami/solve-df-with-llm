@@ -1,14 +1,14 @@
 ---
-id: DFW-1010
+id: LWW-1010
 type: weakness
 name: Shimcache lacks native file execution timestamps requiring unvalidated estimation
 description: The Windows Application Compatibility Cache (Shimcache) does not itself record when a referenced file was executed, so any execution-time value derived from it is the output of an estimation algorithm whose accuracy has not been broadly validated across different Windows environments.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1010
+  - LWM-1010
 source_refs:
-  - DFCite-1005
+  - LWCite-1005
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Treating an estimated execution-time interval as if it were an authoritative log
 
 ## References
 
-- [DFCite-1005] Dunsin et al., 2024, "A comprehensive analysis of the role of artificial intelligence and machine learning in modern digital forensics and incident response", FSI: Digital Investigation 48.
+- [LWCite-1005] Dunsin et al., 2024, "A comprehensive analysis of the role of artificial intelligence and machine learning in modern digital forensics and incident response", FSI: Digital Investigation 48.

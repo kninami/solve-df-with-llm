@@ -1,15 +1,15 @@
 ---
-id: DFT-1001
+id: LWT-1001
 type: technique
 name: Detect behavioral anomalies using unsupervised deep learning
 description: Train a deep model (e.g., a Bidirectional GAN, a CNN-BiLSTM autoencoder, or a Variational Autoencoder-LSTM) exclusively on normal/attack-free behavioral data — ICS sensor/actuator telemetry, surveillance video of routine activity, or blockchain transaction attributes — to fingerprint what "normal" looks like, then score later deviations from that fingerprint (via discriminator loss, reconstruction error, or both) as candidate attacks or anomalous events.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1001
-  - DFW-1052
-  - DFW-1129
-  - DFW-1258
+  - LWW-1001
+  - LWW-1052
+  - LWW-1129
+  - LWW-1258
 aliases:
   - Unsupervised deep-learning behavioral anomaly detection
   - GAN-based ICS behavioral anomaly fingerprinting
@@ -17,10 +17,10 @@ aliases:
   - VAE-LSTM blockchain transaction anomaly detection
   - Cascaded-autoencoder insider threat prediction (CPJOS)
 source_refs:
-  - DFCite-1001
-  - DFCite-1042
-  - DFCite-1158
-  - DFCite-1276
+  - LWCite-1001
+  - LWCite-1042
+  - LWCite-1158
+  - LWCite-1276
 updated_at: 2026-08-14
 status: complete
 ---
@@ -57,7 +57,7 @@ For proactive insider threat prediction from organizational log data (device, em
 
 ## References
 
-- [DFCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.
-- [DFCite-1042] Khaire and Kumar, 2022, "A semi-supervised deep learning based video anomaly detection framework using RGB-D for surveillance of real-world critical environments", FSI: Digital Investigation 40.
-- [DFCite-1158] Song, 2026, "Detection and prediction of transactional anomalies in blockchain based accounting using mining behavior with Autoencoder-LSTM", FSI: Digital Investigation 58.
-- [DFCite-1276] Wei, Chow and Yiu, 2021, "Insider threat prediction based on unsupervised anomaly detection scheme for proactive forensic investigation", FSI: Digital Investigation 38, 301126.
+- [LWCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.
+- [LWCite-1042] Khaire and Kumar, 2022, "A semi-supervised deep learning based video anomaly detection framework using RGB-D for surveillance of real-world critical environments", FSI: Digital Investigation 40.
+- [LWCite-1158] Song, 2026, "Detection and prediction of transactional anomalies in blockchain based accounting using mining behavior with Autoencoder-LSTM", FSI: Digital Investigation 58.
+- [LWCite-1276] Wei, Chow and Yiu, 2021, "Insider threat prediction based on unsupervised anomaly detection scheme for proactive forensic investigation", FSI: Digital Investigation 38, 301126.

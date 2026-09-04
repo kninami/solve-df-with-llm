@@ -1,17 +1,17 @@
 ---
-id: DFT-1150
+id: LWT-1150
 type: technique
 name: Rank pornographic video severity using detected sexual object categories
 description: After a video is classified and localized as pornographic, run a sexual-object detector (e.g., YOLO) over the flagged segments, map the specific object categories found to a severity scale, and rank segments/videos by combined severity and confidence score, supporting law-enforcement prioritization of pornographic-material caseloads.
 objective_ids:
   - DFO-1005
 weakness_ids:
-  - DFW-1153
+  - LWW-1153
 aliases:
   - Sexual object detection severity ranking
   - Harmfulness estimation for pornographic video content
 source_refs:
-  - DFCite-1156
+  - LWCite-1156
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ A YOLO-based sexual-object detector is applied to frames within segments already
 
 ## References
 
-- [DFCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.
+- [LWCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.

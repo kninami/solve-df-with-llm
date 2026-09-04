@@ -1,9 +1,9 @@
 ---
-id: DFM-2105
+id: LWM-2105
 type: mitigation
 name: Select the UAS reliability-assessment category matching available data sources and disclose reference-data and validation limitations
 source_refs:
-  - DFCite-2122
+  - LWCite-2122
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Before applying a Category 1 or Category 2 method, confirm adequate reference da
 
 ## References
 
-- [DFCite-2122] Lohre, Baier, Hardi, and Attenberger, 2025, "Towards reliable data in the scope of unmanned aircraft systems", FSI: Digital Investigation 53, 301914.
+- [LWCite-2122] Lohre, Baier, Hardi, and Attenberger, 2025, "Towards reliable data in the scope of unmanned aircraft systems", FSI: Digital Investigation 53, 301914.

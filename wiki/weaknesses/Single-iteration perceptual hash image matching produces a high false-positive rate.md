@@ -1,14 +1,14 @@
 ---
-id: DFW-2016
+id: LWW-2016
 type: weakness
 name: Single-iteration perceptual hash image matching produces a high false-positive rate
 description: Running only one perceptual hash algorithm to flag visually similar images returns a large share of visually dissimilar false-positive matches alongside genuine ones, requiring a human analyst to wade through many irrelevant results, or a second filtering pass, before the flagged set is reliable.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-2016
+  - LWM-2016
 source_refs:
-  - DFCite-2016
+  - LWCite-2016
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ A forensic analyst manually reviewing perceptual-hash search results for CSAM or
 
 ## References
 
-- [DFCite-2016] dos Santos et al., 2024 — Section VI.D-E and Table 3 report first-iteration false-positive rates and cleaning efficiencies for all six tested perceptual hash algorithms.
+- [LWCite-2016] dos Santos et al., 2024 — Section VI.D-E and Table 3 report first-iteration false-positive rates and cleaning efficiencies for all six tested perceptual hash algorithms.

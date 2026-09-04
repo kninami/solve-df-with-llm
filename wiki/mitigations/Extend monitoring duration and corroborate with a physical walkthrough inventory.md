@@ -1,9 +1,9 @@
 ---
-id: DFM-1026
+id: LWM-1026
 type: mitigation
 name: Extend monitoring duration and corroborate with a physical walkthrough inventory
 source_refs:
-  - DFCite-1018
+  - LWCite-1018
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Where the operational situation permits, extend the pre-entry monitoring period 
 
 ## References
 
-- [DFCite-1018] Jacob and Nisbet, 2022, "A forensic investigation framework for Internet of Things monitoring", FSI: Digital Investigation 42-43.
+- [LWCite-1018] Jacob and Nisbet, 2022, "A forensic investigation framework for Internet of Things monitoring", FSI: Digital Investigation 42-43.

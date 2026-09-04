@@ -1,9 +1,9 @@
 ---
-id: DFM-1004
+id: LWM-1004
 type: mitigation
 name: Cross-reference Visual ID UNDEF entries with corroborating device logs
 source_refs:
-  - DFCite-1002
+  - LWCite-1002
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Extract the full log context around each UNDEF entry, including adjacent detecti
 
 ## References
 
-- [DFCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.
+- [LWCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.

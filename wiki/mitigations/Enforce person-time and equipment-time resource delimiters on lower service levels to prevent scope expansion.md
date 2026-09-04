@@ -1,9 +1,9 @@
 ---
-id: DFM-1157
+id: LWM-1157
 type: mitigation
 name: Enforce person-time and equipment-time resource delimiters on lower service levels to prevent scope expansion
 source_refs:
-  - DFCite-1155
+  - LWCite-1155
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Define and document, per Service Level, both the practitioner time and the equip
 
 ## References
 
-- [DFCite-1155] Horsman, 2021, "Defining 'service levels' for digital forensic science organisations", FSI: Digital Investigation 38.
+- [LWCite-1155] Horsman, 2021, "Defining 'service levels' for digital forensic science organisations", FSI: Digital Investigation 38.

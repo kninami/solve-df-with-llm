@@ -1,17 +1,17 @@
 ---
-id: DFT-1178
+id: LWT-1178
 type: technique
 name: Adapt an EM side-channel-analysis model to new devices using transfer learning
 description: Port a pre-trained Electromagnetic Side-Channel Analysis (EM-SCA) machine learning model to a new but similar device by retraining only its output layer on a small set of traces from the new device, rather than training a fresh model from scratch or applying the original model directly.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1185
+  - LWW-1185
 aliases:
   - Cross-device portability of EM-SCA
   - Transfer learning for EM-SCA digital forensics
 source_refs:
-  - DFCite-1188
+  - LWCite-1188
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ Traces are captured with a software-defined radio (e.g. HackRF One) and a near-f
 
 ## References
 
-- [DFCite-1188] Navanesan et al., 2024, "Ensuring cross-device portability of electromagnetic side-channel analysis for digital forensics", FSI: Digital Investigation 48, 301684.
+- [LWCite-1188] Navanesan et al., 2024, "Ensuring cross-device portability of electromagnetic side-channel analysis for digital forensics", FSI: Digital Investigation 48, 301684.

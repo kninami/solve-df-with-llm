@@ -1,9 +1,9 @@
 ---
-id: DFM-2019
+id: LWM-2019
 type: mitigation
 name: Correlate cyber logs with physical sensor and actuator evidence using a provenance-tracking data lineage graph
 source_refs:
-  - DFCite-2019
+  - LWCite-2019
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Deploy proactive logging that timestamps and correlates cyber-layer events (netw
 
 ## References
 
-- [DFCite-2019] K et al., 2026 — Section VIII.C "Key Insights" states that "meaningful analysis in this context requires correlating cyber artifacts...with physical evidence...timely" and presents provenance frameworks (Figure 15) as the mechanism for converting raw logs into a verifiable, integrated data lineage record.
+- [LWCite-2019] K et al., 2026 — Section VIII.C "Key Insights" states that "meaningful analysis in this context requires correlating cyber artifacts...with physical evidence...timely" and presents provenance frameworks (Figure 15) as the mechanism for converting raw logs into a verifiable, integrated data lineage record.

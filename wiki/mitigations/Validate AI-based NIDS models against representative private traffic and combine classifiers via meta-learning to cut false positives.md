@@ -1,9 +1,9 @@
 ---
-id: DFM-2015
+id: LWM-2015
 type: mitigation
 name: Validate AI-based NIDS models against representative private traffic and combine classifiers via meta-learning to cut false positives
 source_refs:
-  - DFCite-2015
+  - LWCite-2015
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where feasible, supplement public-dataset training/evaluation with a held-out sa
 
 ## References
 
-- [DFCite-2015] Rizvi et al., 2022 — Section III.A discusses meta-learning approaches (voting, stacking, bagging) reducing false positives, and the survey's challenges discussion recommends comparing public-dataset-trained model effectiveness against private datasets.
+- [LWCite-2015] Rizvi et al., 2022 — Section III.A discusses meta-learning approaches (voting, stacking, bagging) reducing false positives, and the survey's challenges discussion recommends comparing public-dataset-trained model effectiveness against private datasets.

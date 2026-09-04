@@ -1,5 +1,5 @@
 ---
-id: DFW-1126
+id: LWW-1126
 type: weakness
 name: Tool documentation gaps and insufficient testing lead practitioners to misunderstand or misapply a forensic tool's capability
 description: Vague, missing, or overly complex vendor documentation, combined with no, incomplete, or ineffective independent testing, can lead a practitioner to misjudge what a forensic tool actually does, how reliably it does it, or whether its use is authorized, without realizing the gap.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1126
+  - LWM-1126
 source_refs:
-  - DFCite-1120
+  - LWCite-1120
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ Several distinct failure modes compound this weakness: subjective misinterpretat
 
 ## References
 
-- [DFCite-1120] Horsman, 2024, "Commentary:- Can I use that tool?", FSI: Digital Investigation 51, 301843.
+- [LWCite-1120] Horsman, 2024, "Commentary:- Can I use that tool?", FSI: Digital Investigation 51, 301843.

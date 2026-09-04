@@ -1,16 +1,16 @@
 ---
-id: DFT-1015
+id: LWT-1015
 type: technique
 name: Recover deleted Redis keys using dictEntry memory-address diffing
 description: Periodically capture the linked-list addresses of a Redis database's hash-table dictEntry structures, diff a later capture against an earlier one to identify addresses that dropped out of the live bucket list but remain unfreed in memory, and type-cast those addresses back to dictEntry to recover the deleted key-value pair.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1015
+  - LWW-1015
 aliases:
   - Redis dictEntry memory-address diffing for deleted key recovery
 source_refs:
-  - DFCite-1009
+  - LWCite-1009
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ The technique runs in two algorithmic stages. First, dictEntry addresses for a g
 
 ## References
 
-- [DFCite-1009] Chopade and Pachghare, 2021, "A data recovery technique for Redis using internal dictionary structure", FSI: Digital Investigation 38.
+- [LWCite-1009] Chopade and Pachghare, 2021, "A data recovery technique for Redis using internal dictionary structure", FSI: Digital Investigation 38.

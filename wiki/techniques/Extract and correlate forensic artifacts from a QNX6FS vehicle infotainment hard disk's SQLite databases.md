@@ -1,20 +1,20 @@
 ---
-id: DFT-1209
+id: LWT-1209
 type: technique
 name: Extract and correlate forensic artifacts from a QNX6FS vehicle infotainment hard disk's SQLite databases
 description: Mount a QNX-based in-vehicle infotainment system's hard disk image via a Linux QNX6 kernel module, then parse its known partition layout and per-partition SQLite databases to extract contacts, call logs, text messages, and paired-device identifiers (Bluetooth address, IMEI, IMSI), carving unallocated disk space for additional SQLite database files the system no longer references.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1220
+  - LWW-1220
 aliases:
   - BMW CIC/NBT EVO infotainment forensic analysis
   - Harman NTG5/2 COMMAND APS infotainment forensic analysis
   - Ford SYNC 3 gen 2 APIM infotainment forensic analysis
 source_refs:
-  - DFCite-1231
-  - DFCite-1268
-  - DFCite-1275
+  - LWCite-1231
+  - LWCite-1268
+  - LWCite-1275
 updated_at: 2026-08-14
 status: complete
 ---
@@ -52,6 +52,6 @@ Where the target hardware does not allow straightforward physical removal and mo
 
 ## References
 
-- [DFCite-1231] Marques, Domingues, Frade and Negrão, 2026, "Forensic analysis of the infotainment system of BMW vehicles", FSI: Digital Investigation 56, 302066.
-- [DFCite-1268] Wu, Breitinger and Baggili, 2026, "I know where you have been last summer: Extracting privacy-sensitive information via forensic analysis of the Mercedes-Benz NTG5/2 infotainment system", FSI: Digital Investigation 56, 302068. Demonstrates GPS trail BLOB decoding and event-log correlation on a QNX-based Harman infotainment system, plus the NTGCarver freelist-recovery tool.
-- [DFCite-1275] Antonson, Quick and Choo, 2025, "Infotainment system Forensics: Ford SYNC 3 gen 2 infotainment system as a use case", FSI: Digital Investigation 53, 301917. Demonstrates non-destructive USB jailbreak plus SSH/SFTP logical extraction of a QNX-based Ford APIM module as an alternative to physical disk removal.
+- [LWCite-1231] Marques, Domingues, Frade and Negrão, 2026, "Forensic analysis of the infotainment system of BMW vehicles", FSI: Digital Investigation 56, 302066.
+- [LWCite-1268] Wu, Breitinger and Baggili, 2026, "I know where you have been last summer: Extracting privacy-sensitive information via forensic analysis of the Mercedes-Benz NTG5/2 infotainment system", FSI: Digital Investigation 56, 302068. Demonstrates GPS trail BLOB decoding and event-log correlation on a QNX-based Harman infotainment system, plus the NTGCarver freelist-recovery tool.
+- [LWCite-1275] Antonson, Quick and Choo, 2025, "Infotainment system Forensics: Ford SYNC 3 gen 2 infotainment system as a use case", FSI: Digital Investigation 53, 301917. Demonstrates non-destructive USB jailbreak plus SSH/SFTP logical extraction of a QNX-based Ford APIM module as an alternative to physical disk removal.

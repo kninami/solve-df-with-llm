@@ -1,16 +1,16 @@
 ---
-id: DFT-1012
+id: LWT-1012
 type: technique
 name: Acquire artifacts across Android and iOS builds of the same application
 description: Acquire and analyze the same cloud-synchronized application on both its Android and iOS builds when both are available, since each OS variant retains a different subset of Google Account Information, Device Information, Attachment, and User Activity History artifacts for the same underlying account.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1011
+  - LWW-1011
 aliases:
   - Cross-platform Android-iOS artifact acquisition
 source_refs:
-  - DFCite-1006
+  - LWCite-1006
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ Artifact availability differs by category and platform: Android retained more ac
 
 ## References
 
-- [DFCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.
+- [LWCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.

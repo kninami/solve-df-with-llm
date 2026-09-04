@@ -1,9 +1,9 @@
 ---
-id: DFM-2124
+id: LWM-2124
 type: mitigation
 name: Fall back to documented offline brute-force using discovered candidate fragments when on-scene credential discovery finds no usable key material
 source_refs:
-  - DFCite-2146
+  - LWCite-2146
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Where [[techniques/Extract and reconstruct on-scene credentials using a modular 
 
 ## References
 
-- [DFCite-2146] Bang, Park, and Lee, 2022, "Vision: An empirical framework for examiners to accessing password-protected resources for on-the-scene digital investigations", FSI: Digital Investigation 40, 301376.
+- [LWCite-2146] Bang, Park, and Lee, 2022, "Vision: An empirical framework for examiners to accessing password-protected resources for on-the-scene digital investigations", FSI: Digital Investigation 40, 301376.

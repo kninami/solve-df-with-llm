@@ -1,14 +1,14 @@
 ---
-id: DFW-1088
+id: LWW-1088
 type: weakness
 name: FSUB-based digital stratigraphy dating is less reliable for NTFS due to its non-linear cluster allocation algorithm
 description: While FSUB-based digital stratigraphy dating was demonstrated to the point of practical courtroom applicability for FAT32, and a similar case could likely be constructed for exFAT, NTFS's more complex, non-linear cluster allocation algorithm (and metadata structures located in the middle of the volume rather than only near the start) means the simple "largest written block" FSUB calculation is less reliable for NTFS, requiring further large-scale simulation before conclusions comparable to the FAT32 case can be drawn.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1088
+  - LWM-1088
 source_refs:
-  - DFCite-1080
+  - LWCite-1080
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator applying the digital-stratigraphy/FSUB technique to an NTFS-form
 
 ## References
 
-- [DFCite-1080] Schneider et al., 2024, "Applying digital stratigraphy to the problem of recycled storage media", FSI: Digital Investigation 49.
+- [LWCite-1080] Schneider et al., 2024, "Applying digital stratigraphy to the problem of recycled storage media", FSI: Digital Investigation 49.

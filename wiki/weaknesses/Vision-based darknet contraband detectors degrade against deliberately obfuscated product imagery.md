@@ -1,14 +1,14 @@
 ---
-id: DFW-1139
+id: LWW-1139
 type: weakness
 name: Vision-based darknet contraband detectors degrade against deliberately obfuscated product imagery
 description: An image-level object detector trained on typical contraband product photos can lose detection accuracy when a vendor deliberately degrades or obfuscates listing imagery — heavy blur, occlusion, watermarks, stock or off-topic images, or decoy banners — reducing recall on the very listings most likely to be evading detection on purpose.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1139
+  - LWM-1139
 source_refs:
-  - DFCite-1137
+  - LWCite-1137
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ Because the confidence-gated pipeline is specifically designed to reduce false p
 
 ## References
 
-- [DFCite-1137] Rathod et al., 2026, "DarkCatalog: A vision-first, parser-independent framework for forensic harvesting of TOR hidden services", FSI: Digital Investigation 57.
+- [LWCite-1137] Rathod et al., 2026, "DarkCatalog: A vision-first, parser-independent framework for forensic harvesting of TOR hidden services", FSI: Digital Investigation 57.

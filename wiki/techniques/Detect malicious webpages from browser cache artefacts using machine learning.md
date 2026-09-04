@@ -1,18 +1,18 @@
 ---
-id: DFT-1065
+id: LWT-1065
 type: technique
 name: Detect malicious webpages from browser cache artefacts using machine learning
 description: Automatically flag malicious web pages (exploit kits, cryptomining scripts, and other browser-borne threats) encountered by a browser under investigation by applying a machine-learning classifier — such as a random forest trained on a labeled corpus of benign and malicious page features — to pages reconstructed from browser cache/history artefacts, then present detections through a malicious-probability score and a timeline visualization to focus the investigator's manual review.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1070
+  - LWW-1070
 aliases:
   - Machine-learning-based malicious webpage detection from browser cache artefacts
   - AIBFT
   - Artificial Intelligence Browser Forensic Toolkit
 source_refs:
-  - DFCite-1060
+  - LWCite-1060
 updated_at: 2026-08-10
 status: complete
 ---
@@ -41,4 +41,4 @@ The toolkit (AIBFT) combines a malicious detection model and a separate maliciou
 
 ## References
 
-- [DFCite-1060] Kim et al., 2021, "AIBFT: Artificial Intelligence Browser Forensic Toolkit", FSI: Digital Investigation 36.
+- [LWCite-1060] Kim et al., 2021, "AIBFT: Artificial Intelligence Browser Forensic Toolkit", FSI: Digital Investigation 36.

@@ -1,12 +1,12 @@
 ---
-id: DFT-1140
+id: LWT-1140
 type: technique
 name: Hide data in XFS file system structures as an anti-forensic technique
 description: Conceal arbitrary data inside unused or misused regions of the XFS file system — allocation-group superblock slack, inode slack, the free list area, unused inode records, and misused nanosecond timestamp fields — so that the hidden data survives normal file system use and is not surfaced by tools that only examine allocated file content.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1143
+  - LWW-1143
 aliases:
   - XFS superblock slack data hiding
   - XFS inode slack data hiding
@@ -14,7 +14,7 @@ aliases:
   - XFS free inode data hiding
   - XFS nanosecond timestamp data hiding
 source_refs:
-  - DFCite-1140
+  - LWCite-1140
 updated_at: 2026-08-12
 status: complete
 ---
@@ -44,4 +44,4 @@ The five methods are: (M1) superblock slack — writing into the padding bytes t
 
 ## References
 
-- [DFCite-1140] Toolan and Humphries, 2025, "Data hiding in the XFS file system", FSI: Digital Investigation 52.
+- [LWCite-1140] Toolan and Humphries, 2025, "Data hiding in the XFS file system", FSI: Digital Investigation 52.

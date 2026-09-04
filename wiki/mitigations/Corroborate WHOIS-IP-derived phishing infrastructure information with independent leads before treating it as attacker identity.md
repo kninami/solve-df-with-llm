@@ -1,9 +1,9 @@
 ---
-id: DFM-2063
+id: LWM-2063
 type: mitigation
 name: Corroborate WHOIS-IP-derived phishing infrastructure information with independent leads before treating it as attacker identity
 source_refs:
-  - DFCite-2064
+  - LWCite-2064
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Document WHOIS/IP results explicitly as "hosting infrastructure information" in 
 
 ## References
 
-- [DFCite-2064] Kara, 2021, "Don't Bite the Bait: Phishing Attack for Internet Banking (E-Banking)", JDFSL 16(5). Frames its own WHOIS/IP-lookup results as information "thought to belong to the attacker" rather than confirmed identity, implicitly recommending the cautious treatment this mitigation makes explicit.
+- [LWCite-2064] Kara, 2021, "Don't Bite the Bait: Phishing Attack for Internet Banking (E-Banking)", JDFSL 16(5). Frames its own WHOIS/IP-lookup results as information "thought to belong to the attacker" rather than confirmed identity, implicitly recommending the cautious treatment this mitigation makes explicit.

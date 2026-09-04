@@ -1,9 +1,9 @@
 ---
-id: DFM-1285
+id: LWM-1285
 type: mitigation
 name: Apply a discrete filter to compensate for anonymity-network node-expiration timeout noise before correlating availability patterns
 source_refs:
-  - DFCite-1312
+  - LWCite-1312
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Determine the target anonymity network's node/service expiration timeout (e.g. I
 
 ## References
 
-- [DFCite-1312] Simioni, Gladyshev, Habibnia, and de Souza, 2021, "Monitoring an anonymity network: Toward the deanonymization of hidden services", FSI: Digital Investigation 38, 301135.
+- [LWCite-1312] Simioni, Gladyshev, Habibnia, and de Souza, 2021, "Monitoring an anonymity network: Toward the deanonymization of hidden services", FSI: Digital Investigation 38, 301135.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2080
+id: LWM-2080
 type: mitigation
 name: Map potential error sources against investigative process stages and target quality assurance at the highest-risk combinations
 source_refs:
-  - DFCite-2090
+  - LWCite-2090
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Walk through an organization's own investigative process stages (from initial cl
 
 ## References
 
-- [DFCite-2090] Horsman, 2024, "Sources of error in digital forensics", FSI: Digital Investigation 48, 301693.
+- [LWCite-2090] Horsman, 2024, "Sources of error in digital forensics", FSI: Digital Investigation 48, 301693.

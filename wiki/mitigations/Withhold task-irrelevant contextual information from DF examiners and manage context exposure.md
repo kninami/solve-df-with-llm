@@ -1,9 +1,9 @@
 ---
-id: DFM-1031
+id: LWM-1031
 type: mitigation
 name: Withhold task-irrelevant contextual information from DF examiners and manage context exposure
 source_refs:
-  - DFCite-1022
+  - LWCite-1022
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When commissioning a digital forensic examination, separate task-relevant inform
 
 ## References
 
-- [DFCite-1022] Sunde and Dror, 2021, "A hierarchy of expert performance (HEP) applied to digital forensics: Reliability and biasability in digital forensics decision making", FSI: Digital Investigation 37.
+- [LWCite-1022] Sunde and Dror, 2021, "A hierarchy of expert performance (HEP) applied to digital forensics: Reliability and biasability in digital forensics decision making", FSI: Digital Investigation 37.

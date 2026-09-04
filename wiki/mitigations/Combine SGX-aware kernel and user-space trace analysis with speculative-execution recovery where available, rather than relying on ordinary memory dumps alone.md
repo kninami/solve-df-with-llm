@@ -1,9 +1,9 @@
 ---
-id: DFM-2087
+id: LWM-2087
 type: mitigation
 name: Combine SGX-aware kernel and user-space trace analysis with speculative-execution recovery where available, rather than relying on ordinary memory dumps alone
 source_refs:
-  - DFCite-2102
+  - LWCite-2102
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Use an SGX-aware acquisition tool (rather than a generic memory-dump tool) that 
 
 ## References
 
-- [DFCite-2102] Toffalini, Oliveri, Graziano, Zhou, and Balzarotti, 2021, "The evidence beyond the wall: Memory forensics in SGX environments", FSI: Digital Investigation 39, 301313.
+- [LWCite-2102] Toffalini, Oliveri, Graziano, Zhou, and Balzarotti, 2021, "The evidence beyond the wall: Memory forensics in SGX environments", FSI: Digital Investigation 39, 301313.

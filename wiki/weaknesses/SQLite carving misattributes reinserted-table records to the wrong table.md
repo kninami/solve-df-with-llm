@@ -1,14 +1,14 @@
 ---
-id: DFW-1007
+id: LWW-1007
 type: weakness
 name: SQLite carving misattributes reinserted-table records to the wrong table
 description: When a table is dropped and a new table with the same schema is later created and populated, carving-based recovery of residual unallocated-area records cannot reliably distinguish which table's data a recovered record originally belonged to, because schema similarity alone is insufficient evidence.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1007
+  - LWM-1007
 source_refs:
-  - DFCite-1004
+  - LWCite-1004
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ In an evaluated case, a "Student List for 2024" table was dropped and a "Student
 
 ## References
 
-- [DFCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.
+- [LWCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.

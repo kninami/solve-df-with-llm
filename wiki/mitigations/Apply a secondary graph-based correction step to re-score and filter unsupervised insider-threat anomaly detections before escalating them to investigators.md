@@ -1,9 +1,9 @@
 ---
-id: DFM-1259
+id: LWM-1259
 type: mitigation
 name: Apply a secondary graph-based correction step to re-score and filter unsupervised insider-threat anomaly detections before escalating them to investigators
 source_refs:
-  - DFCite-1276
+  - LWCite-1276
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Treat the raw output of an unsupervised anomaly-detection model as a candidate l
 
 ## References
 
-- [DFCite-1276] Wei, Chow and Yiu, 2021, "Insider threat prediction based on unsupervised anomaly detection scheme for proactive forensic investigation", FSI: Digital Investigation 38, 301126.
+- [LWCite-1276] Wei, Chow and Yiu, 2021, "Insider threat prediction based on unsupervised anomaly detection scheme for proactive forensic investigation", FSI: Digital Investigation 38, 301126.

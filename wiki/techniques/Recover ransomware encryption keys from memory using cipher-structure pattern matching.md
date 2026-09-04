@@ -1,17 +1,17 @@
 ---
-id: DFT-1180
+id: LWT-1180
 type: technique
 name: Recover ransomware encryption keys from memory using cipher-structure pattern matching
 description: Identify and extract a stream cipher's key and nonce from a live memory capture by searching for the cipher algorithm's own fixed constant byte pattern (rather than a target-application-specific marker), then use the recovered key/nonce pairs to decrypt ransomware-encrypted victim files without needing the attacker's master key.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1020
+  - LWW-1020
 aliases:
   - Salsa20 key/nonce extraction from memory
   - Salsa20 initialization-matrix identification
 source_refs:
-  - DFCite-1191
+  - LWCite-1191
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ Salsa20 organizes its key, nonce, block-counter, and four constant words into a 
 
 ## References
 
-- [DFCite-1191] Fernandez de Loaysa Babiano, Macfarlane and Davies, 2023, "Evaluation of live forensic techniques, towards Salsa20-Based cryptographic ransomware mitigation", FSI: Digital Investigation 46, 301572.
+- [LWCite-1191] Fernandez de Loaysa Babiano, Macfarlane and Davies, 2023, "Evaluation of live forensic techniques, towards Salsa20-Based cryptographic ransomware mitigation", FSI: Digital Investigation 46, 301572.

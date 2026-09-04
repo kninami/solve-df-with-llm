@@ -1,14 +1,14 @@
 ---
-id: DFW-1234
+id: LWW-1234
 type: weakness
 name: Phenomenon-specific cognitive maps omit follow-up investigative measures and non-technical case context
 description: A cognitive map built to guide investigative actions for a cybercrime phenomenon is deliberately scoped to the technical parts of an investigation and, by the authors' own design decision, omits follow-up investigative measures taken after a suspect has been identified, along with legal and operational context outside the digital crime scene itself.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1235
+  - LWM-1235
 source_refs:
-  - DFCite-1248
+  - LWCite-1248
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who treats a phenomenon-specific cognitive map as a complete inv
 
 ## References
 
-- [DFCite-1248] Gruber et al., 2022, "Foundations of cybercriminalistics: From general process models to case-specific concretizations in cybercrime investigations", FSI: Digital Investigation 43, 301438.
+- [LWCite-1248] Gruber et al., 2022, "Foundations of cybercriminalistics: From general process models to case-specific concretizations in cybercrime investigations", FSI: Digital Investigation 43, 301438.

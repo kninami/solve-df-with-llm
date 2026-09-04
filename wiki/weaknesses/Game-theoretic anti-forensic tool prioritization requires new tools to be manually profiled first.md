@@ -1,14 +1,14 @@
 ---
-id: DFW-1040
+id: LWW-1040
 type: weakness
 name: Game-theoretic anti-forensic tool prioritization requires new tools to be manually profiled first
 description: Both the attacker's and investigator's payoff matrices are derived from prior empirical profiling of specific, named anti-forensic and counter-anti-forensic tools; a genuinely new tool not yet included in that profiling dataset has no payoff data and therefore cannot be incorporated into the game-theoretic model's equilibrium analysis until it is separately profiled and added.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1040
+  - LWM-1040
 source_refs:
-  - DFCite-1030
+  - LWCite-1030
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on this framework's equilibrium-derived recommendations 
 
 ## References
 
-- [DFCite-1030] Shafiee Hasanabadi et al., 2021, "A memory-based game-theoretic defensive approach for digital forensic investigators", FSI: Digital Investigation 38.
+- [LWCite-1030] Shafiee Hasanabadi et al., 2021, "A memory-based game-theoretic defensive approach for digital forensic investigators", FSI: Digital Investigation 38.

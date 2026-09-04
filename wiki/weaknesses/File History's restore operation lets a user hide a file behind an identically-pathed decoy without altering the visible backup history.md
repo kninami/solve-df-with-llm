@@ -1,5 +1,5 @@
 ---
-id: DFW-1221
+id: LWW-1221
 type: weakness
 name: File History's restore operation lets a user hide a file behind an identically-pathed decoy without altering the visible backup history
 description: Because File History's Previous-Versions restore feature matches a file to its backups purely by full path, a user can back up a sensitive file, delete it, create an innocuous file at the same path, back that up too, and then deliberately restore the original sensitive version — leaving the decoy visible in the file system while the sensitive content sits, unindicated, in the same backup slot.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_AS
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1221
+  - LWM-1221
 source_refs:
-  - DFCite-1233
+  - LWCite-1233
 updated_at: 2026-08-13
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator who only inspects the currently visible file at a given path, or
 
 ## References
 
-- [DFCite-1233] Choi, Park and Lee, 2021, "Forensic exploration on windows File History", FSI: Digital Investigation 36, 301134.
+- [LWCite-1233] Choi, Park and Lee, 2021, "Forensic exploration on windows File History", FSI: Digital Investigation 36, 301134.

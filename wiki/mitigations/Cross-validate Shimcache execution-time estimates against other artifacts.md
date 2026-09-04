@@ -1,9 +1,9 @@
 ---
-id: DFM-1010
+id: LWM-1010
 type: mitigation
 name: Cross-validate Shimcache execution-time estimates against other artifacts
 source_refs:
-  - DFCite-1005
+  - LWCite-1005
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When building an execution timeline from Shimcache-derived estimates, pull the c
 
 ## References
 
-- [DFCite-1005] Dunsin et al., 2024, "A comprehensive analysis of the role of artificial intelligence and machine learning in modern digital forensics and incident response", FSI: Digital Investigation 48.
+- [LWCite-1005] Dunsin et al., 2024, "A comprehensive analysis of the role of artificial intelligence and machine learning in modern digital forensics and incident response", FSI: Digital Investigation 48.

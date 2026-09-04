@@ -1,9 +1,9 @@
 ---
-id: DFM-1046
+id: LWM-1046
 type: mitigation
 name: Retrain the object-detection model on case-relevant classes or fall back to statistical-only flagging
 source_refs:
-  - DFCite-1036
+  - LWCite-1036
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Before applying this technique to case evidence, check whether the object type(s
 
 ## References
 
-- [DFCite-1036] Sandhya and Kashyap, 2024, "A novel method for real-time object-based copy-move tampering localization in videos using fine-tuned YOLO V8", FSI: Digital Investigation 48.
+- [LWCite-1036] Sandhya and Kashyap, 2024, "A novel method for real-time object-based copy-move tampering localization in videos using fine-tuned YOLO V8", FSI: Digital Investigation 48.

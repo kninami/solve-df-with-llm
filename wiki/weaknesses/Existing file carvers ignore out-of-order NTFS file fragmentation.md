@@ -1,14 +1,14 @@
 ---
-id: DFW-1014
+id: LWW-1014
 type: weakness
 name: Existing file carvers ignore out-of-order NTFS file fragmentation
 description: The great majority of file carving research and tooling assumes recovered file fragments are stored in-order on disk and searches only forward from a first fragment for later ones, but a contemporary measurement found 46.4% of fragmented NTFS files are fragmented out-of-order, meaning such carvers systematically fail to reconstruct close to half of all fragmented files.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1014
+  - LWM-1014
 source_refs:
-  - DFCite-1008
+  - LWCite-1008
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Because forward-only file carving is the dominant approach in practical tooling 
 
 ## References
 
-- [DFCite-1008] van der Meer et al., 2021, "A contemporary investigation of NTFS file fragmentation", FSI: Digital Investigation 38.
+- [LWCite-1008] van der Meer et al., 2021, "A contemporary investigation of NTFS file fragmentation", FSI: Digital Investigation 38.

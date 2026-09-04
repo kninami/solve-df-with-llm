@@ -1,20 +1,20 @@
 ---
-id: DFT-1048
+id: LWT-1048
 type: technique
 name: Reconstruct deleted-file provenance using cross-artifact metadata-remnant correlation
 description: Establish that a specific file existed on a system, its original path, and an approximate window for when it was accessed or deleted, by systematically searching OS and application artifacts that independently retain file-related metadata (thumbnail caches, recent-files history, Trash records, search-index journals, application logs and registration databases) and cross-correlating whichever of them still hold a matching trace, even after the original file itself is no longer recoverable through ordinary file-system analysis or carving.
 objective_ids:
   - DFO-1017
 weakness_ids:
-  - DFW-1049
-  - DFW-1176
+  - LWW-1049
+  - LWW-1176
 aliases:
   - Linux thumbnail-cache and recent-files provenance reconstruction for deleted files
   - Discovering spoliation of evidence through deleted-file traces (macOS)
   - Spoliation trace analysis
 source_refs:
-  - DFCite-1039
-  - DFCite-1176
+  - LWCite-1039
+  - LWCite-1176
 updated_at: 2026-08-12
 status: complete
 ---
@@ -45,5 +45,5 @@ On Linux desktop environments following the freedesktop.org thumbnail-management
 
 ## References
 
-- [DFCite-1039] Findlay, 2023, "A review of thumbnail images artefacts in the Linux desktop and a methodology to add provenance to deleted files, using the thumbnail images artefact in combination with recent files history, and Trash artefacts", FSI: Digital Investigation 44.
-- [DFCite-1176] Joun et al., 2023, "Discovering spoliation of evidence through identifying traces on deleted files in macOS", FSI: Digital Investigation 44, 301502.
+- [LWCite-1039] Findlay, 2023, "A review of thumbnail images artefacts in the Linux desktop and a methodology to add provenance to deleted files, using the thumbnail images artefact in combination with recent files history, and Trash artefacts", FSI: Digital Investigation 44.
+- [LWCite-1176] Joun et al., 2023, "Discovering spoliation of evidence through identifying traces on deleted files in macOS", FSI: Digital Investigation 44, 301502.

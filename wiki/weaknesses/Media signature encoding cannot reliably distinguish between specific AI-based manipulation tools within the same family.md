@@ -1,14 +1,14 @@
 ---
-id: DFW-2050
+id: LWW-2050
 type: weakness
 name: Media signature encoding cannot reliably distinguish between specific AI-based manipulation tools within the same family
 description: While media signature encoding reliably clusters media processed by an unknown AI-based inpainting tool together as belonging to the broad "AI-based manipulation" family, it cannot reliably separate which specific AI-based tool within that family (e.g. OPN vs. STTN vs. GM-CNN) produced a given piece of media, even when all three tools are known to the system.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2050
+  - LWM-2050
 source_refs:
-  - DFCite-2051
+  - LWCite-2051
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator using this framework to determine which specific AI inpainting t
 
 ## References
 
-- [DFCite-2051] Baracchi et al., 2024 — Section VI.E "Unknown AI-Based Family" and Figure 7b's fully-informed confusion matrix both document poor separability among specific AI-based inpainting tools despite correct family-level clustering.
+- [LWCite-2051] Baracchi et al., 2024 — Section VI.E "Unknown AI-Based Family" and Figure 7b's fully-informed confusion matrix both document poor separability among specific AI-based inpainting tools despite correct family-level clustering.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1151
+id: LWW-1151
 type: weakness
 name: Remote-access application logs fail to record all session actions consistently across platforms
 description: A remote-access application's log files record only a subset of the actions performed during a session, omitting others (such as issued commands, exchanged credentials, or thumbnail/wallpaper data) and recording a different subset on each platform, so relying on log files alone understates the true extent of session activity.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1151
+  - LWM-1151
 source_refs:
-  - DFCite-1148
+  - LWCite-1148
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who treats a remote-access application's own log file as a compl
 
 ## References
 
-- [DFCite-1148] Soni, Kaur and Aziz, 2024, "Decoding digital interactions: An extensive study of TeamViewer's Forensic Artifacts across Windows and android platforms", FSI: Digital Investigation 51.
+- [LWCite-1148] Soni, Kaur and Aziz, 2024, "Decoding digital interactions: An extensive study of TeamViewer's Forensic Artifacts across Windows and android platforms", FSI: Digital Investigation 51.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2025
+id: LWW-2025
 type: weakness
 name: A 2D CNN presentation-attack detector misses subtle temporal spoofing artifacts that a 3D CNN catches
 description: Because a 2D CNN classifies individual frames independently with no temporal modeling, it exhibits an elevated false-negative rate for presentation attacks whose telltale artifacts (flickering, display-boundary movement, lack of natural micro-movements like blinking) only become apparent across a sequence of frames, meaning some genuine spoofing attempts are misclassified as authentic.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2025
+  - LWM-2025
 source_refs:
-  - DFCite-2025
+  - LWCite-2025
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator or system operator who deploys the 2D CNN for its speed and edge
 
 ## References
 
-- [DFCite-2025] Dessouky et al., 2026 — Section IV.C.2 explicitly attributes the 2D CNN's 2% FNR and reduced recall (98%) to its lack of temporal modeling and resulting difficulty detecting flickering, display-boundary movement, and blinking-absence artifacts.
+- [LWCite-2025] Dessouky et al., 2026 — Section IV.C.2 explicitly attributes the 2D CNN's 2% FNR and reduced recall (98%) to its lack of temporal modeling and resulting difficulty detecting flickering, display-boundary movement, and blinking-absence artifacts.

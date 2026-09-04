@@ -1,15 +1,15 @@
 ---
-id: DFW-1265
+id: LWW-1265
 type: weakness
 name: Deepfake detectors trained on one manipulation type generalize poorly to unseen manipulation types
 description: A deepfake detector trained and validated on one manipulation method (e.g. a classic face-swap technique) loses most or all of its discriminating power against a mechanistically different manipulation method (e.g. a subtler face-reenactment, lip-sync, or neural-texture technique) it was not trained on, regardless of whether the detector's underlying feature-extraction mechanism is texture-based, frequency-based, or spatio-temporal.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1266
+  - LWM-1266
 source_refs:
-  - DFCite-1288
-  - DFCite-1291
+  - LWCite-1288
+  - LWCite-1291
 updated_at: 2026-08-14
 status: complete
 ---
@@ -37,6 +37,6 @@ An investigator who validates a deepfake detector against one manipulation datas
 
 ## References
 
-- [DFCite-1288] Kingra, Aggarwal and Kaur, 2022, "LBPNet: Exploiting texture descriptor for deepfake detection", FSI: Digital Investigation 42-43, 301452.
-- [DFCite-1291] Nguyen, Tran, Le, Nguyen and Truong, 2021, "Learning Spatio-temporal features to detect manipulated facial videos created by the Deepfake techniques", FSI: Digital Investigation 36, 301108. Validated only against face-swap-style manipulation and explicitly names extending to reenactment-style manipulation methods (Face2Face, NeuralTextures) as future work.
-- [DFCite-2094] Du, Yu, Li, Chow, Jiang, Zhang, Liang, Li, and Huang, 2024, "TAENet: Two-branch Autoencoder Network for Interpretable Deepfake Detection", FSI: Digital Investigation 50, 301808. Its cross-dataset generalization testing (~75% average AUC) is explicitly acknowledged by its own authors as insufficient for reliable deepfake detection.
+- [LWCite-1288] Kingra, Aggarwal and Kaur, 2022, "LBPNet: Exploiting texture descriptor for deepfake detection", FSI: Digital Investigation 42-43, 301452.
+- [LWCite-1291] Nguyen, Tran, Le, Nguyen and Truong, 2021, "Learning Spatio-temporal features to detect manipulated facial videos created by the Deepfake techniques", FSI: Digital Investigation 36, 301108. Validated only against face-swap-style manipulation and explicitly names extending to reenactment-style manipulation methods (Face2Face, NeuralTextures) as future work.
+- [LWCite-2094] Du, Yu, Li, Chow, Jiang, Zhang, Liang, Li, and Huang, 2024, "TAENet: Two-branch Autoencoder Network for Interpretable Deepfake Detection", FSI: Digital Investigation 50, 301808. Its cross-dataset generalization testing (~75% average AUC) is explicitly acknowledged by its own authors as insufficient for reliable deepfake detection.

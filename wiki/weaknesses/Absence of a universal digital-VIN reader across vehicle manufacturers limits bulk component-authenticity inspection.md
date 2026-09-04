@@ -1,14 +1,14 @@
 ---
-id: DFW-1170
+id: LWW-1170
 type: weakness
 name: Absence of a universal digital-VIN reader across vehicle manufacturers limits bulk component-authenticity inspection
 description: Because each vehicle manufacturer uses its own proprietary protocol and reading device for digital VIN identifiers, no single reader can decode digiVINs across brands, so systematic, large-scale inspection for stolen or unauthorized-replacement components is impractical outside of manufacturer-specific investigations.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1170
+  - LWM-1170
 source_refs:
-  - DFCite-1175
+  - LWCite-1175
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ For individual-vehicle forensic practice this limitation is manageable, but it s
 
 ## References
 
-- [DFCite-1175] Rak et al., 2021, "Digital vehicle identity - Digital VIN in forensic and technical practice", FSI: Digital Investigation 39, 301307.
+- [LWCite-1175] Rak et al., 2021, "Digital vehicle identity - Digital VIN in forensic and technical practice", FSI: Digital Investigation 39, 301307.

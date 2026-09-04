@@ -1,9 +1,9 @@
 ---
-id: DFM-1249
+id: LWM-1249
 type: mitigation
 name: Timestamp digital evidence immediately upon acquisition and disclose the limits of a Horodocs-style timestamp
 source_refs:
-  - DFCite-1263
+  - LWCite-1263
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Build hash-submission into the evidence-acquisition workflow itself, rather than
 
 ## References
 
-- [DFCite-1263] Jaquet-Chiffelle, Pfeiffer, Brocard, Benoist, and Foukia, 2025, "Horodocs: A scalable, sustainable, robust and privacy compliant system to securely timestamp digital evidence and documents", FSI: Digital Investigation 53, 301913.
+- [LWCite-1263] Jaquet-Chiffelle, Pfeiffer, Brocard, Benoist, and Foukia, 2025, "Horodocs: A scalable, sustainable, robust and privacy compliant system to securely timestamp digital evidence and documents", FSI: Digital Investigation 53, 301913.

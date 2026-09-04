@@ -6,12 +6,12 @@ Last updated: 2026-08-17
 
 - Seed source: `raw/` paper corpus (`DI`: 442 papers, `IEEE Access`: 52 papers, `JDFSL`: 24 papers — 518 total)
 - **Ingestion complete: 518 / 518 papers ingested (100%).** `raw/DI` 442/442, `raw/IEEE Access` 52/52, `raw/JDFSL` 24/24 — all three source corpora are fully ingested. Raw ingestion is finished; ongoing work is maintenance (reuse-first merges, lint fixes, and any future re-ingestion if the corpus grows).
-- References indexed: 513 `DFCite-` entries. This is 5 fewer than 518 raw files because the corpus contains 4 documented pairs of byte-identical duplicate PDFs under different filenames (each pair cited once — see `wiki/log.md` batches covering files 111-120, 151-160, 171-180, and 351-360 for the `pdftotext`-diff verification of each), plus one reference (`DFCite-1065`) that was permanently deleted per explicit user request on 2026-08-12 while its supporting technique/weakness/mitigation pages (`DFT-1070`/`DFW-1075`/`DFM-1075`) were intentionally kept (see the `[2026-08-11] fix | Delete DFCite-1065 per explicit user request` log entry). 442 (DI) − 4 (dup pairs) + 52 (IEEE Access) + 24 (JDFSL) − 1 (deleted) = 513, reconciling exactly.
+- References indexed: 513 `DFCite-` entries. This is 5 fewer than 518 raw files because the corpus contains 4 documented pairs of byte-identical duplicate PDFs under different filenames (each pair cited once — see `wiki/log.md` batches covering files 111-120, 151-160, 171-180, and 351-360 for the `pdftotext`-diff verification of each), plus one reference (`LWCite-1065`) that was permanently deleted per explicit user request on 2026-08-12 while its supporting technique/weakness/mitigation pages (`LWT-1070`/`LWW-1075`/`LWM-1075`) were intentionally kept (see the `[2026-08-11] fix | Delete LWCite-1065 per explicit user request` log entry). 442 (DI) − 4 (dup pairs) + 52 (IEEE Access) + 24 (JDFSL) − 1 (deleted) = 513, reconciling exactly.
 - Objectives: 23 (fixed hub, from the earlier SOLVE-IT bootstrap; retained as navigation scaffold — all paper-derived techniques map cleanly onto it, and only `DFO-1022` has zero mapped techniques).
 - Techniques: 411
 - Weaknesses: 441
 - Mitigations: 444
-- **ID ranges:** single continuous "highest existing ID + 1" sequence across the whole wiki (no reserved blocks; the earlier `raw/DI` 1001+ / `raw/IEEE Access`+`raw/JDFSL` 2001+ split was merged back into one sequence on 2026-08-15/16 — see `wiki/log.md` for the merge commits). Next available IDs as of this entry: `DFT-2128`, `DFW-2138`, `DFM-2139`, `DFCite-2159`.
+- **ID ranges:** single continuous "highest existing ID + 1" sequence across the whole wiki (no reserved blocks; the earlier `raw/DI` 1001+ / `raw/IEEE Access`+`raw/JDFSL` 2001+ split was merged back into one sequence on 2026-08-15/16 — see `wiki/log.md` for the merge commits). Next available IDs as of this entry: `LWT-2128`, `LWW-2138`, `LWM-2139`, `LWCite-2159`.
 
 ## Fixed Pages
 

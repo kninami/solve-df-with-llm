@@ -1,16 +1,16 @@
 ---
-id: DFT-2033
+id: LWT-2033
 type: technique
 name: Recover unmanaged original data from NAND flash copy-back program source pages
 description: The process of recovering data a user believes was deleted from a NAND flash storage device (SSD, USB stick, SD/CF card, eMMC, UFS) by reading the source page a background copy-back program operation left behind as unmanaged data after copying the original content to a new destination page, since the host-level erase or delete command only affects the destination block, not the original source page.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-2033
+  - LWW-2033
 aliases:
   - Copy-back program unmanaged data recovery
 source_refs:
-  - DFCite-2033
+  - LWCite-2033
 updated_at: 2026-08-14
 status: partial
 ---
@@ -23,11 +23,11 @@ NAND flash memory periodically runs a background copy-back program operation to 
 
 ## Details
 
-DFCite-2033 traces the specific mechanism: NAND controller monitors cell deterioration and triggers a copy-back command that reads the source page (with ECC correction, on- or off-chip), writes it to a destination page in another block, and marks the destination as valid/managed data going forward. If the host later requests deletion of that data, the controller issues an erase command only to the block containing the now-managed destination page; the original source block, no longer referenced by the file system's mapping table, is left untouched. An investigator with chip-level access (e.g. via a forensic NAND reader/programmer after chip-off extraction, or low-level controller access) can therefore locate and read the source page directly to recover content the file system and even the storage controller's own logical view report as deleted, without needing any file-carving or file-system-metadata-based recovery method at all.
+LWCite-2033 traces the specific mechanism: NAND controller monitors cell deterioration and triggers a copy-back command that reads the source page (with ECC correction, on- or off-chip), writes it to a destination page in another block, and marks the destination as valid/managed data going forward. If the host later requests deletion of that data, the controller issues an erase command only to the block containing the now-managed destination page; the original source block, no longer referenced by the file system's mapping table, is left untouched. An investigator with chip-level access (e.g. via a forensic NAND reader/programmer after chip-off extraction, or low-level controller access) can therefore locate and read the source page directly to recover content the file system and even the storage controller's own logical view report as deleted, without needing any file-carving or file-system-metadata-based recovery method at all.
 
 ## Examples
 
-- DFCite-2033's threat-model walkthrough: a host requests deletion of personal information; the controller erases only the destination block (BLK2) containing the managed copy; the unmanaged original (BLK1's source page) remains readable, and an actor with block-management-level access can read it directly via a standard read command routed to the unmanaged block.
+- LWCite-2033's threat-model walkthrough: a host requests deletion of personal information; the controller erases only the destination block (BLK2) containing the managed copy; the unmanaged original (BLK1's source page) remains readable, and an actor with block-management-level access can read it directly via a standard read command routed to the unmanaged block.
 
 ## Related Objectives
 
@@ -39,4 +39,4 @@ DFCite-2033 traces the specific mechanism: NAND controller monitors cell deterio
 
 ## References
 
-- [DFCite-2033] Ahn and Lee, "Forensics and anti-forensics of a NAND flash memory: From a copy-back program perspective", IEEE Access, 2021 — source of the copy-back program mechanism and unmanaged-data recovery opportunity described above.
+- [LWCite-2033] Ahn and Lee, "Forensics and anti-forensics of a NAND flash memory: From a copy-back program perspective", IEEE Access, 2021 — source of the copy-back program mechanism and unmanaged-data recovery opportunity described above.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2128
+id: LWM-2128
 type: mitigation
 name: Document and minimize evidentiary alteration when injecting active payloads to identify a stalkerware abuser
 source_refs:
-  - DFCite-2148
+  - LWCite-2148
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Capture a full forensic image of the device (or at minimum the relevant data sto
 
 ## References
 
-- [DFCite-2148] Mangeard et al., 2024, "WARNE: A stalkerware evidence collection tool", FSI: Digital Investigation 48.
+- [LWCite-2148] Mangeard et al., 2024, "WARNE: A stalkerware evidence collection tool", FSI: Digital Investigation 48.

@@ -1,17 +1,17 @@
 ---
-id: DFT-2066
+id: LWT-2066
 type: technique
 name: Infer social media user activity and relationships from browser artifacts using a weighted evidence scale
 description: During a live triage, automatically recover and categorize browser artifacts (history, cache, and session-store files) that indicate a user's social media registration, search/view, content-sharing, and association/relationship activity, weighting each artifact by evidential reliability, without needing to recover the actual communication content itself.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-2066
+  - LWW-2066
 aliases:
   - Social Media User Relationship Framework
   - SMURF
 source_refs:
-  - DFCite-2070
+  - LWCite-2070
 updated_at: 2026-08-15
 status: complete
 ---
@@ -41,4 +41,4 @@ The technique groups artifacts recovered during a live triage's "Capture" stage 
 
 ## References
 
-- [DFCite-2070] David, Morris & Appleby-Thomas, 2021, "Social Media User Relationship Framework (SMURF)", JDFSL 16(1). Source of the SMURF live-triage framework, its five-level weighting scale, and the Twitter case study/Autopsy comparison.
+- [LWCite-2070] David, Morris & Appleby-Thomas, 2021, "Social Media User Relationship Framework (SMURF)", JDFSL 16(1). Source of the SMURF live-triage framework, its five-level weighting scale, and the Twitter case study/Autopsy comparison.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1082
+id: LWM-1082
 type: mitigation
 name: Always extract and analyze the GCS alongside the drone to establish device-to-user attribution
 source_refs:
-  - DFCite-1072
+  - LWCite-1072
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Treat the GCS (smartphone or tablet) as a required, not optional, component of a
 
 ## References
 
-- [DFCite-1072] Thornton and Bagheri Zadeh, 2022, "An investigation into Unmanned Aerial System (UAS) forensics: Data extraction & analysis", FSI: Digital Investigation 41.
+- [LWCite-1072] Thornton and Bagheri Zadeh, 2022, "An investigation into Unmanned Aerial System (UAS) forensics: Data extraction & analysis", FSI: Digital Investigation 41.

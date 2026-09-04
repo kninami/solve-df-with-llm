@@ -1,14 +1,14 @@
 ---
-id: DFW-1261
+id: LWW-1261
 type: weakness
 name: IoT device and companion-app cloud communications are dispersed across many countries, complicating jurisdictionally lawful data access
 description: An IoT device's cloud-stored data is not necessarily located in the country where the device physically operates, and a majority of tested devices sent data to multiple different countries rather than a single destination, so an investigator cannot assume a single jurisdiction's legal process will secure all of a device's cloud-held evidence.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1262
+  - LWM-1262
 source_refs:
-  - DFCite-1282
+  - LWCite-1282
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ Legal access to cloud-stored evidence typically requires a request compliant wit
 
 ## References
 
-- [DFCite-1282] Wu, Breitinger and Niemann, 2021, "IoT network traffic analysis: Opportunities and challenges for forensic investigators?", DFRWS 2021 APAC; FSI: Digital Investigation 38, 301123.
+- [LWCite-1282] Wu, Breitinger and Niemann, 2021, "IoT network traffic analysis: Opportunities and challenges for forensic investigators?", DFRWS 2021 APAC; FSI: Digital Investigation 38, 301123.

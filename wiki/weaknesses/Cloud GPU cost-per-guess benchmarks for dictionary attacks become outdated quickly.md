@@ -1,14 +1,14 @@
 ---
-id: DFW-1028
+id: LWW-1028
 type: weakness
 name: Cloud GPU cost-per-guess benchmarks for dictionary attacks become outdated quickly
 description: Published feasibility estimates for cloud-GPU-accelerated password dictionary attacks (guesses achievable per unit cost or time) are tied to hardware performance and cloud rental pricing at the time of measurement, both of which change rapidly, so an estimate cited from prior published research may significantly misstate current real-world feasibility.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1028
+  - LWM-1028
 source_refs:
-  - DFCite-1020
+  - LWCite-1020
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or analyst who cites a published guesses-per-hour or guesses-per
 
 ## References
 
-- [DFCite-1020] Holmes and Buchanan, 2023, "A framework for live host-based Bitcoin wallet forensics and triage", FSI: Digital Investigation 44.
+- [LWCite-1020] Holmes and Buchanan, 2023, "A framework for live host-based Bitcoin wallet forensics and triage", FSI: Digital Investigation 44.

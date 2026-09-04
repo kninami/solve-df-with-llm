@@ -1,14 +1,14 @@
 ---
-id: DFW-1076
+id: LWW-1076
 type: weakness
 name: DTW-based signature verification misclassifies roughly one in five imitated signatures as genuine
 description: The dynamic-feature DTW similarity method achieved only a 78.5% true negative rate on the evaluated dataset, meaning approximately 21.5% of imitated test signatures were misclassified as genuine, and a qualitative case review found at least one instance where the method's output was wrong and an examiner correctly disregarded it in favor of their own independent traditional evaluation.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1076
+  - LWM-1076
 source_refs:
-  - DFCite-1066
+  - LWCite-1066
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ Because the method is intended to provide "additional numerical strength" to an 
 
 ## References
 
-- [DFCite-1066] Mazzolini et al., 2021, "An easy-to-explain decision support framework for forensic analysis of dynamic signatures", FSI: Digital Investigation 38.
+- [LWCite-1066] Mazzolini et al., 2021, "An easy-to-explain decision support framework for forensic analysis of dynamic signatures", FSI: Digital Investigation 38.

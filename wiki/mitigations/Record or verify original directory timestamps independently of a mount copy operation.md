@@ -1,9 +1,9 @@
 ---
-id: DFM-1021
+id: LWM-1021
 type: mitigation
 name: Record or verify original directory timestamps independently of a mount copy operation
 source_refs:
-  - DFCite-1014
+  - LWCite-1014
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Before or alongside a mount-based copy acquisition, separately query the cloud p
 
 ## References
 
-- [DFCite-1014] Breitinger et al., 2022, "A forensic analysis of rclone and rclone's prospects for digital forensic investigations of cloud storage", FSI: Digital Investigation 43.
+- [LWCite-1014] Breitinger et al., 2022, "A forensic analysis of rclone and rclone's prospects for digital forensic investigations of cloud storage", FSI: Digital Investigation 43.

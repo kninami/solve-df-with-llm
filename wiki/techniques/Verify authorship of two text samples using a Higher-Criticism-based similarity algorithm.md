@@ -1,17 +1,17 @@
 ---
-id: DFT-1115
+id: LWT-1115
 type: technique
 name: Verify authorship of two text samples using a Higher-Criticism-based similarity algorithm
 description: Determine whether two bodies of text (e.g. comments and posts from two social media accounts) were written by the same person by chunking each text into equal-length segments and computing a Higher-Criticism (HC) statistical-testing distance between the chunk sets, an intrinsic authorship-verification method that requires no external reference corpus, complex feature engineering, or topic-specific tuning.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1121
+  - LWW-1121
 aliases:
   - ChunkedHCs
   - HC-based similarity authorship verification
 source_refs:
-  - DFCite-1115
+  - LWCite-1115
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The algorithm has three steps: (1) each of the two input texts is split into chu
 
 ## References
 
-- [DFCite-1115] Le et al., 2021, "ChunkedHCs algorithm for authorship verification problems: Reddit case study", FSI: Digital Investigation 37.
+- [LWCite-1115] Le et al., 2021, "ChunkedHCs algorithm for authorship verification problems: Reddit case study", FSI: Digital Investigation 37.

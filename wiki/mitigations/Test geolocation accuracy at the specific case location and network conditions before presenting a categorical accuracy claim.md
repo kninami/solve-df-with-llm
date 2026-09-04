@@ -1,9 +1,9 @@
 ---
-id: DFM-1241
+id: LWM-1241
 type: mitigation
 name: Test geolocation accuracy at the specific case location and network conditions before presenting a categorical accuracy claim
 source_refs:
-  - DFCite-1255
+  - LWCite-1255
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Using a device of the same or comparable model, application, and network configu
 
 ## References
 
-- [DFCite-1255] Ryser et al., 2024, "Geotagging accuracy in smartphone photography", FSI: Digital Investigation 50, 301813.
+- [LWCite-1255] Ryser et al., 2024, "Geotagging accuracy in smartphone photography", FSI: Digital Investigation 50, 301813.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2098
+id: LWM-2098
 type: mitigation
 name: Confirm a TLS key-extraction technique's TLS-version and library support before relying on it to decrypt captured traffic
 source_refs:
-  - DFCite-2114
+  - LWCite-2114
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify the target application's TLS library and protocol version before select
 
 ## References
 
-- [DFCite-2114] Baier, Basse, Hilgert, and Lambertz, 2024, "TLS key material identification and extraction in memory: Current state and future challenges", FSI: Digital Investigation 49, 301766.
+- [LWCite-2114] Baier, Basse, Hilgert, and Lambertz, 2024, "TLS key material identification and extraction in memory: Current state and future challenges", FSI: Digital Investigation 49, 301766.

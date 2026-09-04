@@ -1,5 +1,5 @@
 ---
-id: DFT-1240
+id: LWT-1240
 type: technique
 name: Recover pre-reboot memory artifacts from a virtual machine's memory after a software reboot
 description: Acquire and analyze a virtual machine's RAM after a guest-initiated software reboot to recover data that was resident in memory before the reboot, exploiting the hypervisor's tendency to reuse the guest's existing address space (and therefore not clear its prior contents) rather than allocating a fresh, zeroed one.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1006
   - DFO-1019
 weakness_ids:
-  - DFW-1256
+  - LWW-1256
 aliases:
   - VM memory remanence across software reboot
 source_refs:
-  - DFCite-1274
+  - LWCite-1274
 updated_at: 2026-08-14
 status: complete
 ---
@@ -42,4 +42,4 @@ The finding is specific to the reboot pathway: powering a VM fully off and back 
 
 ## References
 
-- [DFCite-1274] Savchenko, Ottmann and Freiling, 2024, "In the time loop: Data remanence in main memory of virtual machines", FSI: Digital Investigation 49, 301758.
+- [LWCite-1274] Savchenko, Ottmann and Freiling, 2024, "In the time loop: Data remanence in main memory of virtual machines", FSI: Digital Investigation 49, 301758.

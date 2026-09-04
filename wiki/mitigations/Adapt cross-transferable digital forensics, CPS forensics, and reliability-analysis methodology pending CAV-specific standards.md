@@ -1,9 +1,9 @@
 ---
-id: DFM-2020
+id: LWM-2020
 type: mitigation
 name: Adapt cross-transferable digital forensics, CPS forensics, and reliability-analysis methodology pending CAV-specific standards
 source_refs:
-  - DFCite-2020
+  - LWCite-2020
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Document explicitly, for each piece of CAV evidence handled, which adjacent-fiel
 
 ## References
 
-- [DFCite-2020] Sharma and Gillanders, 2022 — Section VI.B "Existing Solutions to Forensic" identifies digital forensics, CPS forensics, software reliability analysis, and penetration testing as the four existing branches that could play a key role in CAV forensics pending dedicated standards.
+- [LWCite-2020] Sharma and Gillanders, 2022 — Section VI.B "Existing Solutions to Forensic" identifies digital forensics, CPS forensics, software reliability analysis, and penetration testing as the four existing branches that could play a key role in CAV forensics pending dedicated standards.

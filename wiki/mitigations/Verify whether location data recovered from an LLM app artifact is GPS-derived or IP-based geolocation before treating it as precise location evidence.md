@@ -1,9 +1,9 @@
 ---
-id: DFM-1202
+id: LWM-1202
 type: mitigation
 name: Verify whether location data recovered from an LLM app artifact is GPS-derived or IP-based geolocation before treating it as precise location evidence
 source_refs:
-  - DFCite-1215
+  - LWCite-1215
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Check whether device location services were enabled at the time the artifact was
 
 ## References
 
-- [DFCite-1215] Tyagi et al., 2025, "Forensic analysis and privacy implications of LLM mobile apps: A case study of ChatGPT, Copilot, and Gemini", FSI: Digital Investigation 54, 301974.
+- [LWCite-1215] Tyagi et al., 2025, "Forensic analysis and privacy implications of LLM mobile apps: A case study of ChatGPT, Copilot, and Gemini", FSI: Digital Investigation 54, 301974.

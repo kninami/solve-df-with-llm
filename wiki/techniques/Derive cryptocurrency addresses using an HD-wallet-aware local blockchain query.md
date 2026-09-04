@@ -1,17 +1,17 @@
 ---
-id: DFT-1099
+id: LWT-1099
 type: technique
 name: Derive cryptocurrency addresses using an HD-wallet-aware local blockchain query
 description: Correctly identify all Bitcoin transactions belonging to a suspect's Hierarchical Deterministic (HD) wallet — including transactions many publicly available query tools fail to find due to bugs or incompleteness in their address-derivation logic — by deriving addresses directly from a provided extended key against a locally-held copy of the blockchain, avoiding third-party data providers to preserve investigation confidentiality, while supporting automatic key-format conversion and manual adjustment of the derivation depth/index range beyond standard address-gap-limit defaults.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1104
+  - LWW-1104
 aliases:
   - HD-wallet-aware local blockchain query for cryptocurrency address derivation
   - BlockQuery
 source_refs:
-  - DFCite-1099
+  - LWCite-1099
 updated_at: 2026-08-10
 status: complete
 ---
@@ -40,4 +40,4 @@ Operating on a local copy of the blockchain rather than querying third-party ser
 
 ## References
 
-- [DFCite-1099] Thomas et al., 2022, "BlockQuery: Toward forensically sound cryptocurrency investigation", FSI: Digital Investigation 40.
+- [LWCite-1099] Thomas et al., 2022, "BlockQuery: Toward forensically sound cryptocurrency investigation", FSI: Digital Investigation 40.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1057
+id: LWT-1057
 type: technique
 name: Profile MACB timestamp compliance across the software stack
 description: Systematically test and profile how each layer of the software stack (kernel/filesystem, mount options, the standard C/C++ library, middleware libraries such as GIO and Qt, and applications) updates a file's Modify/Access/Change/Birth (MACB) timestamps for common operations, comparing observed behavior against POSIX's mandatory specification to build practitioner-usable reference tables and flag non-compliant or unexpected behavior on Unix-like systems.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1061
+  - LWW-1061
 aliases:
   - Software-stack layered MACB timestamp compliance profiling
 source_refs:
-  - DFCite-1051
+  - LWCite-1051
 updated_at: 2026-08-10
 status: complete
 ---
@@ -41,4 +41,4 @@ The framework runs two kinds of tests. POSIX compliance tests check whether a si
 
 ## References
 
-- [DFCite-1051] Thierry and Müller, 2022, "A systematic approach to understanding MACB timestamps on Unix-like systems", FSI: Digital Investigation 40.
+- [LWCite-1051] Thierry and Müller, 2022, "A systematic approach to understanding MACB timestamps on Unix-like systems", FSI: Digital Investigation 40.

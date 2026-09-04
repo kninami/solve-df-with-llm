@@ -1,9 +1,9 @@
 ---
-id: DFM-2050
+id: LWM-2050
 type: mitigation
 name: Treat media-signature AI-tool clustering as family-level evidence and use dedicated detectors for specific-tool attribution
 source_refs:
-  - DFCite-2051
+  - LWCite-2051
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Report media-signature-based findings for AI-manipulated content at the family l
 
 ## References
 
-- [DFCite-2051] Baracchi et al., 2024 — the paper's own conclusion frames the framework's contribution as characterizing media life cycles in open-world settings, explicitly distinguishing this coarser goal from fine-grained specific-toolchain identification, which its own results show remains difficult within the AI-based family.
+- [LWCite-2051] Baracchi et al., 2024 — the paper's own conclusion frames the framework's contribution as characterizing media life cycles in open-world settings, explicitly distinguishing this coarser goal from fine-grained specific-toolchain identification, which its own results show remains difficult within the AI-based family.

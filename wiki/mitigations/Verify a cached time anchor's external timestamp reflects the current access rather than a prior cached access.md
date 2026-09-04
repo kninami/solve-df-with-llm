@@ -1,9 +1,9 @@
 ---
-id: DFM-2130
+id: LWM-2130
 type: mitigation
 name: Verify a cached time anchor's external timestamp reflects the current access rather than a prior cached access
 source_refs:
-  - DFCite-2149
+  - LWCite-2149
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Group candidate time-anchor records by URL or resource identifier and inspect wh
 
 ## References
 
-- [DFCite-2149] Vanini et al., 2024, "Was the clock correct? Exploring timestamp interpretation through time anchors for digital forensic event reconstruction", FSI: Digital Investigation 49.
+- [LWCite-2149] Vanini et al., 2024, "Was the clock correct? Exploring timestamp interpretation through time anchors for digital forensic event reconstruction", FSI: Digital Investigation 49.

@@ -1,5 +1,5 @@
 ---
-id: DFT-2101
+id: LWT-2101
 type: technique
 name: Recover deleted files from UBIFS flash file systems using journal-based scanning
 description: Analyze a raw NAND/NOR flash image from an IoT or embedded device (e.g. a camera, drone, or router) using the layered MTD/UBI/UBIFS abstraction stack to parse the Unsorted Block Images File System (UBIFS), recovering both live and deleted files -- including their metadata -- by scanning UBIFS's write-ahead journal for reference nodes not yet reflected in the on-flash B+-tree index, rather than relying on the index alone.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1013
   - DFO-1018
 weakness_ids:
-  - DFW-2107
+  - LWW-2107
 aliases:
   - UBI Forensic Toolkit
   - UBIFT
 source_refs:
-  - DFCite-2126
+  - LWCite-2126
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ The tool implements a layered architecture mirroring The Sleuth Kit's abstractio
 
 ## References
 
-- [DFCite-2126] Deutschmann and Baier, 2024, "Ubi est indicium? On forensic analysis of the UBI file system", FSI: Digital Investigation 48, 301689.
+- [LWCite-2126] Deutschmann and Baier, 2024, "Ubi est indicium? On forensic analysis of the UBI file system", FSI: Digital Investigation 48, 301689.

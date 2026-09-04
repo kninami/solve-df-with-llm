@@ -1,16 +1,16 @@
 ---
-id: DFT-1079
+id: LWT-1079
 type: technique
 name: Identify Bitcoin peeling chains using self-change-address analysis
 description: Identify Bitcoin "peeling chains" — a technique used by mixing/laundering services to repeatedly peel off small amounts from a starting address to obscure the flow of illicit funds — by first isolating candidate chains built from self-change addresses (where the input address and the change-receiving address are controlled by the same entity), then further filtering by verifying chain-internal transaction details (version, address type, sequence-number category, SegWit flag, locktime, and block/time-interval constraints consistent with automated peeling) to distinguish genuine mixer-generated peeling chains from coincidentally similar transaction patterns.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1085
+  - LWW-1085
 aliases:
   - Self-change-address-based peeling chain identification on the Bitcoin blockchain
 source_refs:
-  - DFCite-1075
+  - LWCite-1075
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ The method parses each transaction's version number, `lock_time` field, sequence
 
 ## References
 
-- [DFCite-1075] Gong et al., 2023, "Analyzing the peeling chain patterns on the Bitcoin blockchain", FSI: Digital Investigation 46.
+- [LWCite-1075] Gong et al., 2023, "Analyzing the peeling chain patterns on the Bitcoin blockchain", FSI: Digital Investigation 46.

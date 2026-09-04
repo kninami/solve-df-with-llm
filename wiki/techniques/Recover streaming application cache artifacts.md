@@ -1,16 +1,16 @@
 ---
-id: DFT-1022
+id: LWT-1022
 type: technique
 name: Recover streaming application cache artifacts
 description: Recover evidence of a user's engagement with live or replayed streamed video by examining an Android streaming application's own cache directories for still images, video fragments, and metadata files, since streamed content is generally not stored as a single reconstructable media file.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1022
+  - LWW-1022
 aliases:
   - Streaming application cache artifact recovery
 source_refs:
-  - DFCite-1015
+  - LWCite-1015
 updated_at: 2026-08-09
 status: complete
 ---
@@ -40,4 +40,4 @@ Caching behavior is inconsistent across streaming platforms and is not predictab
 
 ## References
 
-- [DFCite-1015] García Murias et al., 2023, "A forensic analysis of streaming platforms on Android OS", FSI: Digital Investigation 44.
+- [LWCite-1015] García Murias et al., 2023, "A forensic analysis of streaming platforms on Android OS", FSI: Digital Investigation 44.

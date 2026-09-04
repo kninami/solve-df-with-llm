@@ -1,9 +1,9 @@
 ---
-id: DFM-2117
+id: LWM-2117
 type: mitigation
 name: Validate SPN-based image clustering accuracy per source platform and compression level before relying on recall for heavily compressed images
 source_refs:
-  - DFCite-2136
+  - LWCite-2136
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify, where possible, which platform and compression tier (e.g. native/origi
 
 ## References
 
-- [DFCite-2136] Rouhi, Bertini, and Montesi, 2021, "User profiles' image clustering for digital investigations", FSI: Digital Investigation 38, 301171.
+- [LWCite-2136] Rouhi, Bertini, and Montesi, 2021, "User profiles' image clustering for digital investigations", FSI: Digital Investigation 38, 301171.

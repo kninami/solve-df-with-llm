@@ -1,17 +1,17 @@
 ---
-id: DFT-1148
+id: LWT-1148
 type: technique
 name: Decrypt IndexedDB storage in private-mode Gecko-based browsers using a memory-recovered cipherkey
 description: Decrypt the encrypted IndexedDB and Cache API files a Gecko-based browser (Firefox or Tor Browser) writes to disk during a private-mode session by locating the per-file ChaCha20-Poly1305 cipherkey inside the browser process's memory using its fixed `CipherKeyManager` structure layout, then applying it page-by-page against the on-disk encrypted files using their embedded nonce and initial-vector fields.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1020
+  - LWW-1020
 aliases:
   - Gecko private-mode IndexedDB decryption
   - CipherKeyManager memory extraction
 source_refs:
-  - DFCite-1149
+  - LWCite-1149
 updated_at: 2026-08-12
 status: complete
 ---
@@ -43,4 +43,4 @@ Chromium-based browsers (Chrome, Edge) take a different architectural approach: 
 
 ## References
 
-- [DFCite-1149] Kim, Lee and Park, 2024, "Decrypting IndexedDB in private mode of Gecko-based browsers", FSI: Digital Investigation 49.
+- [LWCite-1149] Kim, Lee and Park, 2024, "Decrypting IndexedDB in private mode of Gecko-based browsers", FSI: Digital Investigation 49.

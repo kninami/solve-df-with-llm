@@ -1,9 +1,9 @@
 ---
-id: DFM-1302
+id: LWM-1302
 type: mitigation
 name: Combine multiple independent similarity signals and lower per-signal thresholds with manual triage for Tor phishing detection
 source_refs:
-  - DFCite-1334
+  - LWCite-1334
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When applying [[techniques/Detect phishing clone hidden services on the Tor netw
 
 ## References
 
-- [DFCite-1334] Steinebach, Zenglein, and Brandl, 2021, "Phishing detection on tor hidden services", FSI: Digital Investigation 36, 301117.
+- [LWCite-1334] Steinebach, Zenglein, and Brandl, 2021, "Phishing detection on tor hidden services", FSI: Digital Investigation 36, 301117.

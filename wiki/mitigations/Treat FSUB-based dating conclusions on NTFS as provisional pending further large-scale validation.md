@@ -1,9 +1,9 @@
 ---
-id: DFM-1088
+id: LWM-1088
 type: mitigation
 name: Treat FSUB-based dating conclusions on NTFS as provisional pending further large-scale validation
 source_refs:
-  - DFCite-1080
+  - LWCite-1080
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ When reporting an FSUB-based dating conclusion for data recovered from an NTFS v
 
 ## References
 
-- [DFCite-1080] Schneider et al., 2024, "Applying digital stratigraphy to the problem of recycled storage media", FSI: Digital Investigation 49.
+- [LWCite-1080] Schneider et al., 2024, "Applying digital stratigraphy to the problem of recycled storage media", FSI: Digital Investigation 49.

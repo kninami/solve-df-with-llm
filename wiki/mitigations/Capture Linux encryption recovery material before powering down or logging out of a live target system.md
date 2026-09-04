@@ -1,9 +1,9 @@
 ---
-id: DFM-2083
+id: LWM-2083
 type: mitigation
 name: Capture Linux encryption recovery material before powering down or logging out of a live target system
 source_refs:
-  - DFCite-2096
+  - LWCite-2096
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ At scene, before shutting down or logging off a live, unlocked Linux system, che
 
 ## References
 
-- [DFCite-2096] Findlay, Ben, 2024, "Techniques and methods for obtaining access to data protected by linux-based encryption -- A reference guide for practitioners", FSI: Digital Investigation 48, 301662.
+- [LWCite-2096] Findlay, Ben, 2024, "Techniques and methods for obtaining access to data protected by linux-based encryption -- A reference guide for practitioners", FSI: Digital Investigation 48, 301662.

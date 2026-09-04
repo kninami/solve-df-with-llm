@@ -1,9 +1,9 @@
 ---
-id: DFM-1186
+id: LWM-1186
 type: mitigation
 name: Replicate forensically relevant logs to an isolated, hash-chained server outside superuser control
 source_refs:
-  - DFCite-1189
+  - LWCite-1189
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Deploy an isolated server outside the target system's administrative domain, res
 
 ## References
 
-- [DFCite-1189] Manral and Somani, 2021, "Establishing forensics capabilities in the presence of superuser insider threats", FSI: Digital Investigation 38, 301263.
+- [LWCite-1189] Manral and Somani, 2021, "Establishing forensics capabilities in the presence of superuser insider threats", FSI: Digital Investigation 38, 301263.

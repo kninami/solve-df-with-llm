@@ -1,14 +1,14 @@
 ---
-id: DFW-1102
+id: LWW-1102
 type: weakness
 name: Background audio source separation accuracy lags significantly behind speech separation accuracy
 description: The accuracy achievable when separating background noise sources from a mixed audio recording is significantly lower than the accuracy achievable for separating human speech from the same recording, and closing this gap requires more specialized investigation and techniques than currently exist, which limits the reliability of environment or context inference drawn from the separated background-noise component.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1102
+  - LWM-1102
 source_refs:
-  - DFCite-1096
+  - LWCite-1096
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on environment classification derived from separated bac
 
 ## References
 
-- [DFCite-1096] Li et al., 2022, "BlackFeather: A framework for background noise forensics", FSI: Digital Investigation 42.
+- [LWCite-1096] Li et al., 2022, "BlackFeather: A framework for background noise forensics", FSI: Digital Investigation 42.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1199
+id: LWT-1199
 type: technique
 name: Decrypt a banking trojan's C2 communication by extracting its hardcoded encryption keys
 description: Statically and dynamically analyze an Android banking trojan's decompiled code to recover its hardcoded (or deterministically derived) command-and-control encryption key/IV, decrypt captured or emulated C2 traffic with it, and enumerate the trojan's full command set and stolen-data categories from the decrypted payloads.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1208
+  - LWW-1208
 aliases:
   - Static and dynamic reverse engineering of Hook banking trojan C2 protocol
 source_refs:
-  - DFCite-1219
+  - LWCite-1219
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ The analysis combined static analysis (decompilation to identify configuration c
 
 ## References
 
-- [DFCite-1219] Schmutz et al., 2024, "Forensic analysis of hook Android malware", FSI: Digital Investigation 49.
+- [LWCite-1219] Schmutz et al., 2024, "Forensic analysis of hook Android malware", FSI: Digital Investigation 49.

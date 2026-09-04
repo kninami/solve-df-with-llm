@@ -1,16 +1,16 @@
 ---
-id: DFT-2069
+id: LWT-2069
 type: technique
 name: Acquire cross-border cloud evidence using a Budapest Convention Article 32 lawful-access basis
 description: Determine and document the specific lawful basis for accessing cloud-stored digital evidence located in another jurisdiction before acquiring it — either mutual legal assistance/a formal cooperation instrument (e.g. a European Investigation Order), or one of the Council of Europe Cybercrime Convention's two recognized direct-access exceptions (the data is publicly available, or a person legally authorized to disclose it has given voluntary consent) — rather than assuming remote search authority the investigator does not actually have.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-2069
+  - LWW-2069
 aliases:
   - Cross-border cloud evidence acquisition legal-basis determination
 source_refs:
-  - DFCite-2073
+  - LWCite-2073
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ Formal cross-border cooperation channels include mutual legal assistance request
 
 ## References
 
-- [DFCite-2073] Olber, 2021, "The Survey on Cross-Border Collection of Digital Evidence by Representatives from Polish Prosecutors' Offices and Judicial Authorities", JDFSL 16(3). Source of the Article 32 public-availability/voluntary-consent exception framework, the 24/7 contact-point mechanism, and the survey evidence of practitioner misunderstanding of these bases.
+- [LWCite-2073] Olber, 2021, "The Survey on Cross-Border Collection of Digital Evidence by Representatives from Polish Prosecutors' Offices and Judicial Authorities", JDFSL 16(3). Source of the Article 32 public-availability/voluntary-consent exception framework, the 24/7 contact-point mechanism, and the survey evidence of practitioner misunderstanding of these bases.

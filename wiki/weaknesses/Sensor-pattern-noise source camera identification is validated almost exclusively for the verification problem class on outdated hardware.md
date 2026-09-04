@@ -1,5 +1,5 @@
 ---
-id: DFW-2078
+id: LWW-2078
 type: weakness
 name: Sensor-pattern-noise source camera identification is validated almost exclusively for the verification problem class on outdated hardware
 description: Sensor pattern noise (SPN), widely treated as source camera identification's gold-standard method, has been validated in the published literature predominantly for one-to-one Verification-style questions against a specific physical device using comparatively old datasets and camera hardware, leaving its performance for Identification and Exploration-style investigative questions, and for contemporary camera/smartphone pipelines, largely unestablished.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2079
+  - LWM-2079
 source_refs:
-  - DFCite-2089
+  - LWCite-2089
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator who treats SPN's "gold standard" reputation as license to apply 
 
 ## References
 
-- [DFCite-2089] Klier and Baier, 2024, "Source Camera Identification - Do we have a gold standard?", FSI: Digital Investigation 52, 301858.
+- [LWCite-2089] Klier and Baier, 2024, "Source Camera Identification - Do we have a gold standard?", FSI: Digital Investigation 52, 301858.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1117
+id: LWT-1117
 type: technique
 name: Re-run an acquired virtual host image in an isolated emulation cloud for dynamic analysis
 description: Load a preserved virtual host image or snapshot into cloud compute resources provisioned specifically as an isolated emulation environment and boot it, reconstructing the target's live running state so that run-time behavior — active processes, network interactions, and other dynamic activity never captured by static log or file analysis — can be directly observed and analyzed, complementing static analysis of the stored image files.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1122
+  - LWW-1122
 aliases:
   - CETS emulation procedure
   - Cloud virtual host emulation for run-time forensic analysis
 source_refs:
-  - DFCite-1116
+  - LWCite-1116
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The emulation procedure sits between acquisition/preservation and investigative 
 
 ## References
 
-- [DFCite-1116] Wu et al., 2022, "Cloud Evidence Tracing System: An integrated forensics investigation system for large-scale public cloud platform", FSI: Digital Investigation 41.
+- [LWCite-1116] Wu et al., 2022, "Cloud Evidence Tracing System: An integrated forensics investigation system for large-scale public cloud platform", FSI: Digital Investigation 41.

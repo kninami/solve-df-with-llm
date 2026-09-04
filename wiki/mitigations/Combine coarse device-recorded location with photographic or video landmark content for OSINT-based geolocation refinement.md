@@ -1,9 +1,9 @@
 ---
-id: DFM-1288
+id: LWM-1288
 type: mitigation
 name: Combine coarse device-recorded location with photographic or video landmark content for OSINT-based geolocation refinement
 source_refs:
-  - DFCite-1318
+  - LWCite-1318
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ After recovering a device's coarse country/state (or equivalent) location field,
 
 ## References
 
-- [DFCite-1318] Read, Xynos, Sutherland, Bovee, and Tamburro, 2024, "Nintendo 3DS forensics: A secondhand case study", FSI: Digital Investigation 50, 301815.
+- [LWCite-1318] Read, Xynos, Sutherland, Bovee, and Tamburro, 2024, "Nintendo 3DS forensics: A secondhand case study", FSI: Digital Investigation 50, 301815.

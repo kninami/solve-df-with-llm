@@ -1,14 +1,14 @@
 ---
-id: DFW-1106
+id: LWW-1106
 type: weakness
 name: Sales-counter-based purchase detection merges multiple distinct purchases when the scraping interval is too long
 description: Detecting a darknet marketplace purchase by observing an increment in a product's public sales counter between two scrapes cannot distinguish a single purchase from several purchases that occurred within the same scraping interval, so a longer interval systematically under-counts and imprecisely windows purchase events.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1106
+  - LWM-1106
 source_refs:
-  - DFCite-1101
+  - LWCite-1101
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator using sales-counter deltas to estimate the number and timing of 
 
 ## References
 
-- [DFCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.
+- [LWCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.

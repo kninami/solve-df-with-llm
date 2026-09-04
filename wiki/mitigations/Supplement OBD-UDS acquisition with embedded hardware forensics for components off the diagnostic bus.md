@@ -1,9 +1,9 @@
 ---
-id: DFM-1030
+id: LWM-1030
 type: mitigation
 name: Supplement OBD-UDS acquisition with embedded hardware forensics for components off the diagnostic bus
 source_refs:
-  - DFCite-1021
+  - LWCite-1021
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ During the forensic readiness phase, explicitly document which in-vehicle compon
 
 ## References
 
-- [DFCite-1021] Gomez Buquerin et al., 2021, "A generalized approach to automotive forensics", FSI: Digital Investigation 36.
+- [LWCite-1021] Gomez Buquerin et al., 2021, "A generalized approach to automotive forensics", FSI: Digital Investigation 36.

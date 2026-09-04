@@ -1,14 +1,14 @@
 ---
-id: DFW-1044
+id: LWW-1044
 type: weakness
 name: Mutated cross-model ensemble adversarial detection has substantially higher per-example latency
 description: Evaluating an input against a large group of mutated classifiers to compute a Prediction Inversion Rate takes substantially longer per example than evaluating it against a single-model detector, constraining how much of a large evidence corpus can practically be triaged with this method within a given time budget.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1044
+  - LWM-1044
 source_refs:
-  - DFCite-1034
+  - LWCite-1034
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ In a forensic setting where a large volume of PDFs (or similar files) must be tr
 
 ## References
 
-- [DFCite-1034] Liu et al., 2021, "A novel adversarial example detection method for malicious PDFs using multiple mutated classifiers", FSI: Digital Investigation 38.
+- [LWCite-1034] Liu et al., 2021, "A novel adversarial example detection method for malicious PDFs using multiple mutated classifiers", FSI: Digital Investigation 38.

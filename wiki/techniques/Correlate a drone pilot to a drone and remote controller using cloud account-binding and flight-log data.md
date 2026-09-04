@@ -1,16 +1,16 @@
 ---
-id: DFT-1132
+id: LWT-1132
 type: technique
 name: Correlate a drone pilot to a drone and remote controller using cloud account-binding and flight-log data
 description: Reconstruct the reverse-engineered private (internal) API of a drone manufacturer's cloud service and query it to retrieve account-to-device binding records and cloud-synced flight logs, then correlate pilot account, drone, and remote controller identifiers to answer who flew which drone, from where, and when, even when the local app or drone itself has had its data deleted.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1113
+  - LWW-1113
 aliases:
   - Pilot-drone correlation analysis using DJI cloud forensic data
 source_refs:
-  - DFCite-1132
+  - LWCite-1132
 updated_at: 2026-08-12
 status: complete
 ---
@@ -39,4 +39,4 @@ The technique requires intercepting and reconstructing the target app's network 
 
 ## References
 
-- [DFCite-1132] Kim et al., 2026, "Correlation analysis of pilots and drones using DJI cloud forensic data", FSI: Digital Investigation 57.
+- [LWCite-1132] Kim et al., 2026, "Correlation analysis of pilots and drones using DJI cloud forensic data", FSI: Digital Investigation 57.

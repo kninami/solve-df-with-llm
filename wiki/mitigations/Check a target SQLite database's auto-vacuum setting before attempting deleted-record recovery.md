@@ -1,9 +1,9 @@
 ---
-id: DFM-1303
+id: LWM-1303
 type: mitigation
 name: Check a target SQLite database's auto-vacuum setting before attempting deleted-record recovery
 source_refs:
-  - DFCite-1335
+  - LWCite-1335
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Before running [[techniques/Recover deleted SQLite records]] against a wearable 
 
 ## References
 
-- [DFCite-1335] Nunes, Domingues, and Frade, 2023, "Post-mortem digital forensic analysis of the Garmin Connect application for Android", FSI: Digital Investigation 47, 301624.
+- [LWCite-1335] Nunes, Domingues, and Frade, 2023, "Post-mortem digital forensic analysis of the Garmin Connect application for Android", FSI: Digital Investigation 47, 301624.

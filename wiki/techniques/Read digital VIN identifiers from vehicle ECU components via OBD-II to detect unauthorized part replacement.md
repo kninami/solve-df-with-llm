@@ -1,16 +1,16 @@
 ---
-id: DFT-1164
+id: LWT-1164
 type: technique
 name: Read digital VIN identifiers from vehicle ECU components via OBD-II to detect unauthorized part replacement
 description: Connect a manufacturer-specific reader to a vehicle's OBD-II port to read the "digital VIN" (digiVIN) values stored in individual electronic control unit components, then compare the readout against the vehicle's own VIN and the expected repeatability pattern for that model to identify components that originate from a different, potentially stolen or unauthorizedly-serviced vehicle.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1170
+  - LWW-1170
 aliases:
   - Digital vehicle identity / digiVIN forensic component authentication
 source_refs:
-  - DFCite-1175
+  - LWCite-1175
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ A three-year survey of 250 vehicle models from 43 manufacturers found digital id
 
 ## References
 
-- [DFCite-1175] Rak et al., 2021, "Digital vehicle identity - Digital VIN in forensic and technical practice", FSI: Digital Investigation 39, 301307.
+- [LWCite-1175] Rak et al., 2021, "Digital vehicle identity - Digital VIN in forensic and technical practice", FSI: Digital Investigation 39, 301307.

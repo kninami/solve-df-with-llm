@@ -1,14 +1,14 @@
 ---
-id: DFW-1284
+id: LWW-1284
 type: weakness
 name: Availability-correlation deanonymization cannot detect an offline period shorter than the anonymity network's node-expiration timeout
 description: A monitoring infrastructure that observes node availability through a network's own peer-discovery database inherits that database's built-in expiration timeout, so a target's offline period shorter than the timeout produces no observable online-to-offline transition at all, making it indistinguishable from continuous availability and collapsing the Hamming Distance ranking's accuracy for short-downtime targets.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1285
+  - LWM-1285
 source_refs:
-  - DFCite-1312
+  - LWCite-1312
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator applying availability-correlation deanonymization against a targ
 
 ## References
 
-- [DFCite-1312] Simioni, Gladyshev, Habibnia, and de Souza, 2021, "Monitoring an anonymity network: Toward the deanonymization of hidden services", FSI: Digital Investigation 38, 301135.
+- [LWCite-1312] Simioni, Gladyshev, Habibnia, and de Souza, 2021, "Monitoring an anonymity network: Toward the deanonymization of hidden services", FSI: Digital Investigation 38, 301135.

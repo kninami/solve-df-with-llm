@@ -1,14 +1,14 @@
 ---
-id: DFW-1104
+id: LWW-1104
 type: weakness
 name: Forensically sound local-blockchain HD-wallet address derivation requires prohibitive storage and compute resources
 description: Running a fully confidential, forensically sound cryptocurrency query platform requires holding a complete local copy of the target blockchain (approximately 350 GB for Bitcoin, approaching a terabyte for Ethereum at time of writing) and, for exhaustive HD-wallet address derivation, significant parallel computing power to search up to 2^31 possible addresses per extended key — resources a local law enforcement agency with limited budget may not have.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1104
+  - LWM-1104
 source_refs:
-  - DFCite-1099
+  - LWCite-1099
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ A smaller or under-resourced investigative unit cannot simply adopt this confide
 
 ## References
 
-- [DFCite-1099] Thomas et al., 2022, "BlockQuery: Toward forensically sound cryptocurrency investigation", FSI: Digital Investigation 40.
+- [LWCite-1099] Thomas et al., 2022, "BlockQuery: Toward forensically sound cryptocurrency investigation", FSI: Digital Investigation 40.

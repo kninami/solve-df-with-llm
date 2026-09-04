@@ -1,9 +1,9 @@
 ---
-id: DFM-2012
+id: LWM-2012
 type: mitigation
 name: Apply constraint-preserving adversarial training and confidence-based escalation to ML file fragment classifiers
 source_refs:
-  - DFCite-2012
+  - LWCite-2012
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where feasible, incorporate constraint-preserving adversarial training (byte-lev
 
 ## References
 
-- [DFCite-2012] Mary and Sreeja, 2026 — Section V.C and Table 4 detail the constraint-preserving adversarial training, attack-surface management, detection/rejection, and lifecycle-level defense strategies this mitigation draws on.
+- [LWCite-2012] Mary and Sreeja, 2026 — Section V.C and Table 4 detail the constraint-preserving adversarial training, attack-surface management, detection/rejection, and lifecycle-level defense strategies this mitigation draws on.

@@ -1,5 +1,5 @@
 ---
-id: DFT-2112
+id: LWT-2112
 type: technique
 name: Triage large-scale criminal evidence image collections using a microservice-based multi-classifier pipeline
 description: Scale automated image triage for a large criminal-evidence image collection (potentially millions of images across many concurrent cases) by decomposing the analysis into a set of independently deployable microservices -- each running a specialized classifier for a specific evidence category (firearms, ammunition, identity documents, nudity, age, OCR text, face recognition) -- orchestrated through a distributed message-queue and stream-processing architecture rather than a single monolithic classification pipeline.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1007
   - DFO-1003
 weakness_ids:
-  - DFW-2119
+  - LWW-2119
 aliases:
   - INSIDE
 source_refs:
-  - DFCite-2139
+  - LWCite-2139
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,4 +42,4 @@ Incoming case images are published to a message queue, from which each specializ
 
 ## References
 
-- [DFCite-2139] "Using micro-services and artificial intelligence to analyze images in criminal evidences", FSI: Digital Investigation 48, 2024.
+- [LWCite-2139] "Using micro-services and artificial intelligence to analyze images in criminal evidences", FSI: Digital Investigation 48, 2024.

@@ -1,18 +1,18 @@
 ---
-id: DFT-2120
+id: LWT-2120
 type: technique
 name: Validate system clock correctness at event time using paired local-external timestamp anchors
 description: Compare a locally recorded system-clock timestamp against a corresponding externally sourced timestamp stored within or alongside the same digital artifact (a "time anchor") to determine whether the system clock was accurate at the precise moment a reconstructed event's timestamp was recorded, and to estimate the magnitude of any clock skew.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-2128
-  - DFW-2129
+  - LWW-2128
+  - LWW-2129
 aliases:
   - Time anchor analysis
   - Anchoring event validation
 source_refs:
-  - DFCite-2149
+  - LWCite-2149
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ An event whose own artifacts are themselves time anchors (e.g., a Google search 
 
 ## References
 
-- [DFCite-2149] Vanini et al., 2024, "Was the clock correct? Exploring timestamp interpretation through time anchors for digital forensic event reconstruction", FSI: Digital Investigation 49.
+- [LWCite-2149] Vanini et al., 2024, "Was the clock correct? Exploring timestamp interpretation through time anchors for digital forensic event reconstruction", FSI: Digital Investigation 49.

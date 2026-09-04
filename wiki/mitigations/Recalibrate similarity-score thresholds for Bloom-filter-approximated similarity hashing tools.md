@@ -1,9 +1,9 @@
 ---
-id: DFM-1198
+id: LWM-1198
 type: mitigation
 name: Recalibrate similarity-score thresholds for Bloom-filter-approximated similarity hashing tools
 source_refs:
-  - DFCite-1209
+  - LWCite-1209
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Before relying on a Bloom-filter-approximated similarity hashing tool's match/no
 
 ## References
 
-- [DFCite-1209] Singh et al., 2022, "FbHash-E: A time and memory efficient version of FbHash similarity hashing algorithm", FSI: Digital Investigation 41, 301375.
+- [LWCite-1209] Singh et al., 2022, "FbHash-E: A time and memory efficient version of FbHash similarity hashing algorithm", FSI: Digital Investigation 41, 301375.

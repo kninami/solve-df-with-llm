@@ -1,17 +1,17 @@
 ---
-id: DFT-1188
+id: LWT-1188
 type: technique
 name: Extend a rule-based content-classification taxonomy using residual n-gram log-ratio analysis
 description: Apply an initial deterministic, rule-based taxonomy to classify forum or forensic text content, then statistically mine the residual unclassifiable cases for n-grams disproportionately associated with ambiguity, using a smoothed log-ratio score, to surface candidate new taxonomy categories and iteratively re-classify the corpus until residual ambiguity is minimized.
 objective_ids:
   - DFO-1003
 weakness_ids:
-  - DFW-1195
+  - LWW-1195
 aliases:
   - Iterative taxonomy extension methodology
   - P2P crypto forum taxonomy classification
 source_refs:
-  - DFCite-1204
+  - LWCite-1204
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ Classification proceeds in an auditable, rule-first pipeline: a deterministic Ph
 
 ## References
 
-- [DFCite-1204] Medina-Merodio et al., 2026, "Extending taxonomies for P2P crypto forum classification in the dark web: An iterative methodological approach", FSI: Digital Investigation 57.
+- [LWCite-1204] Medina-Merodio et al., 2026, "Extending taxonomies for P2P crypto forum classification in the dark web: An iterative methodological approach", FSI: Digital Investigation 57.

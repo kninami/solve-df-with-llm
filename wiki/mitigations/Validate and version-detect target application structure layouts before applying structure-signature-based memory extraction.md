@@ -1,11 +1,11 @@
 ---
-id: DFM-1064
+id: LWM-1064
 type: mitigation
 name: Validate and version-detect target application structure layouts before applying structure-signature-based memory extraction
 source_refs:
-  - DFCite-1054
-  - DFCite-1114
-  - DFCite-1205
+  - LWCite-1054
+  - LWCite-1114
+  - LWCite-1205
 updated_at: 2026-08-13
 status: complete
 ---
@@ -26,6 +26,6 @@ Determine the target application's exact version and build/fork before or during
 
 ## References
 
-- [DFCite-1054] Hilgert et al., 2023, "About the applicability of Apache2 web server memory forensics", FSI: Digital Investigation 46.
-- [DFCite-1114] Choi et al., 2023, "Chracer: Memory analysis of Chromium-based browsers", FSI: Digital Investigation 46.
-- [DFCite-1205] Fernández-Álvarez and Rodríguez, 2022, "Extraction and analysis of retrievable memory artifacts from Windows Telegram Desktop application", FSI: Digital Investigation 40.
+- [LWCite-1054] Hilgert et al., 2023, "About the applicability of Apache2 web server memory forensics", FSI: Digital Investigation 46.
+- [LWCite-1114] Choi et al., 2023, "Chracer: Memory analysis of Chromium-based browsers", FSI: Digital Investigation 46.
+- [LWCite-1205] Fernández-Álvarez and Rodríguez, 2022, "Extraction and analysis of retrievable memory artifacts from Windows Telegram Desktop application", FSI: Digital Investigation 40.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1265
+id: LWT-1265
 type: technique
 name: Reverse-engineer a PLC's memory dump to extract control-logic, IO states, and logs using differential analysis
 description: Recover a programmable logic controller's running control-logic program, physical/logical I/O tag states, firmware, configuration data, and operational event logs from an otherwise-undocumented raw memory dump, by iteratively reprogramming a same-model test PLC with a series of designed test cases and observing the resulting memory changes to reverse-engineer each internal data structure's format before formalizing the findings into a reusable extraction rule set.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1276
+  - LWW-1276
 aliases:
   - PLC memory analysis profile methodology
 source_refs:
-  - DFCite-1304
-  - DFCite-2121
+  - LWCite-1304
+  - LWCite-2121
 updated_at: 2026-08-16
 status: complete
 ---
@@ -45,5 +45,5 @@ A separate application of this same differential-analysis methodology to a Schne
 
 ## References
 
-- [DFCite-1304] Rais, Awad, Lopez and Ahmed, 2022, "Memory forensic analysis of a programmable logic controller in industrial control systems", DFRWS 2022 EU; FSI: Digital Investigation 40, 301339.
-- [DFCite-2121] Awad, Rais, and Rogers, 2023, "Towards generic memory forensic framework for programmable logic controllers", FSI: Digital Investigation 44, 301513. Source for the UMAS protocol reverse-engineering-based acquisition route and the traffic-light control-logic-tampering detection case study for a Schneider Electric Modicon M221 PLC.
+- [LWCite-1304] Rais, Awad, Lopez and Ahmed, 2022, "Memory forensic analysis of a programmable logic controller in industrial control systems", DFRWS 2022 EU; FSI: Digital Investigation 40, 301339.
+- [LWCite-2121] Awad, Rais, and Rogers, 2023, "Towards generic memory forensic framework for programmable logic controllers", FSI: Digital Investigation 44, 301513. Source for the UMAS protocol reverse-engineering-based acquisition route and the traffic-light control-logic-tampering detection case study for a Schneider Electric Modicon M221 PLC.

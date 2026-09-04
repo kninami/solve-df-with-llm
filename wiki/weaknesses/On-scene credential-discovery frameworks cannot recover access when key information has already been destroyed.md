@@ -1,14 +1,14 @@
 ---
-id: DFW-2123
+id: LWW-2123
 type: weakness
 name: On-scene credential-discovery frameworks cannot recover access when key information has already been destroyed
 description: An on-scene credential-discovery framework can only reconstruct or extract key material that is still present somewhere in the target system's live memory, storage, or an installed application's own credential store, so if a suspect has already destroyed, wiped, or never stored the relevant key/passphrase material on any accessible system, the framework has nothing to discover, and the investigation is left with only slower, less certain offline brute-force approaches, without any documented method for handling this scenario effectively on-scene.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2124
+  - LWM-2124
 source_refs:
-  - DFCite-2146
+  - LWCite-2146
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on this class of framework as their primary approach to 
 
 ## References
 
-- [DFCite-2146] Bang, Park, and Lee, 2022, "Vision: An empirical framework for examiners to accessing password-protected resources for on-the-scene digital investigations", FSI: Digital Investigation 40, 301376.
+- [LWCite-2146] Bang, Park, and Lee, 2022, "Vision: An empirical framework for examiners to accessing password-protected resources for on-the-scene digital investigations", FSI: Digital Investigation 40, 301376.

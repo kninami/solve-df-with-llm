@@ -1,14 +1,14 @@
 ---
-id: DFW-1089
+id: LWW-1089
 type: weakness
 name: Static NLP-based malicious pattern detection misses encrypted, compressed, or dynamically-loaded Android app code
 description: Because the SIMP model performs static analysis on an app's own bytecode, it cannot correctly analyze compressed or encrypted Android Java bytecode, cannot process a dynamically-linked third-party library that is not bundled inside the app itself, and will not detect malicious code that an app only downloads and loads at runtime (dynamic code loading) rather than shipping statically.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1089
+  - LWM-1089
 source_refs:
-  - DFCite-1081
+  - LWCite-1081
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ A malware author aware of this class of static-analysis-based detector can trivi
 
 ## References
 
-- [DFCite-1081] Alam, 2021, "Applying Natural Language Processing for detecting malicious patterns in Android applications", FSI: Digital Investigation 39.
+- [LWCite-1081] Alam, 2021, "Applying Natural Language Processing for detecting malicious patterns in Android applications", FSI: Digital Investigation 39.

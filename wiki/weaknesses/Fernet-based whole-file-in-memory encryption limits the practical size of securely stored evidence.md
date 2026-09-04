@@ -1,14 +1,14 @@
 ---
-id: DFW-2043
+id: LWW-2043
 type: weakness
 name: Fernet-based whole-file-in-memory encryption limits the practical size of securely stored evidence
 description: A secure evidence storage pipeline built on the Fernet symmetric-encryption library must load an entire potential-digital-evidence file into memory before it can be encrypted, limiting the practical maximum size of evidence it can securely process to what the system's available memory can hold, unlike streaming-capable encryption approaches.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2043
+  - LWM-2043
 source_refs:
-  - DFCite-2044
+  - LWCite-2044
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An organization or investigator who tries to route larger potential digital evid
 
 ## References
 
-- [DFCite-2044] Singh et al., 2022 — Section V's performance-evaluation discussion explicitly identifies the Fernet-library memory limitation and proposes file-streaming as the fix, noting it falls outside the current study's scope.
+- [LWCite-2044] Singh et al., 2022 — Section V's performance-evaluation discussion explicitly identifies the Fernet-library memory limitation and proposes file-streaming as the fix, noting it falls outside the current study's scope.

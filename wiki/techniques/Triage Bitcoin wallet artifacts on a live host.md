@@ -1,16 +1,16 @@
 ---
-id: DFT-1028
+id: LWT-1028
 type: technique
 name: Triage Bitcoin wallet artifacts on a live host
 description: During the live phase of a premises search, run an automated, low-footprint collection tool against a target Windows host to quickly identify installed Bitcoin wallet applications (via prefetch, registry, and known file locations), then capture wallet-specific artifacts — running-process memory, browser history and cached credentials, filesystem keyword/QR-code search results, and a full RAM dump — before deciding whether cryptocurrency assets need to be secured.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1020
+  - LWW-1020
 aliases:
   - Live host Bitcoin wallet artifact triage
 source_refs:
-  - DFCite-1020
+  - LWCite-1020
 updated_at: 2026-08-09
 status: complete
 ---
@@ -40,4 +40,4 @@ The collection tool follows a defined sequence: search prefetch files, known reg
 
 ## References
 
-- [DFCite-1020] Holmes and Buchanan, 2023, "A framework for live host-based Bitcoin wallet forensics and triage", FSI: Digital Investigation 44.
+- [LWCite-1020] Holmes and Buchanan, 2023, "A framework for live host-based Bitcoin wallet forensics and triage", FSI: Digital Investigation 44.

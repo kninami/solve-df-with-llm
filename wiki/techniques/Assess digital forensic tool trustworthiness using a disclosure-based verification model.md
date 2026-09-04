@@ -1,16 +1,16 @@
 ---
-id: DFT-1169
+id: LWT-1169
 type: technique
 name: Assess digital forensic tool trustworthiness using a disclosure-based verification model
 description: Classify a digital forensic tool's producer along an eight-level scale of verification-evidence disclosure — from no claims at all through published specifications, undisclosed internal testing, third-party group testing, and increasingly deep accredited third-party diligence, up to fully open disclosure — to estimate the tool's trustworthiness and the residual validation effort the end-user must still perform.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1175
+  - LWW-1175
 aliases:
   - Tool verification disclosure model evaluation
 source_refs:
-  - DFCite-1170
+  - LWCite-1170
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The eight disclosure models, in increasing order of assurance: Claim-Free (no cl
 
 ## References
 
-- [DFCite-1170] Marshall, 2021, "Digital forensic tool verification: An evaluation of options for establishing trustworthiness", FSI: Digital Investigation 38, 301181.
+- [LWCite-1170] Marshall, 2021, "Digital forensic tool verification: An evaluation of options for establishing trustworthiness", FSI: Digital Investigation 38, 301181.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2044
+id: LWM-2044
 type: mitigation
 name: Fine-tune CLIP-based tampering detectors on forensic-domain data and corroborate high-semantic-similarity cases independently
 source_refs:
-  - DFCite-2045
+  - LWCite-2045
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where feasible, incorporate lightweight domain-specific fine-tuning or adapter m
 
 ## References
 
-- [DFCite-2045] Wang, 2026 — the paper's own "Future Work" discussion proposes incorporating additional external information (multi-view images, audio, timestamps, capture metadata) and domain-adaptation strategies to strengthen semantic consistency modeling beyond the current text-image alignment alone.
+- [LWCite-2045] Wang, 2026 — the paper's own "Future Work" discussion proposes incorporating additional external information (multi-view images, audio, timestamps, capture metadata) and domain-adaptation strategies to strengthen semantic consistency modeling beyond the current text-image alignment alone.

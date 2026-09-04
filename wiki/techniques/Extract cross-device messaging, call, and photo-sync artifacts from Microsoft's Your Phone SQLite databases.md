@@ -1,17 +1,17 @@
 ---
-id: DFT-1269
+id: LWT-1269
 type: technique
 name: Extract cross-device messaging, call, and photo-sync artifacts from Microsoft's Your Phone SQLite databases
 description: Recover SMS/MMS/RCS messages, call logs, contacts, notifications, and synced photo metadata from Microsoft's Your Phone environment — the Android Your Phone Companion app and its paired Windows 10 Your Phone app — by parsing the SQLite3 databases and registry hive each side maintains, giving an investigator access to a linked smartphone's data through the paired Windows machine even when the phone itself is unavailable.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1280
+  - LWW-1280
 aliases:
   - Your Phone Analyzer (YPA)
   - Windows 10 Your Phone / Your Phone Companion forensic artifact extraction
 source_refs:
-  - DFCite-1308
+  - LWCite-1308
 updated_at: 2026-08-15
 status: complete
 ---
@@ -42,4 +42,4 @@ On Windows, Your Phone's per-user data lives under `%LOCALAPPDATA%\Packages\Micr
 
 ## References
 
-- [DFCite-1308] Domingues, Andrade, and Frade, 2021, "Microsoft's Your Phone environment from a digital forensic perspective", FSI: Digital Investigation 38, 301177.
+- [LWCite-1308] Domingues, Andrade, and Frade, 2021, "Microsoft's Your Phone environment from a digital forensic perspective", FSI: Digital Investigation 38, 301177.

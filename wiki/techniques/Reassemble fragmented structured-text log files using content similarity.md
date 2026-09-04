@@ -1,16 +1,16 @@
 ---
-id: DFT-1044
+id: LWT-1044
 type: technique
 name: Reassemble fragmented structured-text log files using content similarity
 description: Carve and reassemble a fragmented structured-text log file (e.g., a JSON-formatted container log) from unallocated disk space by first identifying candidate data blocks using the format's own structural markers, then resolving ambiguous block-combination choices using a content-similarity model that scores word, sentence, and message-level continuity across a candidate join, rather than relying on structural validity alone.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1045
+  - LWW-1045
 aliases:
   - Content-similarity-based reassembly of fragmented structured-text log files
 source_refs:
-  - DFCite-1035
+  - LWCite-1035
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ Data blocks are first classified as structured (containing at least one complete
 
 ## References
 
-- [DFCite-1035] Ge et al., 2021, "A novel file carving algorithm for docker container logs recorded by json-file logging driver", FSI: Digital Investigation 39.
+- [LWCite-1035] Ge et al., 2021, "A novel file carving algorithm for docker container logs recorded by json-file logging driver", FSI: Digital Investigation 39.

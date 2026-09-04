@@ -1,9 +1,9 @@
 ---
-id: DFM-1140
+id: LWM-1140
 type: mitigation
 name: Follow the dashcam first-response checklist to isolate radios and disable auto-recording before any acquisition attempt
 source_refs:
-  - DFCite-1138
+  - LWCite-1138
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ At the scene, stop any in-progress recording and power off the dashcam before do
 
 ## References
 
-- [DFCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.
+- [LWCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.

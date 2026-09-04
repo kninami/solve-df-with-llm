@@ -1,9 +1,9 @@
 ---
-id: DFM-1232
+id: LWM-1232
 type: mitigation
 name: Independently verify LLM-generated forensic citations against the original source before relying on the response
 source_refs:
-  - DFCite-1243
+  - LWCite-1243
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Before including an LLM-cited claim in casework, retrieve the cited title/author
 
 ## References
 
-- [DFCite-1243] Sharma et al., 2025, "ForensicLLM: A local large language model for digital forensics", FSI: Digital Investigation 52, 301872.
+- [LWCite-1243] Sharma et al., 2025, "ForensicLLM: A local large language model for digital forensics", FSI: Digital Investigation 52, 301872.

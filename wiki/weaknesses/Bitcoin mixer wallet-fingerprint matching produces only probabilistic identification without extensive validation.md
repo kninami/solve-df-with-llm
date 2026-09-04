@@ -1,5 +1,5 @@
 ---
-id: DFW-2106
+id: LWW-2106
 type: weakness
 name: Bitcoin mixer wallet-fingerprint matching produces only probabilistic identification without extensive validation
 description: A transaction matching a Bitcoin mixer's derived wallet fingerprint is not automatically confirmed to belong to that mixer, since the fingerprint's application is inherently probabilistic (rare parameter combinations make coincidental matches unlikely but not impossible), and the fingerprinting methodology's own accuracy has not been extensively tested or validated against a large labeled dataset, in part because comprehensive ground-truth validation/test sets for real mixing-service transaction data are difficult to obtain.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2107
+  - LWM-2107
 source_refs:
-  - DFCite-2125
+  - LWCite-2125
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator treating a wallet-fingerprint match as definitive proof that a s
 
 ## References
 
-- [DFCite-2125] Zavřel, Koutenský, Dolejška, and Veselý, 2025, "Tumbling down the stairs: Exploiting a tumbler's attempt to hide with ordinary-looking transactions using wallet fingerprinting", FSI: Digital Investigation 52, 301869.
+- [LWCite-2125] Zavřel, Koutenský, Dolejška, and Veselý, 2025, "Tumbling down the stairs: Exploiting a tumbler's attempt to hide with ordinary-looking transactions using wallet fingerprinting", FSI: Digital Investigation 52, 301869.

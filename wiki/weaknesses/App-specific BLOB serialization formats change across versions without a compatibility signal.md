@@ -1,5 +1,5 @@
 ---
-id: DFW-1219
+id: LWW-1219
 type: weakness
 name: App-specific BLOB serialization formats change across versions without a compatibility signal
 description: An application's proprietary BLOB object-serialization scheme (class signatures, attribute keys, table layout) can change entirely between major versions with no indication in the BLOB data itself, so a decoder built against one version silently misparses or fails against another without the underlying source code being re-checked for changes.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1219
+  - LWM-1219
 source_refs:
-  - DFCite-1230
+  - LWCite-1230
 updated_at: 2026-08-13
 status: complete
 ---
@@ -34,4 +34,4 @@ A decoder validated against one specific application version can misinterpret or
 
 ## References
 
-- [DFCite-1230] Jaeckel, Spranger and Labudde, 2025, "Forensic analysis of Telegram Messenger on iOS smartphones", DFRWS EU 2025; FSI: Digital Investigation 52, 301866.
+- [LWCite-1230] Jaeckel, Spranger and Labudde, 2025, "Forensic analysis of Telegram Messenger on iOS smartphones", DFRWS EU 2025; FSI: Digital Investigation 52, 301866.

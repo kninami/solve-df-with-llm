@@ -1,14 +1,14 @@
 ---
-id: DFW-1157
+id: LWW-1157
 type: weakness
 name: Clients expand a resource-delimited digital forensic service level beyond its allocated remit
 description: A client granted a quicker, lower-effort digital forensic Service Level may attempt to informally expand its investigative remit after allocation — termed "service level abuse" — effectively seeking the outcome of a higher service level while retaining the faster turnaround and lower resource commitment of the lower one, undermining the resource-delimited structure the Service Level system depends on.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1157
+  - LWM-1157
 source_refs:
-  - DFCite-1155
+  - LWCite-1155
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ If a DFS unit does not actively enforce the person-time and equipment-engaged-ti
 
 ## References
 
-- [DFCite-1155] Horsman, 2021, "Defining 'service levels' for digital forensic science organisations", FSI: Digital Investigation 38.
+- [LWCite-1155] Horsman, 2021, "Defining 'service levels' for digital forensic science organisations", FSI: Digital Investigation 38.

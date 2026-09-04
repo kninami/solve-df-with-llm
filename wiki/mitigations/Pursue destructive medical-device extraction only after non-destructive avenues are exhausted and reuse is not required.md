@@ -1,9 +1,9 @@
 ---
-id: DFM-1173
+id: LWM-1173
 type: mitigation
 name: Pursue destructive medical-device extraction only after non-destructive avenues are exhausted and reuse is not required
 source_refs:
-  - DFCite-1172
+  - LWCite-1172
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Document the case-specific justification for any decision to open a medical devi
 
 ## References
 
-- [DFCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.
+- [LWCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.

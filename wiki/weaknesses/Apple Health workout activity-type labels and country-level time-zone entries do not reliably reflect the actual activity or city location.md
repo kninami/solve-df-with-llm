@@ -1,14 +1,14 @@
 ---
-id: DFW-1260
+id: LWW-1260
 type: weakness
 name: Apple Health workout activity-type labels and country-level time-zone entries do not reliably reflect the actual activity or city location
 description: An Apple Health workout's recorded activity type can be triggered by a physically similar but unrelated action (mistaking bell-ringing for rowing), and the database's time-zone field records only a country/region-level zone (e.g. "Europe/Berlin") rather than the specific city visited, so both fields require independent corroboration before being treated as literal fact.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1261
+  - LWM-1261
 source_refs:
-  - DFCite-1279
+  - LWCite-1279
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who treats a workout's activity-type label at face value risks b
 
 ## References
 
-- [DFCite-1279] Jennings, Sorell and Espinosa, 2023, "Interpreting the location data extracted from the Apple Health database", DFRWS 2023 EU; FSI: Digital Investigation 44, 301504.
+- [LWCite-1279] Jennings, Sorell and Espinosa, 2023, "Interpreting the location data extracted from the Apple Health database", DFRWS 2023 EU; FSI: Digital Investigation 44, 301504.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1253
+id: LWT-1253
 type: technique
 name: Summarize Android native library data flow using static taint analysis
 description: Statically analyze an Android app's compiled native (C/C++, .so) libraries by lifting each to LLVM IR, tracking taint propagation from native source APIs (sensors, timestamps, visited URLs, text input) through to native sink APIs (file writes, network sends) via forward data-flow analysis, and pre-computing a queryable per-method summary database so a forensic investigator or analysis tool no longer has to treat native code as an opaque black box.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1267
+  - LWW-1267
 aliases:
   - LibDroid
   - Android Native Library Database (ANLD)
 source_refs:
-  - DFCite-1293
+  - LWCite-1293
 updated_at: 2026-08-14
 status: complete
 ---
@@ -42,4 +42,4 @@ Given a native library's `.so` file, the library is transformed to LLVM IR (via 
 
 ## References
 
-- [DFCite-1293] Shi, Cheng and Guan, 2022, "LibDroid: Summarizing information flow of android native libraries via static analysis", DFRWS 2022 USA; FSI: Digital Investigation 42, 301405.
+- [LWCite-1293] Shi, Cheng and Guan, 2022, "LibDroid: Summarizing information flow of android native libraries via static analysis", DFRWS 2022 USA; FSI: Digital Investigation 42, 301405.

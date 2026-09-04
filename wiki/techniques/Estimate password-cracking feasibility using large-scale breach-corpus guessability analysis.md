@@ -1,16 +1,16 @@
 ---
-id: DFT-1231
+id: LWT-1231
 type: technique
 name: Estimate password-cracking feasibility using large-scale breach-corpus guessability analysis
 description: Decide whether attempting to crack a specific password-protected artifact is a worthwhile use of investigative time by classifying the target's likely password strength (e.g., with the zxcvbn metric) and cross-referencing published guess-count, hardware, and hash-function-speed benchmarks derived from statistical analysis of billions of real-world breached passwords, rather than committing to an open-ended brute-force or dictionary attack without an evidence-based time estimate.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1249
+  - LWW-1249
 aliases:
   - Óðinn password fragment analysis
 source_refs:
-  - DFCite-1264
+  - LWCite-1264
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ The Óðinn framework fragments each password into its constituent letter, numbe
 
 ## References
 
-- [DFCite-1264] Kanta, Coray, Coisel, and Scanlon, 2021, "How viable is password cracking in digital forensic investigation? Analyzing the guessability of over 3.9 billion real-world accounts", FSI: Digital Investigation 37, 301186.
+- [LWCite-1264] Kanta, Coray, Coisel, and Scanlon, 2021, "How viable is password cracking in digital forensic investigation? Analyzing the guessability of over 3.9 billion real-world accounts", FSI: Digital Investigation 37, 301186.

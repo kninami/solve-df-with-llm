@@ -1,16 +1,16 @@
 ---
-id: DFT-2109
+id: LWT-2109
 type: technique
 name: Cluster social-network user-profile images by camera source using hierarchical graph-based SPN clustering
 description: Group images collected across many social-network user profiles by which physical smartphone camera captured them, without any prior knowledge of how many distinct cameras are represented, by first detecting and removing "shared images" (images not directly taken by the profile owner's own smartphone, e.g. downloaded, cropped, or web-sourced images, whose sensor pattern noise does not reliably fingerprint any single source device) via density-based outlier detection, then hierarchically clustering the remaining "taken images" using a combined graph-partitioning (Markov clustering) and adaptive-threshold merging approach.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-2116
+  - LWW-2116
 aliases:
   - User profiles' image clustering
 source_refs:
-  - DFCite-2136
+  - LWCite-2136
 updated_at: 2026-08-16
 status: complete
 ---
@@ -40,4 +40,4 @@ Each image's residual noise (RN), an approximation of its source camera's SPN, i
 
 ## References
 
-- [DFCite-2136] Rouhi, Bertini, and Montesi, 2021, "User profiles' image clustering for digital investigations", FSI: Digital Investigation 38, 301171.
+- [LWCite-2136] Rouhi, Bertini, and Montesi, 2021, "User profiles' image clustering for digital investigations", FSI: Digital Investigation 38, 301171.

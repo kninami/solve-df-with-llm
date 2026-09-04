@@ -1,14 +1,14 @@
 ---
-id: DFW-1258
+id: LWW-1258
 type: weakness
 name: Unsupervised anomaly-based insider threat detection produces a high false-positive rate because not all behavioral anomalies indicate malicious insider action
 description: Unsupervised anomaly detection flags any behavior sequence that deviates from the learned "normal" profile, but not every deviation is an actual insider threat — a benign role change or unusual-but-legitimate task can appear anomalous, while deliberately concealed malicious behavior can appear normal — producing a high rate of false alarms unless a further correction step distinguishes the two.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1259
+  - LWM-1259
 source_refs:
-  - DFCite-1276
+  - LWCite-1276
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An insider threat program that escalates every flagged anomaly to a full investi
 
 ## References
 
-- [DFCite-1276] Wei, Chow and Yiu, 2021, "Insider threat prediction based on unsupervised anomaly detection scheme for proactive forensic investigation", FSI: Digital Investigation 38, 301126.
+- [LWCite-1276] Wei, Chow and Yiu, 2021, "Insider threat prediction based on unsupervised anomaly detection scheme for proactive forensic investigation", FSI: Digital Investigation 38, 301126.

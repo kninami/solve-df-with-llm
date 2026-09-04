@@ -1,14 +1,14 @@
 ---
-id: DFW-1190
+id: LWW-1190
 type: weakness
 name: Failure to retain rsid tags in washed or plain-text-pasted content prevents source attribution
 description: Text that has been copied through a plain-text intermediary (a text editor, a webpage, a PDF, a paraphrasing tool, or a generative AI system's output) arrives in an MS Word document with no insrsid or charrsid tags at all, so while rsid analysis can show that such a block of text was inserted as a single unit rather than typed, it cannot by itself determine where that text actually originated.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1190
+  - LWM-1190
 source_refs:
-  - DFCite-1195
+  - LWCite-1195
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who over-relies on rsid analysis alone for a single document ris
 
 ## References
 
-- [DFCite-1195] Spennemann, Spennemann and Singh, 2024, "Examining and detecting academic misconduct in written documents using revision save identifier numbers in MS Word as exemplified by multiple scenarios", FSI: Digital Investigation 51, 301821.
+- [LWCite-1195] Spennemann, Spennemann and Singh, 2024, "Examining and detecting academic misconduct in written documents using revision save identifier numbers in MS Word as exemplified by multiple scenarios", FSI: Digital Investigation 51, 301821.

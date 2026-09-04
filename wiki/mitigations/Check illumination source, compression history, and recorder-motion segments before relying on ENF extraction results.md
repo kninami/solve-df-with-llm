@@ -1,9 +1,9 @@
 ---
-id: DFM-2029
+id: LWM-2029
 type: mitigation
 name: Check illumination source, compression history, and recorder-motion segments before relying on ENF extraction results
 source_refs:
-  - DFCite-2029
+  - LWCite-2029
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ For video evidence, check metadata or scene content for the likely illumination 
 
 ## References
 
-- [DFCite-2029] Ngharamike et al., 2023 — Sections V.B and VII.D.2's documented lighting/compression and recorder-movement experiments provide the basis for pre-screening a recording's ENF suitability before analysis.
+- [LWCite-2029] Ngharamike et al., 2023 — Sections V.B and VII.D.2's documented lighting/compression and recorder-movement experiments provide the basis for pre-screening a recording's ENF suitability before analysis.

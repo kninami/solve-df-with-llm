@@ -1,12 +1,12 @@
 ---
-id: DFT-1070
+id: LWT-1070
 type: technique
 name: Estimate bullet trajectory angle from sheet-metal bullet-hole length
 description: Estimate the angle of incidence of a fired bullet that perforated a thin sheet-metal surface by measuring the length of the resulting bullet hole and applying a pre-established empirical correlation curve (derived from controlled test firings at known angles) between hole length and incident angle, using a purpose-built Android field application that performs the calculation on-site without specialized equipment.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1075
+  - LWW-1075
 aliases:
   - Bullet-hole-length-based mobile trajectory angle estimation for sheet-metal perforations
   - Bullet Trajectory Plotter

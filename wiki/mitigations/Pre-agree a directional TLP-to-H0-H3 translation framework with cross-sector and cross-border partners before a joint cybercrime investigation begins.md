@@ -1,9 +1,9 @@
 ---
-id: DFM-1137
+id: LWM-1137
 type: mitigation
 name: Pre-agree a directional TLP-to-H0-H3 translation framework with cross-sector and cross-border partners before a joint cybercrime investigation begins
 source_refs:
-  - DFCite-1135
+  - LWCite-1135
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ As part of pre-incident readiness planning, agree with each regular collaboratio
 
 ## References
 
-- [DFCite-1135] Heitmann and Johnsen, 2026, "Cybercrime investigations in practice: Insights from the LockerGoga ransomware attack on Norsk Hydro", FSI: Digital Investigation 57.
+- [LWCite-1135] Heitmann and Johnsen, 2026, "Cybercrime investigations in practice: Insights from the LockerGoga ransomware attack on Norsk Hydro", FSI: Digital Investigation 57.

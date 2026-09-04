@@ -1,5 +1,5 @@
 ---
-id: DFW-1119
+id: LWW-1119
 type: weakness
 name: LLM-drafted forensic report text quality varies sharply by model and section, requiring proofreading before use
 description: LLM-generated forensic report text is inconsistently accurate and complete — quality drops substantially for locally-run models compared to cloud-based ones, and for report sections whose input data is less structured or less available — so unreviewed LLM output can introduce inaccuracies, unsupported claims, or omissions directly into a document intended for court.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_EX
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1119
+  - LWM-1119
 source_refs:
-  - DFCite-1111
+  - LWCite-1111
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ A forensic report is a document submitted to a court, so unreviewed inaccuracies
 
 ## References
 
-- [DFCite-1111] Michelet and Breitinger, 2024, "ChatGPT, Llama, can you write my report? An experiment on assisted digital forensics reports written using (local) large language models", FSI: Digital Investigation 48.
+- [LWCite-1111] Michelet and Breitinger, 2024, "ChatGPT, Llama, can you write my report? An experiment on assisted digital forensics reports written using (local) large language models", FSI: Digital Investigation 48.

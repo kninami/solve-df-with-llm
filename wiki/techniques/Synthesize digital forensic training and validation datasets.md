@@ -1,13 +1,13 @@
 ---
-id: DFT-1064
+id: LWT-1064
 type: technique
 name: Synthesize digital forensic training and validation datasets
 description: Build reusable datasets for forensic tool training, testing, and validation without manually populating devices or systems by hand — either by scripting simulated human activity and automatically executing it against a target environment (an LLM-authored mobile-device storyboard, or a declaratively-scripted virtualized desktop/network environment), or by systematically curating and validating a corpus of real-world files, with generated- or curated-artifact provenance documented for later use.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1069
-  - DFW-1071
+  - LWW-1069
+  - LWW-1071
 aliases:
   - Automated synthesis of digital forensic training and validation datasets
   - AutoPodMobile
@@ -26,21 +26,21 @@ aliases:
   - SMIFD-1000
   - TraceGen
 source_refs:
-  - DFCite-1059
-  - DFCite-1061
-  - DFCite-1110
-  - DFCite-1247
-  - DFCite-1267
-  - DFCite-1273
-  - DFCite-1315
-  - DFCite-1338
-  - DFCite-1346
-  - DFCite-1347
-  - DFCite-1355
-  - DFCite-1357
-  - DFCite-2084
-  - DFCite-2085
-  - DFCite-2123
+  - LWCite-1059
+  - LWCite-1061
+  - LWCite-1110
+  - LWCite-1247
+  - LWCite-1267
+  - LWCite-1273
+  - LWCite-1315
+  - LWCite-1338
+  - LWCite-1346
+  - LWCite-1347
+  - LWCite-1355
+  - LWCite-1357
+  - LWCite-2084
+  - LWCite-2085
+  - LWCite-2123
 updated_at: 2026-08-16
 status: complete
 ---
@@ -104,18 +104,18 @@ Manually building forensic datasets by hand is time-consuming and rarely reflect
 
 ## References
 
-- [DFCite-1059] Pawlaszczyk et al., 2025, "AI-driven dataset creation in mobile forensics using LLM-based storyboards", FSI: Digital Investigation 55.
-- [DFCite-1061] Gonzales et al., 2025, "AKF: A modern synthesis framework for building datasets in digital forensics", FSI: Digital Investigation 55.
-- [DFCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.
-- [DFCite-1247] Göbel et al., 2022, "ForTrace - A holistic forensic data set synthesis framework", FSI: Digital Investigation 40, 301344.
-- [DFCite-1267] Wolf, Göbel, and Baier, 2024, "Hypervisor-based data synthesis: On its potential to tackle the curse of client-side agent remnants in forensic image generation", FSI: Digital Investigation 48, 301690.
-- [DFCite-1273] Schmidt and Baier, 2026, "Improving trace synthesis by utilizing computer vision for user action emulation", FSI: Digital Investigation 56, 302073. Replaces template-matching-based GUI interaction targeting with a computer-vision object-detection model for more robust and realistic agent-less scenario driving.
-- [DFCite-1315] Davies, Macfarlane, and Buchanan, 2022, "NapierOne: A modern mixed file data set alternative to Govdocs1", FSI: Digital Investigation 40, 301330. Documents the real-world-file-curation methodology and resulting benchmark corpus used as a complement to Govdocs1 for ransomware-detection and other forensic tool testing.
-- [DFCite-1338] Göbel, Breitinger, and Baier, 2025, "Optimising data set creation in the cybersecurity landscape with a special focus on digital forensics: Principles, characteristics, and use cases", FSI: Digital Investigation 52, 301882. Systematic literature review deriving 15 cross-cutting dataset-quality properties and 10 common failure modes applicable to any dataset-creation method covered by this page.
-- [DFCite-1346] Hirano, Hodota, and Kobayashi, 2022, "RanSAP: An open dataset of ransomware storage access patterns for training machine learning models", FSI: Digital Investigation 40, 301314. Source for the hypervisor-based dynamic storage-access-pattern dataset generation approach.
-- [DFCite-1347] Voigt, Freiling, and Hargreaves, 2024, "Re-imagen: Generating coherent background activity in synthetic scenario-based forensic datasets using large language models", FSI: Digital Investigation 50, 301805. Source for the LLM-persona-driven coherent background-activity generation approach, built on the same agent-less GUI automation tool as the ForTrace variant already covered by this page.
-- [DFCite-1355] Kombrink, van Lierop, Stolwijk, Worring, Vrijdag, and Geradts, 2025, "REVEAL: A large-scale comprehensive image dataset for steganalysis", FSI: Digital Investigation 55, 302006. Source for the large-scale, multi-camera, multi-algorithm steganalysis benchmark dataset approach.
-- [DFCite-1357] Gonçalves, Dolos, Stebner, Attenberger, and Baier, 2022, "Revisiting the dataset gap problem – On availability, assessment and perspective of mobile forensic corpora", FSI: Digital Investigation 43, 301439. Source for the quantity/quality/timeliness mobile-forensic-corpora assessment methodology and its finding that most available mobile corpora are insufficiently realistic or outdated.
-- [DFCite-2084] Breitinger and Jotterand, 2023, "Sharing datasets for digital forensic: A novel taxonomy and legal concerns", FSI: Digital Investigation 45, 301562. Source for the structured/semi-structured/unstructured organization taxonomy, the synthetic/human origin taxonomy, and the direct/indirect/sensitive/illegal data-sensitivity categories used to clear a dataset for sharing under GDPR and copyright law.
-- [DFCite-2085] Rana, Hasnat, and Rahaman, 2022, "SMIFD-1000: Social media image forgery detection database", FSI: Digital Investigation 41, 301392. Source for the curated, richly-annotated (pixel-level and attribute-level) real-world social-media image-splicing dataset covered as an example of curated real-world dataset construction.
-- [DFCite-2123] Du, Hargreaves, Sheppard, and Scanlon, 2021, "TraceGen: User activity emulation for digital forensic test image generation", FSI: Digital Investigation 38, 301133. Source for the early VM-external/internal CSV-driven action-scripting approach and its documented ShellBag artifact-fidelity gap between automated and manual file-copy actions.
+- [LWCite-1059] Pawlaszczyk et al., 2025, "AI-driven dataset creation in mobile forensics using LLM-based storyboards", FSI: Digital Investigation 55.
+- [LWCite-1061] Gonzales et al., 2025, "AKF: A modern synthesis framework for building datasets in digital forensics", FSI: Digital Investigation 55.
+- [LWCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.
+- [LWCite-1247] Göbel et al., 2022, "ForTrace - A holistic forensic data set synthesis framework", FSI: Digital Investigation 40, 301344.
+- [LWCite-1267] Wolf, Göbel, and Baier, 2024, "Hypervisor-based data synthesis: On its potential to tackle the curse of client-side agent remnants in forensic image generation", FSI: Digital Investigation 48, 301690.
+- [LWCite-1273] Schmidt and Baier, 2026, "Improving trace synthesis by utilizing computer vision for user action emulation", FSI: Digital Investigation 56, 302073. Replaces template-matching-based GUI interaction targeting with a computer-vision object-detection model for more robust and realistic agent-less scenario driving.
+- [LWCite-1315] Davies, Macfarlane, and Buchanan, 2022, "NapierOne: A modern mixed file data set alternative to Govdocs1", FSI: Digital Investigation 40, 301330. Documents the real-world-file-curation methodology and resulting benchmark corpus used as a complement to Govdocs1 for ransomware-detection and other forensic tool testing.
+- [LWCite-1338] Göbel, Breitinger, and Baier, 2025, "Optimising data set creation in the cybersecurity landscape with a special focus on digital forensics: Principles, characteristics, and use cases", FSI: Digital Investigation 52, 301882. Systematic literature review deriving 15 cross-cutting dataset-quality properties and 10 common failure modes applicable to any dataset-creation method covered by this page.
+- [LWCite-1346] Hirano, Hodota, and Kobayashi, 2022, "RanSAP: An open dataset of ransomware storage access patterns for training machine learning models", FSI: Digital Investigation 40, 301314. Source for the hypervisor-based dynamic storage-access-pattern dataset generation approach.
+- [LWCite-1347] Voigt, Freiling, and Hargreaves, 2024, "Re-imagen: Generating coherent background activity in synthetic scenario-based forensic datasets using large language models", FSI: Digital Investigation 50, 301805. Source for the LLM-persona-driven coherent background-activity generation approach, built on the same agent-less GUI automation tool as the ForTrace variant already covered by this page.
+- [LWCite-1355] Kombrink, van Lierop, Stolwijk, Worring, Vrijdag, and Geradts, 2025, "REVEAL: A large-scale comprehensive image dataset for steganalysis", FSI: Digital Investigation 55, 302006. Source for the large-scale, multi-camera, multi-algorithm steganalysis benchmark dataset approach.
+- [LWCite-1357] Gonçalves, Dolos, Stebner, Attenberger, and Baier, 2022, "Revisiting the dataset gap problem – On availability, assessment and perspective of mobile forensic corpora", FSI: Digital Investigation 43, 301439. Source for the quantity/quality/timeliness mobile-forensic-corpora assessment methodology and its finding that most available mobile corpora are insufficiently realistic or outdated.
+- [LWCite-2084] Breitinger and Jotterand, 2023, "Sharing datasets for digital forensic: A novel taxonomy and legal concerns", FSI: Digital Investigation 45, 301562. Source for the structured/semi-structured/unstructured organization taxonomy, the synthetic/human origin taxonomy, and the direct/indirect/sensitive/illegal data-sensitivity categories used to clear a dataset for sharing under GDPR and copyright law.
+- [LWCite-2085] Rana, Hasnat, and Rahaman, 2022, "SMIFD-1000: Social media image forgery detection database", FSI: Digital Investigation 41, 301392. Source for the curated, richly-annotated (pixel-level and attribute-level) real-world social-media image-splicing dataset covered as an example of curated real-world dataset construction.
+- [LWCite-2123] Du, Hargreaves, Sheppard, and Scanlon, 2021, "TraceGen: User activity emulation for digital forensic test image generation", FSI: Digital Investigation 38, 301133. Source for the early VM-external/internal CSV-driven action-scripting approach and its documented ShellBag artifact-fidelity gap between automated and manual file-copy actions.

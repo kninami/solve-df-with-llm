@@ -1,14 +1,14 @@
 ---
-id: DFW-1220
+id: LWW-1220
 type: weakness
 name: Standard infotainment forensic analysis limited to allocated files misses deleted SQLite databases recoverable from unallocated space
 description: An in-vehicle infotainment hard disk examination that only parses the databases the live file system currently references will miss entire deleted SQLite database files — including ones containing message content absent from any live table — that unallocated-space carving can still recover.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1220
+  - LWM-1220
 source_refs:
-  - DFCite-1231
+  - LWCite-1231
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Because deleted SQLite database files persist as intact, individually carvable u
 
 ## References
 
-- [DFCite-1231] Marques, Domingues, Frade and Negrão, 2026, "Forensic analysis of the infotainment system of BMW vehicles", FSI: Digital Investigation 56, 302066.
+- [LWCite-1231] Marques, Domingues, Frade and Negrão, 2026, "Forensic analysis of the infotainment system of BMW vehicles", FSI: Digital Investigation 56, 302066.

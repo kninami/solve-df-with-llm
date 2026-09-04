@@ -1,14 +1,14 @@
 ---
-id: DFW-1216
+id: LWW-1216
 type: weakness
 name: Conversation identifiers for the same conversational AI exchange can diverge across a user's client platforms and cloud export
 description: The GUID-format identifier assigned to a single conversational AI conversation is usually consistent across a user's Android app, iOS app, and cloud export copies of that conversation, but for some conversations (most often voice-chat sessions) the same underlying conversation is recorded under a different ID on one platform than on the others, for reasons the source study could not determine.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1216
+  - LWM-1216
 source_refs:
-  - DFCite-1226
+  - LWCite-1226
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who correlates a suspect's conversational AI activity across dev
 
 ## References
 
-- [DFCite-1226] Dragonas et al., 2024, "Forensic analysis of OpenAI's ChatGPT mobile application", FSI: Digital Investigation 50, 301801.
+- [LWCite-1226] Dragonas et al., 2024, "Forensic analysis of OpenAI's ChatGPT mobile application", FSI: Digital Investigation 50, 301801.

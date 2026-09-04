@@ -1,14 +1,14 @@
 ---
-id: DFW-1293
+id: LWW-1293
 type: weakness
 name: Software supply chain attack behavior detection depends on previously characterized queries and cannot detect a not-yet-catalogued attack behavior
 description: Because semantic-graph-query-based SSCA detection can only flag a binary for behaviors that have already been manually reverse-engineered and encoded as a query from prior known attacks, a supply chain attack using a genuinely novel technique with no characterized-behavior overlap will not be matched by any existing query and will pass through undetected by this method alone.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1294
+  - LWM-1294
 source_refs:
-  - DFCite-1325
+  - LWCite-1325
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who relies on this detection framework as a complete SSCA screen
 
 ## References
 
-- [DFCite-1325] Andreoli, Lounis, Debbabi, and Hanna, 2023, "On the prevalence of software supply chain attacks: Empirical study and investigative framework", FSI: Digital Investigation 44, 301508.
+- [LWCite-1325] Andreoli, Lounis, Debbabi, and Hanna, 2023, "On the prevalence of software supply chain attacks: Empirical study and investigative framework", FSI: Digital Investigation 44, 301508.

@@ -1,11 +1,11 @@
 ---
-id: DFM-1058
+id: LWM-1058
 type: mitigation
 name: Verify the target app's specific implementation is vulnerable before applying a published hash-reversal technique
 source_refs:
-  - DFCite-1048
-  - DFCite-1150
-  - DFCite-1214
+  - LWCite-1048
+  - LWCite-1150
+  - LWCite-1214
 updated_at: 2026-08-13
 status: complete
 ---
@@ -26,6 +26,6 @@ Identify the exact app package and version installed on the target device, and w
 
 ## References
 
-- [DFCite-1150] Paulino et al., 2025, "Decrypting messages: Extracting digital evidence from signal desktop for windows", FSI: Digital Investigation 54.
-- [DFCite-1048] Kim et al., 2021, "A study on LG content lock and data acquisition from apps based on content lock function", FSI: Digital Investigation 39.
-- [DFCite-1214] Kang et al., 2024, "Forensic analysis and data decryption of tencent meeting in windows environment", FSI: Digital Investigation 51, 301818.
+- [LWCite-1150] Paulino et al., 2025, "Decrypting messages: Extracting digital evidence from signal desktop for windows", FSI: Digital Investigation 54.
+- [LWCite-1048] Kim et al., 2021, "A study on LG content lock and data acquisition from apps based on content lock function", FSI: Digital Investigation 39.
+- [LWCite-1214] Kang et al., 2024, "Forensic analysis and data decryption of tencent meeting in windows environment", FSI: Digital Investigation 51, 301818.

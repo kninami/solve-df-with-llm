@@ -1,5 +1,5 @@
 ---
-id: DFT-2084
+id: LWT-2084
 type: technique
 name: Analyze SGX enclave memory using kernel-structure and user-space interface reverse engineering
 description: Investigate an Intel SGX-enabled machine's memory image in three phases -- acquisition-time detection of SGX hardware capabilities via CPUID, kernel-space analysis of the OS's enclave-tracking data structures (Linux sgx_encl / vm_private_data) to enumerate loaded and "zombie" enclaves, and user-space analysis inferring an enclave's memory layout and its secure/outside function interface from the host process's memory -- to recover as much information as possible about SGX enclaves despite SGX's hardware-enforced memory isolation blocking direct content inspection in release mode.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1017
   - DFO-1019
 weakness_ids:
-  - DFW-2087
+  - LWW-2087
 aliases:
   - SGX memory forensics
 source_refs:
-  - DFCite-2102
+  - LWCite-2102
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ Intel Software Guard Extensions (SGX) create hardware-isolated memory regions ca
 
 ## References
 
-- [DFCite-2102] Toffalini, Oliveri, Graziano, Zhou, and Balzarotti, 2021, "The evidence beyond the wall: Memory forensics in SGX environments", FSI: Digital Investigation 39, 301313.
+- [LWCite-2102] Toffalini, Oliveri, Graziano, Zhou, and Balzarotti, 2021, "The evidence beyond the wall: Memory forensics in SGX environments", FSI: Digital Investigation 39, 301313.

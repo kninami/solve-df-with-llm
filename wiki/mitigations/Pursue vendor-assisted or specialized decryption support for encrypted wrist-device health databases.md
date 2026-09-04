@@ -1,9 +1,9 @@
 ---
-id: DFM-2135
+id: LWM-2135
 type: mitigation
 name: Pursue vendor-assisted or specialized decryption support for encrypted wrist-device health databases
 source_refs:
-  - DFCite-2156
+  - LWCite-2156
 updated_at: 2026-08-17
 status: complete
 ---
@@ -24,4 +24,4 @@ Document exactly which database and keystore files were recovered but could not 
 
 ## References
 
-- [DFCite-2156] Almubairik et al., 2025, "WristSense framework: Exploring the forensic potential of wrist-wear devices through case studies", FSI: Digital Investigation 52.
+- [LWCite-2156] Almubairik et al., 2025, "WristSense framework: Exploring the forensic potential of wrist-wear devices through case studies", FSI: Digital Investigation 52.

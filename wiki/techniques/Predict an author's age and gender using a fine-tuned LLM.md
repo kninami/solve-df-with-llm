@@ -1,17 +1,17 @@
 ---
-id: DFT-1186
+id: LWT-1186
 type: technique
 name: Predict an author's age and gender using a fine-tuned LLM
 description: Fine-tune a large language model, using full fine-tuning or a parameter-efficient method such as LoRA/QLoRA, on labeled writing samples to predict an anonymous or pseudonymous author's demographic characteristics — such as age group and gender — from their writing style, narrowing a suspect pool in text-based investigations.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1193
+  - LWW-1193
 aliases:
   - LLM-based author profiling
   - Author profiling for digital text forensics
 source_refs:
-  - DFCite-1201
+  - LWCite-1201
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ Three multilingual/low-resource LLMs (Polyglot, EEVE, Bllossom) were fine-tuned 
 
 ## References
 
-- [DFCite-1201] Cho et al., 2024, "Exploring the potential of large language models for author profiling tasks in digital text forensics", FSI: Digital Investigation 50.
+- [LWCite-1201] Cho et al., 2024, "Exploring the potential of large language models for author profiling tasks in digital text forensics", FSI: Digital Investigation 50.

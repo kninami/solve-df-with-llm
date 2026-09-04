@@ -1,17 +1,17 @@
 ---
-id: DFT-1013
+id: LWT-1013
 type: technique
 name: Preserve cryptocurrency by transferring it to a controlled address
 description: Insert a "Transfer cryptocurrency" phase before data acquisition and hashing in the digital forensics process, moving a suspect's cryptocurrency from hosted, unhosted, or paper wallets into a freshly created, LEA-controlled address to prevent the funds from being moved, hidden, or lost before the device itself is imaged.
 objective_ids:
   - DFO-1010
 weakness_ids:
-  - DFW-1013
+  - LWW-1013
 aliases:
   - Controlled-address cryptocurrency transfer preservation
   - crypto wallet triage and transfer
 source_refs:
-  - DFCite-1007
+  - LWCite-1007
 updated_at: 2026-08-09
 status: complete
 ---
@@ -40,4 +40,4 @@ Triage locates crypto artifacts (wallet applications, credentials, seed words, e
 
 ## References
 
-- [DFCite-1007] Taylor et al., 2022, "A comprehensive forensic preservation methodology for crypto wallets", FSI: Digital Investigation 42-43.
+- [LWCite-1007] Taylor et al., 2022, "A comprehensive forensic preservation methodology for crypto wallets", FSI: Digital Investigation 42-43.

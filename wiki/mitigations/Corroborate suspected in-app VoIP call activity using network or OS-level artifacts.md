@@ -1,9 +1,9 @@
 ---
-id: DFM-1214
+id: LWM-1214
 type: mitigation
 name: Corroborate suspected in-app VoIP call activity using network or OS-level artifacts
 source_refs:
-  - DFCite-1225
+  - LWCite-1225
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Before conducting an examination, test the specific app version's call-logging b
 
 ## References
 
-- [DFCite-1225] Akinbi and Ojie, 2021, "Forensic analysis of open-source XMPP multi-client social networking apps on iOS devices", FSI: Digital Investigation 36.
+- [LWCite-1225] Akinbi and Ojie, 2021, "Forensic analysis of open-source XMPP multi-client social networking apps on iOS devices", FSI: Digital Investigation 36.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1155
+id: LWT-1155
 type: technique
 name: Detect communication-based cybercrime using supervised linguistic-semantic classification
 description: Score an incoming human-to-human communication message (email, chat, or other SaaS message) against a supervised machine-learning model trained on lexical, syntactic, and semantic features to classify it as benign or as a specific cybercrime type — phishing, fraud, impersonation, or identity theft — producing a calibrated risk score investigators can act on.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1159
+  - LWW-1159
 aliases:
   - Deterministic linguistic-semantic feature extraction and supervised ML scoring for cybercrime detection
   - DFR-HCI detection function S(X_u)
 source_refs:
-  - DFCite-1161
+  - LWCite-1161
 updated_at: 2026-08-12
 status: complete
 ---
@@ -41,4 +41,4 @@ The feature-extraction step is applied deterministically (tokenization, normaliz
 
 ## References
 
-- [DFCite-1161] Omeleze Baror et al., 2026, "DFR–HCI: A forensic-ready microservice architecture for human-to-human communication-based cybercrime detection", FSI: Digital Investigation 58, 302134.
+- [LWCite-1161] Omeleze Baror et al., 2026, "DFR–HCI: A forensic-ready microservice architecture for human-to-human communication-based cybercrime detection", FSI: Digital Investigation 58, 302134.

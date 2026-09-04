@@ -1,14 +1,14 @@
 ---
-id: DFW-2125
+id: LWW-2125
 type: weakness
 name: LLM process-triage decision rules omit legitimate processes commonly abused by ransomware
 description: A prompt-based process-triage decision ruleset that judges suspiciousness mainly from process naming and spawn relationships fails to flag legitimate Windows utilities (vssadmin.exe, vssvc.exe, cmd.exe) that ransomware invokes to delete shadow copies or run encryption batch scripts, because the ruleset contains no rule tied to that malicious usage pattern.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2126
+  - LWM-2126
 source_refs:
-  - DFCite-2147
+  - LWCite-2147
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ A false negative in ransomware process triage means the process responsible for 
 
 ## References
 
-- [DFCite-2147] Oh et al., 2024, "volGPT: Evaluation on triaging ransomware process in memory forensics with Large Language Model", FSI: Digital Investigation 49.
+- [LWCite-2147] Oh et al., 2024, "volGPT: Evaluation on triaging ransomware process in memory forensics with Large Language Model", FSI: Digital Investigation 49.

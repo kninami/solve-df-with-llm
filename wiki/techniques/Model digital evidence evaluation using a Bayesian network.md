@@ -1,17 +1,17 @@
 ---
-id: DFT-1179
+id: LWT-1179
 type: technique
 name: Model digital evidence evaluation using a Bayesian network
 description: Combine multiple digital forensic findings into a single, structured, logically-sound probabilistic evaluation by building a case-specific Bayesian network from a set of competing propositions, deriving a likelihood ratio from it to support a transparent, balanced evaluative report.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1187
+  - LWW-1187
 aliases:
   - Bayesian network evidence evaluation
   - BN modeling for Trojan horse defense cases
 source_refs:
-  - DFCite-1190
+  - LWCite-1190
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ The construction proceeds in a fixed sequence of node types: a black proposition
 
 ## References
 
-- [DFCite-1190] Vink et al., 2025, "Evaluating digital forensic findings in Trojan horse defense cases using Bayesian networks", FSI: Digital Investigation 55, 302023.
+- [LWCite-1190] Vink et al., 2025, "Evaluating digital forensic findings in Trojan horse defense cases using Bayesian networks", FSI: Digital Investigation 55, 302023.

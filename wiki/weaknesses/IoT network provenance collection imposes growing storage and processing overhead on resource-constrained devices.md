@@ -1,14 +1,14 @@
 ---
-id: DFW-1304
+id: LWW-1304
 type: weakness
 name: IoT network provenance collection imposes growing storage and processing overhead on resource-constrained devices
 description: Continuously logging provenance data for every node interaction across an IoT network causes the provenance store to grow over time and consumes processing resources on devices that are already constrained in memory, storage, and battery, creating a trade-off between forensic readiness (more complete provenance) and the resource budget available for a device's primary function.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1306
+  - LWM-1306
 source_refs:
-  - DFCite-1340
+  - LWCite-1340
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or system designer deploying continuous provenance-based forensi
 
 ## References
 
-- [DFCite-1340] Sadineni, Pilli, and Battula, 2023, "ProvLink-IoT: A novel provenance model for Link-Layer Forensics in IoT networks", FSI: Digital Investigation 46, 301600.
+- [LWCite-1340] Sadineni, Pilli, and Battula, 2023, "ProvLink-IoT: A novel provenance model for Link-Layer Forensics in IoT networks", FSI: Digital Investigation 46, 301600.

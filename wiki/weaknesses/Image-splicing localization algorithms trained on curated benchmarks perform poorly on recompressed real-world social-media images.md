@@ -1,14 +1,14 @@
 ---
-id: DFW-2077
+id: LWW-2077
 type: weakness
 name: Image-splicing localization algorithms trained on curated benchmarks perform poorly on recompressed real-world social-media images
 description: Established image-splicing localization algorithms (e.g. ADQ1, BLK, CAGI, CFA, ELA, DCT, NOI5) achieve much lower true-positive detection rates when benchmarked against images that have been through the repeated re-compression, resizing, and platform-specific processing typical of social media, compared to their reported performance on curated, unprocessed benchmark datasets.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2078
+  - LWM-2078
 source_refs:
-  - DFCite-2085
+  - LWCite-2085
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ Because social-media platforms routinely re-compress and resize uploaded images 
 
 ## References
 
-- [DFCite-2085] Rana, Hasnat, and Rahaman, 2022, "SMIFD-1000: Social media image forgery detection database", FSI: Digital Investigation 41, 301392.
+- [LWCite-2085] Rana, Hasnat, and Rahaman, 2022, "SMIFD-1000: Social media image forgery detection database", FSI: Digital Investigation 41, 301392.

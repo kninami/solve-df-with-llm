@@ -1,14 +1,14 @@
 ---
-id: DFW-2047
+id: LWW-2047
 type: weakness
 name: Tell-tale watermarking provides no forensic traceability for media not proactively watermarked before synthesis
 description: Tell-tale watermarking is a proactive defence that must be embedded into an image before any synthesis or editing occurs, so it provides zero forensic traceability for the vast majority of images an investigator encounters, which were never watermarked at creation time, and its transformation-chain reasoning is further restricted to a fixed, assumed transform ordering.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2047
+  - LWM-2047
 source_refs:
-  - DFCite-2048
+  - LWCite-2048
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator cannot retroactively apply tell-tale watermarking to media alrea
 
 ## References
 
-- [DFCite-2048] Chang and Echizen, 2026 — the paper's own "Conclusion" section explicitly frames the system as a proactive defence contingent on prior watermark embedding, and identifies the fixed-transform-ordering restriction as an open problem.
+- [LWCite-2048] Chang and Echizen, 2026 — the paper's own "Conclusion" section explicitly frames the system as a proactive defence contingent on prior watermark embedding, and identifies the fixed-transform-ordering restriction as an open problem.

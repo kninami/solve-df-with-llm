@@ -1,9 +1,9 @@
 ---
-id: DFM-1289
+id: LWM-1289
 type: mitigation
 name: Apply temporal or checkpoint-record event filtering before relying on NTFS data-run history events
 source_refs:
-  - DFCite-1319
+  - LWCite-1319
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When using [[techniques/Reconstruct a file's complete data history from NTFS $Lo
 
 ## References
 
-- [DFCite-1319] Oh, Lee, and Hwang, 2021, "NTFS Data Tracker: Tracking file data history based on $LogFile", FSI: Digital Investigation 39, 301309.
+- [LWCite-1319] Oh, Lee, and Hwang, 2021, "NTFS Data Tracker: Tracking file data history based on $LogFile", FSI: Digital Investigation 39, 301309.

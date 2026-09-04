@@ -1,14 +1,14 @@
 ---
-id: DFW-1114
+id: LWW-1114
 type: weakness
 name: Static single-location cell-site surveys are susceptible to false negatives that exclude legitimately serving cells
 description: A survey taken from a single fixed point with a single unit tends to detect only the cell with the strongest signal or a subset of legitimately serving cells at that instant, systematically missing other cells that genuinely serve the location and that a real device could have selected at a different moment or under different network conditions.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1114
+  - LWM-1114
 source_refs:
-  - DFCite-1108
+  - LWCite-1108
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who uses a minimal static survey to conclude that a call data re
 
 ## References
 
-- [DFCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.
+- [LWCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.

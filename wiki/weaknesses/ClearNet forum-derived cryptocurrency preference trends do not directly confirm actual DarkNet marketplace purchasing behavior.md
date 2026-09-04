@@ -1,14 +1,14 @@
 ---
-id: DFW-2093
+id: LWW-2093
 type: weakness
 name: ClearNet forum-derived cryptocurrency preference trends do not directly confirm actual DarkNet marketplace purchasing behavior
 description: Topic-prevalence and sentiment trends derived from ClearNet forum discussion about DarkNet market cryptocurrency use reflect what a self-selected subset of forum participants chose to write, which is not the same evidence as an actual record of which cryptocurrencies were used in real DarkNet marketplace transactions, so a discussion-derived preference trend can diverge from genuine purchasing behavior.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2094
+  - LWM-2094
 source_refs:
-  - DFCite-2110
+  - LWCite-2110
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or researcher who treats a ClearNet-forum-derived preference tre
 
 ## References
 
-- [DFCite-2110] "The shift of DarkNet illegal drug trade preferences in cryptocurrency: The question of traceability and deterrence", FSI: Digital Investigation 48, 2024.
+- [LWCite-2110] "The shift of DarkNet illegal drug trade preferences in cryptocurrency: The question of traceability and deterrence", FSI: Digital Investigation 48, 2024.

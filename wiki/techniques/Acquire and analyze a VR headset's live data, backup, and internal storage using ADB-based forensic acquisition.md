@@ -1,5 +1,5 @@
 ---
-id: DFT-2116
+id: LWT-2116
 type: technique
 name: Acquire and analyze a VR headset's live data, backup, and internal storage using ADB-based forensic acquisition
 description: Forensically acquire an Android-based virtual reality headset (e.g. Meta Quest 2) by enabling Developer Mode and USB debugging through its companion mobile app, then using Android Debug Bridge (ADB) to pull a live-system dumpsys data snapshot, an application-backup archive, and the device's internal SD-card-equivalent storage, recovering device/account information, installed-application details, and user-activity artifacts without requiring root access.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1006
   - DFO-1011
 weakness_ids:
-  - DFW-2122
+  - LWW-2122
 aliases:
   - Meta Quest 2 forensic acquisition
 source_refs:
-  - DFCite-2145
+  - LWCite-2145
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ Because ADB is disabled by default, Developer Mode must first be enabled by upgr
 
 ## References
 
-- [DFCite-2145] Raymer, MacDermott, and Akinbi, 2023, "Virtual reality forensics: Forensic analysis of Meta Quest 2", FSI: Digital Investigation 47, 301658.
+- [LWCite-2145] Raymer, MacDermott, and Akinbi, 2023, "Virtual reality forensics: Forensic analysis of Meta Quest 2", FSI: Digital Investigation 47, 301658.

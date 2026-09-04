@@ -1,9 +1,9 @@
 ---
-id: DFM-1179
+id: LWM-1179
 type: mitigation
 name: Supplement lower-parameter GPS flight logs with GCS, mobile-app, and media metadata
 source_refs:
-  - DFCite-1181
+  - LWCite-1181
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Extract the GCS/mobile-app companion data alongside the drone's own flight log (
 
 ## References
 
-- [DFCite-1181] Kumar and Agrawal, 2021, "Drone GPS data analysis for flight path reconstruction: A study on DJI, Parrot & Yuneec make drones", FSI: Digital Investigation 38. Establishes the parameter-richness gap between DJI and non-DJI flight logs that motivates supplementing with other evidence sources.
+- [LWCite-1181] Kumar and Agrawal, 2021, "Drone GPS data analysis for flight path reconstruction: A study on DJI, Parrot & Yuneec make drones", FSI: Digital Investigation 38. Establishes the parameter-richness gap between DJI and non-DJI flight logs that motivates supplementing with other evidence sources.

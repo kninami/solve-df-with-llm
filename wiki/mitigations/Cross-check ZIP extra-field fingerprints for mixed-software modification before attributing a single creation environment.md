@@ -1,9 +1,9 @@
 ---
-id: DFM-1199
+id: LWM-1199
 type: mitigation
 name: Cross-check ZIP extra-field fingerprints for mixed-software modification before attributing a single creation environment
 source_refs:
-  - DFCite-1210
+  - LWCite-1210
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Run the automated extra-field classifier against every entry's local and central
 
 ## References
 
-- [DFCite-1210] Um et al., 2021, "File fingerprinting of the ZIP format for identifying and tracking provenance", FSI: Digital Investigation 39, 301271.
+- [LWCite-1210] Um et al., 2021, "File fingerprinting of the ZIP format for identifying and tracking provenance", FSI: Digital Investigation 39, 301271.

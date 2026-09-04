@@ -1,18 +1,18 @@
 ---
-id: DFT-2118
+id: LWT-2118
 type: technique
 name: Triage suspicious memory-resident processes using LLM decision-rule prompting
 description: Extract process-list, VAD, and code-injection data from a memory dump via memory-forensics framework plugins, structure it as JSON, and prompt a large language model with domain-specific decision rules to flag suspicious processes and explain the reasoning in natural language.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-2124
-  - DFW-2125
+  - LWW-2124
+  - LWW-2125
 aliases:
   - volGPT
   - LLM-based ransomware process triage
 source_refs:
-  - DFCite-2147
+  - LWCite-2147
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,4 +42,4 @@ The prompt is assembled from five components applied in sequence: a persona patt
 
 ## References
 
-- [DFCite-2147] Oh et al., 2024, "volGPT: Evaluation on triaging ransomware process in memory forensics with Large Language Model", FSI: Digital Investigation 49.
+- [LWCite-2147] Oh et al., 2024, "volGPT: Evaluation on triaging ransomware process in memory forensics with Large Language Model", FSI: Digital Investigation 49.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1063
+id: LWT-1063
 type: technique
 name: Generate SQLite forensic queries using a fine-tuned text-to-SQL LLM
 description: Assist a digital forensic investigator in querying heterogeneous, application-specific SQLite databases recovered from mobile devices by using a small, domain-fine-tuned large language model to translate a natural-language question and the target database's schema into an executable SQL query, avoiding the need for the investigator to have deep SQL and per-application schema expertise, and enabling fully local (non-cloud) inference for chain-of-custody and privacy reasons.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1068
+  - LWW-1068
 aliases:
   - Fine-tuned LLM text-to-SQL query generation for SQLite forensic analysis
   - ForSQLiteLM
 source_refs:
-  - DFCite-1058
+  - LWCite-1058
 updated_at: 2026-08-10
 status: complete
 ---
@@ -40,4 +40,4 @@ The base LLaMA 3.2 3B model was fine-tuned on a novel dataset of natural-languag
 
 ## References
 
-- [DFCite-1058] Pawlaszczyk et al., 2026, "AI-based automated SQL query generation for SQLite databases in Mobile forensics", FSI: Digital Investigation 57.
+- [LWCite-1058] Pawlaszczyk et al., 2026, "AI-based automated SQL query generation for SQLite databases in Mobile forensics", FSI: Digital Investigation 57.

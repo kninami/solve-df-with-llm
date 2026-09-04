@@ -1,9 +1,9 @@
 ---
-id: DFM-2054
+id: LWM-2054
 type: mitigation
 name: Correlate Cache and Windows OS artifacts when a Chromium browser's History database yields no deleted-record recovery
 source_refs:
-  - DFCite-2055
+  - LWCite-2055
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Follow a structured cross-artifact search: use any known filename, URL, or searc
 
 ## References
 
-- [DFCite-2055] Berham and Morris, 2022 — Section 4.5 and Figure 3/4 document the full cross-artifact recovery of the deleted DogLeft.png download record from SRUDB.dat and the partial recovery from browser-internal log files.
+- [LWCite-2055] Berham and Morris, 2022 — Section 4.5 and Figure 3/4 document the full cross-artifact recovery of the deleted DogLeft.png download record from SRUDB.dat and the partial recovery from browser-internal log files.

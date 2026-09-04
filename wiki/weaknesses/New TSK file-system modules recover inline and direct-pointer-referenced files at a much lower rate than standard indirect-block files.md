@@ -1,14 +1,14 @@
 ---
-id: DFW-2101
+id: LWW-2101
 type: weakness
 name: New TSK file-system modules recover inline and direct-pointer-referenced files at a much lower rate than standard indirect-block files
 description: A newly implemented file-system-specific module's deleted-file recovery approach, tuned primarily for a file system's standard indirect-block file-addressing structures, recovers files stored via alternative addressing mechanisms -- such as F2FS's inline-data feature or direct-pointer referencing -- at a substantially lower rate, since these alternative structures are not laid out or discoverable the same way as standard indirect-block files.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2102
+  - LWM-2102
 source_refs:
-  - DFCite-2118
+  - LWCite-2118
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on a new file-system module's overall deleted-file recov
 
 ## References
 
-- [DFCite-2118] "Towards a practical usage for the Sleuth Kit supporting file system add-ons", FSI: Digital Investigation 48, 2024.
+- [LWCite-2118] "Towards a practical usage for the Sleuth Kit supporting file system add-ons", FSI: Digital Investigation 48, 2024.

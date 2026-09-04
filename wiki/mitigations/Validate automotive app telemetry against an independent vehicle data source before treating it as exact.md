@@ -1,9 +1,9 @@
 ---
-id: DFM-1164
+id: LWM-1164
 type: mitigation
 name: Validate automotive app telemetry against an independent vehicle data source before treating it as exact
 source_refs:
-  - DFCite-1166
+  - LWCite-1166
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Where the case turns on a precise speed or exact-time determination, note in the
 
 ## References
 
-- [DFCite-1166] Sumaila and Bahsi, 2022, "Digital forensic analysis of mobile automotive maintenance applications", FSI: Digital Investigation 43, 301440.
+- [LWCite-1166] Sumaila and Bahsi, 2022, "Digital forensic analysis of mobile automotive maintenance applications", FSI: Digital Investigation 43, 301440.

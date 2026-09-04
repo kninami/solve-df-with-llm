@@ -1,14 +1,14 @@
 ---
-id: DFW-1303
+id: LWW-1303
 type: weakness
 name: A worst-case maximal Huffman table configuration can suppress bit-level JPEG fragmentation-point validation
 description: When a JPEG's Huffman tables are configured at their maximal, most-permissive extent (the HT-max worst case), the Huffman-code-lookup validation mechanism is significantly weakened, and in several documented test cases an incorrect, fragmented bitstream was accepted as fully valid all the way through to the End-of-File marker check, with no earlier validation mechanism flagging it as invalid.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1305
+  - LWM-1305
 source_refs:
-  - DFCite-1339
+  - LWCite-1339
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on this validator against a JPEG whose Huffman tables ha
 
 ## References
 
-- [DFCite-1339] van der Meer, van den Bos, Jonker, and Dassen, 2024, "Problem solved: A reliable, deterministic method for JPEG fragmentation point detection", FSI: Digital Investigation 48, 301687.
+- [LWCite-1339] van der Meer, van den Bos, Jonker, and Dassen, 2024, "Problem solved: A reliable, deterministic method for JPEG fragmentation point detection", FSI: Digital Investigation 48, 301687.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1032
+id: LWT-1032
 type: technique
 name: Triage unstructured string-search output using clustering-assisted LLM analysis
 description: Group the noisy plaintext output of a string-search/extraction pass over a raw forensic disk image into thematically coherent clusters using unsupervised k-means clustering on word embeddings, then query each cluster with a large language model to extract and describe forensically relevant information, avoiding both the loss-of-context problem of naive fixed-size chunking and the unmanageable volume of unclustered raw string output.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1033
+  - LWW-1033
 aliases:
   - Clustering-assisted LLM triage of unstructured forensic string-search output
 source_refs:
-  - DFCite-1023
+  - LWCite-1023
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ Text lines are embedded (e.g., via a subword-aware embedding model robust to noi
 
 ## References
 
-- [DFCite-1023] Fayyaz et al., 2024, "A hybrid artificial intelligence framework for enhancing digital forensic investigations of infotainment systems", FSI: Digital Investigation 49.
+- [LWCite-1023] Fayyaz et al., 2024, "A hybrid artificial intelligence framework for enhancing digital forensic investigations of infotainment systems", FSI: Digital Investigation 49.

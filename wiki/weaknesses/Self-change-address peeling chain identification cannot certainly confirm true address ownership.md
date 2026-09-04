@@ -1,14 +1,14 @@
 ---
-id: DFW-1085
+id: LWW-1085
 type: weakness
 name: Self-change-address peeling chain identification cannot certainly confirm true address ownership
 description: Even after filtering candidate chains using self-change addresses and cross-verifying internal transaction parameters, it is not possible to be absolutely certain that a given extracted chain is genuinely a mixer-generated peeling chain, because the actual real-world owner of a given Bitcoin address cannot currently be verified from on-chain data alone, and mixing services do not publicly disclose their address data.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1085
+  - LWM-1085
 source_refs:
-  - DFCite-1075
+  - LWCite-1075
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on peeling-chain identification results to support an at
 
 ## References
 
-- [DFCite-1075] Gong et al., 2023, "Analyzing the peeling chain patterns on the Bitcoin blockchain", FSI: Digital Investigation 46.
+- [LWCite-1075] Gong et al., 2023, "Analyzing the peeling chain patterns on the Bitcoin blockchain", FSI: Digital Investigation 46.

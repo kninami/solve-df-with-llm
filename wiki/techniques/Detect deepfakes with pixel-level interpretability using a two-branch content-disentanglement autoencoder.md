@@ -1,5 +1,5 @@
 ---
-id: DFT-2078
+id: LWT-2078
 type: technique
 name: Detect deepfakes with pixel-level interpretability using a two-branch content-disentanglement autoencoder
 description: Detect a manipulated facial image or video frame while also generating a pixel-level "real-map" and "fake-map" that visually decompose the input into its genuine and forged content, giving an investigator a directly interpretable visual explanation of which specific pixels the model judged forged, rather than only a black-box real/fake classification score.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1019
   - DFO-1020
 weakness_ids:
-  - DFW-1265
+  - LWW-1265
 aliases:
   - TAENet
   - Two-branch Autoencoder Network
 source_refs:
-  - DFCite-2094
+  - LWCite-2094
 updated_at: 2026-08-16
 status: complete
 ---
@@ -45,4 +45,4 @@ The architecture has three components. Content Feature Disentanglement uses a du
 
 ## References
 
-- [DFCite-2094] Du, Yu, Li, Chow, Jiang, Zhang, Liang, Li, and Huang, 2024, "TAENet: Two-branch Autoencoder Network for Interpretable Deepfake Detection", FSI: Digital Investigation 50, 301808.
+- [LWCite-2094] Du, Yu, Li, Chow, Jiang, Zhang, Liang, Li, and Huang, 2024, "TAENet: Two-branch Autoencoder Network for Interpretable Deepfake Detection", FSI: Digital Investigation 50, 301808.

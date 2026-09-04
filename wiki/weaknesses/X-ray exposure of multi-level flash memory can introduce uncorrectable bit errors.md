@@ -1,14 +1,14 @@
 ---
-id: DFW-1274
+id: LWW-1274
 type: weakness
 name: X-ray exposure of multi-level flash memory can introduce uncorrectable bit errors
 description: Using X-ray radiography or tomography to diagnose or reverse-engineer a component containing multi-level-cell NAND flash memory risks physically altering the stored charge state of memory cells, introducing bit errors that the flash's own error-correction capacity may not be able to fully correct, potentially damaging the very data the investigation aims to recover.
 categories:
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-1275
+  - LWM-1275
 source_refs:
-  - DFCite-1302
+  - LWCite-1302
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator using X-ray diagnostics or tomography to examine a damaged compo
 
 ## References
 
-- [DFCite-1302] Heckmann, Souvignet, Sauveron and Naccache, 2021, "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment", FSI: Digital Investigation 36, 301092.
+- [LWCite-1302] Heckmann, Souvignet, Sauveron and Naccache, 2021, "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment", FSI: Digital Investigation 36, 301092.

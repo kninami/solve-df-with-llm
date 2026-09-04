@@ -1,9 +1,9 @@
 ---
-id: DFM-1227
+id: LWM-1227
 type: mitigation
 name: Qualify fault-assisted eMMC extraction integrity with byte-level comparison and log every injection parameter and outcome
 source_refs:
-  - DFCite-1238
+  - LWCite-1238
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Only attempt fault injection after all standard logical and physical acquisition
 
 ## References
 
-- [DFCite-1238] Hugget et al., 2026, "Forensic qualification of fault-assisted access restoration on CMD42-locked eMMC: A case study", FSI: Digital Investigation 57, 302109.
+- [LWCite-1238] Hugget et al., 2026, "Forensic qualification of fault-assisted access restoration on CMD42-locked eMMC: A case study", FSI: Digital Investigation 57, 302109.

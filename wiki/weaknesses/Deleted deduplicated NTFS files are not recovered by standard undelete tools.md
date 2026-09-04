@@ -1,14 +1,14 @@
 ---
-id: DFW-1145
+id: LWW-1145
 type: weakness
 name: Deleted deduplicated NTFS files are not recovered by standard undelete tools
 description: A deleted-file-recovery tool that assumes a file's data lives in its own cluster runs will fail to recover a deleted deduplicated file, because the file's content is instead split across chunks shared with other files in the Chunk Store, and the mapping information needed to locate and reorder those chunks is not carved by traditional recovery methods.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1145
+  - LWM-1145
 source_refs:
-  - DFCite-1141
+  - LWCite-1141
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An examiner running a standard undelete or carving pass against a deduplication-
 
 ## References
 
-- [DFCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.
+- [LWCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.

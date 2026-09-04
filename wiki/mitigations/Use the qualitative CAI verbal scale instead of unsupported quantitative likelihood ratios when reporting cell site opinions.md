@@ -1,9 +1,9 @@
 ---
-id: DFM-1115
+id: LWM-1115
 type: mitigation
 name: Use the qualitative CAI verbal scale instead of unsupported quantitative likelihood ratios when reporting cell site opinions
 source_refs:
-  - DFCite-1108
+  - LWCite-1108
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ When forming and reporting a cell site opinion, select the CAI verbal-scale cate
 
 ## References
 
-- [DFCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.
+- [LWCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.

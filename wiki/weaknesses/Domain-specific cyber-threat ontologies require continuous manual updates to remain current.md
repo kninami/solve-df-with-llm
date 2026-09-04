@@ -1,14 +1,14 @@
 ---
-id: DFW-1053
+id: LWW-1053
 type: weakness
 name: Domain-specific cyber-threat ontologies require continuous manual updates to remain current
 description: A domain-specific cyber-threat and evidence ontology's coverage is fixed at the point it was authored; because the underlying technology domain (e.g., smart city infrastructure) continues to evolve with new threats, device types, and attack techniques, the ontology can only remain accurate and useful through ongoing, manually intensive literature review and expert engagement to identify and add new concepts.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1053
+  - LWM-1053
 source_refs:
-  - DFCite-1043
+  - LWCite-1043
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on a domain-specific ontology to identify all applicable
 
 ## References
 
-- [DFCite-1043] Tok et al., 2025, "A Smart City Infrastructure ontology for threats, cybercrime, and digital forensic investigation", FSI: Digital Investigation 52.
+- [LWCite-1043] Tok et al., 2025, "A Smart City Infrastructure ontology for threats, cybercrime, and digital forensic investigation", FSI: Digital Investigation 52.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1239
+id: LWM-1239
 type: mitigation
 name: Verify suspected-deepfake media using technical detection tools and blind procedures instead of a priori distrust
 source_refs:
-  - DFCite-1253
+  - LWCite-1253
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Require that any authenticity determination on multimedia evidence be supported 
 
 ## References
 
-- [DFCite-1253] Casu et al., 2024, "GenAI mirage: The impostor bias and the deepfake detection challenge in the era of artificial illusions", FSI: Digital Investigation 50, 301795.
+- [LWCite-1253] Casu et al., 2024, "GenAI mirage: The impostor bias and the deepfake detection challenge in the era of artificial illusions", FSI: Digital Investigation 50, 301795.

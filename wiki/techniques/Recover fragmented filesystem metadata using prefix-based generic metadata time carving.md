@@ -1,5 +1,5 @@
 ---
-id: DFT-2092
+id: LWT-2092
 type: technique
 name: Recover fragmented filesystem metadata using prefix-based generic metadata time carving
 description: Recover filesystem metadata records (e.g. NTFS $MFT entries, Ext4 inodes) from a disk image without relying on file signatures, by searching for approximately-equivalent, closely co-located candidate timestamps using a sliding-window byte search that only requires the most-significant bytes (the prefix) of candidate timestamps to match rather than requiring exact equivalence, then verifying each surviving candidate location against a filesystem-specific parser.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1018
   - DFO-1002
 weakness_ids:
-  - DFW-2096
+  - LWW-2096
 aliases:
   - Prefix-based Generic Metadata Time Carving
   - Prefix matching potential timestamp carving
 source_refs:
-  - DFCite-2113
+  - LWCite-2113
 updated_at: 2026-08-16
 status: complete
 ---
@@ -44,4 +44,4 @@ The underlying GMTC search uses a sliding window over the disk image's byte stre
 
 ## References
 
-- [DFCite-2113] Porter, Nordvik, Toolan, and Axelsson, 2021, "Timestamp prefix carving for filesystem metadata extraction", FSI: Digital Investigation 38, 301266.
+- [LWCite-2113] Porter, Nordvik, Toolan, and Axelsson, 2021, "Timestamp prefix carving for filesystem metadata extraction", FSI: Digital Investigation 38, 301266.

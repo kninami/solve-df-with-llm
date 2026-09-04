@@ -1,18 +1,18 @@
 ---
-id: DFT-1075
+id: LWT-1075
 type: technique
 name: Detect cross-artifact inconsistencies in CASE-UCO knowledge graphs using SPARQL
 description: Represent a forensic image's extracted artifacts as a CASE/UCO-ontology knowledge graph, then run reusable, schema-consistent SPARQL queries — Indicators of Inconsistency (IoIs) — against that graph to automatically detect contradictions among temporally, structurally, or semantically related artifacts (e.g. a file's recorded deletion time conflicting with its journal entries), surfacing anti-forensic tampering or other events of probative value that would otherwise require exhaustive manual cross-artifact correlation.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1081
+  - LWW-1081
 aliases:
   - SPARQL-based cross-artifact inconsistency detection over CASE-UCO forensic knowledge graphs
   - IoI framework
   - Indicator of Inconsistency
 source_refs:
-  - DFCite-1071
+  - LWCite-1071
 updated_at: 2026-08-10
 status: complete
 ---
@@ -41,4 +41,4 @@ An investigator encodes forensic knowledge — from prior casework, public incid
 
 ## References
 
-- [DFCite-1071] Gunestas et al., 2026, "An indicator of inconsistency framework for detecting contradictory digital artifacts", FSI: Digital Investigation 58.
+- [LWCite-1071] Gunestas et al., 2026, "An indicator of inconsistency framework for detecting contradictory digital artifacts", FSI: Digital Investigation 58.

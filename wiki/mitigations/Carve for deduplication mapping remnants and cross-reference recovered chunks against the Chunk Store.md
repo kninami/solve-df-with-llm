@@ -1,9 +1,9 @@
 ---
-id: DFM-1145
+id: LWM-1145
 type: mitigation
 name: Carve for deduplication mapping remnants and cross-reference recovered chunks against the Chunk Store
 source_refs:
-  - DFCite-1141
+  - LWCite-1141
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Search unallocated space and the `System Volume Information\Dedup\ChunkStore\<UI
 
 ## References
 
-- [DFCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.
+- [LWCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.

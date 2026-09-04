@@ -1,17 +1,17 @@
 ---
-id: DFT-1233
+id: LWT-1233
 type: technique
 name: Acquire a coherent ARM memory snapshot using stage-2 fault-trapping virtualization
 description: Acquire a coherent (non-smeared) memory image from a live ARM Linux system by wrapping the operating system in a thin EL2 hypervisor that temporarily marks all guest memory read-only, catches any write via an ARM stage-2 translation fault, copies the faulting page to a pool before releasing it, and only then lets a standard tool (LiME) scan and transmit the frozen contents — without suspending the operating system.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1251
+  - LWW-1251
 aliases:
   - Microvised LiME
   - Memory acquisition microvisor for ARM
 source_refs:
-  - DFCite-1266
+  - LWCite-1266
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ Before acquisition, the hypervisor ("microvisor") sets every stage-2 page-table 
 
 ## References
 
-- [DFCite-1266] Yehuda, Shlingbaum, Gershfeld, Tayouri, and Zaidenberg, 2021, "Hypervisor memory acquisition for ARM", FSI: Digital Investigation 37, 301106.
+- [LWCite-1266] Yehuda, Shlingbaum, Gershfeld, Tayouri, and Zaidenberg, 2021, "Hypervisor memory acquisition for ARM", FSI: Digital Investigation 37, 301106.

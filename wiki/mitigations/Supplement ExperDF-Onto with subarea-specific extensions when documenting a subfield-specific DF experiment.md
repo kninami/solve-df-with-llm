@@ -1,9 +1,9 @@
 ---
-id: DFM-1083
+id: LWM-1083
 type: mitigation
 name: Supplement ExperDF-Onto with subarea-specific extensions when documenting a subfield-specific DF experiment
 source_refs:
-  - DFCite-1073
+  - LWCite-1073
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify which experimental concepts are specific to the relevant DF subarea bef
 
 ## References
 
-- [DFCite-1073] Silva et al., 2025, "An ontology for promoting controlled experimentation in digital forensics", FSI: Digital Investigation 52.
+- [LWCite-1073] Silva et al., 2025, "An ontology for promoting controlled experimentation in digital forensics", FSI: Digital Investigation 52.

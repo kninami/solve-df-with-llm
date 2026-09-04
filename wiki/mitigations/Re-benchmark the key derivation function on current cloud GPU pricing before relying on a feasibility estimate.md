@@ -1,9 +1,9 @@
 ---
-id: DFM-1028
+id: LWM-1028
 type: mitigation
 name: Re-benchmark the key derivation function on current cloud GPU pricing before relying on a feasibility estimate
 source_refs:
-  - DFCite-1020
+  - LWCite-1020
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify the specific key derivation scheme protecting the recovered credential 
 
 ## References
 
-- [DFCite-1020] Holmes and Buchanan, 2023, "A framework for live host-based Bitcoin wallet forensics and triage", FSI: Digital Investigation 44.
+- [LWCite-1020] Holmes and Buchanan, 2023, "A framework for live host-based Bitcoin wallet forensics and triage", FSI: Digital Investigation 44.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1260
+id: LWT-1260
 type: technique
 name: Map a Tor darkmarket ecosystem using bipartite network analysis of onion services and identification forms
 description: Model a large corpus of scraped Tor darkmarket onion services and their referenced external identification forms (email addresses, Telegram usernames, cryptocurrency wallets, Pastebin/Discord/PGP identifiers) as a bipartite graph, then apply social-network-analysis metrics (connected components, density, average path length, k-core extraction, degree centrality) to identify high-value hub services and identifiers for law enforcement targeting.
 objective_ids:
   - DFO-1005
 weakness_ids:
-  - DFW-1272
+  - LWW-1272
 aliases:
   - Tor darkmarket ecosystem bipartite network mapping
 source_refs:
-  - DFCite-1300
+  - LWCite-1300
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ Onion services are collected via sustained automated web crawling (with manual C
 
 ## References
 
-- [DFCite-1300] de-Marcos, Domínguez-Díaz and Stapic, 2026, "Mapping the Tor darkmarket ecosystem: A network analysis of topics, communication channels, and languages", FSI: Digital Investigation 56, 302032.
+- [LWCite-1300] de-Marcos, Domínguez-Díaz and Stapic, 2026, "Mapping the Tor darkmarket ecosystem: A network analysis of topics, communication channels, and languages", FSI: Digital Investigation 56, 302032.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1280
+id: LWW-1280
 type: weakness
 name: Your Phone deletes a notification record from its local database as soon as it is acknowledged on the phone
 description: Once a Your Phone notification alert is acknowledged (dismissed or actioned) on the linked smartphone, its record is deleted from the Windows-side notifications database, so a straightforward live query of the notifications table only ever shows currently pending alerts and silently omits every notification the phone's user has already handled.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1281
+  - LWM-1281
 source_refs:
-  - DFCite-1308
+  - LWCite-1308
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on a live-table read of `notifications.db` will conclude
 
 ## References
 
-- [DFCite-1308] Domingues, Andrade, and Frade, 2021, "Microsoft's Your Phone environment from a digital forensic perspective", FSI: Digital Investigation 38, 301177.
+- [LWCite-1308] Domingues, Andrade, and Frade, 2021, "Microsoft's Your Phone environment from a digital forensic perspective", FSI: Digital Investigation 38, 301177.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2017
+id: LWW-2017
 type: weakness
 name: PaaS cloud database transaction log traces disappear unpredictably with no alternative recovery path
 description: In a PaaS cloud SQL database, deleted-row transaction log entries disappear after an unpredictable, undocumented interval following deletion, and because buffer-pool and data-page recovery are structurally blocked by the platform, there is no fallback technique available once the log trace is gone.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2017
+  - LWM-2017
 source_refs:
-  - DFCite-2017
+  - LWCite-2017
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator who does not query the transaction log immediately after learnin
 
 ## References
 
-- [DFCite-2017] Shin and Moon, 2025 — Section V.A and Table 6 report the unpredictable transaction log disappearance behavior and the "Not Applicable" status of buffer-pool and data-page recovery in Azure SQL Database.
+- [LWCite-2017] Shin and Moon, 2025 — Section V.A and Table 6 report the unpredictable transaction log disappearance behavior and the "Not Applicable" status of buffer-pool and data-page recovery in Azure SQL Database.

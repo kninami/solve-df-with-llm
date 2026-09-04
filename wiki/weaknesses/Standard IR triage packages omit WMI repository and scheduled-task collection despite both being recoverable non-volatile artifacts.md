@@ -1,14 +1,14 @@
 ---
-id: DFW-1229
+id: LWW-1229
 type: weakness
 name: Standard IR triage packages omit WMI repository and scheduled-task collection despite both being recoverable non-volatile artifacts
 description: Widely used IR triage tools and checklists (Kansa, IR-Rescue, CyLR, NIST SP 800-86) do not include the WMI repository or the scheduled-task directories as default collection targets, so persistence evidence that survives reboot and disk imaging is never acquired even though it is technically recoverable.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1229
+  - LWM-1229
 source_refs:
-  - DFCite-1240
+  - LWCite-1240
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ WMI `ActiveScriptEventConsumer`/`CommandLineEventConsumer` subscriptions are amo
 
 ## References
 
-- [DFCite-1240] Paul, 2026, "Forensic visibility gaps in fileless malware incidents: An empirical analysis of artefact survival rates across 49 confirmed intrusions", FSI: Digital Investigation 57, 302112.
+- [LWCite-1240] Paul, 2026, "Forensic visibility gaps in fileless malware incidents: An empirical analysis of artefact survival rates across 49 confirmed intrusions", FSI: Digital Investigation 57, 302112.

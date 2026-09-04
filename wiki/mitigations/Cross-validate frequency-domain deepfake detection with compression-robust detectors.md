@@ -1,9 +1,9 @@
 ---
-id: DFM-1016
+id: LWM-1016
 type: mitigation
 name: Cross-validate frequency-domain deepfake detection with compression-robust detectors
 source_refs:
-  - DFCite-1010
+  - LWCite-1010
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Before applying a frequency-domain or high-frequency-reconstruction deepfake det
 
 ## References
 
-- [DFCite-1010] Jin et al., 2024, "A dual descriptor combined with frequency domain reconstruction learning for face forgery detection in deepfake videos", FSI: Digital Investigation 49.
+- [LWCite-1010] Jin et al., 2024, "A dual descriptor combined with frequency domain reconstruction learning for face forgery detection in deepfake videos", FSI: Digital Investigation 49.

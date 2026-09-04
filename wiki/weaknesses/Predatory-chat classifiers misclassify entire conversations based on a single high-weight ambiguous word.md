@@ -1,5 +1,5 @@
 ---
-id: DFW-1169
+id: LWW-1169
 type: weakness
 name: Predatory-chat classifiers misclassify entire conversations based on a single high-weight ambiguous word
 description: A supervised text classifier trained to detect sexual predatory conversation can flip an entire conversation's label because of a single word or short phrase carrying a high feature weight, producing both false positives (an innocuous conversation flagged as predatory) and false negatives (a genuinely predatory conversation missed) without any visible indication that the decision hinged on one ambiguous token.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1169
+  - LWM-1169
 source_refs:
-  - DFCite-1174
+  - LWCite-1174
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ A non-predatory conversation containing the word "May" (the sender's name in one
 
 ## References
 
-- [DFCite-1174] Ngejane et al., 2021, "Digital forensics supported by machine learning for the detection of online sexual predatory chats", FSI: Digital Investigation 36, 301109.
+- [LWCite-1174] Ngejane et al., 2021, "Digital forensics supported by machine learning for the detection of online sexual predatory chats", FSI: Digital Investigation 36, 301109.

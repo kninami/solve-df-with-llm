@@ -1,9 +1,9 @@
 ---
-id: DFM-2069
+id: LWM-2069
 type: mitigation
 name: Calculate and review inter-annotator agreement before relying on dark web content categorizations or classifiers trained from them
 source_refs:
-  - DFCite-2072
+  - LWCite-2072
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Where more than one investigator annotates overlapping dark web content, periodi
 
 ## References
 
-- [DFCite-2072] Bergman & Popov, 2022, "The Digital Detective's Discourse: A Toolset for Forensically Sound Collaborative Dark Web Content Annotation and Collection", JDFSL 17(5). Implements Cohen's kappa inter-annotator-agreement calculation as a built-in D3-Analyser component specifically to evaluate categorization reliability before use.
+- [LWCite-2072] Bergman & Popov, 2022, "The Digital Detective's Discourse: A Toolset for Forensically Sound Collaborative Dark Web Content Annotation and Collection", JDFSL 17(5). Implements Cohen's kappa inter-annotator-agreement calculation as a built-in D3-Analyser component specifically to evaluate categorization reliability before use.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1096
+id: LWT-1096
 type: technique
 name: Extract and classify background noise from mixed audio using deep learning
 description: Automatically extract, separate, and classify the background noise present in a recorded audio file — even when mixed with human speech and multiple overlapping noise sources — using deep learning models, to infer forensically relevant environmental context (e.g. the likely recording location or setting) that would otherwise require slow, difficult manual audio analysis and is rarely pursued because investigative audio forensics has traditionally focused on voice and speaker identification.
 objective_ids:
   - DFO-1023
 weakness_ids:
-  - DFW-1102
+  - LWW-1102
 aliases:
   - Deep-learning-based background noise extraction and environment classification from mixed audio
   - BlackFeather
 source_refs:
-  - DFCite-1096
+  - LWCite-1096
 updated_at: 2026-08-10
 status: complete
 ---
@@ -40,4 +40,4 @@ The framework (BlackFeather) is built from several purpose-designed modules and 
 
 ## References
 
-- [DFCite-1096] Li et al., 2022, "BlackFeather: A framework for background noise forensics", FSI: Digital Investigation 42.
+- [LWCite-1096] Li et al., 2022, "BlackFeather: A framework for background noise forensics", FSI: Digital Investigation 42.

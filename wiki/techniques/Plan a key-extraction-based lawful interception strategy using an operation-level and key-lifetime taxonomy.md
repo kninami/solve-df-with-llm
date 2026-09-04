@@ -1,17 +1,17 @@
 ---
-id: DFT-1247
+id: LWT-1247
 type: technique
 name: Plan a key-extraction-based lawful interception strategy using an operation-level and key-lifetime taxonomy
 description: Select an appropriate remote key-extraction approach for lawfully intercepting a suspect's end-to-end encrypted communications by classifying the target key along two axes — the privilege/operation level required to reach it in memory (user, kernel, hypervisor, firmware, or hardware) and its expected lifetime (long-, medium-, or short-term) — rather than exfiltrating the suspect's full plaintext data from the device.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1020
+  - LWW-1020
 aliases:
   - KEX-LI
   - Key extraction-based lawful interception
 source_refs:
-  - DFCite-1285
+  - LWCite-1285
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ Because reliable extraction requires code execution at a privilege level at or a
 
 ## References
 
-- [DFCite-1285] Lindenmeier, Hammer, Gruber, Röckl and Freiling, 2024, "Key extraction-based lawful access to encrypted data: Taxonomy and survey", FSI: Digital Investigation 50, 301796.
+- [LWCite-1285] Lindenmeier, Hammer, Gruber, Röckl and Freiling, 2024, "Key extraction-based lawful access to encrypted data: Taxonomy and survey", FSI: Digital Investigation 50, 301796.

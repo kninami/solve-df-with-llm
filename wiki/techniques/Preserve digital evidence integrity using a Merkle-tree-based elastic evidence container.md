@@ -1,17 +1,17 @@
 ---
-id: DFT-1174
+id: LWT-1174
 type: technique
 name: Preserve digital evidence integrity using a Merkle-tree-based elastic evidence container
 description: Store collected digital evidence items inside a single elastic container that computes a Merkle tree over per-item hashes, so that individual items can be selectively destroyed, encrypted, or compressed as an investigation proceeds while a single Merkle-root value still lets any party verify the integrity of the container and every item's provenance history.
 objective_ids:
   - DFO-1010
 weakness_ids:
-  - DFW-1181
+  - LWW-1181
 aliases:
   - ECo-Bag
   - Merkle-tree universal digital evidence bag
 source_refs:
-  - DFCite-1183
+  - LWCite-1183
 updated_at: 2026-08-12
 status: complete
 ---
@@ -41,4 +41,4 @@ Each item in the container has an `itemState` and, when hashed, an `itemHash`; t
 
 ## References
 
-- [DFCite-1183] Han et al., 2024, "ECo-Bag: An elastic container based on merkle tree as a universal digital evidence bag", FSI: Digital Investigation 49.
+- [LWCite-1183] Han et al., 2024, "ECo-Bag: An elastic container based on merkle tree as a universal digital evidence bag", FSI: Digital Investigation 49.

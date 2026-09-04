@@ -1,9 +1,9 @@
 ---
-id: DFM-2109
+id: LWM-2109
 type: mitigation
 name: Acquire memory as early and frequently as possible to minimize V8 garbage-collection data loss
 source_refs:
-  - DFCite-2127
+  - LWCite-2127
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Prioritize memory acquisition for a V8-embedding target process as soon as pract
 
 ## References
 
-- [DFCite-2127] "uicing V8: A primary account for the memory forensics of the V8 JavaScript engine", FSI: Digital Investigation 48, 2024.
+- [LWCite-2127] "uicing V8: A primary account for the memory forensics of the V8 JavaScript engine", FSI: Digital Investigation 48, 2024.

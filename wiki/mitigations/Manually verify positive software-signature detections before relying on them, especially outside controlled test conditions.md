@@ -1,9 +1,9 @@
 ---
-id: DFM-2021
+id: LWM-2021
 type: mitigation
 name: Manually verify positive software-signature detections before relying on them, especially outside controlled test conditions
 source_refs:
-  - DFCite-2021
+  - LWCite-2021
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where feasible, select S3E model configurations shown in prior benchmarking to p
 
 ## References
 
-- [DFCite-2021] Soltani et al., 2021 — Tables 4-7 identify which specific S3E design-parameter combinations (PV-DM, small/medium threshold, smaller window size) performed best on the realistic M57 dataset specifically, distinct from the best performers on controlled machines.
+- [LWCite-2021] Soltani et al., 2021 — Tables 4-7 identify which specific S3E design-parameter combinations (PV-DM, small/medium threshold, smaller window size) performed best on the realistic M57 dataset specifically, distinct from the best performers on controlled machines.

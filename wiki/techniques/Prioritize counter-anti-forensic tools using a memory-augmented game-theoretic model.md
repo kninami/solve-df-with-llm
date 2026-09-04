@@ -1,16 +1,16 @@
 ---
-id: DFT-1039
+id: LWT-1039
 type: technique
 name: Prioritize counter-anti-forensic tools using a memory-augmented game-theoretic model
 description: Model the repeated interaction between a digital forensic investigator (choosing counter-anti-forensic tools, e.g., anti-rootkits) and an attacker (choosing anti-forensic tools, e.g., rootkits) as a non-cooperative, non-zero-sum game, and use a memory mechanism that reuses a previously computed Nash equilibrium as the starting point when either side's tool set expands, so the investigator can identify which counter-anti-forensic tools are most effective against known anti-forensic tools without re-simulating the game from scratch each time a new tool appears.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1040
+  - LWW-1040
 aliases:
   - Memory-augmented game-theoretic counter-anti-forensic tool prioritization
 source_refs:
-  - DFCite-1030
+  - LWCite-1030
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ Each player's payoff matrix is built from empirical profiling data characterizin
 
 ## References
 
-- [DFCite-1030] Shafiee Hasanabadi et al., 2021, "A memory-based game-theoretic defensive approach for digital forensic investigators", FSI: Digital Investigation 38.
+- [LWCite-1030] Shafiee Hasanabadi et al., 2021, "A memory-based game-theoretic defensive approach for digital forensic investigators", FSI: Digital Investigation 38.

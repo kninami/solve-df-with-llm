@@ -1,9 +1,9 @@
 ---
-id: DFM-1100
+id: LWM-1100
 type: mitigation
 name: Identify and preserve cross-time-domain synchronization points before relying on automatic hyper timeline flattening
 source_refs:
-  - DFCite-1094
+  - LWCite-1094
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ When constructing a hyper timeline from multiple time domains, actively look for
 
 ## References
 
-- [DFCite-1094] Dreier et al., 2024, "Beyond timestamps: Integrating implicit timing information into digital forensic timelines", FSI: Digital Investigation 49.
+- [LWCite-1094] Dreier et al., 2024, "Beyond timestamps: Integrating implicit timing information into digital forensic timelines", FSI: Digital Investigation 49.

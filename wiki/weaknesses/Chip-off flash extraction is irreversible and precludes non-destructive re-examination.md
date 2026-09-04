@@ -1,15 +1,15 @@
 ---
-id: DFW-1023
+id: LWW-1023
 type: weakness
 name: Chip-off flash extraction is irreversible and precludes non-destructive re-examination
 description: Desoldering a flash chip via infrared reflow to perform chip-off extraction permanently alters the device's physical state — the chip cannot be reliably resoldered to a fully original functional condition — foreclosing any later non-destructive re-examination of the device as it existed at seizure.
 categories:
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-1023
+  - LWM-1023
 source_refs:
-  - DFCite-1016
-  - DFCite-1302
+  - LWCite-1016
+  - LWCite-1302
 updated_at: 2026-08-14
 status: complete
 ---
@@ -35,5 +35,5 @@ Because the alteration is irreversible, any subsequent need to re-examine the de
 
 ## References
 
-- [DFCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.
-- [DFCite-1302] Heckmann, Souvignet, Sauveron and Naccache, 2021, "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment", FSI: Digital Investigation 36, 301092. Dental-burr-based component transplantation carries the same physical-alteration irreversibility, mechanized via mechanical lapping rather than thermal desoldering.
+- [LWCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.
+- [LWCite-1302] Heckmann, Souvignet, Sauveron and Naccache, 2021, "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment", FSI: Digital Investigation 36, 301092. Dental-burr-based component transplantation carries the same physical-alteration irreversibility, mechanized via mechanical lapping rather than thermal desoldering.

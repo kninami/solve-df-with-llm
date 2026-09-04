@@ -1,17 +1,17 @@
 ---
-id: DFT-1270
+id: LWT-1270
 type: technique
 name: Analyze macOS Objective-C and Swift runtime memory using structured class and method enumeration
 description: Detect macOS userland malware — keyloggers, and code that abuses microphone, camera, or screen-capture APIs — directly from a memory image by walking the Objective-C and Swift runtimes' internal data structures to enumerate every loaded class, its instances, instance-variable values, and methods, then flagging known-bad classes or method calls to often-abused APIs, rather than relying on manual reverse engineering or malware-sample-specific detection rules.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1275
+  - LWW-1275
 aliases:
   - mac_analyze_classes Volatility plugin
   - Objective-C and Swift runtime memory forensics
 source_refs:
-  - DFCite-1309
+  - LWCite-1309
 updated_at: 2026-08-15
 status: complete
 ---
@@ -41,4 +41,4 @@ Because macOS malware overwhelmingly relies on Objective-C and Swift runtime API
 
 ## References
 
-- [DFCite-1309] Manna, Case, Ali-Gombe, and Richard III, 2021, "Modern macOS userland runtime analysis", FSI: Digital Investigation 38, 301221.
+- [LWCite-1309] Manna, Case, Ali-Gombe, and Richard III, 2021, "Modern macOS userland runtime analysis", FSI: Digital Investigation 38, 301221.

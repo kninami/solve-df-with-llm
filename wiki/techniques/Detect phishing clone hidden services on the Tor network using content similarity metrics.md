@@ -1,16 +1,16 @@
 ---
-id: DFT-1290
+id: LWT-1290
 type: technique
 name: Detect phishing clone hidden services on the Tor network using content similarity metrics
 description: Identify phishing clones of Tor hidden services — sites that impersonate a legitimate onion service to steal cryptocurrency payments or confidential information — by crawling a broad set of onion services, then comparing each pair of crawled pages for content similarity (exact-hash equality, compression-based similarity, or perceptual image-hash similarity of rendered screenshots) and comparing onion addresses for prefix similarity, since a phishing clone typically reuses most of the legitimate site's text/layout content while only altering payment and contact details.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1300
+  - LWW-1300
 aliases:
   - Tor hidden service phishing/site-cloning detection
 source_refs:
-  - DFCite-1334
+  - LWCite-1334
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ Content is compared at several levels: exact equality (cryptographic hash compar
 
 ## References
 
-- [DFCite-1334] Steinebach, Zenglein, and Brandl, 2021, "Phishing detection on tor hidden services", FSI: Digital Investigation 36, 301117.
+- [LWCite-1334] Steinebach, Zenglein, and Brandl, 2021, "Phishing detection on tor hidden services", FSI: Digital Investigation 36, 301117.

@@ -1,16 +1,16 @@
 ---
-id: DFT-2126
+id: LWT-2126
 type: technique
 name: Identify a dashcam recording's source model using combined container metadata fingerprinting
 description: Determine which dashcam make and model produced an unknown multimedia container file by comparing its chunk sequence, directory/file naming rules, on-screen watermark layout, and video decoding parameters against a reference database of these characteristics collected across known dashcam models, since no single characteristic reliably distinguishes all models on its own.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-2136
+  - LWW-2136
 aliases:
   - Dashcam signature database matching
 source_refs:
-  - DFCite-2157
+  - LWCite-2157
 updated_at: 2026-08-17
 status: complete
 ---
@@ -39,4 +39,4 @@ Each of the individual characteristics has limitations in isolation: several mod
 
 ## References
 
-- [DFCite-2157] Lee et al., 2021, "Your car is recording: Metadata-driven dashcam analysis system", FSI: Digital Investigation 38.
+- [LWCite-2157] Lee et al., 2021, "Your car is recording: Metadata-driven dashcam analysis system", FSI: Digital Investigation 38.

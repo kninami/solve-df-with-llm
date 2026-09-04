@@ -1,5 +1,5 @@
 ---
-id: DFW-2112
+id: LWW-2112
 type: weakness
 name: RSS-based MANET node triangulation assumes idealized free-space signal propagation, degrading accuracy under real-world conditions
 description: Received-signal-strength-based node triangulation assumes radio signals propagate uniformly according to the inverse square law across all locations and over time, an idealization that real-world obstacles, terrain, and environmental conditions (rain, humidity, dust) violate, degrading location-estimation accuracy in ways the underlying calculation has no way to detect or compensate for on its own.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2113
+  - LWM-2113
 source_refs:
-  - DFCite-2132
+  - LWCite-2132
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator relying on RSS-based location estimates as if they were as preci
 
 ## References
 
-- [DFCite-2132] Ragheb, Safwat, and Azer, 2025, "Unearthing the hidden path of MANET's nodes with signal strength measurements: Forensics challenges, survey and a novel approach for data collection, preservation and examination", FSI: Digital Investigation 53, 301916.
+- [LWCite-2132] Ragheb, Safwat, and Azer, 2025, "Unearthing the hidden path of MANET's nodes with signal strength measurements: Forensics challenges, survey and a novel approach for data collection, preservation and examination", FSI: Digital Investigation 53, 301916.

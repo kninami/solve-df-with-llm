@@ -1,9 +1,9 @@
 ---
-id: DFM-2071
+id: LWM-2071
 type: mitigation
 name: Independently validate any write blocker against NIST CFTT test suites before relying on it for evidence acquisition
 source_refs:
-  - DFCite-2075
+  - LWCite-2075
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Maintain a validated-hardware inventory documenting which specific write-block d
 
 ## References
 
-- [DFCite-2075] Herrera, 2021, "Viability of Consumer Grade Hardware for Learning Computer Forensics Principles", JDFSL 16(3). Demonstrates the CFTT Federated Testing validation methodology this mitigation applies, and explicitly recommends passing any wiping/write-blocking issues found to NIST/CFTT for the benefit of the broader field.
+- [LWCite-2075] Herrera, 2021, "Viability of Consumer Grade Hardware for Learning Computer Forensics Principles", JDFSL 16(3). Demonstrates the CFTT Federated Testing validation methodology this mitigation applies, and explicitly recommends passing any wiping/write-blocking issues found to NIST/CFTT for the benefit of the broader field.

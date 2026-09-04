@@ -1,9 +1,9 @@
 ---
-id: DFM-2002
+id: LWM-2002
 type: mitigation
 name: Re-weight or filter feature-scoring toolkit rankings by the specific case's required features before selecting a tool
 source_refs:
-  - DFCite-2002
+  - LWCite-2002
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Treat the domain-wide FSM percentage as a shortlisting aid, not a final decision
 
 ## References
 
-- [DFCite-2002] Javed et al., 2022 — the survey's own per-feature comparison tables (e.g. Table 6-15) provide the granular data needed to check case-specific feature coverage behind the aggregate FSM score.
+- [LWCite-2002] Javed et al., 2022 — the survey's own per-feature comparison tables (e.g. Table 6-15) provide the granular data needed to check case-specific feature coverage behind the aggregate FSM score.

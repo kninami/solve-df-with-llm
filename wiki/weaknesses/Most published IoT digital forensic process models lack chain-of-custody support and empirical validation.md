@@ -1,15 +1,15 @@
 ---
-id: DFW-1050
+id: LWW-1050
 type: weakness
 name: Most published IoT digital forensic process models lack chain-of-custody support and empirical validation
 description: Across a systematic review of 23 IoT-specific digital forensic process models, frameworks, and ontologies, only 17.39% explicitly and substantively address chain of custody, and 52.17% present no empirical validation method (case study, simulated scenario, controlled experiment, or proof of concept) for their proposed approach, meaning the majority of published IoT forensic models cannot be assumed reliable or complete for real casework without independent verification.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1050
+  - LWM-1050
 source_refs:
-  - DFCite-1040
-  - DFCite-1121
+  - LWCite-1040
+  - LWCite-1121
 updated_at: 2026-08-12
 status: complete
 ---
@@ -36,4 +36,4 @@ An investigator or organization selecting an IoT forensic process model to guide
 
 ## References
 
-- [DFCite-1040] Silva et al., 2025, "A review study of digital forensics in IoT: Process models, phases, architectures, and ontologies", FSI: Digital Investigation 53.
+- [LWCite-1040] Silva et al., 2025, "A review study of digital forensics in IoT: Process models, phases, architectures, and ontologies", FSI: Digital Investigation 53.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1103
+id: LWT-1103
 type: technique
 name: Identify a seam-carved image's source camera using multi-signature PCE trend analysis
 description: Determine the source camera of a seam-carved image by selecting its highest-energy (least likely to have been carved) block, correlating that block against a sequence of camera PRNU signatures built from increasing numbers of reference images, and classifying the resulting trend in peak-to-correlation-energy (PCE) values rather than relying on a single PCE threshold.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1093
+  - LWW-1093
 aliases:
   - CAMID
   - CAM1D
 source_refs:
-  - DFCite-1103
+  - LWCite-1103
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The method first performs block selection: the seam-carved image is divided into
 
 ## References
 
-- [DFCite-1103] Irshad et al., 2023, "CAMID: An assuasive approach to reveal source camera through inconspicuous evidence", FSI: Digital Investigation 46.
+- [LWCite-1103] Irshad et al., 2023, "CAMID: An assuasive approach to reveal source camera through inconspicuous evidence", FSI: Digital Investigation 46.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1054
+id: LWM-1054
 type: mitigation
 name: Proactively enable GPU Accounting before an incident occurs
 source_refs:
-  - DFCite-1044
+  - LWCite-1044
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ On systems with NVIDIA GPUs where process-level GPU usage history would be foren
 
 ## References
 
-- [DFCite-1044] Bowen et al., 2024, "A step in a new direction: NVIDIA GPU kernel driver memory forensics", FSI: Digital Investigation 49.
+- [LWCite-1044] Bowen et al., 2024, "A step in a new direction: NVIDIA GPU kernel driver memory forensics", FSI: Digital Investigation 49.

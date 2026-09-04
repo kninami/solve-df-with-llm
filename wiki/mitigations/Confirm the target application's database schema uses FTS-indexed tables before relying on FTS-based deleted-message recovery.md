@@ -1,9 +1,9 @@
 ---
-id: DFM-1204
+id: LWM-1204
 type: mitigation
 name: Confirm the target application's database schema uses FTS-indexed tables before relying on FTS-based deleted-message recovery
 source_refs:
-  - DFCite-1217
+  - LWCite-1217
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Inspect the target database's schema for FTS3/4/5 companion tables (named with `
 
 ## References
 
-- [DFCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.
+- [LWCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.

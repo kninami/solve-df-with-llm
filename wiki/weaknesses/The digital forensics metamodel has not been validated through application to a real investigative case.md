@@ -1,14 +1,14 @@
 ---
-id: DFW-2023
+id: LWW-2023
 type: weakness
 name: The digital forensics metamodel has not been validated through application to a real investigative case
 description: The Digital Forensics Metamodel's validation relies on comparison against existing literature models and expert face-validity review rather than application to a real forensic case or live investigation, so its practical completeness and usefulness under genuine operational conditions remain unconfirmed.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2023
+  - LWM-2023
 source_refs:
-  - DFCite-2023
+  - LWCite-2023
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ A metamodel intended to structure real digital forensic investigations across mu
 
 ## References
 
-- [DFCite-2023] Al-Dhaqm et al., 2021 — Section VII.A describes the two validation techniques used (comparison against other models, face validity), and the paper's conclusion explicitly names systematic real-world validation as future work.
+- [LWCite-2023] Al-Dhaqm et al., 2021 — Section VII.A describes the two validation techniques used (comparison against other models, face validity), and the paper's conclusion explicitly names systematic real-world validation as future work.

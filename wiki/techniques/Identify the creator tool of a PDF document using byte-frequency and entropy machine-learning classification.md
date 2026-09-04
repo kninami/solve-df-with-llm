@@ -1,5 +1,5 @@
 ---
-id: DFT-2094
+id: LWT-2094
 type: technique
 name: Identify the creator tool of a PDF document using byte-frequency and entropy machine-learning classification
 description: Determine which specific software tool (e.g. Adobe Acrobat PDFMaker, Microsoft Word, LibreOffice Writer, TeX, Apple Pages) was used to create a PDF document -- and, with lower accuracy, which version of that tool -- by training a machine-learning classifier (a convolutional neural network performs best) on each candidate document's byte-frequency distribution combined with its Shannon entropy, without relying on the document's metadata, which can be trivially removed or tampered with.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1004
   - DFO-1008
 weakness_ids:
-  - DFW-2099
+  - LWW-2099
 aliases:
   - Forensic digital document examination (FDDE) tool type identification
 source_refs:
-  - DFCite-2116
+  - LWCite-2116
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ For each PDF file, a byte-frequency histogram is computed by counting the occurr
 
 ## References
 
-- [DFCite-2116] Zia and Adedayo, 2025, "Tool type identification for forensic digital document examination", FSI: Digital Investigation 54, 301972.
+- [LWCite-2116] Zia and Adedayo, 2025, "Tool type identification for forensic digital document examination", FSI: Digital Investigation 54, 301972.

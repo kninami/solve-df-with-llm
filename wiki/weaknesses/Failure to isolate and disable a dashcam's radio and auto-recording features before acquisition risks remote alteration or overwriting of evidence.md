@@ -1,5 +1,5 @@
 ---
-id: DFW-1140
+id: LWW-1140
 type: weakness
 name: Failure to isolate and disable a dashcam's radio and auto-recording features before acquisition risks remote alteration or overwriting of evidence
 description: If a first responder leaves a dashcam's Wi-Fi, Bluetooth, or GSM connectivity active, or leaves auto-power-on or g-sensor-triggered recording enabled, the device can receive remote commands or automatically begin a new loop-recording session that overwrites unprotected existing footage before it is preserved.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_ALT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1140
+  - LWM-1140
 source_refs:
-  - DFCite-1138
+  - LWCite-1138
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ Because normal-manual recordings are not write-protected by default, any device 
 
 ## References
 
-- [DFCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.
+- [LWCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.

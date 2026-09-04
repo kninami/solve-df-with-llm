@@ -1,16 +1,16 @@
 ---
-id: DFT-1295
+id: LWT-1295
 type: technique
 name: Apply prudent design principles when conducting digital-evidence-tampering experiments
 description: Design a controlled experiment that studies whether and how digital evidence can be successfully tampered with (and subsequently detected) by applying three lessons learned from evaluating past tampering studies and the researchers' own repeated attempts — accepting inherently small specialist-participant numbers rather than substituting unqualified participants at scale, formulating the tampering task with enough precision to eliminate subjective reinterpretation, and designing data collection so participant reasoning and reported factors can be systematically interpreted afterward.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1305
+  - LWW-1305
 aliases:
   - Digital tampering experiment design lessons learned
 source_refs:
-  - DFCite-1342
+  - LWCite-1342
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ Empirically studying digital evidence tampering — whether forgeries can be suc
 
 ## References
 
-- [DFCite-1342] Schneider, Düsel, Lorch, Drafz, and Freiling, 2022, "Prudent design principles for digital tampering experiments", FSI: Digital Investigation 40, 301334.
+- [LWCite-1342] Schneider, Düsel, Lorch, Drafz, and Freiling, 2022, "Prudent design principles for digital tampering experiments", FSI: Digital Investigation 40, 301334.

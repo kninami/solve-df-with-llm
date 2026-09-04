@@ -1,14 +1,14 @@
 ---
-id: DFW-1302
+id: LWW-1302
 type: weakness
 name: Cross-protocol heuristic transfer cannot identify an ICS protocol field with no analog in any previously-known protocol
 description: Because PREE's field-identification heuristics are built from an analyst's existing knowledge of already-understood ICS protocols, a field type genuinely unique to the protocol under investigation — with no counterpart field, byte-pattern, or usage convention among the protocols the analyst already knows — has no heuristic capable of recognizing it, so the underlying reverse-engineering approach is fundamentally bounded by the analyst's prior protocol knowledge rather than being protocol-agnostic.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1304
+  - LWM-1304
 source_refs:
-  - DFCite-1337
+  - LWCite-1337
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator using PREE-style cross-protocol heuristics against a proprietary
 
 ## References
 
-- [DFCite-1337] Qasim, Jo, and Ahmed, 2023, "PREE: Heuristic builder for reverse engineering of network protocols in industrial control systems", FSI: Digital Investigation 45, 301565.
+- [LWCite-1337] Qasim, Jo, and Ahmed, 2023, "PREE: Heuristic builder for reverse engineering of network protocols in industrial control systems", FSI: Digital Investigation 45, 301565.

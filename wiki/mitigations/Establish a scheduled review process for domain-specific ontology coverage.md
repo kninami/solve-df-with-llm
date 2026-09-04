@@ -1,9 +1,9 @@
 ---
-id: DFM-1053
+id: LWM-1053
 type: mitigation
 name: Establish a scheduled review process for domain-specific ontology coverage
 source_refs:
-  - DFCite-1043
+  - LWCite-1043
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Schedule periodic reviews (e.g., aligned with major security-industry threat rep
 
 ## References
 
-- [DFCite-1043] Tok et al., 2025, "A Smart City Infrastructure ontology for threats, cybercrime, and digital forensic investigation", FSI: Digital Investigation 52.
+- [LWCite-1043] Tok et al., 2025, "A Smart City Infrastructure ontology for threats, cybercrime, and digital forensic investigation", FSI: Digital Investigation 52.

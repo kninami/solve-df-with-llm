@@ -1,9 +1,9 @@
 ---
-id: DFM-1131
+id: LWM-1131
 type: mitigation
 name: Use a write-once, timestamped, per-entry-integrity-checked platform for contemporaneous examination notes
 source_refs:
-  - DFCite-1128
+  - LWCite-1128
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Adopt a digital note-taking platform (a dedicated case-noting tool where availab
 
 ## References
 
-- [DFCite-1128] Horsman, 2021, "Contemporaneous notes for digital forensic examinations", FSI: Digital Investigation 37, 301173.
+- [LWCite-1128] Horsman, 2021, "Contemporaneous notes for digital forensic examinations", FSI: Digital Investigation 37, 301173.

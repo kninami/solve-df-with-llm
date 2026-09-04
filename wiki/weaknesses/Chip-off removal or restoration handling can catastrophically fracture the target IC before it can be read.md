@@ -1,14 +1,14 @@
 ---
-id: DFW-1120
+id: LWW-1120
 type: weakness
 name: Chip-off removal or restoration handling can catastrophically fracture the target IC before it can be read
 description: Imprecise heat control during desoldering, or excessive mechanical pressure during post-removal cleanup (e.g. clamping the IC in a vice against too narrow a base plate), can crack or split a chip-off target chip outright, causing total and irrecoverable loss of the stored data rather than merely altering the device's state.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1120
+  - LWM-1120
 source_refs:
-  - DFCite-1112
+  - LWCite-1112
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ Unlike the general irreversibility of chip-off (which still yields data, just fo
 
 ## References
 
-- [DFCite-1112] Hadgkiss et al., 2022, "Cheap as chips: An accessible chip off acquisition method for ball grid array (BGA) integrated circuits in digital investigations", FSI: Digital Investigation 42-43.
+- [LWCite-1112] Hadgkiss et al., 2022, "Cheap as chips: An accessible chip off acquisition method for ball grid array (BGA) integrated circuits in digital investigations", FSI: Digital Investigation 42-43.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1082
+id: LWW-1082
 type: weakness
 name: Drone-only forensic extraction rarely links the device to a specific controller or suspect without also analyzing the GCS
 description: Analyzing only data extracted from the drone itself often provides little to no direct link between the drone and a specific ground control station (GCS) or individual, even though the drone's own logs, location data, multimedia, and configuration files are recoverable, because that establishing link is instead typically found by analyzing the GCS and correlating it back to the drone.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1082
+  - LWM-1082
 source_refs:
-  - DFCite-1072
+  - LWCite-1072
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who acquires and analyzes only a recovered drone, without also o
 
 ## References
 
-- [DFCite-1072] Thornton and Bagheri Zadeh, 2022, "An investigation into Unmanned Aerial System (UAS) forensics: Data extraction & analysis", FSI: Digital Investigation 41.
+- [LWCite-1072] Thornton and Bagheri Zadeh, 2022, "An investigation into Unmanned Aerial System (UAS) forensics: Data extraction & analysis", FSI: Digital Investigation 41.

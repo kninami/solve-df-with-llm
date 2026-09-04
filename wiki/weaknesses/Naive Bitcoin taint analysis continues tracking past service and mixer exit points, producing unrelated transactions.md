@@ -1,14 +1,14 @@
 ---
-id: DFW-1133
+id: LWW-1133
 type: weakness
 name: Naive Bitcoin taint analysis continues tracking past service and mixer exit points, producing unrelated transactions
 description: Standard taint analysis strategies keep distributing "tainted" status to transaction outputs after stolen Bitcoins reach a cryptocurrency service or mixer address, generating large numbers of unrelated transactions that are unlikely to belong to the targeted illicit activity.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1133
+  - LWM-1133
 source_refs:
-  - DFCite-1129
+  - LWCite-1129
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on the full, unfiltered output of a naive taint-analysis
 
 ## References
 
-- [DFCite-1129] Tironsakkul et al., 2022, "Context matters: Methods for Bitcoin tracking", FSI: Digital Investigation 42-43, 301475.
+- [LWCite-1129] Tironsakkul et al., 2022, "Context matters: Methods for Bitcoin tracking", FSI: Digital Investigation 42-43, 301475.

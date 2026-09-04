@@ -1,9 +1,9 @@
 ---
-id: DFM-2052
+id: LWM-2052
 type: mitigation
 name: Vet participant honesty and add protocol-level safeguards before relying on combined private indexing across multiple parties
 source_refs:
-  - DFCite-2053
+  - LWCite-2053
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Establish formal data-sharing agreements and legal accountability for every orga
 
 ## References
 
-- [DFCite-2053] Desai and Shelake, 2022 — the paper's own future-work discussion identifies the need for "more protective safety measures and communication" to address this exact limitation, motivating additional protocol-level or organizational safeguards.
+- [LWCite-2053] Desai and Shelake, 2022 — the paper's own future-work discussion identifies the need for "more protective safety measures and communication" to address this exact limitation, motivating additional protocol-level or organizational safeguards.

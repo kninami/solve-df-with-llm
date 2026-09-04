@@ -1,17 +1,17 @@
 ---
-id: DFT-1114
+id: LWT-1114
 type: technique
 name: Draft forensic report sections using a large language model
 description: Prompt a large language model — a cloud-based service such as ChatGPT, or a locally-run model such as Llama — with case data (mandate, lab log, or tool report excerpts) to generate a first-draft version of a structured forensic report section, such as the introduction, items-received description, methodology summary, or an artefact/results summary, for the investigator to review and correct rather than write from scratch.
 objective_ids:
   - DFO-1020
 weakness_ids:
-  - DFW-1119
+  - LWW-1119
 aliases:
   - LLM-assisted forensic report writing
   - ChatGPT/Llama assisted digital forensics report generation
 source_refs:
-  - DFCite-1111
+  - LWCite-1111
 updated_at: 2026-08-12
 status: complete
 ---
@@ -41,4 +41,4 @@ Assessed across six report sections, LLM-potential correlated directly with data
 
 ## References
 
-- [DFCite-1111] Michelet and Breitinger, 2024, "ChatGPT, Llama, can you write my report? An experiment on assisted digital forensics reports written using (local) large language models", FSI: Digital Investigation 48.
+- [LWCite-1111] Michelet and Breitinger, 2024, "ChatGPT, Llama, can you write my report? An experiment on assisted digital forensics reports written using (local) large language models", FSI: Digital Investigation 48.

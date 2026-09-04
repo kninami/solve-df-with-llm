@@ -1,9 +1,9 @@
 ---
-id: DFM-2034
+id: LWM-2034
 type: mitigation
 name: Regularly update the ATT&CK technique ruleset and pair ontology-based detection with anomaly-based detection for uncataloged attacks
 source_refs:
-  - DFCite-2034
+  - LWCite-2034
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Periodically regenerate or extend the detection ruleset as MITRE ATT&CK's techni
 
 ## References
 
-- [DFCite-2034] Dimitriadis et al., 2023 — the paper's own future-work discussion identifies extending rule coverage and investigating machine-learning-based rule generation as directions to address the coverage-scalability limitation.
+- [LWCite-2034] Dimitriadis et al., 2023 — the paper's own future-work discussion identifies extending rule coverage and investigating machine-learning-based rule generation as directions to address the coverage-scalability limitation.

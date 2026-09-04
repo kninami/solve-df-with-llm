@@ -1,9 +1,9 @@
 ---
-id: DFM-1024
+id: LWM-1024
 type: mitigation
 name: Apply oracle-based bitflip search and repair before treating a corrupted compressed dump as unreadable
 source_refs:
-  - DFCite-1016
+  - LWCite-1016
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ See [[techniques/Repair compressed forensic filesystem images using statistical 
 
 ## References
 
-- [DFCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.
+- [LWCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1201
+id: LWM-1201
 type: mitigation
 name: Acquire pagefile.sys alongside hypervisor-based incremental memory snapshots to recover paged-out content
 source_refs:
-  - DFCite-1212
+  - LWCite-1212
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Where the acquisition hypervisor supports intercepting storage-device accesses (
 
 ## References
 
-- [DFCite-1212] Hirano and Kobayashi, 2023, "FIMAR: Fast incremental memory acquisition and restoration system for temporal-dimension forensic analysis", FSI: Digital Investigation 46, 301603.
+- [LWCite-1212] Hirano and Kobayashi, 2023, "FIMAR: Fast incremental memory acquisition and restoration system for temporal-dimension forensic analysis", FSI: Digital Investigation 46, 301603.

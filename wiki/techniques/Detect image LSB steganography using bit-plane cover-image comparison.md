@@ -1,16 +1,16 @@
 ---
-id: DFT-2064
+id: LWT-2064
 type: technique
 name: Detect image LSB steganography using bit-plane cover-image comparison
 description: Positively identify and attribute least-significant-bit (LSB) image steganography by locating the suspect image's original, unmodified cover image and visually comparing the two images bit-plane by bit-plane and color channel by color channel, rather than relying solely on statistical steganalysis of the payload image alone.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-2064
+  - LWW-2064
 aliases:
   - CounterSteg-based LSB steganography identification
 source_refs:
-  - DFCite-2067
+  - LWCite-2067
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ The technique is implemented in the free CounterSteg software, which loads two i
 
 ## References
 
-- [DFCite-2067] Pelosi & Easttom, 2021, "Positive Identification of Least Significant Bit (LSB) Image Steganography Using Cover Image Comparisons", JDFSL 15(6). Source of the CounterSteg bit-plane comparison methodology and its evaluation against eight steganographic programs.
+- [LWCite-2067] Pelosi & Easttom, 2021, "Positive Identification of Least Significant Bit (LSB) Image Steganography Using Cover Image Comparisons", JDFSL 15(6). Source of the CounterSteg bit-plane comparison methodology and its evaluation against eight steganographic programs.

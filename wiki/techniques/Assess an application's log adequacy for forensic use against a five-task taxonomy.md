@@ -1,16 +1,16 @@
 ---
-id: DFT-1282
+id: LWT-1282
 type: technique
 name: Assess an application's log adequacy for forensic use against a five-task taxonomy
 description: Determine whether an application's logging implementation can support incident response and forensic analysis by systematically checking, through source-code review and log-statement extraction, whether its logs contain the specific data elements (timestamps, unique identifiers, user-action detail, and error/exception context) required to perform five forensic tasks — timeline construction, event correlation, execution partitioning, misuse detection, and attack detection.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1292
+  - LWW-1292
 aliases:
   - Application log forensic-adequacy taxonomy
 source_refs:
-  - DFCite-1323
+  - LWCite-1323
 updated_at: 2026-08-15
 status: complete
 ---
@@ -39,4 +39,4 @@ The five forensic tasks assessed are: (1) **timeline activity** — can the log'
 
 ## References
 
-- [DFCite-1323] Azahari and Balzarotti, 2024, "On the inadequacy of open-source application logs for digital forensics", FSI: Digital Investigation 49, 301750.
+- [LWCite-1323] Azahari and Balzarotti, 2024, "On the inadequacy of open-source application logs for digital forensics", FSI: Digital Investigation 49, 301750.

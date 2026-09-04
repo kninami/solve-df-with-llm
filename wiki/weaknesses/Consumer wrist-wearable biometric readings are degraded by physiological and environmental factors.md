@@ -1,14 +1,14 @@
 ---
-id: DFW-2135
+id: LWW-2135
 type: weakness
 name: Consumer wrist-wearable biometric readings are degraded by physiological and environmental factors
 description: A wrist-wear device's recorded heart-rate and other biometric readings can be systematically inaccurate due to factors such as cold-induced capillary narrowing, user-specific characteristics (tattoos, scars), excessive wrist hair, and proprietary sensor algorithms, so recovered health data cannot automatically be treated as an accurate ground-truth record of the wearer's physiological state at a given time.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2136
+  - LWM-2136
 source_refs:
-  - DFCite-2156
+  - LWCite-2156
 updated_at: 2026-08-17
 status: complete
 ---
@@ -33,4 +33,4 @@ Recovered heart-rate or sleep data is often the basis for drawing conclusions wi
 
 ## References
 
-- [DFCite-2156] Almubairik et al., 2025, "WristSense framework: Exploring the forensic potential of wrist-wear devices through case studies", FSI: Digital Investigation 52.
+- [LWCite-2156] Almubairik et al., 2025, "WristSense framework: Exploring the forensic potential of wrist-wear devices through case studies", FSI: Digital Investigation 52.

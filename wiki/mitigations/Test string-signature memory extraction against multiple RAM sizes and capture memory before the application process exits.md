@@ -1,9 +1,9 @@
 ---
-id: DFM-1224
+id: LWM-1224
 type: mitigation
 name: Test string-signature memory extraction against multiple RAM sizes and capture memory before the application process exits
 source_refs:
-  - DFCite-1235
+  - LWCite-1235
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ When developing or applying a string-search-based memory extraction method, run 
 
 ## References
 
-- [DFCite-1235] Iqbal, Khalid, Marrington, Shah and Hung, 2022, "Forensic investigation of Google Meet for memory and browser artifacts", DFRWS 2022 APAC; FSI: Digital Investigation 43, 301448.
+- [LWCite-1235] Iqbal, Khalid, Marrington, Shah and Hung, 2022, "Forensic investigation of Google Meet for memory and browser artifacts", DFRWS 2022 APAC; FSI: Digital Investigation 43, 301448.

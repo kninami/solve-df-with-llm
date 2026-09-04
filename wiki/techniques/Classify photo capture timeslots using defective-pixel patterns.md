@@ -1,16 +1,16 @@
 ---
-id: DFT-1037
+id: LWT-1037
 type: technique
 name: Classify photo capture timeslots using defective-pixel patterns
 description: Estimate which time period a digital photograph was captured in by training multi-class classifiers on the local-neighbourhood variation behaviour of candidate defective pixel locations within a specific camera's images over time, since a sensor's defective pixels accumulate and evolve gradually and independently of EXIF metadata, which can be altered.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1038
+  - LWW-1038
 aliases:
   - Defective-pixel-based picture acquisition timeslot classification
 source_refs:
-  - DFCite-1028
+  - LWCite-1028
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ For each candidate pixel location within a fixed-size, non-overlapping image blo
 
 ## References
 
-- [DFCite-1028] Ahmed et al., 2021, "A machine learning-based approach for picture acquisition timeslot prediction using defective pixels", FSI: Digital Investigation 39.
+- [LWCite-1028] Ahmed et al., 2021, "A machine learning-based approach for picture acquisition timeslot prediction using defective pixels", FSI: Digital Investigation 39.

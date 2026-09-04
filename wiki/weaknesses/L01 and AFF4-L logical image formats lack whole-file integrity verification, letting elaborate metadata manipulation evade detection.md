@@ -1,14 +1,14 @@
 ---
-id: DFW-1313
+id: LWW-1313
 type: weakness
 name: L01 and AFF4-L logical image formats lack whole-file integrity verification, letting elaborate metadata manipulation evade detection
 description: Neither the L01 nor the AFF4-L logical image format provides a single representative hash or checksum covering the entire image file the way E01 does, and because each format's internal, per-section or per-file integrity elements are individually recalculable, an attacker who elaborately manipulates metadata — recalculating every affected checksum, offset, and hash — can produce a modified image that the format's own supporting tools (EnCase for L01, pyAFF4 and standard archive tools for AFF4-L) verify and accept as intact.
 categories:
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-1315
+  - LWM-1315
 source_refs:
-  - DFCite-1356
+  - LWCite-1356
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or opposing party who relies on a logical image passing its nati
 
 ## References
 
-- [DFCite-1356] Im, Park, Joun, Lee, and Park, 2024, "Revisiting logical image formats for future digital forensics: A comprehensive analysis on L01 and AFF4-L", FSI: Digital Investigation 50, 301811.
+- [LWCite-1356] Im, Park, Joun, Lee, and Park, 2024, "Revisiting logical image formats for future digital forensics: A comprehensive analysis on L01 and AFF4-L", FSI: Digital Investigation 50, 301811.

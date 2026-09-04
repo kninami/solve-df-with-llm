@@ -1,5 +1,5 @@
 ---
-id: DFW-2091
+id: LWW-2091
 type: weakness
 name: Phone-based movement-detection accuracy from app and OS traces varies sharply by phone-lock state and foreground-app status
 description: The reliability with which WhatsApp logfile connectivity events and iOS `cache_encryptedC.db` motion-state traces indicate genuine phone movement is not constant, but instead depends heavily on whether the phone was locked or unlocked and whether the relevant app was in the foreground or background at the time, and the underlying mechanisms producing some of these traces are not yet fully understood.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2092
+  - LWM-2092
 source_refs:
-  - DFCite-2107
+  - LWCite-2107
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator treating the absence of a movement-indicating trace as evidence 
 
 ## References
 
-- [DFCite-2107] van Zandwijk and Boztas, 2021, "The phone reveals your motion: digital traces of walking, driving and other movements on iPhones", FSI: Digital Investigation 37, 301170.
+- [LWCite-2107] van Zandwijk and Boztas, 2021, "The phone reveals your motion: digital traces of walking, driving and other movements on iPhones", FSI: Digital Investigation 37, 301170.

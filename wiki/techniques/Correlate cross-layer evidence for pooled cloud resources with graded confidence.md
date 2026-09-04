@@ -1,5 +1,5 @@
 ---
-id: DFT-1025
+id: LWT-1025
 type: technique
 name: Correlate cross-layer evidence for pooled cloud resources with graded confidence
 description: Attribute user activity in a pooled or multi-tenant cloud resource (e.g., a shared virtual desktop VM used by several users over time) by correlating user identifiers, resource identifiers, and temporal information across independently-logged architectural layers (user endpoint, access/authentication, resource, and control/management), and explicitly grading the resulting attribution as High, Medium, or Low confidence based on which evidence types were actually obtainable.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1008
   - DFO-1001
 weakness_ids:
-  - DFW-1025
+  - LWW-1025
 aliases:
   - Confidence-graded cross-layer evidence correlation for pooled cloud resources
 source_refs:
-  - DFCite-1017
+  - LWCite-1017
 updated_at: 2026-08-09
 status: complete
 ---
@@ -42,4 +42,4 @@ Attribution confidence is derived from five evidence conditions: a uniquely-iden
 
 ## References
 
-- [DFCite-1017] Park et al., 2026, "A forensic investigation framework for desktop-as-a-service in cloud environments", FSI: Digital Investigation 58.
+- [LWCite-1017] Park et al., 2026, "A forensic investigation framework for desktop-as-a-service in cloud environments", FSI: Digital Investigation 58.

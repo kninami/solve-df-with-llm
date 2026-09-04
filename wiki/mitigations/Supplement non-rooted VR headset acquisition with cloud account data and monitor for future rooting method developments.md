@@ -1,9 +1,9 @@
 ---
-id: DFM-2123
+id: LWM-2123
 type: mitigation
 name: Supplement non-rooted VR headset acquisition with cloud account data and monitor for future rooting method developments
 source_refs:
-  - DFCite-2145
+  - LWCite-2145
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ In addition to [[techniques/Acquire and analyze a VR headset's live data, backup
 
 ## References
 
-- [DFCite-2145] Raymer, MacDermott, and Akinbi, 2023, "Virtual reality forensics: Forensic analysis of Meta Quest 2", FSI: Digital Investigation 47, 301658.
+- [LWCite-2145] Raymer, MacDermott, and Akinbi, 2023, "Virtual reality forensics: Forensic analysis of Meta Quest 2", FSI: Digital Investigation 47, 301658.

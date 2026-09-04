@@ -1,16 +1,16 @@
 ---
-id: DFT-1230
+id: LWT-1230
 type: technique
 name: Timestamp digital evidence hashes using a privacy-preserving blockchain-anchored Merkle tree
 description: Obtain an independently verifiable, backdating-resistant proof of when a digital evidence file's hash values were submitted, by batching many submitters' file hashes into a short-lived local Merkle tree and anchoring only the tree's root — never the underlying files or their hashes individually — to a public blockchain, giving each submitter a minimal-disclosure receipt sufficient to reconstruct and verify that root independently.
 objective_ids:
   - DFO-1010
 weakness_ids:
-  - DFW-1248
+  - LWW-1248
 aliases:
   - Horodocs
 source_refs:
-  - DFCite-1263
+  - LWCite-1263
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ On receiving a timestamp request, the server adds a new leaf to the current Merk
 
 ## References
 
-- [DFCite-1263] Jaquet-Chiffelle, Pfeiffer, Brocard, Benoist, and Foukia, 2025, "Horodocs: A scalable, sustainable, robust and privacy compliant system to securely timestamp digital evidence and documents", FSI: Digital Investigation 53, 301913.
+- [LWCite-1263] Jaquet-Chiffelle, Pfeiffer, Brocard, Benoist, and Foukia, 2025, "Horodocs: A scalable, sustainable, robust and privacy compliant system to securely timestamp digital evidence and documents", FSI: Digital Investigation 53, 301913.

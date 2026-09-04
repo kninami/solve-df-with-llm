@@ -1,9 +1,9 @@
 ---
-id: DFM-1273
+id: LWM-1273
 type: mitigation
 name: Supplement automated dark web ID extraction with OCR and manual review for obfuscated or image-embedded identifiers
 source_refs:
-  - DFCite-1300
+  - LWCite-1300
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Run OCR against onion service page images and screenshots as part of the collect
 
 ## References
 
-- [DFCite-1300] de-Marcos, Domínguez-Díaz and Stapic, 2026, "Mapping the Tor darkmarket ecosystem: A network analysis of topics, communication channels, and languages", FSI: Digital Investigation 56, 302032.
+- [LWCite-1300] de-Marcos, Domínguez-Díaz and Stapic, 2026, "Mapping the Tor darkmarket ecosystem: A network analysis of topics, communication channels, and languages", FSI: Digital Investigation 56, 302032.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1258
+id: LWT-1258
 type: technique
 name: Triage smartphone extraction files by relevance using a metadata classifier
 description: Rank a smartphone forensic extraction's files as "Interesting" or "Not Interesting" using a machine learning classifier trained on engineered file-metadata features (file type, size, path depth and structure, filename character composition, EXIF presence, and delta between file-modified and device-apprehended dates) rather than on the files' actual content, letting an examiner focus review effort on the small fraction of files likely to matter.
 objective_ids:
   - DFO-1003
 weakness_ids:
-  - DFW-1270
+  - LWW-1270
 aliases:
   - ML-based smartphone file metadata triage
 source_refs:
-  - DFCite-1298
+  - LWCite-1298
 updated_at: 2026-08-14
 status: complete
 ---
@@ -40,4 +40,4 @@ Files are logically extracted and logged with a forensic tool (e.g. XRY), then t
 
 ## References
 
-- [DFCite-1298] Serhal and Le-Khac, 2021, "Machine learning based approach to analyze file meta data for smart phone file triage", DFRWS 2021 USA; FSI: Digital Investigation 37, 301194.
+- [LWCite-1298] Serhal and Le-Khac, 2021, "Machine learning based approach to analyze file meta data for smart phone file triage", DFRWS 2021 USA; FSI: Digital Investigation 37, 301194.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1311
+id: LWM-1311
 type: mitigation
 name: Manually assess feature-match strength before treating tampering-recognition output as a confident finding
 source_refs:
-  - DFCite-1349
+  - LWCite-1349
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ After applying [[techniques/Recognize artefact tampering using inductive reasoni
 
 ## References
 
-- [DFCite-1349] Neale, Kennedy, and Nuseibeh, 2026, "Reasoning about artefact tampering", FSI: Digital Investigation 58, 302147.
+- [LWCite-1349] Neale, Kennedy, and Nuseibeh, 2026, "Reasoning about artefact tampering", FSI: Digital Investigation 58, 302147.

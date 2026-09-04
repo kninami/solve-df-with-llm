@@ -1,16 +1,16 @@
 ---
-id: DFT-2099
+id: LWT-2099
 type: technique
 name: Identify a recording's source microphone using a spectrogram-based transformer classifier
 description: Determine which specific microphone (or microphone model) recorded a given digital audio file by converting the audio into a Mel-spectrogram, dividing it into fixed-size patches, and classifying it with an attention-based transformer encoder (an Audio Spectrogram Transformer architecture), used both to distinguish between different microphone models (inter-model classification) and between individual microphones of the same brand and model (intra-model classification).
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-2105
+  - LWW-2105
 aliases:
   - AST-based microphone classification
 source_refs:
-  - DFCite-2124
+  - LWCite-2124
 updated_at: 2026-08-16
 status: complete
 ---
@@ -41,4 +41,4 @@ Raw audio is first converted to a Mel-spectrogram via short-time FFT, pre-emphas
 
 ## References
 
-- [DFCite-2124] Qamhan, Alotaibi, and Selouani, 2023, "Transformer for authenticating the source microphone in digital audio forensics", FSI: Digital Investigation 45, 301539.
+- [LWCite-2124] Qamhan, Alotaibi, and Selouani, 2023, "Transformer for authenticating the source microphone in digital audio forensics", FSI: Digital Investigation 45, 301539.

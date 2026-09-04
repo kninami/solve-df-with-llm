@@ -1,5 +1,5 @@
 ---
-id: DFW-2074
+id: LWW-2074
 type: weakness
 name: Memory forensic frameworks silently produce incomplete or incorrect artifacts when a target binary's data structure layout changes between versions
 description: A memory forensic framework's automated structured analysis depends on hard-coded knowledge of a target binary's internal data-structure member offsets, and when a new version of that binary (an OS kernel module, or a userland runtime such as Objective-C) changes those offsets, unsupported frameworks either fail to process the memory sample or silently produce erroneous or incomplete artifacts rather than raising a clear error.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-2074
+  - LWM-2074
 source_refs:
-  - DFCite-2079
+  - LWCite-2079
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator who runs a memory forensic framework against a sample without fi
 
 ## References
 
-- [DFCite-2079] Maggio, Case, Ali-Gombe, and Richard III, 2021, "Seance: Divination of tool-breaking changes in forensically important binaries", FSI: Digital Investigation 37, 301189.
+- [LWCite-2079] Maggio, Case, Ali-Gombe, and Richard III, 2021, "Seance: Divination of tool-breaking changes in forensically important binaries", FSI: Digital Investigation 37, 301189.

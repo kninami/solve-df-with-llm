@@ -1,14 +1,14 @@
 ---
-id: DFW-1122
+id: LWW-1122
 type: weakness
 name: API-based cloud host acquisition depends on cooperative authorization from the target owner or CSP
 description: Acquiring, preserving, or emulating a virtual host via a cloud service provider's own official API requires either the target account owner's cooperation (to obtain login tokens and authorization) or the CSP's non-interference, so the approach is inapplicable against an uncooperative account holder or an uncooperative or unresponsive cloud provider.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1122
+  - LWM-1122
 source_refs:
-  - DFCite-1116
+  - LWCite-1116
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator facing an uncooperative account holder, a CSP that does not resp
 
 ## References
 
-- [DFCite-1116] Wu et al., 2022, "Cloud Evidence Tracing System: An integrated forensics investigation system for large-scale public cloud platform", FSI: Digital Investigation 41.
+- [LWCite-1116] Wu et al., 2022, "Cloud Evidence Tracing System: An integrated forensics investigation system for large-scale public cloud platform", FSI: Digital Investigation 41.

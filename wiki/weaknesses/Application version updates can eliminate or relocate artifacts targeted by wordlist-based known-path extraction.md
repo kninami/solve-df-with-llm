@@ -1,14 +1,14 @@
 ---
-id: DFW-1072
+id: LWW-1072
 type: weakness
 name: Application version updates can eliminate or relocate artifacts targeted by wordlist-based known-path extraction
 description: A wordlist of known filenames and paths built from manually analyzing one version of a mobile application can become substantially wrong after the application is updated, since an update can move, rename, or entirely remove the artifacts the wordlist targets, causing an automated extraction run against a newer version to silently recover little or none of the previously-available evidence.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1072
+  - LWM-1072
 source_refs:
-  - DFCite-1062
+  - LWCite-1062
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator running a wordlist-based extraction tool against a device with a
 
 ## References
 
-- [DFCite-1062] Johnson et al., 2022, "Alt-tech social forensics: Forensic analysis of alternative social networking applications", FSI: Digital Investigation 42.
+- [LWCite-1062] Johnson et al., 2022, "Alt-tech social forensics: Forensic analysis of alternative social networking applications", FSI: Digital Investigation 42.

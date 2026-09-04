@@ -1,14 +1,14 @@
 ---
-id: DFW-1295
+id: LWW-1295
 type: weakness
 name: OSINT investigation report completeness varies widely and is difficult to assess without a structured case-study knowledge base
 description: Without a structured, ontology-backed record of what evidence, concepts, and tools a given type of case typically involves, investigators (and trainees) have no consistent way to tell whether their own investigation or report is complete, leading to widely varying report depth and quality driven by individual source access, tool familiarity, and departmental process differences rather than the actual demands of the case.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1296
+  - LWM-1296
 source_refs:
-  - DFCite-1327
+  - LWCite-1327
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ Without a way to compare an in-progress investigation against a structured recor
 
 ## References
 
-- [DFCite-1327] Ngo and Le-Khac, 2023, "Ontology-based case study management towards bridging training and actual investigation gaps in digital forensics", FSI: Digital Investigation 47, 301621.
+- [LWCite-1327] Ngo and Le-Khac, 2023, "Ontology-based case study management towards bridging training and actual investigation gaps in digital forensics", FSI: Digital Investigation 47, 301621.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2006
+id: LWW-2006
 type: weakness
 name: A local multi-layer LLM crypto-wallet forensic pipeline has only been validated on simulated single-wallet scenarios
 description: A multi-layer LLM memory-forensics pipeline benchmarked only against a controlled, single-wallet simulated dataset and scored by a single evaluator has unconfirmed reliability for the more complex multi-wallet, multi-chain, real-case conditions it would need to handle operationally.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2006
+  - LWM-2006
 source_refs:
-  - DFCite-2006
+  - LWCite-2006
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ Real cryptocurrency investigations frequently involve multiple wallets, cross-ch
 
 ## References
 
-- [DFCite-2006] Kao et al., 2026 — the paper's own "Limitations" and "Future Work" discussion identifies simulated-scenario-only evaluation, single-evaluator scoring, and untested multi-wallet/multi-chain generalization as open issues.
+- [LWCite-2006] Kao et al., 2026 — the paper's own "Limitations" and "Future Work" discussion identifies simulated-scenario-only evaluation, single-evaluator scoring, and untested multi-wallet/multi-chain generalization as open issues.

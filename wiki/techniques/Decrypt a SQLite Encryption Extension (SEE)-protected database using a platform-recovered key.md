@@ -1,17 +1,17 @@
 ---
-id: DFT-1195
+id: LWT-1195
 type: technique
 name: Decrypt a SQLite Encryption Extension (SEE)-protected database using a platform-recovered key
 description: Decrypt a SQLite database protected with the paid, previously-undisclosed SQLite Encryption Extension (SEE) by recovering its DB key from the host OS's platform key-protection store, then decrypting each page of the database individually with AES-256-OFB using page-size and nonce values read from the database's own plaintext header bytes.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1158
+  - LWW-1158
 aliases:
   - SEE database decryption
   - Webex SEE-AES-256-OFB database decryption
 source_refs:
-  - DFCite-1217
+  - LWCite-1217
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ A SEE-encrypted SQLite database is identifiable by checking bytes at header offs
 
 ## References
 
-- [DFCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.
+- [LWCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.

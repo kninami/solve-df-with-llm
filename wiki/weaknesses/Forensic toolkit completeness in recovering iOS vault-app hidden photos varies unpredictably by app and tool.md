@@ -1,14 +1,14 @@
 ---
-id: DFW-2063
+id: LWW-2063
 type: weakness
 name: Forensic toolkit completeness in recovering iOS vault-app hidden photos varies unpredictably by app and tool
 description: The three tested mobile forensic toolkits each recovered a different subset of hidden vault-app photos and artifacts from the same iOS device, so no single toolkit reliably found every hidden photo across every vault app, and which artifacts were missed was not predictable from the app or tool alone.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2064
+  - LWM-2064
 source_refs:
-  - DFCite-2066
+  - LWCite-2066
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who runs only one forensic toolkit against a device containing v
 
 ## References
 
-- [DFCite-2066] Gilbert & Seigfried-Spellar, 2022, "Forensic Discoverability of iOS Vault Applications", JDFSL 17(1). Reports differing per-tool detection results across Cellebrite, Axiom, and Mobilyze for the same five vault apps and twenty test images, concluding "using more than one forensic application to analyze the same image of the iPhone provides the most correct and whole picture of what evidence is on the phone."
+- [LWCite-2066] Gilbert & Seigfried-Spellar, 2022, "Forensic Discoverability of iOS Vault Applications", JDFSL 17(1). Reports differing per-tool detection results across Cellebrite, Axiom, and Mobilyze for the same five vault apps and twenty test images, concluding "using more than one forensic application to analyze the same image of the iPhone provides the most correct and whole picture of what evidence is on the phone."

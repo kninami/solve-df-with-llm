@@ -1,9 +1,9 @@
 ---
-id: DFM-1268
+id: LWM-1268
 type: mitigation
 name: Supplement Java-focused Android taint-analysis tools with a native-library-aware data-flow summary before drawing conclusions
 source_refs:
-  - DFCite-1293
+  - LWCite-1293
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify which native libraries (`.so` files) a target app bundles, and check wh
 
 ## References
 
-- [DFCite-1293] Shi, Cheng and Guan, 2022, "LibDroid: Summarizing information flow of android native libraries via static analysis", DFRWS 2022 USA; FSI: Digital Investigation 42, 301405.
+- [LWCite-1293] Shi, Cheng and Guan, 2022, "LibDroid: Summarizing information flow of android native libraries via static analysis", DFRWS 2022 USA; FSI: Digital Investigation 42, 301405.

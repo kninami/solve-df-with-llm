@@ -1,5 +1,5 @@
 ---
-id: DFT-2110
+id: LWT-2110
 type: technique
 name: Detect toxic content embedded in social media images using OCR text extraction and RNN classification
 description: Detect "troll" or toxic content that a social media user has embedded as text within an image (e.g. a meme or screenshot) -- content invisible to a purely text-based moderation or investigation pipeline -- by extracting the embedded text with optical character recognition (OCR) and classifying the extracted text as toxic or non-toxic with a bidirectional recurrent neural network.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1019
   - DFO-1012
 weakness_ids:
-  - DFW-2117
+  - LWW-2117
 aliases:
   - OCR-plus-deep-learning social media troll detection
 source_refs:
-  - DFCite-2137
+  - LWCite-2137
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,4 +42,4 @@ Collected social media images are passed through an OCR engine to extract any em
 
 ## References
 
-- [DFCite-2137] "Using deep learning to detect social media 'trolls'", FSI: Digital Investigation 48, 2024.
+- [LWCite-2137] "Using deep learning to detect social media 'trolls'", FSI: Digital Investigation 48, 2024.

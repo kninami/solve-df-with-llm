@@ -1,9 +1,9 @@
 ---
-id: DFM-1296
+id: LWM-1296
 type: mitigation
 name: Query an ontology-backed case-study repository for the evidence and tool categories associated with the current case's concept types
 source_refs:
-  - DFCite-1327
+  - LWCite-1327
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Where [[techniques/Match a cybercrime investigation to precedent case studies us
 
 ## References
 
-- [DFCite-1327] Ngo and Le-Khac, 2023, "Ontology-based case study management towards bridging training and actual investigation gaps in digital forensics", FSI: Digital Investigation 47, 301621.
+- [LWCite-1327] Ngo and Le-Khac, 2023, "Ontology-based case study management towards bridging training and actual investigation gaps in digital forensics", FSI: Digital Investigation 47, 301621.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1235
+id: LWM-1235
 type: mitigation
 name: Supplement a cognitive map's technical guidance with follow-up investigative and legal or operational planning
 source_refs:
-  - DFCite-1248
+  - LWCite-1248
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ When using a cognitive map to plan a cybercrime investigation, explicitly hand o
 
 ## References
 
-- [DFCite-1248] Gruber et al., 2022, "Foundations of cybercriminalistics: From general process models to case-specific concretizations in cybercrime investigations", FSI: Digital Investigation 43, 301438.
+- [LWCite-1248] Gruber et al., 2022, "Foundations of cybercriminalistics: From general process models to case-specific concretizations in cybercrime investigations", FSI: Digital Investigation 43, 301438.

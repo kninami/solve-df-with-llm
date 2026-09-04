@@ -1,5 +1,5 @@
 ---
-id: DFT-2095
+id: LWT-2095
 type: technique
 name: Perform joint semantic analysis of multimodal mobile communication using knowledge-guided topic modeling
 description: Reduce manual review effort for large volumes of extracted mobile-device communication (text messages, call metadata, and other multimodal artifacts) by jointly applying topic modeling seeded with investigator-curated expert-knowledge concept dictionaries, surfacing which conversations or message clusters relate to investigatively relevant topics (e.g. drugs, weapons, or other case-specific concept categories) rather than requiring an analyst to read every extracted message individually.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1003
   - DFO-1012
 weakness_ids:
-  - DFW-2100
+  - LWW-2100
 aliases:
   - JoSemA
   - Joint semantic analysis in mobile forensics
 source_refs:
-  - DFCite-2117
+  - LWCite-2117
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,4 +42,4 @@ Topics are represented as probability distributions over words rather than singl
 
 ## References
 
-- [DFCite-2117] "Towards a joint semantic analysis in mobile forensics environments", FSI: Digital Investigation 48, 2024.
+- [LWCite-2117] "Towards a joint semantic analysis in mobile forensics environments", FSI: Digital Investigation 48, 2024.

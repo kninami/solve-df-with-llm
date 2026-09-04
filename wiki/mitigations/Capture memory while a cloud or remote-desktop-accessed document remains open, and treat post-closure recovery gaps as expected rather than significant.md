@@ -1,9 +1,9 @@
 ---
-id: DFM-2086
+id: LWM-2086
 type: mitigation
 name: Capture memory while a cloud or remote-desktop-accessed document remains open, and treat post-closure recovery gaps as expected rather than significant
 source_refs:
-  - DFCite-2101
+  - LWCite-2101
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Where a live-response scenario allows a choice of timing, prioritize memory acqu
 
 ## References
 
-- [DFCite-2101] Al-Sharif, Al-Senjalawi, and Alzoubi, 2024, "The effects of document's format, size, and storage media on memory forensics", FSI: Digital Investigation 48, 301692.
+- [LWCite-2101] Al-Sharif, Al-Senjalawi, and Alzoubi, 2024, "The effects of document's format, size, and storage media on memory forensics", FSI: Digital Investigation 48, 301692.

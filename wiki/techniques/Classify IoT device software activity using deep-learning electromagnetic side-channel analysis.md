@@ -1,17 +1,17 @@
 ---
-id: DFT-1238
+id: LWT-1238
 type: technique
 name: Classify IoT device software activity using deep-learning electromagnetic side-channel analysis
 description: Non-invasively determine which of several known software routines or algorithms an IoT or embedded device is executing by capturing the electromagnetic emissions its System-on-Chip radiates during operation and classifying them with a deep learning model, most reliably in the frequency domain rather than the raw time domain.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1185
+  - LWW-1185
 aliases:
   - IoT EM-SCA software-activity classification
   - Deep-learning EM-SCA for embedded device forensics
 source_refs:
-  - DFCite-1271
+  - LWCite-1271
 updated_at: 2026-08-14
 status: complete
 ---
@@ -40,4 +40,4 @@ Traces are captured with a software-defined radio and a near-field probe positio
 
 ## References
 
-- [DFCite-1271] Han, Kim and Kwon, 2026, "Identifying Internet of Things software activities using deep learning-based electromagnetic side-channel analysis", FSI: Digital Investigation 56, 302072.
+- [LWCite-1271] Han, Kim and Kwon, 2026, "Identifying Internet of Things software activities using deep learning-based electromagnetic side-channel analysis", FSI: Digital Investigation 56, 302072.

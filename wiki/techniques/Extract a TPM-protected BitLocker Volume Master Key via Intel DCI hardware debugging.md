@@ -1,17 +1,17 @@
 ---
-id: DFT-1213
+id: LWT-1213
 type: technique
 name: Extract a TPM-protected BitLocker Volume Master Key via Intel DCI hardware debugging
 description: Recover the clear Volume Master Key (VMK) of a TPM-protected BitLocker volume by enabling Intel Direct Connect Interface (DCI) hardware debugging on the target computer's UEFI firmware, reverse-engineering the Windows Boot Manager to locate the exact code point where the TPM's unsealed VMK is held in a CPU register, and halting the CPU with a breakpoint there to dump the register's referenced memory.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1226
+  - LWW-1226
 aliases:
   - Intel DCI BitLocker VMK extraction
   - DCILeech-style TPM BitLocker key recovery
 source_refs:
-  - DFCite-1237
+  - LWCite-1237
 updated_at: 2026-08-13
 status: complete
 ---
@@ -42,4 +42,4 @@ The method proceeds in five steps. First, the target's storage is imaged and `ma
 
 ## References
 
-- [DFCite-1237] Bichara de Assumpção, dos Reis, Marcondes, da Silva Eleutério and Vieira, 2023, "Forensic method for decrypting TPM-protected BitLocker volumes using Intel DCI", DFRWS 2023 EU; FSI: Digital Investigation 44, 301514.
+- [LWCite-1237] Bichara de Assumpção, dos Reis, Marcondes, da Silva Eleutério and Vieira, 2023, "Forensic method for decrypting TPM-protected BitLocker volumes using Intel DCI", DFRWS 2023 EU; FSI: Digital Investigation 44, 301514.

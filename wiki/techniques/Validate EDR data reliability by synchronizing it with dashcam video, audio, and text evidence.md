@@ -1,16 +1,16 @@
 ---
-id: DFT-1241
+id: LWT-1241
 type: technique
 name: Validate EDR data reliability by synchronizing it with dashcam video, audio, and text evidence
 description: Cross-validate an Event Data Recorder's speed, acceleration, engine-status, and Principal-Direction-of-Force data against independently derived evidence from a vehicle's dashboard camera (video-based speed and trajectory extraction, engine-sound audio analysis, and OCR-extracted on-screen telemetry text), estimating the EDR's uncertain Time Zero via a sliding-window similarity algorithm rather than assuming EDR data is reliable on its own.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1259
+  - LWW-1259
 aliases:
   - EDR-DBC multimodal validation framework
 source_refs:
-  - DFCite-1277
+  - LWCite-1277
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ The framework has four stages: (1) parsing the EDR's PDF report into structured,
 
 ## References
 
-- [DFCite-1277] Choi, Park and Kong, 2026, "Integrated validation framework for EDR data reliability: Application to Korean traffic accident cases", FSI: Digital Investigation 56, 302071.
+- [LWCite-1277] Choi, Park and Kong, 2026, "Integrated validation framework for EDR data reliability: Application to Korean traffic accident cases", FSI: Digital Investigation 56, 302071.

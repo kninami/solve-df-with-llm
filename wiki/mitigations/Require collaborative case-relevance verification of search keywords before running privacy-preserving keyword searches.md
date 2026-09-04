@@ -1,9 +1,9 @@
 ---
-id: DFM-2018
+id: LWM-2018
 type: mitigation
 name: Require collaborative case-relevance verification of search keywords before running privacy-preserving keyword searches
 source_refs:
-  - DFCite-2018
+  - LWCite-2018
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Integrate a keyword-relevance-verification step into the privacy-preserving digi
 
 ## References
 
-- [DFCite-2018] Ogunseyi and Adedayo, 2023 — Section III.F's proposed solution recommends integrating keyword verification techniques and careful, collaborative keyword selection between investigators and other stakeholders to reduce the risk of over-broad, non-relevant data collection.
+- [LWCite-2018] Ogunseyi and Adedayo, 2023 — Section III.F's proposed solution recommends integrating keyword verification techniques and careful, collaborative keyword selection between investigators and other stakeholders to reduce the risk of over-broad, non-relevant data collection.

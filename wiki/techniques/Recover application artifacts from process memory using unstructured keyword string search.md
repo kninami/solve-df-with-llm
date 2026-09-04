@@ -1,19 +1,19 @@
 ---
-id: DFT-1212
+id: LWT-1212
 type: technique
 name: Recover application artifacts from process memory using unstructured keyword string search
 description: Extract an application's account, meeting, or conversation artifacts from a process memory dump by grepping for application- and account-specific keywords in raw extracted strings, without deriving the application's internal object/structure layout, recovering data that logging and disk-based storage do not retain.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1224
-  - DFW-1225
+  - LWW-1224
+  - LWW-1225
 aliases:
   - Google Meet browser-tab process memory string forensics
   - Discord/Slack Electron process memory string forensics
 source_refs:
-  - DFCite-1235
-  - DFCite-1236
+  - LWCite-1235
+  - LWCite-1236
 updated_at: 2026-08-13
 status: complete
 ---
@@ -45,5 +45,5 @@ The method captures a memory image of the target process (a browser tab's render
 
 ## References
 
-- [DFCite-1235] Iqbal, Khalid, Marrington, Shah and Hung, 2022, "Forensic investigation of Google Meet for memory and browser artifacts", DFRWS 2022 APAC; FSI: Digital Investigation 43, 301448.
-- [DFCite-1236] Davis, McInnes and Ahmed, 2022, "Forensic investigation of instant messaging services on linux OS: Discord and Slack as case studies", DFRWS 2022 USA; FSI: Digital Investigation 42, 301401.
+- [LWCite-1235] Iqbal, Khalid, Marrington, Shah and Hung, 2022, "Forensic investigation of Google Meet for memory and browser artifacts", DFRWS 2022 APAC; FSI: Digital Investigation 43, 301448.
+- [LWCite-1236] Davis, McInnes and Ahmed, 2022, "Forensic investigation of instant messaging services on linux OS: Discord and Slack as case studies", DFRWS 2022 USA; FSI: Digital Investigation 42, 301401.

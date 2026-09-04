@@ -1,14 +1,14 @@
 ---
-id: DFW-2044
+id: LWW-2044
 type: weakness
 name: CLIP-based tampering detection risks semantic misalignment when a forged image's caption closely matches its altered content
 description: Because CLIP's underlying pretraining targets general natural-image-and-text pairs rather than forensic-specific alignment, a CLIP-based tampering detector can be thrown off by a forged image whose accompanying or generated text description remains highly semantically consistent with the altered content, causing cross-modal noise interference that risks misclassification or confidence drift.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2044
+  - LWM-2044
 source_refs:
-  - DFCite-2045
+  - LWCite-2045
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ A sophisticated forgery designed to remain semantically coherent with its captio
 
 ## References
 
-- [DFCite-2045] Wang, 2026 — Section V "Discussion and Conclusion" explicitly identifies domain-specific semantic misalignment/cross-modal noise interference and limited pseudo-label spatial accuracy on complex tampering patterns as acknowledged limitations.
+- [LWCite-2045] Wang, 2026 — Section V "Discussion and Conclusion" explicitly identifies domain-specific semantic misalignment/cross-modal noise interference and limited pseudo-label spatial accuracy on complex tampering patterns as acknowledged limitations.

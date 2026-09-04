@@ -1,16 +1,16 @@
 ---
-id: DFT-1068
+id: LWT-1068
 type: technique
 name: Construct an ambiguous file system partition as an anti-forensic technique
 description: Construct a single file system partition that contains two fully functional, independently-parseable file systems at once — a "host" file system whose structures are recognized normally, and a "guest" file system integrated into regions the host considers unused or reusable (e.g. sparse regions, unused metadata fields, or areas the host will not overwrite under normal use) — so that different forensic tools or manual analyses can disagree about, or entirely miss, part of the partition's actual content depending on which file system they parse.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1073
+  - LWW-1073
 aliases:
   - Ambiguous file system partition construction as an anti-forensic technique
 source_refs:
-  - DFCite-1063
+  - LWCite-1063
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ The paper demonstrates the construction is achievable in practice by integrating
 
 ## References
 
-- [DFCite-1063] Schneider et al., 2022, "Ambiguous file system partitions", FSI: Digital Investigation 42.
+- [LWCite-1063] Schneider et al., 2022, "Ambiguous file system partitions", FSI: Digital Investigation 42.

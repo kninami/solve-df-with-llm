@@ -1,9 +1,9 @@
 ---
-id: DFM-1126
+id: LWM-1126
 type: mitigation
 name: Apply the five-questions tool-fitness framework before deploying an unfamiliar forensic tool
 source_refs:
-  - DFCite-1120
+  - LWCite-1120
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ For any tool not already well-understood by the practitioner, work through the f
 
 ## References
 
-- [DFCite-1120] Horsman, 2024, "Commentary:- Can I use that tool?", FSI: Digital Investigation 51, 301843.
+- [LWCite-1120] Horsman, 2024, "Commentary:- Can I use that tool?", FSI: Digital Investigation 51, 301843.

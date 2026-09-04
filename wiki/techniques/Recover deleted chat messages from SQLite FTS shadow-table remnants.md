@@ -1,17 +1,17 @@
 ---
-id: DFT-1196
+id: LWT-1196
 type: technique
 name: Recover deleted chat messages from SQLite FTS shadow-table remnants
 description: Recover a chat message deleted through an application's own delete function by reading the corresponding shadow (content) table that the SQLite Full-Text Search (FTS) extension maintains for the searchable column, since an app's delete-message function commonly clears only the main table's message content while the parallel FTS shadow table, still linked by the same message ID, retains an untouched copy.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1204
+  - LWW-1204
 aliases:
   - FTS-based deleted-message recovery
   - SQLite FTS shadow-table anti-forensic recovery
 source_refs:
-  - DFCite-1217
+  - LWCite-1217
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ Standard techniques for recovering deleted SQLite records rely on unused-page an
 
 ## References
 
-- [DFCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.
+- [LWCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.

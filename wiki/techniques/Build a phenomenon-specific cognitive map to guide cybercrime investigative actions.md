@@ -1,17 +1,17 @@
 ---
-id: DFT-1218
+id: LWT-1218
 type: technique
 name: Build a phenomenon-specific cognitive map to guide cybercrime investigative actions
 description: Encode the primary and secondary crime scenes of a cybercrime phenomenon (e.g. botnet crime) as a node-link cognitive map — a meso-level knowledge representation sitting between an abstract general process model and a specific case — so investigators can see which investigative measures are available, in what order, and what artifacts each measure is expected to yield.
 objective_ids:
   - DFO-1005
 weakness_ids:
-  - DFW-1234
+  - LWW-1234
 aliases:
   - Cognitive map (CM) of a digital crime scene
   - Phenomenon-specific knowledge representation for cybercrime investigation
 source_refs:
-  - DFCite-1248
+  - LWCite-1248
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ The CM is built from a literature-grounded knowledge repository and then validat
 
 ## References
 
-- [DFCite-1248] Gruber et al., 2022, "Foundations of cybercriminalistics: From general process models to case-specific concretizations in cybercrime investigations", FSI: Digital Investigation 43, 301438.
+- [LWCite-1248] Gruber et al., 2022, "Foundations of cybercriminalistics: From general process models to case-specific concretizations in cybercrime investigations", FSI: Digital Investigation 43, 301438.

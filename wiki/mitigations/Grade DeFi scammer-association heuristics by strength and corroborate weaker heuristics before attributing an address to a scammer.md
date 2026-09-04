@@ -1,9 +1,9 @@
 ---
-id: DFM-1290
+id: LWM-1290
 type: mitigation
 name: Grade DeFi scammer-association heuristics by strength and corroborate weaker heuristics before attributing an address to a scammer
 source_refs:
-  - DFCite-1320
+  - LWCite-1320
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When applying [[techniques/Investigate an Ethereum DeFi rug-pull scheme and trac
 
 ## References
 
-- [DFCite-1320] Trozze, Davies, and Kleinberg, 2023, "Of degens and defrauders: Using open-source investigative tools to investigate decentralized finance frauds and money laundering", FSI: Digital Investigation 46, 301575.
+- [LWCite-1320] Trozze, Davies, and Kleinberg, 2023, "Of degens and defrauders: Using open-source investigative tools to investigate decentralized finance frauds and money laundering", FSI: Digital Investigation 46, 301575.

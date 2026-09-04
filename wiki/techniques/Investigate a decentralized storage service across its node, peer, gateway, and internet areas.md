@@ -1,17 +1,17 @@
 ---
-id: DFT-1239
+id: LWT-1239
 type: technique
 name: Investigate a decentralized storage service across its node, peer, gateway, and internet areas
 description: Apply a four-area forensic investigation framework to a decentralized storage service (DSS) such as IPFS/Filecoin, BitTorrent File System, or Arweave — identifying and collecting evidence separately from the local node, the peer-to-peer network, public gateways, and internet-visible URLs — since evidence, and the means to disrupt further distribution, differ by area and no single area gives full coverage.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1255
+  - LWW-1255
 aliases:
   - IF-DSS
   - Decentralized storage service forensic investigation framework
 source_refs:
-  - DFCite-1272
+  - LWCite-1272
 updated_at: 2026-08-14
 status: complete
 ---
@@ -45,4 +45,4 @@ Locally cached file chunks recovered from a node's storage are frequently stored
 
 ## References
 
-- [DFCite-1272] Son, Kim, Jung, Bang and Park, 2023, "IF-DSS: A forensic investigation framework for decentralized storage services", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301611.
+- [LWCite-1272] Son, Kim, Jung, Bang and Park, 2023, "IF-DSS: A forensic investigation framework for decentralized storage services", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301611.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1136
+id: LWT-1136
 type: technique
 name: Harvest Tor hidden services using vision-based, parser-independent contraband classification
 description: Crawl and periodically re-crawl a corpus of Tor hidden-service (.onion) URLs, capturing rendered-page screenshots alongside raw HTML/media/OSINT metadata, and classify captured screenshots for contraband categories (e.g. drugs, weapons) using an image-level object detector, so that harvesting and evidence flagging survive HTML/template changes that would break a DOM- or keyword-based crawler.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1139
+  - LWW-1139
 aliases:
   - DarkCatalog
   - Vision-first, parser-independent forensic harvesting of Tor hidden services
 source_refs:
-  - DFCite-1137
+  - LWCite-1137
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The pipeline verifies each candidate .onion URL's reachability, then for each ac
 
 ## References
 
-- [DFCite-1137] Rathod et al., 2026, "DarkCatalog: A vision-first, parser-independent framework for forensic harvesting of TOR hidden services", FSI: Digital Investigation 57.
+- [LWCite-1137] Rathod et al., 2026, "DarkCatalog: A vision-first, parser-independent framework for forensic harvesting of TOR hidden services", FSI: Digital Investigation 57.

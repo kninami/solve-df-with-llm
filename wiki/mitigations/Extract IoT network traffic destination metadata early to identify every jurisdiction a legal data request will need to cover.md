@@ -1,9 +1,9 @@
 ---
-id: DFM-1262
+id: LWM-1262
 type: mitigation
 name: Extract IoT network traffic destination metadata early to identify every jurisdiction a legal data request will need to cover
 source_refs:
-  - DFCite-1282
+  - LWCite-1282
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Capture the target IoT device's network traffic (device-to-cloud and companion-a
 
 ## References
 
-- [DFCite-1282] Wu, Breitinger and Niemann, 2021, "IoT network traffic analysis: Opportunities and challenges for forensic investigators?", DFRWS 2021 APAC; FSI: Digital Investigation 38, 301123.
+- [LWCite-1282] Wu, Breitinger and Niemann, 2021, "IoT network traffic analysis: Opportunities and challenges for forensic investigators?", DFRWS 2021 APAC; FSI: Digital Investigation 38, 301123.

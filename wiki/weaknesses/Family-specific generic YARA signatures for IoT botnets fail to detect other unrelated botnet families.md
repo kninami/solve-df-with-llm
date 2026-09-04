@@ -1,14 +1,14 @@
 ---
-id: DFW-1239
+id: LWW-1239
 type: weakness
 name: Family-specific generic YARA signatures for IoT botnets fail to detect other unrelated botnet families
 description: A generic YARA rule-set built from the shared behavioral patterns of one IoT botnet family's variants detects that family well but generalizes poorly to a different, unrelated botnet family, since the two families' underlying source code, control commands, and obfuscation methods diverge even though both are classified as IoT botnets.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1240
+  - LWM-1240
 source_refs:
-  - DFCite-1254
+  - LWCite-1254
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or defender who deploys a generic YARA rule-set developed for on
 
 ## References
 
-- [DFCite-1254] Abbas et al., 2021, "Generic signature development for IoT Botnet families", FSI: Digital Investigation 38, 301224.
+- [LWCite-1254] Abbas et al., 2021, "Generic signature development for IoT Botnet families", FSI: Digital Investigation 38, 301224.

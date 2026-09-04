@@ -1,9 +1,9 @@
 ---
-id: DFM-2126
+id: LWM-2126
 type: mitigation
 name: Expand LLM triage prompts with rules for legitimate utilities commonly abused by ransomware
 source_refs:
-  - DFCite-2147
+  - LWCite-2147
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Curate and periodically update a list of legitimate-but-frequently-abused utilit
 
 ## References
 
-- [DFCite-2147] Oh et al., 2024, "volGPT: Evaluation on triaging ransomware process in memory forensics with Large Language Model", FSI: Digital Investigation 49.
+- [LWCite-2147] Oh et al., 2024, "volGPT: Evaluation on triaging ransomware process in memory forensics with Large Language Model", FSI: Digital Investigation 49.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1234
+id: LWM-1234
 type: mitigation
 name: Systematically discover and version-track undocumented cloud APIs via automated OpenAPI-schema snapshot comparison
 source_refs:
-  - DFCite-1245
+  - LWCite-1245
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Capture live API traffic through the same sequence of user actions each time an 
 
 ## References
 
-- [DFCite-1245] Jeong et al., 2026, "FOREST: Inspecting and tracking RESTful APIs for constructing a cloud forensic knowledge base", FSI: Digital Investigation 56, 302070.
+- [LWCite-1245] Jeong et al., 2026, "FOREST: Inspecting and tracking RESTful APIs for constructing a cloud forensic knowledge base", FSI: Digital Investigation 56, 302070.

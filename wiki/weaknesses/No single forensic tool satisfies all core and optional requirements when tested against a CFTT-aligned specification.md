@@ -1,17 +1,17 @@
 ---
-id: DFW-1178
+id: LWW-1178
 type: weakness
 name: No single forensic tool satisfies all core and optional requirements when tested against a CFTT-aligned specification
 description: When systematically tested against a CFTT-style specification of discipline-relevant artifact-category or feature requirements, no individual forensic tool satisfies every applicable core and optional requirement, leaving gaps that vary tool by tool and, in at least one discipline, a core requirement failed outright by one tested tool.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1178
-  - DFM-2058
+  - LWM-1178
+  - LWM-2058
 source_refs:
-  - DFCite-1179
-  - DFCite-1180
-  - DFCite-2058
+  - LWCite-1179
+  - LWCite-1180
+  - LWCite-2058
 updated_at: 2026-08-15
 status: complete
 ---
@@ -37,6 +37,6 @@ An investigator who selects a single forensic tool based on its general reputati
 
 ## References
 
-- [DFCite-1179] Lee et al., 2026, "Drone forensic tool testing: Methodology and applications", FSI: Digital Investigation 58. Reports that no tested drone forensic tool satisfied all applicable requirements across all tested drone models, with the DJI Mini 3 Pro notably underserved.
-- [DFCite-1180] Thantilage et al., 2025, "Drone forensics in law enforcement: Assessing utilisation, challenges, and emerging necessities", FSI: Digital Investigation 55. Independently identifies the absence of a standardised benchmarking framework for drone forensic tools as a barrier to trust, admissibility, and procurement.
-- [DFCite-2058] Khalid & Qadir, 2022, "An Evaluation Framework For Digital Image Forensics Tools", JDFSL 17(4). Reports that the majority of four tested image forensics tools failed to correctly determine an image's modification timestamp, and that Exif Reader failed to conform to the core Error Level Analysis tamper-detection assertion.
+- [LWCite-1179] Lee et al., 2026, "Drone forensic tool testing: Methodology and applications", FSI: Digital Investigation 58. Reports that no tested drone forensic tool satisfied all applicable requirements across all tested drone models, with the DJI Mini 3 Pro notably underserved.
+- [LWCite-1180] Thantilage et al., 2025, "Drone forensics in law enforcement: Assessing utilisation, challenges, and emerging necessities", FSI: Digital Investigation 55. Independently identifies the absence of a standardised benchmarking framework for drone forensic tools as a barrier to trust, admissibility, and procurement.
+- [LWCite-2058] Khalid & Qadir, 2022, "An Evaluation Framework For Digital Image Forensics Tools", JDFSL 17(4). Reports that the majority of four tested image forensics tools failed to correctly determine an image's modification timestamp, and that Exif Reader failed to conform to the core Error Level Analysis tamper-detection assertion.

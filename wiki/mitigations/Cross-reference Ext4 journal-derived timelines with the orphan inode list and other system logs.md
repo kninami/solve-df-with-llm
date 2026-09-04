@@ -1,9 +1,9 @@
 ---
-id: DFM-1194
+id: LWM-1194
 type: mitigation
 name: Cross-reference Ext4 journal-derived timelines with the orphan inode list and other system logs
 source_refs:
-  - DFCite-1203
+  - LWCite-1203
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ When a deletion event appears to be missing from the reconstructed timeline, che
 
 ## References
 
-- [DFCite-1203] Oh, 2026, "Ext4 Log Tracker: An enhanced approach to file event generation from Ext4 journal", FSI: Digital Investigation 58.
+- [LWCite-1203] Oh, 2026, "Ext4 Log Tracker: An enhanced approach to file event generation from Ext4 journal", FSI: Digital Investigation 58.

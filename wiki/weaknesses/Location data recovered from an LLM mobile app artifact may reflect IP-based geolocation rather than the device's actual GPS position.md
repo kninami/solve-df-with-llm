@@ -1,14 +1,14 @@
 ---
-id: DFW-1202
+id: LWW-1202
 type: weakness
 name: Location data recovered from an LLM mobile app artifact may reflect IP-based geolocation rather than the device's actual GPS position
 description: An LLM mobile app can return and store location-specific results (e.g. nearby-business answers, location-tagged conversation metadata) even when the device's location service is explicitly disabled, most plausibly via IP-based geolocation of the network connection rather than the device's GPS; an investigator who treats this recovered location data as a precise on-device GPS reading risks over-stating its accuracy.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1202
+  - LWM-1202
 source_refs:
-  - DFCite-1215
+  - LWCite-1215
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ If an investigator reports location data recovered from an LLM app's conversatio
 
 ## References
 
-- [DFCite-1215] Tyagi et al., 2025, "Forensic analysis and privacy implications of LLM mobile apps: A case study of ChatGPT, Copilot, and Gemini", FSI: Digital Investigation 54, 301974.
+- [LWCite-1215] Tyagi et al., 2025, "Forensic analysis and privacy implications of LLM mobile apps: A case study of ChatGPT, Copilot, and Gemini", FSI: Digital Investigation 54, 301974.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1068
+id: LWW-1068
 type: weakness
 name: LLM-generated forensic SQL queries can hallucinate schema columns or return wrong results while still executing successfully
 description: Even a domain-fine-tuned LLM text-to-SQL model achieved only a 93% overall execution-accuracy on a forensic SQLite benchmark, with its residual failures including hallucinated column names not present in the real schema, queries that combine hallucinated columns with incorrect aggregation logic, and syntactically valid queries that execute without error but return the wrong result set, none of which are flagged as errors by the query's successful execution alone.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1068
+  - LWM-1068
 source_refs:
-  - DFCite-1058
+  - LWCite-1058
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who treats a generated query's successful execution as sufficien
 
 ## References
 
-- [DFCite-1058] Pawlaszczyk et al., 2026, "AI-based automated SQL query generation for SQLite databases in Mobile forensics", FSI: Digital Investigation 57.
+- [LWCite-1058] Pawlaszczyk et al., 2026, "AI-based automated SQL query generation for SQLite databases in Mobile forensics", FSI: Digital Investigation 57.

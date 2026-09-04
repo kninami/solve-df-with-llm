@@ -1,17 +1,17 @@
 ---
-id: DFT-1101
+id: LWT-1101
 type: technique
 name: Correlate darknet marketplace purchases to blockchain transactions using price and timing
 description: Attribute a darknet marketplace purchase (detected via a sales-counter increment or product review) to a specific on-chain transaction by converting the product's price into its cryptocurrency equivalent and searching the blocks mined within the detection window for an output matching that value, yielding candidate buyer and vendor/operator addresses.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1107
+  - LWW-1107
 aliases:
   - Cryptocurrency transaction correlation for darknet marketplace purchases
   - Blockchain identification of vendor and buyer
 source_refs:
-  - DFCite-1101
+  - LWCite-1101
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The technique depends on marketplaces that use a wallet-less, direct-deal paymen
 
 ## References
 
-- [DFCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.
+- [LWCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.

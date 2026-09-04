@@ -1,9 +1,9 @@
 ---
-id: DFM-1039
+id: LWM-1039
 type: mitigation
 name: Validate pre-trained classifiers against occluded and filtered forensic images before deployment
 source_refs:
-  - DFCite-1029
+  - LWCite-1029
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When constructing or selecting a validation dataset for a forensic image-classif
 
 ## References
 
-- [DFCite-1029] Del Mar-Raave et al., 2021, "A machine learning-based forensic tool for image classification - A design science approach", FSI: Digital Investigation 38.
+- [LWCite-1029] Del Mar-Raave et al., 2021, "A machine learning-based forensic tool for image classification - A design science approach", FSI: Digital Investigation 38.

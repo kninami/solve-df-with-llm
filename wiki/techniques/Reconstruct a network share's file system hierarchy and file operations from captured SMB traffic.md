@@ -1,5 +1,5 @@
 ---
-id: DFT-1275
+id: LWT-1275
 type: technique
 name: Reconstruct a network share's file system hierarchy and file operations from captured SMB traffic
 description: Rebuild an SMB network share's original directory hierarchy, file content, multiple file versions, and metadata purely from a captured SMB network traffic file, and separately fingerprint the sequence of SMB commands a specific Windows API file operation produces so that recorded traffic can be interpreted as the underlying user activity that generated it, going beyond standard tools like Wireshark that only extract individual transferred files.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1001
   - DFO-1002
 weakness_ids:
-  - DFW-1285
+  - LWW-1285
 aliases:
   - Mount SMB.pcap
   - SMB Command Fingerprinting (SCF)
 source_refs:
-  - DFCite-1313
+  - LWCite-1313
 updated_at: 2026-08-15
 status: complete
 ---
@@ -44,4 +44,4 @@ When physical access to a device is unavailable or on-disk files have already be
 
 ## References
 
-- [DFCite-1313] Hilgert, Mahr, and Lambertz, 2024, "Mount SMB.pcap: Reconstructing file systems and file operations from network traffic", FSI: Digital Investigation 50, 301807.
+- [LWCite-1313] Hilgert, Mahr, and Lambertz, 2024, "Mount SMB.pcap: Reconstructing file systems and file operations from network traffic", FSI: Digital Investigation 50, 301807.

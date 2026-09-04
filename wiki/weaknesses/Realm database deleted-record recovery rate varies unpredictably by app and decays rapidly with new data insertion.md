@@ -1,14 +1,14 @@
 ---
-id: DFW-1278
+id: LWW-1278
 type: weakness
 name: Realm database deleted-record recovery rate varies unpredictably by app and decays rapidly with new data insertion
 description: The proportion of deleted Realm database data actually recoverable depends heavily on the specific app's own internal data-management behavior, not just Realm's generic deletion mechanics, and recovery rate drops sharply the more new data is inserted after a deletion occurs — with the two apps tested in the same study showing opposite extremes (near-total loss versus near-total retention) under otherwise comparable test scenarios.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1279
+  - LWM-1279
 source_refs:
-  - DFCite-1306
+  - LWCite-1306
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator cannot assume a Realm-database deleted-record recovery result ob
 
 ## References
 
-- [DFCite-1306] Kim, Kim, Shin, Youn, Song, Lee and Kim, 2022, "Methods for recovering deleted data from the Realm database: Case study on Minitalk and Xabber", FSI: Digital Investigation 40, 301353.
+- [LWCite-1306] Kim, Kim, Shin, Youn, Song, Lee and Kim, 2022, "Methods for recovering deleted data from the Realm database: Case study on Minitalk and Xabber", FSI: Digital Investigation 40, 301353.

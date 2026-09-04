@@ -1,14 +1,14 @@
 ---
-id: DFW-2055
+id: LWW-2055
 type: weakness
 name: PII recovered from a used mobile device may belong to a previous owner rather than the current possessor
 description: A substantial share of secondhand or previously-owned mobile devices still contain personally identifiable information belonging to a prior owner who made no attempt to remove it, so recovering identity-revealing content from a device does not by itself establish that this content belongs to the device's current possessor.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-2055
+  - LWM-2055
 source_refs:
-  - DFCite-2056
+  - LWCite-2056
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator examining a device of uncertain provenance - whether purchased s
 
 ## References
 
-- [DFCite-2056] Angelopoulou et al., 2022 — Section 5 "Results" and Section 6 "Case Studies" document the 17% previous-owner-identifiable rate and multiple specific cases of fully recoverable prior-owner PII with no removal attempt.
+- [LWCite-2056] Angelopoulou et al., 2022 — Section 5 "Results" and Section 6 "Case Studies" document the 17% previous-owner-identifiable rate and multiple specific cases of fully recoverable prior-owner PII with no removal attempt.

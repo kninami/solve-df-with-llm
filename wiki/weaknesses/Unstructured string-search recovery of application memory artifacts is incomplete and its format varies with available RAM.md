@@ -1,5 +1,5 @@
 ---
-id: DFW-1224
+id: LWW-1224
 type: weakness
 name: Unstructured string-search recovery of application memory artifacts is incomplete and its format varies with available RAM
 description: The presence, persistence, and even the layout of application artifacts recoverable from a process memory dump via keyword string search depends on the amount of RAM installed on the client device, so a signature or extraction script validated on one RAM configuration can miss or misparse artifacts on another.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1224
+  - LWM-1224
 source_refs:
-  - DFCite-1235
+  - LWCite-1235
 updated_at: 2026-08-13
 status: complete
 ---
@@ -34,4 +34,4 @@ A memory-artifact extraction script or signature developed and validated against
 
 ## References
 
-- [DFCite-1235] Iqbal, Khalid, Marrington, Shah and Hung, 2022, "Forensic investigation of Google Meet for memory and browser artifacts", DFRWS 2022 APAC; FSI: Digital Investigation 43, 301448.
+- [LWCite-1235] Iqbal, Khalid, Marrington, Shah and Hung, 2022, "Forensic investigation of Google Meet for memory and browser artifacts", DFRWS 2022 APAC; FSI: Digital Investigation 43, 301448.

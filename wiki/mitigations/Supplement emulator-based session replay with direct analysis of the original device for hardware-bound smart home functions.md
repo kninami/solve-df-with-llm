@@ -1,9 +1,9 @@
 ---
-id: DFM-1183
+id: LWM-1183
 type: mitigation
 name: Supplement emulator-based session replay with direct analysis of the original device for hardware-bound smart home functions
 source_refs:
-  - DFCite-1186
+  - LWCite-1186
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ After confirming the emulator reproduces the app's general login state and devic
 
 ## References
 
-- [DFCite-1186] Zhao et al., 2026, "Enhancing smart home forensics: An emulation-based approach utilizing vendor privileged android backup data", FSI: Digital Investigation 57. States that analysis of highly sensitive, strong-device-binding functions still needs to be supplemented with the original device or other forensic approaches.
+- [LWCite-1186] Zhao et al., 2026, "Enhancing smart home forensics: An emulation-based approach utilizing vendor privileged android backup data", FSI: Digital Investigation 57. States that analysis of highly sensitive, strong-device-binding functions still needs to be supplemented with the original device or other forensic approaches.

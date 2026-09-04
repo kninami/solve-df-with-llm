@@ -1,14 +1,14 @@
 ---
-id: DFW-2122
+id: LWW-2122
 type: weakness
 name: VR headset forensic acquisition cannot access application databases because the device's Android OS cannot currently be rooted
 description: A non-rooted ADB-based logical acquisition of an Android-based VR headset cannot access installed applications' protected private-data directories, and no established method currently exists to root the headset's Android OS (file-based encryption and the lack of support in existing JTAG tools for the device's specific chipset both block known rooting approaches), so database-level artifacts such as user chat/communication logs and messages remain unrecoverable through this acquisition method.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2123
+  - LWM-2123
 source_refs:
-  - DFCite-2145
+  - LWCite-2145
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying solely on non-rooted ADB-based acquisition for a VR head
 
 ## References
 
-- [DFCite-2145] Raymer, MacDermott, and Akinbi, 2023, "Virtual reality forensics: Forensic analysis of Meta Quest 2", FSI: Digital Investigation 47, 301658.
+- [LWCite-2145] Raymer, MacDermott, and Akinbi, 2023, "Virtual reality forensics: Forensic analysis of Meta Quest 2", FSI: Digital Investigation 47, 301658.

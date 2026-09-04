@@ -1,9 +1,9 @@
 ---
-id: DFM-2096
+id: LWM-2096
 type: mitigation
 name: Verify MLLM agent action completion against a fresh screenshot before trusting automated experiment results involving dynamic content
 source_refs:
-  - DFCite-2112
+  - LWCite-2112
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ After an automated experiment run involving an application or content type known
 
 ## References
 
-- [DFCite-2112] Shang, Sakzad, and Hall, 2025, "Thumb: A forensic automation framework leveraging MLLMs and OCR on Android device", FSI: Digital Investigation 54, 301949.
+- [LWCite-2112] Shang, Sakzad, and Hall, 2025, "Thumb: A forensic automation framework leveraging MLLMs and OCR on Android device", FSI: Digital Investigation 54, 301949.

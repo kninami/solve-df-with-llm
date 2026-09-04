@@ -1,16 +1,16 @@
 ---
-id: DFT-1024
+id: LWT-1024
 type: technique
 name: Repair compressed forensic filesystem images using statistical bitflip correction
 description: Repair a gzip/LZMA-compressed filesystem dump corrupted by naturally occurring storage bitflips by statistically estimating the per-fragment bitflip rate, generating candidate single/double-bitflip repairs for each corrupted compressed fragment, and validating each candidate with a decompression oracle (checksum, decompressed length, and successful inflate) rather than attempting brute-force correction of the whole stream.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1024
+  - LWW-1024
 aliases:
   - Statistical bitflip repair of compressed forensic filesystem images
 source_refs:
-  - DFCite-1016
+  - LWCite-1016
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ For each corrupted compressed fragment, a set of repair candidates is generated 
 
 ## References
 
-- [DFCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.
+- [LWCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.

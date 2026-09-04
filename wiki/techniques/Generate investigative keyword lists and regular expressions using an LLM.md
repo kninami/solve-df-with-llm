@@ -1,17 +1,17 @@
 ---
-id: DFT-1113
+id: LWT-1113
 type: technique
 name: Generate investigative keyword lists and regular expressions using an LLM
 description: Prompt a general-purpose LLM to draft a regular expression for a common evidentiary pattern (e.g. credit card numbers, email addresses, vehicle registration plates) or to generate and expand a keyword list for a specific investigative topic (e.g. terms associated with sexual harassment or drug slang), including associated words, common misspellings, and abbreviations, to support keyword-based search preparation.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1118
+  - LWW-1118
 aliases:
   - LLM-assisted keyword searching
   - ChatGPT regular expression and keyword list generation
 source_refs:
-  - DFCite-1110
+  - LWCite-1110
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ For regular expression generation, GPT-4 produced detailed, explained expression
 
 ## References
 
-- [DFCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.
+- [LWCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.

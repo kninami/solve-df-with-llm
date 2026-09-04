@@ -1,9 +1,9 @@
 ---
-id: DFM-1181
+id: LWM-1181
 type: mitigation
 name: Select a collision-resistant hash function and consider parallel multi-hash verification for Merkle-tree evidence containers
 source_refs:
-  - DFCite-1183
+  - LWCite-1183
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Configure the evidence-container tooling to use a modern, well-vetted hash algor
 
 ## References
 
-- [DFCite-1183] Han et al., 2024, "ECo-Bag: An elastic container based on merkle tree as a universal digital evidence bag", FSI: Digital Investigation 49. Recommends selecting a robust hash function and potentially employing multiple hash functions in parallel.
+- [LWCite-1183] Han et al., 2024, "ECo-Bag: An elastic container based on merkle tree as a universal digital evidence bag", FSI: Digital Investigation 49. Recommends selecting a robust hash function and potentially employing multiple hash functions in parallel.

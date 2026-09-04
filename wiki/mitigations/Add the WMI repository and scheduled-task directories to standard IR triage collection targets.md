@@ -1,9 +1,9 @@
 ---
-id: DFM-1229
+id: LWM-1229
 type: mitigation
 name: Add the WMI repository and scheduled-task directories to standard IR triage collection targets
 source_refs:
-  - DFCite-1240
+  - LWCite-1240
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Update triage scripts (Kansa, IR-Rescue, CyLR, or an in-house equivalent) to alw
 
 ## References
 
-- [DFCite-1240] Paul, 2026, "Forensic visibility gaps in fileless malware incidents: An empirical analysis of artefact survival rates across 49 confirmed intrusions", FSI: Digital Investigation 57, 302112.
+- [LWCite-1240] Paul, 2026, "Forensic visibility gaps in fileless malware incidents: An empirical analysis of artefact survival rates across 49 confirmed intrusions", FSI: Digital Investigation 57, 302112.

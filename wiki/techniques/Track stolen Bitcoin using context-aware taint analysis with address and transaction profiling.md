@@ -1,18 +1,18 @@
 ---
-id: DFT-1129
+id: LWT-1129
 type: technique
 name: Track stolen Bitcoin using context-aware taint analysis with address and transaction profiling
 description: Trace stolen or illicitly-obtained Bitcoins through the blockchain using a taint analysis strategy that incorporates external address-ownership profiles and transaction-pattern profiles, stopping tracking once tainted funds reach an identified cryptocurrency service or mixer address rather than continuing indefinitely.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1133
+  - LWW-1133
 aliases:
   - Context-based Bitcoin tracking
   - Dirty-First taint analysis strategy
   - TIHO (Taint-In, Highest-Out) taint analysis strategy
 source_refs:
-  - DFCite-1129
+  - LWCite-1129
 updated_at: 2026-08-12
 status: complete
 ---
@@ -41,4 +41,4 @@ The methodology gathers address-profile data — identifying known cryptocurrenc
 
 ## References
 
-- [DFCite-1129] Tironsakkul et al., 2022, "Context matters: Methods for Bitcoin tracking", FSI: Digital Investigation 42-43, 301475.
+- [LWCite-1129] Tironsakkul et al., 2022, "Context matters: Methods for Bitcoin tracking", FSI: Digital Investigation 42-43, 301475.

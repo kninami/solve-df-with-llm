@@ -1,14 +1,14 @@
 ---
-id: DFW-1046
+id: LWW-1046
 type: weakness
 name: Object-detection-based copy-move localization cannot recognize objects outside its trained class taxonomy
 description: The object-detection stage of a copy-move video tampering localization system can only draw a bounding box around and classify objects belonging to the fixed set of classes it was trained on; a copy-moved object of a type not present in that training taxonomy will not be recognized or localized, even if the statistical first-stage analysis correctly flags the frame range as suspicious.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1046
+  - LWM-1046
 source_refs:
-  - DFCite-1036
+  - LWCite-1036
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator applying this class of technique to a real case involving a copy
 
 ## References
 
-- [DFCite-1036] Sandhya and Kashyap, 2024, "A novel method for real-time object-based copy-move tampering localization in videos using fine-tuned YOLO V8", FSI: Digital Investigation 48.
+- [LWCite-1036] Sandhya and Kashyap, 2024, "A novel method for real-time object-based copy-move tampering localization in videos using fine-tuned YOLO V8", FSI: Digital Investigation 48.

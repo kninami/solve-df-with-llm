@@ -1,14 +1,14 @@
 ---
-id: DFW-2068
+id: LWW-2068
 type: weakness
 name: Inter-annotator disagreement in manually categorizing dark web content degrades the reliability of ML classifiers trained on it
 description: Different human investigators annotating and categorizing the same dark web content do not always agree, and since these manual categorizations become the ground-truth training data for downstream ML classifiers, disagreement between annotators is a source of label noise that propagates into the reliability of any automated classification built on it.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2069
+  - LWM-2069
 source_refs:
-  - DFCite-2072
+  - LWCite-2072
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who trusts a classifier's automated categorization of new dark w
 
 ## References
 
-- [DFCite-2072] Bergman & Popov, 2022, "The Digital Detective's Discourse: A Toolset for Forensically Sound Collaborative Dark Web Content Annotation and Collection", JDFSL 17(5). Reports the 0.84 overall Cohen's kappa score and identifies the "Dark Marketplace" and "Steroids" categories as having the lowest per-category agreement.
+- [LWCite-2072] Bergman & Popov, 2022, "The Digital Detective's Discourse: A Toolset for Forensically Sound Collaborative Dark Web Content Annotation and Collection", JDFSL 17(5). Reports the 0.84 overall Cohen's kappa score and identifies the "Dark Marketplace" and "Steroids" categories as having the lowest per-category agreement.

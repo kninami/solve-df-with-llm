@@ -1,14 +1,14 @@
 ---
-id: DFW-2045
+id: LWW-2045
 type: weakness
 name: Gender-based cyberbullying classification is consistently the least accurate subtype across all tested methods
 description: Across every classifier and experiment tested in the source paper, including the proposed neutrosophic-MLP model, comparison ML baselines, a fuzzy-logic variant, and a BERT-augmented variant, the "gender" cyberbullying subtype consistently shows the lowest precision, recall, and F1-score of the five classified subtypes, indicating a systematic, method-independent difficulty distinguishing gender-based cyberbullying from other categories.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-2045
+  - LWM-2045
 source_refs:
-  - DFCite-2046
+  - LWCite-2046
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ Because this weakness recurs across every method tested in the same study rather
 
 ## References
 
-- [DFCite-2046] Ibrahim et al., 2024 — Tables 1, 2, 4, and 5 report the per-class precision/recall/F1 figures discussed above across every method variant tested in the paper.
+- [LWCite-2046] Ibrahim et al., 2024 — Tables 1, 2, 4, and 5 report the per-class precision/recall/F1 figures discussed above across every method variant tested in the paper.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2084
+id: LWM-2084
 type: mitigation
 name: Validate a temporal-metadata correlation classifier's accuracy on the specific artifact types and scenario before relying on its output
 source_refs:
-  - DFCite-2097
+  - LWCite-2097
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Before trusting a temporal-metadata correlation classifier's output for a novel 
 
 ## References
 
-- [DFCite-2097] "Temporal metadata analysis: A learning classifier system approach", FSI: Digital Investigation 48, 2024.
+- [LWCite-2097] "Temporal metadata analysis: A learning classifier system approach", FSI: Digital Investigation 48, 2024.

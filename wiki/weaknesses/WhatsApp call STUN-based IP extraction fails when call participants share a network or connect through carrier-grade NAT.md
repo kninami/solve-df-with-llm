@@ -1,5 +1,5 @@
 ---
-id: DFW-1253
+id: LWW-1253
 type: weakness
 name: WhatsApp call STUN-based IP extraction fails when call participants share a network or connect through carrier-grade NAT
 description: STUN-derived IP addresses only reflect the public-facing address a device's network path presents, so the technique cannot distinguish individual subscribers behind carrier-grade NAT or a shared WiFi/VPN gateway, and produces no useful attribution at all if WhatsApp instead relays the call through its own relay servers rather than establishing a direct peer-to-peer path.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1254
+  - LWM-1254
 source_refs:
-  - DFCite-1270
+  - LWCite-1270
 updated_at: 2026-08-14
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator treating a STUN-captured IP address as uniquely identifying a su
 
 ## References
 
-- [DFCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.
+- [LWCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.

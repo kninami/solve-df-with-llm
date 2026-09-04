@@ -1,9 +1,9 @@
 ---
-id: DFM-1013
+id: LWM-1013
 type: mitigation
 name: Document and justify unavoidable crypto-wallet modification with blockchain-confirmed records
 source_refs:
-  - DFCite-1007
+  - LWCite-1007
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ For every cryptocurrency transfer performed during preservation, record the date
 
 ## References
 
-- [DFCite-1007] Taylor et al., 2022, "A comprehensive forensic preservation methodology for crypto wallets", FSI: Digital Investigation 42-43.
+- [LWCite-1007] Taylor et al., 2022, "A comprehensive forensic preservation methodology for crypto wallets", FSI: Digital Investigation 42-43.

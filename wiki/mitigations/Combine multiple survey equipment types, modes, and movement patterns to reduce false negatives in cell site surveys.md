@@ -1,9 +1,9 @@
 ---
-id: DFM-1114
+id: LWM-1114
 type: mitigation
 name: Combine multiple survey equipment types, modes, and movement patterns to reduce false negatives in cell site surveys
 source_refs:
-  - DFCite-1108
+  - LWCite-1108
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Where feasible, combine: parallel use of multiple mobile-emulator units; both id
 
 ## References
 
-- [DFCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.
+- [LWCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.

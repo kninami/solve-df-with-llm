@@ -1,16 +1,16 @@
 ---
-id: DFT-1089
+id: LWT-1089
 type: technique
 name: Classify crime scene images for casework triage using Tree-CNN and BoVW-SVM
 description: Automatically classify large volumes of crime scene casework images (e.g. drug-offence photographs) into predefined content categories using either a Support Vector Machine classifier over Bag-of-Visual-Words dictionaries built from local image feature descriptors, or a hierarchical deep convolutional neural network (Tree-CNN) that classifies images through a tree of increasingly specific category nodes, to reduce the manual labelling and cataloguing burden on forensic practitioners.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1095
+  - LWW-1095
 aliases:
   - Hierarchical Tree-CNN and BoVW-SVM crime scene image classification for casework triage
 source_refs:
-  - DFCite-1087
+  - LWCite-1087
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ Both proof-of-concept models were trained and evaluated on a subset of 60,520 im
 
 ## References
 
-- [DFCite-1087] Abraham et al., 2021, "Automatically classifying crime scene images using machine learning methodologies", FSI: Digital Investigation 39.
+- [LWCite-1087] Abraham et al., 2021, "Automatically classifying crime scene images using machine learning methodologies", FSI: Digital Investigation 39.

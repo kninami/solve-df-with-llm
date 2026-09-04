@@ -1,14 +1,14 @@
 ---
-id: DFW-1045
+id: LWW-1045
 type: weakness
 name: Structured-log carving techniques tied to one log format do not generalize to other logging drivers
 description: A carving algorithm built around one structured log format's specific field markers and grammar (e.g., Docker's json-file logging driver format) cannot be applied to logs produced by a different logging driver or a different container/log platform without separate, format-specific redevelopment, since the identification and reassembly stages both depend directly on that format's particular structural conventions.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1045
+  - LWM-1045
 source_refs:
-  - DFCite-1035
+  - LWCite-1035
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who encounters a compromised container host cannot assume a json
 
 ## References
 
-- [DFCite-1035] Ge et al., 2021, "A novel file carving algorithm for docker container logs recorded by json-file logging driver", FSI: Digital Investigation 39.
+- [LWCite-1035] Ge et al., 2021, "A novel file carving algorithm for docker container logs recorded by json-file logging driver", FSI: Digital Investigation 39.

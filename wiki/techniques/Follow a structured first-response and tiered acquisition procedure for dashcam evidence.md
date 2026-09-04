@@ -1,16 +1,16 @@
 ---
-id: DFT-1137
+id: LWT-1137
 type: technique
 name: Follow a structured first-response and tiered acquisition procedure for dashcam evidence
 description: At a crime scene involving a dashcam, follow a fixed first-response sequence — stop active recordings, power off, remove the SD card, power the dashcam back up isolated from its radio network, record its clock against a reference time, and disable auto-power-on and g-sensor recording — before acquiring evidence using the least invasive method sufficient (manual, logical SD/direct extraction, or hex dump/chip-off/micro-read as a last resort).
 objective_ids:
   - DFO-1010
 weakness_ids:
-  - DFW-1140
+  - LWW-1140
 aliases:
   - Dashcam forensic investigation guidelines (preservation and acquisition)
 source_refs:
-  - DFCite-1138
+  - LWCite-1138
 updated_at: 2026-08-12
 status: complete
 ---
@@ -39,4 +39,4 @@ The first-response sequence is: stop any in-progress recording; power off the da
 
 ## References
 
-- [DFCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.
+- [LWCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.

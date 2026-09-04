@@ -1,5 +1,5 @@
 ---
-id: DFT-1072
+id: LWT-1072
 type: technique
 name: Reconstruct automotive events from Android system logs
 description: Recover vehicle-related events and driver behavior from Android system and application logs in two distinct automotive contexts — the vehicle's own Android-based in-vehicle infotainment (IVI) system's kernel-space ring buffers and non-volatile log files, or an Android phone's OBD-II diagnostic app data cross-referenced with its Bluetooth HCI snoop log and main system log buffer when the phone was used with a Bluetooth OBD-II scanner — reconstructing artifacts and timelines (navigation use, engine start/stop, door access, seat belt use, vehicle velocity, speeding/braking events, refueling) not otherwise supported by mainstream commercial vehicle forensic tools.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1017
   - DFO-1001
 weakness_ids:
-  - DFW-1077
+  - LWW-1077
 aliases:
   - Android system-log-based automotive forensic reconstruction
 source_refs:
-  - DFCite-1067
-  - DFCite-1088
+  - LWCite-1067
+  - LWCite-1088
 updated_at: 2026-08-10
 status: complete
 ---
@@ -45,5 +45,5 @@ Both a vehicle's own Android-based infotainment system and a phone used alongsid
 
 ## References
 
-- [DFCite-1067] Kim et al., 2025, "An effective automotive forensic technique utilizing various logs of Android-based In-vehicle infotainment systems", FSI: Digital Investigation 55.
-- [DFCite-1088] Jung et al., 2024, "Automotive digital forensics through data and log analysis of vehicle diagnosis Android apps", FSI: Digital Investigation 49.
+- [LWCite-1067] Kim et al., 2025, "An effective automotive forensic technique utilizing various logs of Android-based In-vehicle infotainment systems", FSI: Digital Investigation 55.
+- [LWCite-1088] Jung et al., 2024, "Automotive digital forensics through data and log analysis of vehicle diagnosis Android apps", FSI: Digital Investigation 49.

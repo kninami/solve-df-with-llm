@@ -1,14 +1,14 @@
 ---
-id: DFW-1279
+id: LWW-1279
 type: weakness
 name: Chromium IndexedDB memory carving cannot parse partial BLOB-stored records in incognito mode
 description: When a Chromium-based browser runs in incognito mode, LevelDB manages some IndexedDB data as partial BLOB (binary large object) fragments in memory rather than as complete, directly deserializable records, and the class-object-carving-and-SkipList-walking methodology does not address this fragmented BLOB storage case, leaving that subset of incognito-mode data unrecovered even when the rest of the IndexedDB record structure is successfully extracted.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1280
+  - LWM-1280
 source_refs:
-  - DFCite-1307
+  - LWCite-1307
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator applying this technique to a Chromium-based browser's incognito-
 
 ## References
 
-- [DFCite-1307] Jeong, Lee and Park, 2024, "MIC: Memory analysis of IndexedDB data on Chromium-based applications", DFRWS 2024 APAC; FSI: Digital Investigation 50, 301809.
+- [LWCite-1307] Jeong, Lee and Park, 2024, "MIC: Memory analysis of IndexedDB data on Chromium-based applications", DFRWS 2024 APAC; FSI: Digital Investigation 50, 301809.

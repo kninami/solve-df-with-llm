@@ -1,18 +1,18 @@
 ---
-id: DFT-1053
+id: LWT-1053
 type: technique
 name: Monitor and restore ICS project-file integrity continuously
 description: Continuously monitor a PLC engineering workstation's project files (the ladder-logic program source, e.g., Siemens TIA Portal's .plf/.idx pair) for size or content changes, collect and hash-verify each new version into a version-history database as soon as a change is detected, and restore any prior version on demand — detecting and recovering from unauthorized PLC logic tampering without directly investigating the live PLC, which would risk its continuous availability.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1056
+  - LWW-1056
 aliases:
   - Continuous project-file integrity monitoring and version-based restoration for ICS
   - TIAMon
   - TIAMachine
 source_refs:
-  - DFCite-1046
+  - LWCite-1046
 updated_at: 2026-08-09
 status: complete
 ---
@@ -41,4 +41,4 @@ A watchdog component periodically checks whether the project file pair's size ha
 
 ## References
 
-- [DFCite-1046] Shin et al., 2022, "A study on command block collection and restoration techniques through detection of project file manipulation on engineering workstation of industrial control system", FSI: Digital Investigation 40.
+- [LWCite-1046] Shin et al., 2022, "A study on command block collection and restoration techniques through detection of project file manipulation on engineering workstation of industrial control system", FSI: Digital Investigation 40.

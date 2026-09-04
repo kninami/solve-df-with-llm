@@ -1,9 +1,9 @@
 ---
-id: DFM-2041
+id: LWM-2041
 type: mitigation
 name: Apply Sybil-based bias testing to a black-box device-identification classifier before relying on its output as evidence
 source_refs:
-  - DFCite-2042
+  - LWCite-2042
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where possible, obtain or construct a dataset with multiple content-distinct sub
 
 ## References
 
-- [DFCite-2042] Mostafa et al., 2025 — the paper's own methodology (Sections IV-V) is the direct source of this bias-testing procedure, and its conclusion explicitly recommends hypothesis-driven, falsification-oriented experimental design as a general practice for forensic multimedia research.
+- [LWCite-2042] Mostafa et al., 2025 — the paper's own methodology (Sections IV-V) is the direct source of this bias-testing procedure, and its conclusion explicitly recommends hypothesis-driven, falsification-oriented experimental design as a general practice for forensic multimedia research.

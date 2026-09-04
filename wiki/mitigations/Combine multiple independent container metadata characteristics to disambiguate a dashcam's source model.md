@@ -1,9 +1,9 @@
 ---
-id: DFM-2137
+id: LWM-2137
 type: mitigation
 name: Combine multiple independent container metadata characteristics to disambiguate a dashcam's source model
 source_refs:
-  - DFCite-2157
+  - LWCite-2157
 updated_at: 2026-08-17
 status: complete
 ---
@@ -24,4 +24,4 @@ Build or consult a reference database recording each known dashcam model's chunk
 
 ## References
 
-- [DFCite-2157] Lee et al., 2021, "Your car is recording: Metadata-driven dashcam analysis system", FSI: Digital Investigation 38.
+- [LWCite-2157] Lee et al., 2021, "Your car is recording: Metadata-driven dashcam analysis system", FSI: Digital Investigation 38.

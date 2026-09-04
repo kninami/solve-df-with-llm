@@ -1,17 +1,17 @@
 ---
-id: DFT-1125
+id: LWT-1125
 type: technique
 name: Detect anomalous financial accounts using graph neural network outlier scoring
 description: Model bank accounts and their transactions as a directed graph and score each account's anomalousness using a graph neural network outlier-detection model, trained on account-level financial indicators, to separate accounts with atypical transaction behavior from normal ones during a money-laundering investigation.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1129
+  - LWW-1129
 aliases:
   - LUNAR-based financial account anomaly detection
   - GNN anti-money-laundering anomaly detection
 source_refs:
-  - DFCite-1125
+  - LWCite-1125
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ Financial indicators — sum, count, mean, and standard deviation of amounts sen
 
 ## References
 
-- [DFCite-1125] Oliveira et al., 2025, "Complex networks-based anomaly detection for financial transactions in anti-money laundering", FSI: Digital Investigation 55, 302005.
+- [LWCite-1125] Oliveira et al., 2025, "Complex networks-based anomaly detection for financial transactions in anti-money laundering", FSI: Digital Investigation 55, 302005.

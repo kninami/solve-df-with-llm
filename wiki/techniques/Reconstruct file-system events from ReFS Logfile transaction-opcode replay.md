@@ -1,18 +1,18 @@
 ---
-id: DFT-1205
+id: LWT-1205
 type: technique
 name: Reconstruct file-system events from ReFS Logfile transaction-opcode replay
 description: Parse the Resilient File System (ReFS)'s Logfile and Change Journal transaction records, matching observed sequences of Redo-Record opcodes against known finite-state-machine patterns for file/directory creation, modification, renaming, movement, and deletion, to reconstruct a timestamped and full-path-annotated timeline of past file-system activity on a ReFS volume.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1215
+  - LWW-1215
 aliases:
   - Awesome ReFS Investigation tool (ARIN)
   - ReFS Logfile and Change Journal forensic methodology
 source_refs:
-  - DFCite-1227
-  - DFCite-1269
+  - LWCite-1227
+  - LWCite-1269
 updated_at: 2026-08-14
 status: complete
 ---
@@ -43,5 +43,5 @@ The Change Journal, similar in role to NTFS's `$UsnJrnl`, records USN-style chan
 
 ## References
 
-- [DFCite-1227] Lee et al., 2021, "Forensic analysis of ReFS journaling", FSI: Digital Investigation 38.
-- [DFCite-1269] Kim and Lee, 2026, "Identification of data wiping tools based on deletion patterns in ReFS $Logfile", FSI: Digital Investigation 56, 302069. Extends the opcode catalog to ReFS 3.7 and applies opcode-sequence replay to anti-forensic wiping-tool identification.
+- [LWCite-1227] Lee et al., 2021, "Forensic analysis of ReFS journaling", FSI: Digital Investigation 38.
+- [LWCite-1269] Kim and Lee, 2026, "Identification of data wiping tools based on deletion patterns in ReFS $Logfile", FSI: Digital Investigation 56, 302069. Extends the opcode catalog to ReFS 3.7 and applies opcode-sequence replay to anti-forensic wiping-tool identification.

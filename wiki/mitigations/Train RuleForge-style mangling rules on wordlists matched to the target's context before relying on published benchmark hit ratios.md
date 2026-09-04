@@ -1,9 +1,9 @@
 ---
-id: DFM-1099
+id: LWM-1099
 type: mitigation
 name: Train RuleForge-style mangling rules on wordlists matched to the target's context before relying on published benchmark hit ratios
 source_refs:
-  - DFCite-1093
+  - LWCite-1093
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Gather or construct a training wordlist reflecting the target's context (organiz
 
 ## References
 
-- [DFCite-1093] Hranický et al., 2025, "Beyond the dictionary attack: Enhancing password cracking efficiency through machine learning-induced mangling rules", FSI: Digital Investigation 52.
+- [LWCite-1093] Hranický et al., 2025, "Beyond the dictionary attack: Enhancing password cracking efficiency through machine learning-induced mangling rules", FSI: Digital Investigation 52.

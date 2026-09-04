@@ -1,14 +1,14 @@
 ---
-id: DFW-2008
+id: LWW-2008
 type: weakness
 name: Fragile-watermark tamper recovery cannot faithfully reconstruct audio beyond roughly 3-8 sample-level tampering
 description: The scheme's tamper-recovery reconstruction quality degrades as more of an audio signal's samples are deleted, substituted, or inserted, and once tampering exceeds roughly three-eighths of the samples, the reconstructed signal no longer reliably conveys the original audio's expressed meaning.
 categories:
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-2008
+  - LWM-2008
 source_refs:
-  - DFCite-2008
+  - LWCite-2008
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ If an investigator relies on this scheme's reconstructed signal to determine an 
 
 ## References
 
-- [DFCite-2008] He et al., 2024 — Section V.B reports a ~3/8 recovery capacity (R_c) and shows SNR/SDG degrading with increasing deleted-sample proportion in Table 7 and Figures 12-13.
+- [LWCite-2008] He et al., 2024 — Section V.B reports a ~3/8 recovery capacity (R_c) and shows SNR/SDG degrading with increasing deleted-sample proportion in Table 7 and Figures 12-13.

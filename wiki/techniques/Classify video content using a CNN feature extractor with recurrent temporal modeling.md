@@ -1,5 +1,5 @@
 ---
-id: DFT-1149
+id: LWT-1149
 type: technique
 name: Classify video content using a CNN feature extractor with recurrent temporal modeling
 description: Extract per-frame visual features with a CNN backbone, feed the resulting feature sequence into a recurrent network (an LSTM or bidirectional GRU) to aggregate temporal context across frames or sliding windows, and classify the video with a final dense layer — a general video-classification pattern applied in forensic research to both deepfake detection and pornographic-content detection.
@@ -7,14 +7,14 @@ objective_ids:
   - DFO-1019
   - DFO-1012
 weakness_ids:
-  - DFW-1152
+  - LWW-1152
 aliases:
   - Recurrent convolutional forgery detection
   - CNN+LSTM deepfake video classification
   - CNN+bidirectional-GRU pornography video classification
 source_refs:
-  - DFCite-1151
-  - DFCite-1156
+  - LWCite-1151
+  - LWCite-1156
 updated_at: 2026-08-12
 status: complete
 ---
@@ -45,5 +45,5 @@ For deepfake detection, a face-crop is passed through a CNN backbone per frame, 
 
 ## References
 
-- [DFCite-1151] Chamot et al., 2022, "Deepfake forensics: Cross-manipulation robustness of feedforward- and recurrent convolutional forgery detection methods", FSI: Digital Investigation 40.
-- [DFCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.
+- [LWCite-1151] Chamot et al., 2022, "Deepfake forensics: Cross-manipulation robustness of feedforward- and recurrent convolutional forgery detection methods", FSI: Digital Investigation 40.
+- [LWCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.

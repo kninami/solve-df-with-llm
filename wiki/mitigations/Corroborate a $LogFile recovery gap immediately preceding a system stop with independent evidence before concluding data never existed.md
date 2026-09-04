@@ -1,9 +1,9 @@
 ---
-id: DFM-2032
+id: LWM-2032
 type: mitigation
 name: Corroborate a $LogFile recovery gap immediately preceding a system stop with independent evidence before concluding data never existed
 source_refs:
-  - DFCite-2032
+  - LWCite-2032
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Cross-reference the last confirmed $LogFile-recovered timestamp against other av
 
 ## References
 
-- [DFCite-2032] Oh et al., 2022 — the paper's own Section VII case study models exactly this corroboration process, cross-referencing $MFT data-run history against $LogFile-recovered history to correctly attribute the gap to unflushed memory rather than file deletion.
+- [LWCite-2032] Oh et al., 2022 — the paper's own Section VII case study models exactly this corroboration process, cross-referencing $MFT data-run history against $LogFile-recovered history to correctly attribute the gap to unflushed memory rather than file deletion.

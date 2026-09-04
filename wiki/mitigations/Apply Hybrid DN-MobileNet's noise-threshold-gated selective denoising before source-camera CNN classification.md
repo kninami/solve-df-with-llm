@@ -1,9 +1,9 @@
 ---
-id: DFM-1251
+id: LWM-1251
 type: mitigation
 name: Apply Hybrid DN-MobileNet's noise-threshold-gated selective denoising before source-camera CNN classification
 source_refs:
-  - DFCite-1265
+  - LWCite-1265
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Implement the selective-denoising decision as a pre-classification gate: estimat
 
 ## References
 
-- [DFCite-1265] Tigga and Sitara, 2026, "Hybrid DN-MobileNet: A study on an effective framework for source camera identification from videos", FSI: Digital Investigation 57, 302090.
+- [LWCite-1265] Tigga and Sitara, 2026, "Hybrid DN-MobileNet: A study on an effective framework for source camera identification from videos", FSI: Digital Investigation 57, 302090.

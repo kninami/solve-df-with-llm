@@ -1,14 +1,14 @@
 ---
-id: DFW-2136
+id: LWW-2136
 type: weakness
 name: Dashcam source-model identification via a single metadata characteristic is ambiguous across sibling models
 description: Relying on only one structural characteristic of a dashcam recording's container file — such as chunk sequence alone or file naming convention alone — to identify its source model can incorrectly indicate a match to any of several models that share that one characteristic in common, when only some of them are actually consistent with the recording's other properties.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-2137
+  - LWM-2137
 source_refs:
-  - DFCite-2157
+  - LWCite-2157
 updated_at: 2026-08-17
 status: complete
 ---
@@ -33,4 +33,4 @@ Attributing a recording to the wrong specific dashcam model — an incorrect ass
 
 ## References
 
-- [DFCite-2157] Lee et al., 2021, "Your car is recording: Metadata-driven dashcam analysis system", FSI: Digital Investigation 38.
+- [LWCite-2157] Lee et al., 2021, "Your car is recording: Metadata-driven dashcam analysis system", FSI: Digital Investigation 38.

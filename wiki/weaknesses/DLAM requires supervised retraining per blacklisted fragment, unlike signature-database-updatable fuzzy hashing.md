@@ -1,14 +1,14 @@
 ---
-id: DFW-1125
+id: LWW-1125
 type: weakness
 name: DLAM requires supervised retraining per blacklisted fragment, unlike signature-database-updatable fuzzy hashing
 description: Because DLAM is a supervised classifier trained to recognize a specific blacklisted fragment or fragment category, adding a newly discovered blacklisted file requires retraining (or fine-tuning) the model on labeled examples containing it, unlike traditional fuzzy hashing where a new blacklist entry can be added simply by computing and storing its hash.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1125
+  - LWM-1125
 source_refs:
-  - DFCite-1119
+  - LWCite-1119
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ In an operational setting where new malware samples or newly leaked documents ar
 
 ## References
 
-- [DFCite-1119] Uhlig et al., 2023, "Combining AI and AM - Improving approximate matching through transformer networks", FSI: Digital Investigation 45.
+- [LWCite-1119] Uhlig et al., 2023, "Combining AI and AM - Improving approximate matching through transformer networks", FSI: Digital Investigation 45.

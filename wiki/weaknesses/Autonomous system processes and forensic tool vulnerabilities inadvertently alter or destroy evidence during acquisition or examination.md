@@ -1,5 +1,5 @@
 ---
-id: DFW-1132
+id: LWW-1132
 type: weakness
 name: Autonomous system processes and forensic tool vulnerabilities inadvertently alter or destroy evidence during acquisition or examination
 description: Background operating-system and application processes running independently of an investigator's actions, along with unpatched vulnerabilities in forensic tools themselves, can transfer, alter, or delete data of forensic relevance both during live response and later lab analysis, without any deliberate action by the investigator.
@@ -7,12 +7,12 @@ categories:
   - ASTM_INAC_ALT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1132
-  - DFM-2075
+  - LWM-1132
+  - LWM-2075
 source_refs:
-  - DFCite-1127
-  - DFCite-2080
-  - DFCite-2086
+  - LWCite-1127
+  - LWCite-2080
+  - LWCite-2086
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,6 +42,6 @@ This same live-system risk applies to the acquisition tooling itself: software r
 
 ## References
 
-- [DFCite-1127] Gruber, Hargreaves, and Freiling, 2023, "Contamination of digital evidence: Understanding an underexposed risk", FSI: Digital Investigation 44, 301501.
-- [DFCite-2080] Faust, Thierry, Müller, and Freiling, 2021, "Selective Imaging of File System Data on Live Systems", FSI: Digital Investigation 36, 301115. Documents forensic-soundness risks specific to running selective-imaging software on a live target system, and a validation-module design to detect resulting corruption or interference.
-- [DFCite-2086] Onik, Alsmadi, Baggili, and Webb, 2024, "So fresh, so clean: Cloud forensic analysis of the Amazon iRobot Roomba vacuum", FSI: Digital Investigation 48, 301686. Documents the risk of a companion-app interaction triggering an autonomous IoT device's own state-changing behavior during examination, and the PyRoomba tool built to avoid it via direct cloud-API acquisition.
+- [LWCite-1127] Gruber, Hargreaves, and Freiling, 2023, "Contamination of digital evidence: Understanding an underexposed risk", FSI: Digital Investigation 44, 301501.
+- [LWCite-2080] Faust, Thierry, Müller, and Freiling, 2021, "Selective Imaging of File System Data on Live Systems", FSI: Digital Investigation 36, 301115. Documents forensic-soundness risks specific to running selective-imaging software on a live target system, and a validation-module design to detect resulting corruption or interference.
+- [LWCite-2086] Onik, Alsmadi, Baggili, and Webb, 2024, "So fresh, so clean: Cloud forensic analysis of the Amazon iRobot Roomba vacuum", FSI: Digital Investigation 48, 301686. Documents the risk of a companion-app interaction triggering an autonomous IoT device's own state-changing behavior during examination, and the PyRoomba tool built to avoid it via direct cloud-API acquisition.

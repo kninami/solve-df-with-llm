@@ -1,14 +1,14 @@
 ---
-id: DFT-1165
+id: LWT-1165
 type: technique
 name: Acquire forensic artifacts from a smart IoT device across hardware, companion-app, network, and cloud sources
 description: Systematically collect forensic evidence for a smart IoT device across its full multi-source ecosystem — hardware-level extraction from the device itself (UART firmware dump or chip-off), the companion smartphone app's local storage, captured network traffic where applicable, and the vendor's cloud service/API — since no single source alone yields a complete picture of device state and usage history.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1171
-  - DFW-1203
-  - DFW-2114
+  - LWW-1171
+  - LWW-1203
+  - LWW-2114
 aliases:
   - TEASR (Tool for Evidence Acquisition from Smart Relays)
   - Acquire forensic artifacts from a smart-relay IoT device across firmware, companion-app, network, and cloud-API sources
@@ -19,14 +19,14 @@ aliases:
   - DEF-IoTF
   - FIvM-IoT
 source_refs:
-  - DFCite-1177
-  - DFCite-1216
-  - DFCite-1232
-  - DFCite-1278
-  - DFCite-1280
-  - DFCite-2068
-  - DFCite-2086
-  - DFCite-2134
+  - LWCite-1177
+  - LWCite-1216
+  - LWCite-1232
+  - LWCite-1278
+  - LWCite-1280
+  - LWCite-2068
+  - LWCite-2086
+  - LWCite-2134
 updated_at: 2026-08-16
 status: complete
 ---
@@ -69,11 +69,11 @@ A cross-device survey formalizes this same multi-source pattern as a generic fiv
 
 ## References
 
-- [DFCite-1177] Eichhorn and Pugliese, 2024, "Do You \"Relay\" Want to Give Me Away? - Forensic Cues of Smart Relays and Their IoT Companion Apps", FSI: Digital Investigation 50, 301810.
-- [DFCite-1216] Youn et al., 2021, "Forensic analysis for AI speaker with display Echo Show 2nd generation as a case study", FSI: Digital Investigation 38, 301130.
-- [DFCite-1232] Castelo Gómez et al., 2022, "Forensic analysis of the Xiaomi Mi Smart Sensor Set", FSI: Digital Investigation 42-43, 301451. Demonstrates the network-traffic layer (WiFi and sniffed Zigbee) substituting for cloud-API and hardware acquisition when both are unavailable, and documents plaintext WiFi credentials recoverable from companion-app storage.
-- [DFCite-1278] Lorenz, Stinehour, Chennamaneni, Subhani and Torre, 2023, "IoT forensic analysis: A family of experiments with Amazon Echo devices", FSI: Digital Investigation 45, 301541. Documents the Echo Show dropbox log-file structure and a Cellebrite-Physical-Analyzer-targeted script for automated touch-event and account-identifier extraction, and confirms message content/recipient identity require a separate cloud-side legal request.
-- [DFCite-1280] Dragonas, Lambrinoudakis and Kotsis, 2023, "IoT forensics: Analysis of a HIKVISION's mobile app", DFRWS 2023 USA; FSI: Digital Investigation 45, 301560. Demonstrates companion-app-only forensic analysis of a CCTV remote-access app, recovering the connected CCTV system's identity and the user's Live View/Playback history without needing access to the CCTV hardware itself.
-- [DFCite-2068] Abel-Boozer, John & Mukherjee, 2021, "Internet of Things Software and Hardware Architectures and Their Impacts on Forensic Investigations: Current Approaches and Challenges", JDFSL 16(4). Secondary survey providing the generic five-layer IoT architecture model (Physical Interface, Device, Network/Transport, Presentation, Integration) and device-family examples (Amazon Alexa, Google Nest, Windows 10 IoT, smartwatches, vehicles) that formalize and illustrate this technique's multi-source acquisition pattern.
-- [DFCite-2086] Onik, Alsmadi, Baggili, and Webb, 2024, "So fresh, so clean: Cloud forensic analysis of the Amazon iRobot Roomba vacuum", FSI: Digital Investigation 48, 301686. Source for PyRoomba, an open-source tool that acquires a Roomba's mission history, floor-plan maps, and navigational data via undocumented cloud APIs rather than through the official app.
-- [DFCite-2134] Sharma and Awasthi, 2024, "Unveiling the hidden dangers: Security risks and forensic analysis of smart bulbs", FSI: Digital Investigation 50, 301794. Source for the DEF-IoTF/FIvM-IoT combined application-level (companion Android app) and hardware-level (Wi-Fi module chip, via the Wifi_Cred tool) smart-bulb extraction framework, including the wear-leveling-driven prior-credential-persistence finding.
+- [LWCite-1177] Eichhorn and Pugliese, 2024, "Do You \"Relay\" Want to Give Me Away? - Forensic Cues of Smart Relays and Their IoT Companion Apps", FSI: Digital Investigation 50, 301810.
+- [LWCite-1216] Youn et al., 2021, "Forensic analysis for AI speaker with display Echo Show 2nd generation as a case study", FSI: Digital Investigation 38, 301130.
+- [LWCite-1232] Castelo Gómez et al., 2022, "Forensic analysis of the Xiaomi Mi Smart Sensor Set", FSI: Digital Investigation 42-43, 301451. Demonstrates the network-traffic layer (WiFi and sniffed Zigbee) substituting for cloud-API and hardware acquisition when both are unavailable, and documents plaintext WiFi credentials recoverable from companion-app storage.
+- [LWCite-1278] Lorenz, Stinehour, Chennamaneni, Subhani and Torre, 2023, "IoT forensic analysis: A family of experiments with Amazon Echo devices", FSI: Digital Investigation 45, 301541. Documents the Echo Show dropbox log-file structure and a Cellebrite-Physical-Analyzer-targeted script for automated touch-event and account-identifier extraction, and confirms message content/recipient identity require a separate cloud-side legal request.
+- [LWCite-1280] Dragonas, Lambrinoudakis and Kotsis, 2023, "IoT forensics: Analysis of a HIKVISION's mobile app", DFRWS 2023 USA; FSI: Digital Investigation 45, 301560. Demonstrates companion-app-only forensic analysis of a CCTV remote-access app, recovering the connected CCTV system's identity and the user's Live View/Playback history without needing access to the CCTV hardware itself.
+- [LWCite-2068] Abel-Boozer, John & Mukherjee, 2021, "Internet of Things Software and Hardware Architectures and Their Impacts on Forensic Investigations: Current Approaches and Challenges", JDFSL 16(4). Secondary survey providing the generic five-layer IoT architecture model (Physical Interface, Device, Network/Transport, Presentation, Integration) and device-family examples (Amazon Alexa, Google Nest, Windows 10 IoT, smartwatches, vehicles) that formalize and illustrate this technique's multi-source acquisition pattern.
+- [LWCite-2086] Onik, Alsmadi, Baggili, and Webb, 2024, "So fresh, so clean: Cloud forensic analysis of the Amazon iRobot Roomba vacuum", FSI: Digital Investigation 48, 301686. Source for PyRoomba, an open-source tool that acquires a Roomba's mission history, floor-plan maps, and navigational data via undocumented cloud APIs rather than through the official app.
+- [LWCite-2134] Sharma and Awasthi, 2024, "Unveiling the hidden dangers: Security risks and forensic analysis of smart bulbs", FSI: Digital Investigation 50, 301794. Source for the DEF-IoTF/FIvM-IoT combined application-level (companion Android app) and hardware-level (Wi-Fi module chip, via the Wifi_Cred tool) smart-bulb extraction framework, including the wear-leveling-driven prior-credential-persistence finding.

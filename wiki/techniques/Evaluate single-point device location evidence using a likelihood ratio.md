@@ -1,18 +1,18 @@
 ---
-id: DFT-1035
+id: LWT-1035
 type: technique
 name: Evaluate single-point device location evidence using a likelihood ratio
 description: Evaluate a single mobile-device localisation trace against a pair of competing propositions (e.g., the device was at Location X vs. Location Y at time t) by computing a likelihood ratio, decomposing the evaluation into an angular probability (fraction of reference measurements within a directional wedge around the observed evidence) and a distantial probability (density-fitted distance distribution within that wedge), rather than presenting the recovered location as categorical fact.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1036
-  - DFW-1240
+  - LWW-1036
+  - LWW-1240
 aliases:
   - Likelihood ratio evaluation of single-point device location evidence
 source_refs:
-  - DFCite-1026
-  - DFCite-1255
+  - LWCite-1026
+  - LWCite-1255
 updated_at: 2026-08-13
 status: complete
 ---
@@ -45,5 +45,5 @@ A related field study directly measured how much geolocation reference data actu
 
 ## References
 
-- [DFCite-1026] Spichiger, 2023, "A likelihood ratio approach for the evaluation of single point device locations", FSI: Digital Investigation 44.
-- [DFCite-1255] Ryser et al., 2024, "Geotagging accuracy in smartphone photography", FSI: Digital Investigation 50, 301813.
+- [LWCite-1026] Spichiger, 2023, "A likelihood ratio approach for the evaluation of single point device locations", FSI: Digital Investigation 44.
+- [LWCite-1255] Ryser et al., 2024, "Geotagging accuracy in smartphone photography", FSI: Digital Investigation 50, 301813.

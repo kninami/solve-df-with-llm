@@ -1,9 +1,9 @@
 ---
-id: DFM-1230
+id: LWM-1230
 type: mitigation
 name: Mandate PowerShell Script Block Logging and move memory acquisition ahead of network isolation
 source_refs:
-  - DFCite-1240
+  - LWCite-1240
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Enable `HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging\E
 
 ## References
 
-- [DFCite-1240] Paul, 2026, "Forensic visibility gaps in fileless malware incidents: An empirical analysis of artefact survival rates across 49 confirmed intrusions", FSI: Digital Investigation 57, 302112.
+- [LWCite-1240] Paul, 2026, "Forensic visibility gaps in fileless malware incidents: An empirical analysis of artefact survival rates across 49 confirmed intrusions", FSI: Digital Investigation 57, 302112.

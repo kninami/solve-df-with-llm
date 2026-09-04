@@ -1,9 +1,9 @@
 ---
-id: DFM-1283
+id: LWM-1283
 type: mitigation
 name: Corroborate DLL hijacking detection with hash or signature verification of the loaded module's content
 source_refs:
-  - DFCite-1310
+  - LWCite-1310
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ For any module of investigative interest, extract it (using [[techniques/Aggrega
 
 ## References
 
-- [DFCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.
+- [LWCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1070
+id: LWM-1070
 type: mitigation
 name: Supplement cache-based malicious webpage detection with other artefact sources for private browsing sessions and retrain models periodically
 source_refs:
-  - DFCite-1060
+  - LWCite-1060
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Confirm whether the browsing session under investigation used a private/incognit
 
 ## References
 
-- [DFCite-1060] Kim et al., 2021, "AIBFT: Artificial Intelligence Browser Forensic Toolkit", FSI: Digital Investigation 36.
+- [LWCite-1060] Kim et al., 2021, "AIBFT: Artificial Intelligence Browser Forensic Toolkit", FSI: Digital Investigation 36.

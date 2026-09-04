@@ -1,9 +1,9 @@
 ---
-id: DFM-1134
+id: LWM-1134
 type: mitigation
 name: Reconcile SDN log timestamps using controller-assisted RTT-based delay estimation before reconstructing event timelines
 source_refs:
-  - DFCite-1130
+  - LWCite-1130
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Configure the SDN controller to periodically probe each attached switch (e.g. vi
 
 ## References
 
-- [DFCite-1130] Koswane, Tabona and Maupong, 2026, "Controller-assisted timestamp reconciliation for reliable SDN forensics", FSI: Digital Investigation 58.
+- [LWCite-1130] Koswane, Tabona and Maupong, 2026, "Controller-assisted timestamp reconciliation for reliable SDN forensics", FSI: Digital Investigation 58.

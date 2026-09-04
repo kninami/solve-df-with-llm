@@ -1,9 +1,9 @@
 ---
-id: DFM-1168
+id: LWM-1168
 type: mitigation
 name: Supplement keyword search with semantic embedding similarity to capture indirect crime references in LLM message triage
 source_refs:
-  - DFCite-1173
+  - LWCite-1173
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Embed the full message corpus (not just keyword hits) using a sentence/document 
 
 ## References
 
-- [DFCite-1173] Kim et al., 2025, "Digital forensics in law enforcement: A case study of LLM-driven evidence analysis", FSI: Digital Investigation 54, 301939.
+- [LWCite-1173] Kim et al., 2025, "Digital forensics in law enforcement: A case study of LLM-driven evidence analysis", FSI: Digital Investigation 54, 301939.

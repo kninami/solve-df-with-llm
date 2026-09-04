@@ -1,14 +1,14 @@
 ---
-id: DFW-2107
+id: LWW-2107
 type: weakness
 name: UBIFS deleted-file recovery becomes permanently impossible once the garbage collector erases freeable blocks
 description: Once UBIFS's garbage collector identifies a logical erase block as containing no live data ("freeable") and erases it -- which happens whenever the journal is committed and the flash device is running low on available space -- any deleted-file content or metadata that block held is permanently and unrecoverably destroyed, and this erasure runs autonomously as part of normal file system operation rather than requiring any deliberate anti-forensic action.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2108
+  - LWM-2108
 source_refs:
-  - DFCite-2126
+  - LWCite-2126
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who delays acquiring a UBIFS-based device's flash image risks lo
 
 ## References
 
-- [DFCite-2126] Deutschmann and Baier, 2024, "Ubi est indicium? On forensic analysis of the UBI file system", FSI: Digital Investigation 48, 301689.
+- [LWCite-2126] Deutschmann and Baier, 2024, "Ubi est indicium? On forensic analysis of the UBI file system", FSI: Digital Investigation 48, 301689.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1077
+id: LWT-1077
 type: technique
 name: Formalize controlled digital forensics experiments using an OWL ontology
 description: Formally document a controlled digital forensics experiment (e.g. testing a new forensic tool or technique) using an OWL-coded ontology (ExperDF-Onto) that defines the standard concepts and terms involved — experimental design, variables, procedures, decision-making rationale, limitations, and threats to validity — so that the experiment's process is captured in a structured, machine-readable, and reproducible form rather than an informal narrative description.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1083
+  - LWW-1083
 aliases:
   - OWL ontology-based formalization of controlled digital forensics experiments
   - ExperDF-Onto
 source_refs:
-  - DFCite-1073
+  - LWCite-1073
 updated_at: 2026-08-10
 status: complete
 ---
@@ -40,4 +40,4 @@ The ontology's conceptual model, represented as UML class diagrams and coded in 
 
 ## References
 
-- [DFCite-1073] Silva et al., 2025, "An ontology for promoting controlled experimentation in digital forensics", FSI: Digital Investigation 52.
+- [LWCite-1073] Silva et al., 2025, "An ontology for promoting controlled experimentation in digital forensics", FSI: Digital Investigation 52.

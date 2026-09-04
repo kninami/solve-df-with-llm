@@ -1,19 +1,19 @@
 ---
-id: DFT-1158
+id: LWT-1158
 type: technique
 name: Recover web application account and content artifacts from browser cache and local storage
 description: Parse a Chromium-based browser's SQLite History, Cache, and Web Data files together with its per-origin LevelDB local storage (.ldb/.log) to recover a web-app platform's account settings, authentication tokens, contacts/connections, and content (messages, meeting records, media, calls) after the platform was used through the browser rather than a native app.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1162
+  - LWW-1162
 aliases:
   - Recover messaging app account and content artifacts from browser cache and local storage
   - Web application (Discord) forensic artifact recovery from Google Chrome
   - Google Meet browser artifact recovery (History, IndexedDB-LevelDB, Cache, Cookies)
 source_refs:
-  - DFCite-1165
-  - DFCite-1235
+  - LWCite-1165
+  - LWCite-1235
 updated_at: 2026-08-13
 status: complete
 ---
@@ -46,5 +46,5 @@ Chrome's local storage (JSON-formatted `.ldb`/`.log` LevelDB files under `Local 
 
 ## References
 
-- [DFCite-1165] Gupta et al., 2022, "Digital forensic analysis of discord on google chrome", FSI: Digital Investigation 44, 301479.
-- [DFCite-1235] Iqbal, Khalid, Marrington, Shah and Hung, 2022, "Forensic investigation of Google Meet for memory and browser artifacts", DFRWS 2022 APAC; FSI: Digital Investigation 43, 301448.
+- [LWCite-1165] Gupta et al., 2022, "Digital forensic analysis of discord on google chrome", FSI: Digital Investigation 44, 301479.
+- [LWCite-1235] Iqbal, Khalid, Marrington, Shah and Hung, 2022, "Forensic investigation of Google Meet for memory and browser artifacts", DFRWS 2022 APAC; FSI: Digital Investigation 43, 301448.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1244
+id: LWM-1244
 type: mitigation
 name: Prioritize full forensic-vault routing over battery savings during an active investigation
 source_refs:
-  - DFCite-1258
+  - LWCite-1258
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Where GreenForensics' discrete or continuous coverage controls are exposed to an
 
 ## References
 
-- [DFCite-1258] Sewak, Sahay, and Rathore, 2022, "GreenForensics: Deep hybrid edge-cloud detection and forensics system for battery-performance-balance conscious devices", FSI: Digital Investigation 43, 301445.
+- [LWCite-1258] Sewak, Sahay, and Rathore, 2022, "GreenForensics: Deep hybrid edge-cloud detection and forensics system for battery-performance-balance conscious devices", FSI: Digital Investigation 43, 301445.

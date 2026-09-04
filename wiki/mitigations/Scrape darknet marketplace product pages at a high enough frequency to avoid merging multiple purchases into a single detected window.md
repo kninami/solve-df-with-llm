@@ -1,9 +1,9 @@
 ---
-id: DFM-1106
+id: LWM-1106
 type: mitigation
 name: Scrape darknet marketplace product pages at a high enough frequency to avoid merging multiple purchases into a single detected window
 source_refs:
-  - DFCite-1101
+  - LWCite-1101
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Where infrastructure allows, scrape high-volume or high-interest product pages a
 
 ## References
 
-- [DFCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.
+- [LWCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.

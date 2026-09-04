@@ -1,10 +1,10 @@
 ---
-id: DFM-1090
+id: LWM-1090
 type: mitigation
 name: Plan Argus-style dynamic monitoring experiments around root and jailbreak availability and avoid mid-experiment reboots
 source_refs:
-  - DFCite-1082
-  - DFCite-2095
+  - LWCite-1082
+  - LWCite-2095
 updated_at: 2026-08-16
 status: complete
 ---
@@ -25,5 +25,5 @@ Confirm root/jailbreak availability for the specific target OS version before co
 
 ## References
 
-- [DFCite-1082] Boztas et al., 2025, "Argus: A new approach for forensic analysis of apps on mobile devices", FSI: Digital Investigation 53.
-- [DFCite-2095] Seiden, Webb, and Baggili, 2025, "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs", FSI: Digital Investigation 52, 301871.
+- [LWCite-1082] Boztas et al., 2025, "Argus: A new approach for forensic analysis of apps on mobile devices", FSI: Digital Investigation 53.
+- [LWCite-2095] Seiden, Webb, and Baggili, 2025, "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs", FSI: Digital Investigation 52, 301871.

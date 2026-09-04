@@ -1,9 +1,9 @@
 ---
-id: DFM-1280
+id: LWM-1280
 type: mitigation
 name: Disclose the BLOB-record extraction gap and pursue complementary recovery approaches for Chromium incognito-mode memory
 source_refs:
-  - DFCite-1307
+  - LWCite-1307
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ State clearly in the investigative report that the class-object-carving methodol
 
 ## References
 
-- [DFCite-1307] Jeong, Lee and Park, 2024, "MIC: Memory analysis of IndexedDB data on Chromium-based applications", DFRWS 2024 APAC; FSI: Digital Investigation 50, 301809.
+- [LWCite-1307] Jeong, Lee and Park, 2024, "MIC: Memory analysis of IndexedDB data on Chromium-based applications", DFRWS 2024 APAC; FSI: Digital Investigation 50, 301809.

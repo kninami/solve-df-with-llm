@@ -1,17 +1,17 @@
 ---
-id: DFT-1287
+id: LWT-1287
 type: technique
 name: Rank extracted text strings by password likelihood using fine-tuned language models
 description: Search an already-unlocked device's text data (chats, notes, log files) for a cleartext password to a separate, still-locked "secure phone" by extracting every candidate text string and ranking it by likelihood of being a human-generated password using a fine-tuned deep-learning model, so an investigator can try the most promising candidates first instead of attempting an infeasibly large list of strings in an arbitrary order.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1297
+  - LWW-1297
 aliases:
   - PaSSw0rdVib3s
   - AI-assisted password recognition
 source_refs:
-  - DFCite-1330
+  - LWCite-1330
 updated_at: 2026-08-15
 status: complete
 ---
@@ -41,4 +41,4 @@ Several model architectures were fine-tuned and compared: three deep-learning mo
 
 ## References
 
-- [DFCite-1330] van Dijk, van de Wetering, Argentini, Gorka, van Luenen, Minnema, Rijgersberg, Ugen, Mann, and Geradts, 2025, "PaSSw0rdVib3s!: AI-assisted password recognition for digital forensic investigations", FSI: Digital Investigation 52, 301870.
+- [LWCite-1330] van Dijk, van de Wetering, Argentini, Gorka, van Luenen, Minnema, Rijgersberg, Ugen, Mann, and Geradts, 2025, "PaSSw0rdVib3s!: AI-assisted password recognition for digital forensic investigations", FSI: Digital Investigation 52, 301870.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2110
+id: LWM-2110
 type: mitigation
 name: Cross-validate location traces against multiple independent positioning sources and account for known buffering, rounding, and encoding conventions
 source_refs:
-  - DFCite-2128
+  - LWCite-2128
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ For any location trace bearing significant weight in a case, check whether the s
 
 ## References
 
-- [DFCite-2128] "Uncertainty and error in location traces", FSI: Digital Investigation 48, 2024.
+- [LWCite-2128] "Uncertainty and error in location traces", FSI: Digital Investigation 48, 2024.

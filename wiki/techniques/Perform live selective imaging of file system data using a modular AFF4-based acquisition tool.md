@@ -1,5 +1,5 @@
 ---
-id: DFT-2072
+id: LWT-2072
 type: technique
 name: Perform live selective imaging of file system data using a modular AFF4-based acquisition tool
 description: Acquire only explicitly selected file system data objects and metadata from a running (live) Windows system into a partial forensic image, rather than a full bitwise copy, using a modular pipeline of artifact acquisition, integrity validation, and AFF4-container storage stages designed to preserve forensic soundness despite executing on the very system being examined.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1006
   - DFO-1010
 weakness_ids:
-  - DFW-1132
+  - LWW-1132
 aliases:
   - Selective Imaging Tool
   - SIT
 source_refs:
-  - DFCite-2080
+  - LWCite-2080
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ The Selective Imaging Tool (SIT) is a four-module pipeline built on the DFIR ORC
 
 ## References
 
-- [DFCite-2080] Faust, Thierry, Müller, and Freiling, 2021, "Selective Imaging of File System Data on Live Systems", FSI: Digital Investigation 36, 301115.
+- [LWCite-2080] Faust, Thierry, Müller, and Freiling, 2021, "Selective Imaging of File System Data on Live Systems", FSI: Digital Investigation 36, 301115.

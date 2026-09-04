@@ -1,16 +1,16 @@
 ---
-id: DFT-1207
+id: LWT-1207
 type: technique
 name: Carve and reconstruct MSSQL transaction log records from unallocated file-system space
 description: Identify Microsoft SQL Server transaction log records (INSERT/DELETE/MODIFY/BEGIN_XACT/COMMIT_XACT) remaining in a file system's unallocated area — after a transaction log backup file was deleted or a log file shrank — using fixed-length record signatures, then reconstruct the originating SQL query and its transaction start/end times.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1218
+  - LWW-1218
 aliases:
   - MSSQL transaction log unallocated-area record carving
 source_refs:
-  - DFCite-1229
+  - LWCite-1229
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ The transaction log file is internally divided into Virtual Log Files (VLFs) mad
 
 ## References
 
-- [DFCite-1229] Choi and Lee, 2023, "Forensic analysis of SQL server transaction log in unallocated area of file system", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301605.
+- [LWCite-1229] Choi and Lee, 2023, "Forensic analysis of SQL server transaction log in unallocated area of file system", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301605.

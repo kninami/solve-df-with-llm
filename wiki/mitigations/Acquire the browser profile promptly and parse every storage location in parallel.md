@@ -1,9 +1,9 @@
 ---
-id: DFM-1162
+id: LWM-1162
 type: mitigation
 name: Acquire the browser profile promptly and parse every storage location in parallel
 source_refs:
-  - DFCite-1165
+  - LWCite-1165
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Treat browser-based web-app evidence with the same urgency as other volatile evi
 
 ## References
 
-- [DFCite-1165] Gupta et al., 2022, "Digital forensic analysis of discord on google chrome", FSI: Digital Investigation 44, 301479.
+- [LWCite-1165] Gupta et al., 2022, "Digital forensic analysis of discord on google chrome", FSI: Digital Investigation 44, 301479.

@@ -1,19 +1,19 @@
 ---
-id: DFT-1226
+id: LWT-1226
 type: technique
 name: Evaluate perceptual hashing algorithm robustness using large-scale Hamming-distance distribution analysis
 description: Assess how well a perceptual hashing algorithm discriminates between different images, and how robust it is against content-preserving modifications, by computing the Hamming-distance distribution between unrelated image pairs (inter-score) and between an image and modified variants of itself (intra-score) across a million-image-scale dataset, rather than relying on small-scale or anecdotal testing.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1098
-  - DFW-1244
+  - LWW-1098
+  - LWW-1244
 aliases:
   - Million-image-scale perceptual hash inter/intra-score distribution evaluation
   - PHASER (Perceptual Hashing Algorithms Evaluation and Results)
 source_refs:
-  - DFCite-1259
-  - DFCite-1333
+  - LWCite-1259
+  - LWCite-1333
 updated_at: 2026-08-15
 status: complete
 ---
@@ -49,5 +49,5 @@ For each perceptual hashing algorithm under test (evaluated: Facebook/Meta's PDQ
 
 ## References
 
-- [DFCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509.
-- [DFCite-1333] McKeown, Aaby, and Steyven, 2024, "PHASER: Perceptual hashing algorithms evaluation and results - An open source forensic framework", FSI: Digital Investigation 48, 301680.
+- [LWCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509.
+- [LWCite-1333] McKeown, Aaby, and Steyven, 2024, "PHASER: Perceptual hashing algorithms evaluation and results - An open source forensic framework", FSI: Digital Investigation 48, 301680.

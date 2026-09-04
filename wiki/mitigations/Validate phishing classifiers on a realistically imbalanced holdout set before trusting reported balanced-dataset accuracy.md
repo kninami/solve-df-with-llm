@@ -1,9 +1,9 @@
 ---
-id: DFM-2040
+id: LWM-2040
 type: mitigation
 name: Validate phishing classifiers on a realistically imbalanced holdout set before trusting reported balanced-dataset accuracy
 source_refs:
-  - DFCite-2041
+  - LWCite-2041
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where feasible, evaluate a candidate phishing classifier against a naturally imb
 
 ## References
 
-- [DFCite-2041] Alsubaei et al., 2024 — the paper's own with/without-SMOTE comparison (Table 6) demonstrates how strongly reported accuracy depends on class-balancing, motivating independent validation under realistic imbalance before operational deployment.
+- [LWCite-2041] Alsubaei et al., 2024 — the paper's own with/without-SMOTE comparison (Table 6) demonstrates how strongly reported accuracy depends on class-balancing, motivating independent validation under realistic imbalance before operational deployment.

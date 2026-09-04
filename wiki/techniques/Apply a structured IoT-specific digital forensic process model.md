@@ -1,23 +1,23 @@
 ---
-id: DFT-1049
+id: LWT-1049
 type: technique
 name: Apply a structured IoT-specific digital forensic process model
 description: Investigate an IoT-related incident using a formal, phased digital forensic process model (identification, preservation, collection, examination, analysis, presentation) purpose-built or adapted for IoT's distinguishing characteristics — heterogeneous devices and protocols, high data volatility, resource-constrained hardware, and distributed architectures — rather than applying a general-purpose digital forensics process model unchanged.
 objective_ids:
   - DFO-1015
 weakness_ids:
-  - DFW-1050
-  - DFW-1080
+  - LWW-1050
+  - LWW-1080
 aliases:
   - Structured IoT-specific digital forensic process model application
   - Concept methodology for conducting IoT investigations using a generic forensic model as a reference
   - MAoIDFF-IoT
   - Multi-level Artifact of Interest Digital Forensics Framework for IoT
 source_refs:
-  - DFCite-1040
-  - DFCite-1070
-  - DFCite-1159
-  - DFCite-1241
+  - LWCite-1040
+  - LWCite-1070
+  - LWCite-1159
+  - LWCite-1241
 updated_at: 2026-08-13
 status: complete
 ---
@@ -52,7 +52,7 @@ Reviewed models varied in which of the six standard forensic phases (identificat
 
 ## References
 
-- [DFCite-1040] Silva et al., 2025, "A review study of digital forensics in IoT: Process models, phases, architectures, and ontologies", FSI: Digital Investigation 53.
-- [DFCite-1070] Kim et al., 2022, "An improved IoT forensic model to identify interconnectivity between things", FSI: Digital Investigation 44.
-- [DFCite-1159] Castelo Gómez et al., 2021, "Developing an IoT forensic methodology. A concept proposal", FSI: Digital Investigation 36, 301114.
-- [DFCite-1241] Salem and Hamarsheh, 2024, "Forensically analyzing IoT smart camera using MAoIDFF-IoT framework", FSI: Digital Investigation 51, 301829.
+- [LWCite-1040] Silva et al., 2025, "A review study of digital forensics in IoT: Process models, phases, architectures, and ontologies", FSI: Digital Investigation 53.
+- [LWCite-1070] Kim et al., 2022, "An improved IoT forensic model to identify interconnectivity between things", FSI: Digital Investigation 44.
+- [LWCite-1159] Castelo Gómez et al., 2021, "Developing an IoT forensic methodology. A concept proposal", FSI: Digital Investigation 36, 301114.
+- [LWCite-1241] Salem and Hamarsheh, 2024, "Forensically analyzing IoT smart camera using MAoIDFF-IoT framework", FSI: Digital Investigation 51, 301829.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2017
+id: LWM-2017
 type: mitigation
 name: Query the cloud database transaction log immediately and pursue service-level and CSP-cooperation evidence sources in parallel
 source_refs:
-  - DFCite-2017
+  - LWCite-2017
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Treat log acquisition as time-critical from the moment an incident is suspected,
 
 ## References
 
-- [DFCite-2017] Shin and Moon, 2025 — Section VI.B "Investigative Implications" recommends prompt CSP coordination, institutionalized preservation/production orders, and use of service-level logs (audit logs, query store, backup logs, network-layer metadata) and PITR as supplementary recovery avenues.
+- [LWCite-2017] Shin and Moon, 2025 — Section VI.B "Investigative Implications" recommends prompt CSP coordination, institutionalized preservation/production orders, and use of service-level logs (audit logs, query store, backup logs, network-layer metadata) and PITR as supplementary recovery avenues.

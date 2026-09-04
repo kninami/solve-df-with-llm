@@ -1,14 +1,14 @@
 ---
-id: DFW-1306
+id: LWW-1306
 type: weakness
 name: Fuchsia's zxcrypt encryption subsystem can block dead-disk examination of MinFS partition content
 description: When Fuchsia's zxcrypt encryption subsystem is applied to the MinFS partition, an investigator performing dead-disk analysis cannot read the partition's user data without first obtaining or bypassing the associated encryption keys, meaning identification of the MinFS partition and its structure alone is insufficient to complete an investigation.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1308
+  - LWM-1308
 source_refs:
-  - DFCite-1343
+  - LWCite-1343
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who successfully parses Fuchsia's FVM structure and locates the 
 
 ## References
 
-- [DFCite-1343] Jarrett and Morris, 2021, "Purple dawn: Dead disk forensics on Google's Fuchsia operating system", FSI: Digital Investigation 39, 301269.
+- [LWCite-1343] Jarrett and Morris, 2021, "Purple dawn: Dead disk forensics on Google's Fuchsia operating system", FSI: Digital Investigation 39, 301269.

@@ -1,12 +1,12 @@
 ---
-id: DFW-1075
+id: LWW-1075
 type: weakness
 name: Bullet-hole-length trajectory estimation cannot be applied to irregular holes from ricocheted or low-stabilization impacts
 description: The bullet-hole-length-to-incidence-angle correlation the mobile trajectory tool relies on was derived from, and is only valid for, regularly-shaped perforation holes; bullet holes with irregular shapes caused by ricocheted bullets or bullets that were poorly stabilized in flight fall outside the tool's applicable scope and cannot be used with it.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1075
+  - LWM-1075
 updated_at: 2026-08-10
 status: complete
 ---

@@ -1,17 +1,17 @@
 ---
-id: DFT-1126
+id: LWT-1126
 type: technique
 name: Cluster financial transaction behavior using K-means with engineered temporal features
 description: Group bank accounts under investigation into behavioral clusters using K-means on PCA-reduced features engineered from transaction amounts over multiple time windows, to prioritize which accounts and individuals warrant closer examination.
 objective_ids:
   - DFO-1005
 weakness_ids:
-  - DFW-1129
+  - LWW-1129
 aliases:
   - K-means financial behavioral clustering for AML prioritization
   - Temporal-feature transaction clustering
 source_refs:
-  - DFCite-1125
+  - LWCite-1125
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ Eighteen temporal features (count, sum, mean, minimum, maximum, and standard dev
 
 ## References
 
-- [DFCite-1125] Oliveira et al., 2025, "Complex networks-based anomaly detection for financial transactions in anti-money laundering", FSI: Digital Investigation 55, 302005.
+- [LWCite-1125] Oliveira et al., 2025, "Complex networks-based anomaly detection for financial transactions in anti-money laundering", FSI: Digital Investigation 55, 302005.

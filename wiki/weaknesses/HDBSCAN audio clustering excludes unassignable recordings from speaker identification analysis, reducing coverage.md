@@ -1,14 +1,14 @@
 ---
-id: DFW-1184
+id: LWW-1184
 type: weakness
 name: HDBSCAN audio clustering excludes unassignable recordings from speaker identification analysis, reducing coverage
 description: The HDBSCAN clustering step used to group same-speaker recordings leaves some recordings unassigned to any cluster, and those unclustered recordings are excluded from the cluster-scoring pipeline entirely, so any true match they contain is missed.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1184
+  - LWM-1184
 source_refs:
-  - DFCite-1187
+  - LWCite-1187
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on this technique's candidate output should not assume t
 
 ## References
 
-- [DFCite-1187] Moura et al., 2024, "Enhancing speaker identification in criminal investigations through clusterization and rank-based scoring", FSI: Digital Investigation 49. States the main limitation as unclustered utterances being excluded from analysis, "posing a challenge with low coverage."
+- [LWCite-1187] Moura et al., 2024, "Enhancing speaker identification in criminal investigations through clusterization and rank-based scoring", FSI: Digital Investigation 49. States the main limitation as unclustered utterances being excluded from analysis, "posing a challenge with low coverage."

@@ -1,9 +1,9 @@
 ---
-id: DFM-2120
+id: LWM-2120
 type: mitigation
 name: Treat microservice classifier triage output as prioritization only and periodically sample unflagged images for manual review
 source_refs:
-  - DFCite-2139
+  - LWCite-2139
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Where case time and resources allow, review flagged images first (as the highest
 
 ## References
 
-- [DFCite-2139] "Using micro-services and artificial intelligence to analyze images in criminal evidences", FSI: Digital Investigation 48, 2024.
+- [LWCite-2139] "Using micro-services and artificial intelligence to analyze images in criminal evidences", FSI: Digital Investigation 48, 2024.

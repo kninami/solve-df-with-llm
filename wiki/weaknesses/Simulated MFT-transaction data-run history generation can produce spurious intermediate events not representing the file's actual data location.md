@@ -1,14 +1,14 @@
 ---
-id: DFW-1288
+id: LWW-1288
 type: weakness
 name: Simulated MFT-transaction data-run history generation can produce spurious intermediate events not representing the file's actual data location
 description: Because a single logical file-data modification can be recorded across multiple sequential $LogFile UpdateMappingPairs records, replaying each record individually generates a historical event for every intermediate record, including ones whose data-run value does not correspond to any location where the file's data was ever actually stored, unless the intermediate events are filtered out.
 categories:
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-1289
+  - LWM-1289
 source_refs:
-  - DFCite-1319
+  - LWCite-1319
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator using an unfiltered data-run history to identify where a file's 
 
 ## References
 
-- [DFCite-1319] Oh, Lee, and Hwang, 2021, "NTFS Data Tracker: Tracking file data history based on $LogFile", FSI: Digital Investigation 39, 301309.
+- [LWCite-1319] Oh, Lee, and Hwang, 2021, "NTFS Data Tracker: Tracking file data history based on $LogFile", FSI: Digital Investigation 39, 301309.

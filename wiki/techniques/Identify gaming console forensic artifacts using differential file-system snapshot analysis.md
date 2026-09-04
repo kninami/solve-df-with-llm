@@ -1,5 +1,5 @@
 ---
-id: DFT-2122
+id: LWT-2122
 type: technique
 name: Identify gaming console forensic artifacts using differential file-system snapshot analysis
 description: Systematically discover which files a gaming console's operating system and platform client create, delete, or modify for a given user action by imaging the device's storage before and after each of a sequence of scripted actions and computing the file-system differences between successive images.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1017
   - DFO-1011
 weakness_ids:
-  - DFW-2131
+  - LWW-2131
 aliases:
   - Steam Deck Analyzer
   - idifference2.py-based differential forensic analysis
 source_refs:
-  - DFCite-2151
+  - LWCite-2151
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,4 +42,4 @@ Differential analysis tooling (e.g., `idifference2.py` from the DFXML toolset) p
 
 ## References
 
-- [DFCite-2151] Eichhorn et al., 2024, "Well Played, Suspect! - Forensic examination of the handheld gaming console 'Steam Deck'", FSI: Digital Investigation 48.
+- [LWCite-2151] Eichhorn et al., 2024, "Well Played, Suspect! - Forensic examination of the handheld gaming console 'Steam Deck'", FSI: Digital Investigation 48.

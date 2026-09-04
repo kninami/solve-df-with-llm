@@ -1,14 +1,14 @@
 ---
-id: DFW-1188
+id: LWW-1188
 type: weakness
 name: Speed-threshold location-spoofing detection cannot identify gradual or subtle spoofing
 description: A spoofing-detection method that flags only location points whose implied travel speed between consecutive coordinates exceeds an unreasonable threshold (e.g. faster than commercial air travel) will not detect a falsified location that changes gradually or by a small amount, since such changes never trigger the speed threshold.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1188
+  - LWM-1188
 source_refs:
-  - DFCite-1192
+  - LWCite-1192
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying solely on a speed-threshold flag to distinguish genuine 
 
 ## References
 
-- [DFCite-1192] Pace et al., 2023, "Every step you take, I'll be tracking you: Forensic analysis of the tile tracker application", FSI: Digital Investigation 45, 301559.
+- [LWCite-1192] Pace et al., 2023, "Every step you take, I'll be tracking you: Forensic analysis of the tile tracker application", FSI: Digital Investigation 45, 301559.

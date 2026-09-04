@@ -1,17 +1,17 @@
 ---
-id: DFT-1087
+id: LWT-1087
 type: technique
 name: Recognize source recording devices using CNN-BiLSTM audio feature learning
 description: Identify which specific device (make/model) recorded a questioned audio file by extracting a temporal "Sequential Gaussian Mean Matrix" (SGMM) feature from segmented acoustic characteristics, then applying a structured representation-learning model combining a Convolutional Neural Network (for spatial/bottleneck feature condensation) with a Bidirectional LSTM (for temporal modeling) to classify the recording against a trained set of candidate source devices.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1093
+  - LWW-1093
 aliases:
   - CNN-BiLSTM structured representation learning of SGMM audio features for source recording device recognition
   - SGMM
 source_refs:
-  - DFCite-1085
+  - LWCite-1085
 updated_at: 2026-08-10
 status: complete
 ---
@@ -40,4 +40,4 @@ The method was benchmarked against MFCC, GSV, I-vector, and BED features using a
 
 ## References
 
-- [DFCite-1085] Zeng et al., 2024, "Audio source recording device recognition based on representation learning of sequential Gaussian mean matrix", FSI: Digital Investigation 48.
+- [LWCite-1085] Zeng et al., 2024, "Audio source recording device recognition based on representation learning of sequential Gaussian mean matrix", FSI: Digital Investigation 48.

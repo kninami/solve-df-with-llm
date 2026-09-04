@@ -1,9 +1,9 @@
 ---
-id: DFM-1282
+id: LWM-1282
 type: mitigation
 name: Manually verify or discard shared pages with inconsistent content before finalizing a combined module extraction
 source_refs:
-  - DFCite-1310
+  - LWCite-1310
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Enable the anomaly-detection logic that flags a page offset with disagreeing "sh
 
 ## References
 
-- [DFCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.
+- [LWCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.

@@ -1,5 +1,5 @@
 ---
-id: DFW-1232
+id: LWW-1232
 type: weakness
 name: Retrieval-augmented forensic LLM responses cite sources that do not match the retrieved context or propagate errors from it
 description: A RAFT-fine-tuned local LLM's response can carry a fabricated or mismatched citation even while being provided the correct retrieved context, and separately can faithfully reproduce a factual error already present in the retrieved source material, so a well-formatted citation does not by itself confirm either that the source exists as cited or that its content is correct.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_EX
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1232
+  - LWM-1232
 source_refs:
-  - DFCite-1243
+  - LWCite-1243
 updated_at: 2026-08-13
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator relying on the model's citation as a shortcut to source verifica
 
 ## References
 
-- [DFCite-1243] Sharma et al., 2025, "ForensicLLM: A local large language model for digital forensics", FSI: Digital Investigation 52, 301872.
+- [LWCite-1243] Sharma et al., 2025, "ForensicLLM: A local large language model for digital forensics", FSI: Digital Investigation 52, 301872.

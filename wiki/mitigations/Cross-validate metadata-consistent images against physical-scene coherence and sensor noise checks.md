@@ -1,9 +1,9 @@
 ---
-id: DFM-1108
+id: LWM-1108
 type: mitigation
 name: Cross-validate metadata-consistent images against physical-scene coherence and sensor noise checks
 source_refs:
-  - DFCite-1102
+  - LWCite-1102
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ When metadata, quantization tables, and compression statistics all report a clea
 
 ## References
 
-- [DFCite-1102] Baracchi et al., 2021, "Camera Obscura: Exploiting in-camera processing for image counter forensics", FSI: Digital Investigation 38.
+- [LWCite-1102] Baracchi et al., 2021, "Camera Obscura: Exploiting in-camera processing for image counter forensics", FSI: Digital Investigation 38.

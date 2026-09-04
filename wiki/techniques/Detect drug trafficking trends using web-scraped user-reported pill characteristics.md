@@ -1,5 +1,5 @@
 ---
-id: DFT-2121
+id: LWT-2121
 type: technique
 name: Detect drug trafficking trends using web-scraped user-reported pill characteristics
 description: Automatically scrape a clear-web drug-checking/user-report forum to build a structured dataset of illicit drug pill characteristics (logo, colour, shape, suspected contents), listing location, and listing date, then analyze it for temporal usage trends and geographic trafficking flow patterns.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1004
   - DFO-1012
 weakness_ids:
-  - DFW-2130
+  - LWW-2130
 aliases:
   - OSINT ecstasy pill report analysis
 source_refs:
-  - DFCite-2150
+  - LWCite-2150
 updated_at: 2026-08-16
 status: complete
 ---
@@ -41,4 +41,4 @@ An AI-assisted visual web-scraping tool detects and extracts the critical fields
 
 ## References
 
-- [DFCite-2150] Maybir and Chapman, 2021, "Web scraping of ecstasy user reports as a novel tool for detecting drug market trends", FSI: Digital Investigation 37.
+- [LWCite-2150] Maybir and Chapman, 2021, "Web scraping of ecstasy user reports as a novel tool for detecting drug market trends", FSI: Digital Investigation 37.

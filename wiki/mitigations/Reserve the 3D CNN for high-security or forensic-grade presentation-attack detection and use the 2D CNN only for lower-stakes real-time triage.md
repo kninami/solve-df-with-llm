@@ -1,9 +1,9 @@
 ---
-id: DFM-2025
+id: LWM-2025
 type: mitigation
 name: Reserve the 3D CNN for high-security or forensic-grade presentation-attack detection and use the 2D CNN only for lower-stakes real-time triage
 source_refs:
-  - DFCite-2025
+  - LWCite-2025
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Follow the source paper's own deployment decision framework: choose the 3D CNN w
 
 ## References
 
-- [DFCite-2025] Dessouky et al., 2026 — Section V's "Practical Deployment Guidelines" explicitly recommends the 3D CNN for centralized forensic analysis and high-security environments, and the 2D CNN for real-time, edge-computing surveillance.
+- [LWCite-2025] Dessouky et al., 2026 — Section V's "Practical Deployment Guidelines" explicitly recommends the 3D CNN for centralized forensic analysis and high-security environments, and the 2D CNN for real-time, edge-computing surveillance.

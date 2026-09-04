@@ -1,16 +1,16 @@
 ---
-id: DFT-1227
+id: LWT-1227
 type: technique
 name: Generate a contextual password dictionary using knowledge-graph seed-word traversal and similarity ranking
 description: Build a targeted password-candidate dictionary for a specific suspect or account by traversing a knowledge graph (e.g., DBPedia) outward from a seed word describing the target's known interests, then ranking the resulting candidate terms by semantic similarity to the seed using pre-trained word embeddings (e.g., Wikipedia2Vec), so a dictionary attack can try the most contextually plausible candidates first.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1245
+  - LWW-1245
 aliases:
   - Context-based password cracking dictionary optimization
 source_refs:
-  - DFCite-1260
+  - LWCite-1260
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ The methodology composes a contextual wordlist in stages: (1) a seed word or phr
 
 ## References
 
-- [DFCite-1260] Kanta, Coisel, and Scanlon, 2023, "Harder, better, faster, stronger: Optimising the performance of context-based password cracking dictionaries", FSI: Digital Investigation 44, 301507.
+- [LWCite-1260] Kanta, Coisel, and Scanlon, 2023, "Harder, better, faster, stronger: Optimising the performance of context-based password cracking dictionaries", FSI: Digital Investigation 44, 301507.

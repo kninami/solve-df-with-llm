@@ -1,9 +1,9 @@
 ---
-id: DFM-1217
+id: LWM-1217
 type: mitigation
 name: Correlate system logs from every device role in a suspected cross-device call-relay chain, not just the receiving device
 source_refs:
-  - DFCite-1228
+  - LWCite-1228
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Collect ADB logcat (preferred over dumpstate/logcat for coverage) from every sei
 
 ## References
 
-- [DFCite-1228] Yoo, Park and Kim, 2026, "Forensic analysis of remote call service artifacts for detecting voice phishing via samsung call & message continuity (CMC)", FSI: Digital Investigation 57, 302107.
+- [LWCite-1228] Yoo, Park and Kim, 2026, "Forensic analysis of remote call service artifacts for detecting voice phishing via samsung call & message continuity (CMC)", FSI: Digital Investigation 57, 302107.

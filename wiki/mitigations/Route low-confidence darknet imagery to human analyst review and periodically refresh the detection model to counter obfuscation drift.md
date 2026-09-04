@@ -1,9 +1,9 @@
 ---
-id: DFM-1139
+id: LWM-1139
 type: mitigation
 name: Route low-confidence darknet imagery to human analyst review and periodically refresh the detection model to counter obfuscation drift
 source_refs:
-  - DFCite-1137
+  - LWCite-1137
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Configure confidence thresholds so that only high-confidence positive detections
 
 ## References
 
-- [DFCite-1137] Rathod et al., 2026, "DarkCatalog: A vision-first, parser-independent framework for forensic harvesting of TOR hidden services", FSI: Digital Investigation 57.
+- [LWCite-1137] Rathod et al., 2026, "DarkCatalog: A vision-first, parser-independent framework for forensic harvesting of TOR hidden services", FSI: Digital Investigation 57.

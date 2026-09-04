@@ -1,14 +1,14 @@
 ---
-id: DFW-1065
+id: LWW-1065
 type: weakness
 name: Argument-based evaluative-opinion method loses oversight and risks bias if hypotheses are not framed with an innocence option
 description: The argument-based method for evaluating digital evidence becomes difficult to keep track of as the number of evidence pieces, grounds, and inferential leaps considered under a single hypothesis grows, and produces a misleading result if both compared hypotheses are framed as guilt hypotheses rather than including a genuine innocence-oriented hypothesis, since the resulting probative-value comparison would then only rank one guilt theory against another rather than testing guilt against innocence.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1065
+  - LWM-1065
 source_refs:
-  - DFCite-1055
+  - LWCite-1055
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ Because the method is explicitly intended to produce transparent, auditable reas
 
 ## References
 
-- [DFCite-1055] Sunde and Franqueira, 2023, "Adding transparency to uncertainty: An argument-based method for evaluative opinions", FSI: Digital Investigation 47.
+- [LWCite-1055] Sunde and Franqueira, 2023, "Adding transparency to uncertainty: An argument-based method for evaluative opinions", FSI: Digital Investigation 47.

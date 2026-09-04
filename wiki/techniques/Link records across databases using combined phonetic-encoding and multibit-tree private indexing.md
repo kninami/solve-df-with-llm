@@ -1,16 +1,16 @@
 ---
-id: DFT-2052
+id: LWT-2052
 type: technique
 name: Link records across databases using combined phonetic-encoding and multibit-tree private indexing
 description: The process of identifying which records held by two or more separately controlled databases (e.g. different investigating agencies or organizations) likely refer to the same real-world individual, by encoding each party's identifying attributes first with phonetic (Soundex) codes and then with a Cryptographic Long-term Key (a bloom-filter-based encoding), and comparing the resulting encoded keys via a multibit-tree similarity search, without any party exposing its underlying raw identifying data to the other.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-2052
+  - LWW-2052
 aliases:
   - Combined PPRL indexing (Soundex + CLK/multibit tree)
 source_refs:
-  - DFCite-2053
+  - LWCite-2053
 updated_at: 2026-08-14
 status: partial
 ---
@@ -23,11 +23,11 @@ When an investigation requires linking records about the same individual held se
 
 ## Details
 
-DFCite-2053's combined method layers two established PPRL techniques rather than using either alone: standard Soundex-based blocking groups records by a coarse phonetic code (e.g. mapping "Robert" and "Rupert" to the same block "R163"), while the CLK/multibit-tree stage encodes each record's q-grams into a fixed-length bit vector via k independent hash functions, then organizes records of similar bit-vector size into a balanced binary tree structure (splitting recursively on informative bit positions) to efficiently search for records whose Tanimoto/Dice similarity exceeds a threshold without needing to compare every record pair exhaustively. Applying CLK encoding on top of the already-phonetically-encoded data (rather than encoding raw values directly into CLKs, as prior multibit-tree-only approaches did) both improves security (an additional encoding layer) and reduces the multibit tree's tendency toward false-positive matches when used alone.
+LWCite-2053's combined method layers two established PPRL techniques rather than using either alone: standard Soundex-based blocking groups records by a coarse phonetic code (e.g. mapping "Robert" and "Rupert" to the same block "R163"), while the CLK/multibit-tree stage encodes each record's q-grams into a fixed-length bit vector via k independent hash functions, then organizes records of similar bit-vector size into a balanced binary tree structure (splitting recursively on informative bit positions) to efficiently search for records whose Tanimoto/Dice similarity exceeds a threshold without needing to compare every record pair exhaustively. Applying CLK encoding on top of the already-phonetically-encoded data (rather than encoding raw values directly into CLKs, as prior multibit-tree-only approaches did) both improves security (an additional encoding layer) and reduces the multibit tree's tendency toward false-positive matches when used alone.
 
 ## Examples
 
-- DFCite-2053's evaluation on two real bibliographic (publication-record) datasets: the combined approach reached a 0.9996 reduction ratio, 0.84 pairs completeness, 0.9129 F-score, and 4.9463-second running time, each outperforming the multibit-tree-only baseline (0.9953, 0.7514, 0.8563, 6.9535 seconds respectively).
+- LWCite-2053's evaluation on two real bibliographic (publication-record) datasets: the combined approach reached a 0.9996 reduction ratio, 0.84 pairs completeness, 0.9129 F-score, and 4.9463-second running time, each outperforming the multibit-tree-only baseline (0.9953, 0.7514, 0.8563, 6.9535 seconds respectively).
 
 ## Related Objectives
 
@@ -39,4 +39,4 @@ DFCite-2053's combined method layers two established PPRL techniques rather than
 
 ## References
 
-- [DFCite-2053] Desai and Shelake, "A combined approach for private indexing mechanism", Journal of Digital Forensics, Security and Law, 2022 — source of the combined Soundex-plus-CLK/multibit-tree indexing method and its evaluation results described above.
+- [LWCite-2053] Desai and Shelake, "A combined approach for private indexing mechanism", Journal of Digital Forensics, Security and Law, 2022 — source of the combined Soundex-plus-CLK/multibit-tree indexing method and its evaluation results described above.

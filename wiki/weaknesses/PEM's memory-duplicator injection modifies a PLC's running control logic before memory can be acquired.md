@@ -1,14 +1,14 @@
 ---
-id: DFW-1298
+id: LWW-1298
 type: weakness
 name: PEM's memory-duplicator injection modifies a PLC's running control logic before memory can be acquired
 description: Because PEM's acquisition method works by appending a memory-duplicator routine to the target PLC's own running control logic, the acquisition process itself alters the state of the evidence device (its running program and, consequently, some memory contents and execution behavior) before any memory is read out, which is in tension with the general forensic principle of acquiring evidence without altering it.
 categories:
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-1300
+  - LWM-1300
 source_refs:
-  - DFCite-1331
+  - LWCite-1331
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on a PEM-acquired memory dump should be prepared to expl
 
 ## References
 
-- [DFCite-1331] Zubair, Ayub, Yoo, and Ahmed, 2022, "PEM: Remote forensic acquisition of PLC memory in industrial control systems", FSI: Digital Investigation 40, 301336.
+- [LWCite-1331] Zubair, Ayub, Yoo, and Ahmed, 2022, "PEM: Remote forensic acquisition of PLC memory in industrial control systems", FSI: Digital Investigation 40, 301336.

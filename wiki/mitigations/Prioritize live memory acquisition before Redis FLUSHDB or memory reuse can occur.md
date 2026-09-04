@@ -1,9 +1,9 @@
 ---
-id: DFM-1015
+id: LWM-1015
 type: mitigation
 name: Prioritize live memory acquisition before Redis FLUSHDB or memory reuse can occur
 source_refs:
-  - DFCite-1009
+  - LWCite-1009
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When a Redis instance is identified as relevant to an investigation (e.g., a com
 
 ## References
 
-- [DFCite-1009] Chopade and Pachghare, 2021, "A data recovery technique for Redis using internal dictionary structure", FSI: Digital Investigation 38.
+- [LWCite-1009] Chopade and Pachghare, 2021, "A data recovery technique for Redis using internal dictionary structure", FSI: Digital Investigation 38.

@@ -1,18 +1,18 @@
 ---
-id: DFT-2081
+id: LWT-2081
 type: technique
 name: Correlate temporal metadata across artifact types using a learning classifier system with expert-knowledge rules
 description: Automatically discover and rank which combinations of timestamp-bearing digital artifacts (e.g. file-system MAC times, application log entries, registry key timestamps) tend to co-occur meaningfully around an event of interest, by training a Michigan-style learning classifier system seeded with YARA-inspired expert-knowledge rules on labeled temporal-metadata examples, rather than relying solely on a human analyst's manual timeline correlation.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-2083
+  - LWW-2083
 aliases:
   - Digital Trace Inspector
   - DTI
   - ExSTraCS-based temporal metadata correlation
 source_refs:
-  - DFCite-2097
+  - LWCite-2097
 updated_at: 2026-08-16
 status: complete
 ---
@@ -41,4 +41,4 @@ The Digital Trace Inspector (DTI) tool implements this approach: temporal metada
 
 ## References
 
-- [DFCite-2097] "Temporal metadata analysis: A learning classifier system approach", FSI: Digital Investigation 48, 2024.
+- [LWCite-2097] "Temporal metadata analysis: A learning classifier system approach", FSI: Digital Investigation 48, 2024.

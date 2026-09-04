@@ -1,14 +1,14 @@
 ---
-id: DFW-1249
+id: LWW-1249
 type: weakness
 name: Breach-corpus password guessability analysis systematically underrepresents genuinely strong, unrecovered passwords
 description: A statistical guessability analysis built from a breach corpus of previously-cracked plaintext passwords is structurally biased toward weaker passwords, because the strongest passwords in the source breach — if stored securely and never successfully recovered by the community that reverse-engineered the corpus's plaintext values — are absent from the dataset entirely.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1250
+  - LWM-1250
 source_refs:
-  - DFCite-1264
+  - LWCite-1264
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or researcher using population-level guessability statistics dra
 
 ## References
 
-- [DFCite-1264] Kanta, Coray, Coisel, and Scanlon, 2021, "How viable is password cracking in digital forensic investigation? Analyzing the guessability of over 3.9 billion real-world accounts", FSI: Digital Investigation 37, 301186.
+- [LWCite-1264] Kanta, Coray, Coisel, and Scanlon, 2021, "How viable is password cracking in digital forensic investigation? Analyzing the guessability of over 3.9 billion real-world accounts", FSI: Digital Investigation 37, 301186.

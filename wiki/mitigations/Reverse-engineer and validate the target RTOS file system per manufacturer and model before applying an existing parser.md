@@ -1,9 +1,9 @@
 ---
-id: DFM-1084
+id: LWM-1084
 type: mitigation
 name: Reverse-engineer and validate the target RTOS file system per manufacturer and model before applying an existing parser
 source_refs:
-  - DFCite-1074
+  - LWCite-1074
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify the target vehicle's manufacturer, model, and (where determinable) the 
 
 ## References
 
-- [DFCite-1074] Lee et al., 2023, "Analysis of real-time operating systems' file systems: Built-in cameras from vehicles", FSI: Digital Investigation 44.
+- [LWCite-1074] Lee et al., 2023, "Analysis of real-time operating systems' file systems: Built-in cameras from vehicles", FSI: Digital Investigation 44.

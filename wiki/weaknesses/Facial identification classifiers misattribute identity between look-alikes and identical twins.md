@@ -1,14 +1,14 @@
 ---
-id: DFW-2001
+id: LWW-2001
 type: weakness
 name: Facial identification classifiers misattribute identity between look-alikes and identical twins
 description: Machine-learning classifiers comparing anthropometric facial features achieve only moderate accuracy (as low as 57-78% in benchmark testing) at distinguishing identical twins and look-alikes, risking both false matches and false non-matches when used as identification evidence.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-2001
+  - LWM-2001
 source_refs:
-  - DFCite-2001
+  - LWCite-2001
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ A facial identification result used as investigative or courtroom evidence that 
 
 ## References
 
-- [DFCite-2001] Sanil et al., 2023 — reports 57-78% accuracy across ten classifiers on a same/different facial-pair dataset including look-alikes and identical twins, and documents real investigative cases affected by facial misidentification of twins.
+- [LWCite-2001] Sanil et al., 2023 — reports 57-78% accuracy across ten classifiers on a same/different facial-pair dataset including look-alikes and identical twins, and documents real investigative cases affected by facial misidentification of twins.

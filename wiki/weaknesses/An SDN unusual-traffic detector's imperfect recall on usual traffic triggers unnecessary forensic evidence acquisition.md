@@ -1,14 +1,14 @@
 ---
-id: DFW-2003
+id: LWW-2003
 type: weakness
 name: An SDN unusual-traffic detector's imperfect recall on usual traffic triggers unnecessary forensic evidence acquisition
 description: An AI-based unusual-traffic detector used to trigger SDN forensic evidence gathering can misclassify a meaningful share of genuinely benign ("usual") traffic as unusual, causing the DFIR pipeline to acquire and preserve evidence for events that are not actually security incidents.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-2003
+  - LWM-2003
 source_refs:
-  - DFCite-2003
+  - LWCite-2003
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ Repeated false-positive triggers dilute the forensic record with non-relevant da
 
 ## References
 
-- [DFCite-2003] Jiménez et al., 2024 — Table 4 reports 76.2% average accuracy and 77% average recall for the usual-traffic class, with the authors' own conclusion noting room for recall improvement.
+- [LWCite-2003] Jiménez et al., 2024 — Table 4 reports 76.2% average accuracy and 77% average recall for the usual-traffic class, with the authors' own conclusion noting room for recall improvement.

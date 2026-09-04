@@ -1,18 +1,18 @@
 ---
-id: DFT-1291
+id: LWT-1291
 type: technique
 name: Extract health, fitness, and location artifacts from a wearable's Android companion application
 description: Recover health metrics (heart rate, blood oxygen, sleep, stress), GPS-tagged activity routes, device-pairing and synchronization history, and cached account/network data from a smartband or fitness-tracker's Android companion application's local SQLite databases and files on a rooted device, and automate the extraction with a purpose-built open-source parsing module, since a paired wearable's post-mortem forensic value depends on data actually synced to and retained by its phone-side companion app.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1301
+  - LWW-1301
 aliases:
   - Garmin Connect for Android Analyzer (GC4AA)
   - ZL_std / ZL_autopsy (Zepp Life)
 source_refs:
-  - DFCite-1335
-  - DFCite-1336
+  - LWCite-1335
+  - LWCite-1336
 updated_at: 2026-08-15
 status: complete
 ---
@@ -45,5 +45,5 @@ Smartbands and fitness trackers cannot independently store extensive history and
 
 ## References
 
-- [DFCite-1335] Nunes, Domingues, and Frade, 2023, "Post-mortem digital forensic analysis of the Garmin Connect application for Android", FSI: Digital Investigation 47, 301624.
-- [DFCite-1336] Domingues, Francisco, and Frade, 2023, "Post-mortem digital forensics analysis of the Zepp Life android application", FSI: Digital Investigation 45, 301555.
+- [LWCite-1335] Nunes, Domingues, and Frade, 2023, "Post-mortem digital forensic analysis of the Garmin Connect application for Android", FSI: Digital Investigation 47, 301624.
+- [LWCite-1336] Domingues, Francisco, and Frade, 2023, "Post-mortem digital forensics analysis of the Zepp Life android application", FSI: Digital Investigation 45, 301555.

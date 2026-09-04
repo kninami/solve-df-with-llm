@@ -1,9 +1,9 @@
 ---
-id: DFM-1281
+id: LWM-1281
 type: mitigation
 name: Apply SQLite deleted-record recovery tools to Your Phone's local databases before relying on live-table content alone
 source_refs:
-  - DFCite-1308
+  - LWCite-1308
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Before drawing conclusions from a live-table query of `notifications.db` (or You
 
 ## References
 
-- [DFCite-1308] Domingues, Andrade, and Frade, 2021, "Microsoft's Your Phone environment from a digital forensic perspective", FSI: Digital Investigation 38, 301177.
+- [LWCite-1308] Domingues, Andrade, and Frade, 2021, "Microsoft's Your Phone environment from a digital forensic perspective", FSI: Digital Investigation 38, 301177.

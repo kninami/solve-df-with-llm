@@ -1,9 +1,9 @@
 ---
-id: DFM-1109
+id: LWM-1109
 type: mitigation
 name: Corroborate device-configuration indicators of coercive control with case context before concluding abuse
 source_refs:
-  - DFCite-1104
+  - LWCite-1104
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ For each identified setting (e.g. an active Screen Time passcode controlled by a
 
 ## References
 
-- [DFCite-1104] Horsman, 2023, "Can signs of digital coercive control be evidenced in mobile operating system settings? - A guide for first responders", FSI: Digital Investigation 44.
+- [LWCite-1104] Horsman, 2023, "Can signs of digital coercive control be evidenced in mobile operating system settings? - A guide for first responders", FSI: Digital Investigation 44.

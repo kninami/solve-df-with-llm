@@ -1,14 +1,14 @@
 ---
-id: DFW-1060
+id: LWW-1060
 type: weakness
 name: Blockchain-based IoT evidence management frameworks largely neglect legal and management readiness
 description: A systematic review of blockchain-based IoT digital forensic frameworks found that the published literature substantially addresses technical readiness factors (data integrity, distributed storage, authentication, transparency, security) but largely overlooks legal/regulatory compliance and organizational-management readiness (leadership, policy, training) needed to actually deploy such a framework in a real investigation.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1060
+  - LWM-1060
 source_refs:
-  - DFCite-1050
+  - LWCite-1050
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An organization evaluating a published blockchain-based IoT forensic framework f
 
 ## References
 
-- [DFCite-1050] Khanji et al., 2022, "A systematic analysis on the readiness of Blockchain integration in IoT forensics", FSI: Digital Investigation 42-43.
+- [LWCite-1050] Khanji et al., 2022, "A systematic analysis on the readiness of Blockchain integration in IoT forensics", FSI: Digital Investigation 42-43.

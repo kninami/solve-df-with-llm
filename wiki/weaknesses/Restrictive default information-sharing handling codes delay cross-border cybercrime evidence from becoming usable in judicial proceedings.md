@@ -1,14 +1,14 @@
 ---
-id: DFW-1137
+id: LWW-1137
 type: weakness
 name: Restrictive default information-sharing handling codes delay cross-border cybercrime evidence from becoming usable in judicial proceedings
 description: When partners default to the most restrictive handling code (e.g. H1, "not to be disclosed in judicial proceedings without the provider's permission") for shared data, investigators cannot use that data in the criminal case file without a formal request to the provider, which can take months or years and stalls an active cybercrime investigation.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1137
+  - LWM-1137
 source_refs:
-  - DFCite-1135
+  - LWCite-1135
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ Evidence that is investigatively critical but formally classified as intelligenc
 
 ## References
 
-- [DFCite-1135] Heitmann and Johnsen, 2026, "Cybercrime investigations in practice: Insights from the LockerGoga ransomware attack on Norsk Hydro", FSI: Digital Investigation 57.
+- [LWCite-1135] Heitmann and Johnsen, 2026, "Cybercrime investigations in practice: Insights from the LockerGoga ransomware attack on Norsk Hydro", FSI: Digital Investigation 57.

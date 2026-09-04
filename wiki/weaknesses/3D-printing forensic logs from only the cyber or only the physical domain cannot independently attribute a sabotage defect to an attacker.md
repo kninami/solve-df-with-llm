@@ -1,14 +1,14 @@
 ---
-id: DFW-1235
+id: LWW-1235
 type: weakness
 name: 3D-printing forensic logs from only the cyber or only the physical domain cannot independently attribute a sabotage defect to an attacker
 description: OS, network, and application logs from a 3D printer's cyber domain can reveal that an intrusion occurred but cannot, on their own, prove that a specific detected defect in the printed object was caused by that intrusion, while physical-domain sensor data about the printed object's state can reveal a defect but cannot, on its own, identify who or what caused it.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1236
+  - LWM-1236
 source_refs:
-  - DFCite-1250
+  - LWCite-1250
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigation that collects only one of the two domains is structurally incom
 
 ## References
 
-- [DFCite-1250] Rais et al., 2023, "FRoMEPP: Digital forensic readiness framework for material extrusion based 3D printing process", FSI: Digital Investigation 44, 301510.
+- [LWCite-1250] Rais et al., 2023, "FRoMEPP: Digital forensic readiness framework for material extrusion based 3D printing process", FSI: Digital Investigation 44, 301510.

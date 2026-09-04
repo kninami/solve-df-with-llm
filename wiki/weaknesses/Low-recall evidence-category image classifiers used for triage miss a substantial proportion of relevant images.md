@@ -1,14 +1,14 @@
 ---
-id: DFW-2119
+id: LWW-2119
 type: weakness
 name: Low-recall evidence-category image classifiers used for triage miss a substantial proportion of relevant images
 description: Specialized image classifiers used to triage large evidence collections into categories (e.g. firearms, ammunition, identity documents) can have recall in only the 0.6-0.8 range for some object subcategories, meaning a meaningful proportion of images genuinely containing the target evidence type are never flagged for investigator review at all, independent of any subsequent manual review step.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2120
+  - LWM-2120
 source_refs:
-  - DFCite-2139
+  - LWCite-2139
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ Because a triage pipeline's entire purpose is to direct limited investigator att
 
 ## References
 
-- [DFCite-2139] "Using micro-services and artificial intelligence to analyze images in criminal evidences", FSI: Digital Investigation 48, 2024.
+- [LWCite-2139] "Using micro-services and artificial intelligence to analyze images in criminal evidences", FSI: Digital Investigation 48, 2024.

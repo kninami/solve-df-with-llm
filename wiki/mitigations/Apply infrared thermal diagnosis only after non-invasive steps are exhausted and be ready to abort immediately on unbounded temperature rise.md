@@ -1,9 +1,9 @@
 ---
-id: DFM-2039
+id: LWM-2039
 type: mitigation
 name: Apply infrared thermal diagnosis only after non-invasive steps are exhausted and be ready to abort immediately on unbounded temperature rise
 source_refs:
-  - DFCite-2039
+  - LWCite-2039
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Run the infrared acquisition against a control (known-good) sample of the same o
 
 ## References
 
-- [DFCite-2039] Thomas-Brans et al., 2022 — the paper's own case study (Section IV.D.2) models this exact monitoring and stop-on-rise practice, halting analysis once the memory die's temperature climbed without stabilizing, to avoid further damage to the sample.
+- [LWCite-2039] Thomas-Brans et al., 2022 — the paper's own case study (Section IV.D.2) models this exact monitoring and stop-on-rise practice, halting analysis once the memory die's temperature climbed without stabilizing, to avoid further damage to the sample.

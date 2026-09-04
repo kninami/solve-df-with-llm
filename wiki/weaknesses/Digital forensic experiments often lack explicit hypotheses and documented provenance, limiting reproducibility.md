@@ -1,5 +1,5 @@
 ---
-id: DFW-2103
+id: LWW-2103
 type: weakness
 name: Digital forensic experiments often lack explicit hypotheses and documented provenance, limiting reproducibility
 description: Empirical digital forensic research (e.g. tool testing, artifact behavior studies) is frequently conducted without an explicit conceptual model, formally stated hypothesis, controlled/documented experimental variables, or recorded data provenance, unlike controlled-experimentation norms established in other empirical sciences, limiting the reproducibility, comparability, and cumulative validation of published digital forensic findings.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2104
+  - LWM-2104
 source_refs:
-  - DFCite-2120
+  - LWCite-2120
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ Without documented experimental provenance and explicit hypotheses, a published 
 
 ## References
 
-- [DFCite-2120] "Towards controlled and forensic-ready experimentation in digital forensics", FSI: Digital Investigation 48, 2024.
+- [LWCite-2120] "Towards controlled and forensic-ready experimentation in digital forensics", FSI: Digital Investigation 48, 2024.

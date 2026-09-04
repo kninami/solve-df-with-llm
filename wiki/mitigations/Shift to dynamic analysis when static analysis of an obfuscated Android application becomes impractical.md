@@ -1,9 +1,9 @@
 ---
-id: DFM-1087
+id: LWM-1087
 type: mitigation
 name: Shift to dynamic analysis when static analysis of an obfuscated Android application becomes impractical
 source_refs:
-  - DFCite-1078
+  - LWCite-1078
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Before committing significant analyst time to static reverse engineering of a su
 
 ## References
 
-- [DFCite-1078] Zhang et al., 2021, "Android application forensics: A survey of obfuscation, obfuscation detection and deobfuscation techniques and their impact on investigations", FSI: Digital Investigation 39.
+- [LWCite-1078] Zhang et al., 2021, "Android application forensics: A survey of obfuscation, obfuscation detection and deobfuscation techniques and their impact on investigations", FSI: Digital Investigation 39.

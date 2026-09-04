@@ -1,5 +1,5 @@
 ---
-id: DFT-1116
+id: LWT-1116
 type: technique
 name: Acquire and preserve virtual host images across multiple cloud providers using a unified API workflow
 description: Acquire snapshot/image copies of a case's virtual hosts (servers, databases) directly through each cloud service provider's own official API — abstracted behind a single API-operation library so the same forensic workflow controls AWS, Aliyun, ZStack, or other CSPs interchangeably — then hash-verify and transfer the images into a separate, access-controlled preservation cloud, tracking every image, snapshot, and piece of evidence through a file-traceability database so each can be traced back to its source and the investigator who handled it.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1006
   - DFO-1010
 weakness_ids:
-  - DFW-1122
+  - LWW-1122
 aliases:
   - CETS
   - Cloud Evidence Tracing System
 source_refs:
-  - DFCite-1116
+  - LWCite-1116
 updated_at: 2026-08-12
 status: complete
 ---
@@ -42,4 +42,4 @@ The workflow (adapted from the ISO/IEC 27043 Harmonized Digital Investigation Mo
 
 ## References
 
-- [DFCite-1116] Wu et al., 2022, "Cloud Evidence Tracing System: An integrated forensics investigation system for large-scale public cloud platform", FSI: Digital Investigation 41.
+- [LWCite-1116] Wu et al., 2022, "Cloud Evidence Tracing System: An integrated forensics investigation system for large-scale public cloud platform", FSI: Digital Investigation 41.

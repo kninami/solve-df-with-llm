@@ -1,15 +1,15 @@
 ---
-id: DFW-1171
+id: LWW-1171
 type: weakness
 name: Failure to enter a smart-device SoC's flash boot mode prevents firmware acquisition for some device models
 description: Entering the vendor-specific "flash mode" required to dump a system-on-chip's firmware over UART requires undocumented, chip-specific pin assignments and timing that are not standardized across manufacturers, so an examiner can be unable to acquire firmware from a device even with physical UART access.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1171
+  - LWM-1171
 source_refs:
-  - DFCite-1177
-  - DFCite-1232
+  - LWCite-1177
+  - LWCite-1232
 updated_at: 2026-08-13
 status: complete
 ---
@@ -34,5 +34,5 @@ In a controlled multi-device study, firmware could only be successfully dumped f
 
 ## References
 
-- [DFCite-1177] Eichhorn and Pugliese, 2024, "Do You \"Relay\" Want to Give Me Away? - Forensic Cues of Smart Relays and Their IoT Companion Apps", FSI: Digital Investigation 50, 301810.
-- [DFCite-1232] Castelo Gómez et al., 2022, "Forensic analysis of the Xiaomi Mi Smart Sensor Set", FSI: Digital Investigation 42-43, 301451. Reports JTAG/chip-off acquisition failing on both the hub and its battery-powered sensors despite theoretical compatibility, and a firmware update permanently closing a previously working remote-acquisition path.
+- [LWCite-1177] Eichhorn and Pugliese, 2024, "Do You \"Relay\" Want to Give Me Away? - Forensic Cues of Smart Relays and Their IoT Companion Apps", FSI: Digital Investigation 50, 301810.
+- [LWCite-1232] Castelo Gómez et al., 2022, "Forensic analysis of the Xiaomi Mi Smart Sensor Set", FSI: Digital Investigation 42-43, 301451. Reports JTAG/chip-off acquisition failing on both the hub and its battery-powered sensors despite theoretical compatibility, and a firmware update permanently closing a previously working remote-acquisition path.

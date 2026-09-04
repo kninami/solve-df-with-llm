@@ -1,5 +1,5 @@
 ---
-id: DFW-2067
+id: LWW-2067
 type: weakness
 name: Absence of stored CSEM files does not indicate absence of CSEM viewing or consumption
 description: A substantial minority of CSEM offenders self-report never storing material at all and only viewing it, meaning the breadth and quantity of stored images/videos recovered from a device is not a reliable measure of the actual extent of an individual's CSEM consumption, and a device search that finds no stored CSEM files does not establish that no viewing occurred.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2068
+  - LWM-2068
 source_refs:
-  - DFCite-2071
+  - LWCite-2071
 updated_at: 2026-08-15
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator or examiner who treats the absence of recovered stored CSEM file
 
 ## References
 
-- [DFCite-2071] Steel, Newman, O'Rourke & Quayle, 2022, "Technical Behaviours of Child Sexual Exploitation Material Offenders", JDFSL 17(2). States that 19% of respondents reported viewing only, and explicitly warns that expecting stored images/videos to confirm illegal consumption "is neither sufficient nor should it be necessary."
+- [LWCite-2071] Steel, Newman, O'Rourke & Quayle, 2022, "Technical Behaviours of Child Sexual Exploitation Material Offenders", JDFSL 17(2). States that 19% of respondents reported viewing only, and explicitly warns that expecting stored images/videos to confirm illegal consumption "is neither sufficient nor should it be necessary."

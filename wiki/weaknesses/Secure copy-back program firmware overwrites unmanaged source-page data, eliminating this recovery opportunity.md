@@ -1,14 +1,14 @@
 ---
-id: DFW-2033
+id: LWW-2033
 type: weakness
 name: Secure copy-back program firmware overwrites unmanaged source-page data, eliminating this recovery opportunity
 description: A NAND flash device implementing a "secure copy-back program" countermeasure - overwriting the source page with random data or applying deletion pulses immediately after relocating its content - destroys the unmanaged original data that would otherwise remain recoverable, removing an investigator's ability to recover host-deleted content from the source page.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2033
+  - LWM-2033
 source_refs:
-  - DFCite-2033
+  - LWCite-2033
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator relying on unmanaged copy-back-program source-page data as a rec
 
 ## References
 
-- [DFCite-2033] Ahn and Lee, 2021 — Section IV and Table 1 detail the proposed secure copy-back program's overwrite/deletion-pulse mechanisms and confirm its anti-forensic effectiveness relative to conventional copy-back program implementations.
+- [LWCite-2033] Ahn and Lee, 2021 — Section IV and Table 1 detail the proposed secure copy-back program's overwrite/deletion-pulse mechanisms and confirm its anti-forensic effectiveness relative to conventional copy-back program implementations.

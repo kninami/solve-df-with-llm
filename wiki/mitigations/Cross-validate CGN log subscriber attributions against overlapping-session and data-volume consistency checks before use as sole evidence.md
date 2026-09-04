@@ -1,9 +1,9 @@
 ---
-id: DFM-1116
+id: LWM-1116
 type: mitigation
 name: Cross-validate CGN log subscriber attributions against overlapping-session and data-volume consistency checks before use as sole evidence
 source_refs:
-  - DFCite-1109
+  - LWCite-1109
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Scan the full set of a subscriber's logged sessions for the relevant time window
 
 ## References
 
-- [DFCite-1109] Gözükara, 2021, "Challenges and possible severe legal consequences of application users identification from CNG-Logs", FSI: Digital Investigation 39.
+- [LWCite-1109] Gözükara, 2021, "Challenges and possible severe legal consequences of application users identification from CNG-Logs", FSI: Digital Investigation 39.

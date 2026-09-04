@@ -1,9 +1,9 @@
 ---
-id: DFM-1222
+id: LWM-1222
 type: mitigation
 name: Extend the file-system forensic workflow with a dedicated stacked-file-system correlation phase linking lower files to their upper file system
 source_refs:
-  - DFCite-1234
+  - LWCite-1234
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ During lower-file-system analysis, watch for known stacked-file-system indicator
 
 ## References
 
-- [DFCite-1234] Hilgert, Lambertz and Baier, 2024, "Forensic implications of stacked file systems", DFRWS EU 2024; FSI: Digital Investigation 48, 301678.
+- [LWCite-1234] Hilgert, Lambertz and Baier, 2024, "Forensic implications of stacked file systems", DFRWS EU 2024; FSI: Digital Investigation 48, 301678.

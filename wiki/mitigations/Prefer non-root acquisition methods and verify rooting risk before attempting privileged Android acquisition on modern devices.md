@@ -1,9 +1,9 @@
 ---
-id: DFM-1086
+id: LWM-1086
 type: mitigation
 name: Prefer non-root acquisition methods and verify rooting risk before attempting privileged Android acquisition on modern devices
 source_refs:
-  - DFCite-1077
+  - LWCite-1077
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Before attempting to root a modern (Android 12+) device for acquisition, researc
 
 ## References
 
-- [DFCite-1077] Dowrick et al., 2026, "Android anti-forensics: A systematic review of applications, techniques, and investigative challenges", FSI: Digital Investigation 58.
+- [LWCite-1077] Dowrick et al., 2026, "Android anti-forensics: A systematic review of applications, techniques, and investigative challenges", FSI: Digital Investigation 58.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2098
+id: LWW-2098
 type: weakness
 name: Pattern-of-life analysis tool presentation with ambiguous naming and aggregated data causes investigator misinterpretation
 description: A pattern-of-life analysis tool's choices about how to present extracted activity-level data -- ambiguous column/attribute/category naming, insufficient detail or context around a trace, aggregation that obscures individual events behind a summary value, and inconsistent or confusing timestamp ordering -- can cause an investigator to misinterpret otherwise-correctly-extracted data, independent of any data-extraction defect in the tool itself.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2099
+  - LWM-2099
 source_refs:
-  - DFCite-2115
+  - LWCite-2115
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator's conclusions in a pattern-of-life analysis can be materially wr
 
 ## References
 
-- [DFCite-2115] Andersen, Sunde, and Porter, 2025, "Tool induced biases? Misleading data presentation as a biasing source in digital forensic analysis", FSI: Digital Investigation 52, 301881.
+- [LWCite-2115] Andersen, Sunde, and Porter, 2025, "Tool induced biases? Misleading data presentation as a biasing source in digital forensic analysis", FSI: Digital Investigation 52, 301881.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1248
+id: LWM-1248
 type: mitigation
 name: Corroborate driving-insurance-app cloud telemetry with a higher-frequency GPS logger or dashcam
 source_refs:
-  - DFCite-1262
+  - LWCite-1262
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify and acquire any additional positioning or video sources available for t
 
 ## References
 
-- [DFCite-1262] Onik, Spinosa, Asad, and Baggili, 2024, "Hit and run: Forensic vehicle event reconstruction through driver-based cloud data from Progressive's snapshot application", FSI: Digital Investigation 49, 301762.
+- [LWCite-1262] Onik, Spinosa, Asad, and Baggili, 2024, "Hit and run: Forensic vehicle event reconstruction through driver-based cloud data from Progressive's snapshot application", FSI: Digital Investigation 49, 301762.

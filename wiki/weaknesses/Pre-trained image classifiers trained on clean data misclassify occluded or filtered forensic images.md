@@ -1,14 +1,14 @@
 ---
-id: DFW-1039
+id: LWW-1039
 type: weakness
 name: Pre-trained image classifiers trained on clean data misclassify occluded or filtered forensic images
 description: A general-purpose pre-trained image classifier, evaluated without modification against forensically realistic images containing occlusion, partial framing, or a black-and-white filter, produces a measurable increase in false negatives, since the training data the model originally learned from did not represent these degraded, real-world-acquisition conditions.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1039
+  - LWM-1039
 source_refs:
-  - DFCite-1029
+  - LWCite-1029
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Real-world forensic images recovered from a seized device are far more likely th
 
 ## References
 
-- [DFCite-1029] Del Mar-Raave et al., 2021, "A machine learning-based forensic tool for image classification - A design science approach", FSI: Digital Investigation 38.
+- [LWCite-1029] Del Mar-Raave et al., 2021, "A machine learning-based forensic tool for image classification - A design science approach", FSI: Digital Investigation 38.

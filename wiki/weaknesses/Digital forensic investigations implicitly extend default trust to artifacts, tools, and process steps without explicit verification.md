@@ -1,5 +1,5 @@
 ---
-id: DFW-2085
+id: LWW-2085
 type: weakness
 name: Digital forensic investigations implicitly extend default trust to artifacts, tools, and process steps without explicit verification
 description: Standard digital forensic practice treats an artifact, forensic tool's output, or process step as trustworthy by default unless a specific reason for suspicion arises, rather than requiring active, itemized verification of each artifact's temporal, syntactic, and semantic integrity before it is relied upon, leaving tampering, tool error, or misinterpretation more likely to go unnoticed.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-2085
+  - LWM-2085
 source_refs:
-  - DFCite-2098
+  - LWCite-2098
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator who only scrutinizes an artifact once something appears suspicio
 
 ## References
 
-- [DFCite-2098] "The case for Zero Trust Digital Forensics", FSI: Digital Investigation 48, 2024.
+- [LWCite-2098] "The case for Zero Trust Digital Forensics", FSI: Digital Investigation 48, 2024.

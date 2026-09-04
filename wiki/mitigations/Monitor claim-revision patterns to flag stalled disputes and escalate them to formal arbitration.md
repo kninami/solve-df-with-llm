@@ -1,9 +1,9 @@
 ---
-id: DFM-2049
+id: LWM-2049
 type: mitigation
 name: Monitor claim-revision patterns to flag stalled disputes and escalate them to formal arbitration
 source_refs:
-  - DFCite-2050
+  - LWCite-2050
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Log every claim and claim modification per node and per party (as the source pro
 
 ## References
 
-- [DFCite-2050] Alashjaee, 2024 — the paper's own analysis methodology (Section IV) already derives exactly this kind of claim-revision-pattern signal from the ReConsider system's logs, providing a direct basis for a stall-detection and escalation trigger.
+- [LWCite-2050] Alashjaee, 2024 — the paper's own analysis methodology (Section IV) already derives exactly this kind of claim-revision-pattern signal from the ReConsider system's logs, providing a direct basis for a stall-detection and escalation trigger.

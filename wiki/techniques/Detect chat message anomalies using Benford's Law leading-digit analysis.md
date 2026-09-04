@@ -1,16 +1,16 @@
 ---
-id: DFT-1091
+id: LWT-1091
 type: technique
 name: Detect chat message anomalies using Benford's Law leading-digit analysis
 description: Triage a large collection of instant-messaging chat conversations for spam, AI-chatbot-generated, or otherwise artificial content by extracting the leading digit of each message's timestamp and character-length values, comparing the resulting frequency distribution against the expected Benford's Law distribution (where "1" is the most common leading digit, with decreasing frequency thereafter) using a chi-squared significance test, and flagging chats whose distribution deviates substantially for further manual investigation.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1097
+  - LWW-1097
 aliases:
   - Benford's Law leading-digit anomaly detection for chat message legitimacy triage
 source_refs:
-  - DFCite-1090
+  - LWCite-1090
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ Three chat types were evaluated: a legitimate two-party conversation, a spam-mes
 
 ## References
 
-- [DFCite-1090] Mahindra and Karabiyik, 2026, "Benford's Law as a Forensic Tool for Identifying Anomalous Chat Behavior in Instant Messaging", IEEE SmartNets 2026.
+- [LWCite-1090] Mahindra and Karabiyik, 2026, "Benford's Law as a Forensic Tool for Identifying Anomalous Chat Behavior in Instant Messaging", IEEE SmartNets 2026.

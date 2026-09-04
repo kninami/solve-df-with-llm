@@ -1,5 +1,5 @@
 ---
-id: DFW-2132
+id: LWW-2132
 type: weakness
 name: A compromised application can fabricate or omit its own causal log claims undetected
 description: A cross-application causal event ID recorded by an application is only as trustworthy as that application, so an attacker who gains code execution in the application can tamper with, omit, or fabricate its own causal references before an investigator ever merges logs into the combined causal graph.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_ALT
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-2133
+  - LWM-2133
 source_refs:
-  - DFCite-2154
+  - LWCite-2154
 updated_at: 2026-08-17
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator merging per-application logs into a combined causal graph must t
 
 ## References
 
-- [DFCite-2154] Olegård, Axelsson, and Li, 2025, "When is logging sufficient? — Tracking event causality for improved forensic analysis and correlation", FSI: Digital Investigation 52.
+- [LWCite-2154] Olegård, Axelsson, and Li, 2025, "When is logging sufficient? — Tracking event causality for improved forensic analysis and correlation", FSI: Digital Investigation 52.

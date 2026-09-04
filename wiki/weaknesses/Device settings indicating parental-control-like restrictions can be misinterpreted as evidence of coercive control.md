@@ -1,14 +1,14 @@
 ---
-id: DFW-1109
+id: LWW-1109
 type: weakness
 name: Device settings indicating parental-control-like restrictions can be misinterpreted as evidence of coercive control
 description: Many of the mobile OS settings capable of exerting control over a device (app usage limits, downtime scheduling, content restrictions, location sharing) also have entirely legitimate, non-abusive uses such as parental control, productivity management, or self-imposed procrastination prevention, so their mere presence does not by itself indicate technology-facilitated abuse.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1109
+  - LWM-1109
 source_refs:
-  - DFCite-1104
+  - LWCite-1104
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or first responder who treats the presence of a restrictive sett
 
 ## References
 
-- [DFCite-1104] Horsman, 2023, "Can signs of digital coercive control be evidenced in mobile operating system settings? - A guide for first responders", FSI: Digital Investigation 44.
+- [LWCite-1104] Horsman, 2023, "Can signs of digital coercive control be evidenced in mobile operating system settings? - A guide for first responders", FSI: Digital Investigation 44.

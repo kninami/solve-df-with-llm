@@ -1,14 +1,14 @@
 ---
-id: DFW-1245
+id: LWW-1245
 type: weakness
 name: Contextual dictionary similarity ranking surfaces high-similarity phrase candidates that are unlikely real passwords
 description: Ranking a knowledge-graph-derived candidate dictionary purely by semantic similarity to a seed word can place multi-word phrases or overly literal thematic terms — implausible as real password choices — ahead of more probable single-word or lightly-mangled candidates, which can waste guesses within a time-boxed cracking attempt's limited budget.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1246
+  - LWM-1246
 source_refs:
-  - DFCite-1260
+  - LWCite-1260
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ In a time-sensitive, triage-driven investigation, a dictionary attack is typical
 
 ## References
 
-- [DFCite-1260] Kanta, Coisel, and Scanlon, 2023, "Harder, better, faster, stronger: Optimising the performance of context-based password cracking dictionaries", FSI: Digital Investigation 44, 301507.
+- [LWCite-1260] Kanta, Coisel, and Scanlon, 2023, "Harder, better, faster, stronger: Optimising the performance of context-based password cracking dictionaries", FSI: Digital Investigation 44, 301507.

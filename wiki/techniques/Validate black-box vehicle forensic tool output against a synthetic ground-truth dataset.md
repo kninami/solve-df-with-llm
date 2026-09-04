@@ -1,16 +1,16 @@
 ---
-id: DFT-1184
+id: LWT-1184
 type: technique
 name: Validate black-box vehicle forensic tool output against a synthetic ground-truth dataset
 description: Quantify the distortion a closed-source, proprietary vehicle forensic tool (e.g. an EDR or infotainment decoder) introduces during acquisition and parsing by constructing a synthetic ground-truth dataset with known values, applying documented tool-error patterns (field omission, timestamp offset, quantization, semantic inversion) to simulate the tool's output, and measuring the resulting spatial, temporal, and semantic deviation.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1191
+  - LWW-1191
 aliases:
   - Synthetic ground-truth black-box vehicle tool validation
 source_refs:
-  - DFCite-1196
+  - LWCite-1196
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ For EDR validation, a ground-truth deceleration/telemetry trace (speed, accelera
 
 ## References
 
-- [DFCite-1196] Mayer, 2026, "Examining black-box forensic tools in digital vehicle forensics: Capabilities, limitations, and practical implications", FSI: Digital Investigation 56, 302067.
+- [LWCite-1196] Mayer, 2026, "Examining black-box forensic tools in digital vehicle forensics: Capabilities, limitations, and practical implications", FSI: Digital Investigation 56, 302067.

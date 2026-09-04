@@ -1,9 +1,9 @@
 ---
-id: DFM-1062
+id: LWM-1062
 type: mitigation
 name: Independently security-test and benchmark a blockchain-based IoT evidence framework before adoption
 source_refs:
-  - DFCite-1052
+  - LWCite-1052
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Run a standardized performance benchmark (e.g. Hyperledger Caliper, or an equiva
 
 ## References
 
-- [DFCite-1052] Akinbi et al., 2022, "A systematic literature review of blockchain-based Internet of Things (IoT) forensic investigation process models", FSI: Digital Investigation 42-43.
+- [LWCite-1052] Akinbi et al., 2022, "A systematic literature review of blockchain-based Internet of Things (IoT) forensic investigation process models", FSI: Digital Investigation 42-43.

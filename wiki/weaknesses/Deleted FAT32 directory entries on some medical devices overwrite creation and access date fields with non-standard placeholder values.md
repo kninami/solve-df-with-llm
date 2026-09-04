@@ -1,5 +1,5 @@
 ---
-id: DFW-1174
+id: LWW-1174
 type: weakness
 name: Deleted FAT32 directory entries on some medical devices overwrite creation and access date fields with non-standard placeholder values
 description: On at least one medical device's FAT32 implementation, deleting a file overwrites the directory entry's creation-date and last-accessed-date fields with non-standard sentinel values while leaving the corresponding time fields intact, so an examiner who reads the date field at face value obtains an inaccurate date for the deletion event.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_COR
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1174
+  - LWM-1174
 source_refs:
-  - DFCite-1172
+  - LWCite-1172
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ An examiner who is unaware of this device-specific quirk and reads the directory
 
 ## References
 
-- [DFCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.
+- [LWCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.

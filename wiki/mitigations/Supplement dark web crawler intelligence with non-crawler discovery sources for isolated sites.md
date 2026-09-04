@@ -1,9 +1,9 @@
 ---
-id: DFM-2116
+id: LWM-2116
 type: mitigation
 name: Supplement dark web crawler intelligence with non-crawler discovery sources for isolated sites
 source_refs:
-  - DFCite-2135
+  - LWCite-2135
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Do not treat a crawler's coverage, however extensive, as a complete inventory of
 
 ## References
 
-- [DFCite-2135] Li, Zhang, Yan, Gao, Yin, and Gu, 2026, "Unveiling the mysteries of the dark web: A comprehensive graph-based multi-view analysis", FSI: Digital Investigation 57, 302105.
+- [LWCite-2135] Li, Zhang, Yan, Gao, Yin, and Gu, 2026, "Unveiling the mysteries of the dark web: A comprehensive graph-based multi-view analysis", FSI: Digital Investigation 57, 302105.

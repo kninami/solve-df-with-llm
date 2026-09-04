@@ -1,17 +1,17 @@
 ---
-id: DFT-1069
+id: LWT-1069
 type: technique
 name: Decompose forensic analysis tool internals into abstraction-layer stages to identify errors
 description: Deconstruct a monolithic digital forensic analysis tool's internal processing into a detailed sequence of discrete abstraction-layer stages (e.g. parse image format, validate disk image, identify partitions, identify file system, recover deleted files), and require or evaluate standardized, CASE-annotated intermediate output at each stage, so that the specific stage at which an error was introduced or propagated can be identified and independently validated, rather than treating the tool as a single opaque input-to-output transformation.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1074
+  - LWW-1074
 aliases:
   - Abstraction-layer decomposition of forensic analysis tool internals for stage-level error identification
 source_refs:
-  - DFCite-1064
-  - DFCite-2090
+  - LWCite-1064
+  - LWCite-2090
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,5 +42,5 @@ A complementary process-level model extends this stage-by-stage error-source ana
 
 ## References
 
-- [DFCite-1064] Hargreaves et al., 2024, "An abstract model for digital forensic analysis tools - A foundation for systematic error mitigation analysis", FSI: Digital Investigation 48.
-- [DFCite-2090] Horsman, 2024, "Sources of error in digital forensics", FSI: Digital Investigation 48, 301693. Source for the complementary six-source (client, wider investigative team, practitioner, tools/instruments, methods, trace)-by-ten-stage process-level error taxonomy.
+- [LWCite-1064] Hargreaves et al., 2024, "An abstract model for digital forensic analysis tools - A foundation for systematic error mitigation analysis", FSI: Digital Investigation 48.
+- [LWCite-2090] Horsman, 2024, "Sources of error in digital forensics", FSI: Digital Investigation 48, 301693. Source for the complementary six-source (client, wider investigative team, practitioner, tools/instruments, methods, trace)-by-ten-stage process-level error taxonomy.

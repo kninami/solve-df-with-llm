@@ -1,16 +1,16 @@
 ---
-id: DFT-2104
+id: LWT-2104
 type: technique
 name: Authenticate an SNS-processed image's source device using confidence-calibrated multimodal feature fusion
 description: Identify which device model captured an image that has since been re-encoded, resized, or otherwise processed by a social networking service (SNS), by combining device-aware multi-stage optimization -- style normalization, transfer learning from raw-image-trained models, and dynamic multimodal feature fusion -- with an explicit confidence-calibration step that flags low-confidence predictions rather than reporting every classification with the same apparent certainty.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-2111
+  - LWW-2111
 aliases:
   - SNS-robust source device authentication
 source_refs:
-  - DFCite-2130
+  - LWCite-2130
 updated_at: 2026-08-16
 status: complete
 ---
@@ -40,4 +40,4 @@ Style normalization first attempts to reduce or standardize the specific compres
 
 ## References
 
-- [DFCite-2130] "Uncovering the impact of SNS processing on device source authentication", FSI: Digital Investigation 56, 2026.
+- [LWCite-2130] "Uncovering the impact of SNS processing on device source authentication", FSI: Digital Investigation 56, 2026.

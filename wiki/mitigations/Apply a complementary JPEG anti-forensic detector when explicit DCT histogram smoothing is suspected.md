@@ -1,9 +1,9 @@
 ---
-id: DFM-2024
+id: LWM-2024
 type: mitigation
 name: Apply a complementary JPEG anti-forensic detector when explicit DCT histogram smoothing is suspected
 source_refs:
-  - DFCite-2024
+  - LWCite-2024
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Combine MTPM-based detection with an independent double-compression/periodicity-
 
 ## References
 
-- [DFCite-2024] Kumar et al., 2021 — Section III.C's evaluation against aligned/non-aligned double-JPEG-compressed images shows the proposed and NA-DJPG detectors have complementary strengths and weaknesses against different anti-forensic schemes, supporting a combined-detector approach.
+- [LWCite-2024] Kumar et al., 2021 — Section III.C's evaluation against aligned/non-aligned double-JPEG-compressed images shows the proposed and NA-DJPG detectors have complementary strengths and weaknesses against different anti-forensic schemes, supporting a combined-detector approach.

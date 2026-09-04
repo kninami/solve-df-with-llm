@@ -1,14 +1,14 @@
 ---
-id: DFW-2053
+id: LWW-2053
 type: weakness
 name: Drone firmware bundles severely outdated OS kernels with many unpatched known vulnerabilities despite being labeled the latest release
 description: A drone's most recently released firmware update can still bundle an operating-system kernel that is years out of date and carries dozens to hundreds of publicly known, unpatched vulnerabilities, and firmware is often distributed via unauthenticated public vendor-website downloads rather than a secure over-the-air update mechanism.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2053
+  - LWM-2053
 source_refs:
-  - DFCite-2054
+  - LWCite-2054
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ A drone whose firmware runs a heavily outdated, vulnerable OS kernel is exposed 
 
 ## References
 
-- [DFCite-2054] Salamh et al., 2021 — Section 4.1 reports the outdated-kernel finding and vulnerability count from the Zino Hubsan firmware analysis, and Section 4.1's discussion identifies public vendor-website firmware distribution as a notable attack vector.
+- [LWCite-2054] Salamh et al., 2021 — Section 4.1 reports the outdated-kernel finding and vulnerability count from the Zino Hubsan firmware analysis, and Section 4.1's discussion identifies public vendor-website firmware distribution as a notable attack vector.

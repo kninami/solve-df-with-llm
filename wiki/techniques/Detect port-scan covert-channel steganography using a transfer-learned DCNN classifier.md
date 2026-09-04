@@ -1,16 +1,16 @@
 ---
-id: DFT-1248
+id: LWT-1248
 type: technique
 name: Detect port-scan covert-channel steganography using a transfer-learned DCNN classifier
 description: Identify a TCP port scan carrying a hidden message encoded in its destination-port ordering (a covert command-and-control channel later retrievable from firewall or syslog records) by rendering each scan's port sequence as a grayscale image and classifying it with a deep convolutional neural network fine-tuned via transfer learning, rather than relying on hand-crafted statistical features.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1264
+  - LWW-1264
 aliases:
   - DCNN port-scan steganography detector
 source_refs:
-  - DFCite-1286
+  - LWCite-1286
 updated_at: 2026-08-14
 status: complete
 ---
@@ -40,4 +40,4 @@ Each captured port scan's sequence of destination ports is rendered as a 32x32 g
 
 ## References
 
-- [DFCite-1286] Lamshöft, Neubert, Hielscher, Vielhauer and Dittmann, 2022, "Knock, knock, log: Threat analysis, detection & mitigation of covert channels in syslog using port scans as cover", DFRWS 2022 EU; FSI: Digital Investigation 40, 301335.
+- [LWCite-1286] Lamshöft, Neubert, Hielscher, Vielhauer and Dittmann, 2022, "Knock, knock, log: Threat analysis, detection & mitigation of covert channels in syslog using port scans as cover", DFRWS 2022 EU; FSI: Digital Investigation 40, 301335.

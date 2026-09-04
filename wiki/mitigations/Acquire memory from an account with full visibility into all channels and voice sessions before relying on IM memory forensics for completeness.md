@@ -1,9 +1,9 @@
 ---
-id: DFM-1225
+id: LWM-1225
 type: mitigation
 name: Acquire memory from an account with full visibility into all channels and voice sessions before relying on IM memory forensics for completeness
 source_refs:
-  - DFCite-1236
+  - LWCite-1236
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify the permission level and channel membership of the account whose device
 
 ## References
 
-- [DFCite-1236] Davis, McInnes and Ahmed, 2022, "Forensic investigation of instant messaging services on linux OS: Discord and Slack as case studies", DFRWS 2022 USA; FSI: Digital Investigation 42, 301401.
+- [LWCite-1236] Davis, McInnes and Ahmed, 2022, "Forensic investigation of instant messaging services on linux OS: Discord and Slack as case studies", DFRWS 2022 USA; FSI: Digital Investigation 42, 301401.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1104
+id: LWT-1104
 type: technique
 name: Review mobile OS settings systematically to identify signs of coercive control
 description: Systematically inspect a mobile device's proprietary iOS or Android operating-system settings (account/ID, screen-time, family-sharing, notification, lock, and backup configuration) against a documented reference list to identify subtle, non-app-based indicators that a device is being monitored, restricted, or controlled by a perpetrator of technology-facilitated domestic abuse.
 objective_ids:
   - DFO-1003
 weakness_ids:
-  - DFW-1109
+  - LWW-1109
 aliases:
   - Digital coercive control (DCC) settings review
 source_refs:
-  - DFCite-1104
+  - LWCite-1104
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The technique catalogues 70 named settings across iOS and Android (covering roug
 
 ## References
 
-- [DFCite-1104] Horsman, 2023, "Can signs of digital coercive control be evidenced in mobile operating system settings? - A guide for first responders", FSI: Digital Investigation 44.
+- [LWCite-1104] Horsman, 2023, "Can signs of digital coercive control be evidenced in mobile operating system settings? - A guide for first responders", FSI: Digital Investigation 44.

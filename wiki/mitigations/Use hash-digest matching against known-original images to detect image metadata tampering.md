@@ -1,9 +1,9 @@
 ---
-id: DFM-2058
+id: LWM-2058
 type: mitigation
 name: Use hash-digest matching against known-original images to detect image metadata tampering
 source_refs:
-  - DFCite-2058
+  - LWCite-2058
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When a case involves images with a plausible known-original source (e.g., a susp
 
 ## References
 
-- [DFCite-2058] Khalid & Qadir, 2022, "An Evaluation Framework For Digital Image Forensics Tools", JDFSL 17(4). States that hash digests and hash-matching are "the single counter" to image metadata manipulation as an anti-forensic technique, provided hashes of the original image are known.
+- [LWCite-2058] Khalid & Qadir, 2022, "An Evaluation Framework For Digital Image Forensics Tools", JDFSL 17(4). States that hash digests and hash-matching are "the single counter" to image metadata manipulation as an anti-forensic technique, provided hashes of the original image are known.

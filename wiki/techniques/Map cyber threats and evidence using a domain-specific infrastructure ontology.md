@@ -1,18 +1,18 @@
 ---
-id: DFT-1051
+id: LWT-1051
 type: technique
 name: Map cyber threats and evidence using a domain-specific infrastructure ontology
 description: Extend a general-purpose cyber-investigation ontology (built on STIX/UCO/CASE) with a domain-specific profile that models a particular infrastructure type's own components, threats, and cybercrime classifications, so an investigator can quickly determine which components of that infrastructure were affected, what threats and cybercrime types apply, and what evidence and indicators correspond, rather than manually researching and mapping this context for every incident from scratch.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1053
+  - LWW-1053
 aliases:
   - Domain-specific infrastructure ontology for cyber-threat and evidence mapping
   - SCOPE ontology
   - Smart City Ontological Paradigm Expression
 source_refs:
-  - DFCite-1043
+  - LWCite-1043
 updated_at: 2026-08-09
 status: complete
 ---
@@ -41,4 +41,4 @@ The ontology is built via a standard ontology-engineering process (determine dom
 
 ## References
 
-- [DFCite-1043] Tok et al., 2025, "A Smart City Infrastructure ontology for threats, cybercrime, and digital forensic investigation", FSI: Digital Investigation 52.
+- [LWCite-1043] Tok et al., 2025, "A Smart City Infrastructure ontology for threats, cybercrime, and digital forensic investigation", FSI: Digital Investigation 52.

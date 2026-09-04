@@ -1,9 +1,9 @@
 ---
-id: DFM-1196
+id: LWM-1196
 type: mitigation
 name: Recover the associated account credentials alongside an extracted 2FA secret key before attempting an authentication bypass
 source_refs:
-  - DFCite-1206
+  - LWCite-1206
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ During disk and memory examination of a device with a 2FA app installed, also se
 
 ## References
 
-- [DFCite-1206] Berrios et al., 2023, "Factorizing 2FA: Forensic analysis of two-factor authentication applications", FSI: Digital Investigation 45.
+- [LWCite-1206] Berrios et al., 2023, "Factorizing 2FA: Forensic analysis of two-factor authentication applications", FSI: Digital Investigation 45.

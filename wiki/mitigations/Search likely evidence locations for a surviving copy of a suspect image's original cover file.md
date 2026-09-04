@@ -1,9 +1,9 @@
 ---
-id: DFM-2065
+id: LWM-2065
 type: mitigation
 name: Search likely evidence locations for a surviving copy of a suspect image's original cover file
 source_refs:
-  - DFCite-2067
+  - LWCite-2067
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Search the following locations, among others, for a same-dimension, visually sim
 
 ## References
 
-- [DFCite-2067] Pelosi & Easttom, 2021, "Positive Identification of Least Significant Bit (LSB) Image Steganography Using Cover Image Comparisons", JDFSL 15(6). Provides the 14-location checklist for locating a candidate original cover image and recommends "an active search for the original image if suspicion of steganographic usage exists."
+- [LWCite-2067] Pelosi & Easttom, 2021, "Positive Identification of Least Significant Bit (LSB) Image Steganography Using Cover Image Comparisons", JDFSL 15(6). Provides the 14-location checklist for locating a candidate original cover image and recommends "an active search for the original image if suspicion of steganographic usage exists."

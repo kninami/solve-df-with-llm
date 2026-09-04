@@ -1,9 +1,9 @@
 ---
-id: DFM-1274
+id: LWM-1274
 type: mitigation
 name: Extend TEE-based IoT memory monitoring to SRAM and add a verified secure-boot mechanism
 source_refs:
-  - DFCite-1301
+  - LWCite-1301
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Add an SRAM acquisition path alongside the existing flash-memory acquisition mod
 
 ## References
 
-- [DFCite-1301] Waguespack, Smith, Muliri, Vijayakanthan and Ali-Gombe, 2024, "MARS: The first line of defense for IoT incident response", DFRWS 2024 USA; FSI: Digital Investigation 49, 301754.
+- [LWCite-1301] Waguespack, Smith, Muliri, Vijayakanthan and Ali-Gombe, 2024, "MARS: The first line of defense for IoT incident response", DFRWS 2024 USA; FSI: Digital Investigation 49, 301754.

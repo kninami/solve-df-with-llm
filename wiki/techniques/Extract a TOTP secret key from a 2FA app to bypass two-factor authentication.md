@@ -1,17 +1,17 @@
 ---
-id: DFT-1189
+id: LWT-1189
 type: technique
 name: Extract a TOTP secret key from a 2FA app to bypass two-factor authentication
 description: Forensically examine a 2FA authenticator application's on-disk storage across mobile and desktop platforms to recover its TOTP secret key and associated account metadata, then use the recovered key to independently generate valid one-time passcodes and authenticate to the protected account without the original device.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1196
+  - LWW-1196
 aliases:
   - 2FA application forensic artifact extraction
   - TOTP secret key extraction and OTP replication
 source_refs:
-  - DFCite-1206
+  - LWCite-1206
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ Across fifteen popular 2FA applications (including FreeOTP, Google Authenticator
 
 ## References
 
-- [DFCite-1206] Berrios et al., 2023, "Factorizing 2FA: Forensic analysis of two-factor authentication applications", FSI: Digital Investigation 45.
+- [LWCite-1206] Berrios et al., 2023, "Factorizing 2FA: Forensic analysis of two-factor authentication applications", FSI: Digital Investigation 45.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1204
+id: LWW-1204
 type: weakness
 name: FTS-based deleted-message recovery depends on the target application's database schema retaining undeleted FTS shadow-table remnants
 description: Recovering a deleted message via its SQLite FTS shadow-table copy only works when the target application's database uses FTS-indexed tables in the first place and when its delete-message implementation happens to leave the shadow-table copy untouched; an application that does not use FTS for that data, or whose delete logic also clears the shadow table, offers no equivalent recovery path through this technique.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1204
+  - LWM-1204
 source_refs:
-  - DFCite-1217
+  - LWCite-1217
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who assumes this recovery path will generalize to any chat or me
 
 ## References
 
-- [DFCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.
+- [LWCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.

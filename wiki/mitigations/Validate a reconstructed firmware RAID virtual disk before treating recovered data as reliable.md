@@ -1,9 +1,9 @@
 ---
-id: DFM-1167
+id: LWM-1167
 type: mitigation
 name: Validate a reconstructed firmware RAID virtual disk before treating recovered data as reliable
 source_refs:
-  - DFCite-1168
+  - LWCite-1168
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Where possible, prefer parameters recovered directly from metadata (as is genera
 
 ## References
 
-- [DFCite-1168] Yun et al., 2025, "Digital forensic approaches to Intel and AMD firmware RAID systems", FSI: Digital Investigation 54, 301971.
+- [LWCite-1168] Yun et al., 2025, "Digital forensic approaches to Intel and AMD firmware RAID systems", FSI: Digital Investigation 54, 301971.

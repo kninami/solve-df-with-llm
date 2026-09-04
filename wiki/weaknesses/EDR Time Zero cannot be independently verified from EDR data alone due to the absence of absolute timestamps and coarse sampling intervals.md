@@ -1,5 +1,5 @@
 ---
-id: DFW-1259
+id: LWW-1259
 type: weakness
 name: EDR Time Zero cannot be independently verified from EDR data alone due to the absence of absolute timestamps and coarse sampling intervals
 description: An Event Data Recorder does not record an absolute timestamp for when it began capturing pre-crash data, and its 0.5-1.0 s sampling interval limits temporal resolution, so an examiner working from EDR data alone cannot independently confirm the recording's true alignment to the actual collision moment, particularly in multi-collision scenarios where misalignment can reorder events.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1260
+  - LWM-1260
 source_refs:
-  - DFCite-1277
+  - LWCite-1277
 updated_at: 2026-08-14
 status: complete
 ---
@@ -34,4 +34,4 @@ Courts and investigators in disputed-cause accident cases (e.g. suspected sudden
 
 ## References
 
-- [DFCite-1277] Choi, Park and Kong, 2026, "Integrated validation framework for EDR data reliability: Application to Korean traffic accident cases", FSI: Digital Investigation 56, 302071.
+- [LWCite-1277] Choi, Park and Kong, 2026, "Integrated validation framework for EDR data reliability: Application to Korean traffic accident cases", FSI: Digital Investigation 56, 302071.

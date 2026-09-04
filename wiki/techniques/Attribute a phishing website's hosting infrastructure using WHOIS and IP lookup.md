@@ -1,16 +1,16 @@
 ---
-id: DFT-2062
+id: LWT-2062
 type: technique
 name: Attribute a phishing website's hosting infrastructure using WHOIS and IP lookup
 description: Resolve a suspect phishing website's domain to its hosting IP address, then query a WHOIS/IP-intelligence service for that IP's registrant, network, and abuse-contact information, as a step toward reaching whoever operates or controls the infrastructure behind the phishing attack.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-2062
+  - LWW-2062
 aliases:
   - Domain/IP WHOIS attribution of phishing infrastructure
 source_refs:
-  - DFCite-2064
+  - LWCite-2064
 updated_at: 2026-08-15
 status: complete
 ---
@@ -39,4 +39,4 @@ Determining the internet subscriber to whom a suspicious IP is assigned is one o
 
 ## References
 
-- [DFCite-2064] Kara, 2021, "Don't Bite the Bait: Phishing Attack for Internet Banking (E-Banking)", JDFSL 16(5). Describes resolving the suspect phishing domain to its hosting IP and querying it via a WHOIS/IP-intelligence lookup service as the method used to reach information "thought to belong to the attacker."
+- [LWCite-2064] Kara, 2021, "Don't Bite the Bait: Phishing Attack for Internet Banking (E-Banking)", JDFSL 16(5). Describes resolving the suspect phishing domain to its hosting IP and querying it via a WHOIS/IP-intelligence lookup service as the method used to reach information "thought to belong to the attacker."

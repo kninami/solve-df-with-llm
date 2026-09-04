@@ -1,5 +1,5 @@
 ---
-id: DFW-1152
+id: LWW-1152
 type: weakness
 name: CNN-RNN video classifiers produce overconfident, poorly calibrated scores on out-of-distribution content
 description: CNN feature-extractor-plus-recurrent video classifiers trained on one distribution of manipulated or pornographic content generalize poorly to previously unseen manipulation methods or out-of-distribution examples, and their classification confidence scores shift toward overconfident, miscalibrated values rather than degrading gracefully, so the training-time classification threshold (typically 0.5) no longer separates classes correctly on out-of-sample data.
@@ -7,10 +7,10 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1152
+  - LWM-1152
 source_refs:
-  - DFCite-1151
-  - DFCite-1156
+  - LWCite-1151
+  - LWCite-1156
 updated_at: 2026-08-12
 status: complete
 ---
@@ -35,5 +35,5 @@ An investigator who deploys a CNN-RNN video classifier trained on a known manipu
 
 ## References
 
-- [DFCite-1151] Chamot et al., 2022, "Deepfake forensics: Cross-manipulation robustness of feedforward- and recurrent convolutional forgery detection methods", FSI: Digital Investigation 40.
-- [DFCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.
+- [LWCite-1151] Chamot et al., 2022, "Deepfake forensics: Cross-manipulation robustness of feedforward- and recurrent convolutional forgery detection methods", FSI: Digital Investigation 40.
+- [LWCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.

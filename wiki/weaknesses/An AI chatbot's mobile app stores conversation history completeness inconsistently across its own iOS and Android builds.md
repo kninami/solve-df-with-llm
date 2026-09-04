@@ -1,14 +1,14 @@
 ---
-id: DFW-2110
+id: LWW-2110
 type: weakness
 name: An AI chatbot's mobile app stores conversation history completeness inconsistently across its own iOS and Android builds
 description: The same AI chatbot vendor's mobile application can retain drastically different amounts of local conversation content between its iOS and Android builds -- one platform's build may cache full conversation content locally while the other retains essentially none, relying instead on server-side/session state -- so an investigator's expected evidence yield from local extraction depends heavily on which specific platform the target device runs, not only on which app is installed.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2111
+  - LWM-2111
 source_refs:
-  - DFCite-2129
+  - LWCite-2129
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who examines an Android device running an AI chatbot app, finds 
 
 ## References
 
-- [DFCite-2129] "Uncovering digital traces of DeepSeek: Cross-platform mobile and network forensics", FSI: Digital Investigation 48, 2024.
+- [LWCite-2129] "Uncovering digital traces of DeepSeek: Cross-platform mobile and network forensics", FSI: Digital Investigation 48, 2024.

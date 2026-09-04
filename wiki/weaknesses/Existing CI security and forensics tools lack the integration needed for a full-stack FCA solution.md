@@ -1,14 +1,14 @@
 ---
-id: DFW-2010
+id: LWW-2010
 type: weakness
 name: Existing CI security and forensics tools lack the integration needed for a full-stack FCA solution
 description: Most currently available security, forensics, and compliance-auditing tools for critical infrastructure do not embrace open standards for chain of custody or plug-and-play interoperability, so an organization assembling a converged FCA platform is left with fragmented tools that cannot be readily combined into a complete, coherent evidence pipeline.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2010
+  - LWM-2010
 source_refs:
-  - DFCite-2010
+  - LWCite-2010
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An organization that adopts a converged FCA reference architecture but relies on
 
 ## References
 
-- [DFCite-2010] Henriques et al., 2024 — Section VIII.B ("Open Issues") explicitly identifies the lack of full-stack FCA tool integration, open standards adoption, and chain-of-custody interoperability as a key finding of the survey.
+- [LWCite-2010] Henriques et al., 2024 — Section VIII.B ("Open Issues") explicitly identifies the lack of full-stack FCA tool integration, open standards adoption, and chain-of-custody interoperability as a key finding of the survey.

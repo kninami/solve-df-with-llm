@@ -1,9 +1,9 @@
 ---
-id: DFM-1073
+id: LWM-1073
 type: mitigation
 name: Heuristically check for essential file-system structural data at unexpected fixed positions to flag possible ambiguous partitions
 source_refs:
-  - DFCite-1063
+  - LWCite-1063
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ In addition to a tool's normal single-file-system identification, run a secondar
 
 ## References
 
-- [DFCite-1063] Schneider et al., 2022, "Ambiguous file system partitions", FSI: Digital Investigation 42.
+- [LWCite-1063] Schneider et al., 2022, "Ambiguous file system partitions", FSI: Digital Investigation 42.

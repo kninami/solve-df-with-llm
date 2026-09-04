@@ -1,9 +1,9 @@
 ---
-id: DFM-1019
+id: LWM-1019
 type: mitigation
 name: Cross-validate provider-reported location data against independent corroborating evidence
 source_refs:
-  - DFCite-1013
+  - LWCite-1013
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Determine whether the specific provider in question records vehicle-side GPS ind
 
 ## References
 
-- [DFCite-1013] Hilgert et al., 2021, "A forensic analysis of micromobility solutions", FSI: Digital Investigation 38.
+- [LWCite-1013] Hilgert et al., 2021, "A forensic analysis of micromobility solutions", FSI: Digital Investigation 38.

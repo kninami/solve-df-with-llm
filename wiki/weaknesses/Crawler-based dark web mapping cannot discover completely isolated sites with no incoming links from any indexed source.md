@@ -1,14 +1,14 @@
 ---
-id: DFW-2115
+id: LWW-2115
 type: weakness
 name: Crawler-based dark web mapping cannot discover completely isolated sites with no incoming links from any indexed source
 description: Every dark web crawling strategy -- seed-node expansion, dark web search engine querying, and surface web search engine querying -- depends on discovering a target site through some existing link or index entry, so a dark web site with no incoming hyperlinks from any crawled or indexed page, and not indexed by any queried search engine, remains structurally undiscoverable regardless of how many complementary crawler types are combined.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2116
+  - LWM-2116
 source_refs:
-  - DFCite-2135
+  - LWCite-2135
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on crawler-derived intelligence to conclude that a compr
 
 ## References
 
-- [DFCite-2135] Li, Zhang, Yan, Gao, Yin, and Gu, 2026, "Unveiling the mysteries of the dark web: A comprehensive graph-based multi-view analysis", FSI: Digital Investigation 57, 302105.
+- [LWCite-2135] Li, Zhang, Yan, Gao, Yin, and Gu, 2026, "Unveiling the mysteries of the dark web: A comprehensive graph-based multi-view analysis", FSI: Digital Investigation 57, 302105.

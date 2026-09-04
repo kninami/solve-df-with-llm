@@ -1,5 +1,5 @@
 ---
-id: DFW-1266
+id: LWW-1266
 type: weakness
 name: Scene classifiers trained on public datasets show a large domain gap and degrade sharply on real CSAM
 description: An indoor scene classifier's accuracy on public benchmark datasets does not predict its accuracy on real child sexual abuse material, because CSAM systematically differs from staged public scene photography in ways the model was never exposed to during training — most significantly, the near-universal presence of a child in the frame, which public scene datasets rarely depict.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1267
+  - LWM-1267
 source_refs:
-  - DFCite-1292
+  - LWCite-1292
 updated_at: 2026-08-14
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator or tool developer who evaluates a scene classifier's suitability
 
 ## References
 
-- [DFCite-1292] Valois, Macedo, Ribeiro, dos Santos and Avila, 2025, "Leveraging self-supervised learning for scene classification in child sexual abuse imagery", FSI: Digital Investigation 53, 301918.
+- [LWCite-1292] Valois, Macedo, Ribeiro, dos Santos and Avila, 2025, "Leveraging self-supervised learning for scene classification in child sexual abuse imagery", FSI: Digital Investigation 53, 301918.

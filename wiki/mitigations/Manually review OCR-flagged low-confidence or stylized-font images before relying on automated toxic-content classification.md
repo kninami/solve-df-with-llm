@@ -1,9 +1,9 @@
 ---
-id: DFM-2118
+id: LWM-2118
 type: mitigation
 name: Manually review OCR-flagged low-confidence or stylized-font images before relying on automated toxic-content classification
 source_refs:
-  - DFCite-2137
+  - LWCite-2137
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Where the OCR engine reports a per-character or per-word confidence score, flag 
 
 ## References
 
-- [DFCite-2137] "Using deep learning to detect social media 'trolls'", FSI: Digital Investigation 48, 2024.
+- [LWCite-2137] "Using deep learning to detect social media 'trolls'", FSI: Digital Investigation 48, 2024.

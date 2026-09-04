@@ -1,14 +1,14 @@
 ---
-id: DFW-1240
+id: LWW-1240
 type: weakness
 name: Categorical statements about smartphone geolocation accuracy are not supported without location-specific field testing
 description: A single, broad claim about how accurate smartphone photo geolocation metadata is (e.g. "accurate to within X meters") is not supported by the evidence, because measured radial error varies by roughly two orders of magnitude depending on the specific location and network conditions at the time a photo was taken, so presenting geolocation accuracy as a fixed, general property risks misrepresenting its reliability for any particular case.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1241
+  - LWM-1241
 source_refs:
-  - DFCite-1255
+  - LWCite-1255
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator, expert witness, or court that treats smartphone photo geolocati
 
 ## References
 
-- [DFCite-1255] Ryser et al., 2024, "Geotagging accuracy in smartphone photography", FSI: Digital Investigation 50, 301813.
+- [LWCite-1255] Ryser et al., 2024, "Geotagging accuracy in smartphone photography", FSI: Digital Investigation 50, 301813.

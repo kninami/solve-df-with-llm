@@ -1,9 +1,9 @@
 ---
-id: DFM-2048
+id: LWM-2048
 type: mitigation
 name: Use Byzantine-resilient threshold aggregation instead of plain weighted averaging in federated deepfake detection
 source_refs:
-  - DFCite-2049
+  - LWCite-2049
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Before deploying this class of federated deepfake-detection scheme across mutual
 
 ## References
 
-- [DFCite-2049] Al-Fehani et al., 2026 — Section IV.E explicitly identifies coordinate-wise median or trimmed-mean aggregation, drawn from Byzantine-resilient federated learning literature, as a compatible fix that "can be incorporated into TFD without altering the model architecture or local training process."
+- [LWCite-2049] Al-Fehani et al., 2026 — Section IV.E explicitly identifies coordinate-wise median or trimmed-mean aggregation, drawn from Byzantine-resilient federated learning literature, as a compatible fix that "can be incorporated into TFD without altering the model architecture or local training process."

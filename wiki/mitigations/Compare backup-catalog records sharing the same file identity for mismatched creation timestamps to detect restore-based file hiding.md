@@ -1,9 +1,9 @@
 ---
-id: DFM-1221
+id: LWM-1221
 type: mitigation
 name: Compare backup-catalog records sharing the same file identity for mismatched creation timestamps to detect restore-based file hiding
 source_refs:
-  - DFCite-1233
+  - LWCite-1233
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Parse `Catalog.edb`'s `namespace` table and group records by their `childId`/`pa
 
 ## References
 
-- [DFCite-1233] Choi, Park and Lee, 2021, "Forensic exploration on windows File History", FSI: Digital Investigation 36, 301134.
+- [LWCite-1233] Choi, Park and Lee, 2021, "Forensic exploration on windows File History", FSI: Digital Investigation 36, 301134.

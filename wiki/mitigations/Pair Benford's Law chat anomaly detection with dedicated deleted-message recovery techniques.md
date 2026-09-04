@@ -1,9 +1,9 @@
 ---
-id: DFM-1097
+id: LWM-1097
 type: mitigation
 name: Pair Benford's Law chat anomaly detection with dedicated deleted-message recovery techniques
 source_refs:
-  - DFCite-1090
+  - LWCite-1090
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ When a chat's authenticity or completeness is at issue, run Benford's-Law-based 
 
 ## References
 
-- [DFCite-1090] Mahindra and Karabiyik, 2026, "Benford's Law as a Forensic Tool for Identifying Anomalous Chat Behavior in Instant Messaging", IEEE SmartNets 2026.
+- [LWCite-1090] Mahindra and Karabiyik, 2026, "Benford's Law as a Forensic Tool for Identifying Anomalous Chat Behavior in Instant Messaging", IEEE SmartNets 2026.

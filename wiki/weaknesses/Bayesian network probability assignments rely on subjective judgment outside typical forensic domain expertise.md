@@ -1,14 +1,14 @@
 ---
-id: DFW-1187
+id: LWW-1187
 type: weakness
 name: Bayesian network probability assignments rely on subjective judgment outside typical forensic domain expertise
 description: Every node in a Bayesian network evidence-evaluation model requires a conditional probability table populated with numeric values, but assigning those values often calls for judgments (e.g. how likely an unrelated remote party is to exist at all) that fall outside a digital forensic expert's own domain knowledge, and there is no single objectively correct network structure or set of assignments for a given case.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1187
+  - LWM-1187
 source_refs:
-  - DFCite-1190
+  - LWCite-1190
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ A likelihood ratio derived from a Bayesian network can look like a precise, obje
 
 ## References
 
-- [DFCite-1190] Vink et al., 2025, "Evaluating digital forensic findings in Trojan horse defense cases using Bayesian networks", FSI: Digital Investigation 55, 302023.
+- [LWCite-1190] Vink et al., 2025, "Evaluating digital forensic findings in Trojan horse defense cases using Bayesian networks", FSI: Digital Investigation 55, 302023.

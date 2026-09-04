@@ -1,16 +1,16 @@
 ---
-id: DFT-1301
+id: LWT-1301
 type: technique
 name: Identify a smartphone photo's source camera using multi-patch PRNU sampling
 description: Attribute a smartphone photo to its source camera despite the photo-response non-uniformity (PRNU) sensor "fingerprint" being unstable in smartphone imagery — due to heavy in-pipeline processing (beautification, filtering), lighting/scene-complexity sensitivity, and the diversity of smartphone imaging pipelines — by extracting multiple PRNU-carrying patches from different regions of a single examined image to simulate a set of homologous same-source images, then combining them via machine learning into an automated, threshold-free source-attribution decision.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1312
+  - LWW-1312
 aliases:
   - Multivariate PRNU sampling for smartphone source attribution
 source_refs:
-  - DFCite-1353
+  - LWCite-1353
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ PRNU features are extracted using two independent noise-extractor types to verif
 
 ## References
 
-- [DFCite-1353] Liang, Gao, and Xu, 2025, "Research on smartphone image source identification based on PRNU features collected multivariate sampling strategy", FSI: Digital Investigation 54, 301991.
+- [LWCite-1353] Liang, Gao, and Xu, 2025, "Research on smartphone image source identification based on PRNU features collected multivariate sampling strategy", FSI: Digital Investigation 54, 301991.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1272
+id: LWW-1272
 type: weakness
 name: Automated dark web identifier extraction misses obfuscated, image-embedded, or non-standard-format identification forms
 description: Automated text-pattern-based extraction of dark web identification forms (email addresses, Telegram usernames, wallet addresses) cannot recognize identifiers that are embedded as images rather than text, encoded in non-standard formats, or deliberately obfuscated using known techniques such as two-layered ID encoding, causing a systematic undercount of an onion service's true set of external communication channels.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1273
+  - LWM-1273
 source_refs:
-  - DFCite-1300
+  - LWCite-1300
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on a network-analysis-derived hub ranking or connectivit
 
 ## References
 
-- [DFCite-1300] de-Marcos, Domínguez-Díaz and Stapic, 2026, "Mapping the Tor darkmarket ecosystem: A network analysis of topics, communication channels, and languages", FSI: Digital Investigation 56, 302032.
+- [LWCite-1300] de-Marcos, Domínguez-Díaz and Stapic, 2026, "Mapping the Tor darkmarket ecosystem: A network analysis of topics, communication channels, and languages", FSI: Digital Investigation 56, 302032.

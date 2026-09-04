@@ -1,17 +1,17 @@
 ---
-id: DFT-1224
+id: LWT-1224
 type: technique
 name: Harvest public social media location data using a reverse-engineered internal API
 description: Reverse-engineer the internal (non-public) API a social network's web-based map feature uses — by inspecting browser developer-tools network traffic for the POST request and JSON response objects backing a public, location-based content map — to programmatically enumerate and download all publicly-uploaded geotagged photos and videos at a location, turning the platform into a de facto distributed surveillance system supplementing traditional CCTV.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1241
+  - LWW-1241
 aliases:
   - Snap Map exploitation for open-source surveillance
   - Distributed surveillance via social network map scraping
 source_refs:
-  - DFCite-1256
+  - LWCite-1256
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ Using a browser's developer tools (or an intercepting proxy) while manually pann
 
 ## References
 
-- [DFCite-1256] Matthews et al., 2021, "Ghost protocol -- Snapchat as a method of surveillance", FSI: Digital Investigation 36, 301112.
+- [LWCite-1256] Matthews et al., 2021, "Ghost protocol -- Snapchat as a method of surveillance", FSI: Digital Investigation 36, 301112.

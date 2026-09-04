@@ -1,16 +1,16 @@
 ---
-id: DFT-1255
+id: LWT-1255
 type: technique
 name: Validate RAM acquisition tool accuracy and memory footprint using a journaled ground-truth CPU simulator
 description: Measure a live-data-forensics (RAM acquisition) tool's correctness and memory footprint by running it against a simulated CPU/RAM environment that journals every memory write (instruction, address, value, and clock cycle) as it happens, so the true contents of RAM at any point in simulated time can be reconstructed and compared byte-for-byte against the tool's actual acquired dump.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1268
+  - LWW-1268
 aliases:
   - LDF tool testbed proof of concept
 source_refs:
-  - DFCite-1295
+  - LWCite-1295
 updated_at: 2026-08-14
 status: complete
 ---
@@ -40,4 +40,4 @@ A simulated CPU executes an extended instruction set architecture that adds a se
 
 ## References
 
-- [DFCite-1295] Bergum, Toolan, Stephens and Humphries, 2025, "Live data forensic tool testbed: Proof of concept", FSI: Digital Investigation 54, 301973.
+- [LWCite-1295] Bergum, Toolan, Stephens and Humphries, 2025, "Live data forensic tool testbed: Proof of concept", FSI: Digital Investigation 54, 301973.

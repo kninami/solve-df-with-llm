@@ -1,16 +1,16 @@
 ---
-id: DFT-1043
+id: LWT-1043
 type: technique
 name: Detect adversarial classifier evasion using a mutated cross-model ensemble
 description: Detect adversarial examples crafted to evade a machine-learning malware classifier (e.g., a malicious-PDF detector) by generating a large group of "mutated" classifiers with varied hyperparameters and even different algorithm families from an original well-performing model, then flagging an input as adversarial when its prediction is inconsistent across a disproportionate fraction of the mutated group (a high Prediction Inversion Rate), since genuinely benign inputs sit far from decision boundaries and predict consistently while adversarial examples cluster near boundaries and flip predictions easily under small model perturbations.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1044
+  - LWW-1044
 aliases:
   - Mutated cross-model ensemble detection of adversarial classifier evasion
 source_refs:
-  - DFCite-1034
+  - LWCite-1034
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ Starting from an original well-performing model (e.g., an SVM), a group of "muta
 
 ## References
 
-- [DFCite-1034] Liu et al., 2021, "A novel adversarial example detection method for malicious PDFs using multiple mutated classifiers", FSI: Digital Investigation 38.
+- [LWCite-1034] Liu et al., 2021, "A novel adversarial example detection method for malicious PDFs using multiple mutated classifiers", FSI: Digital Investigation 38.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1299
+id: LWM-1299
 type: mitigation
 name: Select or fine-tune a password-recognition model using training data representative of the specific device and case context
 source_refs:
-  - DFCite-1330
+  - LWCite-1330
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Before applying [[techniques/Rank extracted text strings by password likelihood 
 
 ## References
 
-- [DFCite-1330] van Dijk, van de Wetering, Argentini, Gorka, van Luenen, Minnema, Rijgersberg, Ugen, Mann, and Geradts, 2025, "PaSSw0rdVib3s!: AI-assisted password recognition for digital forensic investigations", FSI: Digital Investigation 52, 301870.
+- [LWCite-1330] van Dijk, van de Wetering, Argentini, Gorka, van Luenen, Minnema, Rijgersberg, Ugen, Mann, and Geradts, 2025, "PaSSw0rdVib3s!: AI-assisted password recognition for digital forensic investigations", FSI: Digital Investigation 52, 301870.

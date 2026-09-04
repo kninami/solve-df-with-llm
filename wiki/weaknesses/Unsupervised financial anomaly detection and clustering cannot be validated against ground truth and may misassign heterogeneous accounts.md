@@ -1,5 +1,5 @@
 ---
-id: DFW-1129
+id: LWW-1129
 type: weakness
 name: Unsupervised financial anomaly detection and clustering cannot be validated against ground truth and may misassign heterogeneous accounts
 description: Without a prior legitimate/illicit classification of transactions, unsupervised complex-network anomaly detection and K-means clustering results cannot be measured against conventional false-positive, false-negative, precision, recall, or F1-score metrics, and mean-based clustering can group accounts with genuinely different behavior into the same cluster.
@@ -7,10 +7,10 @@ categories:
   - ASTM_MISINT
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1129
+  - LWM-1129
 source_refs:
-  - DFCite-1125
-  - DFCite-1158
+  - LWCite-1125
+  - LWCite-1158
 updated_at: 2026-08-12
 status: complete
 ---
@@ -37,5 +37,5 @@ An investigator relying on this technique's anomaly flags or cluster assignments
 
 ## References
 
-- [DFCite-1125] Oliveira et al., 2025, "Complex networks-based anomaly detection for financial transactions in anti-money laundering", FSI: Digital Investigation 55, 302005.
-- [DFCite-1158] Song, 2026, "Detection and prediction of transactional anomalies in blockchain based accounting using mining behavior with Autoencoder-LSTM", FSI: Digital Investigation 58.
+- [LWCite-1125] Oliveira et al., 2025, "Complex networks-based anomaly detection for financial transactions in anti-money laundering", FSI: Digital Investigation 55, 302005.
+- [LWCite-1158] Song, 2026, "Detection and prediction of transactional anomalies in blockchain based accounting using mining behavior with Autoencoder-LSTM", FSI: Digital Investigation 58.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1080
+id: LWW-1080
 type: weakness
 name: IoT interconnectivity identification finds no relationship when the connected service retains no interconnection traces
 description: The Identification of Interconnectivity phase can only reveal a relationship between two IoT services or devices if at least one of them retained an artifact recording the interconnection; if a service was used through an interconnection with other services but its own application or account data does not properly store any trace of that connection, the phase will fail to reveal the relationship even though the interconnection genuinely occurred.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1080
+  - LWM-1080
 source_refs:
-  - DFCite-1070
+  - LWCite-1070
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on the interconnectivity-identification phase to map out
 
 ## References
 
-- [DFCite-1070] Kim et al., 2022, "An improved IoT forensic model to identify interconnectivity between things", FSI: Digital Investigation 44.
+- [LWCite-1070] Kim et al., 2022, "An improved IoT forensic model to identify interconnectivity between things", FSI: Digital Investigation 44.

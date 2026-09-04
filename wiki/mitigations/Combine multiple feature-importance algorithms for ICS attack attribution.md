@@ -1,9 +1,9 @@
 ---
-id: DFM-1002
+id: LWM-1002
 type: mitigation
 name: Combine multiple feature-importance algorithms for ICS attack attribution
 source_refs:
-  - DFCite-1001
+  - LWCite-1001
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Run each candidate attribution algorithm independently on the residual reconstru
 
 ## References
 
-- [DFCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.
+- [LWCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.

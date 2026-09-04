@@ -1,15 +1,15 @@
 ---
-id: DFT-1006
+id: LWT-1006
 type: technique
 name: Recover deleted SQLite records
 description: Recover deleted records from an SQLite database using one of three complementary approaches — metadata-based (freeblock/freelist pointer traversal), carving-based (residual cell structure scanning), or WAL-based (write-ahead log frame parsing) — each trading off coverage, throughput, and resilience to overwriting differently.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1006
-  - DFW-1007
-  - DFW-1008
-  - DFW-1314
+  - LWW-1006
+  - LWW-1007
+  - LWW-1008
+  - LWW-1314
 aliases:
   - SQLite deleted record recovery
   - metadata-based SQLite recovery
@@ -17,10 +17,10 @@ aliases:
   - carving-based SQLite recovery
   - WAL-based SQLite recovery
 source_refs:
-  - DFCite-1004
-  - DFCite-1231
-  - DFCite-1268
-  - DFCite-1354
+  - LWCite-1004
+  - LWCite-1231
+  - LWCite-1268
+  - LWCite-1354
 updated_at: 2026-08-15
 status: complete
 ---
@@ -61,7 +61,7 @@ SQLite does not erase deleted data immediately; depending on the deletion path a
 
 ## References
 
-- [DFCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.
-- [DFCite-1231] Marques, Domingues, Frade and Negrão, 2026, "Forensic analysis of the infotainment system of BMW vehicles", FSI: Digital Investigation 56, 302066. Demonstrates Undark-based freeblock/freelist recovery applied to SQLite database files that were themselves recovered via unallocated-space file carving, recovering several times more messages and entire call-log record sets absent from the carved files' visible tables.
-- [DFCite-1268] Wu, Breitinger and Baggili, 2026, "I know where you have been last summer: Extracting privacy-sensitive information via forensic analysis of the Mercedes-Benz NTG5/2 infotainment system", FSI: Digital Investigation 56, 302068. Introduces NTGCarver, a schema-aware freelist-scanning tool that outperforms generic SQLite recovery tools on a table with a known record layout.
-- [DFCite-1354] Vasilaras, Dosis, Kotsis, and Rizomiliotis, 2022, "Retrieving deleted records from Telegram", FSI: Digital Investigation 43, 301447. First systematic study of Telegram deleted chat/media record retrieval, documenting the app's default WAL/no-Auto-Vacuum/no-Secure-Delete configuration and testing recoverability across elapsed time, device power state, and interaction-type conditions.
+- [LWCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.
+- [LWCite-1231] Marques, Domingues, Frade and Negrão, 2026, "Forensic analysis of the infotainment system of BMW vehicles", FSI: Digital Investigation 56, 302066. Demonstrates Undark-based freeblock/freelist recovery applied to SQLite database files that were themselves recovered via unallocated-space file carving, recovering several times more messages and entire call-log record sets absent from the carved files' visible tables.
+- [LWCite-1268] Wu, Breitinger and Baggili, 2026, "I know where you have been last summer: Extracting privacy-sensitive information via forensic analysis of the Mercedes-Benz NTG5/2 infotainment system", FSI: Digital Investigation 56, 302068. Introduces NTGCarver, a schema-aware freelist-scanning tool that outperforms generic SQLite recovery tools on a table with a known record layout.
+- [LWCite-1354] Vasilaras, Dosis, Kotsis, and Rizomiliotis, 2022, "Retrieving deleted records from Telegram", FSI: Digital Investigation 43, 301447. First systematic study of Telegram deleted chat/media record retrieval, documenting the app's default WAL/no-Auto-Vacuum/no-Secure-Delete configuration and testing recoverability across elapsed time, device power state, and interaction-type conditions.

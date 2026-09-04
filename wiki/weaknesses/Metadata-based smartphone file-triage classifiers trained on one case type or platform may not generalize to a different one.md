@@ -1,5 +1,5 @@
 ---
-id: DFW-1270
+id: LWW-1270
 type: weakness
 name: Metadata-based smartphone file-triage classifiers trained on one case type or platform may not generalize to a different one
 description: A file-metadata triage classifier's notion of "interesting" is learned entirely from the specific case type, crime category, and mobile operating system its training data was drawn from, so applying a model trained on one combination (e.g. terrorism cases on Android) to a materially different one (a different crime type, or an iOS device) is not validated by the model's own reported performance figures.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1271
+  - LWM-1271
 source_refs:
-  - DFCite-1298
+  - LWCite-1298
 updated_at: 2026-08-14
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator who applies a metadata-triage classifier trained on one case typ
 
 ## References
 
-- [DFCite-1298] Serhal and Le-Khac, 2021, "Machine learning based approach to analyze file meta data for smart phone file triage", DFRWS 2021 USA; FSI: Digital Investigation 37, 301194.
+- [LWCite-1298] Serhal and Le-Khac, 2021, "Machine learning based approach to analyze file meta data for smart phone file triage", DFRWS 2021 USA; FSI: Digital Investigation 37, 301194.

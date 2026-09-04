@@ -1,17 +1,17 @@
 ---
-id: DFW-1158
+id: LWW-1158
 type: weakness
 name: Platform-protected app database decryption fails without access to the original device's account key material
 description: An app that protects its local database encryption key using the host OS's own key-protection API (Windows DPAPI, Apple Keychain, Android KeyStore) can only have that key automatically unprotected within the same environment and user/device account it was created under, so fully-automated decryption cannot be used on a disk image or extracted files examined outside that original environment unless the underlying key is separately, manually extracted first.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1158
+  - LWM-1158
 aliases:
   - DPAPI-based Signal Desktop decryption fails without access to the original Windows user's key material
 source_refs:
-  - DFCite-1150
-  - DFCite-1217
+  - LWCite-1150
+  - LWCite-1217
 updated_at: 2026-08-13
 status: complete
 ---
@@ -37,5 +37,5 @@ An investigator who only has a static disk image or exported application data di
 
 ## References
 
-- [DFCite-1150] Paulino et al., 2025, "Decrypting messages: Extracting digital evidence from signal desktop for windows", FSI: Digital Investigation 54.
-- [DFCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.
+- [LWCite-1150] Paulino et al., 2025, "Decrypting messages: Extracting digital evidence from signal desktop for windows", FSI: Digital Investigation 54.
+- [LWCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.

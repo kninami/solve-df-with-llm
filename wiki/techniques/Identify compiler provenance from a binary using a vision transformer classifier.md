@@ -1,17 +1,17 @@
 ---
-id: DFT-1124
+id: LWT-1124
 type: technique
 name: Identify compiler provenance from a binary using a vision transformer classifier
 description: Convert a program binary's raw bytes into an image and classify it with a pre-trained vision-transformer or CNN model to determine its compiler family and optimization level, supporting malware authorship attribution and reverse engineering without handcrafted features.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1128
+  - LWW-1128
 aliases:
   - Vision-transformer compiler-provenance identification
   - Image-based binary compiler and optimization-level classification
 source_refs:
-  - DFCite-1124
+  - LWCite-1124
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ Binaries from the BinKit dataset (including Obfuscator-LLVM-obfuscated variants 
 
 ## References
 
-- [DFCite-1124] Khan et al., 2024, "Compiler-provenance identification in obfuscated binaries using vision transformers", FSI: Digital Investigation 49, 301764.
+- [LWCite-1124] Khan et al., 2024, "Compiler-provenance identification in obfuscated binaries using vision transformers", FSI: Digital Investigation 49, 301764.

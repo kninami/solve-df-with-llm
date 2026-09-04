@@ -1,16 +1,16 @@
 ---
-id: DFT-1242
+id: LWT-1242
 type: technique
 name: Extract and interpret geolocation and time-zone data from the Apple Health database
 description: Query the Apple Health database (healthdb_secure.sqlite) directly with SQLite joins across its samples, workouts, metadata, and data_provenances tables to recover workout-associated geolocation coordinates and device time-zone transitions, reconstructing a person's local and international movement history even when no other location source is available.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1260
+  - LWW-1260
 aliases:
   - Apple Health workout geolocation and time-zone reconstruction
 source_refs:
-  - DFCite-1279
+  - LWCite-1279
 updated_at: 2026-08-14
 status: complete
 ---
@@ -40,4 +40,4 @@ Before iOS 16, coordinate data is reachable only indirectly: each workout's weat
 
 ## References
 
-- [DFCite-1279] Jennings, Sorell and Espinosa, 2023, "Interpreting the location data extracted from the Apple Health database", DFRWS 2023 EU; FSI: Digital Investigation 44, 301504.
+- [LWCite-1279] Jennings, Sorell and Espinosa, 2023, "Interpreting the location data extracted from the Apple Health database", DFRWS 2023 EU; FSI: Digital Investigation 44, 301504.

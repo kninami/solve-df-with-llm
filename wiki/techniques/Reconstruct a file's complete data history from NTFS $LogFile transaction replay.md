@@ -1,17 +1,17 @@
 ---
-id: DFT-1278
+id: LWT-1278
 type: technique
 name: Reconstruct a file's complete data history from NTFS $LogFile transaction replay
 description: Recover the complete history of every modification made to an NTFS file's data — not just its final state — by replaying the file's own subset of $LogFile transaction records against a per-file virtual MFT entry, recovering the data-run locations, resident data content, and timestamp of the file at each point in time from its creation to its deletion.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1288
+  - LWW-1288
 aliases:
   - Simulation of MFT Transaction (SMT)
   - NTFS Data Tracker
 source_refs:
-  - DFCite-1319
+  - LWCite-1319
 updated_at: 2026-08-15
 status: complete
 ---
@@ -41,4 +41,4 @@ Each $LogFile record's combined `Target LCN` + `MFT Cluster Index` value identif
 
 ## References
 
-- [DFCite-1319] Oh, Lee, and Hwang, 2021, "NTFS Data Tracker: Tracking file data history based on $LogFile", FSI: Digital Investigation 39, 301309.
+- [LWCite-1319] Oh, Lee, and Hwang, 2021, "NTFS Data Tracker: Tracking file data history based on $LogFile", FSI: Digital Investigation 39, 301309.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2103
+id: LWM-2103
 type: mitigation
 name: Apply LIME and SHAP explainability tools to verify a forensic AI classifier relies on evidentially meaningful features before deployment
 source_refs:
-  - DFCite-2119
+  - LWCite-2119
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Use [[techniques/Generate explainable predictions for a digital-forensic AI clas
 
 ## References
 
-- [DFCite-2119] "Towards a unified XAI-based framework for digital forensic investigations", FSI: Digital Investigation 48, 2024.
+- [LWCite-2119] "Towards a unified XAI-based framework for digital forensic investigations", FSI: Digital Investigation 48, 2024.

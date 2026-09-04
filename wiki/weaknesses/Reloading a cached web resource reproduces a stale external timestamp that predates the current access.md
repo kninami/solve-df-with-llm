@@ -1,14 +1,14 @@
 ---
-id: DFW-2129
+id: LWW-2129
 type: weakness
 name: Reloading a cached web resource reproduces a stale external timestamp that predates the current access
 description: Refreshing a page or reopening a previously visited tab creates a new local access-time record while reusing the external timestamp embedded in the original request, associating an old external time with a new local event and making the pair look like a valid time anchor for the wrong moment.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-2130
+  - LWM-2130
 source_refs:
-  - DFCite-2149
+  - LWCite-2149
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An examiner comparing the local and external timestamps of such a record without
 
 ## References
 
-- [DFCite-2149] Vanini et al., 2024, "Was the clock correct? Exploring timestamp interpretation through time anchors for digital forensic event reconstruction", FSI: Digital Investigation 49.
+- [LWCite-2149] Vanini et al., 2024, "Was the clock correct? Exploring timestamp interpretation through time anchors for digital forensic event reconstruction", FSI: Digital Investigation 49.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1203
+id: LWM-1203
 type: mitigation
 name: Cross-correlate whichever IoT evidence sources remain available when one of device, companion app, or cloud is missing
 source_refs:
-  - DFCite-1216
+  - LWCite-1216
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ At the outset of an investigation involving a smart device, identify and priorit
 
 ## References
 
-- [DFCite-1216] Youn et al., 2021, "Forensic analysis for AI speaker with display Echo Show 2nd generation as a case study", FSI: Digital Investigation 38, 301130.
+- [LWCite-1216] Youn et al., 2021, "Forensic analysis for AI speaker with display Echo Show 2nd generation as a case study", FSI: Digital Investigation 38, 301130.

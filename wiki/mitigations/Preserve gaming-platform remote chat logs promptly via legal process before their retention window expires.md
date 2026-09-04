@@ -1,9 +1,9 @@
 ---
-id: DFM-2132
+id: LWM-2132
 type: mitigation
 name: Preserve gaming-platform remote chat logs promptly via legal process before their retention window expires
 source_refs:
-  - DFCite-2151
+  - LWCite-2151
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify the platform account ID(s) associated with the device early in the exam
 
 ## References
 
-- [DFCite-2151] Eichhorn et al., 2024, "Well Played, Suspect! - Forensic examination of the handheld gaming console 'Steam Deck'", FSI: Digital Investigation 48.
+- [LWCite-2151] Eichhorn et al., 2024, "Well Played, Suspect! - Forensic examination of the handheld gaming console 'Steam Deck'", FSI: Digital Investigation 48.

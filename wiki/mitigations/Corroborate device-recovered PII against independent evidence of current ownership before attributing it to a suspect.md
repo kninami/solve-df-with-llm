@@ -1,9 +1,9 @@
 ---
-id: DFM-2055
+id: LWM-2055
 type: mitigation
 name: Corroborate device-recovered PII against independent evidence of current ownership before attributing it to a suspect
 source_refs:
-  - DFCite-2056
+  - LWCite-2056
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Check for indicators the device may have changed hands: multiple distinct identi
 
 ## References
 
-- [DFCite-2056] Angelopoulou et al., 2022 — several of the study's case examples (Section 6) show clearly dated prior-owner activity (e.g. calls and photos from 2010-2013, or 2015-2018) that a subsequent possessor's own activity could be mistakenly conflated with without careful timeline review.
+- [LWCite-2056] Angelopoulou et al., 2022 — several of the study's case examples (Section 6) show clearly dated prior-owner activity (e.g. calls and photos from 2010-2013, or 2015-2018) that a subsequent possessor's own activity could be mistakenly conflated with without careful timeline review.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1023
+id: LWM-1023
 type: mitigation
 name: Prefer non-destructive ISP extraction and reserve chip-off for when ISP access is unavailable
 source_refs:
-  - DFCite-1016
+  - LWCite-1016
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Inspect and, where necessary, X-ray the target board to determine whether the fl
 
 ## References
 
-- [DFCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.
+- [LWCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.

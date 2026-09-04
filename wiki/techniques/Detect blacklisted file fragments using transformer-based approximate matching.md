@@ -1,17 +1,17 @@
 ---
-id: DFT-1120
+id: LWT-1120
 type: technique
 name: Detect blacklisted file fragments using transformer-based approximate matching
 description: Detect whether a fragment of a blacklisted file (e.g. known malware, or a corporate secret document) is embedded within a much larger candidate file by computing a traditional fuzzy hash (ssdeep or TLSH) of the candidate and classifying that hash with a transformer neural network trained to recognize the blacklisted fragment's presence, improving fragment-detection accuracy over comparing fuzzy hashes directly while keeping the compact, scalable hash representation.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1125
+  - LWW-1125
 aliases:
   - DLAM
   - Deep Learning Approximate Matching
 source_refs:
-  - DFCite-1119
+  - LWCite-1119
 updated_at: 2026-08-12
 status: complete
 ---
@@ -41,4 +41,4 @@ DLAM computes a candidate file's fuzzy hash (ssdeep or TLSH) as a compact interm
 
 ## References
 
-- [DFCite-1119] Uhlig et al., 2023, "Combining AI and AM - Improving approximate matching through transformer networks", FSI: Digital Investigation 45.
+- [LWCite-1119] Uhlig et al., 2023, "Combining AI and AM - Improving approximate matching through transformer networks", FSI: Digital Investigation 45.

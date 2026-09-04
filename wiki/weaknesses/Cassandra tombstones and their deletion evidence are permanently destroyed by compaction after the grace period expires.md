@@ -1,14 +1,14 @@
 ---
-id: DFW-2060
+id: LWW-2060
 type: weakness
 name: Cassandra tombstones and their deletion evidence are permanently destroyed by compaction after the grace period expires
 description: A Cassandra tombstone, and the deletion-timing evidence it carries (marked_deleted/local_delete_time), is only retained for the table's configured grace period (ten days by default); once compaction runs after that period, the tombstone and any recoverable trace of the deletion are permanently removed.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2061
+  - LWM-2061
 source_refs:
-  - DFCite-2061
+  - LWCite-2061
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ Because Cassandra otherwise lacks native recovery of missing or deleted data, th
 
 ## References
 
-- [DFCite-2061] Bohora, Bothe, Sheth, Chopade & Pachghare, 2021, "Backup and Recovery Mechanisms of Cassandra Database: A Review", JDFSL 15(5). States the default ten-day grace period, its per-table configurability via `cassandra.yaml`, and that compaction permanently deletes the tombstone once the grace period expires; also notes Cassandra "lacks data recovery of missing/deleted data" natively.
+- [LWCite-2061] Bohora, Bothe, Sheth, Chopade & Pachghare, 2021, "Backup and Recovery Mechanisms of Cassandra Database: A Review", JDFSL 15(5). States the default ten-day grace period, its per-table configurability via `cassandra.yaml`, and that compaction permanently deletes the tombstone once the grace period expires; also notes Cassandra "lacks data recovery of missing/deleted data" natively.

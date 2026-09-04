@@ -1,9 +1,9 @@
 ---
-id: DFM-2060
+id: LWM-2060
 type: mitigation
 name: Supplement zip-based embedded-picture extraction with manual export or an updated extractor for newer document formats
 source_refs:
-  - DFCite-2059
+  - LWCite-2059
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Before relying on automated extraction results for a document corpus, sample-che
 
 ## References
 
-- [DFCite-2059] Gogia & Rughani, 2023, "An ML Based Digital Forensics Software for Triage Analysis Through Face Recognition", JDFSL, Manuscript 1772. Identifies the MS Office 2019/365 embedded-picture storage change as a known extraction gap and flags it as future-work scope.
+- [LWCite-2059] Gogia & Rughani, 2023, "An ML Based Digital Forensics Software for Triage Analysis Through Face Recognition", JDFSL, Manuscript 1772. Identifies the MS Office 2019/365 embedded-picture storage change as a known extraction gap and flags it as future-work scope.

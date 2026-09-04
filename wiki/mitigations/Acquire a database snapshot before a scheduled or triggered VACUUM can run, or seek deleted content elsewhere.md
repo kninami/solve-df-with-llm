@@ -1,9 +1,9 @@
 ---
-id: DFM-1213
+id: LWM-1213
 type: mitigation
 name: Acquire a database snapshot before a scheduled or triggered VACUUM can run, or seek deleted content elsewhere
 source_refs:
-  - DFCite-1225
+  - LWCite-1225
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Test a candidate application's deletion behavior in a controlled environment bef
 
 ## References
 
-- [DFCite-1225] Akinbi and Ojie, 2021, "Forensic analysis of open-source XMPP multi-client social networking apps on iOS devices", FSI: Digital Investigation 36.
+- [LWCite-1225] Akinbi and Ojie, 2021, "Forensic analysis of open-source XMPP multi-client social networking apps on iOS devices", FSI: Digital Investigation 36.

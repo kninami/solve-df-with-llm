@@ -1,16 +1,16 @@
 ---
-id: DFT-1163
+id: LWT-1163
 type: technique
 name: Classify chat conversations as sexual predatory using supervised machine learning within a digital forensic process model
 description: Train supervised text classifiers (e.g. logistic regression, XGBoost, MLP, BiLSTM) on TF-IDF or embedding features to label chat-log conversations as sexual predatory or non-predatory, mapping each machine-learning step explicitly onto the tasks of a Digital Forensic Process Model so the classification output and its supporting features can be presented as admissible investigative findings.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1169
+  - LWW-1169
 aliases:
   - ML-supported digital forensic process model for online sexual predatory chat detection
 source_refs:
-  - DFCite-1174
+  - LWCite-1174
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ Text is minimally cleaned (HTML character decoding, lemmatization) but not aggre
 
 ## References
 
-- [DFCite-1174] Ngejane et al., 2021, "Digital forensics supported by machine learning for the detection of online sexual predatory chats", FSI: Digital Investigation 36, 301109.
+- [LWCite-1174] Ngejane et al., 2021, "Digital forensics supported by machine learning for the detection of online sexual predatory chats", FSI: Digital Investigation 36, 301109.

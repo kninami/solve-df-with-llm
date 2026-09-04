@@ -1,9 +1,9 @@
 ---
-id: DFM-1306
+id: LWM-1306
 type: mitigation
 name: Tune IoT provenance logging granularity and retention to the device's resource budget
 source_refs:
-  - DFCite-1340
+  - LWCite-1340
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Before deploying [[techniques/Reconstruct IoT network attacks using PROV-based p
 
 ## References
 
-- [DFCite-1340] Sadineni, Pilli, and Battula, 2023, "ProvLink-IoT: A novel provenance model for Link-Layer Forensics in IoT networks", FSI: Digital Investigation 46, 301600.
+- [LWCite-1340] Sadineni, Pilli, and Battula, 2023, "ProvLink-IoT: A novel provenance model for Link-Layer Forensics in IoT networks", FSI: Digital Investigation 46, 301600.

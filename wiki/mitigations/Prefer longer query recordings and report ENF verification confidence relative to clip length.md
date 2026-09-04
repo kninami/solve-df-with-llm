@@ -1,9 +1,9 @@
 ---
-id: DFM-2014
+id: LWM-2014
 type: mitigation
 name: Prefer longer query recordings and report ENF verification confidence relative to clip length
 source_refs:
-  - DFCite-2014
+  - LWCite-2014
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where the available recording is short (under about 6 minutes), qualify any ENF-
 
 ## References
 
-- [DFCite-2014] Yalinkilic and Vatansever, 2024 — the paper's own Table 7 shows combining the segmentation scheme with existing enhancement strategies (RFA, E-MLE) meaningfully raises true-match rates across all tested clip lengths.
+- [LWCite-2014] Yalinkilic and Vatansever, 2024 — the paper's own Table 7 shows combining the segmentation scheme with existing enhancement strategies (RFA, E-MLE) meaningfully raises true-match rates across all tested clip lengths.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1141
+id: LWW-1141
 type: weakness
 name: Dashcam geospatial, temporal, and speed metadata can be forged across a video's watermark and EXIF data
 description: A dashcam recording's geospatial coordinates, timestamp, and speed values, whether burned into the on-screen watermark or embedded as EXIF metadata, are not cryptographically protected, so a technically capable actor can alter them to misrepresent where, when, or how fast a vehicle travelled.
 categories:
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-1141
+  - LWM-1141
 source_refs:
-  - DFCite-1138
+  - LWCite-1138
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who accepts a dashcam recording's watermark or EXIF-derived rout
 
 ## References
 
-- [DFCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.
+- [LWCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.

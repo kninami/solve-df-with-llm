@@ -1,9 +1,9 @@
 ---
-id: DFM-1049
+id: LWM-1049
 type: mitigation
 name: Acquire thumbnail cache and related provenance artefacts early before cache eviction removes them
 source_refs:
-  - DFCite-1039
+  - LWCite-1039
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When a Linux desktop system is seized or imaged, extract and preserve the thumbn
 
 ## References
 
-- [DFCite-1039] Findlay, 2023, "A review of thumbnail images artefacts in the Linux desktop and a methodology to add provenance to deleted files, using the thumbnail images artefact in combination with recent files history, and Trash artefacts", FSI: Digital Investigation 44.
+- [LWCite-1039] Findlay, 2023, "A review of thumbnail images artefacts in the Linux desktop and a methodology to add provenance to deleted files, using the thumbnail images artefact in combination with recent files history, and Trash artefacts", FSI: Digital Investigation 44.

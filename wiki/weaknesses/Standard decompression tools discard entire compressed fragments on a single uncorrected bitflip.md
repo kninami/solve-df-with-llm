@@ -1,14 +1,14 @@
 ---
-id: DFW-1024
+id: LWW-1024
 type: weakness
 name: Standard decompression tools discard entire compressed fragments on a single uncorrected bitflip
 description: Off-the-shelf decompression utilities treat any bitflip-corrupted compressed fragment as entirely unrecoverable and simply fail or skip it, even though most such fragments contain only a single-bit error and the vast majority of their underlying data is intact and could be recovered with targeted repair.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1024
+  - LWM-1024
 source_refs:
-  - DFCite-1016
+  - LWCite-1016
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ In a documented case, `squashfs-tools` alone recovered only 8.32% of a corrupted
 
 ## References
 
-- [DFCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.
+- [LWCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.

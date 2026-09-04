@@ -1,14 +1,14 @@
 ---
-id: DFW-1038
+id: LWW-1038
 type: weakness
 name: Defective-pixel timeslot classification requires prior training images from the specific camera
 description: The multi-stage classifier system must be trained on a substantial set of images already known to have been captured by the specific camera device at specific prior timeslots before it can predict the timeslot of a new query image from that same device, making the technique inapplicable to any camera for which no such prior-labeled training corpus exists.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1038
+  - LWM-1038
 source_refs:
-  - DFCite-1028
+  - LWCite-1028
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ In a real investigation, the specific camera device that produced a photograph, 
 
 ## References
 
-- [DFCite-1028] Ahmed et al., 2021, "A machine learning-based approach for picture acquisition timeslot prediction using defective pixels", FSI: Digital Investigation 39.
+- [LWCite-1028] Ahmed et al., 2021, "A machine learning-based approach for picture acquisition timeslot prediction using defective pixels", FSI: Digital Investigation 39.

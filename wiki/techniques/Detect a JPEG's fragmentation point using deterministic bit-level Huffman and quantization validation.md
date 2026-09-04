@@ -1,17 +1,17 @@
 ---
-id: DFT-1293
+id: LWT-1293
 type: technique
 name: Detect a JPEG's fragmentation point using deterministic bit-level Huffman and quantization validation
 description: Pinpoint the exact byte at which a fragmented JPEG file's high-entropy compressed image data stops being a valid continuation of the file, by exhaustively validating each candidate continuation bit-by-bit against the JPEG bitstream's internal consistency requirements — Huffman code lookup validity and quantized-coefficient (DC/AC) overflow bounds — rather than relying on visual/content-based compatibility checks.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-1303
+  - LWW-1303
 aliases:
   - Bit-level JPEG fragmentation point detection
   - Huffman/quantization-overflow JPEG validation
 source_refs:
-  - DFCite-1339
+  - LWCite-1339
 updated_at: 2026-08-15
 status: complete
 ---
@@ -41,4 +41,4 @@ A JPEG validator checks each candidate continuation of the entropy-coded data se
 
 ## References
 
-- [DFCite-1339] van der Meer, van den Bos, Jonker, and Dassen, 2024, "Problem solved: A reliable, deterministic method for JPEG fragmentation point detection", FSI: Digital Investigation 48, 301687.
+- [LWCite-1339] van der Meer, van den Bos, Jonker, and Dassen, 2024, "Problem solved: A reliable, deterministic method for JPEG fragmentation point detection", FSI: Digital Investigation 48, 301687.

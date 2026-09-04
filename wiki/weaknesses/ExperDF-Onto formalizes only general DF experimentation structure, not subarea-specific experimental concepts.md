@@ -1,14 +1,14 @@
 ---
-id: DFW-1083
+id: LWW-1083
 type: weakness
 name: ExperDF-Onto formalizes only general DF experimentation structure, not subarea-specific experimental concepts
 description: The controlled-experimentation ontology provides a general representation of the digital forensics experimental process and its phases, but the authors state that "the specific understanding of DF subareas is currently not feasible" within the ontology, meaning subfield-specific experimental concepts (e.g. concepts particular to mobile forensics experiments versus memory forensics experiments) are not formally represented.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1083
+  - LWM-1083
 source_refs:
-  - DFCite-1073
+  - LWCite-1073
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ A researcher or practitioner in a specific DF subfield (e.g. mobile, memory, or 
 
 ## References
 
-- [DFCite-1073] Silva et al., 2025, "An ontology for promoting controlled experimentation in digital forensics", FSI: Digital Investigation 52.
+- [LWCite-1073] Silva et al., 2025, "An ontology for promoting controlled experimentation in digital forensics", FSI: Digital Investigation 52.

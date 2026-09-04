@@ -1,16 +1,16 @@
 ---
-id: DFT-1071
+id: LWT-1071
 type: technique
 name: Examine forensic signatures using DTW-based dynamic-feature similarity
 description: Support a forensic handwriting examiner's determination of whether a digitally-captured signature (including a disguised signature) is genuine or imitated by computing Dynamic Time Warping (DTW) alignment distances between the questioned signature's easy-to-derive dynamic features (velocity, acceleration, pressure, displacement over time) and a set of comparative genuine specimens, producing a reproducible, explainable numerical similarity score rather than relying on a black-box biometric classifier.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1076
+  - LWW-1076
 aliases:
   - DTW-based dynamic-feature similarity decision support for forensic signature examination
 source_refs:
-  - DFCite-1066
+  - LWCite-1066
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ For each dynamic feature (velocity, acceleration, pressure), DTW computes an ali
 
 ## References
 
-- [DFCite-1066] Mazzolini et al., 2021, "An easy-to-explain decision support framework for forensic analysis of dynamic signatures", FSI: Digital Investigation 38.
+- [LWCite-1066] Mazzolini et al., 2021, "An easy-to-explain decision support framework for forensic analysis of dynamic signatures", FSI: Digital Investigation 38.

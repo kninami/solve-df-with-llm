@@ -1,17 +1,17 @@
 ---
-id: DFT-1107
+id: LWT-1107
 type: technique
 name: Read flash memory in situ via reverse-engineered PCB vias
 description: Recover a MultiMedia Card's NAND flash contents while it remains attached to its PCB by using 3D X-ray tomography to reverse-engineer the internal signal routing between the controller and memory chip, then physically interconnecting a logic analyzer or reader to exposed PCB vias via laser-ablated, conductive-glue connections, without desoldering the chip.
 objective_ids:
   - DFO-1021
 weakness_ids:
-  - DFW-1112
+  - LWW-1112
 aliases:
   - In situ MMC memory reading via PCB vias
   - Via-based interconnection for damaged MMC diagnosis
 source_refs:
-  - DFCite-1106
+  - LWCite-1106
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The process has three stages. First, non-invasive preparatory work: 2D/3D X-ray 
 
 ## References
 
-- [DFCite-1106] Thomas-Brans et al., 2024, "Case of study for in situ memory reading on damaged MultiMedia Card", FSI: Digital Investigation 48.
+- [LWCite-1106] Thomas-Brans et al., 2024, "Case of study for in situ memory reading on damaged MultiMedia Card", FSI: Digital Investigation 48.

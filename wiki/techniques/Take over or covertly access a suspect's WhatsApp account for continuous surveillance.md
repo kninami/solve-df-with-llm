@@ -1,5 +1,5 @@
 ---
-id: DFT-1235
+id: LWT-1235
 type: technique
 name: Take over or covertly access a suspect's WhatsApp account for continuous surveillance
 description: Gain live, continuous access to a suspect's WhatsApp conversations either by taking over their account using an intercepted SMS/voice verification code, or by covertly pairing a WhatsApp Web session on their unlocked phone, so that messages can be monitored as they arrive rather than only recovered after the fact from a device or backup.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1006
   - DFO-1016
 weakness_ids:
-  - DFW-1252
+  - LWW-1252
 aliases:
   - WhatsApp account takeover via SMS verification interception
   - Covert WhatsApp Web session pairing
 source_refs:
-  - DFCite-1270
+  - LWCite-1270
 updated_at: 2026-08-14
 status: complete
 ---
@@ -45,4 +45,4 @@ WhatsApp's own design offers two live-interception vectors distinct from acquiri
 
 ## References
 
-- [DFCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.
+- [LWCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.

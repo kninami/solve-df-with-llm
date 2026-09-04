@@ -1,9 +1,9 @@
 ---
-id: DFM-2125
+id: LWM-2125
 type: mitigation
 name: Apply post-hoc allow-list verification to LLM-flagged suspicious processes
 source_refs:
-  - DFCite-2147
+  - LWCite-2147
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Maintain a reference list of legitimate Windows process names (including their c
 
 ## References
 
-- [DFCite-2147] Oh et al., 2024, "volGPT: Evaluation on triaging ransomware process in memory forensics with Large Language Model", FSI: Digital Investigation 49.
+- [LWCite-2147] Oh et al., 2024, "volGPT: Evaluation on triaging ransomware process in memory forensics with Large Language Model", FSI: Digital Investigation 49.

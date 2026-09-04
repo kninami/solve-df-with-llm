@@ -1,9 +1,9 @@
 ---
-id: DFM-2031
+id: LWM-2031
 type: mitigation
 name: Maximize NTFS journal file size proactively as part of forensic readiness to extend the detectable timestamp-manipulation window
 source_refs:
-  - DFCite-2031
+  - LWCite-2031
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ For organizations or systems where forensic readiness is a priority, increase th
 
 ## References
 
-- [DFCite-2031] Oh et al., 2024 — Section VIII explicitly recommends setting both journal files to their maximum size as a proactive forensic-readiness measure to overcome the retention-capacity limitation.
+- [LWCite-2031] Oh et al., 2024 — Section VIII explicitly recommends setting both journal files to their maximum size as a proactive forensic-readiness measure to overcome the retention-capacity limitation.

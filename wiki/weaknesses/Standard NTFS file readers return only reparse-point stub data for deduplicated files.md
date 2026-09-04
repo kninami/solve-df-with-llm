@@ -1,14 +1,14 @@
 ---
-id: DFW-1144
+id: LWW-1144
 type: weakness
 name: Standard NTFS file readers return only reparse-point stub data for deduplicated files
 description: A file system reader or forensic tool that does not specifically handle the NTFS deduplication reparse tag will read only the small $REPARSE_POINT chunk-mapping structure in place of a deduplicated file's original content, missing the file's actual data unless it separately resolves the mapping against the Chunk Store.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1144
+  - LWM-1144
 source_refs:
-  - DFCite-1141
+  - LWCite-1141
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ Because the mapping structure's location and format changed between Windows Serv
 
 ## References
 
-- [DFCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.
+- [LWCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.

@@ -1,18 +1,18 @@
 ---
-id: DFT-1271
+id: LWT-1271
 type: technique
 name: Aggregate module pages across single or multiple Windows memory dumps to reconstruct a complete DLL
 description: Reconstruct a 64-bit Windows module (DLL or executable) as completely as possible from memory by combining the partial, differently-mapped pages of that same module loaded by multiple processes within one memory dump (intradump extraction) or across multiple memory dumps from the same or similarly-configured machines (interdump extraction), since any single process only maps the subset of a module's pages it actually uses.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-1281
+  - LWW-1281
 aliases:
   - Modex
   - Intermodex
   - Intradump/interdump module extraction
 source_refs:
-  - DFCite-1310
+  - LWCite-1310
 updated_at: 2026-08-15
 status: complete
 ---
@@ -42,4 +42,4 @@ For a named module, every process that has it loaded is walked and its mapped pa
 
 ## References
 
-- [DFCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.
+- [LWCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.

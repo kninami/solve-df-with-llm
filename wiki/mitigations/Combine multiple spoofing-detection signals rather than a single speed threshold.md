@@ -1,9 +1,9 @@
 ---
-id: DFM-1188
+id: LWM-1188
 type: mitigation
 name: Combine multiple spoofing-detection signals rather than a single speed threshold
 source_refs:
-  - DFCite-1192
+  - LWCite-1192
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Treat an implausible-speed flag as one signal among several rather than the sole
 
 ## References
 
-- [DFCite-1192] Pace et al., 2023, "Every step you take, I'll be tracking you: Forensic analysis of the tile tracker application", FSI: Digital Investigation 45, 301559.
+- [LWCite-1192] Pace et al., 2023, "Every step you take, I'll be tracking you: Forensic analysis of the tile tracker application", FSI: Digital Investigation 45, 301559.

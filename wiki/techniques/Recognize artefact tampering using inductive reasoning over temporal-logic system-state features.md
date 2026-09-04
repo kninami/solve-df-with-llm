@@ -1,16 +1,16 @@
 ---
-id: DFT-1299
+id: LWT-1299
 type: technique
 name: Recognize artefact tampering using inductive reasoning over temporal-logic system-state features
 description: Recognize whether a digital artefact has been tampered with — starting with artefact destruction — by formally representing the tampering action in an extended Temporal Logic of Security Actions (S-TLA) model, inductively comparing a generic system's state before and after the action to characterize the observable features that result, and applying a feature-analysis algorithm to a specific case's artefacts to generate a credible, defensible theory about whether tampering occurred, without the impractical state-space search required by prior deductive model-checking approaches.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1309
+  - LWW-1309
 aliases:
   - Extended S-TLA tampering model with action visibility
 source_refs:
-  - DFCite-1349
+  - LWCite-1349
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ The approach extends the Temporal Logic of Security Actions (S-TLA) language, in
 
 ## References
 
-- [DFCite-1349] Neale, Kennedy, and Nuseibeh, 2026, "Reasoning about artefact tampering", FSI: Digital Investigation 58, 302147.
+- [LWCite-1349] Neale, Kennedy, and Nuseibeh, 2026, "Reasoning about artefact tampering", FSI: Digital Investigation 58, 302147.

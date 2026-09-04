@@ -1,9 +1,9 @@
 ---
-id: DFM-1298
+id: LWM-1298
 type: mitigation
 name: Distribute peer review across investigation phase checkpoints rather than performing it only at case close
 source_refs:
-  - DFCite-1329
+  - LWCite-1329
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Adopt [[techniques/Apply a phase-oriented multi-stage peer review structure to a
 
 ## References
 
-- [DFCite-1329] Sunde and Horsman, 2021, "Part 2: The Phase-oriented Advice and Review Structure (PARS) for digital forensic investigations", FSI: Digital Investigation 36, 301074.
+- [LWCite-1329] Sunde and Horsman, 2021, "Part 2: The Phase-oriented Advice and Review Structure (PARS) for digital forensic investigations", FSI: Digital Investigation 36, 301074.

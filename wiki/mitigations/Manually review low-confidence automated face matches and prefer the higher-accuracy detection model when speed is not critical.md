@@ -1,9 +1,9 @@
 ---
-id: DFM-2059
+id: LWM-2059
 type: mitigation
 name: Manually review low-confidence automated face matches and prefer the higher-accuracy detection model when speed is not critical
 source_refs:
-  - DFCite-2059
+  - LWCite-2059
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Where an investigation depends on ruling a person of interest in or out of an im
 
 ## References
 
-- [DFCite-2059] Gogia & Rughani, 2023, "An ML Based Digital Forensics Software for Triage Analysis Through Face Recognition", JDFSL, Manuscript 1772. States the tool's own hog/cnn accuracy-speed tradeoff and identifies facial hair and severe lighting/rain conditions as known sources of false positives/negatives.
+- [LWCite-2059] Gogia & Rughani, 2023, "An ML Based Digital Forensics Software for Triage Analysis Through Face Recognition", JDFSL, Manuscript 1772. States the tool's own hog/cnn accuracy-speed tradeoff and identifies facial hair and severe lighting/rain conditions as known sources of false positives/negatives.

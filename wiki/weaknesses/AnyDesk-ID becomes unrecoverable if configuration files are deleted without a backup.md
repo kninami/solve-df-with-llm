@@ -1,14 +1,14 @@
 ---
-id: DFW-1018
+id: LWW-1018
 type: weakness
 name: AnyDesk-ID becomes unrecoverable if configuration files are deleted without a backup
 description: If a device's local AnyDesk configuration files (system.conf, service.conf) are deleted — whether deliberately by a user or as part of anti-forensic cleanup — the device's own AnyDesk-ID and any user-assigned Alias become permanently irretrievable from that device unless a backup of the configuration was separately preserved.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1018
+  - LWM-1018
 source_refs:
-  - DFCite-1012
+  - LWCite-1012
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ If an investigator relies solely on the seized device's own configuration files 
 
 ## References
 
-- [DFCite-1012] Soni et al., 2024, "A forensic analysis of AnyDesk Remote Access application by using various forensic tools and techniques", FSI: Digital Investigation 48.
+- [LWCite-1012] Soni et al., 2024, "A forensic analysis of AnyDesk Remote Access application by using various forensic tools and techniques", FSI: Digital Investigation 48.

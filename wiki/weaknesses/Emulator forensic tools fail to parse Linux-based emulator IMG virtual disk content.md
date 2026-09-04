@@ -1,14 +1,14 @@
 ---
-id: DFW-2027
+id: LWW-2027
 type: weakness
 name: Emulator forensic tools fail to parse Linux-based emulator IMG virtual disk content
 description: Both the purpose-built EFT tool and a commercial comparator (Magnet Axiom) could locate but not read/interpret the IMG virtual disk files used by the Linux-based Waydroid emulator, meaning emulator forensic analysis of Linux-hosted Android emulators is currently limited to detecting the disk's presence, not extracting its contents.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2027
+  - LWM-2027
 source_refs:
-  - DFCite-2027
+  - LWCite-2027
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator examining a Linux host running a Waydroid (or similarly IMG-form
 
 ## References
 
-- [DFCite-2027] Şen and Artuner, 2025 — Section V.D.2 documents both tools' inability to interpret Waydroid's IMG virtual disk content, and the conclusion identifies IMG parsing as a necessary future enhancement.
+- [LWCite-2027] Şen and Artuner, 2025 — Section V.D.2 documents both tools' inability to interpret Waydroid's IMG virtual disk content, and the conclusion identifies IMG parsing as a necessary future enhancement.

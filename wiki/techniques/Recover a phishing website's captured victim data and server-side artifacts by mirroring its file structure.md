@@ -1,16 +1,16 @@
 ---
-id: DFT-2061
+id: LWT-2061
 type: technique
 name: Recover a phishing website's captured victim data and server-side artifacts by mirroring its file structure
 description: Download a complete, offline copy of a suspect phishing website using a website-copier tool, then inspect its recovered folder structure, index page source, and log/data files to identify how the site captures victim input and to recover the plaintext data it has already collected from victims.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-2062
+  - LWW-2062
 aliases:
   - HTTrack-based phishing website forensic capture
 source_refs:
-  - DFCite-2064
+  - LWCite-2064
 updated_at: 2026-08-15
 status: complete
 ---
@@ -39,4 +39,4 @@ The recovered site structure is inspected in stages: the top-level directory lis
 
 ## References
 
-- [DFCite-2064] Kara, 2021, "Don't Bite the Bait: Phishing Attack for Internet Banking (E-Banking)", JDFSL 16(5). Source of the HTTrack-based site-mirroring and recovered-log-file case study against a real e-banking phishing site.
+- [LWCite-2064] Kara, 2021, "Don't Bite the Bait: Phishing Attack for Internet Banking (E-Banking)", JDFSL 16(5). Source of the HTTrack-based site-mirroring and recovered-log-file case study against a real e-banking phishing site.

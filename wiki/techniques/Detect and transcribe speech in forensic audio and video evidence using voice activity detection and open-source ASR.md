@@ -1,5 +1,5 @@
 ---
-id: DFT-2077
+id: LWT-2077
 type: technique
 name: Detect and transcribe speech in forensic audio and video evidence using voice activity detection and open-source ASR
 description: Automatically triage a forensic case's audio and video files by first running voice activity detection (VAD) to identify which files actually contain speech (and how much), then transcribing only the speech-bearing files with an open-source, locally-run automatic speech recognition (ASR) engine, so an investigator can index and keyword-search spoken content without manually listening to every audio file or transferring case evidence to a third-party cloud transcription service.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1011
   - DFO-1012
 weakness_ids:
-  - DFW-1094
+  - LWW-1094
 aliases:
   - SpeechToText
   - inaSpeechSegmenter + DeepSpeech forensic transcription pipeline
 source_refs:
-  - DFCite-2091
+  - LWCite-2091
 updated_at: 2026-08-16
 status: complete
 ---
@@ -44,4 +44,4 @@ The pipeline runs as two integrated modules built for the Autopsy digital forens
 
 ## References
 
-- [DFCite-2091] Negrao and Domingues, 2021, "SpeechToText: An open-source software for automatic detection and transcription of voice recordings in digital forensics", FSI: Digital Investigation 38, 301223.
+- [LWCite-2091] Negrao and Domingues, 2021, "SpeechToText: An open-source software for automatic detection and transcription of voice recordings in digital forensics", FSI: Digital Investigation 38, 301223.

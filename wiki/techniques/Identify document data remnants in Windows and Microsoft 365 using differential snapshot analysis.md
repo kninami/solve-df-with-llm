@@ -1,17 +1,17 @@
 ---
-id: DFT-1143
+id: LWT-1143
 type: technique
 name: Identify document data remnants in Windows and Microsoft 365 using differential snapshot analysis
 description: Systematically discover application- and OS-generated files that retain data remnants of a deleted or overwritten document by imaging a system before and after a user action, extracting the files that differ between the two snapshots, and classifying each as a studied or previously unstudied data remnants file (DRF).
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1146
+  - LWW-1146
 aliases:
   - Data Remnants File (DRF) framework
   - DRFD/DRFI/DRFA/DRFE framework
 source_refs:
-  - DFCite-1142
+  - LWCite-1142
 updated_at: 2026-08-12
 status: complete
 ---
@@ -41,4 +41,4 @@ The framework has four stages: Data Remnants File Dataset creation (DRFD), which
 
 ## References
 
-- [DFCite-1142] Joun, Lee and Park, 2023, "Data remnants analysis of document files in Windows: Microsoft 365 as a case study", FSI: Digital Investigation 46.
+- [LWCite-1142] Joun, Lee and Park, 2023, "Data remnants analysis of document files in Windows: Microsoft 365 as a case study", FSI: Digital Investigation 46.

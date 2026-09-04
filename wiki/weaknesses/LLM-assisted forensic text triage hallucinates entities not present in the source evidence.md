@@ -1,14 +1,14 @@
 ---
-id: DFW-1033
+id: LWW-1033
 type: weakness
 name: LLM-assisted forensic text triage hallucinates entities not present in the source evidence
 description: When a large language model is used to extract or summarize forensically relevant entities (names, locations, device identifiers, phone numbers) from clustered forensic text data, it generates a measurable proportion of plausible-sounding entities that do not actually exist anywhere in the source corpus, alongside its genuine extractions.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1033
+  - LWM-1033
 source_refs:
-  - DFCite-1023
+  - LWCite-1023
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ A hallucinated entity presented alongside genuinely extracted forensic data risk
 
 ## References
 
-- [DFCite-1023] Fayyaz et al., 2024, "A hybrid artificial intelligence framework for enhancing digital forensic investigations of infotainment systems", FSI: Digital Investigation 49.
+- [LWCite-1023] Fayyaz et al., 2024, "A hybrid artificial intelligence framework for enhancing digital forensic investigations of infotainment systems", FSI: Digital Investigation 49.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2054
+id: LWW-2054
 type: weakness
 name: Deleted Chromium History SQLite records are zeroed out and unrecoverable through database carving alone
 description: When a user deletes a browsing history, search term, or download entry in a Chromium-based browser's History SQLite database, the freed unallocated space between remaining table records is zeroed out rather than retained as recoverable slack, so binary carving and keyword searching of the History database file itself cannot recover the deleted content, regardless of the database's write-ahead-log or auto-vacuum settings.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2054
+  - LWM-2054
 source_refs:
-  - DFCite-2055
+  - LWCite-2055
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator who expects deleted browsing history, search terms, or download 
 
 ## References
 
-- [DFCite-2055] Berham and Morris, 2022 — Section 5 "Discussion" documents the zeroed-out unallocated space finding and the failed carving/keyword-search attempts against both browsers' History databases.
+- [LWCite-2055] Berham and Morris, 2022 — Section 5 "Discussion" documents the zeroed-out unallocated space finding and the failed carving/keyword-search attempts against both browsers' History databases.

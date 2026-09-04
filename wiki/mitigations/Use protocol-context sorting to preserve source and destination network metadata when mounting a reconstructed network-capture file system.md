@@ -1,9 +1,9 @@
 ---
-id: DFM-1286
+id: LWM-1286
 type: mitigation
 name: Use protocol-context sorting to preserve source and destination network metadata when mounting a reconstructed network-capture file system
 source_refs:
-  - DFCite-1313
+  - LWCite-1313
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When using [[techniques/Reconstruct a network share's file system hierarchy and 
 
 ## References
 
-- [DFCite-1313] Hilgert, Mahr, and Lambertz, 2024, "Mount SMB.pcap: Reconstructing file systems and file operations from network traffic", FSI: Digital Investigation 50, 301807.
+- [LWCite-1313] Hilgert, Mahr, and Lambertz, 2024, "Mount SMB.pcap: Reconstructing file systems and file operations from network traffic", FSI: Digital Investigation 50, 301807.

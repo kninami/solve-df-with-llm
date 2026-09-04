@@ -1,5 +1,5 @@
 ---
-id: DFW-2104
+id: LWW-2104
 type: weakness
 name: UAS data reliability assessment lacks reference models and validated methods for DIY drones
 description: Applying likelihood-ratio, signal-quality, sensor-cross-validation, state-estimation, or similarity-analysis methods to assess UAS data reliability requires reference data, reference models, or ground truth with distributional properties matching the actual UAS, but Do-It-Yourself drones -- built from individually varying components with no standardized reference model -- are especially difficult to find or generate suitable reference data for, and the framework proposing these methods has not yet been empirically validated against real-case UAS data at all.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2105
+  - LWM-2105
 source_refs:
-  - DFCite-2122
+  - LWCite-2122
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator applying this reliability-assessment framework to a DIY-drone ca
 
 ## References
 
-- [DFCite-2122] Lohre, Baier, Hardi, and Attenberger, 2025, "Towards reliable data in the scope of unmanned aircraft systems", FSI: Digital Investigation 53, 301914.
+- [LWCite-2122] Lohre, Baier, Hardi, and Attenberger, 2025, "Towards reliable data in the scope of unmanned aircraft systems", FSI: Digital Investigation 53, 301914.

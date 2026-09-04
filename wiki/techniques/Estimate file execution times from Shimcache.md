@@ -1,17 +1,17 @@
 ---
-id: DFT-1010
+id: LWT-1010
 type: technique
 name: Estimate file execution times from Shimcache
 description: Apply an interval-estimation algorithm to the Windows Application Compatibility Cache (Shimcache) artifact to approximate file execution times for Advanced Persistent Threat (APT) detection, since Shimcache does not natively record execution timestamps.
 objective_ids:
   - DFO-1017
 weakness_ids:
-  - DFW-1010
+  - LWW-1010
 aliases:
   - Shimcache execution time estimation
   - XTEC Shimcache analysis
 source_refs:
-  - DFCite-1005
+  - LWCite-1005
 updated_at: 2026-08-09
 status: complete
 ---
@@ -40,4 +40,4 @@ XTEC combines a preprocessing module (parsing Prefetch, Shimcache, and Windows E
 
 ## References
 
-- [DFCite-1005] Dunsin et al., 2024, "A comprehensive analysis of the role of artificial intelligence and machine learning in modern digital forensics and incident response", FSI: Digital Investigation 48.
+- [LWCite-1005] Dunsin et al., 2024, "A comprehensive analysis of the role of artificial intelligence and machine learning in modern digital forensics and incident response", FSI: Digital Investigation 48.

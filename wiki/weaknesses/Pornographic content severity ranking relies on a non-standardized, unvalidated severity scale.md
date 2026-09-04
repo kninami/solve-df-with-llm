@@ -1,14 +1,14 @@
 ---
-id: DFW-1153
+id: LWW-1153
 type: weakness
 name: Pornographic content severity ranking relies on a non-standardized, unvalidated severity scale
 description: Automated pornographic-content severity/harmfulness ranking assigns each video segment to a severity class based only on the specific sexual objects an object detector finds, using a scale devised for the study itself rather than an externally validated or legally-grounded taxonomy, because no consensus severity taxonomy for adult pornography (unlike CSAM's COPINE scale) currently exists.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1153
+  - LWM-1153
 source_refs:
-  - DFCite-1156
+  - LWCite-1156
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ A ranked worklist produced by this technique reflects one research team's severi
 
 ## References
 
-- [DFCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.
+- [LWCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2081
+id: LWM-2081
 type: mitigation
 name: Require a documented multi-hypothesis approach and at least one independent evidence-reliability check for every analysis
 source_refs:
-  - DFCite-2093
+  - LWCite-2093
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Build a written-hypothesis requirement into the standard case-report template: b
 
 ## References
 
-- [DFCite-2093] Sunde, Nina, 2022, "Strategies for safeguarding examiner objectivity and evidence reliability during digital forensic investigations", FSI: Digital Investigation 40, 301317.
+- [LWCite-2093] Sunde, Nina, 2022, "Strategies for safeguarding examiner objectivity and evidence reliability during digital forensic investigations", FSI: Digital Investigation 40, 301317.

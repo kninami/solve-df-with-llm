@@ -1,14 +1,14 @@
 ---
-id: DFW-1054
+id: LWW-1054
 type: weakness
 name: GPU process-usage history is unavailable unless GPU Accounting was proactively enabled
 description: NVIDIA's GPU Accounting feature, which tracks per-process GPU usage history (start/end time, live/dead status, PID) in the GpuAccounting NVOC structure, is not enabled by default on closed-source driver installations; if it was never manually enabled before an incident, this valuable process-usage-history artefact simply does not exist in memory to recover, regardless of how thorough the memory acquisition and structure-parsing method used afterward is.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1054
+  - LWM-1054
 source_refs:
-  - DFCite-1044
+  - LWCite-1044
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ This is a "wasn't turned on before the incident" class of evidence gap: an inves
 
 ## References
 
-- [DFCite-1044] Bowen et al., 2024, "A step in a new direction: NVIDIA GPU kernel driver memory forensics", FSI: Digital Investigation 49.
+- [LWCite-1044] Bowen et al., 2024, "A step in a new direction: NVIDIA GPU kernel driver memory forensics", FSI: Digital Investigation 49.

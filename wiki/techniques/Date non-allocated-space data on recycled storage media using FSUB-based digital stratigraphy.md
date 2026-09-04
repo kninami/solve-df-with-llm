@@ -1,18 +1,18 @@
 ---
-id: DFT-1082
+id: LWT-1082
 type: technique
 name: Date non-allocated-space data on recycled storage media using FSUB-based digital stratigraphy
 description: Determine whether data recovered from non-allocated space on a removable storage device could plausibly have been created by the device's current file system, or must instead predate it (a remnant from the device's prior use before recycling), by calculating the File System Upper Bound (FSUB) — the largest block number the current file system has written to — since recovered data located below the FSUB was necessarily present before the current file system's own activity could have reached that block, applying the archaeological principle that lower/older strata predate upper/newer ones.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1088
+  - LWW-1088
 aliases:
   - FSUB-based digital stratigraphy dating of non-allocated-space data on recycled storage media
   - Digital stratigraphy
   - FSUB
 source_refs:
-  - DFCite-1080
+  - LWCite-1080
 updated_at: 2026-08-10
 status: complete
 ---
@@ -41,4 +41,4 @@ An automated File System Activity Simulation framework was built to carry out cr
 
 ## References
 
-- [DFCite-1080] Schneider et al., 2024, "Applying digital stratigraphy to the problem of recycled storage media", FSI: Digital Investigation 49.
+- [LWCite-1080] Schneider et al., 2024, "Applying digital stratigraphy to the problem of recycled storage media", FSI: Digital Investigation 49.

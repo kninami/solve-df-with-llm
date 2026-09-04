@@ -1,9 +1,9 @@
 ---
-id: DFM-2094
+id: LWM-2094
 type: mitigation
 name: Corroborate forum-derived cryptocurrency preference trends with independent blockchain transaction volume data
 source_refs:
-  - DFCite-2110
+  - LWCite-2110
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Where feasible, obtain or cross-reference independent evidence of actual cryptoc
 
 ## References
 
-- [DFCite-2110] "The shift of DarkNet illegal drug trade preferences in cryptocurrency: The question of traceability and deterrence", FSI: Digital Investigation 48, 2024.
+- [LWCite-2110] "The shift of DarkNet illegal drug trade preferences in cryptocurrency: The question of traceability and deterrence", FSI: Digital Investigation 48, 2024.

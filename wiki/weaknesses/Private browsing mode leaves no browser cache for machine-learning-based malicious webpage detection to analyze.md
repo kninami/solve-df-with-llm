@@ -1,14 +1,14 @@
 ---
-id: DFW-1070
+id: LWW-1070
 type: weakness
 name: Private browsing mode leaves no browser cache for machine-learning-based malicious webpage detection to analyze
 description: When a browser was used in its personal/private (incognito) mode, the browser cache is not persisted to disk, so a machine-learning-based malicious webpage detection tool operating on recovered browser cache/history artefacts has no page data to analyze for that browsing session, and the AI model also requires periodic retraining on newly collected malicious pages to keep pace with constantly evolving exploit kits.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1070
+  - LWM-1070
 source_refs:
-  - DFCite-1060
+  - LWCite-1060
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on this class of tool to rule out malicious web page vis
 
 ## References
 
-- [DFCite-1060] Kim et al., 2021, "AIBFT: Artificial Intelligence Browser Forensic Toolkit", FSI: Digital Investigation 36.
+- [LWCite-1060] Kim et al., 2021, "AIBFT: Artificial Intelligence Browser Forensic Toolkit", FSI: Digital Investigation 36.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1242
+id: LWM-1242
 type: mitigation
 name: Corroborate social-media-scraped surveillance location data with independent forensic verification before treating it as reliable
 source_refs:
-  - DFCite-1256
+  - LWCite-1256
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Apply traditional media-forensic authentication tools and techniques to a harves
 
 ## References
 
-- [DFCite-1256] Matthews et al., 2021, "Ghost protocol -- Snapchat as a method of surveillance", FSI: Digital Investigation 36, 301112.
+- [LWCite-1256] Matthews et al., 2021, "Ghost protocol -- Snapchat as a method of surveillance", FSI: Digital Investigation 36, 301112.

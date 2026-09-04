@@ -1,17 +1,17 @@
 ---
-id: DFT-1216
+id: LWT-1216
 type: technique
 name: Query digital forensic literature and artifacts using a retrieval-augmented fine-tuned local LLM
 description: Answer an investigator's natural-language questions about forensic tools, artifacts, and procedures using a small, locally-run LLM fine-tuned on digital forensics research papers and curated artifact data via Retrieval Augmented Fine-Tuning (RAFT), so responses cite their peer-reviewed source and no case data or query content leaves the local environment.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1232
+  - LWW-1232
 aliases:
   - ForensicLLM
   - RAFT for digital forensics
 source_refs:
-  - DFCite-1243
+  - LWCite-1243
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ The training pipeline extracts text from digital forensics research papers (here
 
 ## References
 
-- [DFCite-1243] Sharma et al., 2025, "ForensicLLM: A local large language model for digital forensics", FSI: Digital Investigation 52, 301872.
+- [LWCite-1243] Sharma et al., 2025, "ForensicLLM: A local large language model for digital forensics", FSI: Digital Investigation 52, 301872.

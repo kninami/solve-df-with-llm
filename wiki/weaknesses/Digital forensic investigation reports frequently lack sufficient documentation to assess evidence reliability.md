@@ -1,14 +1,14 @@
 ---
-id: DFW-1310
+id: LWW-1310
 type: weakness
 name: Digital forensic investigation reports frequently lack sufficient documentation to assess evidence reliability
 description: An empirical audit of real criminal-case digital forensic reports found them insufficiently documented to trace the digital forensic actions performed on each item, link digital evidence to its source, or verify that methodology was followed, tools were justified, or results and error rates were validated — meaning reliability could not be assessed after the fact even though the underlying investigations had already led to indictments.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1312
+  - LWM-1312
 source_refs:
-  - DFCite-1350
+  - LWCite-1350
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ Without documentation sufficient to trace what was done to a piece of digital ev
 
 ## References
 
-- [DFCite-1350] Stoykova, Andersen, Franke, and Axelsson, 2022, "Reliability assessment of digital forensic investigations in the Norwegian police", FSI: Digital Investigation 40, 301351.
+- [LWCite-1350] Stoykova, Andersen, Franke, and Axelsson, 2022, "Reliability assessment of digital forensic investigations in the Norwegian police", FSI: Digital Investigation 40, 301351.

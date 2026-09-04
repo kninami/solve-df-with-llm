@@ -1,9 +1,9 @@
 ---
-id: DFM-1279
+id: LWM-1279
 type: mitigation
 name: Validate Realm deleted-record recovery rate against the specific target app and acquire promptly to minimize post-deletion data insertion
 source_refs:
-  - DFCite-1306
+  - LWCite-1306
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Where feasible, install and test the specific target app (or an identical versio
 
 ## References
 
-- [DFCite-1306] Kim, Kim, Shin, Youn, Song, Lee and Kim, 2022, "Methods for recovering deleted data from the Realm database: Case study on Minitalk and Xabber", FSI: Digital Investigation 40, 301353.
+- [LWCite-1306] Kim, Kim, Shin, Youn, Song, Lee and Kim, 2022, "Methods for recovering deleted data from the Realm database: Case study on Minitalk and Xabber", FSI: Digital Investigation 40, 301353.

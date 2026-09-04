@@ -1,14 +1,14 @@
 ---
-id: DFW-1246
+id: LWW-1246
 type: weakness
 name: iPhone floor-count registrations do not correspond one-to-one with physical floors ascended or descended
 description: The Health app's floor-ascent and floor-descent counts are derived from total barometric height difference travelled (approximately 3 metres per registered floor) rather than from the actual number of physical floors or landings crossed, so naively treating a registered floor count as the literal number of physical floors involved can misrepresent what really happened.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1247
+  - LWM-1247
 source_refs:
-  - DFCite-1261
+  - LWCite-1261
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator using an iPhone's registered floor count as evidence that a susp
 
 ## References
 
-- [DFCite-1261] van Zandwijk, Lensen, and Boztas, 2023, "Have you been upstairs? On the accuracy of registrations of ascended and descended floors in iPhones", FSI: Digital Investigation 47, 301660.
+- [LWCite-1261] van Zandwijk, Lensen, and Boztas, 2023, "Have you been upstairs? On the accuracy of registrations of ascended and descended floors in iPhones", FSI: Digital Investigation 47, 301660.

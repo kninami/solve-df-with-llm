@@ -1,14 +1,14 @@
 ---
-id: DFW-1041
+id: LWW-1041
 type: weakness
 name: Quantitative disk-image realism metrics cannot detect narrative incoherence in synthetic scenario data
 description: A synthetic disk image can score as realistic across every implemented quantitative metric (configuration, longevity, activity, volume) while still containing scenario elements that are internally inconsistent or implausible in a way a human reviewer familiar with the case narrative would immediately recognize, because quantitative metrics do not capture the narrative coherence or investigative-hypothesis plausibility of the underlying story the data is meant to represent.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1041
+  - LWM-1041
 source_refs:
-  - DFCite-1031
+  - LWCite-1031
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ A dataset or tool-testing exercise that relies solely on quantitative realism me
 
 ## References
 
-- [DFCite-1031] Voigt et al., 2025, "A metrics-based look at disk images: Insights and applications", FSI: Digital Investigation 52.
+- [LWCite-1031] Voigt et al., 2025, "A metrics-based look at disk images: Insights and applications", FSI: Digital Investigation 52.

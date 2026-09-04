@@ -1,16 +1,16 @@
 ---
-id: DFT-1050
+id: LWT-1050
 type: technique
 name: Assess memory acquisition tool quality using investigative scenarios
 description: Evaluate the quality and reliability of memory acquisition tools by running each through multiple concrete investigative scenarios (e.g., detecting a running process, an open network connection, an encryption key, or an opened file), measuring both whether the target artefact is retrievable and how internally consistent the acquired memory dump is (via kernel Virtual Address Descriptor and causal-relationship inconsistency checks), rather than relying on a single generic acquisition-speed or completeness benchmark.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1051
+  - LWW-1051
 aliases:
   - Scenario-based memory acquisition tool quality assessment
 source_refs:
-  - DFCite-1041
+  - LWCite-1041
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ Each scenario evaluates a distinct artefact type relevant to law enforcement: a 
 
 ## References
 
-- [DFCite-1041] Rzepka et al., 2025, "A scenario-based quality assessment of memory acquisition tools and its investigative implications", FSI: Digital Investigation 52.
+- [LWCite-1041] Rzepka et al., 2025, "A scenario-based quality assessment of memory acquisition tools and its investigative implications", FSI: Digital Investigation 52.

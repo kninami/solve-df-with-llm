@@ -1,14 +1,14 @@
 ---
-id: DFW-1262
+id: LWW-1262
 type: weakness
 name: exFAT timestamp interpretation is unreliable across OS drivers and forensic tools due to inconsistent UTCOffset handling
 description: Four leading digital forensic tools (Autopsy, FTK Imager, X-Ways Forensics, EnCase) each interpret an exFAT volume's UTCOffset-based timestamps differently, and none of them correctly handle every driver-specific storage behavior observed across Windows, MacOS, and Linux, so a tool's displayed timestamp can silently misstate the true UTC time by hours depending on which OS wrote the volume and which tool examined it.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1263
+  - LWM-1263
 source_refs:
-  - DFCite-1283
+  - LWCite-1283
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ Because none of the four tested tools flags its own interpretation as uncertain 
 
 ## References
 
-- [DFCite-1283] Nordvik and Axelsson, 2022 (corrigendum 2023), "It is about time — Do exFAT implementations handle timestamps correctly?", FSI: Digital Investigation 42-43, 301476.
+- [LWCite-1283] Nordvik and Axelsson, 2022 (corrigendum 2023), "It is about time — Do exFAT implementations handle timestamps correctly?", FSI: Digital Investigation 42-43, 301476.

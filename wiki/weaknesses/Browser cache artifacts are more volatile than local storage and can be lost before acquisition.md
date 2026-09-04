@@ -1,14 +1,14 @@
 ---
-id: DFW-1162
+id: LWW-1162
 type: weakness
 name: Browser cache artifacts are more volatile than local storage and can be lost before acquisition
 description: A web application's most sensitive artifacts recovered through a Chromium-based browser — payment details, authentication tokens, message content, and connection data — are often stored in the browser's cache and session storage, which are more volatile than local storage and can be cleared by the user or evicted by normal cache-management behavior before a device is seized and imaged.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1162
+  - LWM-1162
 source_refs:
-  - DFCite-1165
+  - LWCite-1165
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who acquires a device only after significant time has passed sin
 
 ## References
 
-- [DFCite-1165] Gupta et al., 2022, "Digital forensic analysis of discord on google chrome", FSI: Digital Investigation 44, 301479.
+- [LWCite-1165] Gupta et al., 2022, "Digital forensic analysis of discord on google chrome", FSI: Digital Investigation 44, 301479.

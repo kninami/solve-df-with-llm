@@ -1,9 +1,9 @@
 ---
-id: DFM-1034
+id: LWM-1034
 type: mitigation
 name: Present flagged messages with surrounding conversational context for human-in-the-loop review
 source_refs:
-  - DFCite-1024
+  - LWCite-1024
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When presenting a triage report's flagged messages for review, include a configu
 
 ## References
 
-- [DFCite-1024] Patel et al., 2026, "A hybrid neural-symbolic approach for the longitudinal profiling of coercive control in digital investigations", FSI: Digital Investigation 56.
+- [LWCite-1024] Patel et al., 2026, "A hybrid neural-symbolic approach for the longitudinal profiling of coercive control in digital investigations", FSI: Digital Investigation 56.

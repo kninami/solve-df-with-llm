@@ -1,9 +1,9 @@
 ---
-id: DFM-1169
+id: LWM-1169
 type: mitigation
 name: Trace individual token contribution to an ML predatory-chat classification before treating it as confirmed evidence
 source_refs:
-  - DFCite-1174
+  - LWCite-1174
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Run each word or n-gram in a flagged (or borderline) conversation individually t
 
 ## References
 
-- [DFCite-1174] Ngejane et al., 2021, "Digital forensics supported by machine learning for the detection of online sexual predatory chats", FSI: Digital Investigation 36, 301109.
+- [LWCite-1174] Ngejane et al., 2021, "Digital forensics supported by machine learning for the detection of online sexual predatory chats", FSI: Digital Investigation 36, 301109.

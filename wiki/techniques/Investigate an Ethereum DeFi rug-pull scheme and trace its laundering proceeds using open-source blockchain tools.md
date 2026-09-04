@@ -1,5 +1,5 @@
 ---
-id: DFT-1279
+id: LWT-1279
 type: technique
 name: Investigate an Ethereum DeFi rug-pull scheme and trace its laundering proceeds using open-source blockchain tools
 description: Extract court-usable, transaction-based evidence of an Ethereum decentralized-finance (DeFi) rug-pull or pump-and-dump scam by manually examining a suspect ERC-20 token's on-chain transaction history and smart-contract code with open-source tools, then trace where the scammer's proceeds were subsequently laundered using scammer-association heuristics and blockchain flow-visualization.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1001
   - DFO-1008
 weakness_ids:
-  - DFW-1289
+  - LWW-1289
 aliases:
   - Open-source DeFi fraud and money-laundering investigation
 source_refs:
-  - DFCite-1320
+  - LWCite-1320
 updated_at: 2026-08-15
 status: complete
 ---
@@ -42,4 +42,4 @@ Despite billions of dollars reported lost annually to DeFi scams, prosecutions r
 
 ## References
 
-- [DFCite-1320] Trozze, Davies, and Kleinberg, 2023, "Of degens and defrauders: Using open-source investigative tools to investigate decentralized finance frauds and money laundering", FSI: Digital Investigation 46, 301575.
+- [LWCite-1320] Trozze, Davies, and Kleinberg, 2023, "Of degens and defrauders: Using open-source investigative tools to investigate decentralized finance frauds and money laundering", FSI: Digital Investigation 46, 301575.

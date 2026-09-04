@@ -1,19 +1,19 @@
 ---
-id: DFT-1300
+id: LWT-1300
 type: technique
 name: Document digital forensic reliability using a structured technology-method-application validation framework
 description: Systematically document a digital forensic examination's reliability at three levels — the underlying technology (tool/algorithm), the method applied, and the specific application of that method to the case — against criteria drawn from international digital forensic standards, guidelines, and legal reliability doctrine (such as Daubert), producing a formal record that supports chain-of-evidence documentation, cross-examination, and independent reliability validation by law enforcement, courts, and defense counsel.
 objective_ids:
   - DFO-1020
 weakness_ids:
-  - DFW-1310
-  - DFW-1311
+  - LWW-1310
+  - LWW-1311
 aliases:
   - Reliability Validation Enabling Framework (RVEF)
   - File system reverse-engineering reliability validation procedure
 source_refs:
-  - DFCite-1351
-  - DFCite-1352
+  - LWCite-1351
+  - LWCite-1352
 updated_at: 2026-08-15
 status: complete
 ---
@@ -44,5 +44,5 @@ Legal and academic commentators have repeatedly identified a reliability crisis 
 
 ## References
 
-- [DFCite-1351] Stoykova and Franke, 2023, "Reliability validation enabling framework (RVEF) for digital forensics in criminal investigations", FSI: Digital Investigation 45, 301554.
-- [DFCite-1352] Nordvik, Stoykova, Franke, Axelsson, and Toolan, 2021, "Reliability validation for file system interpretation", FSI: Digital Investigation 37, 301174.
+- [LWCite-1351] Stoykova and Franke, 2023, "Reliability validation enabling framework (RVEF) for digital forensics in criminal investigations", FSI: Digital Investigation 45, 301554.
+- [LWCite-1352] Nordvik, Stoykova, Franke, Axelsson, and Toolan, 2021, "Reliability validation for file system interpretation", FSI: Digital Investigation 37, 301174.

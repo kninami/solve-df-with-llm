@@ -1,9 +1,9 @@
 ---
-id: DFM-1253
+id: LWM-1253
 type: mitigation
 name: Time covert WhatsApp account access to minimize detection risk and plan a legal-process contingency for two-step verification
 source_refs:
-  - DFCite-1270
+  - LWCite-1270
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Before executing either vector, check whether two-step verification appears to b
 
 ## References
 
-- [DFCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.
+- [LWCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.

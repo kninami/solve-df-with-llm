@@ -1,17 +1,17 @@
 ---
-id: DFT-1121
+id: LWT-1121
 type: technique
 name: Evaluate a tool's fitness for use with the five-questions framework
 description: Systematically assess whether a digital forensic tool is appropriate to deploy in an examination by answering five linked questions covering its stated capability, required usage, underlying operation, tested reliability, and legal/ethical authorization, before relying on its output.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1126
+  - LWW-1126
 aliases:
   - Five-questions tool-fitness framework
   - "'Can I use that tool?' decision framework"
 source_refs:
-  - DFCite-1120
+  - LWCite-1120
 updated_at: 2026-08-12
 status: complete
 ---
@@ -41,4 +41,4 @@ The five questions are: (1) "what does that tool do?"; (2) "how do I use that to
 
 ## References
 
-- [DFCite-1120] Horsman, 2024, "Commentary:- Can I use that tool?", FSI: Digital Investigation 51, 301843.
+- [LWCite-1120] Horsman, 2024, "Commentary:- Can I use that tool?", FSI: Digital Investigation 51, 301843.

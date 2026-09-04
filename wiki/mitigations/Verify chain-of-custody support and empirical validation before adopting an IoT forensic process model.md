@@ -1,9 +1,9 @@
 ---
-id: DFM-1050
+id: LWM-1050
 type: mitigation
 name: Verify chain-of-custody support and empirical validation before adopting an IoT forensic process model
 source_refs:
-  - DFCite-1040
+  - LWCite-1040
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When selecting an IoT-specific process model for an investigation, check whether
 
 ## References
 
-- [DFCite-1040] Silva et al., 2025, "A review study of digital forensics in IoT: Process models, phases, architectures, and ontologies", FSI: Digital Investigation 53.
+- [LWCite-1040] Silva et al., 2025, "A review study of digital forensics in IoT: Process models, phases, architectures, and ontologies", FSI: Digital Investigation 53.

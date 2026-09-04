@@ -1,14 +1,14 @@
 ---
-id: DFW-1242
+id: LWW-1242
 type: weakness
 name: Cloud-acquired vehicle telemetry integrity depends entirely on the manufacturer providing unaltered data
 description: Vehicle telemetry acquired via a manufacturer's cloud API using a captured or provided credential relies entirely on the manufacturer's cloud infrastructure to return unaltered data, since the investigator has no independent means of verifying that the returned records have not been modified, filtered, or are otherwise incomplete before they reach the acquisition tool.
 categories:
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-1243
+  - LWM-1243
 source_refs:
-  - DFCite-1257
+  - LWCite-1257
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator presenting cloud-acquired vehicle telemetry (location, trip hist
 
 ## References
 
-- [DFCite-1257] Ebbers et al., 2024, "Grand theft API: A forensic analysis of vehicle cloud data", FSI: Digital Investigation 48, 301691.
+- [LWCite-1257] Ebbers et al., 2024, "Grand theft API: A forensic analysis of vehicle cloud data", FSI: Digital Investigation 48, 301691.

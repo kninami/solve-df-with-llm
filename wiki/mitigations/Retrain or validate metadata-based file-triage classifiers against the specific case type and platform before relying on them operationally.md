@@ -1,9 +1,9 @@
 ---
-id: DFM-1271
+id: LWM-1271
 type: mitigation
 name: Retrain or validate metadata-based file-triage classifiers against the specific case type and platform before relying on them operationally
 source_refs:
-  - DFCite-1298
+  - LWCite-1298
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Document which case type(s) and mobile operating system(s) a given triage classi
 
 ## References
 
-- [DFCite-1298] Serhal and Le-Khac, 2021, "Machine learning based approach to analyze file meta data for smart phone file triage", DFRWS 2021 USA; FSI: Digital Investigation 37, 301194.
+- [LWCite-1298] Serhal and Le-Khac, 2021, "Machine learning based approach to analyze file meta data for smart phone file triage", DFRWS 2021 USA; FSI: Digital Investigation 37, 301194.

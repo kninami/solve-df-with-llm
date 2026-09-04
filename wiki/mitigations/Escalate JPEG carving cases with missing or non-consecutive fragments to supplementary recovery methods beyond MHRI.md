@@ -1,9 +1,9 @@
 ---
-id: DFM-2007
+id: LWM-2007
 type: mitigation
 name: Escalate JPEG carving cases with missing or non-consecutive fragments to supplementary recovery methods beyond MHRI
 source_refs:
-  - DFCite-2007
+  - LWCite-2007
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Inspect the genetic algorithm's cost-function output: a case that cannot reach a
 
 ## References
 
-- [DFCite-2007] Ali et al., 2023 — the paper's own conclusion identifies non-consecutive-order and missing-fragment recovery as future work not yet addressed by MHRI.
+- [LWCite-2007] Ali et al., 2023 — the paper's own conclusion identifies non-consecutive-order and missing-fragment recovery as future work not yet addressed by MHRI.

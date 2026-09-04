@@ -1,9 +1,9 @@
 ---
-id: DFM-1174
+id: LWM-1174
 type: mitigation
 name: Cross-validate a deleted file's directory-entry date against its own internal format-specific header timestamp
 source_refs:
-  - DFCite-1172
+  - LWCite-1172
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Before reporting a date derived from a recovered deleted file's directory entry,
 
 ## References
 
-- [DFCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.
+- [LWCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.

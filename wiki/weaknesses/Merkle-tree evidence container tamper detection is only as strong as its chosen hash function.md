@@ -1,14 +1,14 @@
 ---
-id: DFW-1181
+id: LWW-1181
 type: weakness
 name: Merkle-tree evidence container tamper detection is only as strong as its chosen hash function
 description: A Merkle-tree-based evidence container's integrity and tamper-evidence guarantee depends entirely on the strength of the hash function used to build the tree, so a weak or later-broken hash algorithm could let undetected alteration of an evidence item pass a Verify check.
 categories:
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-1181
+  - LWM-1181
 source_refs:
-  - DFCite-1183
+  - LWCite-1183
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on an ECo-Bag container's Merkle-root Verify result to c
 
 ## References
 
-- [DFCite-1183] Han et al., 2024, "ECo-Bag: An elastic container based on merkle tree as a universal digital evidence bag", FSI: Digital Investigation 49. States that Merkle tree security is contingent on the hash function chosen and recommends selecting a robust function, potentially with multiple hash functions in parallel.
+- [LWCite-1183] Han et al., 2024, "ECo-Bag: An elastic container based on merkle tree as a universal digital evidence bag", FSI: Digital Investigation 49. States that Merkle tree security is contingent on the hash function chosen and recommends selecting a robust function, potentially with multiple hash functions in parallel.

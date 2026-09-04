@@ -1,14 +1,14 @@
 ---
-id: DFW-2118
+id: LWW-2118
 type: weakness
 name: File and folder naming heuristics for CSAM detection cannot recognize deliberately disguised or novel naming conventions
 description: File and folder naming/structuring heuristics for prioritizing CSAM detection depend on the specific naming conventions observed in known prior cases, so a distributor who adopts deliberately misleading, innocuous-looking, or otherwise novel naming and folder-organization conventions -- specifically to evade this kind of pattern-based prioritization -- is not recognized by the heuristics, and content in files/folders that do not match a known pattern is scanned at the same lower priority as genuinely benign content.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2119
+  - LWM-2119
 source_refs:
-  - DFCite-2138
+  - LWCite-2138
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ Because this technique's entire purpose is prioritization under a limited comput
 
 ## References
 
-- [DFCite-2138] "Using file and folder naming and structuring to improve automated detection of child sexual abuse images on the Dark Web", FSI: Digital Investigation 48, 2024.
+- [LWCite-2138] "Using file and folder naming and structuring to improve automated detection of child sexual abuse images on the Dark Web", FSI: Digital Investigation 48, 2024.

@@ -1,19 +1,19 @@
 ---
-id: DFT-1100
+id: LWT-1100
 type: technique
 name: Archive darknet marketplace content using periodic web scraping
 description: Automatically and periodically scrape a darknet marketplace's product listings, vendor/operator profiles, forum posts, and activity feeds at fine-grained intervals (e.g. every ~15 minutes) to build a longitudinal archive that survives the marketplace's eventual shutdown and supports later investigative analysis.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1106
+  - LWW-1106
 aliases:
   - Darknet marketplace product data retention
   - Darknet marketplace operator data retention
   - Darknet marketplace user activity metadata collection
   - Periodic web scraping of darknet marketplaces
 source_refs:
-  - DFCite-1101
+  - LWCite-1101
 updated_at: 2026-08-12
 status: complete
 ---
@@ -43,4 +43,4 @@ The method targets several distinct but complementary data categories, each coll
 
 ## References
 
-- [DFCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.
+- [LWCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.

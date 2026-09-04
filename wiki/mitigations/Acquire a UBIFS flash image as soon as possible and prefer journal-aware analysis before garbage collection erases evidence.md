@@ -1,9 +1,9 @@
 ---
-id: DFM-2108
+id: LWM-2108
 type: mitigation
 name: Acquire a UBIFS flash image as soon as possible and prefer journal-aware analysis before garbage collection erases evidence
 source_refs:
-  - DFCite-2126
+  - LWCite-2126
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Treat an embedded or IoT device suspected to use UBIFS (routers, cameras, drones
 
 ## References
 
-- [DFCite-2126] Deutschmann and Baier, 2024, "Ubi est indicium? On forensic analysis of the UBI file system", FSI: Digital Investigation 48, 301689.
+- [LWCite-2126] Deutschmann and Baier, 2024, "Ubi est indicium? On forensic analysis of the UBI file system", FSI: Digital Investigation 48, 301689.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1192
+id: LWW-1192
 type: weakness
 name: RPMB key-extraction techniques depend on a specific vulnerable eMMC or TEE implementation
 description: A published RPMB authentication-key extraction method exploits a particular vendor's choice to store the key in plain text at a discoverable location in eMMC flash rather than deriving it purely from hardware-bound secret material; the technique does not generalize to a device or eMMC part whose TEE genuinely protects the key against physical readout.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1192
+  - LWM-1192
 source_refs:
-  - DFCite-1199
+  - LWCite-1199
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who successfully extracts an RPMB key from one device model shou
 
 ## References
 
-- [DFCite-1199] Fukami et al., 2024, "Exploiting RPMB authentication in a closed source TEE implementation", FSI: Digital Investigation 48.
+- [LWCite-1199] Fukami et al., 2024, "Exploiting RPMB authentication in a closed source TEE implementation", FSI: Digital Investigation 48.

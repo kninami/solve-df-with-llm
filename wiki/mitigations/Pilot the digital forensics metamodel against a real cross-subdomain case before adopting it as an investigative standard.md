@@ -1,9 +1,9 @@
 ---
-id: DFM-2023
+id: LWM-2023
 type: mitigation
 name: Pilot the digital forensics metamodel against a real cross-subdomain case before adopting it as an investigative standard
 source_refs:
-  - DFCite-2023
+  - LWCite-2023
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Run the metamodel's M2-to-M1-to-M0 instantiation process against a genuine case 
 
 ## References
 
-- [DFCite-2023] Al-Dhaqm et al., 2021 — the paper's own stated future work of employing "a systematic approach... to validate the proposed metamodeling approach" is the basis for this mitigation's recommended real-case pilot step.
+- [LWCite-2023] Al-Dhaqm et al., 2021 — the paper's own stated future work of employing "a systematic approach... to validate the proposed metamodeling approach" is the basis for this mitigation's recommended real-case pilot step.

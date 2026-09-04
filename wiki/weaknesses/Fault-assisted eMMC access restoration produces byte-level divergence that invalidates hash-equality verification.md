@@ -1,5 +1,5 @@
 ---
-id: DFW-1227
+id: LWW-1227
 type: weakness
 name: Fault-assisted eMMC access restoration produces byte-level divergence that invalidates hash-equality verification
 description: A voltage-fault-injection-restored eMMC extraction can complete without error yet still differ from a nominal acquisition at the byte level, invalidating SHA-256 hash-equality verification, while the same fault-injection parameter range that restores access can also drive the component to complete, irreversible failure before extraction finishes.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_COR
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-1227
+  - LWM-1227
 source_refs:
-  - DFCite-1238
+  - LWCite-1238
 updated_at: 2026-08-13
 status: complete
 ---
@@ -34,4 +34,4 @@ A fault-assisted extraction that completes without an interface-level error can 
 
 ## References
 
-- [DFCite-1238] Hugget et al., 2026, "Forensic qualification of fault-assisted access restoration on CMD42-locked eMMC: A case study", FSI: Digital Investigation 57, 302109.
+- [LWCite-1238] Hugget et al., 2026, "Forensic qualification of fault-assisted access restoration on CMD42-locked eMMC: A case study", FSI: Digital Investigation 57, 302109.

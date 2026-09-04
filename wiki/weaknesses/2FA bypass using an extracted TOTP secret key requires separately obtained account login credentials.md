@@ -1,14 +1,14 @@
 ---
-id: DFW-1196
+id: LWW-1196
 type: weakness
 name: 2FA bypass using an extracted TOTP secret key requires separately obtained account login credentials
 description: An extracted TOTP secret key only reproduces the second authentication factor; without the account's first-factor login credential (username/password), the recovered key alone is insufficient to access the protected account, so an investigator who extracts only the key may incorrectly conclude the account is now accessible.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1196
+  - LWM-1196
 source_refs:
-  - DFCite-1206
+  - LWCite-1206
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who successfully extracts a 2FA secret key but stops there has n
 
 ## References
 
-- [DFCite-1206] Berrios et al., 2023, "Factorizing 2FA: Forensic analysis of two-factor authentication applications", FSI: Digital Investigation 45.
+- [LWCite-1206] Berrios et al., 2023, "Factorizing 2FA: Forensic analysis of two-factor authentication applications", FSI: Digital Investigation 45.

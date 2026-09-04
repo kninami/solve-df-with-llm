@@ -1,16 +1,16 @@
 ---
-id: DFT-2070
+id: LWT-2070
 type: technique
 name: Detect Windows Token Hijacking privilege escalation by comparing token content against a legitimately elevated process
 description: During Windows kernel memory forensic analysis, detect privilege-escalation malware that copies an entire legitimately-hashed higher-privileged process's `_TOKEN` SID list and integrity hash into a lower-privileged process's token, by comparing a suspect process's full `UserAndGroups` array and `SidHash` content against a known-legitimate elevated process rather than trusting the OS's own SidHash integrity check as proof the token is unmodified.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-2072
+  - LWW-2072
 aliases:
   - Token Hijacking Attack detection
 source_refs:
-  - DFCite-2076
+  - LWCite-2076
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ The attack targets the `_TOKEN` structure pointed to by the `Token` `_EX_FAST_RE
 
 ## References
 
-- [DFCite-2076] Korkin, 2021, "Windows Kernel Hijacking Is Not an Option: MemoryRanger Comes to the Rescue Again", JDFSL 16(4). Source of the Token Hijacking, Handle Table Hijacking, and Hijacking NTFS data structures attack techniques and their underlying kernel data structure details.
+- [LWCite-2076] Korkin, 2021, "Windows Kernel Hijacking Is Not an Option: MemoryRanger Comes to the Rescue Again", JDFSL 16(4). Source of the Token Hijacking, Handle Table Hijacking, and Hijacking NTFS data structures attack techniques and their underlying kernel data structure details.

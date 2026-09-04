@@ -1,9 +1,9 @@
 ---
-id: DFM-1277
+id: LWM-1277
 type: mitigation
 name: Corroborate PLC memory-derived event logs with independently timestamped external sources
 source_refs:
-  - DFCite-1304
+  - LWCite-1304
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Collect and preserve every available timestamped evidence source touching the sa
 
 ## References
 
-- [DFCite-1304] Rais, Awad, Lopez and Ahmed, 2022, "Memory forensic analysis of a programmable logic controller in industrial control systems", DFRWS 2022 EU; FSI: Digital Investigation 40, 301339.
+- [LWCite-1304] Rais, Awad, Lopez and Ahmed, 2022, "Memory forensic analysis of a programmable logic controller in industrial control systems", DFRWS 2022 EU; FSI: Digital Investigation 40, 301339.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1204
+id: LWT-1204
 type: technique
 name: Extract OMEMO-encrypted XMPP chat artifacts from iOS multi-client SQLite databases
 description: Locate and parse the SQLite databases (sworim.sqlite for Monal, siskinim_main.db for Siskin IM) that decentralized, open-source OMEMO-encrypted XMPP multi-client apps maintain on iOS, recovering local user and contact XMPP account identifiers, encrypted and unencrypted message content in plaintext, and cached multimedia files, from an advanced logical (iTunes-backup-based) acquisition.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1213
-  - DFW-1214
+  - LWW-1213
+  - LWW-1214
 aliases:
   - Monal and Siskin IM iOS artifact extraction
 source_refs:
-  - DFCite-1225
+  - LWCite-1225
 updated_at: 2026-08-13
 status: complete
 ---
@@ -42,4 +42,4 @@ Because neither Cellebrite UFED Physical Analyzer's built-in parser (at the time
 
 ## References
 
-- [DFCite-1225] Akinbi and Ojie, 2021, "Forensic analysis of open-source XMPP multi-client social networking apps on iOS devices", FSI: Digital Investigation 36.
+- [LWCite-1225] Akinbi and Ojie, 2021, "Forensic analysis of open-source XMPP multi-client social networking apps on iOS devices", FSI: Digital Investigation 36.

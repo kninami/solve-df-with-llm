@@ -1,5 +1,5 @@
 ---
-id: DFW-1130
+id: LWW-1130
 type: weakness
 name: Manual on-device examination alters device state and cannot capture non-visible sub-surface data
 description: Live, on-device navigation during a manual examination risks handling errors and unintended metadata changes, and can only ever capture visible surface-level content, leaving non-visible sub-surface-level data inaccessible without a formal forensic extraction.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_ALT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1130
+  - LWM-1130
 source_refs:
-  - DFCite-1126
+  - LWCite-1126
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ Because DME changes to a device are typically irreversible, and any resulting da
 
 ## References
 
-- [DFCite-1126] Horsman, 2022, "Conducting a 'manual examination' of a device as part of a digital investigation", FSI: Digital Investigation 40, 301331.
+- [LWCite-1126] Horsman, 2022, "Conducting a 'manual examination' of a device as part of a digital investigation", FSI: Digital Investigation 40, 301331.

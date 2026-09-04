@@ -1,14 +1,14 @@
 ---
-id: DFW-2035
+id: LWW-2035
 type: weakness
 name: Geo-location-based attack attribution misattributes VPN- or proxy-obscured traffic origins
 description: A forensic framework's geo-tagging module, which enriches events with IP-based geolocation to support spatial attack-chain context and attribution, inherits the underlying IP-to-location mapping service's accuracy limits, producing a measurable misattribution rate for traffic routed through a VPN or proxy that is otherwise robust for direct connections.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-2035
+  - LWM-2035
 source_refs:
-  - DFCite-2035
+  - LWCite-2035
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator relying on this framework's geo-tagged event data to attribute a
 
 ## References
 
-- [DFCite-2035] Manivannan and Amalanathan, 2026 — Section IX "Conclusion" states the geo-tagging accuracy limitation directly, and Section VIII.H reports the misattribution sensitivity analysis (Table 10 and accompanying discussion).
+- [LWCite-2035] Manivannan and Amalanathan, 2026 — Section IX "Conclusion" states the geo-tagging accuracy limitation directly, and Section VIII.H reports the misattribution sensitivity analysis (Table 10 and accompanying discussion).

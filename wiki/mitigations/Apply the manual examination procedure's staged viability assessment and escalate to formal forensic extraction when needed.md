@@ -1,9 +1,9 @@
 ---
-id: DFM-1130
+id: LWM-1130
 type: mitigation
 name: Apply the manual examination procedure's staged viability assessment and escalate to formal forensic extraction when needed
 source_refs:
-  - DFCite-1126
+  - LWCite-1126
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ At scene, run through the MEP's seven staged questions before touching a device:
 
 ## References
 
-- [DFCite-1126] Horsman, 2022, "Conducting a 'manual examination' of a device as part of a digital investigation", FSI: Digital Investigation 40, 301331.
+- [LWCite-1126] Horsman, 2022, "Conducting a 'manual examination' of a device as part of a digital investigation", FSI: Digital Investigation 40, 301331.

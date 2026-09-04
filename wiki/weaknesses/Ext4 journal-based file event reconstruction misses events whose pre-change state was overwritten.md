@@ -1,14 +1,14 @@
 ---
-id: DFW-1194
+id: LWW-1194
 type: weakness
 name: Ext4 journal-based file event reconstruction misses events whose pre-change state was overwritten
 description: Because the technique identifies a file event by detecting a change between a snapshot's before-and-after state, an event cannot be generated if the pre-change inode or directory-entry data was never written to the journal, or was already overwritten by the journal's circular reuse of space before analysis began.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1194
+  - LWM-1194
 source_refs:
-  - DFCite-1203
+  - LWCite-1203
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying solely on this technique's output for a complete file-ac
 
 ## References
 
-- [DFCite-1203] Oh, 2026, "Ext4 Log Tracker: An enhanced approach to file event generation from Ext4 journal", FSI: Digital Investigation 58.
+- [LWCite-1203] Oh, 2026, "Ext4 Log Tracker: An enhanced approach to file event generation from Ext4 journal", FSI: Digital Investigation 58.

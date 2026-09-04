@@ -1,9 +1,9 @@
 ---
-id: DFM-1113
+id: LWM-1113
 type: mitigation
 name: Re-validate internal-API request parameters and monitor for cloud provider API and website changes before each acquisition run
 source_refs:
-  - DFCite-1107
+  - LWCite-1107
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Periodically re-run internal-API traffic analysis (via a web debugging proxy) ag
 
 ## References
 
-- [DFCite-1107] Yang et al., 2022, "CATCH: Cloud Data Acquisition through Comprehensive and Hybrid Approaches", FSI: Digital Investigation 43.
+- [LWCite-1107] Yang et al., 2022, "CATCH: Cloud Data Acquisition through Comprehensive and Hybrid Approaches", FSI: Digital Investigation 43.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1206
+id: LWM-1206
 type: mitigation
 name: Cross-validate disappearing-message recovery using multiple forensic tools and manual database review
 source_refs:
-  - DFCite-1218
+  - LWCite-1218
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Run both a logical/advanced-logical and, where available, a physical extraction,
 
 ## References
 
-- [DFCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.
+- [LWCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.

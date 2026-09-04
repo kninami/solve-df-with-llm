@@ -1,14 +1,14 @@
 ---
-id: DFW-1016
+id: LWW-1016
 type: weakness
 name: Deepfake detectors relying on high-frequency artifacts lose accuracy on heavily compressed video
 description: Deepfake detection models that draw their primary discriminative signal from high-frequency image content, including frequency-domain reconstruction approaches, underperform on heavily compressed (low-quality) video relative to detectors purpose-built for compression robustness, because video compression disproportionately destroys the high-frequency detail the detector depends on.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1016
+  - LWM-1016
 source_refs:
-  - DFCite-1010
+  - LWCite-1010
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Real-world deepfake video encountered in an investigation (e.g., footage shared 
 
 ## References
 
-- [DFCite-1010] Jin et al., 2024, "A dual descriptor combined with frequency domain reconstruction learning for face forgery detection in deepfake videos", FSI: Digital Investigation 49.
+- [LWCite-1010] Jin et al., 2024, "A dual descriptor combined with frequency domain reconstruction learning for face forgery detection in deepfake videos", FSI: Digital Investigation 49.

@@ -1,5 +1,5 @@
 ---
-id: DFT-1246
+id: LWT-1246
 type: technique
 name: Acquire a PLC's memory contents using a JTAG acquisition profile
 description: Recover the complete addressable memory contents of a proprietary, legacy programmable logic controller by locating its JTAG debug port, building a memory map that excludes unacquirable and redundant address ranges, and using an optimized, verified acquisition profile to read the memory over JTAG without crashing the controller.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1021
   - DFO-1006
 weakness_ids:
-  - DFW-1263
+  - LWW-1263
 aliases:
   - Kyros JTAG PLC memory acquisition framework
 source_refs:
-  - DFCite-1284
+  - LWCite-1284
 updated_at: 2026-08-14
 status: complete
 ---
@@ -44,4 +44,4 @@ Profile creation proceeds through hardware assessment (identifying the PLC's pro
 
 ## References
 
-- [DFCite-1284] Rais, Awad, Lopez and Ahmed, 2021, "JTAG-based PLC memory acquisition framework for industrial control systems", DFRWS 2021 USA; FSI: Digital Investigation 37, 301196.
+- [LWCite-1284] Rais, Awad, Lopez and Ahmed, 2021, "JTAG-based PLC memory acquisition framework for industrial control systems", DFRWS 2021 USA; FSI: Digital Investigation 37, 301196.

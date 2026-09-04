@@ -1,14 +1,14 @@
 ---
-id: DFW-1244
+id: LWW-1244
 type: weakness
 name: Low-entropy perceptual hash algorithms produce large equivalence classes that falsely match unrelated images
 description: Some perceptual hashing algorithms (found in large-scale testing to include ColourHash and WaveHash) have such poor inter-image discrimination that large numbers of genuinely unrelated images collide within the same small Hamming-distance neighborhood, causing a content-matching pipeline built on them to report false positive matches between images that have no real connection.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1245
+  - LWM-1245
 source_refs:
-  - DFCite-1259
+  - LWCite-1259
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ A content-matching deployment (e.g., detecting known illicit or copyrighted mate
 
 ## References
 
-- [DFCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509.
+- [LWCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509.

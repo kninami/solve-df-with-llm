@@ -1,9 +1,9 @@
 ---
-id: DFM-1135
+id: LWM-1135
 type: mitigation
 name: Collect desktop, browser, and mobile-app cache artifacts of a conversational AI service in addition to server-side export to recover deleted conversation content
 source_refs:
-  - DFCite-1131
+  - LWCite-1131
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify every client the suspect used to access the conversational AI service (
 
 ## References
 
-- [DFCite-1131] Cho et al., 2025, "Conversational AI forensics: A case study on ChatGPT, Gemini, Copilot, and Claude", FSI: Digital Investigation 52.
+- [LWCite-1131] Cho et al., 2025, "Conversational AI forensics: A case study on ChatGPT, Gemini, Copilot, and Claude", FSI: Digital Investigation 52.

@@ -1,10 +1,10 @@
 ---
-id: DFM-1161
+id: LWM-1161
 type: mitigation
 name: Invert stabilization transformations and use high-quality I-frames before correlating video PRNU patterns
 source_refs:
-  - DFCite-1164
-  - DFCite-2142
+  - LWCite-1164
+  - LWCite-2142
 updated_at: 2026-08-16
 status: complete
 ---
@@ -25,5 +25,5 @@ Extract I-frames specifically (e.g. via ffprobe/ffmpeg) for PRNU estimation, sin
 
 ## References
 
-- [DFCite-1164] Akbari et al., 2022, "Digital forensic analysis for source video identification: A survey", FSI: Digital Investigation 41, 301390.
-- [DFCite-2142] Li, Wang, Ma, Wang, and Wu, 2025, "Video capturing device identification through block-based PRNU matching", FSI: Digital Investigation 52, 301873. Source for the block-based matching alternative to whole-frame geometric realignment.
+- [LWCite-1164] Akbari et al., 2022, "Digital forensic analysis for source video identification: A survey", FSI: Digital Investigation 41, 301390.
+- [LWCite-2142] Li, Wang, Ma, Wang, and Wu, 2025, "Video capturing device identification through block-based PRNU matching", FSI: Digital Investigation 52, 301873. Source for the block-based matching alternative to whole-frame geometric realignment.

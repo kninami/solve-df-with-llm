@@ -1,14 +1,14 @@
 ---
-id: DFW-1107
+id: LWW-1107
 type: weakness
 name: DNM purchase-to-blockchain correlation yields multiple candidate transactions when purchase price and timing are not unique
 description: Searching a block-search window for a transaction output matching a detected purchase's estimated cryptocurrency value is a heuristic that can return several equally plausible candidate transactions, of which all but one are false positives, with accuracy degrading as the price becomes less unique or the search window widens.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1107
+  - LWM-1107
 source_refs:
-  - DFCite-1101
+  - LWCite-1101
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who treats the first or only plausible price-matching transactio
 
 ## References
 
-- [DFCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.
+- [LWCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.

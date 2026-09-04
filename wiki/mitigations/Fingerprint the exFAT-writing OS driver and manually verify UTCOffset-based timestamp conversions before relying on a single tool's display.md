@@ -1,9 +1,9 @@
 ---
-id: DFM-1263
+id: LWM-1263
 type: mitigation
 name: Fingerprint the exFAT-writing OS driver and manually verify UTCOffset-based timestamp conversions before relying on a single tool's display
 source_refs:
-  - DFCite-1283
+  - LWCite-1283
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Inspect the exFAT volume's root directory for OS-fingerprinting artifacts (`.fse
 
 ## References
 
-- [DFCite-1283] Nordvik and Axelsson, 2022 (corrigendum 2023), "It is about time — Do exFAT implementations handle timestamps correctly?", FSI: Digital Investigation 42-43, 301476.
+- [LWCite-1283] Nordvik and Axelsson, 2022 (corrigendum 2023), "It is about time — Do exFAT implementations handle timestamps correctly?", FSI: Digital Investigation 42-43, 301476.

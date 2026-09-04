@@ -1,9 +1,9 @@
 ---
-id: DFM-1103
+id: LWM-1103
 type: mitigation
 name: Validate synthetic-data-trained blind protocol identification per protocol class before operational reliance
 source_refs:
-  - DFCite-1098
+  - LWCite-1098
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ For each new protocol class an organization wants to identify via this method, g
 
 ## References
 
-- [DFCite-1098] Abbasi-Azar et al., 2025, "Blind protocol identification using synthetic dataset: A case study on geographic protocols", FSI: Digital Investigation 53.
+- [LWCite-1098] Abbasi-Azar et al., 2025, "Blind protocol identification using synthetic dataset: A case study on geographic protocols", FSI: Digital Investigation 53.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2099
+id: LWM-2099
 type: mitigation
 name: Use dual-tool peer verification with a differently-designed tool and manually validate ambiguous or aggregated pattern-of-life data
 source_refs:
-  - DFCite-2115
+  - LWCite-2115
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Where a case-critical pattern-of-life conclusion depends on a single tool's pres
 
 ## References
 
-- [DFCite-2115] Andersen, Sunde, and Porter, 2025, "Tool induced biases? Misleading data presentation as a biasing source in digital forensic analysis", FSI: Digital Investigation 52, 301881.
+- [LWCite-2115] Andersen, Sunde, and Porter, 2025, "Tool induced biases? Misleading data presentation as a biasing source in digital forensic analysis", FSI: Digital Investigation 52, 301881.

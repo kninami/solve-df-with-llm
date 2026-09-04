@@ -1,14 +1,14 @@
 ---
-id: DFW-2007
+id: LWW-2007
 type: weakness
 name: Genetic-algorithm JPEG reassembly leaves the majority of bifragmented intertwined images unrecovered
 description: The MHRI method fully recovers only 48.4% of tested bifragmented intertwined JPEG cases and explicitly cannot handle images with missing fragments or fragments stored in non-consecutive order, leaving a large share of real-world fragmentation cases outside its scope.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2007
+  - LWM-2007
 source_refs:
-  - DFCite-2007
+  - LWCite-2007
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator relying on MHRI to recover an evidentiary image should not assum
 
 ## References
 
-- [DFCite-2007] Ali et al., 2023 — Tables 2-4 and Figure 7/8 report a 48.4% overall accuracy and explicitly list missing-fragment and non-consecutive-order cases as unrecovered and out of the paper's scope.
+- [LWCite-2007] Ali et al., 2023 — Tables 2-4 and Figure 7/8 report a 48.4% overall accuracy and explicitly list missing-fragment and non-consecutive-order cases as unrecovered and out of the paper's scope.

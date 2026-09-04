@@ -1,14 +1,14 @@
 ---
-id: DFW-1150
+id: LWW-1150
 type: weakness
 name: First responders can inflate device-prioritisation scoresheet answers to increase seizure priority
 description: A first responder motivated to have their seized exhibits examined sooner may answer a device-prioritisation scoresheet in a way that inflates the device's apparent investigative value, skewing the resulting priority ranking and misrepresenting the device's true relative significance to downstream examiners.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1150
+  - LWM-1150
 source_refs:
-  - DFCite-1147
+  - LWCite-1147
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ If inflated scoring is common or goes unchecked, the prioritisation system's cor
 
 ## References
 
-- [DFCite-1147] Horsman, 2021, "Decision support for first responders and digital device prioritisation", FSI: Digital Investigation 38.
+- [LWCite-1147] Horsman, 2021, "Decision support for first responders and digital device prioritisation", FSI: Digital Investigation 38.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1211
+id: LWT-1211
 type: technique
 name: Analyze a stacked file system by correlating its upper and lower file-system layers
 description: Extend standard file-system forensic analysis with a dedicated phase that identifies a stacked file system (e.g. MooseFS, GlusterFS, eCryptfs) from indicators left in its already-analyzed lower file system, then correlates each lower file with its corresponding upper file to recover file names, hierarchy, fragmentation, transformation, and timestamp information the lower file system alone cannot provide.
 objective_ids:
   - DFO-1013
 weakness_ids:
-  - DFW-1222
+  - LWW-1222
 aliases:
   - Stacked file system forensic analysis
   - Upper/lower file correlation for stacked file systems
 source_refs:
-  - DFCite-1234
+  - LWCite-1234
 updated_at: 2026-08-13
 status: complete
 ---
@@ -43,4 +43,4 @@ Extending Brian Carrier's file-system-forensic-analysis model, the added phase b
 
 ## References
 
-- [DFCite-1234] Hilgert, Lambertz and Baier, 2024, "Forensic implications of stacked file systems", DFRWS EU 2024; FSI: Digital Investigation 48, 301678.
+- [LWCite-1234] Hilgert, Lambertz and Baier, 2024, "Forensic implications of stacked file systems", DFRWS EU 2024; FSI: Digital Investigation 48, 301678.

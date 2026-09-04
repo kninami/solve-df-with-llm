@@ -1,17 +1,17 @@
 ---
-id: DFT-1151
+id: LWT-1151
 type: technique
 name: Detect deepfakes using face-background noise trace comparison
 description: Train a Siamese noise extractor on paired face-crop and background-crop squares from the same video frame so it learns to expose the distinct forensic noise trace of a synthesized face versus an unmodified background, then classify a candidate frame by feeding a similarity-matrix comparison of the two extracted noise traces into a deepfake classifier.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1154
+  - LWW-1154
 aliases:
   - Siamese noise extractor deepfake detection
   - Face-background forensic noise trace investigation
 source_refs:
-  - DFCite-1152
+  - LWCite-1152
 updated_at: 2026-08-12
 status: complete
 ---
@@ -42,4 +42,4 @@ For each candidate frame, a face square and a background square are cropped and 
 
 ## References
 
-- [DFCite-1152] Wang et al., 2022, "Deepfake noise investigation and detection", FSI: Digital Investigation 42.
+- [LWCite-1152] Wang et al., 2022, "Deepfake noise investigation and detection", FSI: Digital Investigation 42.

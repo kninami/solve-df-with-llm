@@ -1,14 +1,14 @@
 ---
-id: DFW-1005
+id: LWW-1005
 type: weakness
 name: N-gram byte-frequency classifiers confuse PPT and JPG file types
 description: Neural network and SVM classifiers trained on n-gram byte frequency distributions consistently misclassify PowerPoint (.ppt) files as JPEG images and vice versa, across independent studies and multiple classifier types.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1005
+  - LWM-1005
 source_refs:
-  - DFCite-1003
+  - LWCite-1003
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ A file-type identification tool relying solely on n-gram byte-frequency features
 
 ## References
 
-- [DFCite-1003] Sester et al., 2021, "A comparative study of support vector machine and neural networks for file type identification using n-gram analysis", FSI: Digital Investigation 36.
+- [LWCite-1003] Sester et al., 2021, "A comparative study of support vector machine and neural networks for file type identification using n-gram analysis", FSI: Digital Investigation 36.

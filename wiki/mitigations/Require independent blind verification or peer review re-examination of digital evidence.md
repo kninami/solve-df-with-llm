@@ -1,9 +1,9 @@
 ---
-id: DFM-1032
+id: LWM-1032
 type: mitigation
 name: Require independent blind verification or peer review re-examination of digital evidence
 source_refs:
-  - DFCite-1022
+  - LWCite-1022
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Implement quality-control measures such as verification reviews and re-examinati
 
 ## References
 
-- [DFCite-1022] Sunde and Dror, 2021, "A hierarchy of expert performance (HEP) applied to digital forensics: Reliability and biasability in digital forensics decision making", FSI: Digital Investigation 37.
+- [LWCite-1022] Sunde and Dror, 2021, "A hierarchy of expert performance (HEP) applied to digital forensics: Reliability and biasability in digital forensics decision making", FSI: Digital Investigation 37.

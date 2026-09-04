@@ -1,16 +1,16 @@
 ---
-id: DFT-1284
+id: LWT-1284
 type: technique
 name: Recover an Android FBE master key from RAM to decrypt EXT4 file names and contents
 description: Recover the master key protecting an Android device's File-Based Encryption (FBE) EXT4 partition from a raw physical memory image (obtained via a cold boot attack or RAM module transplantation), then use it to automatically decrypt every encrypted file name and file content on the partition with extended versions of The Sleuth Kit and Plaso, restoring full forensic file system and timeline analysis on a device where prior FDE-era key-recovery tools no longer apply.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1294
+  - LWW-1294
 aliases:
   - Android File-Based Encryption (FBE) master-key RAM recovery
 source_refs:
-  - DFCite-1326
+  - LWCite-1326
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ Given a raw physical memory image, the master key is located and recovered from 
 
 ## References
 
-- [DFCite-1326] Groß, Busch, and Müller, 2021, "One key to rule them all: Recovering the master key from RAM to break Android's file-based encryption", FSI: Digital Investigation 36, 301113.
+- [LWCite-1326] Groß, Busch, and Müller, 2021, "One key to rule them all: Recovering the master key from RAM to break Android's file-based encryption", FSI: Digital Investigation 36, 301113.

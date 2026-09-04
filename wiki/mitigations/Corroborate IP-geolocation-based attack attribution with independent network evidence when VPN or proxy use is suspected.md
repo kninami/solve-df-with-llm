@@ -1,9 +1,9 @@
 ---
-id: DFM-2035
+id: LWM-2035
 type: mitigation
 name: Corroborate IP-geolocation-based attack attribution with independent network evidence when VPN or proxy use is suspected
 source_refs:
-  - DFCite-2035
+  - LWCite-2035
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Cross-reference flagged high-risk or unusual geolocations against known VPN/prox
 
 ## References
 
-- [DFCite-2035] Manivannan and Amalanathan, 2026 — Table 10's misattribution-rate sensitivity curve provides the quantitative basis for judging when geo-tagged attribution confidence should be downgraded.
+- [LWCite-2035] Manivannan and Amalanathan, 2026 — Table 10's misattribution-rate sensitivity curve provides the quantitative basis for judging when geo-tagged attribution confidence should be downgraded.

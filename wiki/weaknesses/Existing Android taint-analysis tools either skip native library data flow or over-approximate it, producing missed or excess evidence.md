@@ -1,5 +1,5 @@
 ---
-id: DFW-1267
+id: LWW-1267
 type: weakness
 name: Existing Android taint-analysis tools either skip native library data flow or over-approximate it, producing missed or excess evidence
 description: Mainstream Android static taint-analysis tools either treat a called native method as a black box that produces no taint at all (under-tainting, silently missing evidence a native library actually generates or stores) or assume every output of a native call is tainted by every input (over-tainting, producing false-positive evidence flags), because none tracks actual data-flow logic within the native code itself.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1268
+  - LWM-1268
 source_refs:
-  - DFCite-1293
+  - LWCite-1293
 updated_at: 2026-08-14
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator relying on one of these existing tools to characterize what data
 
 ## References
 
-- [DFCite-1293] Shi, Cheng and Guan, 2022, "LibDroid: Summarizing information flow of android native libraries via static analysis", DFRWS 2022 USA; FSI: Digital Investigation 42, 301405.
+- [LWCite-1293] Shi, Cheng and Guan, 2022, "LibDroid: Summarizing information flow of android native libraries via static analysis", DFRWS 2022 USA; FSI: Digital Investigation 42, 301405.

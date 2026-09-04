@@ -1,14 +1,14 @@
 ---
-id: DFW-1297
+id: LWW-1297
 type: weakness
 name: Password-recognition ranking models underrank passwords unlike the specific mix of data they were trained on
 description: A password-recognition model's ranking quality depends on how well its training data's variety (dictionary words, leaked credentials, chat text, website text) matches the kind of password and surrounding non-password text actually present on a given device, so a model trained on a narrower mix (e.g. only dictionary words and leaked credentials) will rank a genuine but atypical password lower than a model trained on a broader, more representative mix.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1299
+  - LWM-1299
 source_refs:
-  - DFCite-1330
+  - LWCite-1330
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on a password-recognition model trained on a narrow or u
 
 ## References
 
-- [DFCite-1330] van Dijk, van de Wetering, Argentini, Gorka, van Luenen, Minnema, Rijgersberg, Ugen, Mann, and Geradts, 2025, "PaSSw0rdVib3s!: AI-assisted password recognition for digital forensic investigations", FSI: Digital Investigation 52, 301870.
+- [LWCite-1330] van Dijk, van de Wetering, Argentini, Gorka, van Luenen, Minnema, Rijgersberg, Ugen, Mann, and Geradts, 2025, "PaSSw0rdVib3s!: AI-assisted password recognition for digital forensic investigations", FSI: Digital Investigation 52, 301870.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1046
+id: LWT-1046
 type: technique
 name: Reason about cyber-attack attribution using an ontology
 description: Represent cyber-attack entities (threat actors, malware, campaigns, indicators, infrastructure) and their relationships in a formal ontology built on a widely adopted threat-intelligence standard (STIX 2.1), then feed that structured representation into a reasoning-based attribution tool to generate and rank candidate attribution hypotheses for who conducted a specific attack, rather than relying on ad hoc, unstructured investigator judgement.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1047
+  - LWW-1047
 aliases:
   - Ontology-based cyber-attack attribution reasoning
   - OCAI ontology
 source_refs:
-  - DFCite-1037
+  - LWCite-1037
 updated_at: 2026-08-09
 status: complete
 ---
@@ -40,4 +40,4 @@ Core STIX Domain Objects (Attack Pattern, Campaign, Identity, Indicator, Intrusi
 
 ## References
 
-- [DFCite-1037] Kaur Gill and Karafili, 2026, "A novel ontology for cyber-attack attribution and investigation", FSI: Digital Investigation 57.
+- [LWCite-1037] Kaur Gill and Karafili, 2026, "A novel ontology for cyber-attack attribution and investigation", FSI: Digital Investigation 57.

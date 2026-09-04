@@ -1,9 +1,9 @@
 ---
-id: DFM-2061
+id: LWM-2061
 type: mitigation
 name: Acquire and analyze Cassandra SSTable tombstone markers before the configured grace period expires
 source_refs:
-  - DFCite-2061
+  - LWCite-2061
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ As soon as a Cassandra data store is identified as potentially relevant evidence
 
 ## References
 
-- [DFCite-2061] Bohora, Bothe, Sheth, Chopade & Pachghare, 2021, "Backup and Recovery Mechanisms of Cassandra Database: A Review", JDFSL 15(5). Documents the `gc_grace_seconds` configuration point and the `nodetool`/`sstabledump` acquisition workflow that this mitigation relies on.
+- [LWCite-2061] Bohora, Bothe, Sheth, Chopade & Pachghare, 2021, "Backup and Recovery Mechanisms of Cassandra Database: A Review", JDFSL 15(5). Documents the `gc_grace_seconds` configuration point and the `nodetool`/`sstabledump` acquisition workflow that this mitigation relies on.

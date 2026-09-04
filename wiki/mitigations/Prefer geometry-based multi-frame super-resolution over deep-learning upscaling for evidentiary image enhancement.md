@@ -1,9 +1,9 @@
 ---
-id: DFM-1301
+id: LWM-1301
 type: mitigation
 name: Prefer geometry-based multi-frame super-resolution over deep-learning upscaling for evidentiary image enhancement
 source_refs:
-  - DFCite-1332
+  - LWCite-1332
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When enhancement output may be relied on as evidence, use [[techniques/Reconstru
 
 ## References
 
-- [DFCite-1332] Guarnieri, Fontani, Guzzi, Carrato, and Jerian, 2021, "Perspective registration and multi-frame super-resolution of license plates in surveillance videos", FSI: Digital Investigation 36, 301087.
+- [LWCite-1332] Guarnieri, Fontani, Guzzi, Carrato, and Jerian, 2021, "Perspective registration and multi-frame super-resolution of license plates in surveillance videos", FSI: Digital Investigation 36, 301087.

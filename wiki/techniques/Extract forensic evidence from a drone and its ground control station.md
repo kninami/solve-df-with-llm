@@ -1,16 +1,16 @@
 ---
-id: DFT-1076
+id: LWT-1076
 type: technique
 name: Extract forensic evidence from a drone and its ground control station
 description: Perform a full forensic analysis of a small-to-medium commercial drone by systematically extracting and analyzing every component of the unmanned aerial system (UAS) — the drone itself (internal and external memory), its ground control station (GCS, typically a smartphone or tablet), and any removable storage — using industry-standard tools, since attribution and full reconstruction of the drone's use typically require correlating evidence across all components rather than the drone alone.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1082
+  - LWW-1082
 aliases:
   - Multi-component drone and ground-control-station forensic extraction framework
 source_refs:
-  - DFCite-1072
+  - LWCite-1072
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ The framework was validated across four drones and four GCS devices (an Apple iP
 
 ## References
 
-- [DFCite-1072] Thornton and Bagheri Zadeh, 2022, "An investigation into Unmanned Aerial System (UAS) forensics: Data extraction & analysis", FSI: Digital Investigation 41.
+- [LWCite-1072] Thornton and Bagheri Zadeh, 2022, "An investigation into Unmanned Aerial System (UAS) forensics: Data extraction & analysis", FSI: Digital Investigation 41.

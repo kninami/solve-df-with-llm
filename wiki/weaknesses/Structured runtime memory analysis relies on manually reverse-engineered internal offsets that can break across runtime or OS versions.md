@@ -1,5 +1,5 @@
 ---
-id: DFW-1275
+id: LWW-1275
 type: weakness
 name: Structured runtime memory analysis relies on manually reverse-engineered internal offsets that can break across runtime or OS versions
 description: Because a language runtime's internal object layout is rarely fully documented, a structured memory-analysis tool's knowledge of that layout must be manually reverse-engineered for each analyzed runtime/OS version, and a structure that silently changes in a newer or unanalyzed version can cause the analysis to silently misread or fail to locate data without any indication that the tool's internal assumptions are out of date.
@@ -7,12 +7,12 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1276
+  - LWM-1276
 aliases:
   - Structured .NET Framework memory analysis relies on manually reverse-engineered internal offsets that can break across runtime versions
 source_refs:
-  - DFCite-1303
-  - DFCite-1309
+  - LWCite-1303
+  - LWCite-1309
 updated_at: 2026-08-15
 status: complete
 ---
@@ -38,5 +38,5 @@ An investigator running a structured runtime-memory-analysis tool (whether for .
 
 ## References
 
-- [DFCite-1303] Manna, Case, Ali-Gombe and Richard III, 2022, "Memory analysis of .NET and .Net Core applications", DFRWS 2022 USA; FSI: Digital Investigation 42, 301404.
-- [DFCite-1309] Manna, Case, Ali-Gombe, and Richard III, 2021, "Modern macOS userland runtime analysis", FSI: Digital Investigation 38, 301221.
+- [LWCite-1303] Manna, Case, Ali-Gombe and Richard III, 2022, "Memory analysis of .NET and .Net Core applications", DFRWS 2022 USA; FSI: Digital Investigation 42, 301404.
+- [LWCite-1309] Manna, Case, Ali-Gombe, and Richard III, 2021, "Modern macOS userland runtime analysis", FSI: Digital Investigation 38, 301221.

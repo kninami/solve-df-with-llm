@@ -1,14 +1,14 @@
 ---
-id: DFW-2126
+id: LWW-2126
 type: weakness
 name: Non-rooted local-data extraction from a stalkerware app fails when its manifest disables Android backup
 description: A stalkerware evidence-collection technique that reads an app's local storage via the non-rooted Android application-backup mechanism recovers no data at all when the app's manifest sets allowBackup to false, leaving the investigator without a non-rooted fallback for that app.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2127
+  - LWM-2127
 source_refs:
-  - DFCite-2148
+  - LWCite-2148
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who relies solely on the non-rooted backup path will conclude, i
 
 ## References
 
-- [DFCite-2148] Mangeard et al., 2024, "WARNE: A stalkerware evidence collection tool", FSI: Digital Investigation 48.
+- [LWCite-2148] Mangeard et al., 2024, "WARNE: A stalkerware evidence collection tool", FSI: Digital Investigation 48.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2121
+id: LWM-2121
 type: mitigation
 name: Provide a guided data-model walkthrough before an analyst uses a relational-graph network-forensic tool operationally
 source_refs:
-  - DFCite-2140
+  - LWCite-2140
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Provide new users with a short guided tutorial or example case walkthrough that 
 
 ## References
 
-- [DFCite-2140] "Using relational graphs for exploratory analysis of network traffic data", FSI: Digital Investigation 48, 2024.
+- [LWCite-2140] "Using relational graphs for exploratory analysis of network traffic data", FSI: Digital Investigation 48, 2024.

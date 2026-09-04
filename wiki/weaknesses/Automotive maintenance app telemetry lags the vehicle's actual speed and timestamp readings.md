@@ -1,14 +1,14 @@
 ---
-id: DFW-1164
+id: LWW-1164
 type: weakness
 name: Automotive maintenance app telemetry lags the vehicle's actual speed and timestamp readings
 description: A mobile automotive-maintenance app's logged speed and time values can lag the vehicle's true real-time speed by roughly 1-2 seconds, an ECU-computing-power-dependent relay delay confirmed by cross-referencing the app's data against an independent navigation app and the vehicle's own speedometer, so a value read directly from the app's logs is not an exact, real-time-accurate representation of the vehicle's state at the recorded timestamp.
 categories:
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-1164
+  - LWM-1164
 source_refs:
-  - DFCite-1166
+  - LWCite-1166
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ In cases where exact speed at an exact moment matters — for example, establish
 
 ## References
 
-- [DFCite-1166] Sumaila and Bahsi, 2022, "Digital forensic analysis of mobile automotive maintenance applications", FSI: Digital Investigation 43, 301440.
+- [LWCite-1166] Sumaila and Bahsi, 2022, "Digital forensic analysis of mobile automotive maintenance applications", FSI: Digital Investigation 43, 301440.

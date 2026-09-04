@@ -1,9 +1,9 @@
 ---
-id: DFM-2010
+id: LWM-2010
 type: mitigation
 name: Prioritize open interoperability and chain-of-custody standards when selecting components for a converged CI FCA platform
 source_refs:
-  - DFCite-2010
+  - LWCite-2010
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Evaluate each candidate tool or data source against the platform's Ingesting Mod
 
 ## References
 
-- [DFCite-2010] Henriques et al., 2024 — the survey's own open-issues discussion recommends adopting open standards and data abstractions for sharing and exchanging evidence as key to improving FCA tool interoperability.
+- [LWCite-2010] Henriques et al., 2024 — the survey's own open-issues discussion recommends adopting open standards and data abstractions for sharing and exchanging evidence as key to improving FCA tool interoperability.

@@ -1,5 +1,5 @@
 ---
-id: DFT-2090
+id: LWT-2090
 type: technique
 name: Track DarkNet market cryptocurrency preference shifts using temporal topic modeling of ClearNet forums
 description: Quantify how a DarkNet drug-trading community's cryptocurrency payment preferences shift over time (e.g. from Bitcoin toward privacy-focused coins such as Monero) by applying correlation-explanation temporal topic modeling and sentiment analysis to publicly accessible ClearNet forum discussions (e.g. Reddit) about DarkNet markets, tracking topic prevalence and sentiment trends over multi-year windows rather than relying on a single point-in-time survey.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1004
   - DFO-1012
 weakness_ids:
-  - DFW-2093
+  - LWW-2093
 aliases:
   - CorEx temporal topic modeling for cryptocurrency-preference tracking
 source_refs:
-  - DFCite-2110
+  - LWCite-2110
 updated_at: 2026-08-16
 status: complete
 ---
@@ -41,4 +41,4 @@ Forum posts and comments are collected over a multi-year window and pre-processe
 
 ## References
 
-- [DFCite-2110] "The shift of DarkNet illegal drug trade preferences in cryptocurrency: The question of traceability and deterrence", FSI: Digital Investigation 48, 2024.
+- [LWCite-2110] "The shift of DarkNet illegal drug trade preferences in cryptocurrency: The question of traceability and deterrence", FSI: Digital Investigation 48, 2024.

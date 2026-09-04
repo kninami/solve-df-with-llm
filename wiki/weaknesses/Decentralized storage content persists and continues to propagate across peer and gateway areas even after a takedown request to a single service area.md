@@ -1,14 +1,14 @@
 ---
-id: DFW-1255
+id: LWW-1255
 type: weakness
 name: Decentralized storage content persists and continues to propagate across peer and gateway areas even after a takedown request to a single service area
 description: A decentralized storage service's censorship-resistant, replicated design means content blocked, unpinned, or removed in one area (e.g. the official public gateway) typically remains stored on peer nodes and reachable through third-party gateways or pinning services, so a single takedown or block request does not stop further distribution.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1256
+  - LWM-1256
 source_refs:
-  - DFCite-1272
+  - LWCite-1272
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or agency that treats a single successful takedown request as ha
 
 ## References
 
-- [DFCite-1272] Son, Kim, Jung, Bang and Park, 2023, "IF-DSS: A forensic investigation framework for decentralized storage services", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301611.
+- [LWCite-1272] Son, Kim, Jung, Bang and Park, 2023, "IF-DSS: A forensic investigation framework for decentralized storage services", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301611.

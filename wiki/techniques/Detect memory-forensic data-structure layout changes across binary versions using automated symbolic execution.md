@@ -1,16 +1,16 @@
 ---
-id: DFT-2071
+id: LWT-2071
 type: technique
 name: Detect memory-forensic data-structure layout changes across binary versions using automated symbolic execution
 description: Automatically determine which functions within a forensically important binary (e.g. an OS kernel module or userland runtime) access members of a target data structure, and compare that access pattern across different versions of the binary using symbolic execution, to verify whether a memory-analysis framework's known structure-member offsets still hold for a specific target version.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-2074
+  - LWW-2074
 aliases:
   - Seance
 source_refs:
-  - DFCite-2079
+  - LWCite-2079
 updated_at: 2026-08-16
 status: complete
 ---
@@ -40,4 +40,4 @@ For a function known to access a structure of interest, Seance loads the target 
 
 ## References
 
-- [DFCite-2079] Maggio, Case, Ali-Gombe, and Richard III, 2021, "Seance: Divination of tool-breaking changes in forensically important binaries", FSI: Digital Investigation 37, 301189.
+- [LWCite-2079] Maggio, Case, Ali-Gombe, and Richard III, 2021, "Seance: Divination of tool-breaking changes in forensically important binaries", FSI: Digital Investigation 37, 301189.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1122
+id: LWT-1122
 type: technique
 name: Evaluate an IoT forensic framework against a ten-parameter assessment checklist
 description: Score a candidate IoT digital forensic process model or framework against ten defined evaluation parameters — heterogeneity, specificity, scalability, logging mechanism, forensic readiness, ISO certification, authorization, chain-of-custody preservation, evidence integrity, and data extraction methodology — to identify its strengths and gaps before adopting it for an investigation.
 objective_ids:
   - DFO-1015
 weakness_ids:
-  - DFW-1050
+  - LWW-1050
 aliases:
   - Ten-parameter IoT forensic framework assessment metric
   - IoT forensic framework comparative assessment
 source_refs:
-  - DFCite-1121
+  - LWCite-1121
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The ten parameters are: heterogeneity (capacity to incorporate diverse device ty
 
 ## References
 
-- [DFCite-1121] Mahmood et al., 2024, "Comparative study of IoT forensic frameworks", FSI: Digital Investigation 49, 301748.
+- [LWCite-1121] Mahmood et al., 2024, "Comparative study of IoT forensic frameworks", FSI: Digital Investigation 49, 301748.

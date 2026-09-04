@@ -1,15 +1,15 @@
 ---
-id: DFW-1135
+id: LWW-1135
 type: weakness
 name: Conversational AI service-side export and API collection cannot recover conversations the user has already deleted
 description: Collecting only a conversational AI service's account-level export or API data misses conversation content the user has already deleted from their account, since deletion typically removes the server-side record while related content can still persist in local desktop, browser, or mobile app caches.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1135
+  - LWM-1135
 source_refs:
-  - DFCite-1131
-  - DFCite-1226
+  - LWCite-1131
+  - LWCite-1226
 updated_at: 2026-08-13
 status: complete
 ---
@@ -34,5 +34,5 @@ A suspect who deletes an incriminating conversation through the service's own de
 
 ## References
 
-- [DFCite-1131] Cho et al., 2025, "Conversational AI forensics: A case study on ChatGPT, Gemini, Copilot, and Claude", FSI: Digital Investigation 52.
-- [DFCite-1226] Dragonas et al., 2024, "Forensic analysis of OpenAI's ChatGPT mobile application", FSI: Digital Investigation 50, 301801.
+- [LWCite-1131] Cho et al., 2025, "Conversational AI forensics: A case study on ChatGPT, Gemini, Copilot, and Claude", FSI: Digital Investigation 52.
+- [LWCite-1226] Dragonas et al., 2024, "Forensic analysis of OpenAI's ChatGPT mobile application", FSI: Digital Investigation 50, 301801.

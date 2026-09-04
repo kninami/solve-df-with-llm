@@ -1,14 +1,14 @@
 ---
-id: DFW-2095
+id: LWW-2095
 type: weakness
 name: MLLM-agent-driven Android automation frequently fails on dynamic real-time content such as video playback and pop-up advertisements
 description: An MLLM agent that perceives an Android device's screen from discrete screenshots, rather than continuous real-time video, cannot reliably observe or react to content that changes quickly or unpredictably -- such as a video's transient on-screen playback controls, or a pop-up advertisement appearing mid-action -- causing the agent to act on stale screen information and enter repeated failed-action loops until the operation-count threshold is reached.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2096
+  - LWM-2096
 source_refs:
-  - DFCite-2112
+  - LWCite-2112
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on this class of automation framework to conduct a foren
 
 ## References
 
-- [DFCite-2112] Shang, Sakzad, and Hall, 2025, "Thumb: A forensic automation framework leveraging MLLMs and OCR on Android device", FSI: Digital Investigation 54, 301949.
+- [LWCite-2112] Shang, Sakzad, and Hall, 2025, "Thumb: A forensic automation framework leveraging MLLMs and OCR on Android device", FSI: Digital Investigation 54, 301949.

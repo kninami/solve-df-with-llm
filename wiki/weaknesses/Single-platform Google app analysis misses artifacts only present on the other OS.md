@@ -1,14 +1,14 @@
 ---
-id: DFW-1011
+id: LWW-1011
 type: weakness
 name: Single-platform Google app analysis misses artifacts only present on the other OS
 description: Analyzing a Google application on only one of Android or iOS recovers a systematically smaller and different subset of Google Account Information, Device Information, and User Activity History artifacts than the platform's own acquisition rate suggests, because 34 artifact combinations in a 25-app study were recoverable only through cross-platform analysis.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1011
+  - LWM-1011
 source_refs:
-  - DFCite-1006
+  - LWCite-1006
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who examines only the suspect's Android phone (or only their iPh
 
 ## References
 
-- [DFCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.
+- [LWCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.

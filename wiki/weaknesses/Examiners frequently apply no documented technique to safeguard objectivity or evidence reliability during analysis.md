@@ -1,14 +1,14 @@
 ---
-id: DFW-2080
+id: LWW-2080
 type: weakness
 name: Examiners frequently apply no documented technique to safeguard objectivity or evidence reliability during analysis
 description: A substantial proportion of digital forensic practitioners report using no technique at all to maintain examiner objectivity (34%) or to examine and control evidence reliability (38%) during casework analysis, relying instead on unstructured mental discipline or nothing, despite widely published best-practice guidance recommending structured approaches such as multiple competing hypotheses and dual-tool or ground-truth verification.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2081
+  - LWM-2081
 source_refs:
-  - DFCite-2093
+  - LWCite-2093
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An organization or legal system that assumes digital forensic examiners default 
 
 ## References
 
-- [DFCite-2093] Sunde, Nina, 2022, "Strategies for safeguarding examiner objectivity and evidence reliability during digital forensic investigations", FSI: Digital Investigation 40, 301317.
+- [LWCite-2093] Sunde, Nina, 2022, "Strategies for safeguarding examiner objectivity and evidence reliability during digital forensic investigations", FSI: Digital Investigation 40, 301317.

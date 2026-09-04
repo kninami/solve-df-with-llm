@@ -1,9 +1,9 @@
 ---
-id: DFM-1111
+id: LWM-1111
 type: mitigation
 name: Perform deeper save-state internal-structure analysis to reconstruct fine-grained user interaction timelines
 source_refs:
-  - DFCite-1105
+  - LWCite-1105
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Extract and parse each save-state archive's internal components (e.g. a Ren'Py `
 
 ## References
 
-- [DFCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.
+- [LWCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.

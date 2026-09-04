@@ -1,9 +1,9 @@
 ---
-id: DFM-2026
+id: LWM-2026
 type: mitigation
 name: Validate an EM-SCA plug-in's cross-unit portability and account for dynamic clock scaling before relying on its classification
 source_refs:
-  - DFCite-2026
+  - LWCite-2026
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where feasible, spot-check an EM-SCA plug-in's classification against a known-st
 
 ## References
 
-- [DFCite-2026] Sayakkara and Le-Khac, 2021 — Section VII.A's future-work discussion is the basis for both recommendations: validating cross-device portability, and adjusting acquisition to account for DVFS/big.LITTLE-driven frequency dynamics.
+- [LWCite-2026] Sayakkara and Le-Khac, 2021 — Section VII.A's future-work discussion is the basis for both recommendations: validating cross-device portability, and adjusting acquisition to account for DVFS/big.LITTLE-driven frequency dynamics.

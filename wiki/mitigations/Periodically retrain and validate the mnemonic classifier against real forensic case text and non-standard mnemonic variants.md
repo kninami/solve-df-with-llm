@@ -1,9 +1,9 @@
 ---
-id: DFM-2011
+id: LWM-2011
 type: mitigation
 name: Periodically retrain and validate the mnemonic classifier against real forensic case text and non-standard mnemonic variants
 source_refs:
-  - DFCite-2011
+  - LWCite-2011
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where feasible, supplement the classifier's output with a secondary check agains
 
 ## References
 
-- [DFCite-2011] Kao, 2025 — the paper's own future-work discussion recommends larger-scale, more diverse real-world datasets to improve generalizability beyond the synthetic BIP39 training data used in this study.
+- [LWCite-2011] Kao, 2025 — the paper's own future-work discussion recommends larger-scale, more diverse real-world datasets to improve generalizability beyond the synthetic BIP39 training data used in this study.

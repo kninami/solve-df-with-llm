@@ -1,19 +1,19 @@
 ---
-id: DFT-1029
+id: LWT-1029
 type: technique
 name: Recover passwords using a dictionary attack with generated mangling rules on cloud GPUs
 description: Recover a password protecting an encrypted credential (a wallet file, extended private key, seed phrase, or other recovered encrypted artifact) using a dictionary-based offline guessing attack, combining two complementary improvements — automatically generating high-hit-ratio password-mangling rules by clustering real-world leaked-password corpora, and executing the resulting expanded dictionary attack cost-effectively at scale on rented, consumer-grade cloud GPU instances split in parallel — rather than relying on a hand-crafted ruleset or a single machine's guess rate.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1028
-  - DFW-1099
+  - LWW-1028
+  - LWW-1099
 aliases:
   - Dictionary attack password recovery via mangling-rule generation and cloud GPU execution
   - RuleForge
 source_refs:
-  - DFCite-1020
-  - DFCite-1093
+  - LWCite-1020
+  - LWCite-1093
 updated_at: 2026-08-10
 status: complete
 ---
@@ -48,5 +48,5 @@ Before committing to this attack, an investigator can first gauge whether it is 
 
 ## References
 
-- [DFCite-1020] Holmes and Buchanan, 2023, "A framework for live host-based Bitcoin wallet forensics and triage", FSI: Digital Investigation 44.
-- [DFCite-1093] Hranický et al., 2025, "Beyond the dictionary attack: Enhancing password cracking efficiency through machine learning-induced mangling rules", FSI: Digital Investigation 52.
+- [LWCite-1020] Holmes and Buchanan, 2023, "A framework for live host-based Bitcoin wallet forensics and triage", FSI: Digital Investigation 44.
+- [LWCite-1093] Hranický et al., 2025, "Beyond the dictionary attack: Enhancing password cracking efficiency through machine learning-induced mangling rules", FSI: Digital Investigation 52.

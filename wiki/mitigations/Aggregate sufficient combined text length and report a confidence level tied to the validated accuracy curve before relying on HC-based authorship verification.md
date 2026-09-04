@@ -1,9 +1,9 @@
 ---
-id: DFM-1121
+id: LWM-1121
 type: mitigation
 name: Aggregate sufficient combined text length and report a confidence level tied to the validated accuracy curve before relying on HC-based authorship verification
 source_refs:
-  - DFCite-1115
+  - LWCite-1115
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Before running the comparison, sum the character length of all available text fr
 
 ## References
 
-- [DFCite-1115] Le et al., 2021, "ChunkedHCs algorithm for authorship verification problems: Reddit case study", FSI: Digital Investigation 37.
+- [LWCite-1115] Le et al., 2021, "ChunkedHCs algorithm for authorship verification problems: Reddit case study", FSI: Digital Investigation 37.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1133
+id: LWM-1133
 type: mitigation
 name: Stop Bitcoin taint-analysis tracking once tainted funds reach an identified service or mixer address using address and transaction profiling
 source_refs:
-  - DFCite-1129
+  - LWCite-1129
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Before running taint analysis on a case, build or obtain an address-profile data
 
 ## References
 
-- [DFCite-1129] Tironsakkul et al., 2022, "Context matters: Methods for Bitcoin tracking", FSI: Digital Investigation 42-43, 301475.
+- [LWCite-1129] Tironsakkul et al., 2022, "Context matters: Methods for Bitcoin tracking", FSI: Digital Investigation 42-43, 301475.

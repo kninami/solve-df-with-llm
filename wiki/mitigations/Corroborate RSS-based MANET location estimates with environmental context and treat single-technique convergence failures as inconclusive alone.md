@@ -1,9 +1,9 @@
 ---
-id: DFM-2113
+id: LWM-2113
 type: mitigation
 name: Corroborate RSS-based MANET location estimates with environmental context and treat single-technique convergence failures as inconclusive alone
 source_refs:
-  - DFCite-2132
+  - LWCite-2132
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Record the physical deployment environment (indoor/outdoor, known obstacles, wea
 
 ## References
 
-- [DFCite-2132] Ragheb, Safwat, and Azer, 2025, "Unearthing the hidden path of MANET's nodes with signal strength measurements: Forensics challenges, survey and a novel approach for data collection, preservation and examination", FSI: Digital Investigation 53, 301916.
+- [LWCite-2132] Ragheb, Safwat, and Azer, 2025, "Unearthing the hidden path of MANET's nodes with signal strength measurements: Forensics challenges, survey and a novel approach for data collection, preservation and examination", FSI: Digital Investigation 53, 301916.

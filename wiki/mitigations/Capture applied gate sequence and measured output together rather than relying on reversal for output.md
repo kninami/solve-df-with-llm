@@ -1,9 +1,9 @@
 ---
-id: DFM-1037
+id: LWM-1037
 type: mitigation
 name: Capture applied gate sequence and measured output together rather than relying on reversal for output
 source_refs:
-  - DFCite-1027
+  - LWCite-1027
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Record the full sequence of gates applied to a quantum circuit of forensic inter
 
 ## References
 
-- [DFCite-1027] Closser and Bou-Harb, 2022, "A live digital forensics approach for quantum mechanical computers", FSI: Digital Investigation 40.
+- [LWCite-1027] Closser and Bou-Harb, 2022, "A live digital forensics approach for quantum mechanical computers", FSI: Digital Investigation 40.

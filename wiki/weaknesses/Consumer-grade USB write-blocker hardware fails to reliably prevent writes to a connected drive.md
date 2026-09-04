@@ -1,14 +1,14 @@
 ---
-id: DFW-2071
+id: LWW-2071
 type: weakness
 name: Consumer-grade USB write-blocker hardware fails to reliably prevent writes to a connected drive
 description: A budget consumer-grade USB write-block adapter can fail NIST CFTT hardware-write-block validation, allowing sectors on a connected drive to be modified during acquisition despite the device being marketed and configured as a "write protect" tool.
 categories:
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-2071
+  - LWM-2071
 source_refs:
-  - DFCite-2075
+  - LWCite-2075
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ A write blocker that silently fails to block writes is the single most consequen
 
 ## References
 
-- [DFCite-2075] Herrera, 2021, "Viability of Consumer Grade Hardware for Learning Computer Forensics Principles", JDFSL 16(3). Reports FAIL results ("Sectors on the drive were modified during the test") for the CoolGear write-block adapter across SATA SSD (Linux and Windows) and SATA HDD (Windows) test configurations under both the CFTT Federated Testing suite and CRU's Writeblocker Validation Utility.
+- [LWCite-2075] Herrera, 2021, "Viability of Consumer Grade Hardware for Learning Computer Forensics Principles", JDFSL 16(3). Reports FAIL results ("Sectors on the drive were modified during the test") for the CoolGear write-block adapter across SATA SSD (Linux and Windows) and SATA HDD (Windows) test configurations under both the CFTT Federated Testing suite and CRU's Writeblocker Validation Utility.

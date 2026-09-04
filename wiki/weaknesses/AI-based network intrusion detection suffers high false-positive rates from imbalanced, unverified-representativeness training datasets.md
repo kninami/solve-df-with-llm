@@ -1,14 +1,14 @@
 ---
-id: DFW-2015
+id: LWW-2015
 type: weakness
 name: AI-based network intrusion detection suffers high false-positive rates from imbalanced, unverified-representativeness training datasets
 description: AI-based network intrusion detection systems are commonly trained and evaluated on a small set of public benchmark datasets (e.g. CICIDS-2017, CSE-CIC-IDS2018) that remain vulnerable to class imbalance and whose representativeness of real-world network traffic has no universal verification method, contributing to persistently high false-alarm rates in deployed detectors.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-2015
+  - LWM-2015
 source_refs:
-  - DFCite-2015
+  - LWCite-2015
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator or SOC analyst relying on an AI-based NIDS whose training data d
 
 ## References
 
-- [DFCite-2015] Rizvi et al., 2022 — Section III.A.1 and III.B "Current Challenges and Future Directions" discussions explicitly identify dataset-representativeness and class-imbalance-driven false-positive rates as open problems across the surveyed literature.
+- [LWCite-2015] Rizvi et al., 2022 — Section III.A.1 and III.B "Current Challenges and Future Directions" discussions explicitly identify dataset-representativeness and class-imbalance-driven false-positive rates as open problems across the surveyed literature.

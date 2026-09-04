@@ -1,15 +1,15 @@
 ---
-id: DFW-1311
+id: LWW-1311
 type: weakness
 name: Dual-tool verification does not reliably validate digital forensic tool results because tools share libraries and functionality
 description: Law enforcement's common practice of proving a tool result's reliability by cross-checking it against a second, independent tool rests on the assumption that different tools do not make the same errors, but this assumption fails both because different tools frequently reuse the same underlying libraries and functionality and because independent programmers demonstrably tend to make the same categories of errors (N-version programming research), so two tools agreeing does not establish that either is correct.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1313
+  - LWM-1313
 source_refs:
-  - DFCite-1352
-  - DFCite-2093
+  - LWCite-1352
+  - LWCite-2093
 updated_at: 2026-08-16
 status: complete
 ---
@@ -36,5 +36,5 @@ An investigator or organization that relies on dual-tool verification as its pri
 
 ## References
 
-- [DFCite-1352] Nordvik, Stoykova, Franke, Axelsson, and Toolan, 2021, "Reliability validation for file system interpretation", FSI: Digital Investigation 37, 301174.
-- [DFCite-2093] Sunde, Nina, 2022, "Strategies for safeguarding examiner objectivity and evidence reliability during digital forensic investigations", FSI: Digital Investigation 40, 301317. Empirically confirms dual-tool verification is the most common self-reported evidence-reliability technique among surveyed practitioners despite its documented unreliability.
+- [LWCite-1352] Nordvik, Stoykova, Franke, Axelsson, and Toolan, 2021, "Reliability validation for file system interpretation", FSI: Digital Investigation 37, 301174.
+- [LWCite-2093] Sunde, Nina, 2022, "Strategies for safeguarding examiner objectivity and evidence reliability during digital forensic investigations", FSI: Digital Investigation 40, 301317. Empirically confirms dual-tool verification is the most common self-reported evidence-reliability technique among surveyed practitioners despite its documented unreliability.

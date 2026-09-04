@@ -1,9 +1,9 @@
 ---
-id: DFM-1228
+id: LWM-1228
 type: mitigation
 name: Configure a broad default trigger set and a technical-supervisor manual override for autonomous-vehicle forensic incident recorders
 source_refs:
-  - DFCite-1239
+  - LWCite-1239
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Derive the recorder's trigger set from a comprehensive Threat Analysis and Risk 
 
 ## References
 
-- [DFCite-1239] Dološ et al., 2026, "Forensic readiness for autonomous mobility: The forensic incident recorder and information system concept", FSI: Digital Investigation 56, 302044.
+- [LWCite-1239] Dološ et al., 2026, "Forensic readiness for autonomous mobility: The forensic incident recorder and information system concept", FSI: Digital Investigation 56, 302044.

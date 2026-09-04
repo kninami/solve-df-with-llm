@@ -1,9 +1,9 @@
 ---
-id: DFM-1269
+id: LWM-1269
 type: mitigation
 name: Extend the RAM acquisition testbed to FPGA hardware or full CPU emulation before validating real-world LDF tools
 source_refs:
-  - DFCite-1295
+  - LWCite-1295
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Treat the current proof-of-concept as validating the journaling *methodology* on
 
 ## References
 
-- [DFCite-1295] Bergum, Toolan, Stephens and Humphries, 2025, "Live data forensic tool testbed: Proof of concept", FSI: Digital Investigation 54, 301973.
+- [LWCite-1295] Bergum, Toolan, Stephens and Humphries, 2025, "Live data forensic tool testbed: Proof of concept", FSI: Digital Investigation 54, 301973.

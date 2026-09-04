@@ -1,18 +1,18 @@
 ---
-id: DFT-1138
+id: LWT-1138
 type: technique
 name: Extract and map dashcam geospatial and temporal evidence using EXIF and NMEA data
 description: Extract GPS coordinates, speed, and timestamp fields from a dashcam recording's EXIF metadata and companion NMEA sentence file (using a tool such as Exiftool), convert the extracted values into a mapping format such as KML or GPX, and plot the result onto Google Maps, Google Earth, or GPXSee to reconstruct the vehicle's travelled route, speed profile, and recording times.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-1141
+  - LWW-1141
 aliases:
   - Dashcam geospatial evidence extraction workflow
   - Metadata-driven dashcam data analysis
 source_refs:
-  - DFCite-1138
-  - DFCite-2157
+  - LWCite-1138
+  - LWCite-2157
 updated_at: 2026-08-17
 status: complete
 ---
@@ -44,4 +44,4 @@ A broader reverse-engineering study across 14 dashcam models from 11 manufacture
 
 ## References
 
-- [DFCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.
+- [LWCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.

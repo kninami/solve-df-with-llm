@@ -1,9 +1,9 @@
 ---
-id: DFM-2053
+id: LWM-2053
 type: mitigation
 name: Adopt authenticated OTA firmware updates and continuous kernel patching for drone fleets before an incident occurs
 source_refs:
-  - DFCite-2054
+  - LWCite-2054
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where feasible, prioritize drone platforms and vendors that support TLS-certific
 
 ## References
 
-- [DFCite-2054] Salamh et al., 2021 — Section 2.3's discussion of firmware update strategies (handover updates, TLS-secured remote updates) describes the authenticated OTA approach this mitigation recommends adopting in place of public vendor-website distribution.
+- [LWCite-2054] Salamh et al., 2021 — Section 2.3's discussion of firmware update strategies (handover updates, TLS-secured remote updates) describes the authenticated OTA approach this mitigation recommends adopting in place of public vendor-website distribution.

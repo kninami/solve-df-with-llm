@@ -1,14 +1,14 @@
 ---
-id: DFW-2041
+id: LWW-2041
 type: weakness
 name: Black-box device-identification classifiers can learn content or color bias instead of genuine device fingerprints
 description: A deep-learning source-camera/device identification classifier can achieve high reported accuracy by learning incidental content- or color-based patterns correlated with a device in the specific training/test dataset used, rather than the device's intrinsic sensor fingerprint, and because the model is a black box this cannot be detected from accuracy figures or explainability claims alone.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2041
+  - LWM-2041
 source_refs:
-  - DFCite-2042
+  - LWCite-2042
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ Device identification is considered "the last stronghold of classical statistica
 
 ## References
 
-- [DFCite-2042] Mostafa et al., 2025 — the paper's full experimental series (Sections II-V) and Conclusion directly demonstrate this bias across multiple datasets and classifier variants, and cites a real Washington state court decision rejecting AI-enhanced video evidence for exactly this opacity concern.
+- [LWCite-2042] Mostafa et al., 2025 — the paper's full experimental series (Sections II-V) and Conclusion directly demonstrate this bias across multiple datasets and classifier variants, and cites a real Washington state court decision rejecting AI-enhanced video evidence for exactly this opacity concern.

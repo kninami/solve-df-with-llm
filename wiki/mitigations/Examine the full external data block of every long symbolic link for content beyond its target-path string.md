@@ -1,9 +1,9 @@
 ---
-id: DFM-1142
+id: LWM-1142
 type: mitigation
 name: Examine the full external data block of every long symbolic link for content beyond its target-path string
 source_refs:
-  - DFCite-1139
+  - LWCite-1139
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ During examination, enumerate symbolic links across the target file system and, 
 
 ## References
 
-- [DFCite-1139] Toolan and Humphries, 2025, "Data hiding in symbolic link slack space", FSI: Digital Investigation 53.
+- [LWCite-1139] Toolan and Humphries, 2025, "Data hiding in symbolic link slack space", FSI: Digital Investigation 53.

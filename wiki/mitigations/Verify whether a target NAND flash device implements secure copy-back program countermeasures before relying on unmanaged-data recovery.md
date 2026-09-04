@@ -1,9 +1,9 @@
 ---
-id: DFM-2033
+id: LWM-2033
 type: mitigation
 name: Verify whether a target NAND flash device implements secure copy-back program countermeasures before relying on unmanaged-data recovery
 source_refs:
-  - DFCite-2033
+  - LWCite-2033
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Research the target device's specific NAND controller model, firmware version, a
 
 ## References
 
-- [DFCite-2033] Ahn and Lee, 2021 — the paper's own conclusion anticipates future NAND flash memories widely adopting privacy-guaranteeing secure copy-back program designs of the kind it proposes, which investigators should account for when planning chip-level recovery.
+- [LWCite-2033] Ahn and Lee, 2021 — the paper's own conclusion anticipates future NAND flash memories widely adopting privacy-guaranteeing secure copy-back program designs of the kind it proposes, which investigators should account for when planning chip-level recovery.

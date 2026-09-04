@@ -1,9 +1,9 @@
 ---
-id: DFM-1184
+id: LWM-1184
 type: mitigation
 name: Score unclustered recordings individually as singleton clusters instead of excluding them from speaker identification analysis
 source_refs:
-  - DFCite-1187
+  - LWCite-1187
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ After clustering, identify the set of recordings HDBSCAN left unassigned and pas
 
 ## References
 
-- [DFCite-1187] Moura et al., 2024, "Enhancing speaker identification in criminal investigations through clusterization and rank-based scoring", FSI: Digital Investigation 49. Considers interpreting unclustered audio recordings as a single utterance cluster as an alternative to excluding them, while noting the resulting increase in candidate volume.
+- [LWCite-1187] Moura et al., 2024, "Enhancing speaker identification in criminal investigations through clusterization and rank-based scoring", FSI: Digital Investigation 49. Considers interpreting unclustered audio recordings as a single utterance cluster as an alternative to excluding them, while noting the resulting increase in candidate volume.

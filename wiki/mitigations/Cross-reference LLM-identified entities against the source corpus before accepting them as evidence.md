@@ -1,9 +1,9 @@
 ---
-id: DFM-1033
+id: LWM-1033
 type: mitigation
 name: Cross-reference LLM-identified entities against the source corpus before accepting them as evidence
 source_refs:
-  - DFCite-1023
+  - LWCite-1023
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Cross-reference every entity extracted by the language model against the full or
 
 ## References
 
-- [DFCite-1023] Fayyaz et al., 2024, "A hybrid artificial intelligence framework for enhancing digital forensic investigations of infotainment systems", FSI: Digital Investigation 49.
+- [LWCite-1023] Fayyaz et al., 2024, "A hybrid artificial intelligence framework for enhancing digital forensic investigations of infotainment systems", FSI: Digital Investigation 49.

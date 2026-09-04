@@ -1,14 +1,14 @@
 ---
-id: DFW-1287
+id: LWW-1287
 type: weakness
 name: Nintendo 3DS network location data is limited to country and state, insufficient for precise geolocation
 description: The Nintendo 3DS records only the country and state selected by the user during network setup, so location data recovered from the console alone cannot place a device or its owner more precisely than an entire US state (or equivalent), even though this coarse data is retained on the great majority of consoles examined.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1288
+  - LWM-1288
 source_refs:
-  - DFCite-1318
+  - LWCite-1318
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying solely on the console's own recorded location field will
 
 ## References
 
-- [DFCite-1318] Read, Xynos, Sutherland, Bovee, and Tamburro, 2024, "Nintendo 3DS forensics: A secondhand case study", FSI: Digital Investigation 50, 301815.
+- [LWCite-1318] Read, Xynos, Sutherland, Bovee, and Tamburro, 2024, "Nintendo 3DS forensics: A secondhand case study", FSI: Digital Investigation 50, 301815.

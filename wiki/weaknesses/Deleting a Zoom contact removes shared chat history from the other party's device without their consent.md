@@ -1,14 +1,14 @@
 ---
-id: DFW-2137
+id: LWW-2137
 type: weakness
 name: Deleting a Zoom contact removes shared chat history from the other party's device without their consent
 description: When one Zoom user removes another user from their contact list, the shared chat interface, and on some platforms the underlying chat and contact databases, are also cleared on the other (non-deleting) party's device the next time it connects, destroying that party's copy of the shared evidence without their knowledge or permission.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2138
+  - LWM-2138
 source_refs:
-  - DFCite-2158
+  - LWCite-2158
 updated_at: 2026-08-17
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on the Zoom application data of the party who did not in
 
 ## References
 
-- [DFCite-2158] Mahr et al., 2021, "Zooming into the pandemic! A forensic analysis of the Zoom Application", FSI: Digital Investigation 36.
+- [LWCite-2158] Mahr et al., 2021, "Zooming into the pandemic! A forensic analysis of the Zoom Application", FSI: Digital Investigation 36.

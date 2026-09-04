@@ -1,9 +1,9 @@
 ---
-id: DFM-2091
+id: LWM-2091
 type: mitigation
 name: Train frontline investigators on digital forensic unit capabilities and let DFU practitioners take a proactive scene-attendance role
 source_refs:
-  - DFCite-2106
+  - LWCite-2106
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Provide regular training and informal briefing sessions for frontline officers a
 
 ## References
 
-- [DFCite-2106] Ryser and Baechler, 2026, "The implementation of digital forensic science in a Swiss police force", FSI: Digital Investigation 56, 302069.
+- [LWCite-2106] Ryser and Baechler, 2026, "The implementation of digital forensic science in a Swiss police force", FSI: Digital Investigation 56, 302069.

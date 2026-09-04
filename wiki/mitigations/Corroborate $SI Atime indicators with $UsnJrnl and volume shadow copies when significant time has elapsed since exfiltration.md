@@ -1,9 +1,9 @@
 ---
-id: DFM-1155
+id: LWM-1155
 type: mitigation
 name: Corroborate $SI Atime indicators with $UsnJrnl and volume shadow copies when significant time has elapsed since exfiltration
 source_refs:
-  - DFCite-1153
+  - LWCite-1153
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Classify the examination scenario by elapsed time since the suspected incident (
 
 ## References
 
-- [DFCite-1153] Lee, Kim and Jeong, 2026, "Residual forensic indicators of file exfiltration in windows preinstallation environment", FSI: Digital Investigation 56.
+- [LWCite-1153] Lee, Kim and Jeong, 2026, "Residual forensic indicators of file exfiltration in windows preinstallation environment", FSI: Digital Investigation 56.

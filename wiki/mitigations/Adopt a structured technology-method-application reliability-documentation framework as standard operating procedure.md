@@ -1,9 +1,9 @@
 ---
-id: DFM-1312
+id: LWM-1312
 type: mitigation
 name: Adopt a structured technology-method-application reliability-documentation framework as standard operating procedure
 source_refs:
-  - DFCite-1350
+  - LWCite-1350
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Adopt [[techniques/Document digital forensic reliability using a structured tech
 
 ## References
 
-- [DFCite-1350] Stoykova, Andersen, Franke, and Axelsson, 2022, "Reliability assessment of digital forensic investigations in the Norwegian police", FSI: Digital Investigation 40, 301351.
+- [LWCite-1350] Stoykova, Andersen, Franke, and Axelsson, 2022, "Reliability assessment of digital forensic investigations in the Norwegian police", FSI: Digital Investigation 40, 301351.

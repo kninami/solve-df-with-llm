@@ -1,14 +1,14 @@
 ---
-id: DFW-1001
+id: LWW-1001
 type: weakness
 name: ICS anomaly score remains elevated during post-attack recovery causing false positives
 description: BiGAN-based ICS anomaly scoring keeps assigning a high irregularity score during the system-stabilization period after an attack ends, causing the recovery window to be reported as part of the attack.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1001
+  - LWM-1001
 source_refs:
-  - DFCite-1001
+  - LWCite-1001
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Extra false-positive detections after the true attack window inflate the reporte
 
 ## References
 
-- [DFCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.
+- [LWCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.

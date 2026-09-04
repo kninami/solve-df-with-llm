@@ -1,10 +1,10 @@
 ---
-id: DFM-1129
+id: LWM-1129
 type: mitigation
 name: Corroborate unsupervised financial anomaly and clustering output with independent forensic accounting before treating it as confirmed
 source_refs:
-  - DFCite-1125
-  - DFCite-1158
+  - LWCite-1125
+  - LWCite-1158
 updated_at: 2026-08-12
 status: complete
 ---
@@ -25,5 +25,5 @@ When an anomaly-detection or clustering model flags an account or groups account
 
 ## References
 
-- [DFCite-1125] Oliveira et al., 2025, "Complex networks-based anomaly detection for financial transactions in anti-money laundering", FSI: Digital Investigation 55, 302005.
-- [DFCite-1158] Song, 2026, "Detection and prediction of transactional anomalies in blockchain based accounting using mining behavior with Autoencoder-LSTM", FSI: Digital Investigation 58.
+- [LWCite-1125] Oliveira et al., 2025, "Complex networks-based anomaly detection for financial transactions in anti-money laundering", FSI: Digital Investigation 55, 302005.
+- [LWCite-1158] Song, 2026, "Detection and prediction of transactional anomalies in blockchain based accounting using mining behavior with Autoencoder-LSTM", FSI: Digital Investigation 58.

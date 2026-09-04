@@ -1,17 +1,17 @@
 ---
-id: DFT-1011
+id: LWT-1011
 type: technique
 name: Correlate artifacts across applications using shared identifiers
 description: Correlate shared identifiers (file IDs, folder IDs, account/session IDs, or similar keys) across the local databases of multiple applications that synchronize through a common cloud account or backend, to reconstruct user activity that no single application's own artifacts fully capture.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1012
+  - LWW-1012
 aliases:
   - Cross-application artifact correlation via shared identifiers
   - Cross-application Google Drive artifact linking
 source_refs:
-  - DFCite-1006
+  - LWCite-1006
 updated_at: 2026-08-09
 status: complete
 ---
@@ -41,4 +41,4 @@ Each linked pair of applications is joined through a specific identifier: a brow
 
 ## References
 
-- [DFCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.
+- [LWCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.

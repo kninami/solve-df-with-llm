@@ -1,14 +1,14 @@
 ---
-id: DFW-1199
+id: LWW-1199
 type: weakness
 name: ZIP extra-field fingerprints become inconsistent when a file is modified or recompressed using different software than created it
 description: When an existing ZIP archive is later added to, deleted from, or modified using a different application than the one that originally created it, only the headers of the changed entries reflect the modifying application's fingerprint while unchanged entries retain the original application's fingerprint, so a single archive can contain multiple coexisting, contradictory environment fingerprints that a naive single-fingerprint attribution would misread as one consistent creation environment.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1199
+  - LWM-1199
 source_refs:
-  - DFCite-1210
+  - LWCite-1210
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who examines only a single representative entry's extra-field fi
 
 ## References
 
-- [DFCite-1210] Um et al., 2021, "File fingerprinting of the ZIP format for identifying and tracking provenance", FSI: Digital Investigation 39, 301271.
+- [LWCite-1210] Um et al., 2021, "File fingerprinting of the ZIP format for identifying and tracking provenance", FSI: Digital Investigation 39, 301271.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1212
+id: LWM-1212
 type: mitigation
 name: Treat cross-app password-reuse inferences as unverified candidates until tested against the target
 source_refs:
-  - DFCite-1224
+  - LWCite-1224
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Compile recovered secret values from every weakly-secured app on the device, alo
 
 ## References
 
-- [DFCite-1224] Shin et al., 2022, "Forensic analysis of note and journal applications", FSI: Digital Investigation 40.
+- [LWCite-1224] Shin et al., 2022, "Forensic analysis of note and journal applications", FSI: Digital Investigation 40.

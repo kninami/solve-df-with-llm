@@ -1,21 +1,21 @@
 ---
-id: DFT-1108
+id: LWT-1108
 type: technique
 name: Acquire cloud storage data comprehensively using combined open and internal API access
 description: Acquire the full contents of a suspect's cloud storage account by combining a provider's official, publicly documented open API with its unofficial internal API (reverse-engineered from the provider's own web client via network traffic analysis), so that resources and categories the open API does not expose — such as a "Personal Vault" or "Recycle Bin" — are still collected.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1113
+  - LWW-1113
 aliases:
   - CATCH
   - Cloud Data Acquisition through Comprehensive and Hybrid Approaches
   - FOREST
 source_refs:
-  - DFCite-1107
-  - DFCite-1132
-  - DFCite-1245
-  - DFCite-1262
+  - LWCite-1107
+  - LWCite-1132
+  - LWCite-1245
+  - LWCite-1262
 updated_at: 2026-08-13
 status: complete
 ---
@@ -50,6 +50,6 @@ The CATCH framework structures acquisition into four steps: (1) **Authentication
 
 ## References
 
-- [DFCite-1107] Yang et al., 2022, "CATCH: Cloud Data Acquisition through Comprehensive and Hybrid Approaches", FSI: Digital Investigation 43.
-- [DFCite-1245] Jeong et al., 2026, "FOREST: Inspecting and tracking RESTful APIs for constructing a cloud forensic knowledge base", FSI: Digital Investigation 56, 302070.
-- [DFCite-1262] Onik, Spinosa, Asad, and Baggili, 2024, "Hit and run: Forensic vehicle event reconstruction through driver-based cloud data from Progressive's snapshot application", FSI: Digital Investigation 49, 301762.
+- [LWCite-1107] Yang et al., 2022, "CATCH: Cloud Data Acquisition through Comprehensive and Hybrid Approaches", FSI: Digital Investigation 43.
+- [LWCite-1245] Jeong et al., 2026, "FOREST: Inspecting and tracking RESTful APIs for constructing a cloud forensic knowledge base", FSI: Digital Investigation 56, 302070.
+- [LWCite-1262] Onik, Spinosa, Asad, and Baggili, 2024, "Hit and run: Forensic vehicle event reconstruction through driver-based cloud data from Progressive's snapshot application", FSI: Digital Investigation 49, 301762.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1215
+id: LWM-1215
 type: mitigation
 name: Acquire a ReFS volume promptly and enable the Change Journal in advance when ongoing monitoring is anticipated
 source_refs:
-  - DFCite-1227
+  - LWCite-1227
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Prioritize acquisition of ReFS volumes as early as practical once a device or sy
 
 ## References
 
-- [DFCite-1227] Lee et al., 2021, "Forensic analysis of ReFS journaling", FSI: Digital Investigation 38.
+- [LWCite-1227] Lee et al., 2021, "Forensic analysis of ReFS journaling", FSI: Digital Investigation 38.

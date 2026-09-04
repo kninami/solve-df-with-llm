@@ -1,9 +1,9 @@
 ---
-id: DFM-2079
+id: LWM-2079
 type: mitigation
 name: Match a source camera identification method's problem class and target granularity to the specific investigative question before relying on its published accuracy
 source_refs:
-  - DFCite-2089
+  - LWCite-2089
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Use [[techniques/Select a source camera identification method using the verifica
 
 ## References
 
-- [DFCite-2089] Klier and Baier, 2024, "Source Camera Identification - Do we have a gold standard?", FSI: Digital Investigation 52, 301858.
+- [LWCite-2089] Klier and Baier, 2024, "Source Camera Identification - Do we have a gold standard?", FSI: Digital Investigation 52, 301858.

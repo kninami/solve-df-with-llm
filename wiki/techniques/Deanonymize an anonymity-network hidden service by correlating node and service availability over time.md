@@ -1,17 +1,17 @@
 ---
-id: DFT-1274
+id: LWT-1274
 type: technique
 name: Deanonymize an anonymity-network hidden service by correlating node and service availability over time
 description: Narrow the set of candidate nodes delivering a hidden service on an anonymity network (such as I2P) down to a small ranked list by continuously sampling every reachable node's online/offline availability alongside the target service's own availability, and ranking nodes by the Hamming Distance between each node's availability bit-sequence and the target service's, on the assumption that the node actually delivering the service will share its downtime pattern.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1284
+  - LWW-1284
 aliases:
   - I2P monitoring infrastructure deanonymization
   - Availability-correlation deanonymization
 source_refs:
-  - DFCite-1312
+  - LWCite-1312
 updated_at: 2026-08-15
 status: complete
 ---
@@ -41,4 +41,4 @@ A monitoring infrastructure passively samples the network's distributed peer-to-
 
 ## References
 
-- [DFCite-1312] Simioni, Gladyshev, Habibnia, and de Souza, 2021, "Monitoring an anonymity network: Toward the deanonymization of hidden services", FSI: Digital Investigation 38, 301135.
+- [LWCite-1312] Simioni, Gladyshev, Habibnia, and de Souza, 2021, "Monitoring an anonymity network: Toward the deanonymization of hidden services", FSI: Digital Investigation 38, 301135.

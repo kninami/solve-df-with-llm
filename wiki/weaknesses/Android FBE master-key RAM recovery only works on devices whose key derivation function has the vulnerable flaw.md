@@ -1,14 +1,14 @@
 ---
-id: DFW-1294
+id: LWW-1294
 type: weakness
 name: Android FBE master-key RAM recovery only works on devices whose key derivation function has the vulnerable flaw
 description: Because the RAM-based master-key recovery method exploits a specific flaw in Google's key derivation function implementation, it succeeds only on devices whose Android/kernel version still contains that flaw, and fails entirely against devices running a patched KDF, so a negative recovery result does not indicate the device is otherwise inaccessible — only that this specific method does not apply to it.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1295
+  - LWM-1295
 source_refs:
-  - DFCite-1326
+  - LWCite-1326
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who obtains a memory image from an Android device and finds this
 
 ## References
 
-- [DFCite-1326] Groß, Busch, and Müller, 2021, "One key to rule them all: Recovering the master key from RAM to break Android's file-based encryption", FSI: Digital Investigation 36, 301113.
+- [LWCite-1326] Groß, Busch, and Müller, 2021, "One key to rule them all: Recovering the master key from RAM to break Android's file-based encryption", FSI: Digital Investigation 36, 301113.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2130
+id: LWW-2130
 type: weakness
 name: Voluntary self-reported drug data samples only a harm-reduction-conscious subset of the user population
 description: A drug-checking user-report website is populated only by the subset of drug users who are harm-reduction-conscious enough to seek out and post on such a site, so trend intelligence derived from it may not represent the broader user population's actual consumption or trafficking patterns.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2131
+  - LWM-2131
 source_refs:
-  - DFCite-2150
+  - LWCite-2150
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ Intelligence derived from such a source — most-reported logos, regional distri
 
 ## References
 
-- [DFCite-2150] Maybir and Chapman, 2021, "Web scraping of ecstasy user reports as a novel tool for detecting drug market trends", FSI: Digital Investigation 37.
+- [LWCite-2150] Maybir and Chapman, 2021, "Web scraping of ecstasy user reports as a novel tool for detecting drug market trends", FSI: Digital Investigation 37.

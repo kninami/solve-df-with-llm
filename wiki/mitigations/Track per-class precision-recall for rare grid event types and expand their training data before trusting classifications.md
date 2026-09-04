@@ -1,9 +1,9 @@
 ---
-id: DFM-2046
+id: LWM-2046
 type: mitigation
 name: Track per-class precision-recall for rare grid event types and expand their training data before trusting classifications
 source_refs:
-  - DFCite-2047
+  - LWCite-2047
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Request or compute a per-class confusion matrix and precision/recall breakdown f
 
 ## References
 
-- [DFCite-2047] Gopinathan and Shanmugam, 2024 — the paper's own discussion of accuracy's limitations under class imbalance (Section III) is the direct basis for this mitigation's per-class reporting recommendation.
+- [LWCite-2047] Gopinathan and Shanmugam, 2024 — the paper's own discussion of accuracy's limitations under class imbalance (Section III) is the direct basis for this mitigation's per-class reporting recommendation.

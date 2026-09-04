@@ -1,9 +1,9 @@
 ---
-id: DFM-2082
+id: LWM-2082
 type: mitigation
 name: Fall back to jailbreaking or a virtualized iOS platform when native ARM-Mac execution fails to install or run a target application
 source_refs:
-  - DFCite-2095
+  - LWCite-2095
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Attempt native ARM-Mac installation and execution first, since it is lower-cost 
 
 ## References
 
-- [DFCite-2095] Seiden, Webb, and Baggili, 2025, "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs", FSI: Digital Investigation 52, 301871.
+- [LWCite-2095] Seiden, Webb, and Baggili, 2025, "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs", FSI: Digital Investigation 52, 301871.

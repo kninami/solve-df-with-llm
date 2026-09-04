@@ -1,5 +1,5 @@
 ---
-id: DFT-1173
+id: LWT-1173
 type: technique
 name: Detect USB attack platform usage from memory-resident diagnostic telemetry and DHCP artifacts
 description: Scan a post-mortem Windows memory image for Windows diagnostic-telemetry JSON structures and DHCP client log entries — carving and repairing them where partially overwritten — to detect and identify use of a USB-based attack platform (e.g., a USB Rubber Ducky or Bash Bunny), even hours after the device was disconnected.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1019
   - DFO-1017
 weakness_ids:
-  - DFW-1180
+  - LWW-1180
 aliases:
   - Duck Hunt
   - usbhunt / dhcphunt Volatility plugins
 source_refs:
-  - DFCite-1182
+  - LWCite-1182
 updated_at: 2026-08-12
 status: complete
 ---
@@ -42,4 +42,4 @@ Two open-source Volatility 3 plugins implement the technique. `usbhunt` scans me
 
 ## References
 
-- [DFCite-1182] Thomas et al., 2021, "Duck Hunt: Memory forensics of USB attack platforms", FSI: Digital Investigation 37.
+- [LWCite-1182] Thomas et al., 2021, "Duck Hunt: Memory forensics of USB attack platforms", FSI: Digital Investigation 37.

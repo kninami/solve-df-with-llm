@@ -1,16 +1,16 @@
 ---
-id: DFT-1095
+id: LWT-1095
 type: technique
 name: Recover corrupted FIT ride-data files using multi-phase sliding-window carving
 description: Recover valid ride-data records from a corrupted bike computer FIT (Flexible and Interoperable Data Transfer) file by combining multiple data-carving phases — including a sliding-window pattern match that locates definition messages via a regular expression signature rather than relying purely on sequential offset-based parsing — so that data located between or after corrupted portions of the file can still be recovered, instead of the recovery process halting entirely at the first undecodable message.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1101
+  - LWW-1101
 aliases:
   - Multi-phase sliding-window carving recovery of corrupted FIT ride-data files
 source_refs:
-  - DFCite-1095
+  - LWCite-1095
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ The method locates definition messages using a regular expression signature (`[\
 
 ## References
 
-- [DFCite-1095] Song and Oh, 2023, "Bike computer forensics: An efficient and robust method for FIT file recovery", FSI: Digital Investigation 46.
+- [LWCite-1095] Song and Oh, 2023, "Bike computer forensics: An efficient and robust method for FIT file recovery", FSI: Digital Investigation 46.

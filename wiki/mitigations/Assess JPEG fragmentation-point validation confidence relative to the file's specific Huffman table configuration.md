@@ -1,9 +1,9 @@
 ---
-id: DFM-1305
+id: LWM-1305
 type: mitigation
 name: Assess JPEG fragmentation-point validation confidence relative to the file's specific Huffman table configuration
 source_refs:
-  - DFCite-1339
+  - LWCite-1339
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When using [[techniques/Detect a JPEG's fragmentation point using deterministic 
 
 ## References
 
-- [DFCite-1339] van der Meer, van den Bos, Jonker, and Dassen, 2024, "Problem solved: A reliable, deterministic method for JPEG fragmentation point detection", FSI: Digital Investigation 48, 301687.
+- [LWCite-1339] van der Meer, van den Bos, Jonker, and Dassen, 2024, "Problem solved: A reliable, deterministic method for JPEG fragmentation point detection", FSI: Digital Investigation 48, 301687.

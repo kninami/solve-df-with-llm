@@ -1,5 +1,5 @@
 ---
-id: DFT-2079
+id: LWT-2079
 type: technique
 name: Perform dynamic analysis of iOS applications on ARM-based macOS using differential filesystem snapshotting
 description: Install and run an iOS application natively on an ARM-based Mac (leveraging Apple Silicon's ability to run iOS apps directly on macOS), and attribute the files it creates or modifies to specific user actions by taking a filesystem snapshot of the app's sandbox immediately before and after each recorded interaction, without needing a jailbroken or emulated iOS device.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1011
   - DFO-1004
 weakness_ids:
-  - DFW-1090
+  - LWW-1090
 aliases:
   - AppTap
 source_refs:
-  - DFCite-2095
+  - LWCite-2095
 updated_at: 2026-08-16
 status: complete
 ---
@@ -44,4 +44,4 @@ The methodology has four stages. Platform setup requires downgrading the ARM Mac
 
 ## References
 
-- [DFCite-2095] Seiden, Webb, and Baggili, 2025, "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs", FSI: Digital Investigation 52, 301871.
+- [LWCite-2095] Seiden, Webb, and Baggili, 2025, "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs", FSI: Digital Investigation 52, 301871.

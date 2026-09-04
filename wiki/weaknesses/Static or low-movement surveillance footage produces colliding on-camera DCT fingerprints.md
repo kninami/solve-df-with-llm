@@ -1,14 +1,14 @@
 ---
-id: DFW-1043
+id: LWW-1043
 type: weakness
 name: Static or low-movement surveillance footage produces colliding on-camera DCT fingerprints
 description: Two frames or entire clips of the same static or near-static scene, captured at different times with no meaningful movement or change, produce identical or near-identical DCT DC-coefficient fingerprints, making it impossible for the correlation-based identification method to distinguish which specific time period a given clip actually corresponds to.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1043
+  - LWM-1043
 source_refs:
-  - DFCite-1033
+  - LWCite-1033
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ If a query clip's fingerprint collides with multiple stored blockchain entries f
 
 ## References
 
-- [DFCite-1033] Kerr et al., 2023, "A non-invasive method for the cataloguing and authentication of surveillance video using on-camera blockchain participation, machine learning and signal analysis", FSI: Digital Investigation 46.
+- [LWCite-1033] Kerr et al., 2023, "A non-invasive method for the cataloguing and authentication of surveillance video using on-camera blockchain participation, machine learning and signal analysis", FSI: Digital Investigation 46.

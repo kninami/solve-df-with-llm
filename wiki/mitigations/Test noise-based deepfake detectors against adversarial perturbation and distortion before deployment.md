@@ -1,9 +1,9 @@
 ---
-id: DFM-1154
+id: LWM-1154
 type: mitigation
 name: Test noise-based deepfake detectors against adversarial perturbation and distortion before deployment
 source_refs:
-  - DFCite-1152
+  - LWCite-1152
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Construct or obtain a test set of deepfake videos deliberately perturbed with no
 
 ## References
 
-- [DFCite-1152] Wang et al., 2022, "Deepfake noise investigation and detection", FSI: Digital Investigation 42.
+- [LWCite-1152] Wang et al., 2022, "Deepfake noise investigation and detection", FSI: Digital Investigation 42.

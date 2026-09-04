@@ -1,14 +1,14 @@
 ---
-id: DFW-1118
+id: LWW-1118
 type: weakness
 name: LLM-generated regular expressions can be inconsistent with the model's own provided test examples and omit format edge cases
 description: An LLM-generated regular expression can fail to match the very test examples the same model supplied to demonstrate it, and can silently omit valid format variants (such as whitespace-separated digit groups or lowercase top-level domains) that a real-world target string would use, producing false negatives in a keyword or pattern search.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1118
+  - LWM-1118
 source_refs:
-  - DFCite-1110
+  - LWCite-1110
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who deploys an LLM-generated regular expression in a real keywor
 
 ## References
 
-- [DFCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.
+- [LWCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.

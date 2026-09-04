@@ -1,9 +1,9 @@
 ---
-id: DFM-2138
+id: LWM-2138
 type: mitigation
 name: Acquire Zoom evidence promptly from all involved devices before a contact deletion can propagate
 source_refs:
-  - DFCite-2158
+  - LWCite-2158
 updated_at: 2026-08-17
 status: complete
 ---
@@ -24,4 +24,4 @@ Where a case involves communication between two or more identified Zoom users, s
 
 ## References
 
-- [DFCite-2158] Mahr et al., 2021, "Zooming into the pandemic! A forensic analysis of the Zoom Application", FSI: Digital Investigation 36.
+- [LWCite-2158] Mahr et al., 2021, "Zooming into the pandemic! A forensic analysis of the Zoom Application", FSI: Digital Investigation 36.

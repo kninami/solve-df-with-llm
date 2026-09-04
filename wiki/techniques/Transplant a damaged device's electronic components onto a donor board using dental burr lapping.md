@@ -1,17 +1,17 @@
 ---
-id: DFT-1263
+id: LWT-1263
 type: technique
 name: Transplant a damaged device's electronic components onto a donor board using dental burr lapping
 description: Repair a device whose main board is too badly damaged to power on or read by transferring its critical components (memory, processor, or crypto-chip) onto an identical, functional donor board, using a dental control unit's burr and drill (rather than hot-air desoldering) to lap away the damaged board's material layer by layer and free the components without overheating or physically stressing them, then re-soldering them onto the donor board.
 objective_ids:
   - DFO-1021
 weakness_ids:
-  - DFW-1023
+  - LWW-1023
 aliases:
   - Forensic IT transplantation
   - Donor board preparation by dental burr lapping
 source_refs:
-  - DFCite-1302
+  - LWCite-1302
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ Because small, densely-packed electronic components are not held to the PCB unif
 
 ## References
 
-- [DFCite-1302] Heckmann, Souvignet, Sauveron and Naccache, 2021, "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment", FSI: Digital Investigation 36, 301092.
+- [LWCite-1302] Heckmann, Souvignet, Sauveron and Naccache, 2021, "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment", FSI: Digital Investigation 36, 301092.

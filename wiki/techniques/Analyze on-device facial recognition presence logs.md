@@ -1,17 +1,17 @@
 ---
-id: DFT-1004
+id: LWT-1004
 type: technique
 name: Analyze on-device facial recognition presence logs
 description: Parse locally stored facial-recognition logs and enrollment databases on a smart device that performs face detection/matching entirely on-device, to establish which enrolled or unknown individuals were present, and when, independent of network connectivity.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1004
+  - LWW-1004
 aliases:
   - On-device facial recognition presence log analysis
   - Offline Visual ID presence log analysis
 source_refs:
-  - DFCite-1002
+  - LWCite-1002
 updated_at: 2026-08-09
 status: complete
 ---
@@ -40,4 +40,4 @@ During enrollment, the device generates a large feature vector stored in a local
 
 ## References
 
-- [DFCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.
+- [LWCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.

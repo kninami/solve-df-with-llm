@@ -1,14 +1,14 @@
 ---
-id: DFW-1142
+id: LWW-1142
 type: weakness
 name: Forensic tools examining a symbolic link's target string miss hidden data in the link's external block slack space
 description: Forensic tools and manual examination that read a symbolic link only through its resolved target-path string do not surface data stored in the unused remainder of an externally allocated symlink data block, since that space lies outside what the file-system's own symlink-reading interface considers part of the link's content.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1142
+  - LWM-1142
 source_refs:
-  - DFCite-1139
+  - LWCite-1139
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ Because symbolic links are common, unremarkable file-system objects and their ta
 
 ## References
 
-- [DFCite-1139] Toolan and Humphries, 2025, "Data hiding in symbolic link slack space", FSI: Digital Investigation 53.
+- [LWCite-1139] Toolan and Humphries, 2025, "Data hiding in symbolic link slack space", FSI: Digital Investigation 53.

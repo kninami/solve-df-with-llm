@@ -1,17 +1,17 @@
 ---
-id: DFT-1073
+id: LWT-1073
 type: technique
 name: Assess and design for digital forensic readiness
 description: Improve an organization's or system's digital forensic readiness (DFR) — its ability to maximize the use of digital evidence while minimizing the cost of an investigation — either after the fact, by assessing an existing organization's maturity against a structured domain/sub-domain commonalities framework, or up front, by integrating forensic requirements into a system's design and development lifecycle ("forensic-by-design") so that forensic readiness is built in rather than bolted on.
 objective_ids:
   - DFO-1015
 weakness_ids:
-  - DFW-1078
-  - DFW-1079
-  - DFW-1186
-  - DFW-1228
-  - DFW-1235
-  - DFW-2061
+  - LWW-1078
+  - LWW-1079
+  - LWW-1186
+  - LWW-1228
+  - LWW-1235
+  - LWW-2061
 aliases:
   - Digital forensic readiness assessment and by-design frameworks
   - DFRCF
@@ -28,13 +28,13 @@ aliases:
   - Forensic Readiness for Material Extrusion based Printing Process
   - DFR framework for BYOD using honeypot and honeynet
 source_refs:
-  - DFCite-1068
-  - DFCite-1069
-  - DFCite-1161
-  - DFCite-1189
-  - DFCite-1239
-  - DFCite-1250
-  - DFCite-2063
+  - LWCite-1068
+  - LWCite-1069
+  - LWCite-1161
+  - LWCite-1189
+  - LWCite-1239
+  - LWCite-1250
+  - LWCite-2063
 updated_at: 2026-08-15
 status: complete
 ---
@@ -86,10 +86,10 @@ Organizations that lack a way to measure or build in their forensic readiness ar
 
 ## References
 
-- [DFCite-1068] Bankole et al., 2022, "An extended digital forensic readiness and maturity model", FSI: Digital Investigation 40.
-- [DFCite-1069] Akilal and Kechadi, 2022, "An improved forensic-by-design framework for cloud computing with systems engineering standard compliance", FSI: Digital Investigation 40.
-- [DFCite-1161] Omeleze Baror et al., 2026, "DFR–HCI: A forensic-ready microservice architecture for human-to-human communication-based cybercrime detection", FSI: Digital Investigation 58, 302134.
-- [DFCite-1189] Manral and Somani, 2021, "Establishing forensics capabilities in the presence of superuser insider threats", FSI: Digital Investigation 38, 301263. Proposes the Log-of-logs framework, replicating forensically relevant local artifacts to an isolated, hash-chained remote server outside a superuser's privilege domain.
-- [DFCite-1239] Dološ et al., 2026, "Forensic readiness for autonomous mobility: The forensic incident recorder and information system concept", FSI: Digital Investigation 56, 302044.
-- [DFCite-1250] Rais et al., 2023, "FRoMEPP: Digital forensic readiness framework for material extrusion based 3D printing process", FSI: Digital Investigation 44, 301510.
-- [DFCite-2063] Asante & Amankona, 2021, "Digital Forensic Readiness Framework Based on Honeypot and Honeynet for BYOD", JDFSL 16(2). Proposes the DFR-BYOD framework combining low- and high-interaction honeypots, MDM, and space isolation to detect security incidents and capture PDE in BYOD environments, aligned with ISO/IEC 27043.
+- [LWCite-1068] Bankole et al., 2022, "An extended digital forensic readiness and maturity model", FSI: Digital Investigation 40.
+- [LWCite-1069] Akilal and Kechadi, 2022, "An improved forensic-by-design framework for cloud computing with systems engineering standard compliance", FSI: Digital Investigation 40.
+- [LWCite-1161] Omeleze Baror et al., 2026, "DFR–HCI: A forensic-ready microservice architecture for human-to-human communication-based cybercrime detection", FSI: Digital Investigation 58, 302134.
+- [LWCite-1189] Manral and Somani, 2021, "Establishing forensics capabilities in the presence of superuser insider threats", FSI: Digital Investigation 38, 301263. Proposes the Log-of-logs framework, replicating forensically relevant local artifacts to an isolated, hash-chained remote server outside a superuser's privilege domain.
+- [LWCite-1239] Dološ et al., 2026, "Forensic readiness for autonomous mobility: The forensic incident recorder and information system concept", FSI: Digital Investigation 56, 302044.
+- [LWCite-1250] Rais et al., 2023, "FRoMEPP: Digital forensic readiness framework for material extrusion based 3D printing process", FSI: Digital Investigation 44, 301510.
+- [LWCite-2063] Asante & Amankona, 2021, "Digital Forensic Readiness Framework Based on Honeypot and Honeynet for BYOD", JDFSL 16(2). Proposes the DFR-BYOD framework combining low- and high-interaction honeypots, MDM, and space isolation to detect security incidents and capture PDE in BYOD environments, aligned with ISO/IEC 27043.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2082
+id: LWW-2082
 type: weakness
 name: Powering off or logging out of a live Linux system with disk or directory encryption enabled permanently forecloses low-cost data access
 description: Linux full-disk encryption (LUKS/dm-crypt) and per-directory encryption (eCryptfs, fscrypt) are each dramatically easier to access while the target system is live and the relevant user account is logged in and unlocked; powering off the system or logging out the account without first capturing a recovery key, unwrapped passphrase, or decrypted image forces the investigation into password-cracking or key-recovery as the only remaining option, which may not succeed at all.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2083
+  - LWM-2083
 source_refs:
-  - DFCite-2096
+  - LWCite-2096
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ Standard forensic procedure often defaults toward powering down a system to pres
 
 ## References
 
-- [DFCite-2096] Findlay, Ben, 2024, "Techniques and methods for obtaining access to data protected by linux-based encryption -- A reference guide for practitioners", FSI: Digital Investigation 48, 301662.
+- [LWCite-2096] Findlay, Ben, 2024, "Techniques and methods for obtaining access to data protected by linux-based encryption -- A reference guide for practitioners", FSI: Digital Investigation 48, 301662.

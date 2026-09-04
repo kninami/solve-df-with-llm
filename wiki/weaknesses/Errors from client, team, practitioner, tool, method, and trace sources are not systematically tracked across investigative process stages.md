@@ -1,5 +1,5 @@
 ---
-id: DFW-2079
+id: LWW-2079
 type: weakness
 name: Errors from client, team, practitioner, tool, method, and trace sources are not systematically tracked across investigative process stages
 description: A digital forensic investigation can accumulate errors from six distinct sources -- the requesting client, the wider investigative team, the practitioner, tools/instruments, methods, and the trace itself -- at any of roughly ten stages from initial request through to giving evidence in court, but without an explicit framework mapping which sources can introduce error at which stage, organizations lack a systematic basis for targeting quality-assurance effort and error mitigation where it matters most.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2080
+  - LWM-2080
 source_refs:
-  - DFCite-2090
+  - LWCite-2090
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An organization's quality-assurance program that only audits tool output for cor
 
 ## References
 
-- [DFCite-2090] Horsman, 2024, "Sources of error in digital forensics", FSI: Digital Investigation 48, 301693.
+- [LWCite-2090] Horsman, 2024, "Sources of error in digital forensics", FSI: Digital Investigation 48, 301693.

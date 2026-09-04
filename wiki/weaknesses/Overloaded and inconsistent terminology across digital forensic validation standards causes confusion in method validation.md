@@ -1,14 +1,14 @@
 ---
-id: DFW-2094
+id: LWW-2094
 type: weakness
 name: Overloaded and inconsistent terminology across digital forensic validation standards causes confusion in method validation
 description: Key terms used across digital forensic method-validation standards and guidance documents (e.g. "verification," "customer," "end-user," "requirement") carry different, sometimes conflicting, meanings between ISO/IEC 17025, ISO/IEC 27041/27042, ILAC G19, and national forensic-regulator codes of practice, so an organization applying multiple such documents together risks misapplying or misinterpreting validation requirements due to term overload rather than any genuine disagreement about substantive practice.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2095
+  - LWM-2095
 source_refs:
-  - DFCite-2111
+  - LWCite-2111
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An organization or practitioner who applies "verification" from one standard whi
 
 ## References
 
-- [DFCite-2111] Marshall, Angus M., 2022, "The unwanted effects of imprecise language in forensic science standards", FSI: Digital Investigation 40, 301349.
+- [LWCite-2111] Marshall, Angus M., 2022, "The unwanted effects of imprecise language in forensic science standards", FSI: Digital Investigation 40, 301349.

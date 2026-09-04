@@ -1,9 +1,9 @@
 ---
-id: DFM-1001
+id: LWM-1001
 type: mitigation
 name: Exclude recovery-period instability from ICS attack detection window
 source_refs:
-  - DFCite-1001
+  - LWCite-1001
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When reviewing anomaly-inference output, cross-reference the sustained-high-scor
 
 ## References
 
-- [DFCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.
+- [LWCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1095
+id: LWM-1095
 type: mitigation
 name: Manually review Tree-CNN classifications for visually similar category pairs and use the model for semi-automated triage only
 source_refs:
-  - DFCite-1087
+  - LWCite-1087
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify which category pairs in the taxonomy are visually similar in content (e
 
 ## References
 
-- [DFCite-1087] Abraham et al., 2021, "Automatically classifying crime scene images using machine learning methodologies", FSI: Digital Investigation 39.
+- [LWCite-1087] Abraham et al., 2021, "Automatically classifying crime scene images using machine learning methodologies", FSI: Digital Investigation 39.

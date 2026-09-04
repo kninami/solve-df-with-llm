@@ -1,9 +1,9 @@
 ---
-id: DFM-1291
+id: LWM-1291
 type: mitigation
 name: Benchmark a JIT interpreter's memory-forensics speedup on local hardware and workload before adopting it for casework
 source_refs:
-  - DFCite-1321
+  - LWCite-1321
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Using [[techniques/Accelerate Volatility memory-forensics processing using an al
 
 ## References
 
-- [DFCite-1321] Gharaibeh, Baggili, and Mahmoud, 2024, "On enhancing memory forensics with FAME: Framework for advanced monitoring and execution", FSI: Digital Investigation 49, 301757.
+- [LWCite-1321] Gharaibeh, Baggili, and Mahmoud, 2024, "On enhancing memory forensics with FAME: Framework for advanced monitoring and execution", FSI: Digital Investigation 49, 301757.

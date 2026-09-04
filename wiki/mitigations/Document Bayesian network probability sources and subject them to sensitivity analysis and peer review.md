@@ -1,9 +1,9 @@
 ---
-id: DFM-1187
+id: LWM-1187
 type: mitigation
 name: Document Bayesian network probability sources and subject them to sensitivity analysis and peer review
 source_refs:
-  - DFCite-1190
+  - LWCite-1190
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Keep the constructed Bayesian network (node structure, conditional probability t
 
 ## References
 
-- [DFCite-1190] Vink et al., 2025, "Evaluating digital forensic findings in Trojan horse defense cases using Bayesian networks", FSI: Digital Investigation 55, 302023.
+- [LWCite-1190] Vink et al., 2025, "Evaluating digital forensic findings in Trojan horse defense cases using Bayesian networks", FSI: Digital Investigation 55, 302023.

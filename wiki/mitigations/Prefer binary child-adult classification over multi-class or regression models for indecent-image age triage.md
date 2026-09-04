@@ -1,9 +1,9 @@
 ---
-id: DFM-1127
+id: LWM-1127
 type: mitigation
 name: Prefer binary child-adult classification over multi-class or regression models for indecent-image age triage
 source_refs:
-  - DFCite-1122
+  - LWCite-1122
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ When integrating an age-estimation model into a forensic image-review workflow, 
 
 ## References
 
-- [DFCite-1122] Roopak et al., 2023, "Comparison of deep learning classification models for facial image age estimation in digital forensic investigations", FSI: Digital Investigation 47, 301637.
+- [LWCite-1122] Roopak et al., 2023, "Comparison of deep learning classification models for facial image age estimation in digital forensic investigations", FSI: Digital Investigation 47, 301637.

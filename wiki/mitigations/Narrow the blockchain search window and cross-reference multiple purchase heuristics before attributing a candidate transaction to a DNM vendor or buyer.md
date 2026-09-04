@@ -1,9 +1,9 @@
 ---
-id: DFM-1107
+id: LWM-1107
 type: mitigation
 name: Narrow the blockchain search window and cross-reference multiple purchase heuristics before attributing a candidate transaction to a DNM vendor or buyer
 source_refs:
-  - DFCite-1101
+  - LWCite-1101
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Keep the scraping interval that defines the purchase detection window as short a
 
 ## References
 
-- [DFCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.
+- [LWCite-1101] Dolejška et al., 2023, "Busting up Monopoly: Methods for modern darknet marketplace forensics", FSI: Digital Investigation 46.

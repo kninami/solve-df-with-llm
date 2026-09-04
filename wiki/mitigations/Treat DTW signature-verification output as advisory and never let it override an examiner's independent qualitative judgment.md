@@ -1,9 +1,9 @@
 ---
-id: DFM-1076
+id: LWM-1076
 type: mitigation
 name: Treat DTW signature-verification output as advisory and never let it override an examiner's independent qualitative judgment
 source_refs:
-  - DFCite-1066
+  - LWCite-1066
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Report the DTW similarity result alongside, not in place of, the examiner's own 
 
 ## References
 
-- [DFCite-1066] Mazzolini et al., 2021, "An easy-to-explain decision support framework for forensic analysis of dynamic signatures", FSI: Digital Investigation 38.
+- [LWCite-1066] Mazzolini et al., 2021, "An easy-to-explain decision support framework for forensic analysis of dynamic signatures", FSI: Digital Investigation 38.

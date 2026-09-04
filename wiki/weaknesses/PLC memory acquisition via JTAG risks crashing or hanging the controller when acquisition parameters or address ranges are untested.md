@@ -1,5 +1,5 @@
 ---
-id: DFW-1263
+id: LWW-1263
 type: weakness
 name: PLC memory acquisition via JTAG risks crashing or hanging the controller when acquisition parameters or address ranges are untested
 description: JTAG was designed for hardware fault debugging, not forensic memory acquisition, so reading an untested address range or using overly aggressive timing parameters against a live PLC can crash or hang the controller — an unacceptable outcome for a device directly controlling a physical industrial process, and one that is not knowable in advance without prior testing.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-1264
+  - LWM-1264
 source_refs:
-  - DFCite-1284
+  - LWCite-1284
 updated_at: 2026-08-14
 status: complete
 ---
@@ -34,4 +34,4 @@ A PLC directly controls a physical industrial process (e.g. a power grid station
 
 ## References
 
-- [DFCite-1284] Rais, Awad, Lopez and Ahmed, 2021, "JTAG-based PLC memory acquisition framework for industrial control systems", DFRWS 2021 USA; FSI: Digital Investigation 37, 301196.
+- [LWCite-1284] Rais, Awad, Lopez and Ahmed, 2021, "JTAG-based PLC memory acquisition framework for industrial control systems", DFRWS 2021 USA; FSI: Digital Investigation 37, 301196.

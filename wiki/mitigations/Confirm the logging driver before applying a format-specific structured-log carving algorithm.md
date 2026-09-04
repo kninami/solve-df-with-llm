@@ -1,9 +1,9 @@
 ---
-id: DFM-1045
+id: LWM-1045
 type: mitigation
 name: Confirm the logging driver before applying a format-specific structured-log carving algorithm
 source_refs:
-  - DFCite-1035
+  - LWCite-1035
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Where possible, check the container platform's configuration (e.g., Docker daemo
 
 ## References
 
-- [DFCite-1035] Ge et al., 2021, "A novel file carving algorithm for docker container logs recorded by json-file logging driver", FSI: Digital Investigation 39.
+- [LWCite-1035] Ge et al., 2021, "A novel file carving algorithm for docker container logs recorded by json-file logging driver", FSI: Digital Investigation 39.

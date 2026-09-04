@@ -1,17 +1,17 @@
 ---
-id: DFT-1182
+id: LWT-1182
 type: technique
 name: Prioritize fog computing nodes for evidence collection using graph centrality measures
 description: Rank the candidate nodes of a fog computing network by their estimated probability of containing relevant data-processing evidence, using a path-based graph-centrality measure weighted by network latency, so that limited investigative resources are directed first at the nodes most likely to yield evidence rather than searched exhaustively or arbitrarily.
 objective_ids:
   - DFO-1005
 weakness_ids:
-  - DFW-1189
+  - LWW-1189
 aliases:
   - Fog node evidence-location triage
   - Path-based internode weighting
 source_refs:
-  - DFCite-1194
+  - LWCite-1194
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ For a source (data-generating) node and a set of target (data-consuming) nodes, 
 
 ## References
 
-- [DFCite-1194] Sandvik et al., 2023, "Evidence in the fog - Triage in fog computing systems", FSI: Digital Investigation 44, 301506.
+- [LWCite-1194] Sandvik et al., 2023, "Evidence in the fog - Triage in fog computing systems", FSI: Digital Investigation 44, 301506.

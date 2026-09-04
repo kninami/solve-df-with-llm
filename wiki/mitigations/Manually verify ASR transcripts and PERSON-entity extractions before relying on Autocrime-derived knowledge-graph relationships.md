@@ -1,10 +1,10 @@
 ---
-id: DFM-1094
+id: LWM-1094
 type: mitigation
 name: Manually verify ASR transcripts and PERSON-entity extractions before relying on Autocrime-derived knowledge-graph relationships
 source_refs:
-  - DFCite-1086
-  - DFCite-2091
+  - LWCite-1086
+  - LWCite-2091
 updated_at: 2026-08-16
 status: complete
 ---
@@ -25,5 +25,5 @@ Before relying on a speaker/entity relationship in the platform's knowledge grap
 
 ## References
 
-- [DFCite-1086] Madikeri et al., 2025, "Autocrime - open multimodal platform for combating organized crime", FSI: Digital Investigation 54.
-- [DFCite-2091] Negrao and Domingues, 2021, "SpeechToText: An open-source software for automatic detection and transcription of voice recordings in digital forensics", FSI: Digital Investigation 38, 301223.
+- [LWCite-1086] Madikeri et al., 2025, "Autocrime - open multimodal platform for combating organized crime", FSI: Digital Investigation 54.
+- [LWCite-2091] Negrao and Domingues, 2021, "SpeechToText: An open-source software for automatic detection and transcription of voice recordings in digital forensics", FSI: Digital Investigation 38, 301223.

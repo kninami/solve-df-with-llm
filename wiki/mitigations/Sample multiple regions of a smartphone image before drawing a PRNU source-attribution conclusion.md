@@ -1,9 +1,9 @@
 ---
-id: DFM-1314
+id: LWM-1314
 type: mitigation
 name: Sample multiple regions of a smartphone image before drawing a PRNU source-attribution conclusion
 source_refs:
-  - DFCite-1353
+  - LWCite-1353
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Apply [[techniques/Identify a smartphone photo's source camera using multi-patch
 
 ## References
 
-- [DFCite-1353] Liang, Gao, and Xu, 2025, "Research on smartphone image source identification based on PRNU features collected multivariate sampling strategy", FSI: Digital Investigation 54, 301991.
+- [LWCite-1353] Liang, Gao, and Xu, 2025, "Research on smartphone image source identification based on PRNU features collected multivariate sampling strategy", FSI: Digital Investigation 54, 301991.

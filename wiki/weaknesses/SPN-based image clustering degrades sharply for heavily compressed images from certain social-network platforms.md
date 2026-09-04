@@ -1,5 +1,5 @@
 ---
-id: DFW-2116
+id: LWW-2116
 type: weakness
 name: SPN-based image clustering degrades sharply for heavily compressed images from certain social-network platforms
 description: Sensor-pattern-noise-based image clustering accuracy varies substantially depending on which social-network platform's compression pipeline processed the images being clustered, with heavily-compressed low-resolution variants (e.g. a platform's "low resolution" tier) showing markedly lower precision, recall, and outlier-detection accuracy than the same images' higher-resolution or native variants, because aggressive compression degrades the sensor pattern noise signal the clustering depends on.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2117
+  - LWM-2117
 source_refs:
-  - DFCite-2136
+  - LWCite-2136
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator applying this clustering technique to images collected from a pl
 
 ## References
 
-- [DFCite-2136] Rouhi, Bertini, and Montesi, 2021, "User profiles' image clustering for digital investigations", FSI: Digital Investigation 38, 301171.
+- [LWCite-2136] Rouhi, Bertini, and Montesi, 2021, "User profiles' image clustering for digital investigations", FSI: Digital Investigation 38, 301171.

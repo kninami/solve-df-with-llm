@@ -1,9 +1,9 @@
 ---
-id: DFM-1098
+id: LWM-1098
 type: mitigation
 name: Use spatial-encoding-aware distance metrics instead of Hamming Distance for DCT-based perceptual hash comparison
 source_refs:
-  - DFCite-1091
+  - LWCite-1091
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ For DCT-based perceptual hash content-matching pipelines (e.g. detecting known i
 
 ## References
 
-- [DFCite-1091] McKeown, 2025, "Beyond Hamming Distance: Exploring spatial encoding in perceptual hashes", FSI: Digital Investigation 52.
+- [LWCite-1091] McKeown, 2025, "Beyond Hamming Distance: Exploring spatial encoding in perceptual hashes", FSI: Digital Investigation 52.

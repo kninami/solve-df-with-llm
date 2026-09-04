@@ -1,14 +1,14 @@
 ---
-id: DFW-1021
+id: LWW-1021
 type: weakness
 name: Read-only mount cloud acquisition does not preserve original directory timestamps
 description: When cloud storage is acquired via a read-only mount and copy operation, file-level modification timestamps are preserved but directory-level timestamps are not — every copied directory is instead stamped with the time the acquisition command was executed, silently discarding the original directory timestamp metadata.
 categories:
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-1021
+  - LWM-1021
 source_refs:
-  - DFCite-1014
+  - LWCite-1014
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who examines directory timestamps after acquisition (e.g., to es
 
 ## References
 
-- [DFCite-1014] Breitinger et al., 2022, "A forensic analysis of rclone and rclone's prospects for digital forensic investigations of cloud storage", FSI: Digital Investigation 43.
+- [LWCite-1014] Breitinger et al., 2022, "A forensic analysis of rclone and rclone's prospects for digital forensic investigations of cloud storage", FSI: Digital Investigation 43.

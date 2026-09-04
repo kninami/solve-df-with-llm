@@ -1,9 +1,9 @@
 ---
-id: DFM-2131
+id: LWM-2131
 type: mitigation
 name: Corroborate web-scraped drug-report trends against independent wastewater or population-survey data
 source_refs:
-  - DFCite-2150
+  - LWCite-2150
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Obtain the most recent available wastewater-based drug monitoring data or nation
 
 ## References
 
-- [DFCite-2150] Maybir and Chapman, 2021, "Web scraping of ecstasy user reports as a novel tool for detecting drug market trends", FSI: Digital Investigation 37.
+- [LWCite-2150] Maybir and Chapman, 2021, "Web scraping of ecstasy user reports as a novel tool for detecting drug market trends", FSI: Digital Investigation 37.

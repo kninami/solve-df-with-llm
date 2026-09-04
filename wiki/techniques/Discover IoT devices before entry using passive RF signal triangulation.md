@@ -1,16 +1,16 @@
 ---
-id: DFT-1026
+id: LWT-1026
 type: technique
 name: Discover IoT devices before entry using passive RF signal triangulation
 description: Before entering a scene, passively monitor the radio frequencies used by low-rate, short-range IoT wireless protocols (e.g., Zigbee, ZWave, IEEE 802.15.4) from multiple positions around its perimeter to discover, count, and estimate the physical locations of IoT devices without alerting an occupant or triggering evidence destruction.
 objective_ids:
   - DFO-1014
 weakness_ids:
-  - DFW-1026
+  - LWW-1026
 aliases:
   - Passive RF signal triangulation for pre-entry IoT device discovery
 source_refs:
-  - DFCite-1018
+  - LWCite-1018
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ The process has three stages. First (Observe), radio modules positioned around a
 
 ## References
 
-- [DFCite-1018] Jacob and Nisbet, 2022, "A forensic investigation framework for Internet of Things monitoring", FSI: Digital Investigation 42-43.
+- [LWCite-1018] Jacob and Nisbet, 2022, "A forensic investigation framework for Internet of Things monitoring", FSI: Digital Investigation 42-43.

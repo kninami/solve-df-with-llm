@@ -1,14 +1,14 @@
 ---
-id: DFW-1012
+id: LWW-1012
 type: weakness
 name: Google file-sharing activity untraceable within a single app's own artifacts
 description: When a file moves between Google applications (e.g., downloaded via Chrome and saved to Drive, or attached to a Gmail message from Drive), the receiving or sending application's own database does not record the cross-application provenance, so relying on any one app's artifacts in isolation misrepresents how the file reached the user.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1012
+  - LWM-1012
 source_refs:
-  - DFCite-1006
+  - LWCite-1006
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An examiner working from a single application's artifact set risks concluding a 
 
 ## References
 
-- [DFCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.
+- [LWCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.

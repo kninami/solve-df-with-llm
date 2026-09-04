@@ -1,5 +1,5 @@
 ---
-id: DFW-1191
+id: LWW-1191
 type: weakness
 name: Black-box vehicle forensic tools introduce undocumented spatial, temporal, and semantic distortions during proprietary decoding
 description: A closed-source vehicle forensic tool's internal parsing and decoding logic is opaque to the investigator, so field omissions, timestamp offsets, value quantization, and semantic mapping errors (e.g. an inverted status flag) introduced during decoding are not disclosed or independently verifiable, even though such distortions can materially change an accident-reconstruction or location conclusion.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_COR
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1191
+  - LWM-1191
 source_refs:
-  - DFCite-1196
+  - LWCite-1196
 updated_at: 2026-08-13
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator who treats a black-box vehicle tool's output as ground truth ris
 
 ## References
 
-- [DFCite-1196] Mayer, 2026, "Examining black-box forensic tools in digital vehicle forensics: Capabilities, limitations, and practical implications", FSI: Digital Investigation 56, 302067.
+- [LWCite-1196] Mayer, 2026, "Examining black-box forensic tools in digital vehicle forensics: Capabilities, limitations, and practical implications", FSI: Digital Investigation 56, 302067.

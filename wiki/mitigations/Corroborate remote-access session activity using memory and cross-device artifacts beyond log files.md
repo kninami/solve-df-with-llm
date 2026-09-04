@@ -1,9 +1,9 @@
 ---
-id: DFM-1151
+id: LWM-1151
 type: mitigation
 name: Corroborate remote-access session activity using memory and cross-device artifacts beyond log files
 source_refs:
-  - DFCite-1148
+  - LWCite-1148
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Treat the application's session log as one of several partial sources rather tha
 
 ## References
 
-- [DFCite-1148] Soni, Kaur and Aziz, 2024, "Decoding digital interactions: An extensive study of TeamViewer's Forensic Artifacts across Windows and android platforms", FSI: Digital Investigation 51.
+- [LWCite-1148] Soni, Kaur and Aziz, 2024, "Decoding digital interactions: An extensive study of TeamViewer's Forensic Artifacts across Windows and android platforms", FSI: Digital Investigation 51.

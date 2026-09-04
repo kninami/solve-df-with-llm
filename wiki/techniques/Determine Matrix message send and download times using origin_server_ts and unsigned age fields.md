@@ -1,16 +1,16 @@
 ---
-id: DFT-1202
+id: LWT-1202
 type: technique
 name: Determine Matrix message send and download times using origin_server_ts and unsigned age fields
 description: Combine a Matrix message event's server-generated, tamper-resistant `origin_server_ts` timestamp with its client-alterable `unsigned.age` value to determine both when a message was originally sent to the server and, for a specific client, when that client downloaded it, distinguishing server time from client-reported time in Matrix protocol timeline reconstruction.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1211
+  - LWW-1211
 aliases:
   - Matrix origin_server_ts and age timestamp analysis
 source_refs:
-  - DFCite-1223
+  - LWCite-1223
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ Because `origin_server_ts` is generated server-side and is not part of the clien
 
 ## References
 
-- [DFCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.
+- [LWCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.

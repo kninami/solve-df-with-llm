@@ -1,20 +1,20 @@
 ---
-id: DFT-1005
+id: LWT-1005
 type: technique
 name: Identify file types using n-gram analysis
 description: Classify unknown file fragments by type using n-gram (byte frequency distribution) features fed into a statistical or machine-learning classifier, independent of which specific classifier algorithm is used.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-1005
-  - DFW-2012
+  - LWW-1005
+  - LWW-2012
 aliases:
   - N-gram-based file type identification
   - N-gram SVM file type identification
   - n-gram file type identification
 source_refs:
-  - DFCite-1003
-  - DFCite-2012
+  - LWCite-1003
+  - LWCite-2012
 updated_at: 2026-08-14
 status: complete
 ---
@@ -44,5 +44,5 @@ Each file is truncated to remove the header/magic-byte region before analysis, s
 
 ## References
 
-- [DFCite-1003] Sester et al., 2021, "A comparative study of support vector machine and neural networks for file type identification using n-gram analysis", FSI: Digital Investigation 36.
-- [DFCite-2012] Mary and Sreeja, 2026, "Adversarial shadows in digital forensics: New insights into file fragment classification vulnerabilities and defenses", IEEE Access 14 — surveys how byte-level statistical classifiers of this kind (n-gram/byte-frequency-based) are specifically susceptible to statistically-stealthy adversarial byte manipulation.
+- [LWCite-1003] Sester et al., 2021, "A comparative study of support vector machine and neural networks for file type identification using n-gram analysis", FSI: Digital Investigation 36.
+- [LWCite-2012] Mary and Sreeja, 2026, "Adversarial shadows in digital forensics: New insights into file fragment classification vulnerabilities and defenses", IEEE Access 14 — surveys how byte-level statistical classifiers of this kind (n-gram/byte-frequency-based) are specifically susceptible to statistically-stealthy adversarial byte manipulation.

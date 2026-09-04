@@ -1,9 +1,9 @@
 ---
-id: DFM-1313
+id: LWM-1313
 type: mitigation
 name: Validate digital forensic tool output against known ground truth rather than relying on dual-tool agreement alone
 source_refs:
-  - DFCite-1352
+  - LWCite-1352
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Where possible, validate a digital forensic tool's output against a test dataset
 
 ## References
 
-- [DFCite-1352] Nordvik, Stoykova, Franke, Axelsson, and Toolan, 2021, "Reliability validation for file system interpretation", FSI: Digital Investigation 37, 301174.
+- [LWCite-1352] Nordvik, Stoykova, Franke, Axelsson, and Toolan, 2021, "Reliability validation for file system interpretation", FSI: Digital Investigation 37, 301174.

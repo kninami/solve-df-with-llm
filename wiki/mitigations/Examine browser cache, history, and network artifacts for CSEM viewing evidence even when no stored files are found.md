@@ -1,9 +1,9 @@
 ---
-id: DFM-2068
+id: LWM-2068
 type: mitigation
 name: Examine browser cache, history, and network artifacts for CSEM viewing evidence even when no stored files are found
 source_refs:
-  - DFCite-2071
+  - LWCite-2071
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Scope a CSEM examination to explicitly include viewing-evidence sources beyond s
 
 ## References
 
-- [DFCite-2071] Steel, Newman, O'Rourke & Quayle, 2022, "Technical Behaviours of Child Sexual Exploitation Material Offenders", JDFSL 17(2). Motivates this mitigation via its finding that stored-file presence is neither sufficient nor necessary to determine consumption, and its finding that laptop/desktop browser use was the dominant viewing method.
+- [LWCite-2071] Steel, Newman, O'Rourke & Quayle, 2022, "Technical Behaviours of Child Sexual Exploitation Material Offenders", JDFSL 17(2). Motivates this mitigation via its finding that stored-file presence is neither sufficient nor necessary to determine consumption, and its finding that laptop/desktop browser use was the dominant viewing method.

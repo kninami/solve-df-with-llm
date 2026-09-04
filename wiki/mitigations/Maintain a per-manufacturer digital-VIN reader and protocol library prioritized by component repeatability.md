@@ -1,9 +1,9 @@
 ---
-id: DFM-1170
+id: LWM-1170
 type: mitigation
 name: Maintain a per-manufacturer digital-VIN reader and protocol library prioritized by component repeatability
 source_refs:
-  - DFCite-1175
+  - LWCite-1175
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Record, per manufacturer and model line, which components carry a digiVIN, its e
 
 ## References
 
-- [DFCite-1175] Rak et al., 2021, "Digital vehicle identity - Digital VIN in forensic and technical practice", FSI: Digital Investigation 39, 301307.
+- [LWCite-1175] Rak et al., 2021, "Digital vehicle identity - Digital VIN in forensic and technical practice", FSI: Digital Investigation 39, 301307.

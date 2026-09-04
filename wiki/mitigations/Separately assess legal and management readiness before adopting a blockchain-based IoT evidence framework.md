@@ -1,9 +1,9 @@
 ---
-id: DFM-1060
+id: LWM-1060
 type: mitigation
 name: Separately assess legal and management readiness before adopting a blockchain-based IoT evidence framework
 source_refs:
-  - DFCite-1050
+  - LWCite-1050
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Engage legal counsel to confirm that blockchain-recorded evidence and custody re
 
 ## References
 
-- [DFCite-1050] Khanji et al., 2022, "A systematic analysis on the readiness of Blockchain integration in IoT forensics", FSI: Digital Investigation 42-43.
+- [LWCite-1050] Khanji et al., 2022, "A systematic analysis on the readiness of Blockchain integration in IoT forensics", FSI: Digital Investigation 42-43.

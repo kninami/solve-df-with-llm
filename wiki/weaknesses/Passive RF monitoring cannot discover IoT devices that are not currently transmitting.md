@@ -1,14 +1,14 @@
 ---
-id: DFW-1026
+id: LWW-1026
 type: weakness
 name: Passive RF monitoring cannot discover IoT devices that are not currently transmitting
 description: Because passive RF signal monitoring relies entirely on observing a device's active wireless communications, any IoT device that is powered off, faulty, has its battery removed for charging, or is simply idle between its periodic broadcast intervals during the monitoring window will not be discovered, regardless of its physical presence at the scene.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1026
+  - LWM-1026
 source_refs:
-  - DFCite-1018
+  - LWCite-1018
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ A device count or location estimate produced by a brief monitoring session shoul
 
 ## References
 
-- [DFCite-1018] Jacob and Nisbet, 2022, "A forensic investigation framework for Internet of Things monitoring", FSI: Digital Investigation 42-43.
+- [LWCite-1018] Jacob and Nisbet, 2022, "A forensic investigation framework for Internet of Things monitoring", FSI: Digital Investigation 42-43.

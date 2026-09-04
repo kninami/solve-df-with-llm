@@ -1,14 +1,14 @@
 ---
-id: DFW-2024
+id: LWW-2024
 type: weakness
 name: MTPM-based JPEG anti-forensic detection is comparatively less accurate against explicit DCT-histogram-smoothing schemes
 description: The MTPM-based second-order detector's minimum decision error is consistently higher (meaning detection is less reliable) against anti-forensic schemes that use explicit DCT histogram smoothing (FD_Gur, FD_v, FD_Fan) than against other tested anti-forensic techniques, so an investigator's confidence in detecting anti-forensically hidden JPEG compression should vary by which specific anti-forensic scheme was used.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2024
+  - LWM-2024
 source_refs:
-  - DFCite-2024
+  - LWCite-2024
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator relying on MTPM-based (or similar second-order-statistic) JPEG a
 
 ## References
 
-- [DFCite-2024] Kumar et al., 2021 — Section III.A and Figures 5, 7-9 report consistently higher minimum decision error against FD_Gur, FD_v, and FD_Fan across every tested detector, including the proposed MTPM approach.
+- [LWCite-2024] Kumar et al., 2021 — Section III.A and Figures 5, 7-9 report consistently higher minimum decision error against FD_Gur, FD_v, and FD_Fan across every tested detector, including the proposed MTPM approach.

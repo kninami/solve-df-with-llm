@@ -1,9 +1,9 @@
 ---
-id: DFM-2051
+id: LWM-2051
 type: mitigation
 name: Use a commercial DPI tool and maintain current signatures when performing VoIP network forensics
 source_refs:
-  - DFCite-2052
+  - LWCite-2052
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where identification completeness matters for a case (e.g. exhaustively enumerat
 
 ## References
 
-- [DFCite-2052] Sarhan et al., 2024 — Section V "Future Work" explicitly recommends consistently updating signatures and tracking new IM application releases, and the paper's Section IV.D "Limitations" and conclusion both identify DPI tool choice as a key factor to improve for real-world deployment.
+- [LWCite-2052] Sarhan et al., 2024 — Section V "Future Work" explicitly recommends consistently updating signatures and tracking new IM application releases, and the paper's Section IV.D "Limitations" and conclusion both identify DPI tool choice as a key factor to improve for real-world deployment.

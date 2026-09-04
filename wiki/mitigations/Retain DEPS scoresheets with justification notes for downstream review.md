@@ -1,9 +1,9 @@
 ---
-id: DFM-1150
+id: LWM-1150
 type: mitigation
 name: Retain DEPS scoresheets with justification notes for downstream review
 source_refs:
-  - DFCite-1147
+  - LWCite-1147
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Build the justification requirement into the scoresheet template itself, so a fi
 
 ## References
 
-- [DFCite-1147] Horsman, 2021, "Decision support for first responders and digital device prioritisation", FSI: Digital Investigation 38.
+- [LWCite-1147] Horsman, 2021, "Decision support for first responders and digital device prioritisation", FSI: Digital Investigation 38.

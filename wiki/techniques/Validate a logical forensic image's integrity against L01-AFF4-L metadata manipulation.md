@@ -1,16 +1,16 @@
 ---
-id: DFT-1302
+id: LWT-1302
 type: technique
 name: Validate a logical forensic image's integrity against L01-AFF4-L metadata manipulation
 description: Assess whether a logical forensic image in the L01 (EnCase) or AFF4-L (open-source) format has had its metadata tampered with after acquisition, by reverse-engineering each format's internal section structure and per-section integrity-verification elements (checksums, hashes), then systematically testing whether altering, deleting, or adding specific metadata fields is detected by the format's own supporting tools — since, unlike the E01 disk-image format, neither logical-image format provides a single representative whole-file integrity value.
 objective_ids:
   - DFO-1010
 weakness_ids:
-  - DFW-1313
+  - LWW-1313
 aliases:
   - L01/AFF4-L logical image format integrity analysis
 source_refs:
-  - DFCite-1356
+  - LWCite-1356
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ Both formats were analyzed by generating sample logical images (via EnCase for L
 
 ## References
 
-- [DFCite-1356] Im, Park, Joun, Lee, and Park, 2024, "Revisiting logical image formats for future digital forensics: A comprehensive analysis on L01 and AFF4-L", FSI: Digital Investigation 50, 301811.
+- [LWCite-1356] Im, Park, Joun, Lee, and Park, 2024, "Revisiting logical image formats for future digital forensics: A comprehensive analysis on L01 and AFF4-L", FSI: Digital Investigation 50, 301811.

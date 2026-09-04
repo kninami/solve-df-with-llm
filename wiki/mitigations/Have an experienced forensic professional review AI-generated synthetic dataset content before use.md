@@ -1,10 +1,10 @@
 ---
-id: DFM-1069
+id: LWM-1069
 type: mitigation
 name: Have an experienced forensic professional review AI-generated synthetic dataset content before use
 source_refs:
-  - DFCite-1059
-  - DFCite-1110
+  - LWCite-1059
+  - LWCite-1110
 updated_at: 2026-08-12
 status: complete
 ---
@@ -25,5 +25,5 @@ Route every AI-generated storyboard or injected content set through a human-in-t
 
 ## References
 
-- [DFCite-1059] Pawlaszczyk et al., 2025, "AI-driven dataset creation in mobile forensics using LLM-based storyboards", FSI: Digital Investigation 55.
-- [DFCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.
+- [LWCite-1059] Pawlaszczyk et al., 2025, "AI-driven dataset creation in mobile forensics using LLM-based storyboards", FSI: Digital Investigation 55.
+- [LWCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.

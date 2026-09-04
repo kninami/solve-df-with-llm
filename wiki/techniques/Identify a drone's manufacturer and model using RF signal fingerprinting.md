@@ -1,17 +1,17 @@
 ---
-id: DFT-1170
+id: LWT-1170
 type: technique
 name: Identify a drone's manufacturer and model using RF signal fingerprinting
 description: Passively capture a drone's radio frequency transmissions and classify its manufacturer and model from a wavelet-domain RF fingerprint, using machine learning trained on each drone family's distinctive transmission characteristics, without needing physical access to the device.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1177
+  - LWW-1177
 aliases:
   - RF-based drone detection, identification, and classification
   - DrIfTeR
 source_refs:
-  - DFCite-1178
+  - LWCite-1178
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The technique first applies wavelet-domain feature extraction and 3-stage wavele
 
 ## References
 
-- [DFCite-1178] Choudhary et al., 2025, "DrIfTeR: A Drone Identification Technique using RF signals", FSI: Digital Investigation 54.
+- [LWCite-1178] Choudhary et al., 2025, "DrIfTeR: A Drone Identification Technique using RF signals", FSI: Digital Investigation 54.

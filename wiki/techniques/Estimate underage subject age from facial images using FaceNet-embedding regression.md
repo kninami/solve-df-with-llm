@@ -1,16 +1,16 @@
 ---
-id: DFT-2114
+id: LWT-2114
 type: technique
 name: Estimate underage subject age from facial images using FaceNet-embedding regression
 description: Predict a specific numeric age (rather than a broad age band or binary child/adult label) for an underage subject depicted in a facial image, by extracting a 512-dimensional FaceNet facial embedding and feeding it into a compact regression neural network trained specifically on underage-skewed datasets, addressing the scarcity of accurately age-labeled underage facial imagery through targeted dataset combination and augmentation.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1127
+  - LWW-1127
 aliases:
   - Vec2UAge
 source_refs:
-  - DFCite-2141
+  - LWCite-2141
 updated_at: 2026-08-16
 status: complete
 ---
@@ -41,4 +41,4 @@ FaceNet embeddings are high-dimensional vector representations (512 dimensions i
 
 ## References
 
-- [DFCite-2141] Anda, Dixon, and Bou-Harb, 2021, "Vec2UAge: Enhancing underage age estimation performance through facial embeddings", FSI: Digital Investigation 36, 301119.
+- [LWCite-2141] Anda, Dixon, and Bou-Harb, 2021, "Vec2UAge: Enhancing underage age estimation performance through facial embeddings", FSI: Digital Investigation 36, 301119.

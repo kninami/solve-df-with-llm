@@ -1,16 +1,16 @@
 ---
-id: DFT-2065
+id: LWT-2065
 type: technique
 name: Select phishing-detection features using frequency-analysis minimal feature selection
 description: Reduce a large corpus of candidate phishing-detection features (URL and webpage heuristics) to a small, high-relevance minimal feature set by ranking each feature's frequency of occurrence across a confirmed-phishing feature database and retaining only those exceeding an exclusion-limit threshold, before training a classifier — improving classification speed and resource overhead without sacrificing detection accuracy.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-2065
+  - LWW-2065
 aliases:
   - Frequency Feature Assessment Algorithm
 source_refs:
-  - DFCite-2069
+  - LWCite-2069
 updated_at: 2026-08-15
 status: complete
 ---
@@ -39,4 +39,4 @@ The Frequency Feature Assessment Algorithm computes, for every candidate feature
 
 ## References
 
-- [DFCite-2069] Abiodun, Sodiya, Kareem & Oladimeji, 2021, "Performance Assessment of some Phishing predictive models based on Minimal Feature corpus", JDFSL 16(5). Source of the Frequency Feature Assessment Algorithm, the 13-feature minimal set, and the five-classifier comparison.
+- [LWCite-2069] Abiodun, Sodiya, Kareem & Oladimeji, 2021, "Performance Assessment of some Phishing predictive models based on Minimal Feature corpus", JDFSL 16(5). Source of the Frequency Feature Assessment Algorithm, the 13-feature minimal set, and the five-classifier comparison.

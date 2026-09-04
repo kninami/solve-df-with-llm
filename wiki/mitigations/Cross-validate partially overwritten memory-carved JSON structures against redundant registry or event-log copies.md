@@ -1,9 +1,9 @@
 ---
-id: DFM-1180
+id: LWM-1180
 type: mitigation
 name: Cross-validate partially overwritten memory-carved JSON structures against redundant registry or event-log copies
 source_refs:
-  - DFCite-1182
+  - LWCite-1182
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Even where an attacker has attempted to clear their tracks in the Event Viewer a
 
 ## References
 
-- [DFCite-1182] Thomas et al., 2021, "Duck Hunt: Memory forensics of USB attack platforms", FSI: Digital Investigation 37. Notes that diagnostic telemetry events may remain present in the registry and Event Viewer even where an attacker attempted to clear their tracks elsewhere.
+- [LWCite-1182] Thomas et al., 2021, "Duck Hunt: Memory forensics of USB attack platforms", FSI: Digital Investigation 37. Notes that diagnostic telemetry events may remain present in the registry and Event Viewer even where an attacker attempted to clear their tracks elsewhere.

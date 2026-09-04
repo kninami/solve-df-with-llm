@@ -1,14 +1,14 @@
 ---
-id: DFW-2028
+id: LWW-2028
 type: weakness
 name: CNN-based end-to-end anti-forensic networks defeat both single- and double-JPEG-compression detectors
 description: A single CNN-based anti-forensic network can jointly deceive both single-JPEG and double-JPEG (recompression-history) detectors across DCT-domain and pixel-domain feature spaces, including aligned and non-aligned recompression cases, while producing higher visual quality than earlier single-purpose anti-forensic methods.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2028
+  - LWM-2028
 source_refs:
-  - DFCite-2028
+  - LWCite-2028
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator relying on JPEG or double-JPEG compression-history detection (wh
 
 ## References
 
-- [DFCite-2028] Kim et al., 2021 — Tables 1-4 report minimum decision error rates approaching 0.5 across six JPEG detectors and two DJPEG detectors (aligned and non-aligned cases) for the proposed method.
+- [LWCite-2028] Kim et al., 2021 — Tables 1-4 report minimum decision error rates approaching 0.5 across six JPEG detectors and two DJPEG detectors (aligned and non-aligned cases) for the proposed method.

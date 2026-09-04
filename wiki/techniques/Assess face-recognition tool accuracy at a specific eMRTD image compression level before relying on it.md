@@ -1,5 +1,5 @@
 ---
-id: DFT-2087
+id: LWT-2087
 type: technique
 name: Assess face-recognition tool accuracy at a specific eMRTD image compression level before relying on it
 description: Before relying on a face-recognition/verification tool to compare a subject's live image against the facial image stored in an electronic identity document's chip (eMRTD), measure that specific tool's verification accuracy (equal error rate, false rejection rate at fixed false-acceptance thresholds) at the actual JPEG2000 compression level and image size the document's issuing authority uses, since accuracy degradation from compression varies substantially by tool.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1008
   - DFO-1004
 weakness_ids:
-  - DFW-2089
+  - LWW-2089
 aliases:
   - eMRTD face image compression impact assessment
 source_refs:
-  - DFCite-2105
+  - LWCite-2105
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ The assessment methodology compresses a dataset of face images to a range of tar
 
 ## References
 
-- [DFCite-2105] Calderoni and Magnani, 2022, "The impact of face image compression in future generation electronic identity documents", FSI: Digital Investigation 40, 301345.
+- [LWCite-2105] Calderoni and Magnani, 2022, "The impact of face image compression in future generation electronic identity documents", FSI: Digital Investigation 40, 301345.

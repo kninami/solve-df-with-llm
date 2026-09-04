@@ -1,16 +1,16 @@
 ---
-id: DFT-2088
+id: LWT-2088
 type: technique
 name: Detect periods of phone movement using WhatsApp logfiles and iOS motion-sensor cache traces
 description: Reconstruct periods when an iPhone was being carried, walking, or driving -- beyond what the Health app itself records -- by parsing WhatsApp's internal logfiles for network-state and connectivity-change entries correlated with movement, and by parsing the iOS `cache_encryptedC.db` file's motion-classification tables (MotionStateHistory, StepCountHistory, NatalieHistory), which log the device's own on-board motion-state estimates independent of any specific app.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-2091
+  - LWW-2091
 aliases:
   - iPhone movement traces from WhatsApp and cache_encryptedC.db
 source_refs:
-  - DFCite-2107
+  - LWCite-2107
 updated_at: 2026-08-16
 status: complete
 ---
@@ -39,4 +39,4 @@ WhatsApp's plaintext logfiles record connectivity events (e.g. Wi-Fi-to-cellular
 
 ## References
 
-- [DFCite-2107] van Zandwijk and Boztas, 2021, "The phone reveals your motion: digital traces of walking, driving and other movements on iPhones", FSI: Digital Investigation 37, 301170.
+- [LWCite-2107] van Zandwijk and Boztas, 2021, "The phone reveals your motion: digital traces of walking, driving and other movements on iPhones", FSI: Digital Investigation 37, 301170.

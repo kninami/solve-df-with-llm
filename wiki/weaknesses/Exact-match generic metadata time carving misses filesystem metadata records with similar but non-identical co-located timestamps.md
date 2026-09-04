@@ -1,14 +1,14 @@
 ---
-id: DFW-2096
+id: LWW-2096
 type: weakness
 name: Exact-match generic metadata time carving misses filesystem metadata records with similar but non-identical co-located timestamps
 description: The original Generic Metadata Time Carving method requires a metadata record's co-located timestamps to be byte-for-byte identical to be detected as a candidate, but real-world filesystem metadata records frequently contain timestamps that are close but not exactly equal (e.g. differing by seconds or in a less-significant byte), causing the exact-match method to miss a large proportion of genuinely recoverable metadata records.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2097
+  - LWM-2097
 source_refs:
-  - DFCite-2113
+  - LWCite-2113
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on exact-match Generic Metadata Time Carving to recover 
 
 ## References
 
-- [DFCite-2113] Porter, Nordvik, Toolan, and Axelsson, 2021, "Timestamp prefix carving for filesystem metadata extraction", FSI: Digital Investigation 38, 301266.
+- [LWCite-2113] Porter, Nordvik, Toolan, and Axelsson, 2021, "Timestamp prefix carving for filesystem metadata extraction", FSI: Digital Investigation 38, 301266.

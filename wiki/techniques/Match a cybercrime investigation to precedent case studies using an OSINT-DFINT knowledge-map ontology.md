@@ -1,17 +1,17 @@
 ---
-id: DFT-1285
+id: LWT-1285
 type: technique
 name: Match a cybercrime investigation to precedent case studies using an OSINT-DFINT knowledge-map ontology
 description: Bridge the gap between abstract training case studies and the diverse, complex reality of actual cybercrime investigations by encoding a Digital Forensic Intelligence (DFINT) and Open Source Intelligence (OSINT) domain's entities, relationships, and evidence-source concepts into a formal ontology, then representing both training and real investigation cases as instances against that ontology so an investigator's current case can be matched to structurally similar precedent cases and their associated concepts, evidence types, and tools.
 objective_ids:
   - DFO-1015
 weakness_ids:
-  - DFW-1295
+  - LWW-1295
 aliases:
   - DFOSINT ontology
   - Case Study Browser
 source_refs:
-  - DFCite-1327
+  - LWCite-1327
 updated_at: 2026-08-15
 status: complete
 ---
@@ -41,4 +41,4 @@ Building on Hunton's six-stage cybercrime investigation process, entities and re
 
 ## References
 
-- [DFCite-1327] Ngo and Le-Khac, 2023, "Ontology-based case study management towards bridging training and actual investigation gaps in digital forensics", FSI: Digital Investigation 47, 301621.
+- [LWCite-1327] Ngo and Le-Khac, 2023, "Ontology-based case study management towards bridging training and actual investigation gaps in digital forensics", FSI: Digital Investigation 47, 301621.

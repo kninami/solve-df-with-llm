@@ -1,9 +1,9 @@
 ---
-id: DFM-1220
+id: LWM-1220
 type: mitigation
 name: Carve unallocated infotainment disk space for deleted SQLite database files in addition to parsing allocated files
 source_refs:
-  - DFCite-1231
+  - LWCite-1231
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ After acquiring a physical (not logical) forensic copy of the infotainment hard 
 
 ## References
 
-- [DFCite-1231] Marques, Domingues, Frade and Negrão, 2026, "Forensic analysis of the infotainment system of BMW vehicles", FSI: Digital Investigation 56, 302066.
+- [LWCite-1231] Marques, Domingues, Frade and Negrão, 2026, "Forensic analysis of the infotainment system of BMW vehicles", FSI: Digital Investigation 56, 302066.

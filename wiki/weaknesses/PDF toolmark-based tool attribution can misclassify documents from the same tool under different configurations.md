@@ -1,14 +1,14 @@
 ---
-id: DFW-1291
+id: LWW-1291
 type: weakness
 name: PDF toolmark-based tool attribution can misclassify documents from the same tool under different configurations
 description: Because a PDF-creation tool's structural toolmarks can depend on how the tool is configured (options, settings, or version) rather than being fixed purely by the tool's identity, documents genuinely created by the same tool under different configurations can present differing toolmarks, and documents from different tools that happen to share default configuration choices can present matching ones, undermining a one-to-one mapping between toolmark and tool.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1292
+  - LWM-1292
 source_refs:
-  - DFCite-1322
+  - LWCite-1322
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator using toolmark-based classification to attribute a questioned do
 
 ## References
 
-- [DFCite-1322] Olivier, 2026, "On the classification of questioned PDF documents — Attributing PDF documents to the tools that created them", FSI: Digital Investigation 57, 302104.
+- [LWCite-1322] Olivier, 2026, "On the classification of questioned PDF documents — Attributing PDF documents to the tools that created them", FSI: Digital Investigation 57, 302104.

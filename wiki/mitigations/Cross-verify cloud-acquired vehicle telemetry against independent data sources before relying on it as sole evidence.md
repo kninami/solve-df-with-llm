@@ -1,9 +1,9 @@
 ---
-id: DFM-1243
+id: LWM-1243
 type: mitigation
 name: Cross-verify cloud-acquired vehicle telemetry against independent data sources before relying on it as sole evidence
 source_refs:
-  - DFCite-1257
+  - LWCite-1257
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Where possible, extract corroborating data directly from the vehicle's own on-bo
 
 ## References
 
-- [DFCite-1257] Ebbers et al., 2024, "Grand theft API: A forensic analysis of vehicle cloud data", FSI: Digital Investigation 48, 301691.
+- [LWCite-1257] Ebbers et al., 2024, "Grand theft API: A forensic analysis of vehicle cloud data", FSI: Digital Investigation 48, 301691.

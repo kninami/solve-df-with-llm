@@ -1,15 +1,15 @@
 ---
-id: DFW-1098
+id: LWW-1098
 type: weakness
 name: Hamming-distance perceptual hash comparison ignores positional clustering, letting image mirroring evade DCT-based hash matching
 description: Normalised Hamming Distance, the conventional way of comparing two perceptual hashes, counts only how many bits differ and discards where those differing bits fall within the hash, even though positional/spatial information is demonstrably encoded in the hash's bit layout — as a result, a horizontal or vertical mirroring transform applied to an image is a worst-case evasion against Hamming-distance-based matching for DCT-based perceptual hashes.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1098
+  - LWM-1098
 source_refs:
-  - DFCite-1091
-  - DFCite-1259
+  - LWCite-1091
+  - LWCite-1259
 updated_at: 2026-08-13
 status: complete
 ---
@@ -34,5 +34,5 @@ An investigator or large-scale content-matching provider relying on Hamming Dist
 
 ## References
 
-- [DFCite-1091] McKeown, 2025, "Beyond Hamming Distance: Exploring spatial encoding in perceptual hashes", FSI: Digital Investigation 52.
-- [DFCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509. Earlier million-image-scale study independently identifying mirroring as the most destructive content-preserving modification across nearly all tested algorithms.
+- [LWCite-1091] McKeown, 2025, "Beyond Hamming Distance: Exploring spatial encoding in perceptual hashes", FSI: Digital Investigation 52.
+- [LWCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509. Earlier million-image-scale study independently identifying mirroring as the most destructive content-preserving modification across nearly all tested algorithms.

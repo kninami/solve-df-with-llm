@@ -1,9 +1,9 @@
 ---
-id: DFM-1074
+id: LWM-1074
 type: mitigation
 name: Require and independently check standardized abstraction-layer intermediate output from forensic tools
 source_refs:
-  - DFCite-1064
+  - LWCite-1064
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Where a tool exposes intermediate, per-stage output (or where multiple tools can
 
 ## References
 
-- [DFCite-1064] Hargreaves et al., 2024, "An abstract model for digital forensic analysis tools - A foundation for systematic error mitigation analysis", FSI: Digital Investigation 48.
+- [LWCite-1064] Hargreaves et al., 2024, "An abstract model for digital forensic analysis tools - A foundation for systematic error mitigation analysis", FSI: Digital Investigation 48.

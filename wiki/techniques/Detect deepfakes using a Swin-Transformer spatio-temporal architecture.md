@@ -1,16 +1,16 @@
 ---
-id: DFT-2075
+id: LWT-2075
 type: technique
 name: Detect deepfakes using a Swin-Transformer spatio-temporal architecture
 description: Detect manipulated facial video by extracting per-frame spatial features with a Swin Transformer (a hierarchical, shifted-window vision transformer) and analyzing the resulting feature sequence for temporal inconsistencies with a transformer-encoder block, rather than the CNN-plus-LSTM/GRU or 3D-convolutional architectures more commonly used for combined spatio-temporal deepfake detection.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1265
+  - LWW-1265
 aliases:
   - SFormer
 source_refs:
-  - DFCite-2083
+  - LWCite-2083
 updated_at: 2026-08-16
 status: complete
 ---
@@ -41,4 +41,4 @@ Input video frames are pre-processed with MTCNN face detection (with gamma corre
 
 ## References
 
-- [DFCite-2083] Kingra, Aggarwal, and Kaur, 2024, "SFormer: An end-to-end spatio-temporal transformer architecture for deepfake detection", FSI: Digital Investigation 51, 301817.
+- [LWCite-2083] Kingra, Aggarwal, and Kaur, 2024, "SFormer: An end-to-end spatio-temporal transformer architecture for deepfake detection", FSI: Digital Investigation 51, 301817.

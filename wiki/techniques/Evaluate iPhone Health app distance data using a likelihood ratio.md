@@ -1,16 +1,16 @@
 ---
-id: DFT-1254
+id: LWT-1254
 type: technique
 name: Evaluate iPhone Health app distance data using a likelihood ratio
 description: Compute a numerical likelihood ratio for a disputed walking distance recorded by the iPhone Health app by modeling the probability density of the registered-versus-true-distance relative error (derived from an experimental reference dataset) under each of two competing hypotheses about which route or distance a person actually walked.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1036
+  - LWW-1036
 aliases:
   - LR method for iPhone Health app step/distance data
 source_refs:
-  - DFCite-1294
+  - LWCite-1294
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ The method has four steps: data selection and transformation (an experimental re
 
 ## References
 
-- [DFCite-1294] Vink, Sjerps, Boztas and van Zandwijk, 2022, "Likelihood ratio method for the interpretation of iPhone health app data in digital forensics", FSI: Digital Investigation 41, 301389.
+- [LWCite-1294] Vink, Sjerps, Boztas and van Zandwijk, 2022, "Likelihood ratio method for the interpretation of iPhone health app data in digital forensics", FSI: Digital Investigation 41, 301389.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1262
+id: LWT-1262
 type: technique
 name: Repair a damaged PCB track using 3D X-ray tomography-guided reverse engineering
 description: Use medical-grade 2D and 3D X-ray equipment (repurposed dental and whole-body forensic-medicine scanners) to non-destructively diagnose a damaged electronic component's internal state, then reconstruct and trace a broken internal PCB track layer-by-layer through 3D tomographic reconstruction to physically repair it with a soldered copper-wire strap, restoring the board to a readable state without needing dedicated, expensive forensic X-ray or FIB equipment.
 objective_ids:
   - DFO-1021
 weakness_ids:
-  - DFW-1274
+  - LWW-1274
 aliases:
   - Medical X-ray equipment for forensic PCB reverse engineering
 source_refs:
-  - DFCite-1302
+  - LWCite-1302
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ A digital investigator diagnosing a damaged electronic component follows the sam
 
 ## References
 
-- [DFCite-1302] Heckmann, Souvignet, Sauveron and Naccache, 2021, "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment", FSI: Digital Investigation 36, 301092.
+- [LWCite-1302] Heckmann, Souvignet, Sauveron and Naccache, 2021, "Medical Equipment Used for Forensic Data Extraction: A low-cost solution for forensic laboratories not provided with expensive diagnostic or advanced repair equipment", FSI: Digital Investigation 36, 301092.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1035
+id: LWW-1035
 type: weakness
 name: Description-logic soundness ontology cannot represent uncertain or contradictory compliance guidance
 description: The SROIQ(D) description logic underlying the soundness-requirement ontology is a crisp, decidable logic that requires every concept and axiom to be definitively true or false within the knowledge base, so it cannot natively represent situations where source standards or guidelines are ambiguous, provide conflicting guidance, or where compliance itself is a matter of degree rather than a binary fact.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1035
+  - LWM-1035
 source_refs:
-  - DFCite-1025
+  - LWCite-1025
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on the ontology's automated reasoning to determine which
 
 ## References
 
-- [DFCite-1025] Matijević Gostojić and Vuković, 2023, "A knowledge-based system for supporting the soundness of digital forensic investigations", FSI: Digital Investigation 46.
+- [LWCite-1025] Matijević Gostojić and Vuković, 2023, "A knowledge-based system for supporting the soundness of digital forensic investigations", FSI: Digital Investigation 46.

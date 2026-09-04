@@ -1,18 +1,18 @@
 ---
-id: DFT-1088
+id: LWT-1088
 type: technique
 name: Analyze organized-crime networks using a multimodal intercepted-call knowledge graph
 description: Process lawfully intercepted telephone conversations and associated non-content data (call metadata, time/spatial positions, social media data) through an integrated pipeline of speaker identification, automatic speech recognition (ASR), and named entity detection, then build multiple knowledge graphs capturing phone and speaker criminal-network interactions, to support cross-border organized-crime investigations that would otherwise be overwhelmed by the volume and diversity of intercepted data.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1094
+  - LWW-1094
 aliases:
   - Multimodal intercepted-call knowledge-graph platform for organized-crime network analysis
   - Autocrime
   - ROXANNE
 source_refs:
-  - DFCite-1086
+  - LWCite-1086
 updated_at: 2026-08-10
 status: complete
 ---
@@ -41,4 +41,4 @@ Developed under the EU H2020 ROXANNE project, the platform (Autocrime) integrate
 
 ## References
 
-- [DFCite-1086] Madikeri et al., 2025, "Autocrime - open multimodal platform for combating organized crime", FSI: Digital Investigation 54.
+- [LWCite-1086] Madikeri et al., 2025, "Autocrime - open multimodal platform for combating organized crime", FSI: Digital Investigation 54.

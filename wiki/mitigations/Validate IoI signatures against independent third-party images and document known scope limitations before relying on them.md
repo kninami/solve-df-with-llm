@@ -1,9 +1,9 @@
 ---
-id: DFM-1081
+id: LWM-1081
 type: mitigation
 name: Validate IoI signatures against independent third-party images and document known scope limitations before relying on them
 source_refs:
-  - DFCite-1071
+  - LWCite-1071
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Run candidate IoI signatures against third-party or previously-unseen images bef
 
 ## References
 
-- [DFCite-1071] Gunestas et al., 2026, "An indicator of inconsistency framework for detecting contradictory digital artifacts", FSI: Digital Investigation 58.
+- [LWCite-1071] Gunestas et al., 2026, "An indicator of inconsistency framework for detecting contradictory digital artifacts", FSI: Digital Investigation 58.

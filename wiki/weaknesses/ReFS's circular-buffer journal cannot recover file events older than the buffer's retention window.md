@@ -1,15 +1,15 @@
 ---
-id: DFW-1215
+id: LWW-1215
 type: weakness
 name: ReFS's circular-buffer journal cannot recover file events older than the buffer's retention window
 description: Both ReFS journaling artifacts (the Logfile's Data area and the Change Journal) store transactions in a fixed-size circular buffer in which the oldest transactions are continuously overwritten by new ones, so any file-system event whose transaction record has already been overwritten by the time of acquisition cannot be reconstructed by opcode-replay analysis, regardless of how thorough the parsing methodology is.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1215
+  - LWM-1215
 source_refs:
-  - DFCite-1227
-  - DFCite-1269
+  - LWCite-1227
+  - LWCite-1269
 updated_at: 2026-08-14
 status: complete
 ---
@@ -35,5 +35,5 @@ An investigator reconstructing a file-activity timeline from ReFS journaling art
 
 ## References
 
-- [DFCite-1227] Lee et al., 2021, "Forensic analysis of ReFS journaling", FSI: Digital Investigation 38.
-- [DFCite-1269] Kim and Lee, 2026, "Identification of data wiping tools based on deletion patterns in ReFS $Logfile", FSI: Digital Investigation 56, 302069. Notes that a full $Logfile buffer causes reuse (overwriting) of older wiping-related transaction records, and recommends corroborating $Logfile-based wiping-tool findings with other artifacts.
+- [LWCite-1227] Lee et al., 2021, "Forensic analysis of ReFS journaling", FSI: Digital Investigation 38.
+- [LWCite-1269] Kim and Lee, 2026, "Identification of data wiping tools based on deletion patterns in ReFS $Logfile", FSI: Digital Investigation 56, 302069. Notes that a full $Logfile buffer causes reuse (overwriting) of older wiping-related transaction records, and recommends corroborating $Logfile-based wiping-tool findings with other artifacts.

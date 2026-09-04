@@ -1,9 +1,9 @@
 ---
-id: DFM-2028
+id: LWM-2028
 type: mitigation
 name: Check for CNN-reconstruction blur artifacts and use adversarially-trained detectors when JPEG anti-forensics is suspected
 source_refs:
-  - DFCite-2028
+  - LWCite-2028
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where an image's provenance is contested and JPEG anti-forensic processing is su
 
 ## References
 
-- [DFCite-2028] Kim et al., 2021 — Section IV.B's qualitative comparison notes the proposed method's reconstructed images appear "slightly blurry...in comparison to other methods" despite achieving high undetectability by the tested statistical detectors.
+- [LWCite-2028] Kim et al., 2021 — Section IV.B's qualitative comparison notes the proposed method's reconstructed images appear "slightly blurry...in comparison to other methods" despite achieving high undetectability by the tested statistical detectors.

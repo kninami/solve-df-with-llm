@@ -1,14 +1,14 @@
 ---
-id: DFW-1223
+id: LWW-1223
 type: weakness
 name: Stacked file systems expose lower-file and extra lower-file slack space that can be used to hide data
 description: Because some stacked file systems align lower files to a fixed extent size or maximum chunk size, or allow arbitrary bytes to be appended directly past a lower file's logical end, data can be concealed in the resulting slack space without altering the upper file's displayed size or accessibility, in ways specific to each stacked file system's implementation.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1223
+  - LWM-1223
 source_refs:
-  - DFCite-1234
+  - LWCite-1234
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Because upper-file-system-level tools only see the upper file's own reported siz
 
 ## References
 
-- [DFCite-1234] Hilgert, Lambertz and Baier, 2024, "Forensic implications of stacked file systems", DFRWS EU 2024; FSI: Digital Investigation 48, 301678.
+- [LWCite-1234] Hilgert, Lambertz and Baier, 2024, "Forensic implications of stacked file systems", DFRWS EU 2024; FSI: Digital Investigation 48, 301678.

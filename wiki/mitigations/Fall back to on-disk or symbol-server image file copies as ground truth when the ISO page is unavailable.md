@@ -1,9 +1,9 @@
 ---
-id: DFM-2134
+id: LWM-2134
 type: mitigation
 name: Fall back to on-disk or symbol-server image file copies as ground truth when the ISO page is unavailable
 source_refs:
-  - DFCite-2155
+  - LWCite-2155
 updated_at: 2026-08-17
 status: complete
 ---
@@ -24,4 +24,4 @@ When an ISO page is found to be evicted (in SUBSEC state), locate the correspond
 
 ## References
 
-- [DFCite-2155] Block, 2023, "Windows memory forensics: Identification of (malicious) modifications in memory-mapped image files", FSI: Digital Investigation 45.
+- [LWCite-2155] Block, 2023, "Windows memory forensics: Identification of (malicious) modifications in memory-mapped image files", FSI: Digital Investigation 45.

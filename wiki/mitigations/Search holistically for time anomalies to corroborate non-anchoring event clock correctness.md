@@ -1,9 +1,9 @@
 ---
-id: DFM-2129
+id: LWM-2129
 type: mitigation
 name: Search holistically for time anomalies to corroborate non-anchoring event clock correctness
 source_refs:
-  - DFCite-2149
+  - LWCite-2149
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify the nearest time anchors before and after the non-anchoring event of in
 
 ## References
 
-- [DFCite-2149] Vanini et al., 2024, "Was the clock correct? Exploring timestamp interpretation through time anchors for digital forensic event reconstruction", FSI: Digital Investigation 49.
+- [LWCite-2149] Vanini et al., 2024, "Was the clock correct? Exploring timestamp interpretation through time anchors for digital forensic event reconstruction", FSI: Digital Investigation 49.

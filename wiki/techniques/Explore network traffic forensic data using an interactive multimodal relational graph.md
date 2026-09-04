@@ -1,5 +1,5 @@
 ---
-id: DFT-2113
+id: LWT-2113
 type: technique
 name: Explore network traffic forensic data using an interactive multimodal relational graph
 description: Support exploratory, hypothesis-driven analysis of captured network traffic by ingesting packet-capture data into a graph database and rendering it as an interactive, multimodal graph -- with distinct node types for hosts, host-level extracted data (e.g. DNS queries, certificates), individual connections, and application-layer data -- letting an analyst visually navigate relationships between hosts, sessions, and application content rather than only running fixed queries or filters over a flat packet list.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1001
   - DFO-1009
 weakness_ids:
-  - DFW-2120
+  - LWW-2120
 aliases:
   - Granef
   - Graneful
 source_refs:
-  - DFCite-2140
+  - LWCite-2140
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ Captured packet data is processed and loaded into a graph database, structured a
 
 ## References
 
-- [DFCite-2140] "Using relational graphs for exploratory analysis of network traffic data", FSI: Digital Investigation 48, 2024.
+- [LWCite-2140] "Using relational graphs for exploratory analysis of network traffic data", FSI: Digital Investigation 48, 2024.

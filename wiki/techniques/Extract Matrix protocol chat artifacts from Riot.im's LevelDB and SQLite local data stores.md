@@ -1,16 +1,16 @@
 ---
-id: DFT-1201
+id: LWT-1201
 type: technique
 name: Extract Matrix protocol chat artifacts from Riot.im's LevelDB and SQLite local data stores
 description: Locate and parse the LevelDB IndexedDB store and hardcoded-password-protected SQLite database that the Riot.im Matrix client uses for local chat storage, recovering message events, room membership, device/user identifiers, and cached media even for end-to-end-encrypted conversations.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1210
+  - LWW-1210
 aliases:
   - Riot.im LevelDB and events.db extraction
 source_refs:
-  - DFCite-1223
+  - LWCite-1223
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ Riot.im installs to `<user>\AppData\Local\riot-desktop\` and stores data in `<us
 
 ## References
 
-- [DFCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.
+- [LWCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.

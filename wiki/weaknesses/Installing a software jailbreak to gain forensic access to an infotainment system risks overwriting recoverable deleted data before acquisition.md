@@ -1,5 +1,5 @@
 ---
-id: DFW-1257
+id: LWW-1257
 type: weakness
 name: Installing a software jailbreak to gain forensic access to an infotainment system risks overwriting recoverable deleted data before acquisition
 description: A software-jailbreak-based extraction method necessarily writes jailbreak, daemon, and SSH-mod files to the target infotainment system's own storage before any evidence is acquired, and because the eMMC's TRIM behavior is not fully known, this write activity risks overwriting previously deleted but still-recoverable data before it can be examined.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_ALT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1258
+  - LWM-1258
 source_refs:
-  - DFCite-1275
+  - LWCite-1275
 updated_at: 2026-08-14
 status: complete
 ---
@@ -34,4 +34,4 @@ A deleted file's allocated space is only marked available, not immediately erase
 
 ## References
 
-- [DFCite-1275] Antonson, Quick and Choo, 2025, "Infotainment system Forensics: Ford SYNC 3 gen 2 infotainment system as a use case", FSI: Digital Investigation 53, 301917.
+- [LWCite-1275] Antonson, Quick and Choo, 2025, "Infotainment system Forensics: Ford SYNC 3 gen 2 infotainment system as a use case", FSI: Digital Investigation 53, 301917.

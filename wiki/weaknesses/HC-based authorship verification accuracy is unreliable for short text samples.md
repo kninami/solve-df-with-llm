@@ -1,14 +1,14 @@
 ---
-id: DFW-1121
+id: LWW-1121
 type: weakness
 name: HC-based authorship verification accuracy is unreliable for short text samples
 description: Higher-Criticism-based authorship verification's accuracy scales strongly with the amount of combined text available, performing close to chance on short samples (roughly 1,000-2,000 characters) and only becoming reliable once combined text length reaches tens of thousands of characters, limiting its usefulness against accounts or messages with a sparse writing history.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1121
+  - LWM-1121
 source_refs:
-  - DFCite-1115
+  - LWCite-1115
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator applying this technique to an account or individual with a limit
 
 ## References
 
-- [DFCite-1115] Le et al., 2021, "ChunkedHCs algorithm for authorship verification problems: Reddit case study", FSI: Digital Investigation 37.
+- [LWCite-1115] Le et al., 2021, "ChunkedHCs algorithm for authorship verification problems: Reddit case study", FSI: Digital Investigation 37.

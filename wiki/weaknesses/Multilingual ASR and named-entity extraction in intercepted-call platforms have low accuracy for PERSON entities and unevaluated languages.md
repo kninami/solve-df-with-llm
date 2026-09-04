@@ -1,15 +1,15 @@
 ---
-id: DFW-1094
+id: LWW-1094
 type: weakness
 name: Multilingual ASR and named-entity extraction in intercepted-call platforms have low accuracy for PERSON entities and unevaluated languages
 description: On evaluated languages (English and German), the platform's automatic speech recognition reached only 28.4-35.9% Word Error Rate, and named entity recognition for PERSON entities reached only an F1-score of 15.4-20.6% even after a boosting enhancement — substantially lower than for other entity types such as TIME (78.4-78.8% F1) — and the platform's other supported languages (Dutch, Greek, Lithuanian, Arabic, Spanish, and more) were not included in this evaluation at all.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1094
+  - LWM-1094
 source_refs:
-  - DFCite-1086
-  - DFCite-2091
+  - LWCite-1086
+  - LWCite-2091
 updated_at: 2026-08-16
 status: complete
 ---
@@ -37,5 +37,5 @@ A knowledge graph automatically built from ASR transcripts and named-entity extr
 
 ## References
 
-- [DFCite-1086] Madikeri et al., 2025, "Autocrime - open multimodal platform for combating organized crime", FSI: Digital Investigation 54.
-- [DFCite-2091] Negrao and Domingues, 2021, "SpeechToText: An open-source software for automatic detection and transcription of voice recordings in digital forensics", FSI: Digital Investigation 38, 301223. Corroborates ASR accuracy degradation for non-native speakers using an independent, DeepSpeech-based forensic transcription pipeline.
+- [LWCite-1086] Madikeri et al., 2025, "Autocrime - open multimodal platform for combating organized crime", FSI: Digital Investigation 54.
+- [LWCite-2091] Negrao and Domingues, 2021, "SpeechToText: An open-source software for automatic detection and transcription of voice recordings in digital forensics", FSI: Digital Investigation 38, 301223. Corroborates ASR accuracy degradation for non-native speakers using an independent, DeepSpeech-based forensic transcription pipeline.

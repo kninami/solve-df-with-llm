@@ -1,15 +1,15 @@
 ---
-id: DFW-1025
+id: LWW-1025
 type: weakness
 name: Cross-layer correlation confidence is capped when resource-layer VM-internal artifacts are inaccessible
 description: In pooled cloud VM allocations where the cloud service provider does not support disk snapshot or live-forensic access to a shared virtual machine, cross-layer user-activity attribution cannot reach the framework's High-confidence tier, regardless of how completely the remaining layers (access, control) are collected, because the underlying evidence type required for High confidence is structurally unavailable.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1025
+  - LWM-1025
 source_refs:
-  - DFCite-1017
-  - DFCite-1287
+  - LWCite-1017
+  - LWCite-1287
 updated_at: 2026-08-14
 status: complete
 ---
@@ -35,5 +35,5 @@ An investigator working within a CSP's access constraints may correctly execute 
 
 ## References
 
-- [DFCite-1017] Park et al., 2026, "A forensic investigation framework for desktop-as-a-service in cloud environments", FSI: Digital Investigation 58.
-- [DFCite-1287] Sentanoe, Dangl and Reiser, 2022, "KVMIveggur: Flexible, secure, and efficient support for self-service virtual machine introspection", DFRWS 2022 USA; FSI: Digital Investigation 42, 301397. Proposes a secure, access-controlled architecture a cloud provider could deploy to give tenants self-service VM-internal memory introspection, structurally closing this gap rather than only supplementing it with externalized artifacts.
+- [LWCite-1017] Park et al., 2026, "A forensic investigation framework for desktop-as-a-service in cloud environments", FSI: Digital Investigation 58.
+- [LWCite-1287] Sentanoe, Dangl and Reiser, 2022, "KVMIveggur: Flexible, secure, and efficient support for self-service virtual machine introspection", DFRWS 2022 USA; FSI: Digital Investigation 42, 301397. Proposes a secure, access-controlled architecture a cloud provider could deploy to give tenants self-service VM-internal memory introspection, structurally closing this gap rather than only supplementing it with externalized artifacts.

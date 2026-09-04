@@ -1,14 +1,14 @@
 ---
-id: DFW-1197
+id: LWW-1197
 type: weakness
 name: Certificate pinning blocks MITM network-traffic interception when investigators do not attempt an active bypass
 description: An app that implements certificate pinning rejects a man-in-the-middle proxy's substituted certificate even though it is trusted at the OS level, so a plain MITM traffic-capture attempt yields no decrypted content at all against that app unless the investigator separately attempts an active pinning-bypass technique.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1197
+  - LWM-1197
 source_refs:
-  - DFCite-1208
+  - LWCite-1208
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who concludes that an app "does not transmit meaningful data ove
 
 ## References
 
-- [DFCite-1208] Aagaard et al., 2023, "Family locating sharing app forensics: Life360 as a case study", FSI: Digital Investigation 44, 301478.
+- [LWCite-1208] Aagaard et al., 2023, "Family locating sharing app forensics: Life360 as a case study", FSI: Digital Investigation 44, 301478.

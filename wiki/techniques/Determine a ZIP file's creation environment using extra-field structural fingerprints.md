@@ -1,16 +1,16 @@
 ---
-id: DFT-1192
+id: LWT-1192
 type: technique
 name: Determine a ZIP file's creation environment using extra-field structural fingerprints
 description: Identify the operating system and application that created or last recompressed a ZIP file by structurally analyzing its local and central-directory extra fields (header ID, timestamp precision, filename encoding, folder-header presence, double-zipping), since different OS/application combinations leave systematically different, reusable structural fingerprints.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-1199
+  - LWW-1199
 aliases:
   - ZIP file fingerprinting for provenance tracking
 source_refs:
-  - DFCite-1210
+  - LWCite-1210
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ The technique is implemented as a layered automated classifier: a first algorith
 
 ## References
 
-- [DFCite-1210] Um et al., 2021, "File fingerprinting of the ZIP format for identifying and tracking provenance", FSI: Digital Investigation 39, 301271.
+- [LWCite-1210] Um et al., 2021, "File fingerprinting of the ZIP format for identifying and tracking provenance", FSI: Digital Investigation 39, 301271.

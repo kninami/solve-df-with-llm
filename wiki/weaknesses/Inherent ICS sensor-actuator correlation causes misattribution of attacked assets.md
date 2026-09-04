@@ -1,14 +1,14 @@
 ---
-id: DFW-1002
+id: LWW-1002
 type: weakness
 name: Inherent ICS sensor-actuator correlation causes misattribution of attacked assets
 description: Because ICS sensors and actuators are physically and causally interdependent, feature-importance-based attack attribution can assign a high anomaly score to an unaffected asset that merely correlates with the actually attacked one.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1002
+  - LWM-1002
 source_refs:
-  - DFCite-1001
+  - LWCite-1001
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ In one evaluated attack scenario, the correctly attacked level indicator (LIT301
 
 ## References
 
-- [DFCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.
+- [LWCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.

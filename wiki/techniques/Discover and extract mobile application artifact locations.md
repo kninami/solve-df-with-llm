@@ -1,5 +1,5 @@
 ---
-id: DFT-1067
+id: LWT-1067
 type: technique
 name: Discover and extract mobile application artifact locations
 description: Locate and extract a mobile application's forensically relevant files, even for apps not yet supported by commercial forensic tools, using two complementary approaches — dynamically discovering exactly which files an app action creates, modifies, or deletes by diffing file-system metadata snapshots taken before and after that action on a physical or emulated device, and/or applying a manually- or dynamically-derived wordlist of known filenames and paths to extract matching artifacts automatically across a batch of device images.
@@ -7,15 +7,15 @@ objective_ids:
   - DFO-1012
   - DFO-1011
 weakness_ids:
-  - DFW-1072
-  - DFW-1090
+  - LWW-1072
+  - LWW-1090
 aliases:
   - Mobile application artifact location discovery and extraction
   - ASNAAT
   - Argus
 source_refs:
-  - DFCite-1062
-  - DFCite-1082
+  - LWCite-1062
+  - LWCite-1082
 updated_at: 2026-08-10
 status: complete
 ---
@@ -49,5 +49,5 @@ Commercial forensic tools mostly support widely-used apps, leaving country-speci
 
 ## References
 
-- [DFCite-1062] Johnson et al., 2022, "Alt-tech social forensics: Forensic analysis of alternative social networking applications", FSI: Digital Investigation 42.
-- [DFCite-1082] Boztas et al., 2025, "Argus: A new approach for forensic analysis of apps on mobile devices", FSI: Digital Investigation 53.
+- [LWCite-1062] Johnson et al., 2022, "Alt-tech social forensics: Forensic analysis of alternative social networking applications", FSI: Digital Investigation 42.
+- [LWCite-1082] Boztas et al., 2025, "Argus: A new approach for forensic analysis of apps on mobile devices", FSI: Digital Investigation 53.

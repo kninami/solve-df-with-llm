@@ -1,16 +1,16 @@
 ---
-id: DFT-1040
+id: LWT-1040
 type: technique
 name: Validate synthetic disk image realism using quantitative metrics
 description: Quantitatively assess how realistic a synthetic (scenario-based) forensic disk image is relative to real-world disk images by computing a large battery of automatable metrics (configuration, longevity, activity, volume) across both, using a cryptographically-inspired "realism game" framework in which a verifier tries to distinguish synthetic from real-world images using only queryable feature measurements.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1041
+  - LWW-1041
 aliases:
   - Metrics-based synthetic disk image realism validation
 source_refs:
-  - DFCite-1031
+  - LWCite-1031
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ A plugin-based measurement framework computes a wide set of metrics (98 in the r
 
 ## References
 
-- [DFCite-1031] Voigt et al., 2025, "A metrics-based look at disk images: Insights and applications", FSI: Digital Investigation 52.
+- [LWCite-1031] Voigt et al., 2025, "A metrics-based look at disk images: Insights and applications", FSI: Digital Investigation 52.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1138
+id: LWW-1138
 type: weakness
 name: Escrow-transaction timestamps can misrepresent the actual purchase or consumption time on a cryptomarket
 description: A blockchain escrow transaction only records when a buyer funded escrow, not when they actually decided to buy, when the vendor shipped, or when the product was consumed, so treating the escrow timestamp as equivalent to "the purchase" can misstate the timing of the underlying real-world event it is meant to represent.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1138
+  - LWM-1138
 source_refs:
-  - DFCite-1136
+  - LWCite-1136
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator using escrow transaction timing to infer a specific buyer's beha
 
 ## References
 
-- [DFCite-1136] Tsuchiya and Hiramoto, 2021, "Dark web in the dark: Investigating when transactions take place on cryptomarkets", FSI: Digital Investigation 36.
+- [LWCite-1136] Tsuchiya and Hiramoto, 2021, "Dark web in the dark: Investigating when transactions take place on cryptomarkets", FSI: Digital Investigation 36.

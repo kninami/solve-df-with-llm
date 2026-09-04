@@ -1,16 +1,16 @@
 ---
-id: DFT-1286
+id: LWT-1286
 type: technique
 name: Apply a phase-oriented multi-stage peer review structure to a digital forensic investigation
 description: Formally support quality control in a digital forensic organization by structuring peer review as a series of checkpoints distributed across an investigation's phases — rather than a single review performed only after all work is complete — dividing the review burden between an early "Advisor" role who guides the practitioner through in-progress work and a later, independent "Reviewer" role who evaluates the completed case.
 objective_ids:
   - DFO-1020
 weakness_ids:
-  - DFW-1296
+  - LWW-1296
 aliases:
   - Phase-oriented Advice and Review Structure (PARS)
 source_refs:
-  - DFCite-1329
+  - LWCite-1329
 updated_at: 2026-08-15
 status: complete
 ---
@@ -39,4 +39,4 @@ PARS's five-stage structure enforces an iterative approach: as a practitioner re
 
 ## References
 
-- [DFCite-1329] Sunde and Horsman, 2021, "Part 2: The Phase-oriented Advice and Review Structure (PARS) for digital forensic investigations", FSI: Digital Investigation 36, 301074.
+- [LWCite-1329] Sunde and Horsman, 2021, "Part 2: The Phase-oriented Advice and Review Structure (PARS) for digital forensic investigations", FSI: Digital Investigation 36, 301074.

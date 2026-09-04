@@ -1,16 +1,16 @@
 ---
-id: DFT-1273
+id: LWT-1273
 type: technique
 name: Detect potential money laundering using frequency-based marketplace transaction indicators
 description: Flag potentially suspicious money-laundering transactions on an unregulated peer-to-peer marketplace (such as a video-game item secondary marketplace) by measuring, over a fixed period, the most frequently traded items, the most frequent sellers, the most frequent buyers, and duplicated trades (identical buyer, seller, item, and value repeated), and cross-referencing accounts that appear as outliers on more than one of these measures.
 objective_ids:
   - DFO-1005
 weakness_ids:
-  - DFW-1283
+  - LWW-1283
 aliases:
   - Steam Marketplace money-laundering detection
 source_refs:
-  - DFCite-1311
+  - LWCite-1311
 updated_at: 2026-08-15
 status: complete
 ---
@@ -39,4 +39,4 @@ Using publicly accessible trade-history data (seller ID, buyer ID, trade value, 
 
 ## References
 
-- [DFCite-1311] Cooke and Marshall, 2024, "Money laundering through video games, a criminals' playground", FSI: Digital Investigation 50, 301802.
+- [LWCite-1311] Cooke and Marshall, 2024, "Money laundering through video games, a criminals' playground", FSI: Digital Investigation 50, 301802.

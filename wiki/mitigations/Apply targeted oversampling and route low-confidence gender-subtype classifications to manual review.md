@@ -1,9 +1,9 @@
 ---
-id: DFM-2045
+id: LWM-2045
 type: mitigation
 name: Apply targeted oversampling and route low-confidence gender-subtype classifications to manual review
 source_refs:
-  - DFCite-2046
+  - LWCite-2046
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ When preparing or retraining a fine-grained cyberbullying classifier, prioritize
 
 ## References
 
-- [DFCite-2046] Ibrahim et al., 2024 — the paper's own data-augmentation experiment (Table 6) demonstrates measurable accuracy gains from targeted synthetic example generation, and its neutrosophic-set methodology (Section III) already computes a per-instance indeterminacy value usable for confidence-based triage.
+- [LWCite-2046] Ibrahim et al., 2024 — the paper's own data-augmentation experiment (Table 6) demonstrates measurable accuracy gains from targeted synthetic example generation, and its neutrosophic-set methodology (Section III) already computes a per-instance indeterminacy value usable for confidence-based triage.

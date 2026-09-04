@@ -1,14 +1,14 @@
 ---
-id: DFW-2002
+id: LWW-2002
 type: weakness
 name: A feature-scoring toolkit ranking that weights all features equally can misrank the best tool for a case's actual priorities
 description: A feature-scoring model that gives every supported feature the same point value produces a single overall ranking that does not reflect that a specific feature may be essential in one case and irrelevant in another, potentially recommending a toolkit that is not actually best suited to the case at hand.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2002
+  - LWM-2002
 source_refs:
-  - DFCite-2002
+  - LWCite-2002
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator who selects a toolkit purely from an equal-weighted overall FSM 
 
 ## References
 
-- [DFCite-2002] Javed et al., 2022 — states the FSM's equal-weighting design choice and its acknowledged case-dependent-importance limitation directly in Section IV.
+- [LWCite-2002] Javed et al., 2022 — states the FSM's equal-weighting design choice and its acknowledged case-dependent-importance limitation directly in Section IV.

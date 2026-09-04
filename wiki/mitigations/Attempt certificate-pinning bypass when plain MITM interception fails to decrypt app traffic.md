@@ -1,9 +1,9 @@
 ---
-id: DFM-1197
+id: LWM-1197
 type: mitigation
 name: Attempt certificate-pinning bypass when plain MITM interception fails to decrypt app traffic
 source_refs:
-  - DFCite-1208
+  - LWCite-1208
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Test the target app's specific platform build under a plain MITM proxy first, si
 
 ## References
 
-- [DFCite-1208] Aagaard et al., 2023, "Family locating sharing app forensics: Life360 as a case study", FSI: Digital Investigation 44, 301478.
+- [LWCite-1208] Aagaard et al., 2023, "Family locating sharing app forensics: Life360 as a case study", FSI: Digital Investigation 44, 301478.

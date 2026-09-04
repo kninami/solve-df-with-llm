@@ -1,16 +1,16 @@
 ---
-id: DFT-2063
+id: LWT-2063
 type: technique
 name: Recover hidden photos from an iOS vault application's residual artifacts
 description: Recover photos a user has hidden inside an iOS "vault" or photo-vault application by examining residual artifacts the app leaves behind outside its own password-protected view — thumbnails, embedded SQLite database BLOBs, duplicate image copies, custom-extension preview files, and camera-roll live-preview videos — rather than trying to defeat the vault's own password/authentication mechanism.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-2063
+  - LWW-2063
 aliases:
   - iOS photo vault forensic recovery
 source_refs:
-  - DFCite-2066
+  - LWCite-2066
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ A basic imaging processor can reveal a "hidden" photo as a readable object even 
 
 ## References
 
-- [DFCite-2066] Gilbert & Seigfried-Spellar, 2022, "Forensic Discoverability of iOS Vault Applications", JDFSL 17(1). Source of the five-vault-app comparative study, its per-app residual-artifact findings, and the recovered-PIN case.
+- [LWCite-2066] Gilbert & Seigfried-Spellar, 2022, "Forensic Discoverability of iOS Vault Applications", JDFSL 17(1). Source of the five-vault-app comparative study, its per-app residual-artifact findings, and the recovered-PIN case.

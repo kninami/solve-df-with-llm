@@ -1,9 +1,9 @@
 ---
-id: DFM-2070
+id: LWM-2070
 type: mitigation
 name: Train prosecutors and investigators on the Article 32 lawful-access exceptions and cross-border cooperation channels before cloud evidence acquisition
 source_refs:
-  - DFCite-2073
+  - LWCite-2073
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Require training on cross-border digital evidence collection and cloud computing
 
 ## References
 
-- [DFCite-2073] Olber, 2021, "The Survey on Cross-Border Collection of Digital Evidence by Representatives from Polish Prosecutors' Offices and Judicial Authorities", JDFSL 16(3). Recommends training in international cooperation and cloud computing technology and greater use of the 24/7 contact point as the paper's own proposed solutions to the documented legal-basis misunderstanding.
+- [LWCite-2073] Olber, 2021, "The Survey on Cross-Border Collection of Digital Evidence by Representatives from Polish Prosecutors' Offices and Judicial Authorities", JDFSL 16(3). Recommends training in international cooperation and cloud computing technology and greater use of the 24/7 contact point as the paper's own proposed solutions to the documented legal-basis misunderstanding.

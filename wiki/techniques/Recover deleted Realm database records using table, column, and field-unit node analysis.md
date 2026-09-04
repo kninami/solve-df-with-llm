@@ -1,16 +1,16 @@
 ---
-id: DFT-1267
+id: LWT-1267
 type: technique
 name: Recover deleted Realm database records using table, column, and field-unit node analysis
 description: Recover data deleted from a mobile app's Realm database (an increasingly popular SQLite alternative) by parsing the database's B-tree-like node structure to identify inactive root and leaf nodes disconnected from the live tree, and — when a node is only partially overwritten — falling back to regular-expression-based parsing keyed to each column's known Realm data type, covering table-unit, column-unit, and field-unit recovery depending on how much of the original node structure survives.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1278
+  - LWW-1278
 aliases:
   - Realm DB deleted-record recovery
 source_refs:
-  - DFCite-1306
+  - LWCite-1306
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ Recovery proceeds through three levels depending on how intact the disconnected 
 
 ## References
 
-- [DFCite-1306] Kim, Kim, Shin, Youn, Song, Lee and Kim, 2022, "Methods for recovering deleted data from the Realm database: Case study on Minitalk and Xabber", FSI: Digital Investigation 40, 301353.
+- [LWCite-1306] Kim, Kim, Shin, Youn, Song, Lee and Kim, 2022, "Methods for recovering deleted data from the Realm database: Case study on Minitalk and Xabber", FSI: Digital Investigation 40, 301353.

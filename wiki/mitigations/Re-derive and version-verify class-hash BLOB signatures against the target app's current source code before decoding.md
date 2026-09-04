@@ -1,9 +1,9 @@
 ---
-id: DFM-1219
+id: LWM-1219
 type: mitigation
 name: Re-derive and version-verify class-hash BLOB signatures against the target app's current source code before decoding
 source_refs:
-  - DFCite-1230
+  - LWCite-1230
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Record the application version present on the evidence device (from an app-metad
 
 ## References
 
-- [DFCite-1230] Jaeckel, Spranger and Labudde, 2025, "Forensic analysis of Telegram Messenger on iOS smartphones", DFRWS EU 2025; FSI: Digital Investigation 52, 301866.
+- [LWCite-1230] Jaeckel, Spranger and Labudde, 2025, "Forensic analysis of Telegram Messenger on iOS smartphones", DFRWS EU 2025; FSI: Digital Investigation 52, 301866.

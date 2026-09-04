@@ -1,9 +1,9 @@
 ---
-id: DFM-1250
+id: LWM-1250
 type: mitigation
 name: Account for breach-corpus strong-password underrepresentation when setting guessability-based investigative expectations
 source_refs:
-  - DFCite-1264
+  - LWCite-1264
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ When citing breach-corpus statistics (e.g., "80% of passwords fall in a weak str
 
 ## References
 
-- [DFCite-1264] Kanta, Coray, Coisel, and Scanlon, 2021, "How viable is password cracking in digital forensic investigation? Analyzing the guessability of over 3.9 billion real-world accounts", FSI: Digital Investigation 37, 301186.
+- [LWCite-1264] Kanta, Coray, Coisel, and Scanlon, 2021, "How viable is password cracking in digital forensic investigation? Analyzing the guessability of over 3.9 billion real-world accounts", FSI: Digital Investigation 37, 301186.

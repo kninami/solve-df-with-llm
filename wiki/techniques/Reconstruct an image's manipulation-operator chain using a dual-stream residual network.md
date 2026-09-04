@@ -1,17 +1,17 @@
 ---
-id: DFT-1200
+id: LWT-1200
 type: technique
 name: Reconstruct an image's manipulation-operator chain using a dual-stream residual network
 description: Classify the sequence of editing operations (e.g. median filtering, Gaussian blur, resampling) applied to an image, including after the image has been lossy JPEG re-compressed, by combining a compression-feature-extraction stream (DCT-domain artifacts) with a noise-residual-extraction stream in a dual-stream residual CNN, rather than relying on spatial-domain clues alone that JPEG re-compression tends to erase.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1209
+  - LWW-1209
 aliases:
   - ReMReNet
   - JPEG-resistant image operator chain detection
 source_refs:
-  - DFCite-1222
+  - LWCite-1222
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ The compression feature extraction (CFE) stream converts the input image to its 
 
 ## References
 
-- [DFCite-1222] Kadha et al., 2023, "Forensic analysis of manipulation chains: A deep residual network for detecting JPEG-manipulation-JPEG", FSI: Digital Investigation 47.
+- [LWCite-1222] Kadha et al., 2023, "Forensic analysis of manipulation chains: A deep residual network for detecting JPEG-manipulation-JPEG", FSI: Digital Investigation 47.

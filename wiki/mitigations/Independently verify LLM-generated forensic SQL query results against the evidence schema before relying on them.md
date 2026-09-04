@@ -1,9 +1,9 @@
 ---
-id: DFM-1068
+id: LWM-1068
 type: mitigation
 name: Independently verify LLM-generated forensic SQL query results against the evidence schema before relying on them
 source_refs:
-  - DFCite-1058
+  - LWCite-1058
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Before relying on a generated query's output as evidence, cross-check the query'
 
 ## References
 
-- [DFCite-1058] Pawlaszczyk et al., 2026, "AI-based automated SQL query generation for SQLite databases in Mobile forensics", FSI: Digital Investigation 57.
+- [LWCite-1058] Pawlaszczyk et al., 2026, "AI-based automated SQL query generation for SQLite databases in Mobile forensics", FSI: Digital Investigation 57.

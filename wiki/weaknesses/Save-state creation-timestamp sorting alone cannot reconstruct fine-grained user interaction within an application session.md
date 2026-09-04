@@ -1,14 +1,14 @@
 ---
-id: DFW-1111
+id: LWW-1111
 type: weakness
 name: Save-state creation-timestamp sorting alone cannot reconstruct fine-grained user interaction within an application session
 description: Sorting save-state files by their creation timestamp only establishes a coarse window during which an application was used; it does not by itself reveal what the user did within each session, requiring deeper analysis of each save-state file's internal structure to reconstruct fine-grained interaction detail.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1111
+  - LWM-1111
 source_refs:
-  - DFCite-1105
+  - LWCite-1105
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying only on save-state creation-timestamp sorting can establ
 
 ## References
 
-- [DFCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.
+- [LWCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.

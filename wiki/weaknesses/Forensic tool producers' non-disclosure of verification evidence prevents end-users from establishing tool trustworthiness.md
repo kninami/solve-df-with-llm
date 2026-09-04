@@ -1,5 +1,5 @@
 ---
-id: DFW-1175
+id: LWW-1175
 type: weakness
 name: Forensic tool producers' non-disclosure of verification evidence prevents end-users from establishing tool trustworthiness
 description: Most commercial-off-the-shelf digital forensic tool producers release software without disclosing evidence of internal testing or verification against a published specification, so end-users cannot independently confirm a tool's claimed functionality performs as stated when supporting method validation for accreditation.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1175
+  - LWM-1175
 source_refs:
-  - DFCite-1170
+  - LWCite-1170
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ Without disclosed verification evidence, an accredited laboratory bears the full
 
 ## References
 
-- [DFCite-1170] Marshall, 2021, "Digital forensic tool verification: An evaluation of options for establishing trustworthiness", FSI: Digital Investigation 38, 301181.
+- [LWCite-1170] Marshall, 2021, "Digital forensic tool verification: An evaluation of options for establishing trustworthiness", FSI: Digital Investigation 38, 301181.

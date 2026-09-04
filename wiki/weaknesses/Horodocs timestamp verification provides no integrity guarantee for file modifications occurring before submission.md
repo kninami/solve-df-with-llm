@@ -1,14 +1,14 @@
 ---
-id: DFW-1248
+id: LWW-1248
 type: weakness
 name: Horodocs timestamp verification provides no integrity guarantee for file modifications occurring before submission
 description: A valid Horodocs timestamp only proves that a specific hash value existed at or before the recorded time and has not changed since; it says nothing about whether the underlying file was already altered, backdated in content, or fabricated before it was ever submitted for timestamping, a limitation a verifier could easily misread as a stronger guarantee than the system actually provides.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1249
+  - LWM-1249
 source_refs:
-  - DFCite-1263
+  - LWCite-1263
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ A judge, prosecutor, or defense counsel unfamiliar with exactly what a timestamp
 
 ## References
 
-- [DFCite-1263] Jaquet-Chiffelle, Pfeiffer, Brocard, Benoist, and Foukia, 2025, "Horodocs: A scalable, sustainable, robust and privacy compliant system to securely timestamp digital evidence and documents", FSI: Digital Investigation 53, 301913.
+- [LWCite-1263] Jaquet-Chiffelle, Pfeiffer, Brocard, Benoist, and Foukia, 2025, "Horodocs: A scalable, sustainable, robust and privacy compliant system to securely timestamp digital evidence and documents", FSI: Digital Investigation 53, 301913.

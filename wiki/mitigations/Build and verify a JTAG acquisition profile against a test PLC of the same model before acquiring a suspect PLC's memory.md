@@ -1,9 +1,9 @@
 ---
-id: DFM-1264
+id: LWM-1264
 type: mitigation
 name: Build and verify a JTAG acquisition profile against a test PLC of the same model before acquiring a suspect PLC's memory
 source_refs:
-  - DFCite-1284
+  - LWCite-1284
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Before acquiring a suspect PLC, obtain a same-model test unit and perform the fu
 
 ## References
 
-- [DFCite-1284] Rais, Awad, Lopez and Ahmed, 2021, "JTAG-based PLC memory acquisition framework for industrial control systems", DFRWS 2021 USA; FSI: Digital Investigation 37, 301196.
+- [LWCite-1284] Rais, Awad, Lopez and Ahmed, 2021, "JTAG-based PLC memory acquisition framework for industrial control systems", DFRWS 2021 USA; FSI: Digital Investigation 37, 301196.

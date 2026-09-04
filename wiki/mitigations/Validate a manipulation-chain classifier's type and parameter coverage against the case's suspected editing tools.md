@@ -1,9 +1,9 @@
 ---
-id: DFM-1209
+id: LWM-1209
 type: mitigation
 name: Validate a manipulation-chain classifier's type and parameter coverage against the case's suspected editing tools
 source_refs:
-  - DFCite-1222
+  - LWCite-1222
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Document the exact manipulation categories and parameter values (kernel sizes, q
 
 ## References
 
-- [DFCite-1222] Kadha et al., 2023, "Forensic analysis of manipulation chains: A deep residual network for detecting JPEG-manipulation-JPEG", FSI: Digital Investigation 47.
+- [LWCite-1222] Kadha et al., 2023, "Forensic analysis of manipulation chains: A deep residual network for detecting JPEG-manipulation-JPEG", FSI: Digital Investigation 47.

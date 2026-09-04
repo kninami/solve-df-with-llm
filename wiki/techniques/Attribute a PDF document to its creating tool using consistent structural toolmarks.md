@@ -1,5 +1,5 @@
 ---
-id: DFT-1281
+id: LWT-1281
 type: technique
 name: Attribute a PDF document to its creating tool using consistent structural toolmarks
 description: Determine which software tool created a questioned PDF document by identifying structural choices the PDF standard leaves unspecified (line-termination style, whitespace usage, object ordering, and other low-level formatting decisions) that a given tool's implementation makes consistently across every document it produces, then comparing a questioned document's feature vector of these "toolmarks" against a reference set built from documents of known origin.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1002
   - DFO-1008
 weakness_ids:
-  - DFW-1291
+  - LWW-1291
 aliases:
   - PDF toolmark classification
   - Programmed execution principle applied to PDF attribution
 source_refs:
-  - DFCite-1322
+  - LWCite-1322
 updated_at: 2026-08-15
 status: complete
 ---
@@ -43,4 +43,4 @@ The approach proceeds in three stages, mirroring classification as defined by In
 
 ## References
 
-- [DFCite-1322] Olivier, 2026, "On the classification of questioned PDF documents — Attributing PDF documents to the tools that created them", FSI: Digital Investigation 57, 302104.
+- [LWCite-1322] Olivier, 2026, "On the classification of questioned PDF documents — Attributing PDF documents to the tools that created them", FSI: Digital Investigation 57, 302104.

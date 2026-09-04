@@ -1,16 +1,16 @@
 ---
-id: DFT-2058
+id: LWT-2058
 type: technique
 name: Identify a person of interest across extracted images using automated face recognition matching
 description: Automatically match a known person of interest's reference photo(s) against a large set of images extracted from seized media, using facial-landmark feature encoding, to flag which images likely contain that person without manual review of every file.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-2058
+  - LWW-2058
 aliases:
   - Automated PoI identification (SynFO)
 source_refs:
-  - DFCite-2059
+  - LWCite-2059
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ The technique uses a face-detection model (a faster Histogram-of-Oriented-Gradie
 
 ## References
 
-- [DFCite-2059] Gogia & Rughani, 2023, "An ML Based Digital Forensics Software for Triage Analysis Through Face Recognition", JDFSL, Manuscript 1772. Source of the SynFO automated PoI identification methodology, its four matching modes, and its HOG/CNN model tradeoff.
+- [LWCite-2059] Gogia & Rughani, 2023, "An ML Based Digital Forensics Software for Triage Analysis Through Face Recognition", JDFSL, Manuscript 1772. Source of the SynFO automated PoI identification methodology, its four matching modes, and its HOG/CNN model tradeoff.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1292
+id: LWW-1292
 type: weakness
 name: Open-source application logs commonly omit timestamps and unique identifiers needed for forensic event correlation
 description: A systematic source-code-level review of 60 open-source applications found that roughly half omitted timestamps from at least some relevant log entries and around a third lacked unique identifiers for correlating related events, meaning an investigator cannot assume an arbitrary application's default logging is adequate for timeline reconstruction or event correlation without first checking.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1293
+  - LWM-1293
 source_refs:
-  - DFCite-1323
+  - LWCite-1323
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who assumes an application's logs will support timeline reconstr
 
 ## References
 
-- [DFCite-1323] Azahari and Balzarotti, 2024, "On the inadequacy of open-source application logs for digital forensics", FSI: Digital Investigation 49, 301750.
+- [LWCite-1323] Azahari and Balzarotti, 2024, "On the inadequacy of open-source application logs for digital forensics", FSI: Digital Investigation 49, 301750.

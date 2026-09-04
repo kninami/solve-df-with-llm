@@ -1,5 +1,5 @@
 ---
-id: DFT-2073
+id: LWT-2073
 type: technique
 name: Measure heuristic-based Bitcoin address-clustering error rates using a validated blockchain simulation model
 description: Because no ground truth exists for real-world Bitcoin address ownership, quantify the error rate of heuristic-based address-clustering algorithms (e.g. the multi-input and one-time-change heuristics) by running them against a simulation model of the Bitcoin network whose transaction structure and behavior have been validated to match the real blockchain, using sensitivity analysis to first confirm the simulation model's own stability and credibility.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1004
   - DFO-1008
 weakness_ids:
-  - DFW-2075
+  - LWW-2075
 aliases:
   - Bitcoin simulation model sensitivity analysis
 source_refs:
-  - DFCite-2081
+  - LWCite-2081
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ The simulation model is built on a Bitcoin network simulator (Simchain), configu
 
 ## References
 
-- [DFCite-2081] Gong, Chow, Yiu, and Ting, 2022, "Sensitivity analysis for a Bitcoin simulation model", FSI: Digital Investigation 43, 301449.
+- [LWCite-2081] Gong, Chow, Yiu, and Ting, 2022, "Sensitivity analysis for a Bitcoin simulation model", FSI: Digital Investigation 43, 301449.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2088
+id: LWM-2088
 type: mitigation
 name: Reconcile statistically optimal crime clusters against administrative boundaries before using them for resourcing decisions
 source_refs:
-  - DFCite-2103
+  - LWCite-2103
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Overlay the k-means cluster boundaries and centroids (selected via a validity in
 
 ## References
 
-- [DFCite-2103] Kowalski, Kusy, and Kocierz, 2023, "The forensic information identification based on machine learning algorithms", FSI: Digital Investigation 47, 301619.
+- [LWCite-2103] Kowalski, Kusy, and Kocierz, 2023, "The forensic information identification based on machine learning algorithms", FSI: Digital Investigation 47, 301619.

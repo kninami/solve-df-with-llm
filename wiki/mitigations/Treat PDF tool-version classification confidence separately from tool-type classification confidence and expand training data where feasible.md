@@ -1,9 +1,9 @@
 ---
-id: DFM-2100
+id: LWM-2100
 type: mitigation
 name: Treat PDF tool-version classification confidence separately from tool-type classification confidence and expand training data where feasible
 source_refs:
-  - DFCite-2116
+  - LWCite-2116
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Use [[techniques/Identify the creator tool of a PDF document using byte-frequenc
 
 ## References
 
-- [DFCite-2116] Zia and Adedayo, 2025, "Tool type identification for forensic digital document examination", FSI: Digital Investigation 54, 301972.
+- [LWCite-2116] Zia and Adedayo, 2025, "Tool type identification for forensic digital document examination", FSI: Digital Investigation 54, 301972.

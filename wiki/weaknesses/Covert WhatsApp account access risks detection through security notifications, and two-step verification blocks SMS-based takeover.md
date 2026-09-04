@@ -1,14 +1,14 @@
 ---
-id: DFW-1252
+id: LWW-1252
 type: weakness
 name: Covert WhatsApp account access risks detection through security notifications, and two-step verification blocks SMS-based takeover
 description: An investigator relying on SMS-verification-code account takeover or WhatsApp Web session pairing for live surveillance can lose access without warning — takeover fails outright if two-step verification is enabled, and a covert Web session remains discoverable at any time through WhatsApp's own linked-devices list.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1253
+  - LWM-1253
 source_refs:
-  - DFCite-1270
+  - LWCite-1270
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigation plan that assumes either vector will remain silently available 
 
 ## References
 
-- [DFCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.
+- [LWCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.

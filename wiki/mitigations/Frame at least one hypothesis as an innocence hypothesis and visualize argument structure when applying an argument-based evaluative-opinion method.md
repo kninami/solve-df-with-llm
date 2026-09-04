@@ -1,9 +1,9 @@
 ---
-id: DFM-1065
+id: LWM-1065
 type: mitigation
 name: Frame at least one hypothesis as an innocence hypothesis and visualize argument structure when applying an argument-based evaluative-opinion method
 source_refs:
-  - DFCite-1055
+  - LWCite-1055
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ At the hypothesis-framing step, explicitly check that at least one of the two co
 
 ## References
 
-- [DFCite-1055] Sunde and Franqueira, 2023, "Adding transparency to uncertainty: An argument-based method for evaluative opinions", FSI: Digital Investigation 47.
+- [LWCite-1055] Sunde and Franqueira, 2023, "Adding transparency to uncertainty: An argument-based method for evaluative opinions", FSI: Digital Investigation 47.

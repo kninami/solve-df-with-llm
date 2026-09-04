@@ -1,18 +1,18 @@
 ---
-id: DFT-1003
+id: LWT-1003
 type: technique
 name: Extract eMMC storage using in-system programming
 description: Perform a non-destructive teardown of an IoT smart device to locate the eMMC storage chip, mark In-System Programming (ISP) access points, and physically extract a forensically sound image without desoldering the chip.
 objective_ids:
   - DFO-1021
 weakness_ids:
-  - DFW-1003
+  - LWW-1003
 aliases:
   - In-system programming eMMC extraction
   - ISP eMMC extraction
 source_refs:
-  - DFCite-1002
-  - DFCite-1278
+  - LWCite-1002
+  - LWCite-1278
 updated_at: 2026-08-14
 status: complete
 ---
@@ -45,5 +45,5 @@ An earlier, broader family-of-experiments study established this methodology acr
 
 ## References
 
-- [DFCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.
-- [DFCite-1278] Lorenz, Stinehour, Chennamaneni, Subhani and Torre, 2023, "IoT forensic analysis: A family of experiments with Amazon Echo devices", FSI: Digital Investigation 45, 301541. Establishes the ISP tear-down and pinout methodology across seven Echo Show generations plus the Echo Spot, including eMMC reinstallation for repeated testing and dual-eMMC extraction on the Echo Show 10 (3rd generation).
+- [LWCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.
+- [LWCite-1278] Lorenz, Stinehour, Chennamaneni, Subhani and Torre, 2023, "IoT forensic analysis: A family of experiments with Amazon Echo devices", FSI: Digital Investigation 45, 301541. Establishes the ISP tear-down and pinout methodology across seven Echo Show generations plus the Echo Spot, including eMMC reinstallation for repeated testing and dual-eMMC extraction on the Echo Show 10 (3rd generation).

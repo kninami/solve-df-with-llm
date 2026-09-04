@@ -1,5 +1,5 @@
 ---
-id: DFT-2102
+id: LWT-2102
 type: technique
 name: Extract V8 JavaScript engine heap objects from memory using MetaMap-based scanning
 description: Recover live JavaScript objects (strings, arrays, closures, and application-specific data) from a memory image of any process embedding Google's V8 JavaScript engine -- not just Chrome, but any Node.js, Electron, or V8-embedding application -- by locating V8's internal Map (hidden class/shape) metadata structures in memory and using them to correctly interpret the type and field layout of every heap object referencing that Map.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1017
   - DFO-1011
 weakness_ids:
-  - DFW-2108
+  - LWW-2108
 aliases:
   - V8MapScan
   - Juicing V8
 source_refs:
-  - DFCite-2127
+  - LWCite-2127
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ V8's heap stores tagged pointers and small integers inline according to a per-ob
 
 ## References
 
-- [DFCite-2127] "uicing V8: A primary account for the memory forensics of the V8 JavaScript engine", FSI: Digital Investigation 48, 2024.
+- [LWCite-2127] "uicing V8: A primary account for the memory forensics of the V8 JavaScript engine", FSI: Digital Investigation 48, 2024.

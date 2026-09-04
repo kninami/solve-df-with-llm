@@ -1,14 +1,14 @@
 ---
-id: DFW-2124
+id: LWW-2124
 type: weakness
 name: LLM process triage hallucinates suspicious verdicts for legitimate Windows system processes
 description: A large language model used for memory-forensic process triage sometimes flags a legitimate Windows system process (e.g. svchost.exe) as suspicious in violation of its own prompt instructions, and this fabricated verdict then cascades to every process spawned from the mislabeled parent.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-2125
+  - LWM-2125
 source_refs:
-  - DFCite-2147
+  - LWCite-2147
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on the tool's triage list to prioritize manual review wo
 
 ## References
 
-- [DFCite-2147] Oh et al., 2024, "volGPT: Evaluation on triaging ransomware process in memory forensics with Large Language Model", FSI: Digital Investigation 49.
+- [LWCite-2147] Oh et al., 2024, "volGPT: Evaluation on triaging ransomware process in memory forensics with Large Language Model", FSI: Digital Investigation 49.

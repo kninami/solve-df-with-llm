@@ -1,17 +1,17 @@
 ---
-id: DFT-1232
+id: LWT-1232
 type: technique
 name: Identify a video's source camera using noise-threshold-gated denoising and CNN classification
 description: Determine a video's source camera device, model, or brand by feeding each I-frame to a lightweight CNN classifier (MobileNetV3-Small), first selectively denoising only frames whose estimated noise level exceeds a validation-derived threshold, so genuinely low-noise frames retain their intrinsic camera signal while noisy frames are cleaned before classification.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1250
+  - LWW-1250
 aliases:
   - Hybrid DN-MobileNet
   - Selective-denoising source camera identification from video (SCIV)
 source_refs:
-  - DFCite-1265
+  - LWCite-1265
 updated_at: 2026-08-13
 status: complete
 ---
@@ -42,4 +42,4 @@ A 17-layer DnCNN-based denoiser (trained on the Smartphone Image Denoising Datas
 
 ## References
 
-- [DFCite-1265] Tigga and Sitara, 2026, "Hybrid DN-MobileNet: A study on an effective framework for source camera identification from videos", FSI: Digital Investigation 57, 302090.
+- [LWCite-1265] Tigga and Sitara, 2026, "Hybrid DN-MobileNet: A study on an effective framework for source camera identification from videos", FSI: Digital Investigation 57, 302090.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1201
+id: LWW-1201
 type: weakness
 name: Hypervisor-based incremental memory acquisition misses paged-out content stored in pagefile.sys
 description: A hypervisor-based memory acquisition system that tracks and transfers only physical RAM pages does not capture data the OS has paged out to disk (Windows' pagefile.sys), so content that existed in memory but was swapped to the page file at the moment of acquisition is absent from the resulting timeline unless the page file is separately and additionally acquired.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1201
+  - LWM-1201
 source_refs:
-  - DFCite-1212
+  - LWCite-1212
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Content that has been paged out to disk at the moment of a snapshot — which ca
 
 ## References
 
-- [DFCite-1212] Hirano and Kobayashi, 2023, "FIMAR: Fast incremental memory acquisition and restoration system for temporal-dimension forensic analysis", FSI: Digital Investigation 46, 301603.
+- [LWCite-1212] Hirano and Kobayashi, 2023, "FIMAR: Fast incremental memory acquisition and restoration system for temporal-dimension forensic analysis", FSI: Digital Investigation 46, 301603.

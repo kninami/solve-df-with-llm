@@ -1,14 +1,14 @@
 ---
-id: DFW-1056
+id: LWW-1056
 type: weakness
 name: ICS project-file monitoring and restoration tooling lacks its own performance and security evaluation
 description: Proposed project-file integrity monitoring and restoration tooling for ICS engineering workstations has not itself been evaluated for computational resource overhead, detection/recovery speed, or resistance to an attacker who targets the monitoring tool or its version-history database directly, leaving open whether the tool is practical to run continuously or trustworthy under active attack.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1056
+  - LWM-1056
 source_refs:
-  - DFCite-1046
+  - LWCite-1046
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ A monitoring tool that continuously runs on an ICS engineering workstation could
 
 ## References
 
-- [DFCite-1046] Shin et al., 2022, "A study on command block collection and restoration techniques through detection of project file manipulation on engineering workstation of industrial control system", FSI: Digital Investigation 40.
+- [LWCite-1046] Shin et al., 2022, "A study on command block collection and restoration techniques through detection of project file manipulation on engineering workstation of industrial control system", FSI: Digital Investigation 40.

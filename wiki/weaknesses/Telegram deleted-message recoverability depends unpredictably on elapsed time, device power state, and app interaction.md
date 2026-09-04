@@ -1,14 +1,14 @@
 ---
-id: DFW-1314
+id: LWW-1314
 type: weakness
 name: Telegram deleted-message recoverability depends unpredictably on elapsed time, device power state, and app interaction
 description: Even though Telegram's default configuration leaves deleted records theoretically recoverable in the main database (Auto Vacuum and Secure Delete disabled) and briefly in the WAL file, actual recovery success in a realistic multi-user scenario varied substantially with the elapsed time before acquisition, the device's power/connectivity state, and how the app was subsequently used, and different forensic tools examining the identical dataset produced diverging results in accuracy and completeness.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1316
+  - LWM-1316
 source_refs:
-  - DFCite-1354
+  - LWCite-1354
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator cannot assume a fixed, predictable recovery outcome for Telegram
 
 ## References
 
-- [DFCite-1354] Vasilaras, Dosis, Kotsis, and Rizomiliotis, 2022, "Retrieving deleted records from Telegram", FSI: Digital Investigation 43, 301447.
+- [LWCite-1354] Vasilaras, Dosis, Kotsis, and Rizomiliotis, 2022, "Retrieving deleted records from Telegram", FSI: Digital Investigation 43, 301447.

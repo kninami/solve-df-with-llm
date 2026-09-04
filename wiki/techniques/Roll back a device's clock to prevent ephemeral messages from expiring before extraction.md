@@ -1,16 +1,16 @@
 ---
-id: DFT-1198
+id: LWT-1198
 type: technique
 name: Roll back a device's clock to prevent ephemeral messages from expiring before extraction
 description: Set a seized device's local date/time backward to before a disappearing message's expiry point, exploiting the fact that some apps evaluate message expiry against the device's local clock rather than a server timestamp, to keep the message readable and captureable until extraction can occur.
 objective_ids:
   - DFO-1010
 weakness_ids:
-  - DFW-1207
+  - LWW-1207
 aliases:
   - "\"Pausing the clock\" to preserve disappearing messages"
 source_refs:
-  - DFCite-1218
+  - LWCite-1218
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ Testing WhatsApp's disappearing-message feature on a network-isolated (airplane-
 
 ## References
 
-- [DFCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.
+- [LWCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.

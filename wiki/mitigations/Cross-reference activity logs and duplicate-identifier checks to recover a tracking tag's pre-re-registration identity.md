@@ -1,9 +1,9 @@
 ---
-id: DFM-2073
+id: LWM-2073
 type: mitigation
 name: Cross-reference activity logs and duplicate-identifier checks to recover a tracking tag's pre-re-registration identity
 source_refs:
-  - DFCite-2078
+  - LWCite-2078
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Search the companion app's persistent activity log (e.g. `PersistentLogData.db`)
 
 ## References
 
-- [DFCite-2078] Yang, Han, Kim, and Kim, 2025, "Samsung tracking tag application forensics in criminal investigations", FSI: Digital Investigation 52, 301875.
+- [LWCite-2078] Yang, Han, Kim, and Kim, 2025, "Samsung tracking tag application forensics in criminal investigations", FSI: Digital Investigation 52, 301875.

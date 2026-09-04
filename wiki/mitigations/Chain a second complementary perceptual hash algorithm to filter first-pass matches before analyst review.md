@@ -1,9 +1,9 @@
 ---
-id: DFM-2016
+id: LWM-2016
 type: mitigation
 name: Chain a second complementary perceptual hash algorithm to filter first-pass matches before analyst review
 source_refs:
-  - DFCite-2016
+  - LWCite-2016
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Use a broader/more sensitive first-iteration algorithm (e.g. dHash) to avoid mis
 
 ## References
 
-- [DFCite-2016] dos Santos et al., 2024 — Tables 3, 5, and 7 demonstrate that pairing dHash with chHash (or dHash-v with chHash) as a second iteration consistently achieves the highest true-positive filtering rates (up to 100%) across the paper's simulated and real-image test sets.
+- [LWCite-2016] dos Santos et al., 2024 — Tables 3, 5, and 7 demonstrate that pairing dHash with chHash (or dHash-v with chHash) as a second iteration consistently achieves the highest true-positive filtering rates (up to 100%) across the paper's simulated and real-image test sets.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2078
+id: LWM-2078
 type: mitigation
 name: Benchmark image-splicing-localization tools against realistic recompressed social-media imagery before relying on their output
 source_refs:
-  - DFCite-2085
+  - LWCite-2085
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ When splicing-localization output will inform a determination about a social-med
 
 ## References
 
-- [DFCite-2085] Rana, Hasnat, and Rahaman, 2022, "SMIFD-1000: Social media image forgery detection database", FSI: Digital Investigation 41, 301392.
+- [LWCite-2085] Rana, Hasnat, and Rahaman, 2022, "SMIFD-1000: Social media image forgery detection database", FSI: Digital Investigation 41, 301392.

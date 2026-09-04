@@ -1,14 +1,14 @@
 ---
-id: DFW-2005
+id: LWW-2005
 type: weakness
 name: Rare-event audio anomaly classifiers show inconsistent accuracy across classifier-environment combinations
 description: The accuracy, recall, and AUC of a rare-event audio anomaly classifier vary substantially depending on both the chosen classifier and the specific background-noise environment, so a single headline performance figure does not guarantee reliable detection in every deployment setting.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2005
+  - LWM-2005
 source_refs:
-  - DFCite-2005
+  - LWCite-2005
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ If an investigator deploys a rare-event audio classifier trained or benchmarked 
 
 ## References
 
-- [DFCite-2005] Abbasi et al., 2022 — Tables 4 and 5 report per-scene, per-classifier accuracy/AUC swings, and the paper's own discussion notes loud environmental noise makes detection harder in some environments.
+- [LWCite-2005] Abbasi et al., 2022 — Tables 4 and 5 report per-scene, per-classifier accuracy/AUC swings, and the paper's own discussion notes loud environmental noise makes detection harder in some environments.

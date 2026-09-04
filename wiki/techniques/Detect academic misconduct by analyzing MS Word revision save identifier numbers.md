@@ -1,17 +1,17 @@
 ---
-id: DFT-1183
+id: LWT-1183
 type: technique
 name: Detect academic misconduct by analyzing MS Word revision save identifier numbers
 description: Examine the revision save identifier (rsid) tags embedded in a single submitted MS Word document's XML structure — which record each editing session and text-insertion event — to test whether a student's or author's asserted document-generation process (self-written, iteratively edited, pasted from another source, AI-generated) is consistent with the document's actual editing history.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1190
+  - LWW-1190
 aliases:
   - Rsid forensic analysis
   - Revision save identifier document forensics
 source_refs:
-  - DFCite-1195
+  - LWCite-1195
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ The technique works from a single available document, extracted either by unpack
 
 ## References
 
-- [DFCite-1195] Spennemann, Spennemann and Singh, 2024, "Examining and detecting academic misconduct in written documents using revision save identifier numbers in MS Word as exemplified by multiple scenarios", FSI: Digital Investigation 51, 301821.
+- [LWCite-1195] Spennemann, Spennemann and Singh, 2024, "Examining and detecting academic misconduct in written documents using revision save identifier numbers in MS Word as exemplified by multiple scenarios", FSI: Digital Investigation 51, 301821.

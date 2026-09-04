@@ -1,5 +1,5 @@
 ---
-id: DFW-1161
+id: LWW-1161
 type: weakness
 name: PRNU video source-camera correlation degrades under stabilization and compression
 description: Video-specific processing — camera-applied stabilization that crops, warps, and translates frames, and lossy video compression codecs that attenuate high-frequency sensor noise — substantially lowers PRNU correlation scores (NCC/PCE) relative to still images, so a genuine source-camera match can fall below the detection threshold and be missed, and platform re-encoding on social media compounds the effect further.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1161
+  - LWM-1161
 source_refs:
-  - DFCite-1164
+  - LWCite-1164
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator who applies a still-image PRNU workflow directly to video, or wh
 
 ## References
 
-- [DFCite-1164] Akbari et al., 2022, "Digital forensic analysis for source video identification: A survey", FSI: Digital Investigation 41, 301390.
+- [LWCite-1164] Akbari et al., 2022, "Digital forensic analysis for source video identification: A survey", FSI: Digital Investigation 41, 301390.

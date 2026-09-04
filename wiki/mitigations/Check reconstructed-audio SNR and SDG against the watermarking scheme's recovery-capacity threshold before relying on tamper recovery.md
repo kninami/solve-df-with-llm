@@ -1,9 +1,9 @@
 ---
-id: DFM-2008
+id: LWM-2008
 type: mitigation
 name: Check reconstructed-audio SNR and SDG against the watermarking scheme's recovery-capacity threshold before relying on tamper recovery
 source_refs:
-  - DFCite-2008
+  - LWCite-2008
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Report the extent of the detected tampering (proportion of frames/samples affect
 
 ## References
 
-- [DFCite-2008] He et al., 2024 — the paper's own SNR (>15) and SDG (>-1.5) thresholds for judging the reconstructed signal to convey the same meaning as the original are the basis for this check.
+- [LWCite-2008] He et al., 2024 — the paper's own SNR (>15) and SDG (>-1.5) thresholds for judging the reconstructed signal to convey the same meaning as the original are the basis for this check.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1106
+id: LWT-1106
 type: technique
 name: Reconstruct application usage timeline from save-state file timestamps
 description: Locate an application's per-session save-state files in its OS-standard data directory and sort them by creation timestamp to reconstruct the specific time period during which the application was actively used, providing evidence of consumption rather than mere possession.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1111
+  - LWW-1111
 aliases:
   - RenPy save-state timestamp analysis
 source_refs:
-  - DFCite-1105
+  - LWCite-1105
 updated_at: 2026-08-12
 status: complete
 ---
@@ -39,4 +39,4 @@ In the source case, the Ren'Py game engine was found to create a per-game subdir
 
 ## References
 
-- [DFCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.
+- [LWCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.

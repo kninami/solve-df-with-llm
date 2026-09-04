@@ -1,16 +1,16 @@
 ---
-id: DFT-1234
+id: LWT-1234
 type: technique
 name: Identify a data-wiping tool from ReFS Logfile deletion opcode patterns
 description: Compare the sequence of Redo-Record opcodes a deletion operation produced in a ReFS volume's Logfile against a reference database of opcode patterns characteristic of specific anti-forensic data-wiping tools and algorithms, to identify which tool (and often which wiping algorithm) was used.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1215
+  - LWW-1215
 aliases:
   - ReFS $Logfile-based data-wiping-tool identification
 source_refs:
-  - DFCite-1269
+  - LWCite-1269
 updated_at: 2026-08-14
 status: complete
 ---
@@ -40,4 +40,4 @@ This builds on the same underlying artifact and parsing methodology as [[techniq
 
 ## References
 
-- [DFCite-1269] Kim and Lee, 2026, "Identification of data wiping tools based on deletion patterns in ReFS $Logfile", FSI: Digital Investigation 56, 302069.
+- [LWCite-1269] Kim and Lee, 2026, "Identification of data wiping tools based on deletion patterns in ReFS $Logfile", FSI: Digital Investigation 56, 302069.

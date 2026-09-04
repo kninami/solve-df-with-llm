@@ -1,17 +1,17 @@
 ---
-id: DFT-1194
+id: LWT-1194
 type: technique
 name: Acquire incremental memory snapshots using hypervisor-based extended-page-table change tracking
 description: Acquire a full memory snapshot once, then repeatedly acquire only the 4 KiB memory pages that changed since the previous snapshot by using a thin hypervisor's Extended Page Table (EPT) write-permission tracking and TLB shootdown to detect and atomically capture page changes over time, reconstructing a temporal timeline of system RAM activity rather than a single point-in-time image.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1201
+  - LWW-1201
 aliases:
   - FIMAR
   - Fast Incremental Memory Acquisition and Restoration
 source_refs:
-  - DFCite-1212
+  - LWCite-1212
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ After the initial full snapshot, the hypervisor deletes write permission on all 
 
 ## References
 
-- [DFCite-1212] Hirano and Kobayashi, 2023, "FIMAR: Fast incremental memory acquisition and restoration system for temporal-dimension forensic analysis", FSI: Digital Investigation 46, 301603.
+- [LWCite-1212] Hirano and Kobayashi, 2023, "FIMAR: Fast incremental memory acquisition and restoration system for temporal-dimension forensic analysis", FSI: Digital Investigation 46, 301603.

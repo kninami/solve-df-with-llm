@@ -1,9 +1,9 @@
 ---
-id: DFM-1008
+id: LWM-1008
 type: mitigation
 name: Acquire SQLite database and WAL file together before application termination
 source_refs:
-  - DFCite-1004
+  - LWCite-1004
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When triaging a live device or system using SQLite in WAL mode, prioritize acqui
 
 ## References
 
-- [DFCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.
+- [LWCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.

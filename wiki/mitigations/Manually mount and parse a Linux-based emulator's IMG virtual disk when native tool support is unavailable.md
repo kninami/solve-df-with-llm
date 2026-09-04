@@ -1,9 +1,9 @@
 ---
-id: DFM-2027
+id: LWM-2027
 type: mitigation
 name: Manually mount and parse a Linux-based emulator's IMG virtual disk when native tool support is unavailable
 source_refs:
-  - DFCite-2027
+  - LWCite-2027
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Locate the emulator's known virtual-disk storage paths on the Linux host (e.g. W
 
 ## References
 
-- [DFCite-2027] Şen and Artuner, 2025 — Section V.D.2 documents the specific Waydroid storage paths used to locate the IMG files in the absence of native tool detection, providing the basis for a manual mounting workaround.
+- [LWCite-2027] Şen and Artuner, 2025 — Section V.D.2 documents the specific Waydroid storage paths used to locate the IMG files in the absence of native tool detection, providing the basis for a manual mounting workaround.

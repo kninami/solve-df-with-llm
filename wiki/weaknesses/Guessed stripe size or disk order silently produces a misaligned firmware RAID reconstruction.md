@@ -1,14 +1,14 @@
 ---
-id: DFW-1167
+id: LWW-1167
 type: weakness
 name: Guessed stripe size or disk order silently produces a misaligned firmware RAID reconstruction
 description: When a firmware RAID virtual disk is deleted, Intel's implementation overwrites its metadata entirely, so reconstructing the deleted volume requires the investigator to infer critical parameters — especially stripe size, which is never explicitly recorded and must be guessed from a small set of common values — and an incorrect guess produces a reconstructed virtual disk that is silently misaligned rather than failing visibly.
 categories:
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-1167
+  - LWM-1167
 source_refs:
-  - DFCite-1168
+  - LWCite-1168
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ The paper's own evaluation explicitly cautions that "the accuracy of recovered v
 
 ## References
 
-- [DFCite-1168] Yun et al., 2025, "Digital forensic approaches to Intel and AMD firmware RAID systems", FSI: Digital Investigation 54, 301971.
+- [LWCite-1168] Yun et al., 2025, "Digital forensic approaches to Intel and AMD firmware RAID systems", FSI: Digital Investigation 54, 301971.

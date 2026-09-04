@@ -1,16 +1,16 @@
 ---
-id: DFW-1064
+id: LWW-1064
 type: weakness
 name: In-memory structure layouts change across application versions, breaking structure-signature-based memory forensics
 description: Because an application's internal data structures/objects (e.g. Apache2's process_rec and connection structures, or a Chromium browser's NavigationEntryImpl and related classes) change member order and field offsets — and in some cases the default process name itself — between builds, major releases, or even forks of the same underlying project, a memory-forensics tool built against one version's structure signatures will misparse or fail to locate structures on a target running a different version or fork unless it incorporates per-version detection heuristics.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1064
+  - LWM-1064
 source_refs:
-  - DFCite-1054
-  - DFCite-1114
-  - DFCite-1205
+  - LWCite-1054
+  - LWCite-1114
+  - LWCite-1205
 updated_at: 2026-08-13
 status: complete
 ---
@@ -35,5 +35,5 @@ A structure-signature-based memory forensics tool that assumes a single fixed la
 
 ## References
 
-- [DFCite-1054] Hilgert et al., 2023, "About the applicability of Apache2 web server memory forensics", FSI: Digital Investigation 46.
-- [DFCite-1114] Choi et al., 2023, "Chracer: Memory analysis of Chromium-based browsers", FSI: Digital Investigation 46.
+- [LWCite-1054] Hilgert et al., 2023, "About the applicability of Apache2 web server memory forensics", FSI: Digital Investigation 46.
+- [LWCite-1114] Choi et al., 2023, "Chracer: Memory analysis of Chromium-based browsers", FSI: Digital Investigation 46.

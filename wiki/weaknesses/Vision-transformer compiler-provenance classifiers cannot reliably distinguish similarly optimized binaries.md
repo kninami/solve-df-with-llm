@@ -1,14 +1,14 @@
 ---
-id: DFW-1128
+id: LWW-1128
 type: weakness
 name: Vision-transformer compiler-provenance classifiers cannot reliably distinguish similarly optimized binaries
 description: Compiler-provenance classifiers that perform well distinguishing dissimilar optimization levels drop to near-chance accuracy when the compared optimization levels produce similar runtime behavior, such as O3 versus Os or O0 versus Os.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1128
+  - LWM-1128
 source_refs:
-  - DFCite-1124
+  - LWCite-1124
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator citing this technique's headline accuracy figure (94-98%+) witho
 
 ## References
 
-- [DFCite-1124] Khan et al., 2024, "Compiler-provenance identification in obfuscated binaries using vision transformers", FSI: Digital Investigation 49, 301764.
+- [LWCite-1124] Khan et al., 2024, "Compiler-provenance identification in obfuscated binaries using vision transformers", FSI: Digital Investigation 49, 301764.

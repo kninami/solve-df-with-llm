@@ -1,14 +1,14 @@
 ---
-id: DFW-2051
+id: LWW-2051
 type: weakness
 name: Open-source DPI classification limitations cause missed and misclassified IM calls in VoIP network forensics
 description: Using an open-source deep packet inspection tool to classify encrypted IM/VoIP traffic causes some calls to go undetected (dropped packets not correctly classified) and limits how many distinct IM applications' traffic signatures are recognized, since traffic classification accuracy depends entirely on the DPI tool's own signature implementation and how current it is with application/protocol updates.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2051
+  - LWM-2051
 source_refs:
-  - DFCite-2052
+  - LWCite-2052
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator relying on this technique with an open-source DPI tool should ex
 
 ## References
 
-- [DFCite-2052] Sarhan et al., 2024 — Section IV.C's discussion of the two failed call identifications and the five-vs-six application discrepancy directly attributes both to nDPI classification limitations, and the paper's own "Limitations" and "Future Work" sections reinforce this.
+- [LWCite-2052] Sarhan et al., 2024 — Section IV.C's discussion of the two failed call identifications and the five-vs-six application discrepancy directly attributes both to nDPI classification limitations, and the paper's own "Limitations" and "Future Work" sections reinforce this.

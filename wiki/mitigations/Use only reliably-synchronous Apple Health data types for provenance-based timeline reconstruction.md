@@ -1,9 +1,9 @@
 ---
-id: DFM-2093
+id: LWM-2093
 type: mitigation
 name: Use only reliably-synchronous Apple Health data types for provenance-based timeline reconstruction
 source_refs:
-  - DFCite-2108
+  - LWCite-2108
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Before using a specific health data type's provenance timestamp to place an acti
 
 ## References
 
-- [DFCite-2108] "The provenance of Apple Health data: A timeline of update history", FSI: Digital Investigation 48, 2024.
+- [LWCite-2108] "The provenance of Apple Health data: A timeline of update history", FSI: Digital Investigation 48, 2024.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1177
+id: LWW-1177
 type: weakness
 name: RF fingerprinting misclassifies drone models with overlapping RF signatures due to shared hardware or transmission modules
 description: RF-fingerprint-based drone model classification confuses two models whose transmitters share underlying hardware or transmission modules, since their RF signatures overlap closely enough that the classifier cannot reliably distinguish them.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1177
+  - LWM-1177
 source_refs:
-  - DFCite-1178
+  - LWCite-1178
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on RF fingerprinting to identify a drone's model should 
 
 ## References
 
-- [DFCite-1178] Choudhary et al., 2025, "DrIfTeR: A Drone Identification Technique using RF signals", FSI: Digital Investigation 54. Attributes concentrated model-level misclassification (e.g., HK-T6A as Phantom 3) to overlapping RF signatures from shared hardware or transmission modules.
+- [LWCite-1178] Choudhary et al., 2025, "DrIfTeR: A Drone Identification Technique using RF signals", FSI: Digital Investigation 54. Attributes concentrated model-level misclassification (e.g., HK-T6A as Phantom 3) to overlapping RF signatures from shared hardware or transmission modules.

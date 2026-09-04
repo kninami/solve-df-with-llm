@@ -1,16 +1,16 @@
 ---
-id: DFT-1162
+id: LWT-1162
 type: technique
 name: Classify keyword-matched message context as crime-relevant using an LLM majority-vote ensemble
 description: Feed each keyword-matched mobile-messenger message, together with a window of surrounding context messages, to multiple large language models with a role-based prompt, and combine their binary crime-relevance judgments by majority vote to distinguish genuine criminal communication from figurative or metaphorical use of the same keyword.
 objective_ids:
   - DFO-1003
 weakness_ids:
-  - DFW-1168
+  - LWW-1168
 aliases:
   - LLM-driven evidence analysis framework for mobile messenger data
 source_refs:
-  - DFCite-1173
+  - LWCite-1173
 updated_at: 2026-08-12
 status: complete
 ---
@@ -39,4 +39,4 @@ The pipeline acquires mobile device data with a forensic tool, exports it to a s
 
 ## References
 
-- [DFCite-1173] Kim et al., 2025, "Digital forensics in law enforcement: A case study of LLM-driven evidence analysis", FSI: Digital Investigation 54, 301939.
+- [LWCite-1173] Kim et al., 2025, "Digital forensics in law enforcement: A case study of LLM-driven evidence analysis", FSI: Digital Investigation 54, 301939.

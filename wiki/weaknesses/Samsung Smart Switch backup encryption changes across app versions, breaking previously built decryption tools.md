@@ -1,14 +1,14 @@
 ---
-id: DFW-1277
+id: LWW-1277
 type: weakness
 name: Samsung Smart Switch backup encryption changes across app versions, breaking previously built decryption tools
 description: Samsung updates Smart Switch's backup data storage format and encryption scheme across app versions — changing which files are encrypted, adding new key-derivation algorithms, and changing existing algorithms' parameters (e.g. from a fixed to a randomly generated initialization vector) — so a decryption tool built by reverse-engineering one version stops working, without warning, against backup data produced by a newer version.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1278
+  - LWM-1278
 source_refs:
-  - DFCite-1305
+  - LWCite-1305
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or tool vendor who builds a Smart Switch decryption capability a
 
 ## References
 
-- [DFCite-1305] Kang, Kim, Park and Kim, 2021, "Methods for decrypting the data encrypted by the latest Samsung smartphone backup programs in Windows and macOS", FSI: Digital Investigation 39, 301310.
+- [LWCite-1305] Kang, Kim, Park and Kim, 2021, "Methods for decrypting the data encrypted by the latest Samsung smartphone backup programs in Windows and macOS", FSI: Digital Investigation 39, 301310.

@@ -1,5 +1,5 @@
 ---
-id: DFT-2091
+id: LWT-2091
 type: technique
 name: Automate Android forensic experiments and differential artifact analysis using multimodal LLMs and OCR
 description: Drive a rooted physical Android device through a forensic experiment using plain natural-language action descriptions (rather than scripted commands or widget IDs), interpreted and executed by a multimodal large language model (MLLM) agent that perceives the screen via OCR and icon localization, then automatically extract and differentially compare the device's internal storage before and after each action to attribute specific artifact changes (thumbnails, cache files, database records) to the specific user action that caused them.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1004
   - DFO-1011
 weakness_ids:
-  - DFW-2095
+  - LWW-2095
 aliases:
   - Thumb
 source_refs:
-  - DFCite-2112
+  - LWCite-2112
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ The framework has three components run in sequence. **Authentication** confirms 
 
 ## References
 
-- [DFCite-2112] Shang, Sakzad, and Hall, 2025, "Thumb: A forensic automation framework leveraging MLLMs and OCR on Android device", FSI: Digital Investigation 54, 301949.
+- [LWCite-2112] Shang, Sakzad, and Hall, 2025, "Thumb: A forensic automation framework leveraging MLLMs and OCR on Android device", FSI: Digital Investigation 54, 301949.

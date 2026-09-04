@@ -1,17 +1,17 @@
 ---
-id: DFT-1252
+id: LWT-1252
 type: technique
 name: Classify indoor scenes in CSAM triage using self-supervised pretraining
 description: Automatically classify the indoor scene context (bedroom, bathroom, child's room, classroom, dressing room, living room, studio, swimming pool) of a suspected child sexual abuse material image using a ResNet-50 model self-supervised-pretrained on combined object-centric and scene-centric imagery before fine-tuning, to group similar imagery and locate identifying environmental cues without needing large volumes of labeled CSAM for training.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1266
+  - LWW-1266
 aliases:
   - Places8 indoor scene classification
   - Self-supervised CSAI scene classification
 source_refs:
-  - DFCite-1292
+  - LWCite-1292
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ The methodology has two stages: a pretext (SSL) stage, where a ResNet-50 backbon
 
 ## References
 
-- [DFCite-1292] Valois, Macedo, Ribeiro, dos Santos and Avila, 2025, "Leveraging self-supervised learning for scene classification in child sexual abuse imagery", FSI: Digital Investigation 53, 301918.
+- [LWCite-1292] Valois, Macedo, Ribeiro, dos Santos and Avila, 2025, "Leveraging self-supervised learning for scene classification in child sexual abuse imagery", FSI: Digital Investigation 53, 301918.

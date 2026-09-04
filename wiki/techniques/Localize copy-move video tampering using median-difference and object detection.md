@@ -1,16 +1,16 @@
 ---
-id: DFT-1045
+id: LWT-1045
 type: technique
 name: Localize copy-move video tampering using median-difference and object detection
 description: Passively detect and localize copy-move object tampering in a video (an object copied from one frame or region and pasted into another) by first computing the normalized pixel-level median difference between consecutive frames to flag which frame ranges show forgery-indicative statistical peaks, then applying a fine-tuned real-time object detector (YOLO V8) to draw a bounding box around the specific tampered object in those frames.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1046
+  - LWW-1046
 aliases:
   - Statistical median-difference and object-detection-based copy-move video tampering localization
 source_refs:
-  - DFCite-1036
+  - LWCite-1036
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ Each video is decomposed into an ordered frame sequence, and per-pixel absolute 
 
 ## References
 
-- [DFCite-1036] Sandhya and Kashyap, 2024, "A novel method for real-time object-based copy-move tampering localization in videos using fine-tuned YOLO V8", FSI: Digital Investigation 48.
+- [LWCite-1036] Sandhya and Kashyap, 2024, "A novel method for real-time object-based copy-move tampering localization in videos using fine-tuned YOLO V8", FSI: Digital Investigation 48.

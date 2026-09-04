@@ -1,9 +1,9 @@
 ---
-id: DFM-1304
+id: LWM-1304
 type: mitigation
 name: Manually review unclassified message regions after cross-protocol heuristic field identification
 source_refs:
-  - DFCite-1337
+  - LWCite-1337
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ After applying [[techniques/Reverse-engineer a proprietary ICS protocol's fields
 
 ## References
 
-- [DFCite-1337] Qasim, Jo, and Ahmed, 2023, "PREE: Heuristic builder for reverse engineering of network protocols in industrial control systems", FSI: Digital Investigation 45, 301565.
+- [LWCite-1337] Qasim, Jo, and Ahmed, 2023, "PREE: Heuristic builder for reverse engineering of network protocols in industrial control systems", FSI: Digital Investigation 45, 301565.

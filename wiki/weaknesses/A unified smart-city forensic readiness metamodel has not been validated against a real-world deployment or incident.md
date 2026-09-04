@@ -1,14 +1,14 @@
 ---
-id: DFW-2004
+id: LWW-2004
 type: weakness
 name: A unified smart-city forensic readiness metamodel has not been validated against a real-world deployment or incident
 description: A metamodel built by integrating existing digital forensic readiness literature and demonstrated only on a hypothetical scenario has not been tested against a real smart-city or smart-home deployment or an actual incident, so its practical completeness and usefulness remain unconfirmed.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2004
+  - LWM-2004
 source_refs:
-  - DFCite-2004
+  - LWCite-2004
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ A readiness metamodel that looks complete on paper can still omit concepts, attr
 
 ## References
 
-- [DFCite-2004] Alotibi, 2024 — the conclusion explicitly identifies real-scenario validation and implementation of HADFRM as future work not yet performed.
+- [LWCite-2004] Alotibi, 2024 — the conclusion explicitly identifies real-scenario validation and implementation of HADFRM as future work not yet performed.

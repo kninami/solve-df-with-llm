@@ -1,9 +1,9 @@
 ---
-id: DFM-1119
+id: LWM-1119
 type: mitigation
 name: Require expert proofreading of every LLM-drafted report section against its source case data before inclusion
 source_refs:
-  - DFCite-1111
+  - LWCite-1111
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Limit LLM-assisted drafting to report sections shown to have high or medium LLM-
 
 ## References
 
-- [DFCite-1111] Michelet and Breitinger, 2024, "ChatGPT, Llama, can you write my report? An experiment on assisted digital forensics reports written using (local) large language models", FSI: Digital Investigation 48.
+- [LWCite-1111] Michelet and Breitinger, 2024, "ChatGPT, Llama, can you write my report? An experiment on assisted digital forensics reports written using (local) large language models", FSI: Digital Investigation 48.

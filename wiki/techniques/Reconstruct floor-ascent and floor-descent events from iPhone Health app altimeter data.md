@@ -1,16 +1,16 @@
 ---
-id: DFT-1228
+id: LWT-1228
 type: technique
 name: Reconstruct floor-ascent and floor-descent events from iPhone Health app altimeter data
 description: Determine when and how many floors a suspect's iPhone registered as ascended or descended by extracting timestamped floor-count records from the Health app's databases (barometric altimeter-derived), so that inferred vertical movement can be correlated with a physical scene during event reconstruction.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1246
+  - LWW-1246
 aliases:
   - Data2activity floor-registration analysis
 source_refs:
-  - DFCite-1261
+  - LWCite-1261
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ The Health app predominantly records floor registrations while walking upstairs 
 
 ## References
 
-- [DFCite-1261] van Zandwijk, Lensen, and Boztas, 2023, "Have you been upstairs? On the accuracy of registrations of ascended and descended floors in iPhones", FSI: Digital Investigation 47, 301660.
+- [LWCite-1261] van Zandwijk, Lensen, and Boztas, 2023, "Have you been upstairs? On the accuracy of registrations of ascended and descended floors in iPhones", FSI: Digital Investigation 47, 301660.

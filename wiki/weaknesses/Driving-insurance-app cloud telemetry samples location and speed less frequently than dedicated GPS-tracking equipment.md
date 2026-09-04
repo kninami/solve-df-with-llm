@@ -1,14 +1,14 @@
 ---
-id: DFW-1247
+id: LWW-1247
 type: weakness
 name: Driving-insurance-app cloud telemetry samples location and speed less frequently than dedicated GPS-tracking equipment
 description: A usage-based-insurance app's cloud-stored trip data records location and speed periodically ("valid period" samples) at a lower frequency than a dedicated GPS logger, and reports speed rounded to the nearest whole unit, reducing the temporal and positional granularity available for precise incident-timeline reconstruction between recorded events.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1248
+  - LWM-1248
 source_refs:
-  - DFCite-1262
+  - LWCite-1262
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Between two recorded samples or discrete events, an investigator has no direct t
 
 ## References
 
-- [DFCite-1262] Onik, Spinosa, Asad, and Baggili, 2024, "Hit and run: Forensic vehicle event reconstruction through driver-based cloud data from Progressive's snapshot application", FSI: Digital Investigation 49, 301762.
+- [LWCite-1262] Onik, Spinosa, Asad, and Baggili, 2024, "Hit and run: Forensic vehicle event reconstruction through driver-based cloud data from Progressive's snapshot application", FSI: Digital Investigation 49, 301762.

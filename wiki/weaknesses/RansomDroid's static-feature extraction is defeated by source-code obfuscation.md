@@ -1,14 +1,14 @@
 ---
-id: DFW-1308
+id: LWW-1308
 type: weakness
 name: RansomDroid's static-feature extraction is defeated by source-code obfuscation
 description: Because RansomDroid's detection relies entirely on statically reverse-engineering an APK's source code, decompiled strings, images, and intents to extract its discriminating features, an app whose developer has applied code obfuscation techniques can prevent reliable extraction of those features, and the framework separately does not capture ransom threats delivered via video rather than static images/text.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1310
+  - LWM-1310
 source_refs:
-  - DFCite-1345
+  - LWCite-1345
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on RansomDroid-style static-feature detection against an
 
 ## References
 
-- [DFCite-1345] Sharma, Krishna, and Kumar, 2021, "RansomDroid: Forensic analysis and detection of Android Ransomware using unsupervised machine learning technique", FSI: Digital Investigation 37, 301168.
+- [LWCite-1345] Sharma, Krishna, and Kumar, 2021, "RansomDroid: Forensic analysis and detection of Android Ransomware using unsupervised machine learning technique", FSI: Digital Investigation 37, 301168.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2032
+id: LWW-2032
 type: weakness
 name: NTFS $LogFile recovery cannot retrieve metadata changes never flushed from memory before a sudden system stop
 description: Record-level $LogFile recovery can only reconstruct metadata operations that were actually written to disk before a system stopped; file-system changes that were still cached in memory and never flushed to $LogFile at the moment of a sudden shutdown are absent from the journal entirely and cannot be recovered by any $LogFile-based method, however effective.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2032
+  - LWM-2032
 source_refs:
-  - DFCite-2032
+  - LWCite-2032
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator recovering $LogFile data after a sudden system stop (crash, powe
 
 ## References
 
-- [DFCite-2032] Oh et al., 2022 — Section VII "Case Study" documents the MV Sewol ferry example where the last data runs before the sudden shutdown were never flushed to $LogFile/$MFT, and explicitly distinguishes this from a deletion scenario.
+- [LWCite-2032] Oh et al., 2022 — Section VII "Case Study" documents the MV Sewol ferry example where the last data runs before the sudden shutdown were never flushed to $LogFile/$MFT, and explicitly distinguishes this from a deletion scenario.

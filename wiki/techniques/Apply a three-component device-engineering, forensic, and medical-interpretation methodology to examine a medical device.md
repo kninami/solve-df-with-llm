@@ -1,16 +1,16 @@
 ---
-id: DFT-1167
+id: LWT-1167
 type: technique
 name: Apply a three-component device-engineering, forensic, and medical-interpretation methodology to examine a medical device
 description: Investigate a medical device by combining three distinct knowledge domains — device engineering (understanding the specific device's hardware/firmware from manufacturer literature and teardown), standard digital forensic process (identification, preservation, analysis, presentation), and medical interpretation (a qualified professional's reading of the recovered clinical data) — rather than applying a general-purpose digital forensics process alone.
 objective_ids:
   - DFO-1015
 weakness_ids:
-  - DFW-1173
+  - LWW-1173
 aliases:
   - Medical device forensics methodology
 source_refs:
-  - DFCite-1172
+  - LWCite-1172
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The device-engineering component gathers pre-acquisition knowledge from manufact
 
 ## References
 
-- [DFCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.
+- [LWCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.

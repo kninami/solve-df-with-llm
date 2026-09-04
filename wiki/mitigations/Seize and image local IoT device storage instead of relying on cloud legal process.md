@@ -1,9 +1,9 @@
 ---
-id: DFM-1003
+id: LWM-1003
 type: mitigation
 name: Seize and image local IoT device storage instead of relying on cloud legal process
 source_refs:
-  - DFCite-1002
+  - LWCite-1002
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ At a scene involving Amazon Echo Show or similar locally-processing smart-displa
 
 ## References
 
-- [DFCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.
+- [LWCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.

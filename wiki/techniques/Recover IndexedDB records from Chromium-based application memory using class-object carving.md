@@ -1,16 +1,16 @@
 ---
-id: DFT-1268
+id: LWT-1268
 type: technique
 name: Recover IndexedDB records from Chromium-based application memory using class-object carving
 description: Extract a Chromium-based browser or desktop application's IndexedDB records (databases, object stores, and their normal/deleted/modified key-value data) directly from a process memory dump by carving for the LevelDB backend's stable internal C++ class objects (starting from the least-frequently-changed DBImpl class), validating candidates against known field-type/offset constraints, then reconstructing and deserializing the in-memory MemTable's SkipList structure — recovering data that, in incognito/private mode, exists nowhere on disk at all.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1279
+  - LWW-1279
 aliases:
   - MIC (Memory analysis of IndexedDB on Chromium)
 source_refs:
-  - DFCite-1307
+  - LWCite-1307
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ Because LevelDB's own wrapper classes update frequently across Chromium releases
 
 ## References
 
-- [DFCite-1307] Jeong, Lee and Park, 2024, "MIC: Memory analysis of IndexedDB data on Chromium-based applications", DFRWS 2024 APAC; FSI: Digital Investigation 50, 301809.
+- [LWCite-1307] Jeong, Lee and Park, 2024, "MIC: Memory analysis of IndexedDB data on Chromium-based applications", DFRWS 2024 APAC; FSI: Digital Investigation 50, 301809.

@@ -1,5 +1,5 @@
 ---
-id: DFW-2064
+id: LWW-2064
 type: weakness
 name: Statistical steganalysis without a located original cover image is unreliable and can be defeated by data-wiping the cover file
 description: Detecting image steganography using only statistical analysis of the suspect payload image, without the original cover image for comparison, is generally unreliable and inconclusive; a suspect who takes care to securely wipe the original cover file after embedding can deny an investigator the far more reliable direct-comparison alternative entirely.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2065
+  - LWM-2065
 source_refs:
-  - DFCite-2067
+  - LWCite-2067
 updated_at: 2026-08-15
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator who relies on statistical steganalysis of a payload image alone 
 
 ## References
 
-- [DFCite-2067] Pelosi & Easttom, 2021, "Positive Identification of Least Significant Bit (LSB) Image Steganography Using Cover Image Comparisons", JDFSL 15(6). States that statistical steganalysis methods "can be considered unreliable at best" without a located original image, and that sound steganographic procedure includes wiping the original cover file, though "human error and technical limitations may prevent completely effective data erasure."
+- [LWCite-2067] Pelosi & Easttom, 2021, "Positive Identification of Least Significant Bit (LSB) Image Steganography Using Cover Image Comparisons", JDFSL 15(6). States that statistical steganalysis methods "can be considered unreliable at best" without a located original image, and that sound steganographic procedure includes wiping the original cover file, though "human error and technical limitations may prevent completely effective data erasure."

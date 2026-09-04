@@ -1,16 +1,16 @@
 ---
-id: DFT-1105
+id: LWT-1105
 type: technique
 name: Virtualize a suspect executable in a matched OS environment to unlock gated content for review
 description: Run a suspect archive or executable (e.g. a compiled game engine) inside a virtual machine configured to match the seized system's architecture and operating system, so that content gated behind progression, unlock conditions, or in-application logic becomes reviewable without needing to reverse-engineer the underlying file formats.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1110
+  - LWW-1110
 aliases:
   - Virtualization-based review of gated executable content
 source_refs:
-  - DFCite-1105
+  - LWCite-1105
 updated_at: 2026-08-12
 status: complete
 ---
@@ -39,4 +39,4 @@ In the source case, suspicious archives recovered from a Windows 10 system's Dow
 
 ## References
 
-- [DFCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.
+- [LWCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.

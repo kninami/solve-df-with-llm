@@ -1,16 +1,16 @@
 ---
-id: DFT-1245
+id: LWT-1245
 type: technique
 name: Interpret exFAT file timestamps using the UTCOffset field and OS-driver fingerprinting
 description: Correctly convert an exFAT directory entry's stored Create/LastModified/LastAccessed timestamp to actual UTC by identifying which operating system's exFAT driver wrote it — since Windows, MacOS, and Linux drivers implement the specification's UTCOffset field differently — using root-directory artifacts (e.g. .fseventsd, System Volume Information) and 10ms-increment field patterns as OS fingerprints.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-1262
+  - LWW-1262
 aliases:
   - exFAT UTCOffset timestamp interpretation
 source_refs:
-  - DFCite-1283
+  - LWCite-1283
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ Windows 10 follows the specification: it stores the local time (including daylig
 
 ## References
 
-- [DFCite-1283] Nordvik and Axelsson, 2022 (corrigendum 2023), "It is about time — Do exFAT implementations handle timestamps correctly?", FSI: Digital Investigation 42-43, 301476.
+- [LWCite-1283] Nordvik and Axelsson, 2022 (corrigendum 2023), "It is about time — Do exFAT implementations handle timestamps correctly?", FSI: Digital Investigation 42-43, 301476.

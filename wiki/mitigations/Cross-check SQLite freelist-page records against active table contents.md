@@ -1,10 +1,10 @@
 ---
-id: DFM-1006
+id: LWM-1006
 type: mitigation
 name: Cross-check SQLite freelist-page records against active table contents
 source_refs:
-  - DFCite-1004
-  - DFCite-1268
+  - LWCite-1004
+  - LWCite-1268
 updated_at: 2026-08-14
 status: complete
 ---
@@ -25,5 +25,5 @@ After extracting candidate records from freelist pages via freeblock/freelist tr
 
 ## References
 
-- [DFCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.
-- [DFCite-1268] Wu, Breitinger and Baggili, 2026, "I know where you have been last summer: Extracting privacy-sensitive information via forensic analysis of the Mercedes-Benz NTG5/2 infotainment system", FSI: Digital Investigation 56, 302068. NTGCarver validates freelist candidates against a known "valid" flag field before accepting them, outperforming generic recovery tools on the same table.
+- [LWCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.
+- [LWCite-1268] Wu, Breitinger and Baggili, 2026, "I know where you have been last summer: Extracting privacy-sensitive information via forensic analysis of the Mercedes-Benz NTG5/2 infotainment system", FSI: Digital Investigation 56, 302068. NTGCarver validates freelist candidates against a known "valid" flag field before accepting them, outperforming generic recovery tools on the same table.

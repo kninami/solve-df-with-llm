@@ -1,16 +1,16 @@
 ---
-id: DFT-1272
+id: LWT-1272
 type: technique
 name: Detect DLL hijacking by comparing a loaded module's path and size across memory-dump processes
 description: Detect DLL search-order hijacking, DLL side-loading, and DLL proxying attacks in a Windows memory dump by listing every process that has a given module loaded, determining the module's most common on-disk path and size across those processes, and flagging any process whose loaded copy of the module differs in path or size from that consensus value as a likely hijacking victim.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1282
+  - LWW-1282
 aliases:
   - Modex/Intermodex --detect flag
 source_refs:
-  - DFCite-1310
+  - LWCite-1310
 updated_at: 2026-08-15
 status: complete
 ---
@@ -39,4 +39,4 @@ Built as a `--detect` flag on the same Modex/Intermodex tools used for module ag
 
 ## References
 
-- [DFCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.
+- [LWCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.

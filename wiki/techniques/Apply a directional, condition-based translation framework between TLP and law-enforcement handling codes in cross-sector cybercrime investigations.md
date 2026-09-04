@@ -1,16 +1,16 @@
 ---
-id: DFT-1134
+id: LWT-1134
 type: technique
 name: Apply a directional, condition-based translation framework between TLP and law-enforcement handling codes in cross-sector cybercrime investigations
 description: Before or during a cross-sector cybercrime investigation, apply a documented, direction-specific mapping between the private sector's Traffic Light Protocol (TLP) and law enforcement's EU H0-H3 handling codes, specifying who may share what with whom, under what conditions, and with what onward-dissemination constraints, so that information can move lawfully between incident responders and criminal investigators without harmonizing or replacing either classification scheme.
 objective_ids:
   - DFO-1015
 weakness_ids:
-  - DFW-1137
+  - LWW-1137
 aliases:
   - Directional, condition-based translation framework for TLP and H0-H3 information sharing
 source_refs:
-  - DFCite-1135
+  - LWCite-1135
 updated_at: 2026-08-12
 status: complete
 ---
@@ -39,4 +39,4 @@ The framework was derived from a retrospective qualitative case study of the 201
 
 ## References
 
-- [DFCite-1135] Heitmann and Johnsen, 2026, "Cybercrime investigations in practice: Insights from the LockerGoga ransomware attack on Norsk Hydro", FSI: Digital Investigation 57.
+- [LWCite-1135] Heitmann and Johnsen, 2026, "Cybercrime investigations in practice: Insights from the LockerGoga ransomware attack on Norsk Hydro", FSI: Digital Investigation 57.

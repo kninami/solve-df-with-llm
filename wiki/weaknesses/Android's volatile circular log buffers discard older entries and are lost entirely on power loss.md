@@ -1,16 +1,16 @@
 ---
-id: DFW-1077
+id: LWW-1077
 type: weakness
 name: Android's volatile circular log buffers discard older entries and are lost entirely on power loss
 description: Android's logging system (and equivalent kernel-space ring buffers in Android-based in-vehicle infotainment systems) stores log messages in fixed-size volatile circular buffers, so newer entries silently overwrite older ones once a buffer fills, and any buffer content not yet copied elsewhere is permanently erased if the device loses power, regardless of what forensic technique is used to analyze it.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1077
+  - LWM-1077
 source_refs:
-  - DFCite-1067
-  - DFCite-1088
-  - DFCite-1297
+  - LWCite-1067
+  - LWCite-1088
+  - LWCite-1297
 updated_at: 2026-08-14
 status: complete
 ---
@@ -36,6 +36,6 @@ First responders, tow operators, or investigators who power down a device (or ve
 
 ## References
 
-- [DFCite-1067] Kim et al., 2025, "An effective automotive forensic technique utilizing various logs of Android-based In-vehicle infotainment systems", FSI: Digital Investigation 55.
-- [DFCite-1088] Jung et al., 2024, "Automotive digital forensics through data and log analysis of vehicle diagnosis Android apps", FSI: Digital Investigation 49.
-- [DFCite-1297] Cheng, Shi, Gong and Guan, 2021, "LogExtractor: Extracting digital evidence from android log messages via string and taint analysis", DFRWS 2021 USA; FSI: Digital Investigation 37, 301193. Confirms the buffer-overwrite limitation applies generally to Android's logging system beyond the automotive context, bounding log-based evidence recovery to roughly the device's most recent week of use.
+- [LWCite-1067] Kim et al., 2025, "An effective automotive forensic technique utilizing various logs of Android-based In-vehicle infotainment systems", FSI: Digital Investigation 55.
+- [LWCite-1088] Jung et al., 2024, "Automotive digital forensics through data and log analysis of vehicle diagnosis Android apps", FSI: Digital Investigation 49.
+- [LWCite-1297] Cheng, Shi, Gong and Guan, 2021, "LogExtractor: Extracting digital evidence from android log messages via string and taint analysis", DFRWS 2021 USA; FSI: Digital Investigation 37, 301193. Confirms the buffer-overwrite limitation applies generally to Android's logging system beyond the automotive context, bounding log-based evidence recovery to roughly the device's most recent week of use.

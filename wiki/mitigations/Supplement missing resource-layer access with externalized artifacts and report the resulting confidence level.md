@@ -1,9 +1,9 @@
 ---
-id: DFM-1025
+id: LWM-1025
 type: mitigation
 name: Supplement missing resource-layer access with externalized artifacts and report the resulting confidence level
 source_refs:
-  - DFCite-1017
+  - LWCite-1017
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify what externalized artifacts the specific CSP offering does support — 
 
 ## References
 
-- [DFCite-1017] Park et al., 2026, "A forensic investigation framework for desktop-as-a-service in cloud environments", FSI: Digital Investigation 58.
+- [LWCite-1017] Park et al., 2026, "A forensic investigation framework for desktop-as-a-service in cloud environments", FSI: Digital Investigation 58.

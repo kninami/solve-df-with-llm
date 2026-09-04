@@ -1,9 +1,9 @@
 ---
-id: DFM-1240
+id: LWM-1240
 type: mitigation
 name: Combine multiple family-specific generic YARA rule-sets and periodically extend coverage to newly identified botnet families
 source_refs:
-  - DFCite-1254
+  - LWCite-1254
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Maintain a combined rule-set assembled from the generic patterns of every IoT bo
 
 ## References
 
-- [DFCite-1254] Abbas et al., 2021, "Generic signature development for IoT Botnet families", FSI: Digital Investigation 38, 301224.
+- [LWCite-1254] Abbas et al., 2021, "Generic signature development for IoT Botnet families", FSI: Digital Investigation 38, 301224.

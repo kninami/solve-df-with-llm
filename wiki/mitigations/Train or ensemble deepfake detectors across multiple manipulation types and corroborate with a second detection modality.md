@@ -1,10 +1,10 @@
 ---
-id: DFM-1266
+id: LWM-1266
 type: mitigation
 name: Train or ensemble deepfake detectors across multiple manipulation types and corroborate with a second detection modality
 source_refs:
-  - DFCite-1288
-  - DFCite-1291
+  - LWCite-1288
+  - LWCite-1291
 updated_at: 2026-08-14
 status: complete
 ---
@@ -25,5 +25,5 @@ Where the manipulation technique behind a piece of suspect media is unknown, do 
 
 ## References
 
-- [DFCite-1288] Kingra, Aggarwal and Kaur, 2022, "LBPNet: Exploiting texture descriptor for deepfake detection", FSI: Digital Investigation 42-43, 301452.
-- [DFCite-1291] Nguyen, Tran, Le, Nguyen and Truong, 2021, "Learning Spatio-temporal features to detect manipulated facial videos created by the Deepfake techniques", FSI: Digital Investigation 36, 301108.
+- [LWCite-1288] Kingra, Aggarwal and Kaur, 2022, "LBPNet: Exploiting texture descriptor for deepfake detection", FSI: Digital Investigation 42-43, 301452.
+- [LWCite-1291] Nguyen, Tran, Le, Nguyen and Truong, 2021, "Learning Spatio-temporal features to detect manipulated facial videos created by the Deepfake techniques", FSI: Digital Investigation 36, 301108.

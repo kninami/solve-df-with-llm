@@ -1,9 +1,9 @@
 ---
-id: DFM-1085
+id: LWM-1085
 type: mitigation
 name: Treat peeling-chain identification as heuristic evidence requiring off-chain corroboration, not definitive address-ownership proof
 source_refs:
-  - DFCite-1075
+  - LWCite-1075
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ When presenting peeling-chain identification results (e.g. in an investigative r
 
 ## References
 
-- [DFCite-1075] Gong et al., 2023, "Analyzing the peeling chain patterns on the Bitcoin blockchain", FSI: Digital Investigation 46.
+- [LWCite-1075] Gong et al., 2023, "Analyzing the peeling chain patterns on the Bitcoin blockchain", FSI: Digital Investigation 46.

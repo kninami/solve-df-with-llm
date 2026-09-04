@@ -1,17 +1,17 @@
 ---
-id: DFT-1283
+id: LWT-1283
 type: technique
 name: Detect software supply chain attack behaviors in binaries using semantic-graph queries and Bayesian malicious-intent scoring
 description: Identify a compiled Windows binary as likely compromised by a software supply chain attack (SSCA) by matching its data-flow, control-flow, and AST-annotated semantic graph against queries encoding known SSCA characteristic behaviors, then scoring each match's malicious intent using Bayesian inference calibrated against large ground-truth corpora of malware, benign, and Windows 10 binaries.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1293
+  - LWW-1293
 aliases:
   - SSCA investigative framework
   - Parametric momentum data-flow metric
 source_refs:
-  - DFCite-1325
+  - LWCite-1325
 updated_at: 2026-08-15
 status: complete
 ---
@@ -43,4 +43,4 @@ Seven prominent, well-documented SSCAs (including ShadowHammer/ASUS Live Update 
 
 ## References
 
-- [DFCite-1325] Andreoli, Lounis, Debbabi, and Hanna, 2023, "On the prevalence of software supply chain attacks: Empirical study and investigative framework", FSI: Digital Investigation 44, 301508.
+- [LWCite-1325] Andreoli, Lounis, Debbabi, and Hanna, 2023, "On the prevalence of software supply chain attacks: Empirical study and investigative framework", FSI: Digital Investigation 44, 301508.

@@ -1,5 +1,5 @@
 ---
-id: DFT-2096
+id: LWT-2096
 type: technique
 name: Extend The Sleuth Kit with new file-system-specific parsing and recovery modules
 description: Add support for a file system not natively handled by The Sleuth Kit (TSK) -- such as XFS, Btrfs, F2FS, or a vendor-specific format used by embedded devices like Hikvision DVRs -- by implementing new file-system-specific modules against TSK's internal non-specific/file-system-specific architecture, reverse-engineering the target file system's on-disk structures where public documentation is incomplete, and validating the resulting module's metadata and deleted-file recovery accuracy against ground-truth test images.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1013
   - DFO-1018
 weakness_ids:
-  - DFW-2101
+  - LWW-2101
 aliases:
   - Practical TSK file system add-ons
 source_refs:
-  - DFCite-2118
+  - LWCite-2118
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,4 +42,4 @@ Where official file-system documentation is unavailable or incomplete (as is com
 
 ## References
 
-- [DFCite-2118] "Towards a practical usage for the Sleuth Kit supporting file system add-ons", FSI: Digital Investigation 48, 2024.
+- [LWCite-2118] "Towards a practical usage for the Sleuth Kit supporting file system add-ons", FSI: Digital Investigation 48, 2024.

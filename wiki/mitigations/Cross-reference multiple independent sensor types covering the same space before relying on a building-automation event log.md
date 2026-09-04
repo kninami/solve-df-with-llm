@@ -1,9 +1,9 @@
 ---
-id: DFM-2089
+id: LWM-2089
 type: mitigation
 name: Cross-reference multiple independent sensor types covering the same space before relying on a building-automation event log
 source_refs:
-  - DFCite-2104
+  - LWCite-2104
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify all sensor types (PIR, CO2, door/window contacts, glass-break, acoustic
 
 ## References
 
-- [DFCite-2104] Bengtsson, Johnny, 2025, "The ghost in the building: Non-invasive spoofing and covert attacks on automated buildings", FSI: Digital Investigation 52, 301880.
+- [LWCite-2104] Bengtsson, Johnny, 2025, "The ghost in the building: Non-invasive spoofing and covert attacks on automated buildings", FSI: Digital Investigation 52, 301880.

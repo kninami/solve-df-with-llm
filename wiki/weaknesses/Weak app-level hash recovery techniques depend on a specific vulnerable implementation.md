@@ -1,20 +1,20 @@
 ---
-id: DFW-1058
+id: LWW-1058
 type: weakness
 name: Weak app-level hash recovery techniques depend on a specific vulnerable implementation
 description: A published technique for recovering a PIN, pattern, or encryption key from a specific app's lock/encryption implementation exploits that implementation's particular cryptographic weakness (e.g., a reversible hash-substitution scheme, or a key derivable from already-known account data); the technique does not generalize to a different app, a different version of the same app, or any implementation that uses a properly designed, non-reversible authentication or key-derivation scheme.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1058
+  - LWM-1058
 source_refs:
-  - DFCite-1048
-  - DFCite-1076
-  - DFCite-1150
-  - DFCite-1214
-  - DFCite-1220
-  - DFCite-1221
-  - DFCite-1224
+  - LWCite-1048
+  - LWCite-1076
+  - LWCite-1150
+  - LWCite-1214
+  - LWCite-1220
+  - LWCite-1221
+  - LWCite-1224
 updated_at: 2026-08-13
 status: complete
 ---
@@ -39,9 +39,9 @@ An investigator who successfully applies this class of technique against one man
 
 ## References
 
-- [DFCite-1150] Paulino et al., 2025, "Decrypting messages: Extracting digital evidence from signal desktop for windows", FSI: Digital Investigation 54.
-- [DFCite-1048] Kim et al., 2021, "A study on LG content lock and data acquisition from apps based on content lock function", FSI: Digital Investigation 39.
-- [DFCite-1214] Kang et al., 2024, "Forensic analysis and data decryption of tencent meeting in windows environment", FSI: Digital Investigation 51, 301818.
-- [DFCite-1220] Kim et al., 2021, "Forensic analysis of instant messaging apps: Decrypting Wickr and private text messaging data", FSI: Digital Investigation 37.
-- [DFCite-1221] Son et al., 2022, "Forensic analysis of instant messengers: Decrypt Signal, Wickr, and Threema", FSI: Digital Investigation 40.
-- [DFCite-1224] Shin et al., 2022, "Forensic analysis of note and journal applications", FSI: Digital Investigation 40.
+- [LWCite-1150] Paulino et al., 2025, "Decrypting messages: Extracting digital evidence from signal desktop for windows", FSI: Digital Investigation 54.
+- [LWCite-1048] Kim et al., 2021, "A study on LG content lock and data acquisition from apps based on content lock function", FSI: Digital Investigation 39.
+- [LWCite-1214] Kang et al., 2024, "Forensic analysis and data decryption of tencent meeting in windows environment", FSI: Digital Investigation 51, 301818.
+- [LWCite-1220] Kim et al., 2021, "Forensic analysis of instant messaging apps: Decrypting Wickr and private text messaging data", FSI: Digital Investigation 37.
+- [LWCite-1221] Son et al., 2022, "Forensic analysis of instant messengers: Decrypt Signal, Wickr, and Threema", FSI: Digital Investigation 40.
+- [LWCite-1224] Shin et al., 2022, "Forensic analysis of note and journal applications", FSI: Digital Investigation 40.

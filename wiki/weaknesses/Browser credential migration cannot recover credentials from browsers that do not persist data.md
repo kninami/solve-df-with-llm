@@ -1,14 +1,14 @@
 ---
-id: DFW-1055
+id: LWW-1055
 type: weakness
 name: Browser credential migration cannot recover credentials from browsers that do not persist data
 description: Browser credential migration depends on the source browser having written session credentials to local storage in the first place; browsers that operate only in incognito/private mode by design, or privacy-focused browsers such as Tor that deliberately avoid persisting session data, leave nothing on disk to extract, so this technique cannot recover credentials from them regardless of how the migration and re-encryption steps are executed.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1055
+  - LWM-1055
 source_refs:
-  - DFCite-1045
+  - LWCite-1045
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ If a suspect used a privacy-focused or incognito-only browser specifically to ac
 
 ## References
 
-- [DFCite-1045] Hur et al., 2023, "A study on cloud data access through browser credential migration in Windows environment", FSI: Digital Investigation 45.
+- [LWCite-1045] Hur et al., 2023, "A study on cloud data access through browser credential migration in Windows environment", FSI: Digital Investigation 45.

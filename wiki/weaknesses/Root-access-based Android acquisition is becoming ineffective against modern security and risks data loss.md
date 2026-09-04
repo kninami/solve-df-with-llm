@@ -1,14 +1,14 @@
 ---
-id: DFW-1086
+id: LWW-1086
 type: weakness
 name: Root-access-based Android acquisition is becoming ineffective against modern security and risks data loss
 description: As Android security hardening advances, traditional rooting methods used to reach private application storage are becoming increasingly ineffective on modern devices, and where rooting does succeed it frequently triggers a factory reset (destroying the very data the acquisition was meant to preserve) rather than granting clean privileged access, presenting a significant barrier to forensic investigations of encrypted or obfuscated app data on current-generation Android devices.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1086
+  - LWM-1086
 source_refs:
-  - DFCite-1077
+  - LWCite-1077
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who plans an acquisition strategy around root access, based on p
 
 ## References
 
-- [DFCite-1077] Dowrick et al., 2026, "Android anti-forensics: A systematic review of applications, techniques, and investigative challenges", FSI: Digital Investigation 58.
+- [LWCite-1077] Dowrick et al., 2026, "Android anti-forensics: A systematic review of applications, techniques, and investigative challenges", FSI: Digital Investigation 58.

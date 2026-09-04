@@ -1,14 +1,14 @@
 ---
-id: DFW-1143
+id: LWW-1143
 type: weakness
 name: Forensic examination of XFS misses data hidden in slack, reserved, and misused structures
 description: Standard file system analysis of an XFS volume examines allocated file content and defined metadata fields but does not by default inspect superblock/inode slack space, the free list area, free inode records, or the raw sub-second bits of timestamp fields, so data hidden in any of these locations goes unnoticed unless specifically searched for.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1143
+  - LWM-1143
 source_refs:
-  - DFCite-1140
+  - LWCite-1140
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who trusts a standard file listing or file-carving pass to repre
 
 ## References
 
-- [DFCite-1140] Toolan and Humphries, 2025, "Data hiding in the XFS file system", FSI: Digital Investigation 52.
+- [LWCite-1140] Toolan and Humphries, 2025, "Data hiding in the XFS file system", FSI: Digital Investigation 52.

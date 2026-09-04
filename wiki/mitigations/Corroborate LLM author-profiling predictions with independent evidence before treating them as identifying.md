@@ -1,9 +1,9 @@
 ---
-id: DFM-1193
+id: LWM-1193
 type: mitigation
 name: Corroborate LLM author-profiling predictions with independent evidence before treating them as identifying
 source_refs:
-  - DFCite-1201
+  - LWCite-1201
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Report author-profiling predictions with their measured accuracy/confidence (e.g
 
 ## References
 
-- [DFCite-1201] Cho et al., 2024, "Exploring the potential of large language models for author profiling tasks in digital text forensics", FSI: Digital Investigation 50.
+- [LWCite-1201] Cho et al., 2024, "Exploring the potential of large language models for author profiling tasks in digital text forensics", FSI: Digital Investigation 50.

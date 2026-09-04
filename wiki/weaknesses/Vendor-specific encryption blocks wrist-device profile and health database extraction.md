@@ -1,14 +1,14 @@
 ---
-id: DFW-2134
+id: LWW-2134
 type: weakness
 name: Vendor-specific encryption blocks wrist-device profile and health database extraction
 description: Some wrist-wear device vendors encrypt their health-related databases and the encryption key material itself with mechanisms not readily reversible during a logical extraction, leaving an investigator unable to access profile or health data that is confirmed to exist on the device.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2135
+  - LWM-2135
 source_refs:
-  - DFCite-2156
+  - LWCite-2156
 updated_at: 2026-08-17
 status: complete
 ---
@@ -33,4 +33,4 @@ A framework or investigator that generates a device-specific evidence-category c
 
 ## References
 
-- [DFCite-2156] Almubairik et al., 2025, "WristSense framework: Exploring the forensic potential of wrist-wear devices through case studies", FSI: Digital Investigation 52.
+- [LWCite-2156] Almubairik et al., 2025, "WristSense framework: Exploring the forensic potential of wrist-wear devices through case studies", FSI: Digital Investigation 52.

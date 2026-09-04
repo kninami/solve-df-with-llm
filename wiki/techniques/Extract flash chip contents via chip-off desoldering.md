@@ -1,20 +1,20 @@
 ---
-id: DFT-1023
+id: LWT-1023
 type: technique
 name: Extract flash chip contents via chip-off desoldering
 description: Physically desolder a device's data-storage IC from its PCB and read it out directly via a reader board or wire-to-wire adapter, as a last-resort acquisition method for devices where non-destructive methods have failed or are unavailable, using either accessible low-cost hot-air tools or, when the chip exposes no usable test points, X-ray-guided pin tracing beforehand.
 objective_ids:
   - DFO-1021
 weakness_ids:
-  - DFW-1023
-  - DFW-1120
+  - LWW-1023
+  - LWW-1120
 aliases:
   - X-ray guided chip-off flash extraction
   - Cheap as chips accessible BGA chip-off methodology
   - Accessible chip-off acquisition
 source_refs:
-  - DFCite-1016
-  - DFCite-1112
+  - LWCite-1016
+  - LWCite-1112
 updated_at: 2026-08-12
 status: complete
 ---
@@ -47,5 +47,5 @@ When a target flash chip (e.g., an SoC-embedded NAND or a BGA-packaged storage I
 
 ## References
 
-- [DFCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.
-- [DFCite-1112] Hadgkiss et al., 2022, "Cheap as chips: An accessible chip off acquisition method for ball grid array (BGA) integrated circuits in digital investigations", FSI: Digital Investigation 42-43.
+- [LWCite-1016] Barral et al., 2022, "A forensic analysis of the Google Home: repairing compressed data without error correction", FSI: Digital Investigation 42-43.
+- [LWCite-1112] Hadgkiss et al., 2022, "Cheap as chips: An accessible chip off acquisition method for ball grid array (BGA) integrated circuits in digital investigations", FSI: Digital Investigation 42-43.

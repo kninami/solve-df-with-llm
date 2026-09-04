@@ -1,5 +1,5 @@
 ---
-id: DFW-2120
+id: LWW-2120
 type: weakness
 name: Analysts unfamiliar with a relational-graph network-forensic tool's data model may look for data in the wrong node type
 description: A relational-graph network-forensic tool organizes network traffic data across multiple distinct node types (e.g. host, connection, and application-data nodes), and an analyst unfamiliar with which specific node type a given piece of information is modeled under may search the wrong location within the graph, mistakenly concluding the data is absent or the tool does not support that data type at all.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2121
+  - LWM-2121
 source_refs:
-  - DFCite-2140
+  - LWCite-2140
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator who does not find expected data at the node type they initially 
 
 ## References
 
-- [DFCite-2140] "Using relational graphs for exploratory analysis of network traffic data", FSI: Digital Investigation 48, 2024.
+- [LWCite-2140] "Using relational graphs for exploratory analysis of network traffic data", FSI: Digital Investigation 48, 2024.

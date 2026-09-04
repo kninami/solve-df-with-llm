@@ -1,9 +1,9 @@
 ---
-id: DFM-1153
+id: LWM-1153
 type: mitigation
 name: Cross-check automated pornography severity rankings against jurisdiction-specific legal definitions before relying on them for triage
 source_refs:
-  - DFCite-1156
+  - LWCite-1156
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Use the ranked worklist to decide review order among flagged content, but have a
 
 ## References
 
-- [DFCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.
+- [LWCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.

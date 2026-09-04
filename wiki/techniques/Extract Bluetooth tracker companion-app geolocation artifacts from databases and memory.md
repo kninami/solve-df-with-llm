@@ -1,20 +1,20 @@
 ---
-id: DFT-1181
+id: LWT-1181
 type: technique
 name: Extract Bluetooth tracker companion-app geolocation artifacts from databases and memory
 description: Recover a personal Bluetooth tracker's geolocation history, timestamps, and device identifiers by parsing its companion app's SQLite databases, XML/cache files, and log files across mobile platforms, plus scanning the desktop companion app's live process memory for plaintext geolocation signatures.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1188
+  - LWW-1188
 aliases:
   - Tile Artifact Parser
   - TAP
   - S.TASER
   - Smart Tag Parser
 source_refs:
-  - DFCite-1192
-  - DFCite-2078
+  - LWCite-1192
+  - LWCite-2078
 updated_at: 2026-08-16
 status: complete
 ---
@@ -47,5 +47,5 @@ On iOS, an iTunes/Finder backup extraction yields a `TileNetworkDB.sqlite` datab
 
 ## References
 
-- [DFCite-1192] Pace et al., 2023, "Every step you take, I'll be tracking you: Forensic analysis of the tile tracker application", FSI: Digital Investigation 45, 301559.
-- [DFCite-2078] Yang, Han, Kim, and Kim, 2025, "Samsung tracking tag application forensics in criminal investigations", FSI: Digital Investigation 52, 301875. Source for the S.TASER tool and the Samsung SmartTag/SmartThings artifact structure, including its five anti-forensics-scenario evaluation.
+- [LWCite-1192] Pace et al., 2023, "Every step you take, I'll be tracking you: Forensic analysis of the tile tracker application", FSI: Digital Investigation 45, 301559.
+- [LWCite-2078] Yang, Han, Kim, and Kim, 2025, "Samsung tracking tag application forensics in criminal investigations", FSI: Digital Investigation 52, 301875. Source for the S.TASER tool and the Samsung SmartTag/SmartThings artifact structure, including its five anti-forensics-scenario evaluation.

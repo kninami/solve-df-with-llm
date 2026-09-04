@@ -1,14 +1,14 @@
 ---
-id: DFW-2018
+id: LWW-2018
 type: weakness
 name: Homomorphic keyword search lacks a way to verify submitted keywords are actually case-relevant
 description: Privacy-preserving keyword-search models for encrypted digital forensic data generally have no built-in mechanism to confirm that an investigator's submitted keywords are genuinely tied to the case, so overly broad or poorly chosen keywords (especially in the deliberately wide first-pass disjunctive search) can still cause substantial irrelevant private data to be retrieved and eventually processed or exposed.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-2018
+  - LWM-2018
 source_refs:
-  - DFCite-2018
+  - LWCite-2018
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ Even though the encryption layer prevents casual exposure, the underlying privac
 
 ## References
 
-- [DFCite-2018] Ogunseyi and Adedayo, 2023 — Section III.F explicitly lists the lack of a keyword case-relevance verification method as a drawback of existing cryptography-based privacy-preserving digital forensics schemes.
+- [LWCite-2018] Ogunseyi and Adedayo, 2023 — Section III.F explicitly lists the lack of a keyword case-relevance verification method as a drawback of existing cryptography-based privacy-preserving digital forensics schemes.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1066
+id: LWM-1066
 type: mitigation
 name: Seize and directly examine the source smartwatch to strengthen audio file authentication
 source_refs:
-  - DFCite-1056
+  - LWCite-1056
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ If the originating smartwatch is available, use the Smart Development Bridge (SD
 
 ## References
 
-- [DFCite-1056] Park et al., 2024, "Advanced forensic method to authenticate audio files from Tizen-based Samsung Galaxy Watches", FSI: Digital Investigation 48.
+- [LWCite-1056] Park et al., 2024, "Advanced forensic method to authenticate audio files from Tizen-based Samsung Galaxy Watches", FSI: Digital Investigation 48.

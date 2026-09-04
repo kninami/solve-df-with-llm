@@ -1,14 +1,14 @@
 ---
-id: DFW-1228
+id: LWW-1228
 type: weakness
 name: Autonomous-vehicle forensic incident recorders miss events that never fire a predefined trigger
 description: A ring-buffer-based forensic incident recorder only moves data to permanent storage when a predefined trigger (airbag deployment, IDS alert, plausibility-check failure) fires, so an unanticipated failure mode or a novel attack that does not match any predefined trigger is overwritten by the ring buffer and permanently lost.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1228
+  - LWM-1228
 source_refs:
-  - DFCite-1239
+  - LWCite-1239
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator reconstructing an incident that stemmed from a genuinely novel f
 
 ## References
 
-- [DFCite-1239] Dološ et al., 2026, "Forensic readiness for autonomous mobility: The forensic incident recorder and information system concept", FSI: Digital Investigation 56, 302044.
+- [LWCite-1239] Dološ et al., 2026, "Forensic readiness for autonomous mobility: The forensic incident recorder and information system concept", FSI: Digital Investigation 56, 302044.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1223
+id: LWM-1223
 type: mitigation
 name: Compare upper file sizes against their corresponding lower file sizes to detect data hidden in stacked-file-system slack space
 source_refs:
-  - DFCite-1234
+  - LWCite-1234
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Determine the specific stacked file system's block-alignment or extent-size rule
 
 ## References
 
-- [DFCite-1234] Hilgert, Lambertz and Baier, 2024, "Forensic implications of stacked file systems", DFRWS EU 2024; FSI: Digital Investigation 48, 301678.
+- [LWCite-1234] Hilgert, Lambertz and Baier, 2024, "Forensic implications of stacked file systems", DFRWS EU 2024; FSI: Digital Investigation 48, 301678.

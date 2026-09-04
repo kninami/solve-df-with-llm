@@ -1,5 +1,5 @@
 ---
-id: DFW-1186
+id: LWW-1186
 type: weakness
 name: A superuser can delete, modify, or disable local logs and services without leaving a local trace
 description: An administrator or attacker with superuser (root/administrative) privileges can delete command history and log files, alter log entries to implicate someone else, or disable the logging service and monitoring alerts entirely, and every one of the artifacts that would normally record that activity is itself within the superuser's own privilege domain and can be tampered with by the same access.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-1186
+  - LWM-1186
 source_refs:
-  - DFCite-1189
+  - LWCite-1189
 updated_at: 2026-08-13
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator who treats a compromised or suspect server's own local logs, com
 
 ## References
 
-- [DFCite-1189] Manral and Somani, 2021, "Establishing forensics capabilities in the presence of superuser insider threats", FSI: Digital Investigation 38, 301263.
+- [LWCite-1189] Manral and Somani, 2021, "Establishing forensics capabilities in the presence of superuser insider threats", FSI: Digital Investigation 38, 301263.

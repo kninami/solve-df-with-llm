@@ -1,17 +1,17 @@
 ---
-id: DFT-1185
+id: LWT-1185
 type: technique
 name: Extract an eMMC RPMB authentication key from flash to bypass anti-rollback protection
 description: Physically read an eMMC's raw NAND flash memory (via chip-off or In-System Programming) to recover a Replay Protected Memory Block (RPMB) pre-shared authentication key stored unprotected by a vulnerable Trusted Execution Environment implementation, enabling modification of RPMB-backed anti-rollback counters and restoration of a wiped or otherwise state-locked smartphone.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1192
+  - LWW-1192
 aliases:
   - RPMB authentication key extraction and anti-rollback bypass
   - Blackphone 2 RPMB key recovery
 source_refs:
-  - DFCite-1199
+  - LWCite-1199
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ The technique combines software and hardware reverse engineering. First, static 
 
 ## References
 
-- [DFCite-1199] Fukami et al., 2024, "Exploiting RPMB authentication in a closed source TEE implementation", FSI: Digital Investigation 48.
+- [LWCite-1199] Fukami et al., 2024, "Exploiting RPMB authentication in a closed source TEE implementation", FSI: Digital Investigation 48.

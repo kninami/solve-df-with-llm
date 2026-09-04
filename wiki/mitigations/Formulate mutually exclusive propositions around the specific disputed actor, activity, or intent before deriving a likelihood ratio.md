@@ -1,9 +1,9 @@
 ---
-id: DFM-1233
+id: LWM-1233
 type: mitigation
 name: Formulate mutually exclusive propositions around the specific disputed actor, activity, or intent before deriving a likelihood ratio
 source_refs:
-  - DFCite-1246
+  - LWCite-1246
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Work through the disputed-actor/disputed-activity/disputed-intent classification
 
 ## References
 
-- [DFCite-1246] Vink et al., 2025, "Formulating propositions in Trojan horse defense cases", FSI: Digital Investigation 53, 301915.
+- [LWCite-1246] Vink et al., 2025, "Formulating propositions in Trojan horse defense cases", FSI: Digital Investigation 53, 301915.

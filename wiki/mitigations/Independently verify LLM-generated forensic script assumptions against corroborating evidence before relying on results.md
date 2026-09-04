@@ -1,9 +1,9 @@
 ---
-id: DFM-1117
+id: LWM-1117
 type: mitigation
 name: Independently verify LLM-generated forensic script assumptions against corroborating evidence before relying on results
 source_refs:
-  - DFCite-1110
+  - LWCite-1110
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Review a generated script line by line for any point where it infers a configura
 
 ## References
 
-- [DFCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.
+- [LWCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.

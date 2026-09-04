@@ -1,9 +1,9 @@
 ---
-id: DFM-1128
+id: LWM-1128
 type: mitigation
 name: Verify per-level-pair accuracy before relying on optimization-level predictions between similarly optimized binaries
 source_refs:
-  - DFCite-1124
+  - LWCite-1124
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ When reporting or relying on a compiler-optimization-level classification result
 
 ## References
 
-- [DFCite-1124] Khan et al., 2024, "Compiler-provenance identification in obfuscated binaries using vision transformers", FSI: Digital Investigation 49, 301764.
+- [LWCite-1124] Khan et al., 2024, "Compiler-provenance identification in obfuscated binaries using vision transformers", FSI: Digital Investigation 49, 301764.

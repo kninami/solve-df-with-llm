@@ -1,17 +1,17 @@
 ---
-id: DFT-1249
+id: LWT-1249
 type: technique
 name: Perform self-service memory introspection on a tenant's own cloud virtual machine
 description: Run passive or active virtual machine introspection tools (e.g. Volatility) directly against a cloud tenant's own KVM-hosted virtual machine through a securely access-controlled introspection interface, without requiring the cloud provider's privileged host access, using one of three isolation flavors — a dedicated monitoring VM, a monitoring Docker container, or a network-exposed introspection socket.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1025
+  - LWW-1025
 aliases:
   - KVMIveggur
   - Self-service VM introspection (VMI)
 source_refs:
-  - DFCite-1287
+  - LWCite-1287
 updated_at: 2026-08-14
 status: complete
 ---
@@ -42,4 +42,4 @@ The hypervisor exposes VMI capabilities as a UNIX domain socket, access to which
 
 ## References
 
-- [DFCite-1287] Sentanoe, Dangl and Reiser, 2022, "KVMIveggur: Flexible, secure, and efficient support for self-service virtual machine introspection", DFRWS 2022 USA; FSI: Digital Investigation 42, 301397.
+- [LWCite-1287] Sentanoe, Dangl and Reiser, 2022, "KVMIveggur: Flexible, secure, and efficient support for self-service virtual machine introspection", DFRWS 2022 USA; FSI: Digital Investigation 42, 301397.

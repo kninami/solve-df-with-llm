@@ -1,17 +1,17 @@
 ---
-id: DFT-1172
+id: LWT-1172
 type: technique
 name: Extract and reconstruct a drone's flight path from manufacturer-specific GPS log formats
 description: Extract GPS/telemetry flight-log data from a drone's storage, decode the manufacturer-specific log format (which varies in encoding, encryption, and the set of parameters recorded), and plot the resulting coordinates as a reconstructed flight path on a map, to establish takeoff location, route, and timing of a flight.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-1179
+  - LWW-1179
 aliases:
   - Drone GPS flight log analysis and flight path reconstruction
   - FlyLog Converter Tool workflow
 source_refs:
-  - DFCite-1181
+  - LWCite-1181
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ Flight logs were extracted and analyzed from three drone families with structura
 
 ## References
 
-- [DFCite-1181] Kumar and Agrawal, 2021, "Drone GPS data analysis for flight path reconstruction: A study on DJI, Parrot & Yuneec make drones", FSI: Digital Investigation 38.
+- [LWCite-1181] Kumar and Agrawal, 2021, "Drone GPS data analysis for flight path reconstruction: A study on DJI, Parrot & Yuneec make drones", FSI: Digital Investigation 38.

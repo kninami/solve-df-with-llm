@@ -1,9 +1,9 @@
 ---
-id: DFM-1124
+id: LWM-1124
 type: mitigation
 name: Corroborate Coffee file system version ordering with sector-allocation and write-pattern evidence rather than content similarity alone
 source_refs:
-  - DFCite-1118
+  - LWCite-1118
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Before drawing conclusions from a similarity-based version ordering, inspect the
 
 ## References
 
-- [DFCite-1118] Sandvik et al., 2021, "Coffee forensics - Reconstructing data in IoT devices running Contiki OS", FSI: Digital Investigation 37.
+- [LWCite-1118] Sandvik et al., 2021, "Coffee forensics - Reconstructing data in IoT devices running Contiki OS", FSI: Digital Investigation 37.

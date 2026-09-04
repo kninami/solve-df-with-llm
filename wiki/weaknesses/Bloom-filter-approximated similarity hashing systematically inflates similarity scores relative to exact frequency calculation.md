@@ -1,14 +1,14 @@
 ---
-id: DFW-1198
+id: LWW-1198
 type: weakness
 name: Bloom-filter-approximated similarity hashing systematically inflates similarity scores relative to exact frequency calculation
 description: Replacing an exact cross-corpus document-frequency lookup with a Bloom-filter/clustering approximation, as done to reduce the memory and time cost of similarity hashing, produces similarity scores that are systematically higher on average than the equivalent exact-frequency algorithm would report on the same file pair, requiring a recalibrated match threshold rather than reuse of thresholds validated for the exact-frequency version.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1198
+  - LWM-1198
 source_refs:
-  - DFCite-1209
+  - LWCite-1209
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who applies a similarity-score threshold validated for one simil
 
 ## References
 
-- [DFCite-1209] Singh et al., 2022, "FbHash-E: A time and memory efficient version of FbHash similarity hashing algorithm", FSI: Digital Investigation 41, 301375.
+- [LWCite-1209] Singh et al., 2022, "FbHash-E: A time and memory efficient version of FbHash similarity hashing algorithm", FSI: Digital Investigation 41, 301375.

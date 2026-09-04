@@ -1,9 +1,9 @@
 ---
-id: DFM-2085
+id: LWM-2085
 type: mitigation
 name: Verify each artifact's temporal, syntactic, and semantic integrity by default rather than only when suspicion arises
 source_refs:
-  - DFCite-2098
+  - LWCite-2098
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ For each artifact expected to bear significant weight in an investigation's conc
 
 ## References
 
-- [DFCite-2098] "The case for Zero Trust Digital Forensics", FSI: Digital Investigation 48, 2024.
+- [LWCite-2098] "The case for Zero Trust Digital Forensics", FSI: Digital Investigation 48, 2024.

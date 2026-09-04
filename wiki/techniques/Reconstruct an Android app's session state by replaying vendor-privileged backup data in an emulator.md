@@ -1,17 +1,17 @@
 ---
-id: DFT-1176
+id: LWT-1176
 type: technique
 name: Reconstruct an Android app's session state by replaying vendor-privileged backup data in an emulator
 description: Convert an Android device's vendor-privileged backup or migration package into a standardized application-sandbox file tree, migrate it into a matching app installed in an Android emulator, and repair file permissions so the app launches already logged in, recovering local and cloud-synced application data without the account's credentials or network access to the source device.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1183
+  - LWW-1183
 aliases:
   - SHARF (Smart Home App Reconstruction Framework)
   - Emulation-based smart home app forensics using vendor privileged Android backup
 source_refs:
-  - DFCite-1186
+  - LWCite-1186
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The workflow has three stages. First (data acquisition), the target smartphone's
 
 ## References
 
-- [DFCite-1186] Zhao et al., 2026, "Enhancing smart home forensics: An emulation-based approach utilizing vendor privileged android backup data", FSI: Digital Investigation 57.
+- [LWCite-1186] Zhao et al., 2026, "Enhancing smart home forensics: An emulation-based approach utilizing vendor privileged android backup data", FSI: Digital Investigation 57.

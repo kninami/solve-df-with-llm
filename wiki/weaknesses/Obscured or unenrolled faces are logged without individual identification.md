@@ -1,14 +1,14 @@
 ---
-id: DFW-1004
+id: LWW-1004
 type: weakness
 name: Obscured or unenrolled faces are logged without individual identification
 description: When a face is not enrolled in Visual ID or is obscured, the Echo Show's log records only a generic "UNDEF" personId rather than any individually identifying value, so presence is confirmed but the specific person cannot be determined from the log alone.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1004
+  - LWM-1004
 source_refs:
-  - DFCite-1002
+  - LWCite-1002
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Presence at a scene can still be inferred from these entries (timestamps, torso/
 
 ## References
 
-- [DFCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.
+- [LWCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.

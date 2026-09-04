@@ -1,16 +1,16 @@
 ---
-id: DFT-1061
+id: LWT-1061
 type: technique
 name: Authenticate smartwatch audio recordings using latency and tailing analysis
 description: Forensically authenticate an audio file recorded on a smartwatch's built-in voice recorder by measuring device-specific spectral properties (audio latency and tailing at the start/end of the recording, sampling rate/bandwidth), comparing the recording's file structure and metadata atoms against the known-genuine pattern for that device/app, and cross-checking the audio file's internal timestamps against the file system's own timestamps and file-naming convention, to determine whether the file is genuine and, if tampered with, approximately where the tampering occurred.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1066
+  - LWW-1066
 aliases:
   - Audio latency and tailing-based smartwatch recording authentication
 source_refs:
-  - DFCite-1056
+  - LWCite-1056
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ The method combines three feature classes: (1) spectral analysis to measure audi
 
 ## References
 
-- [DFCite-1056] Park et al., 2024, "Advanced forensic method to authenticate audio files from Tizen-based Samsung Galaxy Watches", FSI: Digital Investigation 48.
+- [LWCite-1056] Park et al., 2024, "Advanced forensic method to authenticate audio files from Tizen-based Samsung Galaxy Watches", FSI: Digital Investigation 48.

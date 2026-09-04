@@ -1,17 +1,17 @@
 ---
-id: DFT-1060
+id: LWT-1060
 type: technique
 name: Evaluate digital evidence probative value using structured argumentation
 description: Produce a documented, non-numerical evaluative opinion on digital evidence by explicitly constructing arguments for two opposing hypotheses (with at least one framed as an innocence hypothesis), decomposing each argument into scored grounds/warrants/backing components, systematically identifying and scoring "attacks" (counter-considerations) against each component, and combining the results in an Argument Matrix to determine the evidence's relative probative value under each hypothesis.
 objective_ids:
   - DFO-1003
 weakness_ids:
-  - DFW-1065
+  - LWW-1065
 aliases:
   - Argument-based structured evaluation of digital evidence probative value
   - Argument-Based Method for Evaluative Opinions
 source_refs:
-  - DFCite-1055
+  - LWCite-1055
 updated_at: 2026-08-10
 status: complete
 ---
@@ -41,4 +41,4 @@ The practitioner identifies two opposing hypotheses (one of which should be an i
 
 ## References
 
-- [DFCite-1055] Sunde and Franqueira, 2023, "Adding transparency to uncertainty: An argument-based method for evaluative opinions", FSI: Digital Investigation 47.
+- [LWCite-1055] Sunde and Franqueira, 2023, "Adding transparency to uncertainty: An argument-based method for evaluative opinions", FSI: Digital Investigation 47.

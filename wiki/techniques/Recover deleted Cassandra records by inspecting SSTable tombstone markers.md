@@ -1,16 +1,16 @@
 ---
-id: DFT-2060
+id: LWT-2060
 type: technique
 name: Recover deleted Cassandra records by inspecting SSTable tombstone markers
 description: Identify recently deleted records in an Apache Cassandra NoSQL database by dumping an SSTable and examining its `deletion_info` tombstone markers, which retain the deleted record's key and the timestamps at which deletion was requested and processed, until the configured grace period expires and compaction removes them.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-2060
+  - LWW-2060
 aliases:
   - Cassandra tombstone analysis
 source_refs:
-  - DFCite-2061
+  - LWCite-2061
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ Two distinct deletion methods each result in a tombstone: (1) an explicit delete
 
 ## References
 
-- [DFCite-2061] Bohora, Bothe, Sheth, Chopade & Pachghare, 2021, "Backup and Recovery Mechanisms of Cassandra Database: A Review", JDFSL 15(5). Describes Cassandra's two deletion methods, the tombstone/grace-period/compaction lifecycle, and the `sstabledump`-based `deletion_info` inspection procedure with `marked_deleted` and `local_delete_time` timestamps.
+- [LWCite-2061] Bohora, Bothe, Sheth, Chopade & Pachghare, 2021, "Backup and Recovery Mechanisms of Cassandra Database: A Review", JDFSL 15(5). Describes Cassandra's two deletion methods, the tombstone/grace-period/compaction lifecycle, and the `sstabledump`-based `deletion_info` inspection procedure with `marked_deleted` and `local_delete_time` timestamps.

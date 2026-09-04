@@ -1,5 +1,5 @@
 ---
-id: DFT-1261
+id: LWT-1261
 type: technique
 name: Detect IoT device compromise using TEE-isolated memory-to-audio-spectrum anomaly detection
 description: Continuously acquire an IoT microcontroller's flash memory from within a Trusted Execution Environment (isolating the acquisition from the untrusted main firmware), transform each changed-block memory dump into an audio spectrum, and classify it with a remote CNN as benign or anomalous, giving a resource-constrained IoT device a tamper-resistant, hardware-isolated first line of defense for incident response.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1019
   - DFO-1015
 weakness_ids:
-  - DFW-1273
+  - LWW-1273
 aliases:
   - MARS (Memory Anomaly Recognition System)
 source_refs:
-  - DFCite-1301
+  - LWCite-1301
 updated_at: 2026-08-14
 status: complete
 ---
@@ -42,4 +42,4 @@ The system splits into a lightweight on-device client and a remote classificatio
 
 ## References
 
-- [DFCite-1301] Waguespack, Smith, Muliri, Vijayakanthan and Ali-Gombe, 2024, "MARS: The first line of defense for IoT incident response", DFRWS 2024 USA; FSI: Digital Investigation 49, 301754.
+- [LWCite-1301] Waguespack, Smith, Muliri, Vijayakanthan and Ali-Gombe, 2024, "MARS: The first line of defense for IoT incident response", DFRWS 2024 USA; FSI: Digital Investigation 49, 301754.

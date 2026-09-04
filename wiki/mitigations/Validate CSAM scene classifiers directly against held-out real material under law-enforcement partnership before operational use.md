@@ -1,9 +1,9 @@
 ---
-id: DFM-1267
+id: LWM-1267
 type: mitigation
 name: Validate CSAM scene classifiers directly against held-out real material under law-enforcement partnership before operational use
 source_refs:
-  - DFCite-1292
+  - LWCite-1292
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Arrange with a partner law enforcement agency to run a validated model, without 
 
 ## References
 
-- [DFCite-1292] Valois, Macedo, Ribeiro, dos Santos and Avila, 2025, "Leveraging self-supervised learning for scene classification in child sexual abuse imagery", FSI: Digital Investigation 53, 301918.
+- [LWCite-1292] Valois, Macedo, Ribeiro, dos Santos and Avila, 2025, "Leveraging self-supervised learning for scene classification in child sexual abuse imagery", FSI: Digital Investigation 53, 301918.

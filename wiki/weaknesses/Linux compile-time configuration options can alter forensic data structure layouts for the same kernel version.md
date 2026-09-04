@@ -1,14 +1,14 @@
 ---
-id: DFW-1059
+id: LWW-1059
 type: weakness
 name: Linux compile-time configuration options can alter forensic data structure layouts for the same kernel version
 description: Even when a memory-forensics profile is correctly matched to a target Linux system's exact kernel version, the profile can still be structurally wrong if the target kernel was compiled with different CONFIG_* compile-time options than the profile assumes, since some options (even ones unrelated to memory forensics) add, remove, or reorder fields in core data structures and cascade offset changes through many dependent structures.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1059
+  - LWM-1059
 source_refs:
-  - DFCite-1049
+  - LWCite-1049
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Custom-compiled or embedded Linux kernels (common in IoT devices, for instance) 
 
 ## References
 
-- [DFCite-1049] Oliveri et al., 2025, "A study on the evolution of kernel data types used in memory forensics and their dependency on compilation options", FSI: Digital Investigation 52.
+- [LWCite-1049] Oliveri et al., 2025, "A study on the evolution of kernel data types used in memory forensics and their dependency on compilation options", FSI: Digital Investigation 52.

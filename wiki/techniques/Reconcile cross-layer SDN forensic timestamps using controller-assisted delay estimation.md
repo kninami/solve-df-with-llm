@@ -1,17 +1,17 @@
 ---
-id: DFT-1130
+id: LWT-1130
 type: technique
 name: Reconcile cross-layer SDN forensic timestamps using controller-assisted delay estimation
 description: Have the SDN controller periodically probe each switch to estimate network round-trip delay and clock offset, then use that delay estimate to reconcile timestamps recorded independently by the infrastructure (switch), control (controller), and application layers into one causally consistent timeline for forensic event reconstruction.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1134
+  - LWW-1134
 aliases:
   - Controller-assisted timestamp reconciliation for SDN forensics
   - SDN forensic readiness framework with timestamp reconciliation, contextual enrichment, and integrity assurance
 source_refs:
-  - DFCite-1130
+  - LWCite-1130
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The reconciliation step is one part of a broader controller-assisted forensic re
 
 ## References
 
-- [DFCite-1130] Koswane, Tabona and Maupong, 2026, "Controller-assisted timestamp reconciliation for reliable SDN forensics", FSI: Digital Investigation 58.
+- [LWCite-1130] Koswane, Tabona and Maupong, 2026, "Controller-assisted timestamp reconciliation for reliable SDN forensics", FSI: Digital Investigation 58.

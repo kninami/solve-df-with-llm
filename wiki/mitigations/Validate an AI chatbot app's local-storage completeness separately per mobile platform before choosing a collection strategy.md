@@ -1,9 +1,9 @@
 ---
-id: DFM-2111
+id: LWM-2111
 type: mitigation
 name: Validate an AI chatbot app's local-storage completeness separately per mobile platform before choosing a collection strategy
 source_refs:
-  - DFCite-2129
+  - LWCite-2129
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Do not assume an AI chatbot app's local-storage forensic yield established for o
 
 ## References
 
-- [DFCite-2129] "Uncovering digital traces of DeepSeek: Cross-platform mobile and network forensics", FSI: Digital Investigation 48, 2024.
+- [LWCite-2129] "Uncovering digital traces of DeepSeek: Cross-platform mobile and network forensics", FSI: Digital Investigation 48, 2024.

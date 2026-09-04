@@ -1,14 +1,14 @@
 ---
-id: DFW-2049
+id: LWW-2049
 type: weakness
 name: AI-mediated cloud forensic dispute resolution depends on both parties' willingness to revise their claims
 description: The AI-mediated cloud forensic dispute resolution process only converges to a resolution if both disputing parties are willing to revise their stated positions in response to the system's inference, so a party that persistently maintains its initial claims regardless of the AI's suggestions or the other party's arguments can stall or defeat resolution of the dispute.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2049
+  - LWM-2049
 source_refs:
-  - DFCite-2050
+  - LWCite-2050
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ A party with a strategic incentive to prolong or block resolution (e.g. a provid
 
 ## References
 
-- [DFCite-2050] Alashjaee, 2024 — Section IV "Results" reports the asymmetric claim-revision behavior between the two case-study participants and its direct effect on dispute resolution progress.
+- [LWCite-2050] Alashjaee, 2024 — Section IV "Results" reports the asymmetric claim-revision behavior between the two case-study participants and its direct effect on dispute resolution progress.

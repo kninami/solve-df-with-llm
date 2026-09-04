@@ -1,9 +1,9 @@
 ---
-id: DFM-1257
+id: LWM-1257
 type: mitigation
 name: Power off and restart, or revert to a clean snapshot, instead of software-rebooting a VM guest when a contamination-free memory dump is required
 source_refs:
-  - DFCite-1274
+  - LWCite-1274
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Before starting a new analysis run in a reused VM guest, either fully power the 
 
 ## References
 
-- [DFCite-1274] Savchenko, Ottmann and Freiling, 2024, "In the time loop: Data remanence in main memory of virtual machines", FSI: Digital Investigation 49, 301758.
+- [LWCite-1274] Savchenko, Ottmann and Freiling, 2024, "In the time loop: Data remanence in main memory of virtual machines", FSI: Digital Investigation 49, 301758.

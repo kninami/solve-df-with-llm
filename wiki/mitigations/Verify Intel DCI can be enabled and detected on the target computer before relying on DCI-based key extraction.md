@@ -1,9 +1,9 @@
 ---
-id: DFM-1226
+id: LWM-1226
 type: mitigation
 name: Verify Intel DCI can be enabled and detected on the target computer before relying on DCI-based key extraction
 source_refs:
-  - DFCite-1237
+  - LWCite-1237
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ After writing the standard set of DCI-enabling firmware settings, connect the ta
 
 ## References
 
-- [DFCite-1237] Bichara de Assumpção, dos Reis, Marcondes, da Silva Eleutério and Vieira, 2023, "Forensic method for decrypting TPM-protected BitLocker volumes using Intel DCI", DFRWS 2023 EU; FSI: Digital Investigation 44, 301514.
+- [LWCite-1237] Bichara de Assumpção, dos Reis, Marcondes, da Silva Eleutério and Vieira, 2023, "Forensic method for decrypting TPM-protected BitLocker volumes using Intel DCI", DFRWS 2023 EU; FSI: Digital Investigation 44, 301514.

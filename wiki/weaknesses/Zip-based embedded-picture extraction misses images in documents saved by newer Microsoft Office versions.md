@@ -1,14 +1,14 @@
 ---
-id: DFW-2059
+id: LWW-2059
 type: weakness
 name: Zip-based embedded-picture extraction misses images in documents saved by newer Microsoft Office versions
 description: Extracting embedded pictures from office documents by walking the document's Zip archive structure to a fixed, expected media directory fails against documents saved by MS Office 2019 or MS Office 365, which changed how embedded pictures are stored internally, and against image formats outside a tool's supported set.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2060
+  - LWM-2060
 source_refs:
-  - DFCite-2059
+  - LWCite-2059
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who runs automated embedded-image extraction over a document cor
 
 ## References
 
-- [DFCite-2059] Gogia & Rughani, 2023, "An ML Based Digital Forensics Software for Triage Analysis Through Face Recognition", JDFSL, Manuscript 1772. States explicitly that "embedded image extraction may not work with documents created using MS Office 2019 or MS Office 365 due to the change in how embedded pictures are stored" and that the carver only supports PNG, JPG/JPEG, and GIF signatures.
+- [LWCite-2059] Gogia & Rughani, 2023, "An ML Based Digital Forensics Software for Triage Analysis Through Face Recognition", JDFSL, Manuscript 1772. States explicitly that "embedded image extraction may not work with documents created using MS Office 2019 or MS Office 365 due to the change in how embedded pictures are stored" and that the carver only supports PNG, JPG/JPEG, and GIF signatures.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2074
+id: LWM-2074
 type: mitigation
 name: Verify a memory-forensic framework's structure-layout support for a target binary version using automated fingerprinting before relying on its output
 source_refs:
-  - DFCite-2079
+  - LWCite-2079
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Generate a fingerprint of the target binary version's relevant structure-accessi
 
 ## References
 
-- [DFCite-2079] Maggio, Case, Ali-Gombe, and Richard III, 2021, "Seance: Divination of tool-breaking changes in forensically important binaries", FSI: Digital Investigation 37, 301189.
+- [LWCite-2079] Maggio, Case, Ali-Gombe, and Richard III, 2021, "Seance: Divination of tool-breaking changes in forensically important binaries", FSI: Digital Investigation 37, 301189.

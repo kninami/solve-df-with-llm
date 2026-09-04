@@ -1,18 +1,18 @@
 ---
-id: DFT-1033
+id: LWT-1033
 type: technique
 name: Triage chat evidence for linguistic markers using a hybrid regex-BERT model
 description: Standardize heterogeneous chat-log exports (WhatsApp, Messenger, SMS, etc.) into a common per-message table, classify each message from a designated person-under-investigation against a fixed taxonomy of psychologically-defined linguistic markers using a hybrid high-precision regex plus high-recall BERT classifier, and aggregate the per-message flags into a quantitative, sorted frequency report to prioritize human review of a large case file.
 objective_ids:
   - DFO-1003
 weakness_ids:
-  - DFW-1034
+  - LWW-1034
 aliases:
   - Hybrid regex-BERT longitudinal linguistic-marker triage of chat evidence
   - Digital Conversation Analysis Pipeline
   - DCAP
 source_refs:
-  - DFCite-1024
+  - LWCite-1024
 updated_at: 2026-08-09
 status: complete
 ---
@@ -41,4 +41,4 @@ The regex component checks for unambiguous, high-precision matches first; only w
 
 ## References
 
-- [DFCite-1024] Patel et al., 2026, "A hybrid neural-symbolic approach for the longitudinal profiling of coercive control in digital investigations", FSI: Digital Investigation 56.
+- [LWCite-1024] Patel et al., 2026, "A hybrid neural-symbolic approach for the longitudinal profiling of coercive control in digital investigations", FSI: Digital Investigation 56.

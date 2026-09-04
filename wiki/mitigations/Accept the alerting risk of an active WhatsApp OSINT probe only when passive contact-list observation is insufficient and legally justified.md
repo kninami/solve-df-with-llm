@@ -1,9 +1,9 @@
 ---
-id: DFM-1255
+id: LWM-1255
 type: mitigation
 name: Accept the alerting risk of an active WhatsApp OSINT probe only when passive contact-list observation is insufficient and legally justified
 source_refs:
-  - DFCite-1270
+  - LWCite-1270
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Attempt passive contact-list observation first and document the result, includin
 
 ## References
 
-- [DFCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.
+- [LWCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.

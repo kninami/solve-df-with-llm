@@ -1,5 +1,5 @@
 ---
-id: DFW-2084
+id: LWW-2084
 type: weakness
 name: Non-invasive sensor spoofing and covert attacks against a single building-automation sensor type leave no distinguishing trace in its own event log
 description: A building automation and control system (BACS) or home automation system (HAS) sensor's own event log cannot by itself distinguish a genuine physical event from a non-invasively spoofed one, nor detect that a genuine event was covertly evaded, because the log only records what the sensor itself measured, and a knowledgeable attacker can manipulate what a single sensor type measures without leaving any anomaly visible in that sensor's own records.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_EX
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2089
+  - LWM-2089
 source_refs:
-  - DFCite-2104
+  - LWCite-2104
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ A crime scene reconstruction (CSR) analysis that relies on a single sensor type'
 
 ## References
 
-- [DFCite-2104] Bengtsson, Johnny, 2025, "The ghost in the building: Non-invasive spoofing and covert attacks on automated buildings", FSI: Digital Investigation 52, 301880.
+- [LWCite-2104] Bengtsson, Johnny, 2025, "The ghost in the building: Non-invasive spoofing and covert attacks on automated buildings", FSI: Digital Investigation 52, 301880.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1156
+id: LWM-1156
 type: mitigation
 name: Configure software-usage signature detection thresholds to prioritize Recall over Precision in forensic triage
 source_refs:
-  - DFCite-1157
+  - LWCite-1157
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Select an SSDE model configuration from the Recall-favoring end of the parameter
 
 ## References
 
-- [DFCite-1157] Soltani and Hosseini Seno, 2023, "Detecting the software usage on a compromised system: A triage solution for digital forensics", FSI: Digital Investigation 44.
+- [LWCite-1157] Soltani and Hosseini Seno, 2023, "Detecting the software usage on a compromised system: A triage solution for digital forensics", FSI: Digital Investigation 44.

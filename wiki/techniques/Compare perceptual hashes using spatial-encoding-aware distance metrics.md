@@ -1,17 +1,17 @@
 ---
-id: DFT-1092
+id: LWT-1092
 type: technique
 name: Compare perceptual hashes using spatial-encoding-aware distance metrics
 description: Compare two perceptual (semantic/visual) image hashes using a distance metric that accounts for the position and clustering of differing bits — Normalised Convolution Distance (convolving the XOR difference matrix), Hatched Matrix Distance (row/column min-mean summarization), or 2-D N-gram Cosine Distance (sliding-window sub-matrix comparison) — rather than the conventional Normalised Hamming Distance, which only counts how many bits differ while discarding where in the hash those differences fall.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1098
+  - LWW-1098
 aliases:
   - Spatial-encoding-aware perceptual hash distance metrics
 source_refs:
-  - DFCite-1091
-  - DFCite-1259
+  - LWCite-1091
+  - LWCite-1259
 updated_at: 2026-08-13
 status: complete
 ---
@@ -42,5 +42,5 @@ This work builds on an earlier million-image-scale benchmark of six perceptual h
 
 ## References
 
-- [DFCite-1091] McKeown, 2025, "Beyond Hamming Distance: Exploring spatial encoding in perceptual hashes", FSI: Digital Investigation 52.
-- [DFCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509.
+- [LWCite-1091] McKeown, 2025, "Beyond Hamming Distance: Exploring spatial encoding in perceptual hashes", FSI: Digital Investigation 52.
+- [LWCite-1259] McKeown and Buchanan, 2023, "Hamming distributions of popular perceptual hashing techniques", FSI: Digital Investigation 44, 301509.

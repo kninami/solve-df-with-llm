@@ -1,14 +1,14 @@
 ---
-id: DFW-1251
+id: LWW-1251
 type: weakness
 name: ARM stage-2 fault-trapping memory acquisition aborts under heavy page-fault load, producing no snapshot
 description: When a live ARM system generates page faults faster than the fixed-size auxiliary pages pool can absorb during a coherent memory acquisition, the microvisor-based technique disables the acquisition and must restart later, meaning no snapshot at all is captured for that attempt under heavy system load.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1252
+  - LWM-1252
 source_refs:
-  - DFCite-1266
+  - LWCite-1266
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on this technique against a live, actively-used ARM devi
 
 ## References
 
-- [DFCite-1266] Yehuda, Shlingbaum, Gershfeld, Tayouri, and Zaidenberg, 2021, "Hypervisor memory acquisition for ARM", FSI: Digital Investigation 37, 301106.
+- [LWCite-1266] Yehuda, Shlingbaum, Gershfeld, Tayouri, and Zaidenberg, 2021, "Hypervisor memory acquisition for ARM", FSI: Digital Investigation 37, 301106.

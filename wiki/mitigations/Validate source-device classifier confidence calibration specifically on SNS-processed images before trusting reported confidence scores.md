@@ -1,9 +1,9 @@
 ---
-id: DFM-2112
+id: LWM-2112
 type: mitigation
 name: Validate source-device classifier confidence calibration specifically on SNS-processed images before trusting reported confidence scores
 source_refs:
-  - DFCite-2130
+  - LWCite-2130
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Determine whether an evidence image has passed through social-media platform pro
 
 ## References
 
-- [DFCite-2130] "Uncovering the impact of SNS processing on device source authentication", FSI: Digital Investigation 56, 2026.
+- [LWCite-2130] "Uncovering the impact of SNS processing on device source authentication", FSI: Digital Investigation 56, 2026.

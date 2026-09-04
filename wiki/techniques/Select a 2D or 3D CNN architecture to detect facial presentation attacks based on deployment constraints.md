@@ -1,16 +1,16 @@
 ---
-id: DFT-2025
+id: LWT-2025
 type: technique
 name: Select a 2D or 3D CNN architecture to detect facial presentation attacks based on deployment constraints
 description: The process of detecting physical facial presentation attacks (printed-photo spoofs, video-replay spoofs) in surveillance video by choosing between a spatio-temporal 3D CNN (higher accuracy, higher compute) and a spatial-only 2D CNN (lower compute, faster inference) based on whether the deployment context prioritizes forensic-grade reliability or real-time edge throughput.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-2025
+  - LWW-2025
 aliases:
   - Dual 2D/3D CNN presentation attack detection framework
 source_refs:
-  - DFCite-2025
+  - LWCite-2025
 updated_at: 2026-08-14
 status: partial
 ---
@@ -23,11 +23,11 @@ Detecting whether a face captured by a traffic or access-control surveillance ca
 
 ## Details
 
-DFCite-2025 benchmarks both architectures (four-block sequential Conv+MaxPool+BatchNorm+ReLU stacks, differing only in whether convolutions operate on 3D spatio-temporal tensors or independent 2D frames) plus seven traditional ML baselines (RF, SVM, LR, QDA, DT, KNN, MLP trained on LBP+HOG handcrafted features) on the FRAUD1 (live vs. print/replay, 10 subjects) and FRAUD2 (cross-dataset generalization, 5 unseen subjects/lighting conditions) datasets, using a strict video-disjoint and subject-disjoint 10-fold cross-validation split to prevent data leakage. The 3D CNN reached 100% accuracy/precision/recall/F1/specificity (0% FN, 0% FP) at 35.4 GFLOPs per 16-frame clip and 20.6 FPS, while the 2D CNN reached 98.85% accuracy and 98.9% F1 at only 3.8 GFLOPs per frame and 80.6 FPS - over 20x less compute for a roughly 1.15-percentage-point accuracy gap. Traditional ML baselines trained on handcrafted LBP/HOG features remained competitive (MLP: 99.70% accuracy, 99.69% F1; RF: 99.40%), suggesting a lightweight ML-on-handcrafted-features pipeline can sometimes rival a dedicated 2D CNN when temporal modeling is not required.
+LWCite-2025 benchmarks both architectures (four-block sequential Conv+MaxPool+BatchNorm+ReLU stacks, differing only in whether convolutions operate on 3D spatio-temporal tensors or independent 2D frames) plus seven traditional ML baselines (RF, SVM, LR, QDA, DT, KNN, MLP trained on LBP+HOG handcrafted features) on the FRAUD1 (live vs. print/replay, 10 subjects) and FRAUD2 (cross-dataset generalization, 5 unseen subjects/lighting conditions) datasets, using a strict video-disjoint and subject-disjoint 10-fold cross-validation split to prevent data leakage. The 3D CNN reached 100% accuracy/precision/recall/F1/specificity (0% FN, 0% FP) at 35.4 GFLOPs per 16-frame clip and 20.6 FPS, while the 2D CNN reached 98.85% accuracy and 98.9% F1 at only 3.8 GFLOPs per frame and 80.6 FPS - over 20x less compute for a roughly 1.15-percentage-point accuracy gap. Traditional ML baselines trained on handcrafted LBP/HOG features remained competitive (MLP: 99.70% accuracy, 99.69% F1; RF: 99.40%), suggesting a lightweight ML-on-handcrafted-features pipeline can sometimes rival a dedicated 2D CNN when temporal modeling is not required.
 
 ## Examples
 
-- DFCite-2025's proposed deployment guideline: choose the 3D CNN when server/cloud-side compute is available and zero-false-negative detection is required (e.g. post-event forensic verification, high-security access control); choose the 2D CNN, or a top-performing ML model (MLP/RF) on handcrafted features, for edge-device deployment or real-time high-throughput surveillance prioritizing speed.
+- LWCite-2025's proposed deployment guideline: choose the 3D CNN when server/cloud-side compute is available and zero-false-negative detection is required (e.g. post-event forensic verification, high-security access control); choose the 2D CNN, or a top-performing ML model (MLP/RF) on handcrafted features, for edge-device deployment or real-time high-throughput surveillance prioritizing speed.
 
 ## Related Objectives
 
@@ -39,4 +39,4 @@ DFCite-2025 benchmarks both architectures (four-block sequential Conv+MaxPool+Ba
 
 ## References
 
-- [DFCite-2025] Dessouky et al., "Efficient deep learning forensics detection system for traffic video surveillance", IEEE Access, 2026 — source of the dual 2D/3D CNN comparative benchmark and deployment guideline described above.
+- [LWCite-2025] Dessouky et al., "Efficient deep learning forensics detection system for traffic video surveillance", IEEE Access, 2026 — source of the dual 2D/3D CNN comparative benchmark and deployment guideline described above.

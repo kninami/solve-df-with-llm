@@ -1,9 +1,9 @@
 ---
-id: DFM-1079
+id: LWM-1079
 type: mitigation
 name: Identify and separately address open-boundary segments before relying on forensic-by-design continuous monitoring for a cloud system
 source_refs:
-  - DFCite-1069
+  - LWCite-1069
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ During the system-engineering design phase, produce an explicit boundary map ide
 
 ## References
 
-- [DFCite-1069] Akilal and Kechadi, 2022, "An improved forensic-by-design framework for cloud computing with systems engineering standard compliance", FSI: Digital Investigation 40.
+- [LWCite-1069] Akilal and Kechadi, 2022, "An improved forensic-by-design framework for cloud computing with systems engineering standard compliance", FSI: Digital Investigation 40.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2075
+id: LWW-2075
 type: weakness
 name: Heuristic-based Bitcoin address clustering has a high inherent misattribution error rate
 description: The multi-input and one-time-change heuristics widely used to cluster Bitcoin addresses believed to belong to the same real-world user each carry substantial, previously-unquantified error rates, so a clustering result presented as identifying "an address belonging to a user" may in fact group unrelated addresses together or split a single user's addresses across clusters.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-2076
+  - LWM-2076
 source_refs:
-  - DFCite-2081
+  - LWCite-2081
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ Address clustering results are used in criminal investigations to link seized or
 
 ## References
 
-- [DFCite-2081] Gong, Chow, Yiu, and Ting, 2022, "Sensitivity analysis for a Bitcoin simulation model", FSI: Digital Investigation 43, 301449.
+- [LWCite-2081] Gong, Chow, Yiu, and Ting, 2022, "Sensitivity analysis for a Bitcoin simulation model", FSI: Digital Investigation 43, 301449.

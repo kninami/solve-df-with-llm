@@ -1,9 +1,9 @@
 ---
-id: DFM-1118
+id: LWM-1118
 type: mitigation
 name: Validate LLM-generated regular expressions against representative test cases before deploying them in an investigation
 source_refs:
-  - DFCite-1110
+  - LWCite-1110
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Build a small independent test set covering the target pattern's known real-worl
 
 ## References
 
-- [DFCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.
+- [LWCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.

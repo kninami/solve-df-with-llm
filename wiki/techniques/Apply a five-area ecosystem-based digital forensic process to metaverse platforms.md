@@ -1,17 +1,17 @@
 ---
-id: DFT-1160
+id: LWT-1160
 type: technique
 name: Apply a five-area ecosystem-based digital forensic process to metaverse platforms
 description: Investigate a metaverse-related incident by first decomposing the vendor's metaverse ecosystem into its five common component areas — the head-mounted display (HMD), the paired client device, the mobile application, the metaverse platform, and the vendor's cloud — then systematically identifying and collecting the artifacts specific to each area before combining them into a single cross-area investigative timeline.
 objective_ids:
   - DFO-1015
 weakness_ids:
-  - DFW-1165
+  - LWW-1165
 aliases:
   - Metaverse ecosystem digital forensic process
   - HMD-Client-Application-Platform-Cloud (H-C-A-P-C) metaverse forensic model
 source_refs:
-  - DFCite-1167
+  - LWCite-1167
 updated_at: 2026-08-12
 status: complete
 ---
@@ -41,4 +41,4 @@ The process runs as a readiness-then-data-collection-then-analysis pipeline: fir
 
 ## References
 
-- [DFCite-1167] Kim et al., 2023, "Digital forensic approaches for metaverse ecosystems", FSI: Digital Investigation 46, 301608.
+- [LWCite-1167] Kim et al., 2023, "Digital forensic approaches for metaverse ecosystems", FSI: Digital Investigation 46, 301608.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1229
+id: LWT-1229
 type: technique
 name: Reconstruct a vehicle incident timeline using driving-insurance-app cloud telematics data
 description: Reconstruct a chronological, mapped sequence of a vehicle incident (such as a hit-and-run) by acquiring a driving-insurance usage-based-insurance app's full cloud-stored trip telemetry — GPS coordinates, speed, and discrete driving events like hard braking, acceleration, and distraction — rather than relying on the coarser subset of that data the app's own mobile interface exposes.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1247
+  - LWW-1247
 aliases:
   - PyShot-style hit-and-run reconstruction from usage-based-insurance cloud data
 source_refs:
-  - DFCite-1262
+  - LWCite-1262
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ Once trip data has been acquired from the insurer's cloud (device/driver IDs, an
 
 ## References
 
-- [DFCite-1262] Onik, Spinosa, Asad, and Baggili, 2024, "Hit and run: Forensic vehicle event reconstruction through driver-based cloud data from Progressive's snapshot application", FSI: Digital Investigation 49, 301762.
+- [LWCite-1262] Onik, Spinosa, Asad, and Baggili, 2024, "Hit and run: Forensic vehicle event reconstruction through driver-based cloud data from Progressive's snapshot application", FSI: Digital Investigation 49, 301762.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1261
+id: LWM-1261
 type: mitigation
 name: Corroborate Apple Health activity-type labels and time-zone-derived location claims with independent witness, OSINT, or image evidence
 source_refs:
-  - DFCite-1279
+  - LWCite-1279
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ When an activity-type label seems inconsistent with its recorded coordinates or 
 
 ## References
 
-- [DFCite-1279] Jennings, Sorell and Espinosa, 2023, "Interpreting the location data extracted from the Apple Health database", DFRWS 2023 EU; FSI: Digital Investigation 44, 301504.
+- [LWCite-1279] Jennings, Sorell and Espinosa, 2023, "Interpreting the location data extracted from the Apple Health database", DFRWS 2023 EU; FSI: Digital Investigation 44, 301504.

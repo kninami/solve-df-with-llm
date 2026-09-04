@@ -1,14 +1,14 @@
 ---
-id: DFW-1147
+id: LWW-1147
 type: weakness
 name: Byte-frequency query-classification models misclassify database operations with overlapping sort-area patterns
 description: A machine-learning classifier trained on sort-area byte-frequency histograms confuses query operation types whose memory access patterns overlap, most consistently misattributing filter operations as aggregate operations (and vice versa) in both evaluated DBMSes, so its predicted operation type cannot always be trusted at face value.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1147
+  - LWM-1147
 source_refs:
-  - DFCite-1143
+  - LWCite-1143
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who takes a single-model prediction of "aggregate" or "filter" a
 
 ## References
 
-- [DFCite-1143] Nissan, Wagner and Aktar, 2023, "Database memory forensics: A machine learning approach to reverse-engineer query activity", FSI: Digital Investigation 44.
+- [LWCite-1143] Nissan, Wagner and Aktar, 2023, "Database memory forensics: A machine learning approach to reverse-engineer query activity", FSI: Digital Investigation 44.

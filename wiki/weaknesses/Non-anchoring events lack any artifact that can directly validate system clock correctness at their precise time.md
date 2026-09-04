@@ -1,14 +1,14 @@
 ---
-id: DFW-2128
+id: LWW-2128
 type: weakness
 name: Non-anchoring events lack any artifact that can directly validate system clock correctness at their precise time
 description: An event such as a file creation, whose recoverable artifacts contain only a system-clock timestamp and no corresponding external timestamp, cannot itself be checked for clock correctness, forcing an examiner to rely on weaker bounding evidence from unrelated nearby events.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2129
+  - LWM-2129
 source_refs:
-  - DFCite-2149
+  - LWCite-2149
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ Even when the nearest surrounding time anchors both indicate the clock was corre
 
 ## References
 
-- [DFCite-2149] Vanini et al., 2024, "Was the clock correct? Exploring timestamp interpretation through time anchors for digital forensic event reconstruction", FSI: Digital Investigation 49.
+- [LWCite-2149] Vanini et al., 2024, "Was the clock correct? Exploring timestamp interpretation through time anchors for digital forensic event reconstruction", FSI: Digital Investigation 49.

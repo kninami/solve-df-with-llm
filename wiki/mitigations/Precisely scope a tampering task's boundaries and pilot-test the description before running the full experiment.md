@@ -1,9 +1,9 @@
 ---
-id: DFM-1307
+id: LWM-1307
 type: mitigation
 name: Precisely scope a tampering task's boundaries and pilot-test the description before running the full experiment
 source_refs:
-  - DFCite-1342
+  - LWCite-1342
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When designing a study using [[techniques/Apply prudent design principles when c
 
 ## References
 
-- [DFCite-1342] Schneider, Düsel, Lorch, Drafz, and Freiling, 2022, "Prudent design principles for digital tampering experiments", FSI: Digital Investigation 40, 301334.
+- [LWCite-1342] Schneider, Düsel, Lorch, Drafz, and Freiling, 2022, "Prudent design principles for digital tampering experiments", FSI: Digital Investigation 40, 301334.

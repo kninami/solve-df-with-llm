@@ -1,14 +1,14 @@
 ---
-id: DFW-1095
+id: LWW-1095
 type: weakness
 name: Hierarchical Tree-CNN crime scene classification confuses visually similar but differently labelled categories
 description: Because the Tree-CNN model classifies images through a hierarchy of parent nodes before reaching more specific child categories, an image can be misclassified at a high-level parent node when its content closely visually resembles a different category with similar visual content (e.g. a packaging-logo image versus a concealment image), causing the misclassification to propagate and produce a false result at the final, specific category level.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1095
+  - LWM-1095
 source_refs:
-  - DFCite-1087
+  - LWCite-1087
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ A practitioner using the Tree-CNN model to triage casework images could have an 
 
 ## References
 
-- [DFCite-1087] Abraham et al., 2021, "Automatically classifying crime scene images using machine learning methodologies", FSI: Digital Investigation 39.
+- [LWCite-1087] Abraham et al., 2021, "Automatically classifying crime scene images using machine learning methodologies", FSI: Digital Investigation 39.

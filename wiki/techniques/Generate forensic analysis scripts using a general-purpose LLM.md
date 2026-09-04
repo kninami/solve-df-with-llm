@@ -1,17 +1,17 @@
 ---
-id: DFT-1112
+id: LWT-1112
 type: technique
 name: Generate forensic analysis scripts using a general-purpose LLM
 description: Prompt a general-purpose large language model (e.g. GPT-4) to write a working script for a specific digital forensic task — such as file carving, RAID disk acquisition, password-protected archive cracking, or memory-dump encryption-key search — to provide an investigator with a functional starting point instead of building the tool from scratch.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1117
+  - LWW-1117
 aliases:
   - LLM-assisted forensic script generation
   - ChatGPT/GPT-4 code generation for digital forensics
 source_refs:
-  - DFCite-1110
+  - LWCite-1110
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ Across four tested scenarios, GPT-4 produced progressively refined scripts throu
 
 ## References
 
-- [DFCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.
+- [LWCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.

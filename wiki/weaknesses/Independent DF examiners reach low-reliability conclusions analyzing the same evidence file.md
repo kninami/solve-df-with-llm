@@ -1,14 +1,14 @@
 ---
-id: DFW-1032
+id: LWW-1032
 type: weakness
 name: Independent DF examiners reach low-reliability conclusions analyzing the same evidence file
 description: When multiple digital forensic examiners independently analyze the identical evidence file under identical contextual information, their observations, interpretations of observations, and overall conclusions show low-to-inadequate inter-examiner consistency, meaning a second independent examination of the same case has a low probability of reaching the same result as the first.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1032
+  - LWM-1032
 source_refs:
-  - DFCite-1022
+  - LWCite-1022
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Digital evidence is often perceived as objective and reproducible in a way that 
 
 ## References
 
-- [DFCite-1022] Sunde and Dror, 2021, "A hierarchy of expert performance (HEP) applied to digital forensics: Reliability and biasability in digital forensics decision making", FSI: Digital Investigation 37.
+- [LWCite-1022] Sunde and Dror, 2021, "A hierarchy of expert performance (HEP) applied to digital forensics: Reliability and biasability in digital forensics decision making", FSI: Digital Investigation 37.

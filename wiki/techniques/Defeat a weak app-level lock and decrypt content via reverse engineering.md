@@ -1,13 +1,13 @@
 ---
-id: DFT-1055
+id: LWT-1055
 type: technique
 name: Defeat a weak app-level lock and decrypt content via reverse engineering
 description: Reverse-engineer a smartphone system app's homegrown authentication and encryption logic (e.g., a PIN/pattern lock verifier, or a file-encryption key derived from an account identifier) to recover the user's original credential or to decrypt locked content directly, exploiting implementation weaknesses (such as a reversible substitution-based hash, or a key derivable purely from already-known account information) rather than treating the protection as a black box.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1058
-  - DFW-1158
+  - LWW-1058
+  - LWW-1158
 aliases:
   - Reverse-engineered weak app-level lock defeat and content decryption
   - Electron safeStorage/DPAPI SQLCipher key reverse engineering
@@ -15,13 +15,13 @@ aliases:
   - Signal/Wickr/Threema Android SQLCipher decryption via reverse-engineered key derivation
   - Note and journal app secret-value and content decryption
 source_refs:
-  - DFCite-1048
-  - DFCite-1076
-  - DFCite-1150
-  - DFCite-1214
-  - DFCite-1220
-  - DFCite-1221
-  - DFCite-1224
+  - LWCite-1048
+  - LWCite-1076
+  - LWCite-1150
+  - LWCite-1214
+  - LWCite-1220
+  - LWCite-1221
+  - LWCite-1224
 updated_at: 2026-08-13
 status: complete
 ---
@@ -57,10 +57,10 @@ Where a PIN or pattern is transformed into a stored "authenticator" via a fixed,
 
 ## References
 
-- [DFCite-1048] Kim et al., 2021, "A study on LG content lock and data acquisition from apps based on content lock function", FSI: Digital Investigation 39.
-- [DFCite-1076] Kim et al., 2025, "Analyzing the Web and UWP versions of WhatsApp for digital forensics", FSI: Digital Investigation 52.
-- [DFCite-1150] Paulino et al., 2025, "Decrypting messages: Extracting digital evidence from signal desktop for windows", FSI: Digital Investigation 54.
-- [DFCite-1214] Kang et al., 2024, "Forensic analysis and data decryption of tencent meeting in windows environment", FSI: Digital Investigation 51, 301818.
-- [DFCite-1220] Kim et al., 2021, "Forensic analysis of instant messaging apps: Decrypting Wickr and private text messaging data", FSI: Digital Investigation 37.
-- [DFCite-1221] Son et al., 2022, "Forensic analysis of instant messengers: Decrypt Signal, Wickr, and Threema", FSI: Digital Investigation 40.
-- [DFCite-1224] Shin et al., 2022, "Forensic analysis of note and journal applications", FSI: Digital Investigation 40.
+- [LWCite-1048] Kim et al., 2021, "A study on LG content lock and data acquisition from apps based on content lock function", FSI: Digital Investigation 39.
+- [LWCite-1076] Kim et al., 2025, "Analyzing the Web and UWP versions of WhatsApp for digital forensics", FSI: Digital Investigation 52.
+- [LWCite-1150] Paulino et al., 2025, "Decrypting messages: Extracting digital evidence from signal desktop for windows", FSI: Digital Investigation 54.
+- [LWCite-1214] Kang et al., 2024, "Forensic analysis and data decryption of tencent meeting in windows environment", FSI: Digital Investigation 51, 301818.
+- [LWCite-1220] Kim et al., 2021, "Forensic analysis of instant messaging apps: Decrypting Wickr and private text messaging data", FSI: Digital Investigation 37.
+- [LWCite-1221] Son et al., 2022, "Forensic analysis of instant messengers: Decrypt Signal, Wickr, and Threema", FSI: Digital Investigation 40.
+- [LWCite-1224] Shin et al., 2022, "Forensic analysis of note and journal applications", FSI: Digital Investigation 40.

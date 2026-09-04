@@ -1,14 +1,14 @@
 ---
-id: DFW-1282
+id: LWW-1282
 type: weakness
 name: Path- and size-based DLL hijacking detection misses an attack whose malicious DLL matches the legitimate DLL's path and size
 description: Because path/size-consensus-based DLL hijacking detection flags a process only when its loaded module's path or size differs from the majority, an attacker who places a malicious DLL at the exact legitimate path and pads it to the legitimate file size, or who hijacks a DLL loaded in only a single process (leaving no majority to compare against), evades detection entirely, and the detection is limited to 64-bit processes only.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1283
+  - LWM-1283
 source_refs:
-  - DFCite-1310
+  - LWCite-1310
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who treats a clean result from this detection method as confirma
 
 ## References
 
-- [DFCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.
+- [LWCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.

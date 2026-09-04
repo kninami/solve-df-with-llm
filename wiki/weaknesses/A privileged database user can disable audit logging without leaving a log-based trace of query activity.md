@@ -1,14 +1,14 @@
 ---
-id: DFW-1148
+id: LWW-1148
 type: weakness
 name: A privileged database user can disable audit logging without leaving a log-based trace of query activity
 description: A database administrator (or an attacker who has gained equivalent privileges) can temporarily disable or bypass a DBMS's audit logging, execute a query, and re-enable logging, so the audit log itself contains no record of the query even though the query was necessarily processed in the DBMS's memory.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1148
+  - LWM-1148
 source_refs:
-  - DFCite-1144
+  - LWCite-1144
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who treats a DBMS's own audit log as a complete record of query 
 
 ## References
 
-- [DFCite-1144] Wagner, Nissan and Rasin, 2023, "Database memory forensics: Identifying cache patterns for log verification", FSI: Digital Investigation 45.
+- [LWCite-1144] Wagner, Nissan and Rasin, 2023, "Database memory forensics: Identifying cache patterns for log verification", FSI: Digital Investigation 45.

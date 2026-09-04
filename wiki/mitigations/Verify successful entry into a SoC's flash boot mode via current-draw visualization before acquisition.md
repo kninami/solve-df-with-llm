@@ -1,9 +1,9 @@
 ---
-id: DFM-1171
+id: LWM-1171
 type: mitigation
 name: Verify successful entry into a SoC's flash boot mode via current-draw visualization before acquisition
 source_refs:
-  - DFCite-1177
+  - LWCite-1177
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Consult the SoC manufacturer's datasheet for the expected current-draw signature
 
 ## References
 
-- [DFCite-1177] Eichhorn and Pugliese, 2024, "Do You \"Relay\" Want to Give Me Away? - Forensic Cues of Smart Relays and Their IoT Companion Apps", FSI: Digital Investigation 50, 301810.
+- [LWCite-1177] Eichhorn and Pugliese, 2024, "Do You \"Relay\" Want to Give Me Away? - Forensic Cues of Smart Relays and Their IoT Companion Apps", FSI: Digital Investigation 50, 301810.

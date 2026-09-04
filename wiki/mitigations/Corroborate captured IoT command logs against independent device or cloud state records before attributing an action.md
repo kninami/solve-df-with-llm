@@ -1,9 +1,9 @@
 ---
-id: DFM-1172
+id: LWM-1172
 type: mitigation
 name: Corroborate captured IoT command logs against independent device or cloud state records before attributing an action
 source_refs:
-  - DFCite-1177
+  - LWCite-1177
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Where a companion app or device log records a switching event, obtain a second, 
 
 ## References
 
-- [DFCite-1177] Eichhorn and Pugliese, 2024, "Do You \"Relay\" Want to Give Me Away? - Forensic Cues of Smart Relays and Their IoT Companion Apps", FSI: Digital Investigation 50, 301810.
+- [LWCite-1177] Eichhorn and Pugliese, 2024, "Do You \"Relay\" Want to Give Me Away? - Forensic Cues of Smart Relays and Their IoT Companion Apps", FSI: Digital Investigation 50, 301810.

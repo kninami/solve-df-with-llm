@@ -1,5 +1,5 @@
 ---
-id: DFT-2107
+id: LWT-2107
 type: technique
 name: Trace Bitcoin mixer transactions using graph-database traversal and taint analysis
 description: Import Bitcoin blockchain data (blocks, transactions, and addresses) into a graph database and use graph-query traversal to identify a mixing service's operational patterns -- peeling chains, multi-transaction/multi-address hubs, input/output linkage attempts, and transaction-value-range analysis -- combined with third-party taint-analysis services to narrow down candidate addresses and characterize a specific mixer's structural fingerprint from controlled test transactions.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1008
   - DFO-1001
 weakness_ids:
-  - DFW-2113
+  - LWW-2113
 aliases:
   - Neo4j-based Bitcoin mixer transaction pattern analysis
 source_refs:
-  - DFCite-2133
+  - LWCite-2133
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ Blockchain data is extracted and formatted for import using an ETL tool (btc-csv
 
 ## References
 
-- [DFCite-2133] Tippe and Deckers, 2025, "Unmixing the mix: Patterns and challenges in Bitcoin mixer investigations", FSI: Digital Investigation 52, 301876.
+- [LWCite-2133] Tippe and Deckers, 2025, "Unmixing the mix: Patterns and challenges in Bitcoin mixer investigations", FSI: Digital Investigation 52, 301876.

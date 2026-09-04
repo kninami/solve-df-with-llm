@@ -1,9 +1,9 @@
 ---
-id: DFM-1308
+id: LWM-1308
 type: mitigation
 name: Seek zxcrypt key material from a live or powered device before relying on dead-disk MinFS analysis
 source_refs:
-  - DFCite-1343
+  - LWCite-1343
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When a Fuchsia device is encountered powered on or accessible in a live state, p
 
 ## References
 
-- [DFCite-1343] Jarrett and Morris, 2021, "Purple dawn: Dead disk forensics on Google's Fuchsia operating system", FSI: Digital Investigation 39, 301269.
+- [LWCite-1343] Jarrett and Morris, 2021, "Purple dawn: Dead disk forensics on Google's Fuchsia operating system", FSI: Digital Investigation 39, 301269.

@@ -1,15 +1,15 @@
 ---
-id: DFW-1069
+id: LWW-1069
 type: weakness
 name: LLM-generated synthetic mobile forensic dataset content can be factually incorrect or incomplete without expert validation
 description: Storyboards and injected content authored by a generative-AI agent can contain factually incorrect or implausible information, or in principle reflect social biases from the underlying model's training data, and the toolchain's automated checks only catch syntactic errors — meaning an experienced forensic professional must review generated dataset content for completeness and plausibility before it is used for training or validating forensic tools and methods.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1069
+  - LWM-1069
 source_refs:
-  - DFCite-1059
-  - DFCite-1110
+  - LWCite-1059
+  - LWCite-1110
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,7 +24,7 @@ The authors state plainly that "generative AI can produce social prejudices or c
 
 A synthetic dataset intended for training or validating forensic tools that contains unreviewed factually-incorrect or implausible content risks teaching or validating those tools against unrealistic ground truth, undermining the dataset's purpose. Because the paper's own evaluation of human ability to distinguish AI-generated from authentic data was limited (a small, non-rigorous field trial, not a controlled human assessment), the risk of subtle implausibility going unnoticed without deliberate expert review is not yet well quantified.
 
-The same risk applies to LLM-authored teaching-scenario content more broadly, not only device-executed storyboards: prompting GPT-4 to build a stalking-scenario storyboard "produced a very rich set of scenario notes... This could inform data generation, manually, or with automated tools," but the resulting content, including any generated images or videos, "would need to be manually checked so that nothing inappropriate was added" before use in a teaching disk image [DFCite-1110].
+The same risk applies to LLM-authored teaching-scenario content more broadly, not only device-executed storyboards: prompting GPT-4 to build a stalking-scenario storyboard "produced a very rich set of scenario notes... This could inform data generation, manually, or with automated tools," but the resulting content, including any generated images or videos, "would need to be manually checked so that nothing inappropriate was added" before use in a teaching disk image [LWCite-1110].
 
 ## Related Mitigations
 
@@ -36,5 +36,5 @@ The same risk applies to LLM-authored teaching-scenario content more broadly, no
 
 ## References
 
-- [DFCite-1059] Pawlaszczyk et al., 2025, "AI-driven dataset creation in mobile forensics using LLM-based storyboards", FSI: Digital Investigation 55.
-- [DFCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.
+- [LWCite-1059] Pawlaszczyk et al., 2025, "AI-driven dataset creation in mobile forensics using LLM-based storyboards", FSI: Digital Investigation 55.
+- [LWCite-1110] Scanlon et al., 2023, "ChatGPT for digital forensic investigation: The good, the bad, and the unknown", FSI: Digital Investigation 46.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1182
+id: LWM-1182
 type: mitigation
 name: Obtain an intact reference file from the same camera model and settings before attempting energy-based PCM audio recovery
 source_refs:
-  - DFCite-1185
+  - LWCite-1185
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify the exact make and model of the dashboard camera that produced the impa
 
 ## References
 
-- [DFCite-1185] Park et al., 2021, "Energy-based linear PCM audio recovery method of impaired MP4 file stored in dashboard camera memory", FSI: Digital Investigation 39. Describes obtaining channel count, sampling rate, and bytes-per-sample from a normally recorded MP4 from the same dashboard camera prior to recovery.
+- [LWCite-1185] Park et al., 2021, "Energy-based linear PCM audio recovery method of impaired MP4 file stored in dashboard camera memory", FSI: Digital Investigation 39. Describes obtaining channel count, sampling rate, and bytes-per-sample from a normally recorded MP4 from the same dashboard camera prior to recovery.

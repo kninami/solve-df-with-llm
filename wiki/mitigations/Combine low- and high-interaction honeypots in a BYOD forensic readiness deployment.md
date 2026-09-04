@@ -1,9 +1,9 @@
 ---
-id: DFM-2062
+id: LWM-2062
 type: mitigation
 name: Combine low- and high-interaction honeypots in a BYOD forensic readiness deployment
 source_refs:
-  - DFCite-2063
+  - LWCite-2063
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Select honeypot types to match the organization's risk profile and monitoring ca
 
 ## References
 
-- [DFCite-2063] Asante & Amankona, 2021, "Digital Forensic Readiness Framework Based on Honeypot and Honeynet for BYOD", JDFSL 16(2). Proposes combining low- and high-interaction honeypot technologies within the DFR-BYOD framework's Technology domain specifically to overcome the detection limitation of a low-interaction-only deployment.
+- [LWCite-2063] Asante & Amankona, 2021, "Digital Forensic Readiness Framework Based on Honeypot and Honeynet for BYOD", JDFSL 16(2). Proposes combining low- and high-interaction honeypot technologies within the DFR-BYOD framework's Technology domain specifically to overcome the detection limitation of a low-interaction-only deployment.

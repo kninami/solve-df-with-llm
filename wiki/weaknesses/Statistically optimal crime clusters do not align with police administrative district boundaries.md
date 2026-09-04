@@ -1,14 +1,14 @@
 ---
-id: DFW-2088
+id: LWW-2088
 type: weakness
 name: Statistically optimal crime clusters do not align with police administrative district boundaries
 description: A k-means crime-cluster partition chosen to maximize a clustering-validity index (such as the Calinski-Harabasz index) produces geographically scattered, statistically well-defined clusters that generally do not correspond to a police force's existing administrative district boundaries, so the clustering result cannot be directly applied to district-level resourcing decisions without further reconciliation.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2088
+  - LWM-2088
 source_refs:
-  - DFCite-2103
+  - LWCite-2103
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ A decision-maker who is presented with a statistically well-validated crime-clus
 
 ## References
 
-- [DFCite-2103] Kowalski, Kusy, and Kocierz, 2023, "The forensic information identification based on machine learning algorithms", FSI: Digital Investigation 47, 301619.
+- [LWCite-2103] Kowalski, Kusy, and Kocierz, 2023, "The forensic information identification based on machine learning algorithms", FSI: Digital Investigation 47, 301619.

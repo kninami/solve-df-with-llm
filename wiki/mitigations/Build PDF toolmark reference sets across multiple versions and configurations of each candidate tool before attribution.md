@@ -1,9 +1,9 @@
 ---
-id: DFM-1292
+id: LWM-1292
 type: mitigation
 name: Build PDF toolmark reference sets across multiple versions and configurations of each candidate tool before attribution
 source_refs:
-  - DFCite-1322
+  - LWCite-1322
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Before applying [[techniques/Attribute a PDF document to its creating tool using
 
 ## References
 
-- [DFCite-1322] Olivier, 2026, "On the classification of questioned PDF documents — Attributing PDF documents to the tools that created them", FSI: Digital Investigation 57, 302104.
+- [LWCite-1322] Olivier, 2026, "On the classification of questioned PDF documents — Attributing PDF documents to the tools that created them", FSI: Digital Investigation 57, 302104.

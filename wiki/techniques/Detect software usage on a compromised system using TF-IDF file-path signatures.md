@@ -1,18 +1,18 @@
 ---
-id: DFT-1153
+id: LWT-1153
 type: technique
 name: Detect software usage on a compromised system using TF-IDF file-path signatures
 description: Build a per-application signature from the file-path artifacts created or modified when that application runs (via differential analysis of an isolated test system before/after installing and executing it), weight the paths using a TF-IDF scheme, and match a suspect system's file paths against the signature library to triage which applications have actually run on the system under investigation.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1156
+  - LWW-1156
 aliases:
   - Software Signature Detection Engine
   - SSDE triage
   - TF-IDF file-path software-usage triage
 source_refs:
-  - DFCite-1157
+  - LWCite-1157
 updated_at: 2026-08-12
 status: complete
 ---
@@ -42,4 +42,4 @@ Signature construction runs each candidate application in an isolated environmen
 
 ## References
 
-- [DFCite-1157] Soltani and Hosseini Seno, 2023, "Detecting the software usage on a compromised system: A triage solution for digital forensics", FSI: Digital Investigation 44.
+- [LWCite-1157] Soltani and Hosseini Seno, 2023, "Detecting the software usage on a compromised system: A triage solution for digital forensics", FSI: Digital Investigation 44.

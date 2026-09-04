@@ -1,16 +1,16 @@
 ---
-id: DFT-1197
+id: LWT-1197
 type: technique
 name: Extract disappearing messages using multi-tool pre- and post-expiry acquisition
 description: Acquire an ephemeral/disappearing-messaging app both before and immediately after a message's expiry timer elapses, using more than one mobile forensic tool (e.g. Cellebrite UFED and MSAB XRY) plus manual database/hex review, since no single app, platform, or tool combination reliably recovers all disappearing-message content once it has "disappeared."
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1206
+  - LWW-1206
 aliases:
   - Comparative multi-tool extraction of WhatsApp/Snapchat/Telegram disappearing messages
 source_refs:
-  - DFCite-1218
+  - LWCite-1218
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ A structured comparison of WhatsApp, Snapchat, and Telegram disappearing-message
 
 ## References
 
-- [DFCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.
+- [LWCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.

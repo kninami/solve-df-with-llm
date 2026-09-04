@@ -1,14 +1,14 @@
 ---
-id: DFW-1289
+id: LWW-1289
 type: weakness
 name: Address-association heuristics used to identify DeFi rug-pull scammers cannot conclusively distinguish scammers from legitimate high-risk traders
 description: Heuristics that flag an Ethereum address as scammer-associated based on its trading behavior around a rug-pull event — exchanging the scam token for another cryptocurrency, or remaining inactive afterward — cannot rule out that the address instead belongs to a legitimate but high-risk participant (a "degen") who is engaging in ordinary wash trading or who simply stopped trading for unrelated reasons.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1290
+  - LWM-1290
 source_refs:
-  - DFCite-1320
+  - LWCite-1320
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who treats every heuristically-flagged address as a confirmed sc
 
 ## References
 
-- [DFCite-1320] Trozze, Davies, and Kleinberg, 2023, "Of degens and defrauders: Using open-source investigative tools to investigate decentralized finance frauds and money laundering", FSI: Digital Investigation 46, 301575.
+- [LWCite-1320] Trozze, Davies, and Kleinberg, 2023, "Of degens and defrauders: Using open-source investigative tools to investigate decentralized finance frauds and money laundering", FSI: Digital Investigation 46, 301575.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2133
+id: LWW-2133
 type: weakness
 name: Byte-level MMIF modification detection degrades to whole-page reporting when the ISO page is not memory-resident
 description: A memory-mapped image file modification-detection technique that relies on the Image Section Object as its memory-resident ground truth cannot identify the exact modified bytes, and falls back to reporting the entire page as modified, whenever the operating system has evicted that ISO page from RAM.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2134
+  - LWM-2134
 source_refs:
-  - DFCite-2155
+  - LWCite-2155
 updated_at: 2026-08-17
 status: complete
 ---
@@ -33,4 +33,4 @@ When the technique's precision advantage disappears exactly in the cases where a
 
 ## References
 
-- [DFCite-2155] Block, 2023, "Windows memory forensics: Identification of (malicious) modifications in memory-mapped image files", FSI: Digital Investigation 45.
+- [LWCite-2155] Block, 2023, "Windows memory forensics: Identification of (malicious) modifications in memory-mapped image files", FSI: Digital Investigation 45.

@@ -1,5 +1,5 @@
 ---
-id: DFW-1105
+id: LWW-1105
 type: weakness
 name: Similarity digest algorithms are vulnerable to known reduction and emulation attacks with minimal input modification
 description: Common similarity digest (fuzzy hashing / approximate matching) algorithms — including ssdeep, sdhash, TLSH, SimHash, LZJD, and mvHash-B — are each vulnerable to at least one of two general attack classes given an adversary who understands the algorithm's internal design: reducing the similarity score between two inputs that should match (evading blacklist-style detection), or emulating a high similarity score between two inputs that should not match (spoofing an allowlist or planting false corroboration), each achievable with a small, bounded number of modified bytes.
@@ -7,14 +7,14 @@ categories:
   - ASTM_INAC_EX
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-1105
+  - LWM-1105
 source_refs:
-  - DFCite-1100
-  - DFCite-1249
-  - DFCite-2013
-  - DFCite-2037
-  - DFCite-2092
-  - DFCite-2131
+  - LWCite-1100
+  - LWCite-1249
+  - LWCite-2013
+  - LWCite-2037
+  - LWCite-2092
+  - LWCite-2131
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,7 +33,7 @@ A related, non-adversarial reliability concern is threshold sensitivity: using s
 
 ## Why It Matters
 
-An investigator relying on a similarity digest match (or non-match) as evidence — for example, that a file is/is not related to a known blacklisted or allow-listed artifact, or that a blockchain-recorded evidence block's fuzzy hash still matches its original (per DFCite-2013's SSDEEP-based Merkle-tree tamper check) — is relying on a comparison that a knowledgeable adversary can manipulate in either direction with a small, often practical number of byte-level changes, without needing to break any cryptographic primitive. Because the specific vulnerability depends on the target algorithm's internal design (feature length, mapping function, storing structure, coverage), the same investigator's confidence in a match should vary by which specific similarity digest algorithm produced it. In particular, an SSDEEP-based evidence-integrity check that treats similarity at or above a fixed threshold (e.g. 90%) as proof of authenticity is exposed to ssdeep's known emulation-attack surface, where an adversary could in principle craft a tampered evidence block that still scores above the threshold.
+An investigator relying on a similarity digest match (or non-match) as evidence — for example, that a file is/is not related to a known blacklisted or allow-listed artifact, or that a blockchain-recorded evidence block's fuzzy hash still matches its original (per LWCite-2013's SSDEEP-based Merkle-tree tamper check) — is relying on a comparison that a knowledgeable adversary can manipulate in either direction with a small, often practical number of byte-level changes, without needing to break any cryptographic primitive. Because the specific vulnerability depends on the target algorithm's internal design (feature length, mapping function, storing structure, coverage), the same investigator's confidence in a match should vary by which specific similarity digest algorithm produced it. In particular, an SSDEEP-based evidence-integrity check that treats similarity at or above a fixed threshold (e.g. 90%) as proof of authenticity is exposed to ssdeep's known emulation-attack surface, where an adversary could in principle craft a tampered evidence block that still scores above the threshold.
 
 ## Related Mitigations
 
@@ -48,9 +48,9 @@ An investigator relying on a similarity digest match (or non-match) as evidence 
 
 ## References
 
-- [DFCite-1100] Martín-Pérez et al., 2021, "Bringing order to approximate matching: Classification and attacks on similarity digest algorithms", FSI: Digital Investigation 36.
-- [DFCite-1249] Göbel et al., 2022, "FRASHER -- A framework for automated evaluation of similarity hashing", FSI: Digital Investigation 42, 301407.
-- [DFCite-2013] Mahrous et al., 2021, "An enhanced blockchain-based IoT digital forensics architecture using fuzzy hash", IEEE Access 9 — uses SSDEEP similarity above a fixed threshold as its blockchain evidence-block tamper check, which is exposed to this same attack surface.
-- [DFCite-2037] Elgohary et al., 2022, "Improving uncertainty in chain of custody for image forensics investigation applications", IEEE Access 10 — its own "Security Analysis" section independently confirms this same attack surface for MRSH-v2-style fuzzy hashing, describing how an active adversary can defeat blacklist/whitelist fuzzy-hash matching by manipulating as little as one bit per hash-triggering building block.
-- [DFCite-2092] Jakobs, Lambertz, and Hilgert, 2022, "ssdeeper: Evaluating and improving ssdeep", FSI: Digital Investigation 42, 301402. Documents non-adversarial ssdeep implementation defects (the last-segment bug, the 32-character second-signature limitation) and the digest-comparison-impediment effect of file duplication, independent of the deliberate adversarial attacks above.
-- [DFCite-2131] Botacin, Galhardo Moia, and Ceschin, 2021, "Understanding uses and misuses of similarity hashing functions for malware detection and family clustering in actual scenarios", FSI: Digital Investigation 38, 301220. Documents similarity-threshold-selection sensitivity and malware-packing's effect on similarity-hashing-based clustering, both non-adversarial reliability concerns independent of the deliberate attacks above.
+- [LWCite-1100] Martín-Pérez et al., 2021, "Bringing order to approximate matching: Classification and attacks on similarity digest algorithms", FSI: Digital Investigation 36.
+- [LWCite-1249] Göbel et al., 2022, "FRASHER -- A framework for automated evaluation of similarity hashing", FSI: Digital Investigation 42, 301407.
+- [LWCite-2013] Mahrous et al., 2021, "An enhanced blockchain-based IoT digital forensics architecture using fuzzy hash", IEEE Access 9 — uses SSDEEP similarity above a fixed threshold as its blockchain evidence-block tamper check, which is exposed to this same attack surface.
+- [LWCite-2037] Elgohary et al., 2022, "Improving uncertainty in chain of custody for image forensics investigation applications", IEEE Access 10 — its own "Security Analysis" section independently confirms this same attack surface for MRSH-v2-style fuzzy hashing, describing how an active adversary can defeat blacklist/whitelist fuzzy-hash matching by manipulating as little as one bit per hash-triggering building block.
+- [LWCite-2092] Jakobs, Lambertz, and Hilgert, 2022, "ssdeeper: Evaluating and improving ssdeep", FSI: Digital Investigation 42, 301402. Documents non-adversarial ssdeep implementation defects (the last-segment bug, the 32-character second-signature limitation) and the digest-comparison-impediment effect of file duplication, independent of the deliberate adversarial attacks above.
+- [LWCite-2131] Botacin, Galhardo Moia, and Ceschin, 2021, "Understanding uses and misuses of similarity hashing functions for malware detection and family clustering in actual scenarios", FSI: Digital Investigation 38, 301220. Documents similarity-threshold-selection sensitivity and malware-packing's effect on similarity-hashing-based clustering, both non-adversarial reliability concerns independent of the deliberate attacks above.

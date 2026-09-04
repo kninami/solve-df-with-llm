@@ -1,16 +1,16 @@
 ---
-id: DFT-1142
+id: LWT-1142
 type: technique
 name: Recover deleted deduplicated NTFS files using chunk-store reconstruction
 description: Recover the content of a deleted, deduplicated NTFS file by carving unallocated space for remnants of its $REPARSE_POINT chunk-mapping structures and cross-referencing the recovered chunk identifiers against the Chunk Store, since a deduplicated file's chunks remain allocated (and are not zeroed or reclaimed) as long as any other file still references them, even after the file itself is deleted.
 objective_ids:
   - DFO-1013
 weakness_ids:
-  - DFW-1145
+  - LWW-1145
 aliases:
   - Deleted deduplicated file recovery
 source_refs:
-  - DFCite-1141
+  - LWCite-1141
 updated_at: 2026-08-12
 status: complete
 ---
@@ -39,4 +39,4 @@ Because the original file's `$REPARSE_POINT` mapping structures (and its MFT ent
 
 ## References
 
-- [DFCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.
+- [LWCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.

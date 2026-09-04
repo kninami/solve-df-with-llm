@@ -1,14 +1,14 @@
 ---
-id: DFW-1048
+id: LWW-1048
 type: weakness
 name: Practicing OSINT investigators execute only the collection phase and skip the methodology's other phases
 description: Trained investigators overwhelmingly apply only the collection phase of the six-phase OSINT methodology in real practice, largely omitting the strategy, planning, validation, analysis, and distribution/evaluation phases that are intended to ensure OSINT findings are properly scoped, verified, contextualized, and reported.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1048
+  - LWM-1048
 source_refs:
-  - DFCite-1038
+  - LWCite-1038
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Skipping the processing/validation and analysis phases means collected open-sour
 
 ## References
 
-- [DFCite-1038] Larsen et al., 2023, "A quantitative study of the law enforcement in using open source intelligence techniques through undergraduate practical training", FSI: Digital Investigation 47.
+- [LWCite-1038] Larsen et al., 2023, "A quantitative study of the law enforcement in using open source intelligence techniques through undergraduate practical training", FSI: Digital Investigation 47.

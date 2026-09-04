@@ -1,9 +1,9 @@
 ---
-id: DFM-1043
+id: LWM-1043
 type: mitigation
 name: Add an on-screen timestamp signal for low-movement scenes to prevent fingerprint collision
 source_refs:
-  - DFCite-1033
+  - LWCite-1033
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ In deployments prone to long static periods (e.g., fixed cameras in sterile or l
 
 ## References
 
-- [DFCite-1033] Kerr et al., 2023, "A non-invasive method for the cataloguing and authentication of surveillance video using on-camera blockchain participation, machine learning and signal analysis", FSI: Digital Investigation 46.
+- [LWCite-1033] Kerr et al., 2023, "A non-invasive method for the cataloguing and authentication of surveillance video using on-camera blockchain participation, machine learning and signal analysis", FSI: Digital Investigation 46.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1057
+id: LWW-1057
 type: weakness
 name: Reverse-engineered backup-protocol acquisition does not cover general media files outside the backup data set
 description: A reverse-engineered manufacturer backup protocol reproduces only the specific structured data categories the vendor's own backup feature transmits (contacts, messages, calendar, app data, and similar database-backed items); general media files such as photos and documents typically exist outside this backup data set entirely and are not obtainable through this technique.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1057
+  - LWM-1057
 source_refs:
-  - DFCite-1047
+  - LWCite-1047
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying solely on a reverse-engineered backup-protocol tool for 
 
 ## References
 
-- [DFCite-1047] Park et al., 2022, "A study on data acquisition based on the Huawei smartphone backup protocol", FSI: Digital Investigation 41.
+- [LWCite-1047] Park et al., 2022, "A study on data acquisition based on the Huawei smartphone backup protocol", FSI: Digital Investigation 41.

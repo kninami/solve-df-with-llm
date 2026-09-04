@@ -1,12 +1,12 @@
 ---
-id: DFT-1059
+id: LWT-1059
 type: technique
 name: Extract application runtime artefacts from process memory using structure signatures
 description: Extract forensically relevant runtime artefacts — such as a web server's connection/TLS state, a browser's visited-URL and tab history including private/incognito-mode data, or an instant-messaging app's conversations, contacts, and account information — directly from an application process's memory (a live process dump or a full RAM image) by locating and parsing the application's internal data structures via known object/structure layouts, recovering information no longer available once the process has exited, the application is locked or logged out, or logging/storage files have been deleted, disabled, or never written in the first place.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1064
+  - LWW-1064
 aliases:
   - Structure-signature-based extraction of web server runtime artefacts from process memory
   - Apache2 web server memory forensics
@@ -15,9 +15,9 @@ aliases:
   - IM Artifact Finder
   - Telegram Desktop memory artefact extraction
 source_refs:
-  - DFCite-1054
-  - DFCite-1114
-  - DFCite-1205
+  - LWCite-1054
+  - LWCite-1114
+  - LWCite-1205
 updated_at: 2026-08-13
 status: complete
 ---
@@ -53,6 +53,6 @@ Traditional application forensics relies on log files and stored artefacts, both
 
 ## References
 
-- [DFCite-1054] Hilgert et al., 2023, "About the applicability of Apache2 web server memory forensics", FSI: Digital Investigation 46.
-- [DFCite-1114] Choi et al., 2023, "Chracer: Memory analysis of Chromium-based browsers", FSI: Digital Investigation 46.
-- [DFCite-1205] Fernández-Álvarez and Rodríguez, 2022, "Extraction and analysis of retrievable memory artifacts from Windows Telegram Desktop application", FSI: Digital Investigation 40.
+- [LWCite-1054] Hilgert et al., 2023, "About the applicability of Apache2 web server memory forensics", FSI: Digital Investigation 46.
+- [LWCite-1114] Choi et al., 2023, "Chracer: Memory analysis of Chromium-based browsers", FSI: Digital Investigation 46.
+- [LWCite-1205] Fernández-Álvarez and Rodríguez, 2022, "Extraction and analysis of retrievable memory artifacts from Windows Telegram Desktop application", FSI: Digital Investigation 40.

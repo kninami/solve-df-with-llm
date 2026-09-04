@@ -1,14 +1,14 @@
 ---
-id: DFW-1101
+id: LWW-1101
 type: weakness
 name: Sequential FIT-file parsers stop decoding entirely at the first corrupted message, losing all subsequent valid ride data
 description: Because a FIT file's data messages depend on referencing a preceding definition message to be interpreted, a purely sequential parser that encounters a corrupted or undecodable message stops decoding entirely at that point, losing all subsequent valid ride-data records in the file even if they are otherwise perfectly intact, since the parser has no mechanism to relocate the next valid definition message and resume.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1101
+  - LWM-1101
 source_refs:
-  - DFCite-1095
+  - LWCite-1095
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ Because cycling ride data (including accident-relevant metrics like speed and lo
 
 ## References
 
-- [DFCite-1095] Song and Oh, 2023, "Bike computer forensics: An efficient and robust method for FIT file recovery", FSI: Digital Investigation 46.
+- [LWCite-1095] Song and Oh, 2023, "Bike computer forensics: An efficient and robust method for FIT file recovery", FSI: Digital Investigation 46.

@@ -1,17 +1,17 @@
 ---
-id: DFT-1193
+id: LWT-1193
 type: technique
 name: Identify a file's type using magic-number signature matching
 description: Determine a file's true type by matching a short, position-sensitive sequence of bytes (its magic number/signature), typically near the start of the file, against a database of known type signatures, independent of and more reliable than the file's extension.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-1200
+  - LWW-1200
 aliases:
   - Magic-number-based file type identification
   - Signature-based file type identification
 source_refs:
-  - DFCite-1211
+  - LWCite-1211
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ A comparative benchmark of 10 file-type identification tools (academic and non-a
 
 ## References
 
-- [DFCite-1211] Dubettier et al., 2023, "File type identification tools for digital investigations", FSI: Digital Investigation 46, 301574.
+- [LWCite-1211] Dubettier et al., 2023, "File type identification tools for digital investigations", FSI: Digital Investigation 46, 301574.

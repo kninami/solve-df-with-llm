@@ -1,5 +1,5 @@
 ---
-id: DFT-2106
+id: LWT-2106
 type: technique
 name: Track MANET node locations and detect Hello Flood attacks using fog-based RSS triangulation
 description: Passively locate and monitor the mobility of nodes in a Mobile Ad-hoc Network (MANET) -- a self-configuring, infrastructure-less wireless network with no central server to log evidence from -- by deploying a Fog Computing server with a three-antenna "Cocktail Fork" receiver that sniffs ordinary communication traffic, measures received signal strength (RSS) from each node, and triangulates each node's position via the inverse square law, additionally flagging a node as a likely Hello Flood attacker when its RSS-based triangulation repeatedly fails to converge to a single consistent location.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1019
   - DFO-1006
 weakness_ids:
-  - DFW-2112
+  - LWW-2112
 aliases:
   - Ad-hoc Forensics Fog
   - AFF
 source_refs:
-  - DFCite-2132
+  - LWCite-2132
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ The AFF system consists of two node types: the Fog Forensics Server (FFS), a cen
 
 ## References
 
-- [DFCite-2132] Ragheb, Safwat, and Azer, 2025, "Unearthing the hidden path of MANET's nodes with signal strength measurements: Forensics challenges, survey and a novel approach for data collection, preservation and examination", FSI: Digital Investigation 53, 301916.
+- [LWCite-2132] Ragheb, Safwat, and Azer, 2025, "Unearthing the hidden path of MANET's nodes with signal strength measurements: Forensics challenges, survey and a novel approach for data collection, preservation and examination", FSI: Digital Investigation 53, 301916.

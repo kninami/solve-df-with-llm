@@ -1,14 +1,14 @@
 ---
-id: DFW-2097
+id: LWW-2097
 type: weakness
 name: TLS key material extraction techniques have little to no support for TLS 1.3's expanded key hierarchy
 description: The large majority of published TLS key-material identification and extraction techniques were developed for and validated against TLS 1.2, which needs only the single master secret to decrypt an entire session; TLS 1.3 replaced this with an expanded hierarchy of multiple distinct secrets (early, handshake, and per-connection application traffic secrets, derived via HKDF rather than the older PRF), and most existing techniques have not been adapted or re-validated to identify and extract this different set of secrets.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2098
+  - LWM-2098
 source_refs:
-  - DFCite-2114
+  - LWCite-2114
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who applies a TLS-1.2-oriented key-extraction technique against 
 
 ## References
 
-- [DFCite-2114] Baier, Basse, Hilgert, and Lambertz, 2024, "TLS key material identification and extraction in memory: Current state and future challenges", FSI: Digital Investigation 49, 301766.
+- [LWCite-2114] Baier, Basse, Hilgert, and Lambertz, 2024, "TLS key material identification and extraction in memory: Current state and future challenges", FSI: Digital Investigation 49, 301766.

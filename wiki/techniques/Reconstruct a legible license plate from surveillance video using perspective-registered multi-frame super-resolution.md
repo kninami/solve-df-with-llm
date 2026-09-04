@@ -1,16 +1,16 @@
 ---
-id: DFT-1289
+id: LWT-1289
 type: technique
 name: Reconstruct a legible license plate from surveillance video using perspective-registered multi-frame super-resolution
 description: Produce a single, higher-resolution, lower-noise image of a vehicle's license plate (or other planar target) from a low-quality surveillance video by first accurately tracking the plate's perspective transformation (motion, scaling, and skew) across multiple frames using a fast Kanade-Lucas-Tomasi-inspired registration algorithm, then combining the perspective-corrected frames via multi-frame super-resolution, rather than relying on a single frame or simple interpolation.
 objective_ids:
   - DFO-1009
 weakness_ids:
-  - DFW-1299
+  - LWW-1299
 aliases:
   - Perspective-registered multi-frame license-plate super-resolution
 source_refs:
-  - DFCite-1332
+  - LWCite-1332
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ The registration algorithm computes the perspective transformation describing a 
 
 ## References
 
-- [DFCite-1332] Guarnieri, Fontani, Guzzi, Carrato, and Jerian, 2021, "Perspective registration and multi-frame super-resolution of license plates in surveillance videos", FSI: Digital Investigation 36, 301087.
+- [LWCite-1332] Guarnieri, Fontani, Guzzi, Carrato, and Jerian, 2021, "Perspective registration and multi-frame super-resolution of license plates in surveillance videos", FSI: Digital Investigation 36, 301087.

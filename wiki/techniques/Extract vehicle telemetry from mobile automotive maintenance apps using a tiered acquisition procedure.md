@@ -1,17 +1,17 @@
 ---
-id: DFT-1159
+id: LWT-1159
 type: technique
 name: Extract vehicle telemetry from mobile automotive maintenance apps using a tiered acquisition procedure
 description: Recover vehicle telemetry (VIN, GPS coordinates, speed, RPM, acceleration/braking, fuel consumption, trip timestamps) from a mobile automotive-maintenance app that relays OBD-II/CAN-bus data via a Bluetooth-connected dongle, using a non-intrusive-first tiered sequence — manual dashboard inspection, then logical extraction of the app's local database/log/REALM files, then physical extraction if needed — aligned to an on-scene triage decision procedure.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1163
-  - DFW-1164
+  - LWW-1163
+  - LWW-1164
 aliases:
   - Automotive maintenance application forensic artifact engineering and triage
 source_refs:
-  - DFCite-1166
+  - LWCite-1166
 updated_at: 2026-08-12
 status: complete
 ---
@@ -43,4 +43,4 @@ Mobile automotive-maintenance apps (e.g. ZUS Smart Vehicle Health Monitor, Veepe
 
 ## References
 
-- [DFCite-1166] Sumaila and Bahsi, 2022, "Digital forensic analysis of mobile automotive maintenance applications", FSI: Digital Investigation 43, 301440.
+- [LWCite-1166] Sumaila and Bahsi, 2022, "Digital forensic analysis of mobile automotive maintenance applications", FSI: Digital Investigation 43, 301440.

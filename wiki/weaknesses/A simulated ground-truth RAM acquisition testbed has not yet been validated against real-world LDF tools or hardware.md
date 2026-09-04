@@ -1,14 +1,14 @@
 ---
-id: DFW-1268
+id: LWW-1268
 type: weakness
 name: A simulated ground-truth RAM acquisition testbed has not yet been validated against real-world LDF tools or hardware
 description: A proof-of-concept CPU/RAM simulator's journaled ground-truth validation has only been demonstrated against synthetic sample dumps with deliberately introduced errors, using a toy instruction set and a small simulated RAM size, so its conclusions do not yet establish whether the approach can validate actual commercial or open-source live-data-forensics tools running on real hardware.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1269
+  - LWM-1269
 source_refs:
-  - DFCite-1295
+  - LWCite-1295
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or tool developer cannot yet rely on this testbed's results to m
 
 ## References
 
-- [DFCite-1295] Bergum, Toolan, Stephens and Humphries, 2025, "Live data forensic tool testbed: Proof of concept", FSI: Digital Investigation 54, 301973.
+- [LWCite-1295] Bergum, Toolan, Stephens and Humphries, 2025, "Live data forensic tool testbed: Proof of concept", FSI: Digital Investigation 54, 301973.

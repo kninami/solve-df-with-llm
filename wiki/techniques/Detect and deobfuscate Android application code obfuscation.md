@@ -1,16 +1,16 @@
 ---
-id: DFT-1081
+id: LWT-1081
 type: technique
 name: Detect and deobfuscate Android application code obfuscation
 description: Identify which code obfuscation techniques (identifier renaming, string/resource encryption, control-flow modification, reflection, packing, and similar) have been applied to an Android APK, and reverse as much of that obfuscation as possible using available detection and deobfuscation tools, in order to make an obfuscated (potentially malicious) application's code tractable for forensic or malware analysis rather than treating it as an opaque black box.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1087
+  - LWW-1087
 aliases:
   - Static and dynamic detection and deobfuscation of Android application code obfuscation
 source_refs:
-  - DFCite-1078
+  - LWCite-1078
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ Obfuscation techniques are organized by underlying technique (e.g. identifier re
 
 ## References
 
-- [DFCite-1078] Zhang et al., 2021, "Android application forensics: A survey of obfuscation, obfuscation detection and deobfuscation techniques and their impact on investigations", FSI: Digital Investigation 39.
+- [LWCite-1078] Zhang et al., 2021, "Android application forensics: A survey of obfuscation, obfuscation detection and deobfuscation techniques and their impact on investigations", FSI: Digital Investigation 39.

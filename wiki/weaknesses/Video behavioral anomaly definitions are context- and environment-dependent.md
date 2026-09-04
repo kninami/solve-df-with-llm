@@ -1,14 +1,14 @@
 ---
-id: DFW-1052
+id: LWW-1052
 type: weakness
 name: Video behavioral anomaly definitions are context- and environment-dependent
 description: What counts as "normal" versus "anomalous" human behavior in surveillance video is inherently subjective, contextual, and specific to the deployment environment, so a deep-learning anomaly detector trained on normal behavior from one type of environment (e.g., a Bank-ATM) cannot be assumed to generalize correctly to a different critical environment (e.g., a railway platform or retail store) without separate, environment-specific training.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1052
+  - LWM-1052
 source_refs:
-  - DFCite-1042
+  - LWCite-1042
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Deploying a video anomaly detector trained on one environment's normal-behavior 
 
 ## References
 
-- [DFCite-1042] Khaire and Kumar, 2022, "A semi-supervised deep learning based video anomaly detection framework using RGB-D for surveillance of real-world critical environments", FSI: Digital Investigation 40.
+- [LWCite-1042] Khaire and Kumar, 2022, "A semi-supervised deep learning based video anomaly detection framework using RGB-D for surveillance of real-world critical environments", FSI: Digital Investigation 40.

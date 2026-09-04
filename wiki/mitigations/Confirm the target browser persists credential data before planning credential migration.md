@@ -1,9 +1,9 @@
 ---
-id: DFM-1055
+id: LWM-1055
 type: mitigation
 name: Confirm the target browser persists credential data before planning credential migration
 source_refs:
-  - DFCite-1045
+  - LWCite-1045
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify the browser(s) installed and used on the target device (from installed-
 
 ## References
 
-- [DFCite-1045] Hur et al., 2023, "A study on cloud data access through browser credential migration in Windows environment", FSI: Digital Investigation 45.
+- [LWCite-1045] Hur et al., 2023, "A study on cloud data access through browser credential migration in Windows environment", FSI: Digital Investigation 45.

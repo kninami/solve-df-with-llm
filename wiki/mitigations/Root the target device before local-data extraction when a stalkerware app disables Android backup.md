@@ -1,9 +1,9 @@
 ---
-id: DFM-2127
+id: LWM-2127
 type: mitigation
 name: Root the target device before local-data extraction when a stalkerware app disables Android backup
 source_refs:
-  - DFCite-2148
+  - LWCite-2148
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Check the target app's manifest (or simply attempt a backup and observe whether 
 
 ## References
 
-- [DFCite-2148] Mangeard et al., 2024, "WARNE: A stalkerware evidence collection tool", FSI: Digital Investigation 48.
+- [LWCite-2148] Mangeard et al., 2024, "WARNE: A stalkerware evidence collection tool", FSI: Digital Investigation 48.

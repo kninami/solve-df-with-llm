@@ -1,9 +1,9 @@
 ---
-id: DFM-2076
+id: LWM-2076
 type: mitigation
 name: Validate a heuristic-based address-clustering algorithm's error rate against a simulation model before presenting its results as evidence
 source_refs:
-  - DFCite-2081
+  - LWCite-2081
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Construct or obtain a blockchain simulation model that has itself been validated
 
 ## References
 
-- [DFCite-2081] Gong, Chow, Yiu, and Ting, 2022, "Sensitivity analysis for a Bitcoin simulation model", FSI: Digital Investigation 43, 301449.
+- [LWCite-2081] Gong, Chow, Yiu, and Ting, 2022, "Sensitivity analysis for a Bitcoin simulation model", FSI: Digital Investigation 43, 301449.

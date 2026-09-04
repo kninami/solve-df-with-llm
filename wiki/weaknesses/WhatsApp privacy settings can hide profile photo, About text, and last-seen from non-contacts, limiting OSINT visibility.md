@@ -1,14 +1,14 @@
 ---
-id: DFW-1254
+id: LWW-1254
 type: weakness
 name: WhatsApp privacy settings can hide profile photo, About text, and last-seen from non-contacts, limiting OSINT visibility
 description: A target who has restricted their WhatsApp profile photo, About text, or last-seen visibility below "Everyone" will not expose that information to an investigator's contact-list-based OSINT probe, so the technique's yield depends entirely on a privacy configuration the investigator cannot observe or control in advance.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1255
+  - LWM-1255
 source_refs:
-  - DFCite-1270
+  - LWCite-1270
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ Because the investigator cannot inspect a target's privacy settings in advance, 
 
 ## References
 
-- [DFCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.
+- [LWCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.

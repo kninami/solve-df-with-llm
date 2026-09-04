@@ -1,14 +1,14 @@
 ---
-id: DFW-1051
+id: LWW-1051
 type: weakness
 name: No single memory acquisition tool is reliably best across all forensic artefact types
 description: Across scenario-based testing of running-process detection, network-connection detection, encryption-key recovery, and opened-file detection, no single memory acquisition tool consistently outperformed the others on every scenario; a tool that excelled at recovering one artefact type could underperform on another, including one tool that had the worst overall data-structure consistency yet was the most reliable at recovering a specific artefact type (an opened image file).
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1051
+  - LWM-1051
 source_refs:
-  - DFCite-1041
+  - LWCite-1041
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who selects a memory acquisition tool based on general reputatio
 
 ## References
 
-- [DFCite-1041] Rzepka et al., 2025, "A scenario-based quality assessment of memory acquisition tools and its investigative implications", FSI: Digital Investigation 52.
+- [LWCite-1041] Rzepka et al., 2025, "A scenario-based quality assessment of memory acquisition tools and its investigative implications", FSI: Digital Investigation 52.

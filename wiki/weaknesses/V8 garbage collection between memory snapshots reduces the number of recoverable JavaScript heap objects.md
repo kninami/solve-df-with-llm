@@ -1,14 +1,14 @@
 ---
-id: DFW-2108
+id: LWW-2108
 type: weakness
 name: V8 garbage collection between memory snapshots reduces the number of recoverable JavaScript heap objects
 description: V8's automatic garbage collector reclaims heap memory occupied by JavaScript objects no longer reachable from any live reference, and this reclamation can happen at any point during a process's execution, so the set of objects recoverable from a memory image reflects only what remained live and uncollected at the moment of acquisition -- objects that existed earlier but were already garbage-collected are unrecoverable, and the degree of this loss cannot be precisely quantified from the memory image alone.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2109
+  - LWM-2109
 source_refs:
-  - DFCite-2127
+  - LWCite-2127
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator treating a memory-image-derived JavaScript heap recovery as a co
 
 ## References
 
-- [DFCite-2127] "uicing V8: A primary account for the memory forensics of the V8 JavaScript engine", FSI: Digital Investigation 48, 2024.
+- [LWCite-2127] "uicing V8: A primary account for the memory forensics of the V8 JavaScript engine", FSI: Digital Investigation 48, 2024.

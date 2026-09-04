@@ -1,9 +1,9 @@
 ---
-id: DFM-1175
+id: LWM-1175
 type: mitigation
 name: Adopt a sampled accredited internal diligence disclosure model for forensic tool trustworthiness
 source_refs:
-  - DFCite-1170
+  - LWCite-1170
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ When selecting or approving a forensic tool for use, check whether the producer 
 
 ## References
 
-- [DFCite-1170] Marshall, 2021, "Digital forensic tool verification: An evaluation of options for establishing trustworthiness", FSI: Digital Investigation 38, 301181.
+- [LWCite-1170] Marshall, 2021, "Digital forensic tool verification: An evaluation of options for establishing trustworthiness", FSI: Digital Investigation 38, 301181.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1036
+id: LWT-1036
 type: technique
 name: Recover a live quantum computer's initial state using reversible gate backtracking
 description: Recover a live quantum computer's known initial qubit preparation state by identifying which reversible logic gates were applied to build its current circuit and computationally reapplying them in exact reverse order, avoiding the need to directly observe or measure the live superposed/entangled system, which would otherwise collapse it and destroy the very state under investigation.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1037
+  - LWW-1037
 aliases:
   - Reversible quantum gate backtracking for live quantum computer forensics
 source_refs:
-  - DFCite-1027
+  - LWCite-1027
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ Reversible quantum gates (Pauli X/Y/Z, Hadamard, CNOT, Toffoli, cswap) can be un
 
 ## References
 
-- [DFCite-1027] Closser and Bou-Harb, 2022, "A live digital forensics approach for quantum mechanical computers", FSI: Digital Investigation 40.
+- [LWCite-1027] Closser and Bou-Harb, 2022, "A live digital forensics approach for quantum mechanical computers", FSI: Digital Investigation 40.

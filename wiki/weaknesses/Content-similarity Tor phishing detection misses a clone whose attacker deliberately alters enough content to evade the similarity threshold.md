@@ -1,14 +1,14 @@
 ---
-id: DFW-1300
+id: LWW-1300
 type: weakness
 name: Content-similarity Tor phishing detection misses a clone whose attacker deliberately alters enough content to evade the similarity threshold
 description: Because content-similarity phishing detection relies on a clone reusing enough of the legitimate site's original text, layout, or visual appearance to exceed a similarity threshold, an attacker who substantially rewrites or restructures the cloned content — beyond simply substituting payment or contact details — can push the similarity score below the detection threshold and evade detection entirely, while a threshold set low enough to catch such clones risks flagging unrelated, legitimately similar services as false positives.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1302
+  - LWM-1302
 source_refs:
-  - DFCite-1334
+  - LWCite-1334
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on content-similarity detection as a complete phishing-c
 
 ## References
 
-- [DFCite-1334] Steinebach, Zenglein, and Brandl, 2021, "Phishing detection on tor hidden services", FSI: Digital Investigation 36, 301117.
+- [LWCite-1334] Steinebach, Zenglein, and Brandl, 2021, "Phishing detection on tor hidden services", FSI: Digital Investigation 36, 301117.

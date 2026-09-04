@@ -1,5 +1,5 @@
 ---
-id: DFT-2083
+id: LWT-2083
 type: technique
 name: Recover a document's content from RAM by accounting for its file format and storage-media source
 description: When attempting to recover a document's textual content from a memory image, tailor expectations of success to the document's file format (plain text, RTF, DOCX, ODT, or PDF), the storage medium it was opened from (local disk, cloud service, or remote desktop connection), and whether the document was still open or had already been closed at the time of memory capture, since each of these factors independently and substantially affects the proportion of content recoverable.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1002
   - DFO-1019
 weakness_ids:
-  - DFW-2086
+  - LWW-2086
 aliases:
   - Document format, size, and storage media effects on memory forensics
 source_refs:
-  - DFCite-2101
+  - LWCite-2101
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ Text-based files (TXT, RTF) recovered most reliably from local storage media (lo
 
 ## References
 
-- [DFCite-2101] Al-Sharif, Al-Senjalawi, and Alzoubi, 2024, "The effects of document's format, size, and storage media on memory forensics", FSI: Digital Investigation 48, 301692.
+- [LWCite-2101] Al-Sharif, Al-Senjalawi, and Alzoubi, 2024, "The effects of document's format, size, and storage media on memory forensics", FSI: Digital Investigation 48, 301692.

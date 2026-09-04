@@ -1,17 +1,17 @@
 ---
-id: DFT-1257
+id: LWT-1257
 type: technique
 name: Extract evidentiary data from Android log messages using string and taint analysis
 description: Automatically identify which log messages an Android app's logging-system entries contain forensically relevant data (GPS coordinates, timestamps, device IDs, URLs, text input) and extract the specific value, by pre-building a per-app database of "tainted" string-pattern automata that combine static string analysis with taint tracking from known evidentiary source APIs through to the logging-system sink.
 objective_ids:
   - DFO-1017
 weakness_ids:
-  - DFW-1077
+  - LWW-1077
 aliases:
   - LogExtractor
   - App Log Evidence Database (ALED)
 source_refs:
-  - DFCite-1297
+  - LWCite-1297
 updated_at: 2026-08-14
 status: complete
 ---
@@ -43,4 +43,4 @@ The offline phase extends the Java String Analyzer (JSA) with a new "tainted DFA
 
 ## References
 
-- [DFCite-1297] Cheng, Shi, Gong and Guan, 2021, "LogExtractor: Extracting digital evidence from android log messages via string and taint analysis", DFRWS 2021 USA; FSI: Digital Investigation 37, 301193.
+- [LWCite-1297] Cheng, Shi, Gong and Guan, 2021, "LogExtractor: Extracting digital evidence from android log messages via string and taint analysis", DFRWS 2021 USA; FSI: Digital Investigation 37, 301193.

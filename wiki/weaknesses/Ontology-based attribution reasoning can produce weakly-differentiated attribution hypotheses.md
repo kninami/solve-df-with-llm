@@ -1,14 +1,14 @@
 ---
-id: DFW-1047
+id: LWW-1047
 type: weakness
 name: Ontology-based attribution reasoning can produce weakly-differentiated attribution hypotheses
 description: When case-specific evidence is limited, an ontology-enhanced attribution reasoner can still generate multiple candidate attribution hypotheses using a large number of general background-knowledge rules that are not directly relevant to the investigated attack, producing a ranked top hypothesis whose score is only weakly better-supported than the alternatives rather than confidently distinguished from them.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1047
+  - LWM-1047
 source_refs:
-  - DFCite-1037
+  - LWCite-1037
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ If an investigator or analyst treats the top-ranked attribution hypothesis as a 
 
 ## References
 
-- [DFCite-1037] Kaur Gill and Karafili, 2026, "A novel ontology for cyber-attack attribution and investigation", FSI: Digital Investigation 57.
+- [LWCite-1037] Kaur Gill and Karafili, 2026, "A novel ontology for cyber-attack attribution and investigation", FSI: Digital Investigation 57.

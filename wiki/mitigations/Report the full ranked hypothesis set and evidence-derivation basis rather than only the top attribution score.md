@@ -1,9 +1,9 @@
 ---
-id: DFM-1047
+id: LWM-1047
 type: mitigation
 name: Report the full ranked hypothesis set and evidence-derivation basis rather than only the top attribution score
 source_refs:
-  - DFCite-1037
+  - LWCite-1037
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When reviewing attribution output from a reasoning-based tool, examine the deriv
 
 ## References
 
-- [DFCite-1037] Kaur Gill and Karafili, 2026, "A novel ontology for cyber-attack attribution and investigation", FSI: Digital Investigation 57.
+- [LWCite-1037] Kaur Gill and Karafili, 2026, "A novel ontology for cyber-attack attribution and investigation", FSI: Digital Investigation 57.

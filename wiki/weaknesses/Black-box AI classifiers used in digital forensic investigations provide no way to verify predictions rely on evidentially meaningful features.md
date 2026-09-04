@@ -1,14 +1,14 @@
 ---
-id: DFW-2102
+id: LWW-2102
 type: weakness
 name: Black-box AI classifiers used in digital forensic investigations provide no way to verify predictions rely on evidentially meaningful features
 description: A machine-learning classifier used in digital forensic tooling without any explainability layer produces only a final prediction (e.g. malicious/benign, relevant/irrelevant), giving no investigator, model developer, or court any way to check whether the model's decision was based on genuinely meaningful evidentiary features or on a spurious correlation the model happened to learn from its training data.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2103
+  - LWM-2103
 source_refs:
-  - DFCite-2119
+  - LWCite-2119
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or court relying on an unexplained black-box classifier's predic
 
 ## References
 
-- [DFCite-2119] "Towards a unified XAI-based framework for digital forensic investigations", FSI: Digital Investigation 48, 2024.
+- [LWCite-2119] "Towards a unified XAI-based framework for digital forensic investigations", FSI: Digital Investigation 48, 2024.

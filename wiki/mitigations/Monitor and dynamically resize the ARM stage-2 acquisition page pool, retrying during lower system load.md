@@ -1,9 +1,9 @@
 ---
-id: DFM-1252
+id: LWM-1252
 type: mitigation
 name: Monitor and dynamically resize the ARM stage-2 acquisition page pool, retrying during lower system load
 source_refs:
-  - DFCite-1266
+  - LWCite-1266
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Where the acquisition tool supports it, configure or extend the pages pool to re
 
 ## References
 
-- [DFCite-1266] Yehuda, Shlingbaum, Gershfeld, Tayouri, and Zaidenberg, 2021, "Hypervisor memory acquisition for ARM", FSI: Digital Investigation 37, 301106.
+- [LWCite-1266] Yehuda, Shlingbaum, Gershfeld, Tayouri, and Zaidenberg, 2021, "Hypervisor memory acquisition for ARM", FSI: Digital Investigation 37, 301106.

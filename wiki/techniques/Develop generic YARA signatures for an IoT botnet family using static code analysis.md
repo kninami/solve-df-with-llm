@@ -1,17 +1,17 @@
 ---
-id: DFT-1223
+id: LWT-1223
 type: technique
 name: Develop generic YARA signatures for an IoT botnet family using static code analysis
 description: Manually reverse-engineer and statically compare the source code of multiple variants within an IoT botnet family (e.g. Mirai or Qbot) to identify behavioral patterns common across variants — CPU-architecture targeting, bot control commands, scanning commands, obfuscation methods, and family-specific exploits — then encode those shared patterns as generic YARA rules that detect unseen variants of the family rather than only the specific samples analyzed.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1239
+  - LWW-1239
 aliases:
   - IoT-Botnet Generic Rule-Set
   - Generic IoT botnet signature development
 source_refs:
-  - DFCite-1254
+  - LWCite-1254
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ Static code analysis of each variant's source extracts the attacker's perspectiv
 
 ## References
 
-- [DFCite-1254] Abbas et al., 2021, "Generic signature development for IoT Botnet families", FSI: Digital Investigation 38, 301224.
+- [LWCite-1254] Abbas et al., 2021, "Generic signature development for IoT Botnet families", FSI: Digital Investigation 38, 301224.

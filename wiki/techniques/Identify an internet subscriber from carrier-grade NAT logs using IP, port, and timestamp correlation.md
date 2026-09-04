@@ -1,17 +1,17 @@
 ---
-id: DFT-1111
+id: LWT-1111
 type: technique
 name: Identify an internet subscriber from carrier-grade NAT logs using IP, port, and timestamp correlation
 description: Attribute an internet-connected activity observed by its destination public IP address, source port, and timestamp to a specific subscriber by reverse-tracking through an ISP's Carrier-Grade NAT (CGN) logs, which map that public IP/port/time combination back to the subscriber's private IP address and session, since many subscribers share a single public IPv4 address under CGN.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1116
+  - LWW-1116
 aliases:
   - CGN log reverse-tracking
   - NAT444 subscriber identification
 source_refs:
-  - DFCite-1109
+  - LWCite-1109
 updated_at: 2026-08-12
 status: complete
 ---
@@ -41,4 +41,4 @@ Two CGN logging approaches exist: a standard (non-deterministic) CGN logs the in
 
 ## References
 
-- [DFCite-1109] Gözükara, 2021, "Challenges and possible severe legal consequences of application users identification from CNG-Logs", FSI: Digital Investigation 39.
+- [LWCite-1109] Gözükara, 2021, "Challenges and possible severe legal consequences of application users identification from CNG-Logs", FSI: Digital Investigation 39.

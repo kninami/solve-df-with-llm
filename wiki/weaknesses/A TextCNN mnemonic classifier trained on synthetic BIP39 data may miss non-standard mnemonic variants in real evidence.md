@@ -1,14 +1,14 @@
 ---
-id: DFW-2011
+id: LWW-2011
 type: weakness
 name: A TextCNN mnemonic classifier trained on synthetic BIP39 data may miss non-standard mnemonic variants in real evidence
 description: A deep-learning mnemonic-identification model trained and tested only on synthetically generated BIP39-standard mnemonics and collected non-mnemonic text has unconfirmed reliability against real-world mnemonic phrases that deviate from BIP39 (spelling errors, word-order variation, non-standard wallet formats), which the training distribution may not represent.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2011
+  - LWM-2011
 source_refs:
-  - DFCite-2011
+  - LWCite-2011
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ If a TextCNN-based mnemonic classifier is deployed operationally without validat
 
 ## References
 
-- [DFCite-2011] Kao, 2025 — the paper's own "Conclusion and Future Work" section identifies dataset-specificity as a limitation and proposes larger-scale experiments with more diverse datasets as future work.
+- [LWCite-2011] Kao, 2025 — the paper's own "Conclusion and Future Work" section identifies dataset-specificity as a limitation and proposes larger-scale experiments with more diverse datasets as future work.

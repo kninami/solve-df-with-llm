@@ -1,5 +1,5 @@
 ---
-id: DFW-1256
+id: LWW-1256
 type: weakness
 name: Software-rebooting a virtual machine before acquiring a memory dump contaminates the dump with data remnants from before the reboot
 description: Because a KVM guest's address space is typically reused rather than cleared across a software reboot, an examiner who reboots a virtual machine between analysis steps (e.g. to unfreeze it, or between separate malware-sample runs) risks a subsequent memory dump containing substantial data remnants from before the reboot, mixed in with data from the current run.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_EX
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1257
+  - LWM-1257
 source_refs:
-  - DFCite-1274
+  - LWCite-1274
 updated_at: 2026-08-14
 status: complete
 ---
@@ -34,4 +34,4 @@ This is particularly consequential in malware analysis and repeated-sample-testi
 
 ## References
 
-- [DFCite-1274] Savchenko, Ottmann and Freiling, 2024, "In the time loop: Data remanence in main memory of virtual machines", FSI: Digital Investigation 49, 301758.
+- [LWCite-1274] Savchenko, Ottmann and Freiling, 2024, "In the time loop: Data remanence in main memory of virtual machines", FSI: Digital Investigation 49, 301758.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1297
+id: LWT-1297
 type: technique
 name: Estimate evidence survival probability for IoT flash storage using a quantitative data-volatility model
 description: Prioritize evidence-collection effort across a resource-constrained IoT deployment by quantitatively estimating the probability that a given piece of evidence still exists on a device's flash storage at the time of collection, using an analytical data-volatility model calibrated against the target file system's known write/erase behavior, rather than relying on qualitative volatility judgments alone.
 objective_ids:
   - DFO-1005
 weakness_ids:
-  - DFW-1307
+  - LWW-1307
 aliases:
   - Quantitative IoT flash data volatility model
 source_refs:
-  - DFCite-1344
+  - LWCite-1344
 updated_at: 2026-08-15
 status: complete
 ---
@@ -39,4 +39,4 @@ The model targets the flash storage component of IoT devices specifically (flash
 
 ## References
 
-- [DFCite-1344] Sandvik, Franke, Abie, and Årnes, 2022, "Quantifying data volatility for IoT forensics with examples from Contiki OS", FSI: Digital Investigation 40, 301343.
+- [LWCite-1344] Sandvik, Franke, Abie, and Årnes, 2022, "Quantifying data volatility for IoT forensics with examples from Contiki OS", FSI: Digital Investigation 40, 301343.

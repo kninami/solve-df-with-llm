@@ -1,17 +1,17 @@
 ---
-id: DFT-1147
+id: LWT-1147
 type: technique
 name: Score digital device seizure priority using a structured scoresheet
 description: Support a first responder's at-scene decision about whether to seize a digital device, and how urgently to examine it, by completing the Device Evaluation and Prioritisation Scoresheet (DEPS) — a structured set of questions about a device's likely investigative value and volatility — rather than relying on ad hoc judgment or a default "seize everything" approach.
 objective_ids:
   - DFO-1005
 weakness_ids:
-  - DFW-1150
+  - LWW-1150
 aliases:
   - Device Evaluation and Prioritisation Scoresheet
   - DEPS methodology
 source_refs:
-  - DFCite-1147
+  - LWCite-1147
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ DEPS is completed by the first responder for each identified device at scene, wo
 
 ## References
 
-- [DFCite-1147] Horsman, 2021, "Decision support for first responders and digital device prioritisation", FSI: Digital Investigation 38.
+- [LWCite-1147] Horsman, 2021, "Decision support for first responders and digital device prioritisation", FSI: Digital Investigation 38.

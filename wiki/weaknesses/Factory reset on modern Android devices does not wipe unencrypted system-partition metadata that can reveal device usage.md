@@ -1,14 +1,14 @@
 ---
-id: DFW-1091
+id: LWW-1091
 type: weakness
 name: Factory reset on modern Android devices does not wipe unencrypted system-partition metadata that can reveal device usage
 description: A factory reset on modern Android 11/12 devices securely erases only the file-based-encryption keys protecting the userdata partition rather than overwriting all user data, and other partitions (e.g. system log/klog partitions, and other partially unencrypted system data) are not touched by the reset process at all, leaving plaintext or binary information from which prior device usage can still be inferred.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1091
+  - LWM-1091
 source_refs:
-  - DFCite-1083
+  - LWCite-1083
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator examining a device a suspect claims was "factory reset" to elimi
 
 ## References
 
-- [DFCite-1083] Blankesteijn et al., 2023, "Assessing data remnants in modern smartphones after factory reset", FSI: Digital Investigation 46.
+- [LWCite-1083] Blankesteijn et al., 2023, "Assessing data remnants in modern smartphones after factory reset", FSI: Digital Investigation 46.

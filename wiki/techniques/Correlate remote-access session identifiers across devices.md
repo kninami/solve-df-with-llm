@@ -1,20 +1,20 @@
 ---
-id: DFT-1018
+id: LWT-1018
 type: technique
 name: Correlate remote-access session identifiers across devices
 description: Establish that two specific devices connected via a remote-access application by matching the persistent application-assigned client identifier that each endpoint's local logs record about the other party, even when only one of the two devices is available for examination.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1018
-  - DFW-1151
+  - LWW-1018
+  - LWW-1151
 aliases:
   - Remote-access session cross-device identifier correlation
   - AnyDesk-ID correlation
   - TeamViewer ID correlation
 source_refs:
-  - DFCite-1012
-  - DFCite-1148
+  - LWCite-1012
+  - LWCite-1148
 updated_at: 2026-08-12
 status: complete
 ---
@@ -47,5 +47,5 @@ TeamViewer implements the same mutual-ID-recording pattern across Windows and An
 
 ## References
 
-- [DFCite-1012] Soni et al., 2024, "A forensic analysis of AnyDesk Remote Access application by using various forensic tools and techniques", FSI: Digital Investigation 48.
-- [DFCite-1148] Soni, Kaur and Aziz, 2024, "Decoding digital interactions: An extensive study of TeamViewer's Forensic Artifacts across Windows and android platforms", FSI: Digital Investigation 51. Confirms the same mutual-ID cross-device correlation pattern for TeamViewer across Windows and Android, via `rolloutfile.tv13`, `Connections.txt`, and per-device `.tvc` configuration files.
+- [LWCite-1012] Soni et al., 2024, "A forensic analysis of AnyDesk Remote Access application by using various forensic tools and techniques", FSI: Digital Investigation 48.
+- [LWCite-1148] Soni, Kaur and Aziz, 2024, "Decoding digital interactions: An extensive study of TeamViewer's Forensic Artifacts across Windows and android platforms", FSI: Digital Investigation 51. Confirms the same mutual-ID cross-device correlation pattern for TeamViewer across Windows and Android, via `rolloutfile.tv13`, `Connections.txt`, and per-device `.tvc` configuration files.

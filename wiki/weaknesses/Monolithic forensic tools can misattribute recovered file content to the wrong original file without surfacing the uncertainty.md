@@ -1,14 +1,14 @@
 ---
-id: DFW-1074
+id: LWW-1074
 type: weakness
 name: Monolithic forensic tools can misattribute recovered file content to the wrong original file without surfacing the uncertainty
 description: Because monolithic forensic tools typically expose only a final result and not the intermediate reasoning at each internal processing stage, a tool can incorrectly classify a deleted file's status (e.g. as "overwritten" when it was actually reallocated) and display another file's content under the original file's name, presenting this misattribution to the examiner with the same apparent confidence as a correct result.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1074
+  - LWM-1074
 source_refs:
-  - DFCite-1064
+  - LWCite-1064
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An examiner relying on a monolithic tool's final output has no visibility into w
 
 ## References
 
-- [DFCite-1064] Hargreaves et al., 2024, "An abstract model for digital forensic analysis tools - A foundation for systematic error mitigation analysis", FSI: Digital Investigation 48.
+- [LWCite-1064] Hargreaves et al., 2024, "An abstract model for digital forensic analysis tools - A foundation for systematic error mitigation analysis", FSI: Digital Investigation 48.

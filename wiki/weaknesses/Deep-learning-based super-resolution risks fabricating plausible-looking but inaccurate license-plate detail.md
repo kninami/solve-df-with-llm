@@ -1,14 +1,14 @@
 ---
-id: DFW-1299
+id: LWW-1299
 type: weakness
 name: Deep-learning-based super-resolution risks fabricating plausible-looking but inaccurate license-plate detail
 description: A deep-learning super-resolution model can hallucinate visually plausible character shapes or fine detail that were not actually present in the low-resolution source frames, biased by whatever patterns its training dataset over-represents, so an enhanced license plate image can look legible and convincing while depicting characters, textures, or details that do not match the true target.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1301
+  - LWM-1301
 source_refs:
-  - DFCite-1332
+  - LWCite-1332
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who presents a deep-learning-super-resolved license plate image 
 
 ## References
 
-- [DFCite-1332] Guarnieri, Fontani, Guzzi, Carrato, and Jerian, 2021, "Perspective registration and multi-frame super-resolution of license plates in surveillance videos", FSI: Digital Investigation 36, 301087.
+- [LWCite-1332] Guarnieri, Fontani, Guzzi, Carrato, and Jerian, 2021, "Perspective registration and multi-frame super-resolution of license plates in surveillance videos", FSI: Digital Investigation 36, 301087.

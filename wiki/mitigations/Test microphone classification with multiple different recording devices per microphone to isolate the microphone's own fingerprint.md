@@ -1,9 +1,9 @@
 ---
-id: DFM-2106
+id: LWM-2106
 type: mitigation
 name: Test microphone classification with multiple different recording devices per microphone to isolate the microphone's own fingerprint
 source_refs:
-  - DFCite-2124
+  - LWCite-2124
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ When constructing or selecting a training/evaluation dataset for microphone clas
 
 ## References
 
-- [DFCite-2124] Qamhan, Alotaibi, and Selouani, 2023, "Transformer for authenticating the source microphone in digital audio forensics", FSI: Digital Investigation 45, 301539.
+- [LWCite-2124] Qamhan, Alotaibi, and Selouani, 2023, "Transformer for authenticating the source microphone in digital audio forensics", FSI: Digital Investigation 45, 301539.

@@ -1,5 +1,5 @@
 ---
-id: DFT-2074
+id: LWT-2074
 type: technique
 name: Identify events of interest in messaging conversations using sentiment, volume, and lexical-diversity time series
 description: Reduce the manual effort of reviewing long-running mobile messaging conversations (SMS, WhatsApp, and similar) by computing per-participant time series of message volume, sentiment polarity, and lexical diversity, smoothing them with moving averages and first-order differencing to reveal daily/weekly trends, and flagging above-average-volume or sharply-changing periods as candidate events of interest for an investigator to review directly.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1001
   - DFO-1003
 weakness_ids:
-  - DFW-2076
+  - LWW-2076
 aliases:
   - Semi-automated text mining for digital forensic conversation triage
 source_refs:
-  - DFCite-2082
+  - LWCite-2082
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,4 +42,4 @@ Extracted messages are pre-processed to handle SMS/social-media-specific text co
 
 ## References
 
-- [DFCite-2082] Harris, Jacobson, and Provetti, 2024, "Sentiment and time-series analysis of direct-message conversations", FSI: Digital Investigation 49, 301753.
+- [LWCite-2082] Harris, Jacobson, and Provetti, 2024, "Sentiment and time-series analysis of direct-message conversations", FSI: Digital Investigation 49, 301753.

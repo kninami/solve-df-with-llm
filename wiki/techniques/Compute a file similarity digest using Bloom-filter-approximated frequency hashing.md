@@ -1,17 +1,17 @@
 ---
-id: DFT-1191
+id: LWT-1191
 type: technique
 name: Compute a file similarity digest using Bloom-filter-approximated frequency hashing
 description: Generate a compact similarity digest for a file by chunking its content with a rolling hash, weighting each chunk by an approximate cross-corpus document frequency read from a pre-built Bloom filter instead of an exact frequency table, and comparing digests with cosine similarity to determine whether two files are related.
 objective_ids:
   - DFO-1007
 weakness_ids:
-  - DFW-1198
+  - LWW-1198
 aliases:
   - FbHash-E
   - Bloom-filter-optimized FbHash similarity hashing
 source_refs:
-  - DFCite-1209
+  - LWCite-1209
 updated_at: 2026-08-13
 status: complete
 ---
@@ -40,4 +40,4 @@ Reducing the chunk size from 7 to 5 bytes and the rolling-hash width from 56 to 
 
 ## References
 
-- [DFCite-1209] Singh et al., 2022, "FbHash-E: A time and memory efficient version of FbHash similarity hashing algorithm", FSI: Digital Investigation 41, 301375.
+- [LWCite-1209] Singh et al., 2022, "FbHash-E: A time and memory efficient version of FbHash similarity hashing algorithm", FSI: Digital Investigation 41, 301375.

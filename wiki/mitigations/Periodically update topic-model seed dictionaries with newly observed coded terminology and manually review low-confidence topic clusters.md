@@ -1,9 +1,9 @@
 ---
-id: DFM-2101
+id: LWM-2101
 type: mitigation
 name: Periodically update topic-model seed dictionaries with newly observed coded terminology and manually review low-confidence topic clusters
 source_refs:
-  - DFCite-2117
+  - LWCite-2117
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Establish a process for capturing newly identified slang or coded terminology en
 
 ## References
 
-- [DFCite-2117] "Towards a joint semantic analysis in mobile forensics environments", FSI: Digital Investigation 48, 2024.
+- [LWCite-2117] "Towards a joint semantic analysis in mobile forensics environments", FSI: Digital Investigation 48, 2024.

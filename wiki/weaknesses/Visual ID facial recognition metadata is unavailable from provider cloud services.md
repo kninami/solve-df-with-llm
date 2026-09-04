@@ -1,14 +1,14 @@
 ---
-id: DFW-1003
+id: LWW-1003
 type: weakness
 name: Visual ID facial recognition metadata is unavailable from provider cloud services
 description: Amazon processes and stores Visual ID facial-recognition vectors and presence logs entirely on-device, so this content information cannot be obtained from Amazon's cloud infrastructure via legal process and is recoverable only by seizing and imaging the physical device.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1003
+  - LWM-1003
 source_refs:
-  - DFCite-1002
+  - LWCite-1002
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Investigators who submit a subpoena or search warrant to Amazon's cloud services
 
 ## References
 
-- [DFCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.
+- [LWCite-1002] Lorenz et al., 2026, "A case study on the use of Amazon visual ID facial recognition metadata in investigation", FSI: Digital Investigation 57.

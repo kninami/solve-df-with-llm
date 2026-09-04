@@ -1,9 +1,9 @@
 ---
-id: DFM-1247
+id: LWM-1247
 type: mitigation
 name: Obtain on-site floor-height measurements before interpreting iPhone floor-count registrations
 source_refs:
-  - DFCite-1261
+  - LWCite-1261
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Where possible, carry out on-site experiments with a comparable iPhone model at 
 
 ## References
 
-- [DFCite-1261] van Zandwijk, Lensen, and Boztas, 2023, "Have you been upstairs? On the accuracy of registrations of ascended and descended floors in iPhones", FSI: Digital Investigation 47, 301660.
+- [LWCite-1261] van Zandwijk, Lensen, and Boztas, 2023, "Have you been upstairs? On the accuracy of registrations of ascended and descended floors in iPhones", FSI: Digital Investigation 47, 301660.

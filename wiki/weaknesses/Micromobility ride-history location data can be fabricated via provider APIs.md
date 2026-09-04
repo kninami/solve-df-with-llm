@@ -1,14 +1,14 @@
 ---
-id: DFW-1019
+id: LWW-1019
 type: weakness
 name: Micromobility ride-history location data can be fabricated via provider APIs
 description: For providers whose applications send user-device GPS data directly to the provider's API without independent verification against the vehicle's own GPS, an attacker with knowledge of the provider's API (not just the suspect's device) can inject arbitrary fabricated location data into what appears to be an authentic ride record.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1019
+  - LWM-1019
 source_refs:
-  - DFCite-1013
+  - LWCite-1013
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Ride-history data is one of the most forensically valuable artefact types for mi
 
 ## References
 
-- [DFCite-1013] Hilgert et al., 2021, "A forensic analysis of micromobility solutions", FSI: Digital Investigation 38.
+- [LWCite-1013] Hilgert et al., 2021, "A forensic analysis of micromobility solutions", FSI: Digital Investigation 38.

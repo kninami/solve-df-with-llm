@@ -1,9 +1,9 @@
 ---
-id: DFM-2119
+id: LWM-2119
 type: mitigation
 name: Periodically update CSAM naming-pattern libraries and apply baseline content-level scanning even to low-priority-scored files
 source_refs:
-  - DFCite-2138
+  - LWCite-2138
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Establish a feedback process for adding newly observed CSAM-distribution naming 
 
 ## References
 
-- [DFCite-2138] "Using file and folder naming and structuring to improve automated detection of child sexual abuse images on the Dark Web", FSI: Digital Investigation 48, 2024.
+- [LWCite-2138] "Using file and folder naming and structuring to improve automated detection of child sexual abuse images on the Dark Web", FSI: Digital Investigation 48, 2024.

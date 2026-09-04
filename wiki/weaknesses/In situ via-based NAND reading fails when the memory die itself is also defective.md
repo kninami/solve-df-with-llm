@@ -1,14 +1,14 @@
 ---
-id: DFW-1112
+id: LWW-1112
 type: weakness
 name: In situ via-based NAND reading fails when the memory die itself is also defective
 description: The in situ via-interconnection technique only recovers data when the NAND memory die is functional and just the controller has failed; if the memory chip itself is also defective, or the medium must be fully delayered to access transistors directly (passive voltage contrast, scanning capacitance microscopy, or atomic force microscopy), the only remaining options are destructive and risk permanent data loss.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1112
+  - LWM-1112
 source_refs:
-  - DFCite-1106
+  - LWCite-1106
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who applies the in situ via-based technique to a medium with a d
 
 ## References
 
-- [DFCite-1106] Thomas-Brans et al., 2024, "Case of study for in situ memory reading on damaged MultiMedia Card", FSI: Digital Investigation 48.
+- [LWCite-1106] Thomas-Brans et al., 2024, "Case of study for in situ memory reading on damaged MultiMedia Card", FSI: Digital Investigation 48.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1110
+id: LWM-1110
 type: mitigation
 name: Cross-reference carved gallery images against virtualized gameplay analysis to recover their originating game and file source
 source_refs:
-  - DFCite-1105
+  - LWCite-1105
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Run the carving pass first to recover the full set of static media, then separat
 
 ## References
 
-- [DFCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.
+- [LWCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.

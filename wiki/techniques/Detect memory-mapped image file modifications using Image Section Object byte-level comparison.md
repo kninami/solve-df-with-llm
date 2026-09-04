@@ -1,17 +1,17 @@
 ---
-id: DFT-2124
+id: LWT-2124
 type: technique
 name: Detect memory-mapped image file modifications using Image Section Object byte-level comparison
 description: Identify malicious code injected into a Windows process's memory-mapped executables and DLLs (API hooks, AMSI/ETW bypasses, module stomping, process hollowing) by comparing each mapped page in process memory byte-by-byte against the corresponding page of the Image Section Object, a memory-resident, unmodified reference copy of the same image file, pinpointing the exact modified bytes rather than only the modified page.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-2133
+  - LWW-2133
 aliases:
   - imgmalfind
   - ISO-based MMIF modification detection
 source_refs:
-  - DFCite-2155
+  - LWCite-2155
 updated_at: 2026-08-17
 status: complete
 ---
@@ -40,4 +40,4 @@ Prior page-level detection approaches (testing a page's PrototypePte or Shared f
 
 ## References
 
-- [DFCite-2155] Block, 2023, "Windows memory forensics: Identification of (malicious) modifications in memory-mapped image files", FSI: Digital Investigation 45.
+- [LWCite-2155] Block, 2023, "Windows memory forensics: Identification of (malicious) modifications in memory-mapped image files", FSI: Digital Investigation 45.

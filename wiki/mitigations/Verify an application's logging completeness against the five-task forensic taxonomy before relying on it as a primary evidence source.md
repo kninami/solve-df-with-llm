@@ -1,9 +1,9 @@
 ---
-id: DFM-1293
+id: LWM-1293
 type: mitigation
 name: Verify an application's logging completeness against the five-task forensic taxonomy before relying on it as a primary evidence source
 source_refs:
-  - DFCite-1323
+  - LWCite-1323
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Using [[techniques/Assess an application's log adequacy for forensic use against
 
 ## References
 
-- [DFCite-1323] Azahari and Balzarotti, 2024, "On the inadequacy of open-source application logs for digital forensics", FSI: Digital Investigation 49, 301750.
+- [LWCite-1323] Azahari and Balzarotti, 2024, "On the inadequacy of open-source application logs for digital forensics", FSI: Digital Investigation 49, 301750.

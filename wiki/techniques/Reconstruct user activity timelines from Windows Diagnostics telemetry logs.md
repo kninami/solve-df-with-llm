@@ -1,5 +1,5 @@
 ---
-id: DFT-1156
+id: LWT-1156
 type: technique
 name: Reconstruct user activity timelines from Windows Diagnostics telemetry logs
 description: Parse the EventTranscript.db SQLite database used by the built-in Windows Diagnostics (DiagTrack) service to recover and correlate USB storage device attach/detach events, Edge web-browser activity (launch, tab creation/closure, sites visited), and wireless network scan/connect/disconnect events into a per-device user-behavior timeline.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1017
   - DFO-1001
 weakness_ids:
-  - DFW-1160
+  - LWW-1160
 aliases:
   - EventTranscript.db behavioral log analysis
   - DiagAnalyzer
 source_refs:
-  - DFCite-1163
+  - LWCite-1163
 updated_at: 2026-08-12
 status: complete
 ---
@@ -44,4 +44,4 @@ Each event's JSON `payload` field records fields such as the recording process's
 
 ## References
 
-- [DFCite-1163] Park and Lee, 2022, "DiagAnalyzer: User behavior analysis and visualization using Windows Diagnostics logs", FSI: Digital Investigation 43, 301450.
+- [LWCite-1163] Park and Lee, 2022, "DiagAnalyzer: User behavior analysis and visualization using Windows Diagnostics logs", FSI: Digital Investigation 43, 301450.

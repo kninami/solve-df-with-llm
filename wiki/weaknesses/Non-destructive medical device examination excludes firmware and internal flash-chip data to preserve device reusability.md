@@ -1,14 +1,14 @@
 ---
-id: DFW-1173
+id: LWW-1173
 type: weakness
 name: Non-destructive medical device examination excludes firmware and internal flash-chip data to preserve device reusability
 description: Deliberately restricting a medical-device forensic examination to non-destructive methods (e.g. imaging a removable SD card) to keep the device usable for future patient care means firmware- and internal-flash-chip-level evidence, which typically requires opening or desoldering the device, is left uncollected.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1173
+  - LWM-1173
 source_refs:
-  - DFCite-1172
+  - LWCite-1172
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ A CPAP-machine examination that recovers only removable SD-card data will miss a
 
 ## References
 
-- [DFCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.
+- [LWCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.

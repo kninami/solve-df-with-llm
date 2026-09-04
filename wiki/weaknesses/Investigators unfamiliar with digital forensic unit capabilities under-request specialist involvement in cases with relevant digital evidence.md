@@ -1,14 +1,14 @@
 ---
-id: DFW-2090
+id: LWW-2090
 type: weakness
 name: Investigators unfamiliar with digital forensic unit capabilities under-request specialist involvement in cases with relevant digital evidence
 description: Frontline investigators and case officers decide, largely informally and without a standardized referral process, whether to call in a digital forensic unit (DFU) for a case, and a lack of familiarity with digital traces or with what a DFU can actually recover leads to cases with potentially relevant digital evidence never being referred for specialist digital forensic examination at all.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2091
+  - LWM-2091
 source_refs:
-  - DFCite-2106
+  - LWCite-2106
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ Because the referral decision is discretionary and dependent on an individual in
 
 ## References
 
-- [DFCite-2106] Ryser and Baechler, 2026, "The implementation of digital forensic science in a Swiss police force", FSI: Digital Investigation 56, 302069.
+- [LWCite-2106] Ryser and Baechler, 2026, "The implementation of digital forensic science in a Swiss police force", FSI: Digital Investigation 56, 302069.

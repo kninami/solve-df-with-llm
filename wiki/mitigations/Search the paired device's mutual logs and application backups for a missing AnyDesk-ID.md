@@ -1,9 +1,9 @@
 ---
-id: DFM-1018
+id: LWM-1018
 type: mitigation
 name: Search the paired device's mutual logs and application backups for a missing AnyDesk-ID
 source_refs:
-  - DFCite-1012
+  - LWCite-1012
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When a suspect device's `service.conf`/`system.conf` has been deleted, seek out 
 
 ## References
 
-- [DFCite-1012] Soni et al., 2024, "A forensic analysis of AnyDesk Remote Access application by using various forensic tools and techniques", FSI: Digital Investigation 48.
+- [LWCite-1012] Soni et al., 2024, "A forensic analysis of AnyDesk Remote Access application by using various forensic tools and techniques", FSI: Digital Investigation 48.

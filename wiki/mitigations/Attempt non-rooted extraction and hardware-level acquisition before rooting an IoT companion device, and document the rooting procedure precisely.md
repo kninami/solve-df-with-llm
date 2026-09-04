@@ -1,9 +1,9 @@
 ---
-id: DFM-2115
+id: LWM-2115
 type: mitigation
 name: Attempt non-rooted extraction and hardware-level acquisition before rooting an IoT companion device, and document the rooting procedure precisely
 source_refs:
-  - DFCite-2134
+  - LWCite-2134
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ First attempt non-rooted ADB-based extraction from the companion device, and sep
 
 ## References
 
-- [DFCite-2134] Sharma and Awasthi, 2024, "Unveiling the hidden dangers: Security risks and forensic analysis of smart bulbs", FSI: Digital Investigation 50, 301794.
+- [LWCite-2134] Sharma and Awasthi, 2024, "Unveiling the hidden dangers: Security risks and forensic analysis of smart bulbs", FSI: Digital Investigation 50, 301794.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2077
+id: LWM-2077
 type: mitigation
 name: Manually review flagged event-of-interest windows rather than relying on automated sentiment or entity flags alone
 source_refs:
-  - DFCite-2082
+  - LWCite-2082
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ When a time-series-based conversation-review tool flags a period as an event of 
 
 ## References
 
-- [DFCite-2082] Harris, Jacobson, and Provetti, 2024, "Sentiment and time-series analysis of direct-message conversations", FSI: Digital Investigation 49, 301753.
+- [LWCite-2082] Harris, Jacobson, and Provetti, 2024, "Sentiment and time-series analysis of direct-message conversations", FSI: Digital Investigation 49, 301753.

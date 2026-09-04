@@ -1,16 +1,16 @@
 ---
-id: DFT-1139
+id: LWT-1139
 type: technique
 name: Hide data in symbolic link slack space as an anti-forensic technique
 description: Create a symbolic link whose target-path string is long enough to force the file system to allocate a dedicated data block or extent for it, then write hidden data into the unused space in that block beyond the end of the stored target-path string, exploiting file systems that allocate a full block or cluster for an externally-stored symlink target even though the target string itself is normally much shorter.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1142
+  - LWW-1142
 aliases:
   - Symbolic link slack space data hiding
 source_refs:
-  - DFCite-1139
+  - LWCite-1139
 updated_at: 2026-08-12
 status: complete
 ---
@@ -39,4 +39,4 @@ The paper systematically examines symbolic link implementations across ext2/3/4,
 
 ## References
 
-- [DFCite-1139] Toolan and Humphries, 2025, "Data hiding in symbolic link slack space", FSI: Digital Investigation 53.
+- [LWCite-1139] Toolan and Humphries, 2025, "Data hiding in symbolic link slack space", FSI: Digital Investigation 53.

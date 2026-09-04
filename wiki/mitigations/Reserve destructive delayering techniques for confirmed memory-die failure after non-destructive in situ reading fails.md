@@ -1,9 +1,9 @@
 ---
-id: DFM-1112
+id: LWM-1112
 type: mitigation
 name: Reserve destructive delayering techniques for confirmed memory-die failure after non-destructive in situ reading fails
 source_refs:
-  - DFCite-1106
+  - LWCite-1106
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ During the in situ interconnection and exploitation phase, use the logic analyze
 
 ## References
 
-- [DFCite-1106] Thomas-Brans et al., 2024, "Case of study for in situ memory reading on damaged MultiMedia Card", FSI: Digital Investigation 48.
+- [LWCite-1106] Thomas-Brans et al., 2024, "Case of study for in situ memory reading on damaged MultiMedia Card", FSI: Digital Investigation 48.

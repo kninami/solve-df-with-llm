@@ -1,9 +1,9 @@
 ---
-id: DFM-2136
+id: LWM-2136
 type: mitigation
 name: Corroborate wrist-wearable biometric readings with cross-sensor or cross-device data before relying on them
 source_refs:
-  - DFCite-2156
+  - LWCite-2156
 updated_at: 2026-08-17
 status: complete
 ---
@@ -24,4 +24,4 @@ Where available, cross-check a disputed biometric reading against a second data 
 
 ## References
 
-- [DFCite-2156] Almubairik et al., 2025, "WristSense framework: Exploring the forensic potential of wrist-wear devices through case studies", FSI: Digital Investigation 52.
+- [LWCite-2156] Almubairik et al., 2025, "WristSense framework: Exploring the forensic potential of wrist-wear devices through case studies", FSI: Digital Investigation 52.

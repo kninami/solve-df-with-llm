@@ -1,5 +1,5 @@
 ---
-id: DFT-2123
+id: LWT-2123
 type: technique
 name: Embed cross-application causal event IDs in logs for forensic readiness
 description: Design a system's logging so that every logged event (a sent or received message, function call, or system call) carries a unique event identifier plus references to the identifier(s) of the event(s) that caused it, so that logs collected independently from different applications, protocols, and the OS kernel can be merged into a single causal graph and correlated deterministically, without relying on synchronized timestamps or fuzzy correlation heuristics.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1015
   - DFO-1001
 weakness_ids:
-  - DFW-2132
+  - LWW-2132
 aliases:
   - Gretel numbers
   - Causality tracking for logs
 source_refs:
-  - DFCite-2154
+  - LWCite-2154
 updated_at: 2026-08-17
 status: complete
 ---
@@ -42,4 +42,4 @@ The approach models most logged events as SENT or RECEIVED messages: a message i
 
 ## References
 
-- [DFCite-2154] Olegård, Axelsson, and Li, 2025, "When is logging sufficient? — Tracking event causality for improved forensic analysis and correlation", FSI: Digital Investigation 52.
+- [LWCite-2154] Olegård, Axelsson, and Li, 2025, "When is logging sufficient? — Tracking event causality for improved forensic analysis and correlation", FSI: Digital Investigation 52.

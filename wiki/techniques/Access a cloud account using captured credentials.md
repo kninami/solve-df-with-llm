@@ -1,25 +1,25 @@
 ---
-id: DFT-1019
+id: LWT-1019
 type: technique
 name: Access a cloud account using captured credentials
 description: Access a suspect's cloud-hosted account data by leveraging captured or extracted authentication material, via either of two approaches — querying the provider's own API directly with a captured bearer/access/refresh token, or migrating decrypted browser-stored session credentials to an investigator-controlled device so its browser can auto-login as the suspect — retrieving substantially more evidence than what is stored locally on the suspect's device.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1019
-  - DFW-1055
-  - DFW-1205
-  - DFW-1242
+  - LWW-1019
+  - LWW-1055
+  - LWW-1205
+  - LWW-1242
 aliases:
   - Captured-credential-based cloud account access
   - Cloud API acquisition via captured authentication tokens
   - Webex credential migration for cloud data collection
   - Grand theft API
 source_refs:
-  - DFCite-1013
-  - DFCite-1045
-  - DFCite-1217
-  - DFCite-1257
+  - LWCite-1013
+  - LWCite-1045
+  - LWCite-1217
+  - LWCite-1257
 updated_at: 2026-08-13
 status: complete
 ---
@@ -56,7 +56,7 @@ Many applications and cloud services store only a thin local cache and instead s
 
 ## References
 
-- [DFCite-1013] Hilgert et al., 2021, "A forensic analysis of micromobility solutions", FSI: Digital Investigation 38.
-- [DFCite-1045] Hur et al., 2023, "A study on cloud data access through browser credential migration in Windows environment", FSI: Digital Investigation 45.
-- [DFCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.
-- [DFCite-1257] Ebbers et al., 2024, "Grand theft API: A forensic analysis of vehicle cloud data", FSI: Digital Investigation 48, 301691.
+- [LWCite-1013] Hilgert et al., 2021, "A forensic analysis of micromobility solutions", FSI: Digital Investigation 38.
+- [LWCite-1045] Hur et al., 2023, "A study on cloud data access through browser credential migration in Windows environment", FSI: Digital Investigation 45.
+- [LWCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.
+- [LWCite-1257] Ebbers et al., 2024, "Grand theft API: A forensic analysis of vehicle cloud data", FSI: Digital Investigation 48, 301691.

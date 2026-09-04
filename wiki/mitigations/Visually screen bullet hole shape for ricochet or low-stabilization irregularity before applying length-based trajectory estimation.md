@@ -1,5 +1,5 @@
 ---
-id: DFM-1075
+id: LWM-1075
 type: mitigation
 name: Visually screen bullet hole shape for ricochet or low-stabilization irregularity before applying length-based trajectory estimation
 updated_at: 2026-08-10

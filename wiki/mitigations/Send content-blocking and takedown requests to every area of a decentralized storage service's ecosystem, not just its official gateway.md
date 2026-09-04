@@ -1,9 +1,9 @@
 ---
-id: DFM-1256
+id: LWM-1256
 type: mitigation
 name: Send content-blocking and takedown requests to every area of a decentralized storage service's ecosystem, not just its official gateway
 source_refs:
-  - DFCite-1272
+  - LWCite-1272
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ During investigation, enumerate every gateway, pinning service, and hosting prov
 
 ## References
 
-- [DFCite-1272] Son, Kim, Jung, Bang and Park, 2023, "IF-DSS: A forensic investigation framework for decentralized storage services", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301611.
+- [LWCite-1272] Son, Kim, Jung, Bang and Park, 2023, "IF-DSS: A forensic investigation framework for decentralized storage services", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301611.

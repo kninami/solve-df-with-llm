@@ -1,14 +1,14 @@
 ---
-id: DFW-1160
+id: LWW-1160
 type: weakness
 name: Windows Diagnostics omits activity recorded outside optional data collection or the default browser
 description: Windows Diagnostics records detailed USB, browser, and wireless-network behavioral events only when the "optional diagnostic data" collection setting is enabled (a setting the user can disable at any time, and which is not the top default choice during Windows setup) and only for the built-in Edge browser, so activity performed with a third-party browser (Chrome, Firefox, Tor) or while optional collection is off leaves no trace in this artifact.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1160
+  - LWM-1160
 source_refs:
-  - DFCite-1163
+  - LWCite-1163
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who finds no relevant USB, browsing, or wireless-network activit
 
 ## References
 
-- [DFCite-1163] Park and Lee, 2022, "DiagAnalyzer: User behavior analysis and visualization using Windows Diagnostics logs", FSI: Digital Investigation 43, 301450.
+- [LWCite-1163] Park and Lee, 2022, "DiagAnalyzer: User behavior analysis and visualization using Windows Diagnostics logs", FSI: Digital Investigation 43, 301450.

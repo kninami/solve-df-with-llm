@@ -1,14 +1,14 @@
 ---
-id: DFW-1222
+id: LWW-1222
 type: weakness
 name: Standard file system forensic tools cannot associate a stacked file system's lower files with their corresponding upper files
 description: Current forensic file-system analysis tools are equipped to parse a lower file system's own file types but have no functionality to recognize that a group of its files together constitute a separate, distinct stacked upper file system, so an examination that stops at the lower file system entirely overlooks the upper file system's names, hierarchy, and content grouping.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1222
+  - LWM-1222
 source_refs:
-  - DFCite-1234
+  - LWCite-1234
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Given the growing adoption of stacked-file-system architectures in distributed s
 
 ## References
 
-- [DFCite-1234] Hilgert, Lambertz and Baier, 2024, "Forensic implications of stacked file systems", DFRWS EU 2024; FSI: Digital Investigation 48, 301678.
+- [LWCite-1234] Hilgert, Lambertz and Baier, 2024, "Forensic implications of stacked file systems", DFRWS EU 2024; FSI: Digital Investigation 48, 301678.

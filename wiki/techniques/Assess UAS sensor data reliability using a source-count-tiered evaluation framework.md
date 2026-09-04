@@ -1,5 +1,5 @@
 ---
-id: DFT-2098
+id: LWT-2098
 type: technique
 name: Assess UAS sensor data reliability using a source-count-tiered evaluation framework
 description: Assess how much confidence to place in data recovered from an Unmanned Aircraft System (UAS/drone) by selecting a reliability-assessment method matched to how many independent data sources are actually available -- a single-source category using a likelihood ratio or signal quality estimation, a multi-UAS-source category using sensor cross-validation or state estimation, or a UAS-plus-external-source category using similarity analysis against an independent external measurement system -- rather than applying a one-size-fits-all reliability check regardless of what evidence the case actually has available.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1001
   - DFO-1004
 weakness_ids:
-  - DFW-2104
+  - LWW-2104
 aliases:
   - UAS data reliability conceptual framework
 source_refs:
-  - DFCite-2122
+  - LWCite-2122
 updated_at: 2026-08-16
 status: complete
 ---
@@ -41,4 +41,4 @@ Unlike classical operating systems and smartphones, Unmanned Aircraft System (UA
 
 ## References
 
-- [DFCite-2122] Lohre, Baier, Hardi, and Attenberger, 2025, "Towards reliable data in the scope of unmanned aircraft systems", FSI: Digital Investigation 53, 301914.
+- [LWCite-2122] Lohre, Baier, Hardi, and Attenberger, 2025, "Towards reliable data in the scope of unmanned aircraft systems", FSI: Digital Investigation 53, 301914.

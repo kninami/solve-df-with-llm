@@ -1,16 +1,16 @@
 ---
-id: DFT-2067
+id: LWT-2067
 type: technique
 name: Anticipate common CSEM-offender technical countermeasures during a forensic examination
 description: Prioritize forensic examination steps based on empirically documented base rates of the technical countermeasures previously convicted child sexual exploitation material (CSEM) offenders self-report using, rather than assuming encryption is the primary obstacle or that a single storage location captures the full extent of an offender's activity.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-2067
+  - LWW-2067
 aliases:
   - CSEM offender countermeasure base-rate profiling
 source_refs:
-  - DFCite-2071
+  - LWCite-2071
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ Among previously convicted CSEM offenders, the most common countermeasures were 
 
 ## References
 
-- [DFCite-2071] Steel, Newman, O'Rourke & Quayle, 2022, "Technical Behaviours of Child Sexual Exploitation Material Offenders", JDFSL 17(2). Source of the self-reported countermeasure base rates, gateway/transition technology patterns, and storage-rationale findings.
+- [LWCite-2071] Steel, Newman, O'Rourke & Quayle, 2022, "Technical Behaviours of Child Sexual Exploitation Material Offenders", JDFSL 17(2). Source of the self-reported countermeasure base rates, gateway/transition technology patterns, and storage-rationale findings.

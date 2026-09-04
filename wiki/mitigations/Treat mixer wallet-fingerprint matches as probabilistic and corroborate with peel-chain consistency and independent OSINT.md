@@ -1,9 +1,9 @@
 ---
-id: DFM-2107
+id: LWM-2107
 type: mitigation
 name: Treat mixer wallet-fingerprint matches as probabilistic and corroborate with peel-chain consistency and independent OSINT
 source_refs:
-  - DFCite-2125
+  - LWCite-2125
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ When applying [[techniques/De-anonymize a Bitcoin mixer's internal transactions 
 
 ## References
 
-- [DFCite-2125] Zavřel, Koutenský, Dolejška, and Veselý, 2025, "Tumbling down the stairs: Exploiting a tumbler's attempt to hide with ordinary-looking transactions using wallet fingerprinting", FSI: Digital Investigation 52, 301869.
+- [LWCite-2125] Zavřel, Koutenský, Dolejška, and Veselý, 2025, "Tumbling down the stairs: Exploiting a tumbler's attempt to hide with ordinary-looking transactions using wallet fingerprinting", FSI: Digital Investigation 52, 301869.

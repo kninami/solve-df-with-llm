@@ -1,14 +1,14 @@
 ---
-id: DFW-1031
+id: LWW-1031
 type: weakness
 name: Task-irrelevant contextual information biases DF examiner observations and conclusions
 description: When digital forensic examiners are given contextual case information suggesting a suspect's likely guilt or innocence before analyzing an evidence file, the number and interpretation of traces they observe and report is measurably skewed toward confirming that suggested narrative, including for information that is task-irrelevant to the technical question at hand.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1031
+  - LWM-1031
 source_refs:
-  - DFCite-1022
+  - LWCite-1022
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ This means the same evidence file, examined by different examiners who received 
 
 ## References
 
-- [DFCite-1022] Sunde and Dror, 2021, "A hierarchy of expert performance (HEP) applied to digital forensics: Reliability and biasability in digital forensics decision making", FSI: Digital Investigation 37.
+- [LWCite-1022] Sunde and Dror, 2021, "A hierarchy of expert performance (HEP) applied to digital forensics: Reliability and biasability in digital forensics decision making", FSI: Digital Investigation 37.

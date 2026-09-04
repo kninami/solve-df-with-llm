@@ -1,14 +1,14 @@
 ---
-id: DFW-1115
+id: LWW-1115
 type: weakness
 name: Cell site analysis technical opinions cannot currently be mapped onto calibrated likelihood ratios
 description: There is no established, validated method for converting a cell site analyst's technical observations into a calibrated numeric likelihood ratio, unlike some other forensic disciplines, so any quantitative probability attached to a cell site finding would not be a reliably derived value.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1115
+  - LWM-1115
 source_refs:
-  - DFCite-1108
+  - LWCite-1108
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or expert witness who reports a cell site analysis conclusion us
 
 ## References
 
-- [DFCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.
+- [LWCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.

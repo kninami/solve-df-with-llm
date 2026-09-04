@@ -1,9 +1,9 @@
 ---
-id: DFM-1044
+id: LWM-1044
 type: mitigation
 name: Reserve the mutated ensemble detector for high-value files after faster single-model pre-filtering
 source_refs:
-  - DFCite-1034
+  - LWCite-1034
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ In a large-scale triage workflow, run an existing faster single-model or dual-mo
 
 ## References
 
-- [DFCite-1034] Liu et al., 2021, "A novel adversarial example detection method for malicious PDFs using multiple mutated classifiers", FSI: Digital Investigation 38.
+- [LWCite-1034] Liu et al., 2021, "A novel adversarial example detection method for malicious PDFs using multiple mutated classifiers", FSI: Digital Investigation 38.

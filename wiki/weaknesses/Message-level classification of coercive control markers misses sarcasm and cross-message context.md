@@ -1,14 +1,14 @@
 ---
-id: DFW-1034
+id: LWW-1034
 type: weakness
 name: Message-level classification of coercive control markers misses sarcasm and cross-message context
 description: A classifier that evaluates each chat message independently, without broader conversational context, both misclassifies sarcastic literal-sounding messages as genuine markers of abuse (false positives) and fails to flag messages whose abusive character only becomes apparent when combined with information from an earlier, non-adjacent message (false negatives).
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1034
+  - LWM-1034
 source_refs:
-  - DFCite-1024
+  - LWCite-1024
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Coercive control is specifically defined as a cumulative, longitudinal pattern r
 
 ## References
 
-- [DFCite-1024] Patel et al., 2026, "A hybrid neural-symbolic approach for the longitudinal profiling of coercive control in digital investigations", FSI: Digital Investigation 56.
+- [LWCite-1024] Patel et al., 2026, "A hybrid neural-symbolic approach for the longitudinal profiling of coercive control in digital investigations", FSI: Digital Investigation 56.

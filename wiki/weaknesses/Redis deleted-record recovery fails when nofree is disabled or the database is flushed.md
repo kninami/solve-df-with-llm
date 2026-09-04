@@ -1,14 +1,14 @@
 ---
-id: DFW-1015
+id: LWW-1015
 type: weakness
 name: Redis deleted-record recovery fails when nofree is disabled or the database is flushed
 description: Memory-address-based Redis deleted-record recovery depends on the deleted dictEntry's memory remaining allocated and unreused; it cannot recover records where nofree was set to 1 (freeing memory immediately) or where the deletion was performed via FLUSHDB/FLUSHALL, both of which reclaim or null the underlying memory rather than merely unlinking it.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1015
+  - LWM-1015
 source_refs:
-  - DFCite-1009
+  - LWCite-1009
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator applying this recovery technique to a live-acquired or memory-du
 
 ## References
 
-- [DFCite-1009] Chopade and Pachghare, 2021, "A data recovery technique for Redis using internal dictionary structure", FSI: Digital Investigation 38.
+- [LWCite-1009] Chopade and Pachghare, 2021, "A data recovery technique for Redis using internal dictionary structure", FSI: Digital Investigation 38.

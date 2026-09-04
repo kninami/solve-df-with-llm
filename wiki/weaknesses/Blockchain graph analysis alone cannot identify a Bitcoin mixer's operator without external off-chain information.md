@@ -1,14 +1,14 @@
 ---
-id: DFW-2113
+id: LWW-2113
 type: weakness
 name: Blockchain graph analysis alone cannot identify a Bitcoin mixer's operator without external off-chain information
 description: A review of real U.S. legal cases involving successfully identified Bitcoin mixer operators found that, in every case examined, blockchain transaction/graph analysis alone did not directly lead to operator identification -- the successful identification instead depended on external, off-chain information (infrastructure hosting-payment records, cloud-service subpoenas, or the operator's own operational-security mistakes) obtained through traditional investigative techniques rather than through blockchain analysis of the mixing transactions themselves.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2114
+  - LWM-2114
 source_refs:
-  - DFCite-2133
+  - LWCite-2133
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigation strategy that invests primarily or exclusively in blockchain/gr
 
 ## References
 
-- [DFCite-2133] Tippe and Deckers, 2025, "Unmixing the mix: Patterns and challenges in Bitcoin mixer investigations", FSI: Digital Investigation 52, 301876.
+- [LWCite-2133] Tippe and Deckers, 2025, "Unmixing the mix: Patterns and challenges in Bitcoin mixer investigations", FSI: Digital Investigation 52, 301876.

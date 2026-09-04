@@ -1,12 +1,12 @@
 ---
-id: DFM-1276
+id: LWM-1276
 type: mitigation
 name: Verify a runtime memory-analysis tool's output against the specific target runtime and OS version before relying on it
 aliases:
   - Verify .NET memory-analysis tool output against the specific target runtime version before relying on it
 source_refs:
-  - DFCite-1303
-  - DFCite-1309
+  - LWCite-1303
+  - LWCite-1309
 updated_at: 2026-08-15
 status: complete
 ---
@@ -27,5 +27,5 @@ Identify the exact runtime version and build number installed on the target syst
 
 ## References
 
-- [DFCite-1303] Manna, Case, Ali-Gombe and Richard III, 2022, "Memory analysis of .NET and .Net Core applications", DFRWS 2022 USA; FSI: Digital Investigation 42, 301404.
-- [DFCite-1309] Manna, Case, Ali-Gombe, and Richard III, 2021, "Modern macOS userland runtime analysis", FSI: Digital Investigation 38, 301221.
+- [LWCite-1303] Manna, Case, Ali-Gombe and Richard III, 2022, "Memory analysis of .NET and .Net Core applications", DFRWS 2022 USA; FSI: Digital Investigation 42, 301404.
+- [LWCite-1309] Manna, Case, Ali-Gombe, and Richard III, 2021, "Modern macOS userland runtime analysis", FSI: Digital Investigation 38, 301221.

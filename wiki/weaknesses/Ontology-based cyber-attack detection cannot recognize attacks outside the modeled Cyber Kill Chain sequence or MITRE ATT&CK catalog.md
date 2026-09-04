@@ -1,14 +1,14 @@
 ---
-id: DFW-2034
+id: LWW-2034
 type: weakness
 name: Ontology-based cyber-attack detection cannot recognize attacks outside the modeled Cyber Kill Chain sequence or MITRE ATT&CK catalog
 description: A CKC/MITRE-ATT&CK-ontology-based cyber-attack detection system can only detect attacks whose operation follows one of the model's defined phase combinations and uses techniques already cataloged in MITRE ATT&CK, so an attack that skips or reorders phases outside the modeled combinations, or that uses a genuinely new adversarial technique, goes entirely undetected.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2034
+  - LWM-2034
 source_refs:
-  - DFCite-2034
+  - LWCite-2034
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator or defensive team relying on this class of ontology-based detect
 
 ## References
 
-- [DFCite-2034] Dimitriadis et al., 2023 — Section III explicitly states the CKC-model/MITRE-ATT&CK-catalog detection limitation, and Section IV.B.4 quantifies the rule-count scalability challenge motivating a commonly-used-technique-first rollout.
+- [LWCite-2034] Dimitriadis et al., 2023 — Section III explicitly states the CKC-model/MITRE-ATT&CK-catalog detection limitation, and Section IV.B.4 quantifies the rule-count scalability challenge motivating a commonly-used-technique-first rollout.

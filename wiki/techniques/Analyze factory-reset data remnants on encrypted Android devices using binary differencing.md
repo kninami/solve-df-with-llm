@@ -1,16 +1,16 @@
 ---
-id: DFT-1085
+id: LWT-1085
 type: technique
 name: Analyze factory-reset data remnants on encrypted Android devices using binary differencing
 description: Assess whether a factory reset actually eliminated forensically relevant data on a modern encrypted Android device by extracting low-level partition images before device use, after creating known synthetic data, and after performing a factory reset, then binary-diffing these extractions to identify which bytes and partitions were actually overwritten or reformatted versus left unchanged, rather than trusting the manufacturer's factory-reset marketing claim.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1091
+  - LWW-1091
 aliases:
   - Low-level binary differencing analysis of factory-reset data remnants on encrypted Android devices
 source_refs:
-  - DFCite-1083
+  - LWCite-1083
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ The method extracts recognized partitions (e.g. via `dd`) at three points — be
 
 ## References
 
-- [DFCite-1083] Blankesteijn et al., 2023, "Assessing data remnants in modern smartphones after factory reset", FSI: Digital Investigation 46.
+- [LWCite-1083] Blankesteijn et al., 2023, "Assessing data remnants in modern smartphones after factory reset", FSI: Digital Investigation 46.

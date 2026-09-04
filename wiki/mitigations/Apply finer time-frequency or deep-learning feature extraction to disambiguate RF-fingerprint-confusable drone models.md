@@ -1,9 +1,9 @@
 ---
-id: DFM-1177
+id: LWM-1177
 type: mitigation
 name: Apply finer time-frequency or deep-learning feature extraction to disambiguate RF-fingerprint-confusable drone models
 source_refs:
-  - DFCite-1178
+  - LWCite-1178
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ When a classification result reports a model known to be confusable with another
 
 ## References
 
-- [DFCite-1178] Choudhary et al., 2025, "DrIfTeR: A Drone Identification Technique using RF signals", FSI: Digital Investigation 54. Proposes adaptive wavelet decomposition, time-frequency hybrid preprocessing, CNN spectrogram features, and transfer learning as future directions for separating closely related drone model classes.
+- [LWCite-1178] Choudhary et al., 2025, "DrIfTeR: A Drone Identification Technique using RF signals", FSI: Digital Investigation 54. Proposes adaptive wavelet decomposition, time-frequency hybrid preprocessing, CNN spectrogram features, and transfer learning as future directions for separating closely related drone model classes.

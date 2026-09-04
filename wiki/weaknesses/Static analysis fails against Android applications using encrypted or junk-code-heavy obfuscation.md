@@ -1,14 +1,14 @@
 ---
-id: DFW-1087
+id: LWW-1087
 type: weakness
 name: Static analysis fails against Android applications using encrypted or junk-code-heavy obfuscation
 description: Static analysis becomes impractical against Android applications whose code is encrypted or padded with a large volume of junk code, and layered/combined obfuscation techniques (multiple obfuscation methods applied in sequence) make both malware analysis and deobfuscation substantially harder than a single obfuscation technique applied alone, forcing reliance on more resource-intensive dynamic analysis instead.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1087
+  - LWM-1087
 source_refs:
-  - DFCite-1078
+  - LWCite-1078
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or malware analyst who relies primarily on static analysis tooli
 
 ## References
 
-- [DFCite-1078] Zhang et al., 2021, "Android application forensics: A survey of obfuscation, obfuscation detection and deobfuscation techniques and their impact on investigations", FSI: Digital Investigation 39.
+- [LWCite-1078] Zhang et al., 2021, "Android application forensics: A survey of obfuscation, obfuscation detection and deobfuscation techniques and their impact on investigations", FSI: Digital Investigation 39.

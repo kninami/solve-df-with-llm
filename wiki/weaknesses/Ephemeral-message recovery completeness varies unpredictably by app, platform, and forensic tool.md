@@ -1,14 +1,14 @@
 ---
-id: DFW-1206
+id: LWW-1206
 type: weakness
 name: Ephemeral-message recovery completeness varies unpredictably by app, platform, and forensic tool
 description: The proportion of disappearing-message content recoverable after expiry differs sharply and unpredictably between messaging apps, between Android and iOS, and between forensic tools, so an investigator cannot assume a result obtained for one app/platform/tool combination generalizes to another.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1206
+  - LWM-1206
 source_refs:
-  - DFCite-1218
+  - LWCite-1218
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who validates a disappearing-message recovery procedure against 
 
 ## References
 
-- [DFCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.
+- [LWCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.

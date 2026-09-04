@@ -1,9 +1,9 @@
 ---
-id: DFM-1236
+id: LWM-1236
 type: mitigation
 name: Correlate cyber-domain and physical-domain 3D-printing logs using a shared per-object identifier to attribute sabotage defects to their cause
 source_refs:
-  - DFCite-1250
+  - LWCite-1250
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Assign each printed object a unique identifier (e.g. a compact digit scheme enco
 
 ## References
 
-- [DFCite-1250] Rais et al., 2023, "FRoMEPP: Digital forensic readiness framework for material extrusion based 3D printing process", FSI: Digital Investigation 44, 301510.
+- [LWCite-1250] Rais et al., 2023, "FRoMEPP: Digital forensic readiness framework for material extrusion based 3D printing process", FSI: Digital Investigation 44, 301510.

@@ -1,9 +1,9 @@
 ---
-id: DFM-2104
+id: LWM-2104
 type: mitigation
 name: Apply forensic-ready experimentation principles including explicit hypotheses and documented provenance when designing digital forensic experiments
 source_refs:
-  - DFCite-2120
+  - LWCite-2120
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Before running a digital forensic experiment, state an explicit, falsifiable hyp
 
 ## References
 
-- [DFCite-2120] "Towards controlled and forensic-ready experimentation in digital forensics", FSI: Digital Investigation 48, 2024.
+- [LWCite-2120] "Towards controlled and forensic-ready experimentation in digital forensics", FSI: Digital Investigation 48, 2024.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1238
+id: LWW-1238
 type: weakness
 name: Impostor Bias causes forensic examiners to doubt authentic multimedia evidence because deepfakes exist
 description: Awareness that AI-generated deepfake content exists and is increasingly realistic can lead a forensic examiner to distrust the authenticity of genuinely real audio, image, or video evidence on the basis of that general awareness alone, rather than on an objective assessment of the specific content, mirroring how earlier deepfake prevalence has already been shown to erode public trust in authentic media generally.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1239
+  - LWM-1239
 source_refs:
-  - DFCite-1253
+  - LWCite-1253
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ This weakness is not specific to any one detection technique's internal mechanis
 
 ## References
 
-- [DFCite-1253] Casu et al., 2024, "GenAI mirage: The impostor bias and the deepfake detection challenge in the era of artificial illusions", FSI: Digital Investigation 50, 301795.
+- [LWCite-1253] Casu et al., 2024, "GenAI mirage: The impostor bias and the deepfake detection challenge in the era of artificial illusions", FSI: Digital Investigation 50, 301795.

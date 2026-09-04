@@ -1,14 +1,14 @@
 ---
-id: DFW-2009
+id: LWW-2009
 type: weakness
 name: Forcing each data-breach artifact into a single DBB phase can misrepresent artifacts that span multiple attack phases
 description: The framework requires each discovered artifact to be mapped into exactly one of the four data-breach-breakdown phases based on the investigator's understanding of the phase's characteristics and the artifact's context, which can misclassify or oversimplify an artifact that is genuinely relevant to more than one phase (e.g. a persistence mechanism established during propagation but reused during exfiltration).
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2009
+  - LWM-2009
 source_refs:
-  - DFCite-2009
+  - LWCite-2009
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ If an artifact's role is forced into only its first or most obvious phase, the r
 
 ## References
 
-- [DFCite-2009] Hakim et al., 2023 — Section III.A explicitly states the single-DBB-phase artifact-mapping rule and its dependence on investigator judgment of the artifact's context.
+- [LWCite-2009] Hakim et al., 2023 — Section III.A explicitly states the single-DBB-phase artifact-mapping rule and its dependence on investigator judgment of the artifact's context.

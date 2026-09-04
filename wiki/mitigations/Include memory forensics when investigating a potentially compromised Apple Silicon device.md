@@ -1,9 +1,9 @@
 ---
-id: DFM-1092
+id: LWM-1092
 type: mitigation
 name: Include memory forensics when investigating a potentially compromised Apple Silicon device
 source_refs:
-  - DFCite-1084
+  - LWCite-1084
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Include memory acquisition as a standard step in Apple Silicon incident response
 
 ## References
 
-- [DFCite-1084] Mettig et al., 2023, "Assessing the threat of Rosetta 2 on Apple Silicon devices", FSI: Digital Investigation 46.
+- [LWCite-1084] Mettig et al., 2023, "Assessing the threat of Rosetta 2 on Apple Silicon devices", FSI: Digital Investigation 46.

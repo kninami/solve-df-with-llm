@@ -1,9 +1,9 @@
 ---
-id: DFM-2064
+id: LWM-2064
 type: mitigation
 name: Cross-validate iOS vault-app hidden-photo recovery using multiple forensic toolkits
 source_refs:
-  - DFCite-2066
+  - LWCite-2066
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When a vault application is identified on a device (by its disguised icon, packa
 
 ## References
 
-- [DFCite-2066] Gilbert & Seigfried-Spellar, 2022, "Forensic Discoverability of iOS Vault Applications", JDFSL 17(1). States that using more than one forensic application "provides the most correct and whole picture of what evidence is on the phone," based on the study's own finding that each of three toolkits missed different vault-app artifacts.
+- [LWCite-2066] Gilbert & Seigfried-Spellar, 2022, "Forensic Discoverability of iOS Vault Applications", JDFSL 17(1). States that using more than one forensic application "provides the most correct and whole picture of what evidence is on the phone," based on the study's own finding that each of three toolkits missed different vault-app artifacts.

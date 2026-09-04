@@ -1,14 +1,14 @@
 ---
-id: DFW-1073
+id: LWW-1073
 type: weakness
 name: Forensic tools parsing an ambiguous partition detect only one embedded file system, missing the other's content
 description: When a single partition is deliberately constructed to contain two fully functional file systems (a host and a hidden guest), common forensic tools tested against such partitions exhibit deficiencies — recognizing and reporting only the file system their parser targets while missing the other file system's content entirely, rather than flagging the partition as ambiguous or containing unexplained additional structure.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1073
+  - LWM-1073
 source_refs:
-  - DFCite-1063
+  - LWCite-1063
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ Because ambiguous partitions are a corner case rather than something that occurs
 
 ## References
 
-- [DFCite-1063] Schneider et al., 2022, "Ambiguous file system partitions", FSI: Digital Investigation 42.
+- [LWCite-1063] Schneider et al., 2022, "Ambiguous file system partitions", FSI: Digital Investigation 42.

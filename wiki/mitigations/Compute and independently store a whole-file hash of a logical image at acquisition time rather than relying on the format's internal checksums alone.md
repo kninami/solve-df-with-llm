@@ -1,9 +1,9 @@
 ---
-id: DFM-1315
+id: LWM-1315
 type: mitigation
 name: Compute and independently store a whole-file hash of a logical image at acquisition time rather than relying on the format's internal checksums alone
 source_refs:
-  - DFCite-1356
+  - LWCite-1356
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Immediately after creating an L01 or AFF4-L logical image using [[techniques/Val
 
 ## References
 
-- [DFCite-1356] Im, Park, Joun, Lee, and Park, 2024, "Revisiting logical image formats for future digital forensics: A comprehensive analysis on L01 and AFF4-L", FSI: Digital Investigation 50, 301811.
+- [LWCite-1356] Im, Park, Joun, Lee, and Park, 2024, "Revisiting logical image formats for future digital forensics: A comprehensive analysis on L01 and AFF4-L", FSI: Digital Investigation 50, 301811.

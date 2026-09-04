@@ -1,9 +1,9 @@
 ---
-id: DFM-1120
+id: LWM-1120
 type: mitigation
 name: Practice chip-off removal and restoration on a replica device and use standardized fitted fixtures before working the exhibit
 source_refs:
-  - DFCite-1112
+  - LWCite-1112
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Identify the exhibit's model/IC package from visible casing markings or online r
 
 ## References
 
-- [DFCite-1112] Hadgkiss et al., 2022, "Cheap as chips: An accessible chip off acquisition method for ball grid array (BGA) integrated circuits in digital investigations", FSI: Digital Investigation 42-43.
+- [LWCite-1112] Hadgkiss et al., 2022, "Cheap as chips: An accessible chip off acquisition method for ball grid array (BGA) integrated circuits in digital investigations", FSI: Digital Investigation 42-43.

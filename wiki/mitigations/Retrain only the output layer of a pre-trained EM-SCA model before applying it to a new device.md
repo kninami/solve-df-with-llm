@@ -1,9 +1,9 @@
 ---
-id: DFM-1185
+id: LWM-1185
 type: mitigation
 name: Retrain only the output layer of a pre-trained EM-SCA model before applying it to a new device
 source_refs:
-  - DFCite-1188
+  - LWCite-1188
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Capture new EM traces from the specific target device under investigation, using
 
 ## References
 
-- [DFCite-1188] Navanesan et al., 2024, "Ensuring cross-device portability of electromagnetic side-channel analysis for digital forensics", FSI: Digital Investigation 48, 301684.
+- [LWCite-1188] Navanesan et al., 2024, "Ensuring cross-device portability of electromagnetic side-channel analysis for digital forensics", FSI: Digital Investigation 48, 301684.

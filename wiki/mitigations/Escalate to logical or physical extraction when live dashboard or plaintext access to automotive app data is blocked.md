@@ -1,9 +1,9 @@
 ---
-id: DFM-1163
+id: LWM-1163
 type: mitigation
 name: Escalate to logical or physical extraction when live dashboard or plaintext access to automotive app data is blocked
 source_refs:
-  - DFCite-1166
+  - LWCite-1166
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Follow the triage decision sequence: if the dongle is disconnected and the dashb
 
 ## References
 
-- [DFCite-1166] Sumaila and Bahsi, 2022, "Digital forensic analysis of mobile automotive maintenance applications", FSI: Digital Investigation 43, 301440.
+- [LWCite-1166] Sumaila and Bahsi, 2022, "Digital forensic analysis of mobile automotive maintenance applications", FSI: Digital Investigation 43, 301440.

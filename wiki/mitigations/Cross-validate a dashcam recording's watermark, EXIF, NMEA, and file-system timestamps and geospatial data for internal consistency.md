@@ -1,10 +1,10 @@
 ---
-id: DFM-1141
+id: LWM-1141
 type: mitigation
 name: Cross-validate a dashcam recording's watermark, EXIF, NMEA, and file-system timestamps and geospatial data for internal consistency
 source_refs:
-  - DFCite-1138
-  - DFCite-2157
+  - LWCite-1138
+  - LWCite-2157
 updated_at: 2026-08-17
 status: complete
 ---
@@ -27,5 +27,5 @@ A formal version of this check, proposed for a normalized dashcam metadata datab
 
 ## References
 
-- [DFCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.
-- [DFCite-2157] Lee et al., 2021, "Your car is recording: Metadata-driven dashcam analysis system", FSI: Digital Investigation 38.
+- [LWCite-1138] Lallie, 2023, "Dashcam forensic investigation guidelines", FSI: Digital Investigation 45.
+- [LWCite-2157] Lee et al., 2021, "Your car is recording: Metadata-driven dashcam analysis system", FSI: Digital Investigation 38.

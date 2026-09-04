@@ -1,9 +1,9 @@
 ---
-id: DFM-1270
+id: LWM-1270
 type: mitigation
 name: Selectively apply intrusive trap-based tracing only for system calls whose arguments non-intrusive polling cannot capture
 source_refs:
-  - DFCite-1296
+  - LWCite-1296
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Use non-intrusive polling to obtain the full system-call sequence and timing fir
 
 ## References
 
-- [DFCite-1296] Nguyen, Orenbach and Atamli, 2022, "Live system call trace reconstruction on Linux", DFRWS 2022 USA; FSI: Digital Investigation 42, 301398.
+- [LWCite-1296] Nguyen, Orenbach and Atamli, 2022, "Live system call trace reconstruction on Linux", DFRWS 2022 USA; FSI: Digital Investigation 42, 301398.

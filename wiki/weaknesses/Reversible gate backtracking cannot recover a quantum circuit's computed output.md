@@ -1,14 +1,14 @@
 ---
-id: DFW-1037
+id: LWW-1037
 type: weakness
 name: Reversible gate backtracking cannot recover a quantum circuit's computed output
 description: Reversible gate backtracking is confined to input collection: it can deterministically recover a quantum circuit's known initial preparation state from its applied gate sequence, but it does not capture or reconstruct computations that occur beyond that initial input, so any information from the circuit's actual computed output (which by nature requires measurement, or is not recoverable by simply reversing the input gates) remains inaccessible to this technique.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1037
+  - LWM-1037
 source_refs:
-  - DFCite-1027
+  - LWCite-1027
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator applying this technique should understand it as a method for ver
 
 ## References
 
-- [DFCite-1027] Closser and Bou-Harb, 2022, "A live digital forensics approach for quantum mechanical computers", FSI: Digital Investigation 40.
+- [LWCite-1027] Closser and Bou-Harb, 2022, "A live digital forensics approach for quantum mechanical computers", FSI: Digital Investigation 40.

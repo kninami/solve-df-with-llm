@@ -1,22 +1,22 @@
 ---
-id: DFT-1131
+id: LWT-1131
 type: technique
 name: Collect conversational AI artifacts across cloud export, desktop cache, browser cache, and mobile app storage
 description: Systematically collect forensic artifacts of a suspect's use of a conversational AI service (e.g. ChatGPT, Gemini, Copilot, Claude) from every access surface the service offers — server-side account export/API, desktop application cache, web browser cache and local storage, and mobile app storage — since no single surface preserves the full conversation history.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1135
-  - DFW-1202
-  - DFW-1216
+  - LWW-1135
+  - LWW-1202
+  - LWW-1216
 aliases:
   - Conversational AI forensics artifact collection framework
   - Multi-platform conversational AI (ChatGPT, Gemini, Copilot, Claude) forensic artifact collection
 source_refs:
-  - DFCite-1131
-  - DFCite-1215
-  - DFCite-1226
-  - DFCite-2129
+  - LWCite-1131
+  - LWCite-1215
+  - LWCite-1226
+  - LWCite-2129
 updated_at: 2026-08-16
 status: complete
 ---
@@ -53,7 +53,7 @@ A study of DeepSeek's mobile apps additionally supplements this artifact set wit
 
 ## References
 
-- [DFCite-1131] Cho et al., 2025, "Conversational AI forensics: A case study on ChatGPT, Gemini, Copilot, and Claude", FSI: Digital Investigation 52.
-- [DFCite-1215] Tyagi et al., 2025, "Forensic analysis and privacy implications of LLM mobile apps: A case study of ChatGPT, Copilot, and Gemini", FSI: Digital Investigation 54, 301974.
-- [DFCite-1226] Dragonas et al., 2024, "Forensic analysis of OpenAI's ChatGPT mobile application", FSI: Digital Investigation 50, 301801.
-- [DFCite-2129] "Uncovering digital traces of DeepSeek: Cross-platform mobile and network forensics", FSI: Digital Investigation 48, 2024. Source for the network-traffic-interception collection surface and the iOS-versus-Android local-storage-completeness gap.
+- [LWCite-1131] Cho et al., 2025, "Conversational AI forensics: A case study on ChatGPT, Gemini, Copilot, and Claude", FSI: Digital Investigation 52.
+- [LWCite-1215] Tyagi et al., 2025, "Forensic analysis and privacy implications of LLM mobile apps: A case study of ChatGPT, Copilot, and Gemini", FSI: Digital Investigation 54, 301974.
+- [LWCite-1226] Dragonas et al., 2024, "Forensic analysis of OpenAI's ChatGPT mobile application", FSI: Digital Investigation 50, 301801.
+- [LWCite-2129] "Uncovering digital traces of DeepSeek: Cross-platform mobile and network forensics", FSI: Digital Investigation 48, 2024. Source for the network-traffic-interception collection surface and the iOS-versus-Android local-storage-completeness gap.

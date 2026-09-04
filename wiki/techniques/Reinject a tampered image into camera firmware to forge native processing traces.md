@@ -1,17 +1,17 @@
 ---
-id: DFT-1102
+id: LWT-1102
 type: technique
 name: Reinject a tampered image into camera firmware to forge native processing traces
 description: Feed a tampered or synthetic image back into a real camera's own raw-image acquisition pipeline, via custom firmware that substitutes the sensor buffer's contents before native in-camera processing runs, so the camera itself regenerates authentic native metadata, JPEG structure, quantization tables, thumbnails, and compression statistics for the tampered content.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1108
+  - LWW-1108
 aliases:
   - Camera Obscura
   - In-camera image buffer substitution anti-forensics
 source_refs:
-  - DFCite-1102
+  - LWCite-1102
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ Implemented against a Canon EOS M using the open-source Magic Lantern firmware a
 
 ## References
 
-- [DFCite-1102] Baracchi et al., 2021, "Camera Obscura: Exploiting in-camera processing for image counter forensics", FSI: Digital Investigation 38.
+- [LWCite-1102] Baracchi et al., 2021, "Camera Obscura: Exploiting in-camera processing for image counter forensics", FSI: Digital Investigation 38.

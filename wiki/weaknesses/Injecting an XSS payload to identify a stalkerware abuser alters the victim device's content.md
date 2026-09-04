@@ -1,14 +1,14 @@
 ---
-id: DFW-2127
+id: LWW-2127
 type: weakness
 name: Injecting an XSS payload to identify a stalkerware abuser alters the victim device's content
 description: Recovering an abuser's identity by exploiting a stalkerware dashboard's cross-site-scripting vulnerability requires writing an investigator-controlled payload into the victim's own contact list, text messages, or file names, which changes the original content of the seized device before analysis is complete.
 categories:
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-2128
+  - LWM-2128
 source_refs:
-  - DFCite-2148
+  - LWCite-2148
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ Any active alteration of a device under investigation raises evidentiary integri
 
 ## References
 
-- [DFCite-2148] Mangeard et al., 2024, "WARNE: A stalkerware evidence collection tool", FSI: Digital Investigation 48.
+- [LWCite-2148] Mangeard et al., 2024, "WARNE: A stalkerware evidence collection tool", FSI: Digital Investigation 48.

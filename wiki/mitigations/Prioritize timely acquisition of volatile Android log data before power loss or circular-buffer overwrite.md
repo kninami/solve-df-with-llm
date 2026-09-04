@@ -1,11 +1,11 @@
 ---
-id: DFM-1077
+id: LWM-1077
 type: mitigation
 name: Prioritize timely acquisition of volatile Android log data before power loss or circular-buffer overwrite
 source_refs:
-  - DFCite-1067
-  - DFCite-1088
-  - DFCite-1297
+  - LWCite-1067
+  - LWCite-1088
+  - LWCite-1297
 updated_at: 2026-08-14
 status: complete
 ---
@@ -26,6 +26,6 @@ Where safe and legally permissible, perform on-scene, non-invasive live acquisit
 
 ## References
 
-- [DFCite-1067] Kim et al., 2025, "An effective automotive forensic technique utilizing various logs of Android-based In-vehicle infotainment systems", FSI: Digital Investigation 55.
-- [DFCite-1088] Jung et al., 2024, "Automotive digital forensics through data and log analysis of vehicle diagnosis Android apps", FSI: Digital Investigation 49.
-- [DFCite-1297] Cheng, Shi, Gong and Guan, 2021, "LogExtractor: Extracting digital evidence from android log messages via string and taint analysis", DFRWS 2021 USA; FSI: Digital Investigation 37, 301193.
+- [LWCite-1067] Kim et al., 2025, "An effective automotive forensic technique utilizing various logs of Android-based In-vehicle infotainment systems", FSI: Digital Investigation 55.
+- [LWCite-1088] Jung et al., 2024, "Automotive digital forensics through data and log analysis of vehicle diagnosis Android apps", FSI: Digital Investigation 49.
+- [LWCite-1297] Cheng, Shi, Gong and Guan, 2021, "LogExtractor: Extracting digital evidence from android log messages via string and taint analysis", DFRWS 2021 USA; FSI: Digital Investigation 37, 301193.

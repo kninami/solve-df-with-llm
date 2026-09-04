@@ -1,14 +1,14 @@
 ---
-id: DFW-1078
+id: LWW-1078
 type: weakness
 name: DFR maturity assessment model structure was validated with only 10 practitioners and lacks practical field testing
 description: The extended DFRCF/DFMM domain structure and maturity assessment model was shaped and validated through semi-structured interviews with only 10 forensic practitioners and academics, and has not yet been tested in practice by organizations applying it, so the model's roles clarity, private-information-collection implications, and general applicability remain unconfirmed at a larger scale.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1078
+  - LWM-1078
 source_refs:
-  - DFCite-1068
+  - LWCite-1068
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An organization adopting this DFRCF/DFMM structure to self-assess its forensic r
 
 ## References
 
-- [DFCite-1068] Bankole et al., 2022, "An extended digital forensic readiness and maturity model", FSI: Digital Investigation 40.
+- [LWCite-1068] Bankole et al., 2022, "An extended digital forensic readiness and maturity model", FSI: Digital Investigation 40.

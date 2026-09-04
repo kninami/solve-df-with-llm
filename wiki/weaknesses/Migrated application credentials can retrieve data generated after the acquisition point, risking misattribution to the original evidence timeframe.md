@@ -1,14 +1,14 @@
 ---
-id: DFW-1205
+id: LWW-1205
 type: weakness
 name: Migrated application credentials can retrieve data generated after the acquisition point, risking misattribution to the original evidence timeframe
 description: A migrated credential remains valid on the investigator's device after collection, so the application can continue to synchronize newly created cloud data (new messages, meetings, or files) generated after the point of collection; if this ongoing collection is not clearly separated from the original device's data, later-arriving content risks being conflated with evidence that existed at the time of seizure.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1205
+  - LWM-1205
 source_refs:
-  - DFCite-1217
+  - LWCite-1217
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Unlike a conventional disk or memory acquisition, which captures a fixed point-i
 
 ## References
 
-- [DFCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.
+- [LWCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.

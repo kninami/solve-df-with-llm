@@ -1,17 +1,17 @@
 ---
-id: DFT-1031
+id: LWT-1031
 type: technique
 name: Review digital evidence guided by contextual case information
 description: A digital forensic examiner reviews an evidence file (e.g., a disk image or set of digital traces) while informed by contextual case information provided at commissioning, forming observations, interpretations of those observations, and an overall conclusion about the matter under investigation.
 objective_ids:
   - DFO-1003
 weakness_ids:
-  - DFW-1031
-  - DFW-1032
+  - LWW-1031
+  - LWW-1032
 aliases:
   - Contextual case-information-guided review of digital evidence
 source_refs:
-  - DFCite-1022
+  - LWCite-1022
 updated_at: 2026-08-09
 status: complete
 ---
@@ -41,4 +41,4 @@ The process operates at three distinct levels that can each be evaluated separat
 
 ## References
 
-- [DFCite-1022] Sunde and Dror, 2021, "A hierarchy of expert performance (HEP) applied to digital forensics: Reliability and biasability in digital forensics decision making", FSI: Digital Investigation 37.
+- [LWCite-1022] Sunde and Dror, 2021, "A hierarchy of expert performance (HEP) applied to digital forensics: Reliability and biasability in digital forensics decision making", FSI: Digital Investigation 37.

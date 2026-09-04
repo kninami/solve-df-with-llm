@@ -1,9 +1,9 @@
 ---
-id: DFM-1078
+id: LWM-1078
 type: mitigation
 name: Treat DFRCF-DFMM maturity scores as a starting conversation, not a validated benchmark, until further field testing accumulates
 source_refs:
-  - DFCite-1068
+  - LWCite-1068
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ When applying the model, supplement the checklist/narrative assessment with orga
 
 ## References
 
-- [DFCite-1068] Bankole et al., 2022, "An extended digital forensic readiness and maturity model", FSI: Digital Investigation 40.
+- [LWCite-1068] Bankole et al., 2022, "An extended digital forensic readiness and maturity model", FSI: Digital Investigation 40.

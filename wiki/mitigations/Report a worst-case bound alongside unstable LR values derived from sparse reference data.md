@@ -1,9 +1,9 @@
 ---
-id: DFM-1036
+id: LWM-1036
 type: mitigation
 name: Report a worst-case bound alongside unstable LR values derived from sparse reference data
 source_refs:
-  - DFCite-1026
+  - LWCite-1026
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Where the number of reference measurements informing a proposition's probability
 
 ## References
 
-- [DFCite-1026] Spichiger, 2023, "A likelihood ratio approach for the evaluation of single point device locations", FSI: Digital Investigation 44.
+- [LWCite-1026] Spichiger, 2023, "A likelihood ratio approach for the evaluation of single point device locations", FSI: Digital Investigation 44.

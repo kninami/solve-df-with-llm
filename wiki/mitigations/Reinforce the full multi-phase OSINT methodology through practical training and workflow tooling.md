@@ -1,9 +1,9 @@
 ---
-id: DFM-1048
+id: LWM-1048
 type: mitigation
 name: Reinforce the full multi-phase OSINT methodology through practical training and workflow tooling
 source_refs:
-  - DFCite-1038
+  - LWCite-1038
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Structure practical OSINT training so trainees work closely with experienced sup
 
 ## References
 
-- [DFCite-1038] Larsen et al., 2023, "A quantitative study of the law enforcement in using open source intelligence techniques through undergraduate practical training", FSI: Digital Investigation 47.
+- [LWCite-1038] Larsen et al., 2023, "A quantitative study of the law enforcement in using open source intelligence techniques through undergraduate practical training", FSI: Digital Investigation 47.

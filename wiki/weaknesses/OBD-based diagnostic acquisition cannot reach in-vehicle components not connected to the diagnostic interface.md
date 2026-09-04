@@ -1,14 +1,14 @@
 ---
-id: DFW-1030
+id: LWW-1030
 type: weakness
 name: OBD-based diagnostic acquisition cannot reach in-vehicle components not connected to the diagnostic interface
 description: While the OBD-II/UDS/DoIP diagnostic path can enumerate and query all ECUs wired to the vehicle's diagnostic bus, not every relevant in-vehicle component is connected to that interface, so purely diagnostic-interface-based acquisition systematically misses evidence held on components outside its reach.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1030
+  - LWM-1030
 source_refs:
-  - DFCite-1021
+  - LWCite-1021
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying solely on OBD-based diagnostic acquisition may conclude 
 
 ## References
 
-- [DFCite-1021] Gomez Buquerin et al., 2021, "A generalized approach to automotive forensics", FSI: Digital Investigation 36.
+- [LWCite-1021] Gomez Buquerin et al., 2021, "A generalized approach to automotive forensics", FSI: Digital Investigation 36.

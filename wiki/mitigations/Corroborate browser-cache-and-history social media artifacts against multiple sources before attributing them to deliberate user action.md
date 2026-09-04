@@ -1,9 +1,9 @@
 ---
-id: DFM-2067
+id: LWM-2067
 type: mitigation
 name: Corroborate browser-cache-and-history social media artifacts against multiple sources before attributing them to deliberate user action
 source_refs:
-  - DFCite-2070
+  - LWCite-2070
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Apply a tiered confidence scale to recovered browser artifacts — distinguishin
 
 ## References
 
-- [DFCite-2070] David, Morris & Appleby-Thomas, 2021, "Social Media User Relationship Framework (SMURF)", JDFSL 16(1). Proposes the five-level weighting scale (strongly expect to find / may expect to find / corroborates other artifacts / needs to be contextualized / requires corroboration) as the mechanism for assessing artifact reliability before attribution.
+- [LWCite-2070] David, Morris & Appleby-Thomas, 2021, "Social Media User Relationship Framework (SMURF)", JDFSL 16(1). Proposes the five-level weighting scale (strongly expect to find / may expect to find / corroborates other artifacts / needs to be contextualized / requires corroboration) as the mechanism for assessing artifact reliability before attribution.

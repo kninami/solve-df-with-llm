@@ -1,14 +1,14 @@
 ---
-id: DFW-2100
+id: LWW-2100
 type: weakness
 name: Knowledge-guided topic modeling cannot detect novel coded terminology absent from its seed concept dictionaries
 description: A topic model seeded with expert-knowledge concept dictionaries is biased toward discovering topics related to the vocabulary an investigator already anticipated, so genuinely novel coded language, newly emerging slang, or case-specific substitute terminology not represented in the seed dictionaries or the model's broader training data can go undetected, even though the underlying unsupervised topic-modeling mechanism does not strictly require an exact keyword match for already-known vocabulary.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2101
+  - LWM-2101
 source_refs:
-  - DFCite-2117
+  - LWCite-2117
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on a knowledge-guided topic model to triage which messag
 
 ## References
 
-- [DFCite-2117] "Towards a joint semantic analysis in mobile forensics environments", FSI: Digital Investigation 48, 2024.
+- [LWCite-2117] "Towards a joint semantic analysis in mobile forensics environments", FSI: Digital Investigation 48, 2024.

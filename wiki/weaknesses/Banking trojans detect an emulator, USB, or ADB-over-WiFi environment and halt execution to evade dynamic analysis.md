@@ -1,14 +1,14 @@
 ---
-id: DFW-1208
+id: LWW-1208
 type: weakness
 name: Banking trojans detect an emulator, USB, or ADB-over-WiFi environment and halt execution to evade dynamic analysis
 description: A malware sample configured with anti-analysis "debug" checks tests for indicators of a virtualized or instrumented environment (running in an emulator, ADB-over-WiFi enabled, a USB device connected) at startup and stops operating, or prompts app removal, if any check succeeds, so dynamic analysis performed in a typical sandboxed or emulator-based environment observes none of the malware's actual malicious behavior.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1208
+  - LWM-1208
 source_refs:
-  - DFCite-1219
+  - LWCite-1219
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An analyst who runs a sample only in a standard emulator or a USB-connected/ADB-
 
 ## References
 
-- [DFCite-1219] Schmutz et al., 2024, "Forensic analysis of hook Android malware", FSI: Digital Investigation 49.
+- [LWCite-1219] Schmutz et al., 2024, "Forensic analysis of hook Android malware", FSI: Digital Investigation 49.

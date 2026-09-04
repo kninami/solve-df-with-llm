@@ -1,9 +1,9 @@
 ---
-id: DFM-1143
+id: LWM-1143
 type: mitigation
 name: Manually inspect XFS slack, reserved, and misused structures for hidden data
 source_refs:
-  - DFCite-1140
+  - LWCite-1140
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ For each allocation group on the volume, extract and hex-inspect the superblock'
 
 ## References
 
-- [DFCite-1140] Toolan and Humphries, 2025, "Data hiding in the XFS file system", FSI: Digital Investigation 52.
+- [LWCite-1140] Toolan and Humphries, 2025, "Data hiding in the XFS file system", FSI: Digital Investigation 52.

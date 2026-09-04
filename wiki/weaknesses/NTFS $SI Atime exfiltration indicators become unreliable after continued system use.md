@@ -1,5 +1,5 @@
 ---
-id: DFW-1155
+id: LWW-1155
 type: weakness
 name: NTFS $SI Atime exfiltration indicators become unreliable after continued system use
 description: The $STANDARD_INFORMATION Accessed Time evidence used to detect Windows PE-based file exfiltration is progressively overwritten by ordinary subsequent system activity (standard-OS boot processes, background scans, routine file access), so the longer the delay between the exfiltration event and examination, the less reliable the Atime value is as evidence of when the exfiltration actually occurred.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1155
+  - LWM-1155
 source_refs:
-  - DFCite-1153
+  - LWCite-1153
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator examining a system some time after a suspected Windows PE-based 
 
 ## References
 
-- [DFCite-1153] Lee, Kim and Jeong, 2026, "Residual forensic indicators of file exfiltration in windows preinstallation environment", FSI: Digital Investigation 56.
+- [LWCite-1153] Lee, Kim and Jeong, 2026, "Residual forensic indicators of file exfiltration in windows preinstallation environment", FSI: Digital Investigation 56.

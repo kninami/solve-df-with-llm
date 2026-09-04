@@ -1,9 +1,9 @@
 ---
-id: DFM-2090
+id: LWM-2090
 type: mitigation
 name: Benchmark a face-recognition tool's accuracy at the deployment's actual eMRTD compression level rather than assuming compression impact is negligible
 source_refs:
-  - DFCite-2105
+  - LWCite-2105
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Use [[techniques/Assess face-recognition tool accuracy at a specific eMRTD image
 
 ## References
 
-- [DFCite-2105] Calderoni and Magnani, 2022, "The impact of face image compression in future generation electronic identity documents", FSI: Digital Investigation 40, 301345.
+- [LWCite-2105] Calderoni and Magnani, 2022, "The impact of face image compression in future generation electronic identity documents", FSI: Digital Investigation 40, 301345.

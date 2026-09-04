@@ -1,16 +1,16 @@
 ---
-id: DFT-1264
+id: LWT-1264
 type: technique
 name: Analyze .NET and .NET Core process memory using structured runtime enumeration
 description: Recover a .NET or .NET Core process's loaded assemblies (including memory-only, never-written-to-disk assemblies), classes, fields, field values, and both managed (IL) and native (NDirect) methods directly from a memory image by walking the Common Language Runtime's internal data structures, rather than relying on unstructured string search or a live debugger that only works against a running process.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1275
+  - LWW-1275
 aliases:
   - dotnet_memory_only / dotnet_fields / dotnet_field_values / dotnet_ndirect_methods / dotnet_il_methods / dotnet_class_references Volatility plugins
 source_refs:
-  - DFCite-1303
+  - LWCite-1303
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ Starting from a process's application-domain list (`SystemDomain::m_appDomainIdL
 
 ## References
 
-- [DFCite-1303] Manna, Case, Ali-Gombe and Richard III, 2022, "Memory analysis of .NET and .Net Core applications", DFRWS 2022 USA; FSI: Digital Investigation 42, 301404.
+- [LWCite-1303] Manna, Case, Ali-Gombe and Richard III, 2022, "Memory analysis of .NET and .Net Core applications", DFRWS 2022 USA; FSI: Digital Investigation 42, 301404.

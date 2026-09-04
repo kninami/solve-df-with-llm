@@ -1,9 +1,9 @@
 ---
-id: DFM-1166
+id: LWM-1166
 type: mitigation
 name: Scan for firmware RAID signatures before treating a connected disk as a standalone drive
 source_refs:
-  - DFCite-1168
+  - LWCite-1168
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ On a live system, use a firmware-RAID-aware detection tool (e.g. one that querie
 
 ## References
 
-- [DFCite-1168] Yun et al., 2025, "Digital forensic approaches to Intel and AMD firmware RAID systems", FSI: Digital Investigation 54, 301971.
+- [LWCite-1168] Yun et al., 2025, "Digital forensic approaches to Intel and AMD firmware RAID systems", FSI: Digital Investigation 54, 301971.

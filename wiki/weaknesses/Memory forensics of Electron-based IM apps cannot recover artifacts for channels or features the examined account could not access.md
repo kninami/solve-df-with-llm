@@ -1,14 +1,14 @@
 ---
-id: DFW-1225
+id: LWW-1225
 type: weakness
 name: Memory forensics of Electron-based IM apps cannot recover artifacts for channels or features the examined account could not access
 description: Because an Electron-based instant-messaging client only receives and holds in memory the data its logged-in account is authorized to see, memory forensics of that process cannot recover content from channels the account was excluded from, or session-state details (such as active voice-chat participant identity) the client never materialized into a retrievable in-memory object.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1225
+  - LWM-1225
 source_refs:
-  - DFCite-1236
+  - LWCite-1236
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on memory forensics of one account's IM client process c
 
 ## References
 
-- [DFCite-1236] Davis, McInnes and Ahmed, 2022, "Forensic investigation of instant messaging services on linux OS: Discord and Slack as case studies", DFRWS 2022 USA; FSI: Digital Investigation 42, 301401.
+- [LWCite-1236] Davis, McInnes and Ahmed, 2022, "Forensic investigation of instant messaging services on linux OS: Discord and Slack as case studies", DFRWS 2022 USA; FSI: Digital Investigation 42, 301401.

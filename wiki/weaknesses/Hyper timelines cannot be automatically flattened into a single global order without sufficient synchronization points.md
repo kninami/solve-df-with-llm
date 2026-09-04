@@ -1,14 +1,14 @@
 ---
-id: DFW-1100
+id: LWW-1100
 type: weakness
 name: Hyper timelines cannot be automatically flattened into a single global order without sufficient synchronization points
 description: Reducing a hyper timeline's partial order back into a single "flat" super timeline respecting a global chronological order requires observing sufficiently many Coincidence relations between the separate time domains to fully resolve their relative ordering; without enough such synchronization points, automatic alignment into a total order is not possible, and implicit timing information generally cannot be easily merged with a classical timeline at all.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1100
+  - LWM-1100
 source_refs:
-  - DFCite-1094
+  - LWCite-1094
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator hoping to present a single, fully-ordered timeline covering all 
 
 ## References
 
-- [DFCite-1094] Dreier et al., 2024, "Beyond timestamps: Integrating implicit timing information into digital forensic timelines", FSI: Digital Investigation 49.
+- [LWCite-1094] Dreier et al., 2024, "Beyond timestamps: Integrating implicit timing information into digital forensic timelines", FSI: Digital Investigation 49.

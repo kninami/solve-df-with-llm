@@ -1,17 +1,17 @@
 ---
-id: DFT-2068
+id: LWT-2068
 type: technique
 name: Collect and annotate dark web content for investigation using a forensically sound, hash-verified toolset
 description: Manually select, categorize, and annotate clear- and dark-web (Tor .onion) content of investigative interest directly in-browser, automatically archive the annotated page and its metadata with hash-verified integrity checks, synchronize annotations across a team of collaborating investigators via a central server, and use the resulting labelled data set to train ML classifiers that automatically categorize previously unseen web pages.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-2068
+  - LWW-2068
 aliases:
   - The Digital Detective's Discourse
   - D3 toolset
 source_refs:
-  - DFCite-2072
+  - LWCite-2072
 updated_at: 2026-08-15
 status: complete
 ---
@@ -41,4 +41,4 @@ The toolset (called "D3") is built from five components: an in-browser annotator
 
 ## References
 
-- [DFCite-2072] Bergman & Popov, 2022, "The Digital Detective's Discourse: A Toolset for Forensically Sound Collaborative Dark Web Content Annotation and Collection", JDFSL 17(5). Source of the D3 toolset architecture, its hash-verification/chain-of-custody design, the 95-URL demonstration data set, and the classifier/inter-annotator-agreement evaluation.
+- [LWCite-2072] Bergman & Popov, 2022, "The Digital Detective's Discourse: A Toolset for Forensically Sound Collaborative Dark Web Content Annotation and Collection", JDFSL 17(5). Source of the D3 toolset architecture, its hash-verification/chain-of-custody design, the 95-URL demonstration data set, and the classifier/inter-annotator-agreement evaluation.

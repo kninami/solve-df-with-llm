@@ -1,9 +1,9 @@
 ---
-id: DFM-1038
+id: LWM-1038
 type: mitigation
 name: Build a per-camera reference training set before applying defective-pixel timeslot classification
 source_refs:
-  - DFCite-1028
+  - LWCite-1028
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Where the originating camera device is available or identifiable, collect or req
 
 ## References
 
-- [DFCite-1028] Ahmed et al., 2021, "A machine learning-based approach for picture acquisition timeslot prediction using defective pixels", FSI: Digital Investigation 39.
+- [LWCite-1028] Ahmed et al., 2021, "A machine learning-based approach for picture acquisition timeslot prediction using defective pixels", FSI: Digital Investigation 39.

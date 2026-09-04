@@ -1,9 +1,9 @@
 ---
-id: DFM-2066
+id: LWM-2066
 type: mitigation
 name: Supplement URL-feature phishing classifiers with dedicated spear-phishing and logo-based detection models
 source_refs:
-  - DFCite-2069
+  - LWCite-2069
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Where an investigation or defensive deployment needs broad phishing coverage, ru
 
 ## References
 
-- [DFCite-2069] Abiodun, Sodiya, Kareem & Oladimeji, 2021, "Performance Assessment of some Phishing predictive models based on Minimal Feature corpus", JDFSL 16(5). The paper's literature review identifies logo-based and text-based (image, frame) integrated feature approaches (e.g., Adebowale et al., 2018) as the kind of complementary detection needed beyond a purely URL-based feature scope.
+- [LWCite-2069] Abiodun, Sodiya, Kareem & Oladimeji, 2021, "Performance Assessment of some Phishing predictive models based on Minimal Feature corpus", JDFSL 16(5). The paper's literature review identifies logo-based and text-based (image, frame) integrated feature approaches (e.g., Adebowale et al., 2018) as the kind of complementary detection needed beyond a purely URL-based feature scope.

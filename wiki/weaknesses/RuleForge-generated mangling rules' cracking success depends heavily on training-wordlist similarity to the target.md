@@ -1,14 +1,14 @@
 ---
-id: DFW-1099
+id: LWW-1099
 type: weakness
 name: RuleForge-generated mangling rules' cracking success depends heavily on training-wordlist similarity to the target
 description: The hit ratio achieved by clustering-derived password-mangling rules depends heavily on how closely the training wordlist (used to derive the rules) and attack wordlist match the actual password-creation habits and language/cultural context of the target, meaning rules trained on a generic or mismatched leaked-password corpus can substantially underperform their benchmarked hit ratio against a specific real-world target.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1099
+  - LWM-1099
 source_refs:
-  - DFCite-1093
+  - LWCite-1093
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ A digital forensic lab that adopts a generic, published RuleForge ruleset withou
 
 ## References
 
-- [DFCite-1093] Hranický et al., 2025, "Beyond the dictionary attack: Enhancing password cracking efficiency through machine learning-induced mangling rules", FSI: Digital Investigation 52.
+- [LWCite-1093] Hranický et al., 2025, "Beyond the dictionary attack: Enhancing password cracking efficiency through machine learning-induced mangling rules", FSI: Digital Investigation 52.

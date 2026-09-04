@@ -1,16 +1,16 @@
 ---
-id: DFT-1098
+id: LWT-1098
 type: technique
 name: Identify network protocols blindly using a synthetic-dataset-trained classifier
 description: Train a machine-learning classifier (Random Forest) to blindly identify which protocol produced an unlabeled network traffic capture — useful for detecting covert or unauthorized data-exfiltration channels — using only a synthetically generated training dataset built from feature engineering and a statistical-analytical model of expected feature distributions for each protocol, rather than relying on scarce, imbalanced, or privacy-sensitive real-world labeled traffic.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1103
+  - LWW-1103
 aliases:
   - Synthetic-dataset-trained blind network protocol identification
 source_refs:
-  - DFCite-1098
+  - LWCite-1098
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ The method emphasizes feature engineering and statistical-analytical modeling of
 
 ## References
 
-- [DFCite-1098] Abbasi-Azar et al., 2025, "Blind protocol identification using synthetic dataset: A case study on geographic protocols", FSI: Digital Investigation 53.
+- [LWCite-1098] Abbasi-Azar et al., 2025, "Blind protocol identification using synthetic dataset: A case study on geographic protocols", FSI: Digital Investigation 53.

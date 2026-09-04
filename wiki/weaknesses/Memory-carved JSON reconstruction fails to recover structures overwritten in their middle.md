@@ -1,14 +1,14 @@
 ---
-id: DFW-1180
+id: LWW-1180
 type: weakness
 name: Memory-carved JSON reconstruction fails to recover structures overwritten in their middle
 description: The reconstruction algorithm used to repair partially overwritten JSON telemetry structures carved from memory only handles truncation at the start or end of the structure, so a structure that is intact at both ends but overwritten somewhere in its middle cannot be recovered.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1180
+  - LWM-1180
 source_refs:
-  - DFCite-1182
+  - LWCite-1182
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who fails to find a usable device-identification structure via m
 
 ## References
 
-- [DFCite-1182] Thomas et al., 2021, "Duck Hunt: Memory forensics of USB attack platforms", FSI: Digital Investigation 37. States that the reconstruction algorithm does not cover JSON structures overwritten in the middle while intact at the beginning and end.
+- [LWCite-1182] Thomas et al., 2021, "Duck Hunt: Memory forensics of USB attack platforms", FSI: Digital Investigation 37. States that the reconstruction algorithm does not cover JSON structures overwritten in the middle while intact at the beginning and end.

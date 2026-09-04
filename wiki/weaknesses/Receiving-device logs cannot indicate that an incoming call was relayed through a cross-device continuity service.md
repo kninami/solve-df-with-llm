@@ -1,14 +1,14 @@
 ---
-id: DFW-1217
+id: LWW-1217
 type: weakness
 name: Receiving-device logs cannot indicate that an incoming call was relayed through a cross-device continuity service
 description: Because call control and processing for a cross-device continuity relay is handled entirely by the primary device, the receiving device's own logs are indistinguishable from those of a standard incoming call, so an investigator with only the receiving device cannot determine whether the call was relayed.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1217
+  - LWM-1217
 source_refs:
-  - DFCite-1228
+  - LWCite-1228
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Investigators who seize only the receiving (victim) party's device in a voice-ph
 
 ## References
 
-- [DFCite-1228] Yoo, Park and Kim, 2026, "Forensic analysis of remote call service artifacts for detecting voice phishing via samsung call & message continuity (CMC)", FSI: Digital Investigation 57, 302107.
+- [LWCite-1228] Yoo, Park and Kim, 2026, "Forensic analysis of remote call service artifacts for detecting voice phishing via samsung call & message continuity (CMC)", FSI: Digital Investigation 57, 302107.

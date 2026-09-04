@@ -1,16 +1,16 @@
 ---
-id: DFT-1109
+id: LWT-1109
 type: technique
 name: Conduct a cell site survey to validate call data record cell service claims
 description: Physically measure, using a phone emulator, scanner, or software-controlled radio, which cells actually serve a location of interest at a given time, in order to test whether a call data record's recorded serving cell is consistent with a proposition about where a device was.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1114
+  - LWW-1114
 aliases:
   - RF survey for cell site analysis
 source_refs:
-  - DFCite-1108
+  - LWCite-1108
 updated_at: 2026-08-12
 status: complete
 ---
@@ -39,4 +39,4 @@ Three equipment types are available, each with distinct trade-offs: a **phone em
 
 ## References
 
-- [DFCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.
+- [LWCite-1108] Tart et al., 2021, "Cell site analysis: use and reliability of survey methods", FSI: Digital Investigation 38.

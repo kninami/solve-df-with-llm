@@ -1,9 +1,9 @@
 ---
-id: DFM-1061
+id: LWM-1061
 type: mitigation
 name: Verify OS mount-option and library-layer timestamp update behavior before interpreting MACB timestamps
 source_refs:
-  - DFCite-1051
+  - LWCite-1051
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Check `/proc/mounts` or `mount` output (or equivalent) on the source system for 
 
 ## References
 
-- [DFCite-1051] Thierry and Müller, 2022, "A systematic approach to understanding MACB timestamps on Unix-like systems", FSI: Digital Investigation 40.
+- [LWCite-1051] Thierry and Müller, 2022, "A systematic approach to understanding MACB timestamps on Unix-like systems", FSI: Digital Investigation 40.

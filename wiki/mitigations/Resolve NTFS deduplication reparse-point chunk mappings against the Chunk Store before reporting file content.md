@@ -1,9 +1,9 @@
 ---
-id: DFM-1144
+id: LWM-1144
 type: mitigation
 name: Resolve NTFS deduplication reparse-point chunk mappings against the Chunk Store before reporting file content
 source_refs:
-  - DFCite-1141
+  - LWCite-1141
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ First identify the Windows Server version in use (resident $REPARSE_POINT on Ser
 
 ## References
 
-- [DFCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.
+- [LWCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.

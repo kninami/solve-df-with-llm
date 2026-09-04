@@ -1,16 +1,16 @@
 ---
-id: DFT-1298
+id: LWT-1298
 type: technique
 name: Detect Android ransomware using unsupervised clustering of reverse-engineered static features
 description: Detect both locker- and crypto-type Android ransomware — including previously unseen variants — by reverse-engineering an APK to extract forensically-derived static features (such as app-switching intents, on-screen ransom-note text, text embedded in images, and native-language encoding misuse) and clustering apps with a Gaussian Mixture Model after feature selection and dimensionality reduction, avoiding the reliance on antivirus-vendor-supplied labels that supervised detection methods require.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1308
+  - LWW-1308
 aliases:
   - RansomDroid
 source_refs:
-  - DFCite-1345
+  - LWCite-1345
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ Prior static-feature Android ransomware literature was found to lack several sig
 
 ## References
 
-- [DFCite-1345] Sharma, Krishna, and Kumar, 2021, "RansomDroid: Forensic analysis and detection of Android Ransomware using unsupervised machine learning technique", FSI: Digital Investigation 37, 301168.
+- [LWCite-1345] Sharma, Krishna, and Kumar, 2021, "RansomDroid: Forensic analysis and detection of Android Ransomware using unsupervised machine learning technique", FSI: Digital Investigation 37, 301168.

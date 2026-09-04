@@ -1,9 +1,9 @@
 ---
-id: DFM-1051
+id: LWM-1051
 type: mitigation
 name: Select memory acquisition tools based on scenario-specific benchmarks matching the investigative goal
 source_refs:
-  - DFCite-1041
+  - LWCite-1041
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Before selecting an acquisition tool, identify the specific artefact type(s) mos
 
 ## References
 
-- [DFCite-1041] Rzepka et al., 2025, "A scenario-based quality assessment of memory acquisition tools and its investigative implications", FSI: Digital Investigation 52.
+- [LWCite-1041] Rzepka et al., 2025, "A scenario-based quality assessment of memory acquisition tools and its investigative implications", FSI: Digital Investigation 52.

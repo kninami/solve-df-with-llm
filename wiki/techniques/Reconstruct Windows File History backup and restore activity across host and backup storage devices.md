@@ -1,5 +1,5 @@
 ---
-id: DFT-1210
+id: LWT-1210
 type: technique
 name: Reconstruct Windows File History backup and restore activity across host and backup storage devices
 description: Systematically examine Windows File History artifacts across three stages — identifying usage traces on the host, determining every associated backup storage device via matching configuration/registry identifiers, and extracting the full backed-up-file history from the Catalog.edb database — to reconstruct a user's past file activity and backup/restore behavior.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1001
   - DFO-1019
 weakness_ids:
-  - DFW-1221
+  - LWW-1221
 aliases:
   - EFIC (Extract File History IntelligenCe)
   - Windows File History three-step examination procedure
 source_refs:
-  - DFCite-1233
+  - LWCite-1233
 updated_at: 2026-08-13
 status: complete
 ---
@@ -44,4 +44,4 @@ The three-step procedure is: (1) identify FH usage traces on the target host via
 
 ## References
 
-- [DFCite-1233] Choi, Park and Lee, 2021, "Forensic exploration on windows File History", FSI: Digital Investigation 36, 301134.
+- [LWCite-1233] Choi, Park and Lee, 2021, "Forensic exploration on windows File History", FSI: Digital Investigation 36, 301134.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1283
+id: LWW-1283
 type: weakness
 name: High-frequency marketplace trading alone cannot distinguish money laundering from legitimately popular high-volume items
 description: A single frequency-based signal — an item, seller, or buyer appearing unusually often in marketplace trade data — cannot by itself distinguish laundering-related activity from an item that is simply genuinely popular or more commonly obtainable, since both produce the same statistical outlier pattern in trade-frequency data.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1284
+  - LWM-1284
 source_refs:
-  - DFCite-1311
+  - LWCite-1311
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who treats any single frequency outlier (most-traded item, most-
 
 ## References
 
-- [DFCite-1311] Cooke and Marshall, 2024, "Money laundering through video games, a criminals' playground", FSI: Digital Investigation 50, 301802.
+- [LWCite-1311] Cooke and Marshall, 2024, "Money laundering through video games, a criminals' playground", FSI: Digital Investigation 50, 301802.

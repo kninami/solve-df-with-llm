@@ -1,14 +1,14 @@
 ---
-id: DFW-1165
+id: LWW-1165
 type: weakness
 name: Metaverse platforms do not log avatar motion or voice conversation content
 description: Current metaverse platforms record only coarse activity such as which world an avatar joined and text messages sent through a linked messenger, but do not log an avatar's detailed in-world behavior — its motion or the content of its voice conversations — so an investigator cannot reconstruct exactly how a user acted or what they said while present in a shared metaverse space from currently available artifacts alone.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1165
+  - LWM-1165
 source_refs:
-  - DFCite-1167
+  - LWCite-1167
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ For incidents whose most serious conduct occurs through in-world avatar behavior
 
 ## References
 
-- [DFCite-1167] Kim et al., 2023, "Digital forensic approaches for metaverse ecosystems", FSI: Digital Investigation 46, 301608.
+- [LWCite-1167] Kim et al., 2023, "Digital forensic approaches for metaverse ecosystems", FSI: Digital Investigation 46, 301608.

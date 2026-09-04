@@ -1,5 +1,5 @@
 ---
-id: DFT-2082
+id: LWT-2082
 type: technique
 name: Apply a zero trust strategy to digital forensic investigations by verifying artifact integrity before reliance
 description: Treat every artifact, tool output, and process step in a digital forensic investigation as untrusted by default -- rather than trusted unless shown otherwise -- and require explicit verification of each artifact's temporal integrity (are its timestamps genuine and internally consistent), syntactic integrity (is its structure/format unmodified and standards-compliant), and semantic integrity (does its content accurately represent what it purports to) before it is relied upon in analysis or reporting.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1004
   - DFO-1020
 weakness_ids:
-  - DFW-2085
+  - LWW-2085
 aliases:
   - Zero Trust Digital Forensics
   - ZTDF
 source_refs:
-  - DFCite-2098
+  - LWCite-2098
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,4 +42,4 @@ The strategy organizes artifact-integrity verification into three complementary 
 
 ## References
 
-- [DFCite-2098] "The case for Zero Trust Digital Forensics", FSI: Digital Investigation 48, 2024.
+- [LWCite-2098] "The case for Zero Trust Digital Forensics", FSI: Digital Investigation 48, 2024.

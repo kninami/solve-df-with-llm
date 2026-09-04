@@ -1,14 +1,14 @@
 ---
-id: DFW-1176
+id: LWW-1176
 type: weakness
 name: Failure to systematically enumerate spoliation-trace sources causes deleted-file evidence to be overlooked
 description: Without a compiled, systematically-derived list of all OS and application artifacts capable of retaining a deleted file's metadata, investigators checking only the small set of well-known, previously-published sources can miss traces that would have established the file's prior existence, undermining a spoliation claim.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1176
+  - LWM-1176
 source_refs:
-  - DFCite-1176
+  - LWCite-1176
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ A single trace of a deleted file's prior existence can be case-determinative in 
 
 ## References
 
-- [DFCite-1176] Joun et al., 2023, "Discovering spoliation of evidence through identifying traces on deleted files in macOS", FSI: Digital Investigation 44, 301502.
+- [LWCite-1176] Joun et al., 2023, "Discovering spoliation of evidence through identifying traces on deleted files in macOS", FSI: Digital Investigation 44, 301502.

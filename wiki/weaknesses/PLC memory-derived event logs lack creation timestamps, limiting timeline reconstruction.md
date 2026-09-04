@@ -1,14 +1,14 @@
 ---
-id: DFW-1276
+id: LWW-1276
 type: weakness
 name: PLC memory-derived event logs lack creation timestamps, limiting timeline reconstruction
 description: Event logs (project downloads, mode changes) recovered by reverse-engineering a PLC's memory dump can be enumerated and correctly sequenced relative to each other, but the vendor does not appear to store an associated creation timestamp for each entry, so an investigator cannot determine exactly when a given recovered event occurred from the memory dump alone.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1277
+  - LWM-1277
 source_refs:
-  - DFCite-1304
+  - LWCite-1304
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator reconstructing an attack or incident timeline needs to know not 
 
 ## References
 
-- [DFCite-1304] Rais, Awad, Lopez and Ahmed, 2022, "Memory forensic analysis of a programmable logic controller in industrial control systems", DFRWS 2022 EU; FSI: Digital Investigation 40, 301339.
+- [LWCite-1304] Rais, Awad, Lopez and Ahmed, 2022, "Memory forensic analysis of a programmable logic controller in industrial control systems", DFRWS 2022 EU; FSI: Digital Investigation 40, 301339.

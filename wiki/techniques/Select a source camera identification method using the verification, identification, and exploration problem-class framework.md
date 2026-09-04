@@ -1,5 +1,5 @@
 ---
-id: DFT-2076
+id: LWT-2076
 type: technique
 name: Select a source camera identification method using the verification, identification, and exploration problem-class framework
 description: Before applying a source camera identification (SCI) method, classify the investigative question into one of three formal problem classes -- Verification (does this specific image come from this specific device?), Identification (which device, among a candidate set, produced this image?), or Exploration (what can be inferred about an unknown device's type/model from this image?) -- and the target into one of four granularity levels (Physical Device, Configured Device, Virtual Model, or Physical Model), then select and evaluate an SCI method against the metrics appropriate to that specific problem class and target rather than assuming a method validated for one combination transfers to another.
@@ -7,12 +7,12 @@ objective_ids:
   - DFO-1004
   - DFO-1008
 weakness_ids:
-  - DFW-2078
+  - LWW-2078
 aliases:
   - Source Camera Target Model
   - SCTM
 source_refs:
-  - DFCite-2089
+  - LWCite-2089
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ The SCTM defines four levels of target granularity, from most specific to most g
 
 ## References
 
-- [DFCite-2089] Klier and Baier, 2024, "Source Camera Identification - Do we have a gold standard?", FSI: Digital Investigation 52, 301858.
+- [LWCite-2089] Klier and Baier, 2024, "Source Camera Identification - Do we have a gold standard?", FSI: Digital Investigation 52, 301858.

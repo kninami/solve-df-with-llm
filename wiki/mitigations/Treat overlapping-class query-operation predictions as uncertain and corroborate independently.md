@@ -1,9 +1,9 @@
 ---
-id: DFM-1147
+id: LWM-1147
 type: mitigation
 name: Treat overlapping-class query-operation predictions as uncertain and corroborate independently
 source_refs:
-  - DFCite-1143
+  - LWCite-1143
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Consult the classifier's confusion matrix for the trained model and DBMS in use 
 
 ## References
 
-- [DFCite-1143] Nissan, Wagner and Aktar, 2023, "Database memory forensics: A machine learning approach to reverse-engineer query activity", FSI: Digital Investigation 44.
+- [LWCite-1143] Nissan, Wagner and Aktar, 2023, "Database memory forensics: A machine learning approach to reverse-engineer query activity", FSI: Digital Investigation 44.

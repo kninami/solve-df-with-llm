@@ -1,14 +1,14 @@
 ---
-id: DFW-2019
+id: LWW-2019
 type: weakness
 name: CPS forensic investigations analyze cyber and physical evidence in disjointed silos
 description: Existing cyber-physical-system forensic solutions generally address either cyber evidence (logs, network traces) or physical evidence (sensor measurements, actuator states) separately rather than in an integrated investigation, leaving investigators without a complete picture of how a cyber compromise produced a physical-world consequence.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2019
+  - LWM-2019
 source_refs:
-  - DFCite-2019
+  - LWCite-2019
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ A CPS incident (e.g. a manipulated sensor reading causing an unsafe actuator com
 
 ## References
 
-- [DFCite-2019] K et al., 2026 — Section VIII.D "Gaps & Future Work" explicitly lists disjointed cyber/physical evidence handling, inconsistent methodologies, and manual/non-automated tooling as unresolved CPS forensics challenges.
+- [LWCite-2019] K et al., 2026 — Section VIII.D "Gaps & Future Work" explicitly lists disjointed cyber/physical evidence handling, inconsistent methodologies, and manual/non-automated tooling as unresolved CPS forensics challenges.

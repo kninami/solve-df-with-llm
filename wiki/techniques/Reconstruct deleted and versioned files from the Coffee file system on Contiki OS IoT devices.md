@@ -1,17 +1,17 @@
 ---
-id: DFT-1119
+id: LWT-1119
 type: technique
 name: Reconstruct deleted and versioned files from the Coffee file system on Contiki OS IoT devices
 description: Recover live files, deleted files, and prior versions of both from a flash memory extraction of a resource-constrained IoT device running Contiki OS by parsing its custom Coffee file system's log/base sector structures via code review and emulator-derived understanding of its behavior, since Coffee is undocumented from a forensic standpoint and has no existing forensic tool support.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1124
+  - LWW-1124
 aliases:
   - COFFOR
   - Coffee forensics
 source_refs:
-  - DFCite-1118
+  - LWCite-1118
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ Coffee organizes files as base and log-file sector pairs; a file's contents chan
 
 ## References
 
-- [DFCite-1118] Sandvik et al., 2021, "Coffee forensics - Reconstructing data in IoT devices running Contiki OS", FSI: Digital Investigation 37.
+- [LWCite-1118] Sandvik et al., 2021, "Coffee forensics - Reconstructing data in IoT devices running Contiki OS", FSI: Digital Investigation 37.

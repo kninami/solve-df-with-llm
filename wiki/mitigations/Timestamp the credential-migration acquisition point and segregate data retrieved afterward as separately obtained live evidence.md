@@ -1,9 +1,9 @@
 ---
-id: DFM-1205
+id: LWM-1205
 type: mitigation
 name: Timestamp the credential-migration acquisition point and segregate data retrieved afterward as separately obtained live evidence
 source_refs:
-  - DFCite-1217
+  - LWCite-1217
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Log the precise timestamp of credential migration and the first post-migration l
 
 ## References
 
-- [DFCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.
+- [LWCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.

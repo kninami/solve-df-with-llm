@@ -1,5 +1,5 @@
 ---
-id: DFW-1156
+id: LWW-1156
 type: weakness
 name: TF-IDF file-path software-usage signatures cannot achieve high Precision and high Recall simultaneously
 description: Across 576 tested TF-IDF file-path software-signature model configurations, only a minority reach near-perfect Precision (about 38%) and a smaller, largely non-overlapping minority reach near-perfect Recall (about 18%), with the design-parameter choices that favor one metric (e.g., larger similarity thresholds) tending to work against the other, so no single default configuration reliably delivers both.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INCOMP
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1156
+  - LWM-1156
 source_refs:
-  - DFCite-1157
+  - LWCite-1157
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ A software-usage triage tool tuned for high Precision (fewer false positives, i.
 
 ## References
 
-- [DFCite-1157] Soltani and Hosseini Seno, 2023, "Detecting the software usage on a compromised system: A triage solution for digital forensics", FSI: Digital Investigation 44.
+- [LWCite-1157] Soltani and Hosseini Seno, 2023, "Detecting the software usage on a compromised system: A triage solution for digital forensics", FSI: Digital Investigation 44.

@@ -1,5 +1,5 @@
 ---
-id: DFW-1200
+id: LWW-1200
 type: weakness
 name: Failure to rely on magic-number signatures causes file type identification tools to be defeated by extension tampering
 description: Some file type identification tools, including established forensic tools, partly or wholly infer a file's type from its extension rather than purely from content-based magic-number signatures, so their accuracy collapses when a suspect renames or removes a file's extension, even though the tool is marketed as a content-based identification solution.
@@ -7,9 +7,9 @@ categories:
   - ASTM_MISINT
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1200
+  - LWM-1200
 source_refs:
-  - DFCite-1211
+  - LWCite-1211
 updated_at: 2026-08-13
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator who selects a file type identification tool based on its stated 
 
 ## References
 
-- [DFCite-1211] Dubettier et al., 2023, "File type identification tools for digital investigations", FSI: Digital Investigation 46, 301574.
+- [LWCite-1211] Dubettier et al., 2023, "File type identification tools for digital investigations", FSI: Digital Investigation 46, 301574.

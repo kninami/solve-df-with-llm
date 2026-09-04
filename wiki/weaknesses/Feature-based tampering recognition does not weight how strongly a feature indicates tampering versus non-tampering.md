@@ -1,14 +1,14 @@
 ---
-id: DFW-1309
+id: LWW-1309
 type: weakness
 name: Feature-based tampering recognition does not weight how strongly a feature indicates tampering versus non-tampering
 description: The inductive feature-analysis algorithm treats every characterized feature of a tampering action as an equally significant indicator, rather than weighting features by how strongly each one actually indicates tampering versus non-tampering, so a case whose evidence weakly matches several features could be treated the same as one that strongly matches them.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1311
+  - LWM-1311
 source_refs:
-  - DFCite-1349
+  - LWCite-1349
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator applying the unweighted feature-analysis algorithm risks over-in
 
 ## References
 
-- [DFCite-1349] Neale, Kennedy, and Nuseibeh, 2026, "Reasoning about artefact tampering", FSI: Digital Investigation 58, 302147.
+- [LWCite-1349] Neale, Kennedy, and Nuseibeh, 2026, "Reasoning about artefact tampering", FSI: Digital Investigation 58, 302147.

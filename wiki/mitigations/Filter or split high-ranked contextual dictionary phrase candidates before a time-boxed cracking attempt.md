@@ -1,9 +1,9 @@
 ---
-id: DFM-1246
+id: LWM-1246
 type: mitigation
 name: Filter or split high-ranked contextual dictionary phrase candidates before a time-boxed cracking attempt
 source_refs:
-  - DFCite-1260
+  - LWCite-1260
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Post-process a ranked contextual dictionary before an attack: split multi-word p
 
 ## References
 
-- [DFCite-1260] Kanta, Coisel, and Scanlon, 2023, "Harder, better, faster, stronger: Optimising the performance of context-based password cracking dictionaries", FSI: Digital Investigation 44, 301507.
+- [LWCite-1260] Kanta, Coisel, and Scanlon, 2023, "Harder, better, faster, stronger: Optimising the performance of context-based password cracking dictionaries", FSI: Digital Investigation 44, 301507.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2031
+id: LWW-2031
 type: weakness
 name: NTFS journal-based timestamp manipulation detection is limited by journal retention capacity
 description: NTFS journal-based timestamp manipulation detection can only find manipulation events still recorded within the $LogFile's (base 64MB, typically 2-3 hours of data) or $UsnJrnl's (base 32MB, typically 30-40 hours of data) retention window, so manipulation events that occurred further in the past than the journal's actual retained history are undetectable by this technique regardless of how effective the detection algorithm itself is.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2031
+  - LWM-2031
 source_refs:
-  - DFCite-2031
+  - LWCite-2031
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator who acquires a system's NTFS journals well after a suspected tim
 
 ## References
 
-- [DFCite-2031] Oh et al., 2024 — Section VIII "Discussion" states the base capacities and typical retention windows for $LogFile and $UsnJrnl and identifies this as a limitation of all NTFS journal-based detection methods, including the one proposed in the paper.
+- [LWCite-2031] Oh et al., 2024 — Section VIII "Discussion" states the base capacities and typical retention windows for $LogFile and $UsnJrnl and identifies this as a limitation of all NTFS journal-based detection methods, including the one proposed in the paper.

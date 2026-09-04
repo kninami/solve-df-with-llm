@@ -1,14 +1,14 @@
 ---
-id: DFW-1022
+id: LWW-1022
 type: weakness
 name: Android application cache-clear operation purges recoverable streaming video artifacts
 description: Android's built-in per-application "Clear cache" function (accessible via a long-press on the app icon or through system Settings, without root access or any special tooling) reliably and effectively removes recoverable streaming-application cache artifacts, including images, metadata, and cached video fragments, acting as a trivial but powerful anti-forensic step available to any user.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1022
+  - LWM-1022
 source_refs:
-  - DFCite-1015
+  - LWCite-1015
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Because this is a standard, documented Android OS feature requiring no special k
 
 ## References
 
-- [DFCite-1015] García Murias et al., 2023, "A forensic analysis of streaming platforms on Android OS", FSI: Digital Investigation 44.
+- [LWCite-1015] García Murias et al., 2023, "A forensic analysis of streaming platforms on Android OS", FSI: Digital Investigation 44.

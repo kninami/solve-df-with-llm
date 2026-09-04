@@ -1,17 +1,17 @@
 ---
-id: DFT-1094
+id: LWT-1094
 type: technique
 name: Construct a hyper timeline from implicit and explicit timing information
 description: Extend a classical "flat" digital forensic timeline (events sorted by timestamp) into a richer partial order — a "hyper timeline" — by separating each source of timing information (explicit timestamps, but also implicit ordering signals such as database sequence numbers or log-file line numbers) into its own distinct time domain with its own timeline, then connecting those timelines using observed relations ("Coincidence" relations) between events across domains, enabling ordering of events that have no timestamp at all and supporting detection of timestamp inconsistencies such as tampering.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1100
+  - LWW-1100
 aliases:
   - Hyper timeline construction from implicit and explicit timing information across time domains
   - Hyper timeline
 source_refs:
-  - DFCite-1094
+  - LWCite-1094
 updated_at: 2026-08-10
 status: complete
 ---
@@ -40,4 +40,4 @@ The method was implemented and queried using TypeQL/TypeDB, allowing an examiner
 
 ## References
 
-- [DFCite-1094] Dreier et al., 2024, "Beyond timestamps: Integrating implicit timing information into digital forensic timelines", FSI: Digital Investigation 49.
+- [LWCite-1094] Dreier et al., 2024, "Beyond timestamps: Integrating implicit timing information into digital forensic timelines", FSI: Digital Investigation 49.

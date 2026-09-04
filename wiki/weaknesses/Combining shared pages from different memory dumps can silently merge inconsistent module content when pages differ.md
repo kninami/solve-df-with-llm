@@ -1,14 +1,14 @@
 ---
-id: DFW-1281
+id: LWW-1281
 type: weakness
 name: Combining shared pages from different memory dumps can silently merge inconsistent module content when pages differ
 description: Module-aggregation tools that combine pages marked as "shared" across processes or memory dumps assume all shared copies of a given page are content-identical, but in rare cases shared pages at the same offset were observed to differ (due to embedded, process-specific memory addresses), so an aggregated module can silently include a page that does not match the actual on-disk original at that offset.
 categories:
   - ASTM_INAC_COR
 mitigation_ids:
-  - DFM-1282
+  - LWM-1282
 source_refs:
-  - DFCite-1310
+  - LWCite-1310
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on an aggregated module reconstruction as if it exactly 
 
 ## References
 
-- [DFCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.
+- [LWCite-1310] Fernández-Álvarez and Rodríguez, 2023, "Module extraction and DLL hijacking detection via single or multiple memory dumps", FSI: Digital Investigation 44, 301505.

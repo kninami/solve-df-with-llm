@@ -1,9 +1,9 @@
 ---
-id: DFM-1125
+id: LWM-1125
 type: mitigation
 name: Pair DLAM with a traditional updatable fuzzy-hash blacklist for newly discovered files pending retraining
 source_refs:
-  - DFCite-1119
+  - LWCite-1119
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Run both detection paths in the operational workflow: add newly discovered black
 
 ## References
 
-- [DFCite-1119] Uhlig et al., 2023, "Combining AI and AM - Improving approximate matching through transformer networks", FSI: Digital Investigation 45.
+- [LWCite-1119] Uhlig et al., 2023, "Combining AI and AM - Improving approximate matching through transformer networks", FSI: Digital Investigation 45.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1218
+id: LWW-1218
 type: weakness
 name: MSSQL transaction log record carving fails when a record is fragmented across file-system clusters
 description: Because a deleted transaction log backup file's clusters can be reallocated non-contiguously by the file system, a single log record spanning a cluster boundary may be split across separated, non-adjacent unallocated regions, which signature-based carving of raw unallocated bytes cannot reassemble.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1218
+  - LWM-1218
 source_refs:
-  - DFCite-1229
+  - LWCite-1229
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ On a large, long-lived production volume, a very large number of byte sequences 
 
 ## References
 
-- [DFCite-1229] Choi and Lee, 2023, "Forensic analysis of SQL server transaction log in unallocated area of file system", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301605.
+- [LWCite-1229] Choi and Lee, 2023, "Forensic analysis of SQL server transaction log in unallocated area of file system", DFRWS 2023 APAC; FSI: Digital Investigation 46, 301605.

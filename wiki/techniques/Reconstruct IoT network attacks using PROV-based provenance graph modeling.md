@@ -1,19 +1,19 @@
 ---
-id: DFT-1294
+id: LWT-1294
 type: technique
 name: Reconstruct IoT network attacks using PROV-based provenance graph modeling
 description: Reconstruct and correlate evidence of a link-layer or network-layer attack against an IoT network by modeling the network's activity as a provenance graph — using the W3C PROV data model and PROV-TEMPLATE standard to represent nodes, interactions, and events — built from collected network traffic and provenance logs, then querying the resulting graph to extract an attack subgraph and its correlated forensic artifacts, addressing the correlation challenge that stealthy sub-application-layer attacks often go undetected by device- or platform-centric IoT forensic approaches.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1304
+  - LWW-1304
 aliases:
   - ProvLink-IoT
   - ProvNet-IoT
   - Link-IoT dataset
 source_refs:
-  - DFCite-1340
-  - DFCite-1341
+  - LWCite-1340
+  - LWCite-1341
 updated_at: 2026-08-15
 status: complete
 ---
@@ -43,5 +43,5 @@ Most existing IoT provenance-based forensic solutions are device-centric or plat
 
 ## References
 
-- [DFCite-1340] Sadineni, Pilli, and Battula, 2023, "ProvLink-IoT: A novel provenance model for Link-Layer Forensics in IoT networks", FSI: Digital Investigation 46, 301600.
-- [DFCite-1341] Sadineni, Pilli, and Battula, 2022, "ProvNet-IoT: Provenance based network layer forensics in Internet of Things", FSI: Digital Investigation 43, 301441.
+- [LWCite-1340] Sadineni, Pilli, and Battula, 2023, "ProvLink-IoT: A novel provenance model for Link-Layer Forensics in IoT networks", FSI: Digital Investigation 46, 301600.
+- [LWCite-1341] Sadineni, Pilli, and Battula, 2022, "ProvNet-IoT: Provenance based network layer forensics in Internet of Things", FSI: Digital Investigation 43, 301441.

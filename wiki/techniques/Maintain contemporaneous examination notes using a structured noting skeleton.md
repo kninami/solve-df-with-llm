@@ -1,17 +1,17 @@
 ---
-id: DFT-1128
+id: LWT-1128
 type: technique
 name: Maintain contemporaneous examination notes using a structured noting skeleton
 description: Record a digital forensic examination's actions, decisions, and findings at the time they occur, or as soon as possible after, using a structured content skeleton covering exhibit handling, case information, and each stage of the investigative workflow, to support later review, reporting, and disclosure.
 objective_ids:
   - DFO-1020
 weakness_ids:
-  - DFW-1131
+  - LWW-1131
 aliases:
   - Contemporaneous notes (CNs)
   - DF examination noting skeleton
 source_refs:
-  - DFCite-1128
+  - LWCite-1128
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ CNs are considered a "gold standard" over retrospective notes because practition
 
 ## References
 
-- [DFCite-1128] Horsman, 2021, "Contemporaneous notes for digital forensic examinations", FSI: Digital Investigation 37, 301173.
+- [LWCite-1128] Horsman, 2021, "Contemporaneous notes for digital forensic examinations", FSI: Digital Investigation 37, 301173.

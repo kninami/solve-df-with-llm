@@ -1,9 +1,9 @@
 ---
-id: DFM-1007
+id: LWM-1007
 type: mitigation
 name: Verify SQLite recovered records against RowID continuity and table timestamps
 source_refs:
-  - DFCite-1004
+  - LWCite-1004
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ For each carved record, check whether its RowID falls within the sequence range 
 
 ## References
 
-- [DFCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.
+- [LWCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.

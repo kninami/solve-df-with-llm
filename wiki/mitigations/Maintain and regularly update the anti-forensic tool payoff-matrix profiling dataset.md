@@ -1,9 +1,9 @@
 ---
-id: DFM-1040
+id: LWM-1040
 type: mitigation
 name: Maintain and regularly update the anti-forensic tool payoff-matrix profiling dataset
 source_refs:
-  - DFCite-1030
+  - LWCite-1030
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Establish a recurring process to identify newly released or newly relevant anti-
 
 ## References
 
-- [DFCite-1030] Shafiee Hasanabadi et al., 2021, "A memory-based game-theoretic defensive approach for digital forensic investigators", FSI: Digital Investigation 38.
+- [LWCite-1030] Shafiee Hasanabadi et al., 2021, "A memory-based game-theoretic defensive approach for digital forensic investigators", FSI: Digital Investigation 38.

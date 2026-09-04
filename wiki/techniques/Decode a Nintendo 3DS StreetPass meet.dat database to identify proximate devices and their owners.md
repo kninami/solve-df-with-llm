@@ -1,16 +1,16 @@
 ---
-id: DFT-1277
+id: LWT-1277
 type: technique
 name: Decode a Nintendo 3DS StreetPass meet.dat database to identify proximate devices and their owners
 description: Parse the Nintendo 3DS's StreetPass Mii Plaza NAND database file (meet.dat) to recover the MAC addresses, System IDs, and Mii-creation timestamps of other consoles that have physically passed within Wi-Fi range of the device, establishing evidence that two specific consoles (and their owners) were once in close physical proximity.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1287
+  - LWW-1287
 aliases:
   - meet.dat StreetPass Mii Plaza decoding
 source_refs:
-  - DFCite-1318
+  - LWCite-1318
 updated_at: 2026-08-15
 status: complete
 ---
@@ -39,4 +39,4 @@ StreetPass passively exchanges Mii avatar data between Nintendo 3DS consoles tha
 
 ## References
 
-- [DFCite-1318] Read, Xynos, Sutherland, Bovee, and Tamburro, 2024, "Nintendo 3DS forensics: A secondhand case study", FSI: Digital Investigation 50, 301815.
+- [LWCite-1318] Read, Xynos, Sutherland, Bovee, and Tamburro, 2024, "Nintendo 3DS forensics: A secondhand case study", FSI: Digital Investigation 50, 301815.

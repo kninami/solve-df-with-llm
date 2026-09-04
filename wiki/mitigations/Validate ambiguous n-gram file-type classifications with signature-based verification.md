@@ -1,10 +1,10 @@
 ---
-id: DFM-1005
+id: LWM-1005
 type: mitigation
 name: Validate ambiguous n-gram file-type classifications with signature-based verification
 source_refs:
-  - DFCite-1003
-  - DFCite-1211
+  - LWCite-1003
+  - LWCite-1211
 updated_at: 2026-08-13
 status: complete
 ---
@@ -25,5 +25,5 @@ When an n-gram classifier assigns a file fragment to a type known to be part of 
 
 ## References
 
-- [DFCite-1003] Sester et al., 2021, "A comparative study of support vector machine and neural networks for file type identification using n-gram analysis", FSI: Digital Investigation 36.
-- [DFCite-1211] Dubettier et al., 2023, "File type identification tools for digital investigations", FSI: Digital Investigation 46, 301574.
+- [LWCite-1003] Sester et al., 2021, "A comparative study of support vector machine and neural networks for file type identification using n-gram analysis", FSI: Digital Investigation 36.
+- [LWCite-1211] Dubettier et al., 2023, "File type identification tools for digital investigations", FSI: Digital Investigation 46, 301574.

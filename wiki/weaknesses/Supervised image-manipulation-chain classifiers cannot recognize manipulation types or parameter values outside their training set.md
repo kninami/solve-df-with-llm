@@ -1,14 +1,14 @@
 ---
-id: DFW-1209
+id: LWW-1209
 type: weakness
 name: Supervised image-manipulation-chain classifiers cannot recognize manipulation types or parameter values outside their training set
 description: A supervised manipulation-operator-chain classifier is trained on a fixed, closed set of manipulation types (e.g. median filtering, Gaussian blur, resampling) and specific parameter values (e.g. particular kernel sizes or quality factors) for each, and has no mechanism for correctly classifying, or flagging as unrecognized, an image edited with a manipulation type or parameter value it was not trained on.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1209
+  - LWM-1209
 source_refs:
-  - DFCite-1222
+  - LWCite-1222
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on this class of classifier to reconstruct an image's ed
 
 ## References
 
-- [DFCite-1222] Kadha et al., 2023, "Forensic analysis of manipulation chains: A deep residual network for detecting JPEG-manipulation-JPEG", FSI: Digital Investigation 47.
+- [LWCite-1222] Kadha et al., 2023, "Forensic analysis of manipulation chains: A deep residual network for detecting JPEG-manipulation-JPEG", FSI: Digital Investigation 47.

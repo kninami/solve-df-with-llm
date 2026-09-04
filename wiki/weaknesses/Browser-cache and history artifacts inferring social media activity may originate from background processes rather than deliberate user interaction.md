@@ -1,5 +1,5 @@
 ---
-id: DFW-2066
+id: LWW-2066
 type: weakness
 name: Browser-cache and history artifacts inferring social media activity may originate from background processes rather than deliberate user interaction
 description: A browser cache or history entry indicating social media activity (a URL visit, a page load, or cached content) does not by itself prove the user deliberately viewed, shared, or interacted with that content, since the same artifacts can be created by background processes, caching mechanisms, or automatic page prefetching without any conscious user action.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_AS
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2067
+  - LWM-2067
 source_refs:
-  - DFCite-2070
+  - LWCite-2070
 updated_at: 2026-08-15
 status: complete
 ---
@@ -34,4 +34,4 @@ If an investigator treats a browser-cache artifact indicating the presence of a 
 
 ## References
 
-- [DFCite-2070] David, Morris & Appleby-Thomas, 2021, "Social Media User Relationship Framework (SMURF)", JDFSL 16(1). States explicitly that background processes and browser caching/web storage can create artefacts of content "the user has not interacted with," and that context and corroboration are necessary when assessing relevance and reliability.
+- [LWCite-2070] David, Morris & Appleby-Thomas, 2021, "Social Media User Relationship Framework (SMURF)", JDFSL 16(1). States explicitly that background processes and browser caching/web storage can create artefacts of content "the user has not interacted with," and that context and corroboration are necessary when assessing relevance and reliability.

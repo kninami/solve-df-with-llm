@@ -1,14 +1,14 @@
 ---
-id: DFW-1301
+id: LWW-1301
 type: weakness
 name: Auto-vacuum-enabled wearable companion-app databases permanently destroy deleted notification and activity records
 description: A wearable companion app's SQLite database configured with PRAGMA auto_vacuum set to FULL reclaims deleted-row storage immediately and continuously, rather than leaving deleted-record remnants in free pages or a rollback journal, so standard SQLite deleted-record recovery methods that rely on scanning freeblocks, freelists, or WAL frames find nothing to recover from an old, rotated-out notification or activity record.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1303
+  - LWM-1303
 source_refs:
-  - DFCite-1335
+  - LWCite-1335
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator applying standard SQLite deleted-record recovery techniques (fre
 
 ## References
 
-- [DFCite-1335] Nunes, Domingues, and Frade, 2023, "Post-mortem digital forensic analysis of the Garmin Connect application for Android", FSI: Digital Investigation 47, 301624.
+- [LWCite-1335] Nunes, Domingues, and Frade, 2023, "Post-mortem digital forensic analysis of the Garmin Connect application for Android", FSI: Digital Investigation 47, 301624.

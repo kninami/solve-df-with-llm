@@ -1,16 +1,16 @@
 ---
-id: DFT-1251
+id: LWT-1251
 type: technique
 name: Detect deepfakes using 3D convolutional spatio-temporal feature learning
 description: Stack a consecutive sequence of extracted face-region frames into a single 3-dimensional volume and classify it with a 3D convolutional neural network, letting the network learn spatial and temporal inconsistencies jointly rather than analyzing individual frames separately or bolting a recurrent layer onto a 2D-CNN's per-frame features.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1265
+  - LWW-1265
 aliases:
   - 3D-CNN spatio-temporal deepfake detection
 source_refs:
-  - DFCite-1291
+  - LWCite-1291
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ The face region is extracted from each frame at a consistent spatial location ac
 
 ## References
 
-- [DFCite-1291] Nguyen, Tran, Le, Nguyen and Truong, 2021, "Learning Spatio-temporal features to detect manipulated facial videos created by the Deepfake techniques", FSI: Digital Investigation 36, 301108.
+- [LWCite-1291] Nguyen, Tran, Le, Nguyen and Truong, 2021, "Learning Spatio-temporal features to detect manipulated facial videos created by the Deepfake techniques", FSI: Digital Investigation 36, 301108.

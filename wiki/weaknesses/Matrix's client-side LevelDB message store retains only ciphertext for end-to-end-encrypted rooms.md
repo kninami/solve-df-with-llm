@@ -1,14 +1,14 @@
 ---
-id: DFW-1210
+id: LWW-1210
 type: weakness
 name: Matrix's client-side LevelDB message store retains only ciphertext for end-to-end-encrypted rooms
 description: The Riot.im client's primary LevelDB local storage records message events for encrypted rooms only in their encrypted form, so message content cannot be searched or read from this store alone without also recovering the relevant Megolm session/device keys, leaving investigators dependent on a secondary, less consistently available data source.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1210
+  - LWM-1210
 source_refs:
-  - DFCite-1223
+  - LWCite-1223
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who parses only the LevelDB store will recover a complete record
 
 ## References
 
-- [DFCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.
+- [LWCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.

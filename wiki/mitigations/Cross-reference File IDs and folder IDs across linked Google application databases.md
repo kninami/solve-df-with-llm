@@ -1,9 +1,9 @@
 ---
-id: DFM-1012
+id: LWM-1012
 type: mitigation
 name: Cross-reference File IDs and folder IDs across linked Google application databases
 source_refs:
-  - DFCite-1006
+  - LWCite-1006
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When investigating a file found in Google Drive, check Chrome's records for a ma
 
 ## References
 
-- [DFCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.
+- [LWCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.

@@ -1,5 +1,5 @@
 ---
-id: DFT-1266
+id: LWT-1266
 type: technique
 name: Decrypt Samsung Smart Switch backup data using reverse-engineered key-derivation algorithms
 description: Recover the plaintext contents of a Samsung Smart Switch PC/Mac backup by combining static analysis (decompiling the mobile APK and PC/Mac binaries to identify each backup file category's encryption function and key-derivation algorithm) with dynamic analysis (tracing actual runtime parameter values during a live backup) to reconstruct the exact per-file-type decryption algorithm and, where the backup was PIN-protected, brute-force the user's PIN using the recovered key-derivation function.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1018
   - DFO-1016
 weakness_ids:
-  - DFW-1277
+  - LWW-1277
 aliases:
   - Smart Switch backup decryption
 source_refs:
-  - DFCite-1305
+  - LWCite-1305
 updated_at: 2026-08-14
 status: complete
 ---
@@ -42,4 +42,4 @@ Static analysis decompiles the mobile Smart Switch APK (via JEB Decompiler) and 
 
 ## References
 
-- [DFCite-1305] Kang, Kim, Park and Kim, 2021, "Methods for decrypting the data encrypted by the latest Samsung smartphone backup programs in Windows and macOS", FSI: Digital Investigation 39, 301310.
+- [LWCite-1305] Kang, Kim, Park and Kim, 2021, "Methods for decrypting the data encrypted by the latest Samsung smartphone backup programs in Windows and macOS", FSI: Digital Investigation 39, 301310.

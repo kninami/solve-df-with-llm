@@ -1,14 +1,14 @@
 ---
-id: DFW-1108
+id: LWW-1108
 type: weakness
 name: Metadata, quantization-table, and compression-statistic authenticity checks fail to detect firmware-reprocessed tampered images
 description: Standard image-authenticity checks that examine Exif/metadata consistency, JPEG quantization table compatibility, and DCT compression statistics conclude that a tampered image is a genuine, unaltered native capture whenever the tampered content has been reprocessed through the claimed source camera's own firmware, because the resulting traces are genuinely, not merely simulated, native to that camera.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1108
+  - LWM-1108
 source_refs:
-  - DFCite-1102
+  - LWCite-1102
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who relies on metadata, quantization-table, or compression-stati
 
 ## References
 
-- [DFCite-1102] Baracchi et al., 2021, "Camera Obscura: Exploiting in-camera processing for image counter forensics", FSI: Digital Investigation 38.
+- [LWCite-1102] Baracchi et al., 2021, "Camera Obscura: Exploiting in-camera processing for image counter forensics", FSI: Digital Investigation 38.

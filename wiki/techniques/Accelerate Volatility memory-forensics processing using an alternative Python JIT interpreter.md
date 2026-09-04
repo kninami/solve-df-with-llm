@@ -1,16 +1,16 @@
 ---
-id: DFT-1280
+id: LWT-1280
 type: technique
 name: Accelerate Volatility memory-forensics processing using an alternative Python JIT interpreter
 description: Reduce the wall-clock time needed to run a search-intensive Volatility Framework plugin against large memory samples by substituting the standard CPython interpreter with a Just-In-Time (JIT) Python interpreter such as PyPy, without modifying Volatility's own code, and use a containerized monitoring framework to measure and validate the resulting performance gain in a controlled, reproducible way.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1290
+  - LWW-1290
 aliases:
   - FAME (Framework for Advanced Monitoring and Execution)
 source_refs:
-  - DFCite-1321
+  - LWCite-1321
 updated_at: 2026-08-15
 status: complete
 ---
@@ -39,4 +39,4 @@ Four Python interpreters (CPython as baseline, Pyston, PyPy, and Pyjion) were ea
 
 ## References
 
-- [DFCite-1321] Gharaibeh, Baggili, and Mahmoud, 2024, "On enhancing memory forensics with FAME: Framework for advanced monitoring and execution", FSI: Digital Investigation 49, 301757.
+- [LWCite-1321] Gharaibeh, Baggili, and Mahmoud, 2024, "On enhancing memory forensics with FAME: Framework for advanced monitoring and execution", FSI: Digital Investigation 49, 301757.

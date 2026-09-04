@@ -1,5 +1,5 @@
 ---
-id: DFT-2089
+id: LWT-2089
 type: technique
 name: Reconstruct a device provenance timeline from Apple Health database synchronization records
 description: Parse an iPhone's Apple Health SQLite database's `data_provenances` table to build a timeline of every distinct device and firmware version that has ever synced health data into the health record tied to a single Apple ID, letting an investigator attribute specific health data points to the device that generated them, cross-validate a device's claimed usage period, and discover the existence of other devices (e.g. an Apple Watch, or a second iPhone) linked to a suspect's account that may not otherwise be known to the investigation.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1001
   - DFO-1008
 weakness_ids:
-  - DFW-2092
+  - LWW-2092
 aliases:
   - Apple Health data_provenances timeline reconstruction
 source_refs:
-  - DFCite-2108
+  - LWCite-2108
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,4 +42,4 @@ The `data_provenances` table stores, for each provenance entry, a device identif
 
 ## References
 
-- [DFCite-2108] "The provenance of Apple Health data: A timeline of update history", FSI: Digital Investigation 48, 2024.
+- [LWCite-2108] "The provenance of Apple Health data: A timeline of update history", FSI: Digital Investigation 48, 2024.

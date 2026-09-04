@@ -1,14 +1,14 @@
 ---
-id: DFW-1211
+id: LWW-1211
 type: weakness
 name: Matrix protocol unsigned timestamp and transaction fields can be altered after message-event signing without detection
 description: The Matrix message-event `unsigned` JSON object, which holds the `age` and `transaction_id` fields, is deliberately excluded from the event's cryptographic signing process, so its contents can in principle be modified after the event was originally created and signed without invalidating the event or leaving a visible sign of tampering.
 categories:
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-1211
+  - LWM-1211
 source_refs:
-  - DFCite-1223
+  - LWCite-1223
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Because `age` and `transaction_id` are not part of the signed content, an invest
 
 ## References
 
-- [DFCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.
+- [LWCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.

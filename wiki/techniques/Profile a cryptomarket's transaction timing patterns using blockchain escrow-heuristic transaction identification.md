@@ -1,16 +1,16 @@
 ---
-id: DFT-1135
+id: LWT-1135
 type: technique
 name: Profile a cryptomarket's transaction timing patterns using blockchain escrow-heuristic transaction identification
 description: Identify a darknet cryptomarket's escrow-related Bitcoin transactions using address-clustering and escrow-flow heuristics applied to the public blockchain, then aggregate the resulting transaction timestamps by hour of day and day of week to reconstruct when the marketplace's users are actually most active, without relying on web-scraped listing data.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1138
+  - LWW-1138
 aliases:
   - Bitcoin-transaction-based measurement of cryptomarket activity timing
 source_refs:
-  - DFCite-1136
+  - LWCite-1136
 updated_at: 2026-08-12
 status: complete
 ---
@@ -39,4 +39,4 @@ The method starts from a small set of publicly known marketplace-owned addresses
 
 ## References
 
-- [DFCite-1136] Tsuchiya and Hiramoto, 2021, "Dark web in the dark: Investigating when transactions take place on cryptomarkets", FSI: Digital Investigation 36.
+- [LWCite-1136] Tsuchiya and Hiramoto, 2021, "Dark web in the dark: Investigating when transactions take place on cryptomarkets", FSI: Digital Investigation 36.

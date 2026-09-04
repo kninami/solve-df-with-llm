@@ -1,5 +1,5 @@
 ---
-id: DFW-2105
+id: LWW-2105
 type: weakness
 name: Microphone-classification accuracy can conflate the microphone's own fingerprint with the connected recording device's fingerprint
 description: When a microphone-classification dataset's classes are constructed from microphones each connected to a different recording device (mixer, sound card, or other hardware), a classifier's high accuracy cannot be confidently attributed to the microphone's own acoustic fingerprint alone, since the connected recording device may itself introduce a distinguishing electronic signature that the classifier could be learning instead of, or in addition to, the microphone's actual characteristics.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_AS
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2106
+  - LWM-2106
 source_refs:
-  - DFCite-2124
+  - LWCite-2124
 updated_at: 2026-08-16
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator or researcher relying on a microphone-classification result deri
 
 ## References
 
-- [DFCite-2124] Qamhan, Alotaibi, and Selouani, 2023, "Transformer for authenticating the source microphone in digital audio forensics", FSI: Digital Investigation 45, 301539.
+- [LWCite-2124] Qamhan, Alotaibi, and Selouani, 2023, "Transformer for authenticating the source microphone in digital audio forensics", FSI: Digital Investigation 45, 301539.

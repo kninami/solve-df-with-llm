@@ -1,9 +1,9 @@
 ---
-id: DFM-1080
+id: LWM-1080
 type: mitigation
 name: Corroborate IoT interconnectivity gaps with server-side, network, or other independent evidence sources
 source_refs:
-  - DFCite-1070
+  - LWCite-1070
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ When investigative context (e.g. a suspect's known device inventory or prior sta
 
 ## References
 
-- [DFCite-1070] Kim et al., 2022, "An improved IoT forensic model to identify interconnectivity between things", FSI: Digital Investigation 44.
+- [LWCite-1070] Kim et al., 2022, "An improved IoT forensic model to identify interconnectivity between things", FSI: Digital Investigation 44.

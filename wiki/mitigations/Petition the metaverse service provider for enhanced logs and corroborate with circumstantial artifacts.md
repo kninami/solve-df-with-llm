@@ -1,9 +1,9 @@
 ---
-id: DFM-1165
+id: LWM-1165
 type: mitigation
 name: Petition the metaverse service provider for enhanced logs and corroborate with circumstantial artifacts
 source_refs:
-  - DFCite-1167
+  - LWCite-1167
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Document the coarse but real evidence available (which world was joined, when, b
 
 ## References
 
-- [DFCite-1167] Kim et al., 2023, "Digital forensic approaches for metaverse ecosystems", FSI: Digital Investigation 46, 301608.
+- [LWCite-1167] Kim et al., 2023, "Digital forensic approaches for metaverse ecosystems", FSI: Digital Investigation 46, 301608.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1148
+id: LWM-1148
 type: mitigation
 name: Cross-check DBMS audit logs against memory-cache access-pattern evidence to detect disabled logging
 source_refs:
-  - DFCite-1144
+  - LWCite-1144
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ As early as possible in a suspected-breach or insider-misuse investigation, acqu
 
 ## References
 
-- [DFCite-1144] Wagner, Nissan and Rasin, 2023, "Database memory forensics: Identifying cache patterns for log verification", FSI: Digital Investigation 45.
+- [LWCite-1144] Wagner, Nissan and Rasin, 2023, "Database memory forensics: Identifying cache patterns for log verification", FSI: Digital Investigation 45.

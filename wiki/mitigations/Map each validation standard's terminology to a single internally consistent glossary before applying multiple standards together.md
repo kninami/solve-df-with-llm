@@ -1,9 +1,9 @@
 ---
-id: DFM-2095
+id: LWM-2095
 type: mitigation
 name: Map each validation standard's terminology to a single internally consistent glossary before applying multiple standards together
 source_refs:
-  - DFCite-2111
+  - LWCite-2111
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Before or during adoption of a validation process that draws on multiple standar
 
 ## References
 
-- [DFCite-2111] Marshall, Angus M., 2022, "The unwanted effects of imprecise language in forensic science standards", FSI: Digital Investigation 40, 301349.
+- [LWCite-2111] Marshall, Angus M., 2022, "The unwanted effects of imprecise language in forensic science standards", FSI: Digital Investigation 40, 301349.

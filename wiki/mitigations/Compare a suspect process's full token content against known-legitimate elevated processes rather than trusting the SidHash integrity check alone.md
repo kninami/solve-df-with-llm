@@ -1,9 +1,9 @@
 ---
-id: DFM-2072
+id: LWM-2072
 type: mitigation
 name: Compare a suspect process's full token content against known-legitimate elevated processes rather than trusting the SidHash integrity check alone
 source_refs:
-  - DFCite-2076
+  - LWCite-2076
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ During memory forensic analysis of a system suspected of a local privilege escal
 
 ## References
 
-- [DFCite-2076] Korkin, 2021, "Windows Kernel Hijacking Is Not an Option: MemoryRanger Comes to the Rescue Again", JDFSL 16(4). Documents the exact `_TOKEN` fields (UserAndGroupCount, UserAndGroups, SidHash) the Token Hijacking attack copies from a higher-privileged process, which is the same content this mitigation directs an investigator to compare across processes.
+- [LWCite-2076] Korkin, 2021, "Windows Kernel Hijacking Is Not an Option: MemoryRanger Comes to the Rescue Again", JDFSL 16(4). Documents the exact `_TOKEN` fields (UserAndGroupCount, UserAndGroups, SidHash) the Token Hijacking attack copies from a higher-privileged process, which is the same content this mitigation directs an investigator to compare across processes.

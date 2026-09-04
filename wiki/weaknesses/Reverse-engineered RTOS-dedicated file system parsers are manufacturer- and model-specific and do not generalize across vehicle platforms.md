@@ -1,14 +1,14 @@
 ---
-id: DFW-1084
+id: LWW-1084
 type: weakness
 name: Reverse-engineered RTOS-dedicated file system parsers are manufacturer- and model-specific and do not generalize across vehicle platforms
 description: The reverse-engineered structure and parsing method developed for one manufacturer's RTOS-dedicated built-in-camera file system (Hyundai/KIA/GENESIS DVRS) does not automatically transfer to other manufacturers' or models' dedicated file systems, since each vehicle manufacturer designs its own proprietary real-time file system, and vehicle operating systems are becoming increasingly manufacturer-specific (e.g. Mercedes-Benz's MB.OS, BMW's Operating System 8, VW's vw.os, Hyundai's ccOS).
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1084
+  - LWM-1084
 source_refs:
-  - DFCite-1074
+  - LWCite-1074
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who successfully applies this reverse-engineered parsing method 
 
 ## References
 
-- [DFCite-1074] Lee et al., 2023, "Analysis of real-time operating systems' file systems: Built-in cameras from vehicles", FSI: Digital Investigation 44.
+- [LWCite-1074] Lee et al., 2023, "Analysis of real-time operating systems' file systems: Built-in cameras from vehicles", FSI: Digital Investigation 44.

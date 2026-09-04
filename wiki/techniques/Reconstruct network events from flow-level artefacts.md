@@ -1,5 +1,5 @@
 ---
-id: DFT-1017
+id: LWT-1017
 type: technique
 name: Reconstruct network events from flow-level artefacts
 description: Reconstruct attack timelines and prioritize suspicious traffic from network flow-level metadata alone (temporal, volume, statistical, and protocol-level features), without packet payload access, using cumulative inter-arrival time for relative timeline reconstruction and a lightweight classifier for triage.
@@ -7,13 +7,13 @@ objective_ids:
   - DFO-1001
   - DFO-1005
 weakness_ids:
-  - DFW-1017
+  - LWW-1017
 aliases:
   - Flow-level network artefact forensic reconstruction
   - IoMT network traffic temporal reconstruction
   - flow-level forensic artefact profiling
 source_refs:
-  - DFCite-1011
+  - LWCite-1011
 updated_at: 2026-08-09
 status: complete
 ---
@@ -43,4 +43,4 @@ Temporal reconstruction builds a synthetic timeline per traffic class by cumulat
 
 ## References
 
-- [DFCite-1011] Dias and Rao, 2026, "A forensic analysis framework for IoMT network traffic using temporal reconstruction and artefact profiling", FSI: Digital Investigation 57.
+- [LWCite-1011] Dias and Rao, 2026, "A forensic analysis framework for IoMT network traffic using temporal reconstruction and artefact profiling", FSI: Digital Investigation 57.

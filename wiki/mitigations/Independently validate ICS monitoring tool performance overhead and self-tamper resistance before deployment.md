@@ -1,9 +1,9 @@
 ---
-id: DFM-1056
+id: LWM-1056
 type: mitigation
 name: Independently validate ICS monitoring tool performance overhead and self-tamper resistance before deployment
 source_refs:
-  - DFCite-1046
+  - LWCite-1046
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Run a resource-overhead assessment (CPU, memory, disk I/O impact) of the monitor
 
 ## References
 
-- [DFCite-1046] Shin et al., 2022, "A study on command block collection and restoration techniques through detection of project file manipulation on engineering workstation of industrial control system", FSI: Digital Investigation 40.
+- [LWCite-1046] Shin et al., 2022, "A study on command block collection and restoration techniques through detection of project file manipulation on engineering workstation of industrial control system", FSI: Digital Investigation 40.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1038
+id: LWT-1038
 type: technique
 name: Select a pre-trained model for forensic image content classification
 description: Build a digital forensic image-classification tool by directly integrating an existing general-purpose, pre-trained computer vision model (rather than training or fine-tuning a new one), selecting among candidate models using a weighted decision matrix built from forensically relevant performance metrics rather than published general-purpose benchmark accuracy alone.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1039
+  - LWW-1039
 aliases:
   - Pre-trained model selection for forensic image content classification
 source_refs:
-  - DFCite-1029
+  - LWCite-1029
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ Candidate pre-trained models are first evaluated on a balanced, forensically-lab
 
 ## References
 
-- [DFCite-1029] Del Mar-Raave et al., 2021, "A machine learning-based forensic tool for image classification - A design science approach", FSI: Digital Investigation 38.
+- [LWCite-1029] Del Mar-Raave et al., 2021, "A machine learning-based forensic tool for image classification - A design science approach", FSI: Digital Investigation 38.

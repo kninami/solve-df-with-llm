@@ -1,14 +1,14 @@
 ---
-id: DFW-1017
+id: LWW-1017
 type: weakness
 name: Flow-level-only IoMT reconstruction cannot correlate with absolute timestamps or payload evidence
 description: Because flow-level network forensic reconstruction uses cumulative inter-arrival time to build a relative synthetic timeline rather than absolute timestamps, and deliberately excludes packet payload inspection, it cannot be directly correlated with externally time-stamped events, system logs, or application-layer attack characteristics such as malformed payloads or protocol violations.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1017
+  - LWM-1017
 source_refs:
-  - DFCite-1011
+  - LWCite-1011
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ A relative, synthetic timeline cannot be directly cross-referenced against other
 
 ## References
 
-- [DFCite-1011] Dias and Rao, 2026, "A forensic analysis framework for IoMT network traffic using temporal reconstruction and artefact profiling", FSI: Digital Investigation 57.
+- [LWCite-1011] Dias and Rao, 2026, "A forensic analysis framework for IoMT network traffic using temporal reconstruction and artefact profiling", FSI: Digital Investigation 57.

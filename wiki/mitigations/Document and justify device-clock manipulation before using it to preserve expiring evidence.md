@@ -1,9 +1,9 @@
 ---
-id: DFM-1207
+id: LWM-1207
 type: mitigation
 name: Document and justify device-clock manipulation before using it to preserve expiring evidence
 source_refs:
-  - DFCite-1218
+  - LWCite-1218
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Before changing a device's clock, first attempt to capture the at-risk content t
 
 ## References
 
-- [DFCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.
+- [LWCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.

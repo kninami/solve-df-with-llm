@@ -1,16 +1,16 @@
 ---
-id: DFT-2059
+id: LWT-2059
 type: technique
 name: Extract embedded picture files from documents and disk images using format-aware carving
 description: Recover picture files embedded inside office documents, PDFs/EPUBs, and raw container formats (disk images, ISO, log, and packet-capture files) by applying the extraction method appropriate to each container's structure, rather than a single generic carving pass.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-2059
+  - LWW-2059
 aliases:
   - SynFO file-in-file extraction
 source_refs:
-  - DFCite-2059
+  - LWCite-2059
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ The method builds a per-container-type extraction pipeline: header/footer signat
 
 ## References
 
-- [DFCite-2059] Gogia & Rughani, 2023, "An ML Based Digital Forensics Software for Triage Analysis Through Face Recognition", JDFSL, Manuscript 1772. Source of the per-container-type (header/footer carving vs. Zip extraction vs. PDF/EPUB library reading) embedded-picture extraction methodology.
+- [LWCite-2059] Gogia & Rughani, 2023, "An ML Based Digital Forensics Software for Triage Analysis Through Face Recognition", JDFSL, Manuscript 1772. Source of the per-container-type (header/footer carving vs. Zip extraction vs. PDF/EPUB library reading) embedded-picture extraction methodology.

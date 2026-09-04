@@ -1,9 +1,9 @@
 ---
-id: DFM-1211
+id: LWM-1211
 type: mitigation
 name: Treat Matrix unsigned object fields as corroborating evidence only, not as authoritative on their own
 source_refs:
-  - DFCite-1223
+  - LWCite-1223
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ When reconstructing a Matrix conversation timeline, anchor conclusions about whe
 
 ## References
 
-- [DFCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.
+- [LWCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.

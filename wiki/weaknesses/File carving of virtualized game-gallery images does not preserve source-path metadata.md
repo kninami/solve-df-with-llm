@@ -1,14 +1,14 @@
 ---
-id: DFW-1110
+id: LWW-1110
 type: weakness
 name: File carving of virtualized game-gallery images does not preserve source-path metadata
 description: When gated media-gallery images are recovered via file carving rather than direct extraction from a known application path, the carved output has no associated metadata linking each image back to the specific game, archive, or in-application location it originated from, so provenance must be reconstructed separately.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1110
+  - LWM-1110
 source_refs:
-  - DFCite-1105
+  - LWCite-1105
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who carves out media files from a suspect archive or executable 
 
 ## References
 
-- [DFCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.
+- [LWCite-1105] Jaeckel and Labudde, 2026, "Case note: Digital forensic challenges through synthetic CSAM in video games", FSI: Digital Investigation 57.

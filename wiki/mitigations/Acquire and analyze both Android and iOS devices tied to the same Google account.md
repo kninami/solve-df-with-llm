@@ -1,9 +1,9 @@
 ---
-id: DFM-1011
+id: LWM-1011
 type: mitigation
 name: Acquire and analyze both Android and iOS devices tied to the same Google account
 source_refs:
-  - DFCite-1006
+  - LWCite-1006
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ During scene assessment, identify whether the suspect used a Google account on m
 
 ## References
 
-- [DFCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.
+- [LWCite-1006] Park et al., 2025, "A comprehensive artifact analysis of Google applications on Android and iOS platforms", FSI: Digital Investigation 55.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2029
+id: LWW-2029
 type: weakness
 name: ENF extraction reliability collapses under certain video lighting-compression combinations and during recorder movement
 description: ENF signal extraction from video degrades sharply or fails outright under specific illumination-source and compression combinations (e.g. compact fluorescent lighting at low bitrates), and ENF extraction from audio loses correlation with the true reference signal when the recording device is physically moved during capture due to Doppler-like and air-pressure effects.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2029
+  - LWM-2029
 source_refs:
-  - DFCite-2029
+  - LWCite-2029
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator relying on ENF-based verification for video evidence captured un
 
 ## References
 
-- [DFCite-2029] Ngharamike et al., 2023 — Section V.B discusses the LED-vs-CFL and compression-bitrate ENF-detection study, and Section VII.D.2 discusses the recorder-movement/Doppler-effect experiment and its impact on ENF trace quality.
+- [LWCite-2029] Ngharamike et al., 2023 — Section V.B discusses the LED-vs-CFL and compression-bitrate ENF-detection study, and Section VII.D.2 discusses the recorder-movement/Doppler-effect experiment and its impact on ENF trace quality.

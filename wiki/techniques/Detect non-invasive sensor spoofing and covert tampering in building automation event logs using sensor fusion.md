@@ -1,17 +1,17 @@
 ---
-id: DFT-2086
+id: LWT-2086
 type: technique
 name: Detect non-invasive sensor spoofing and covert tampering in building automation event logs using sensor fusion
 description: Cross-reference event log records from multiple independent sensor types covering the same physical space in a building automation and control system (BACS) or home automation system (HAS) -- e.g. a PIR (passive infrared) motion sensor alongside a CO2 sensor -- to detect non-invasive spoofing (injecting false presence events) or covert evasion (avoiding triggering a sensor while physically present) that a single sensor type's log alone would not reveal.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-2084
+  - LWW-2084
 aliases:
   - Ghost in the building
   - BACS/HAS non-invasive attack detection via sensor fusion
 source_refs:
-  - DFCite-2104
+  - LWCite-2104
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,4 +42,4 @@ Attacks against BACS/HAS sensors are non-invasive when they do not cause physica
 
 ## References
 
-- [DFCite-2104] Bengtsson, Johnny, 2025, "The ghost in the building: Non-invasive spoofing and covert attacks on automated buildings", FSI: Digital Investigation 52, 301880.
+- [LWCite-2104] Bengtsson, Johnny, 2025, "The ghost in the building: Non-invasive spoofing and covert attacks on automated buildings", FSI: Digital Investigation 52, 301880.

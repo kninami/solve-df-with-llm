@@ -1,9 +1,9 @@
 ---
-id: DFM-2075
+id: LWM-2075
 type: mitigation
 name: Validate live-acquired forensic images using multiple hash algorithms and container-level provenance metadata
 source_refs:
-  - DFCite-2080
+  - LWCite-2080
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Compute more than one hash (e.g. MD5, SHA1, and a collision-resistant algorithm 
 
 ## References
 
-- [DFCite-2080] Faust, Thierry, Müller, and Freiling, 2021, "Selective Imaging of File System Data on Live Systems", FSI: Digital Investigation 36, 301115.
+- [LWCite-2080] Faust, Thierry, Müller, and Freiling, 2021, "Selective Imaging of File System Data on Live Systems", FSI: Digital Investigation 36, 301115.

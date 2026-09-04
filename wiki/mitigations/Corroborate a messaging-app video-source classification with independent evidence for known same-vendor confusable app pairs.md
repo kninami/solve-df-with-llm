@@ -1,9 +1,9 @@
 ---
-id: DFM-2122
+id: LWM-2122
 type: mitigation
 name: Corroborate a messaging-app video-source classification with independent evidence for known same-vendor confusable app pairs
 source_refs:
-  - DFCite-2144
+  - LWCite-2144
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Consult the classifier's published confusion matrix (or generate one for the spe
 
 ## References
 
-- [DFCite-2144] Yang, Kim, and Park, 2024, "Video source identification using machine learning: A case study of 16 instant messaging applications", FSI: Digital Investigation 50, 301812.
+- [LWCite-2144] Yang, Kim, and Park, 2024, "Video source identification using machine learning: A case study of 16 instant messaging applications", FSI: Digital Investigation 50, 301812.

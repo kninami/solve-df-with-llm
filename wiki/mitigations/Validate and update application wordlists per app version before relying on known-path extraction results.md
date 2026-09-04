@@ -1,9 +1,9 @@
 ---
-id: DFM-1072
+id: LWM-1072
 type: mitigation
 name: Validate and update application wordlists per app version before relying on known-path extraction results
 source_refs:
-  - DFCite-1062
+  - LWCite-1062
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Record the target application's version during acquisition, and check or update 
 
 ## References
 
-- [DFCite-1062] Johnson et al., 2022, "Alt-tech social forensics: Forensic analysis of alternative social networking applications", FSI: Digital Investigation 42.
+- [LWCite-1062] Johnson et al., 2022, "Alt-tech social forensics: Forensic analysis of alternative social networking applications", FSI: Digital Investigation 42.

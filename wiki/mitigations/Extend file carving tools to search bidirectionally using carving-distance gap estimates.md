@@ -1,9 +1,9 @@
 ---
-id: DFM-1014
+id: LWM-1014
 type: mitigation
 name: Extend file carving tools to search bidirectionally using carving-distance gap estimates
 source_refs:
-  - DFCite-1008
+  - LWCite-1008
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When developing or selecting a file carver for NTFS-formatted evidence, confirm 
 
 ## References
 
-- [DFCite-1008] van der Meer et al., 2021, "A contemporary investigation of NTFS file fragmentation", FSI: Digital Investigation 38.
+- [LWCite-1008] van der Meer et al., 2021, "A contemporary investigation of NTFS file fragmentation", FSI: Digital Investigation 38.

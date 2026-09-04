@@ -1,9 +1,9 @@
 ---
-id: DFM-1102
+id: LWM-1102
 type: mitigation
 name: Treat background-noise-derived environment inferences with more caution than speech-based results and corroborate independently
 source_refs:
-  - DFCite-1096
+  - LWCite-1096
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Report background-noise-based environment classifications with an explicit confi
 
 ## References
 
-- [DFCite-1096] Li et al., 2022, "BlackFeather: A framework for background noise forensics", FSI: Digital Investigation 42.
+- [LWCite-1096] Li et al., 2022, "BlackFeather: A framework for background noise forensics", FSI: Digital Investigation 42.

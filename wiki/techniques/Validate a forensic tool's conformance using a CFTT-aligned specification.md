@@ -1,21 +1,21 @@
 ---
-id: DFT-1171
+id: LWT-1171
 type: technique
 name: Validate a forensic tool's conformance using a CFTT-aligned specification
 description: Systematically test a forensic tool's conformance to defined artifact-category requirements and test assertions for a specific discipline (e.g., drone forensics, image forensics), using a specification and test-case methodology modeled on NIST's Computer Forensics Tool Testing (CFTT) program, before relying on the tool's output in an investigation.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1178
-  - DFW-2071
+  - LWW-1178
+  - LWW-2071
 aliases:
   - CFTT-aligned drone forensic tool testing methodology
   - Digital Image Forensics Tool (DIFT) evaluation framework
   - NIST CFTT Federated Testing of consumer-grade forensic hardware/software
 source_refs:
-  - DFCite-1179
-  - DFCite-2058
-  - DFCite-2075
+  - LWCite-1179
+  - LWCite-2058
+  - LWCite-2075
 updated_at: 2026-08-15
 status: complete
 ---
@@ -50,6 +50,6 @@ It complements discipline-specific acquisition guidance (e.g. [[techniques/Extra
 
 ## References
 
-- [DFCite-1179] Lee et al., 2026, "Drone forensic tool testing: Methodology and applications", FSI: Digital Investigation 58. Source of the drone-forensics CFTT-aligned specification variant.
-- [DFCite-2058] Khalid & Qadir, 2022, "An Evaluation Framework For Digital Image Forensics Tools", JDFSL 17(4). Source of the image-forensics (DIFT) CFTT-aligned specification variant, applied to four image forensics tools.
-- [DFCite-2075] Herrera, 2021, "Viability of Consumer Grade Hardware for Learning Computer Forensics Principles", JDFSL 16(3). Source of the NIST CFTT Federated Testing instantiation validating consumer-grade write-blocker hardware and free imaging/cloning software against a forensics-grade-hardware baseline.
+- [LWCite-1179] Lee et al., 2026, "Drone forensic tool testing: Methodology and applications", FSI: Digital Investigation 58. Source of the drone-forensics CFTT-aligned specification variant.
+- [LWCite-2058] Khalid & Qadir, 2022, "An Evaluation Framework For Digital Image Forensics Tools", JDFSL 17(4). Source of the image-forensics (DIFT) CFTT-aligned specification variant, applied to four image forensics tools.
+- [LWCite-2075] Herrera, 2021, "Viability of Consumer Grade Hardware for Learning Computer Forensics Principles", JDFSL 16(3). Source of the NIST CFTT Federated Testing instantiation validating consumer-grade write-blocker hardware and free imaging/cloning software against a forensics-grade-hardware baseline.

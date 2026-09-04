@@ -1,9 +1,9 @@
 ---
-id: DFM-1059
+id: LWM-1059
 type: mitigation
 name: Verify target compile-time kernel options before trusting a version-matched memory forensics profile
 source_refs:
-  - DFCite-1049
+  - LWCite-1049
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Where possible, obtain the target system's kernel configuration file (e.g., `/bo
 
 ## References
 
-- [DFCite-1049] Oliveri et al., 2025, "A study on the evolution of kernel data types used in memory forensics and their dependency on compilation options", FSI: Digital Investigation 52.
+- [LWCite-1049] Oliveri et al., 2025, "A study on the evolution of kernel data types used in memory forensics and their dependency on compilation options", FSI: Digital Investigation 52.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2052
+id: LWW-2052
 type: weakness
 name: Combined private indexing assumes all participating parties are genuine, risking privacy compromise by a dishonest party
 description: The combined Soundex-plus-CLK/multibit-tree private indexing method assumes every participating party behaves honestly (semi-honest/genuine), and its privacy guarantees can be jeopardized when a participating party is not genuine, without the base protocol itself detecting or preventing this.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2052
+  - LWM-2052
 source_refs:
-  - DFCite-2053
+  - LWCite-2053
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ If this method is used to link sensitive investigative records across multiple a
 
 ## References
 
-- [DFCite-2053] Desai and Shelake, 2022 — Section 5 "Conclusion and Future Work" explicitly identifies dishonest participating parties as a disadvantage of the proposed system requiring further protective measures.
+- [LWCite-2053] Desai and Shelake, 2022 — Section 5 "Conclusion and Future Work" explicitly identifies dishonest participating parties as a disadvantage of the proposed system requiring further protective measures.

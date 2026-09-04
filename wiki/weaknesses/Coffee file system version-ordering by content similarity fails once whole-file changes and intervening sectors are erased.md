@@ -1,14 +1,14 @@
 ---
-id: DFW-1124
+id: LWW-1124
 type: weakness
 name: Coffee file system version-ordering by content similarity fails once whole-file changes and intervening sectors are erased
 description: Establishing the chronological order of a Coffee file system file's deleted/historical versions by content-similarity diffing only works reliably when successive versions change gradually; where a file's entire content is rewritten between versions rather than incrementally updated, similarity to older versions collapses immediately, so version order cannot be inferred once any intervening versions have been erased from flash.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1124
+  - LWM-1124
 source_refs:
-  - DFCite-1118
+  - LWCite-1118
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator using content-similarity diffing to reconstruct a Coffee file's 
 
 ## References
 
-- [DFCite-1118] Sandvik et al., 2021, "Coffee forensics - Reconstructing data in IoT devices running Contiki OS", FSI: Digital Investigation 37.
+- [LWCite-1118] Sandvik et al., 2021, "Coffee forensics - Reconstructing data in IoT devices running Contiki OS", FSI: Digital Investigation 37.

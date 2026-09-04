@@ -1,17 +1,17 @@
 ---
-id: DFT-1047
+id: LWT-1047
 type: technique
 name: Conduct a structured open-source intelligence investigation
 description: Conduct an Open Source Intelligence (OSINT) investigation as a repeatable, multi-phase process — information needs and strategy, planning and preparation, collection, processing/validation, analysis, and distribution and evaluation — rather than treating OSINT as an unstructured, ad hoc search of public sources such as social media, search engines, and public records.
 objective_ids:
   - DFO-1014
 weakness_ids:
-  - DFW-1048
+  - LWW-1048
 aliases:
   - Structured open-source intelligence investigation methodology
   - OSINT methodology
 source_refs:
-  - DFCite-1038
+  - LWCite-1038
 updated_at: 2026-08-09
 status: complete
 ---
@@ -40,4 +40,4 @@ Common component techniques include: reviewing and hardening the investigator's 
 
 ## References
 
-- [DFCite-1038] Larsen et al., 2023, "A quantitative study of the law enforcement in using open source intelligence techniques through undergraduate practical training", FSI: Digital Investigation 47.
+- [LWCite-1038] Larsen et al., 2023, "A quantitative study of the law enforcement in using open source intelligence techniques through undergraduate practical training", FSI: Digital Investigation 47.

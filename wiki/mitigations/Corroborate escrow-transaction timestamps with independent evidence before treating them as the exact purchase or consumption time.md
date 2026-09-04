@@ -1,9 +1,9 @@
 ---
-id: DFM-1138
+id: LWM-1138
 type: mitigation
 name: Corroborate escrow-transaction timestamps with independent evidence before treating them as the exact purchase or consumption time
 source_refs:
-  - DFCite-1136
+  - LWCite-1136
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ When timing evidence is used only to characterize aggregate marketplace-wide beh
 
 ## References
 
-- [DFCite-1136] Tsuchiya and Hiramoto, 2021, "Dark web in the dark: Investigating when transactions take place on cryptomarkets", FSI: Digital Investigation 36.
+- [LWCite-1136] Tsuchiya and Hiramoto, 2021, "Dark web in the dark: Investigating when transactions take place on cryptomarkets", FSI: Digital Investigation 36.

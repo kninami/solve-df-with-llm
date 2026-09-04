@@ -1,14 +1,14 @@
 ---
-id: DFW-1042
+id: LWW-1042
 type: weakness
 name: Physically acquired encrypted mobile device data remains unusable without a separately obtained decryption key
 description: Successfully bypassing a mobile device's lock and acquiring its raw physical or file-system data does not by itself yield human-readable evidence, because modern devices encrypt data at rest with device-bound keys; without a separate decryption procedure (via the device's own authentication secret, or a separately recovered/derived key), the acquired data remains an unreadable, encrypted blob.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1042
+  - LWM-1042
 source_refs:
-  - DFCite-1032
+  - LWCite-1032
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who successfully performs a technically difficult and destructiv
 
 ## References
 
-- [DFCite-1032] Fukami et al., 2021, "A new model for forensic data extraction from encrypted mobile devices", FSI: Digital Investigation 38.
+- [LWCite-1032] Fukami et al., 2021, "A new model for forensic data extraction from encrypted mobile devices", FSI: Digital Investigation 38.

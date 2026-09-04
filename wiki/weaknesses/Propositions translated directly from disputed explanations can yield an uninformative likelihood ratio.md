@@ -1,14 +1,14 @@
 ---
-id: DFW-1233
+id: LWW-1233
 type: weakness
 name: Propositions translated directly from disputed explanations can yield an uninformative likelihood ratio
 description: Translating a party's alternative explanation into a proposition without checking that it captures the actually-disputed aspect of the case (the actor, the activity, or the presence of intent) can produce a proposition pair under which the observed evidence is equally probable, yielding a likelihood ratio of 1.0 that provides no evidential weight despite appearing to be a completed evaluation.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1233
+  - LWM-1233
 source_refs:
-  - DFCite-1246
+  - LWCite-1246
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ A likelihood ratio of exactly 1.0 is easy to mistake for a genuinely neutral fin
 
 ## References
 
-- [DFCite-1246] Vink et al., 2025, "Formulating propositions in Trojan horse defense cases", FSI: Digital Investigation 53, 301915.
+- [LWCite-1246] Vink et al., 2025, "Formulating propositions in Trojan horse defense cases", FSI: Digital Investigation 53, 301915.

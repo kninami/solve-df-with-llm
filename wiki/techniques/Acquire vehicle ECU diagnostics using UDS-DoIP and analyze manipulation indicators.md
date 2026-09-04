@@ -1,16 +1,16 @@
 ---
-id: DFT-1030
+id: LWT-1030
 type: technique
 name: Acquire vehicle ECU diagnostics using UDS-DoIP and analyze manipulation indicators
 description: Acquire diagnostic data from a vehicle's Electronic Control Units (ECUs) over the standardized OBD-II interface using Diagnostic over IP (DoIP) and Unified Diagnostic Services (UDS) protocols, then inspect specific UDS data identifiers (programming date, firmware fingerprint, repair-shop/tester code) to detect indicators of unauthorized firmware or hardware manipulation.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1030
+  - LWW-1030
 aliases:
   - UDS-DoIP vehicle ECU diagnostic acquisition and manipulation-indicator analysis
 source_refs:
-  - DFCite-1021
+  - LWCite-1021
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ A scanning application sweeps the full UDS target-address space (0x0000-0xffff) 
 
 ## References
 
-- [DFCite-1021] Gomez Buquerin et al., 2021, "A generalized approach to automotive forensics", FSI: Digital Investigation 36.
+- [LWCite-1021] Gomez Buquerin et al., 2021, "A generalized approach to automotive forensics", FSI: Digital Investigation 36.

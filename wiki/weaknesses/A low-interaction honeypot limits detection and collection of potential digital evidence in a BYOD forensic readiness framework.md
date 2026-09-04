@@ -1,14 +1,14 @@
 ---
-id: DFW-2061
+id: LWW-2061
 type: weakness
 name: A low-interaction honeypot limits detection and collection of potential digital evidence in a BYOD forensic readiness framework
 description: A BYOD digital forensic readiness framework built around a single low-interaction honeypot (a simulated system with limited services) cannot capture or identify novel or advanced attack techniques, including zero-day exploits, restricting the security incidents it can detect and the potential digital evidence it can collect.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2062
+  - LWM-2062
 source_refs:
-  - DFCite-2063
+  - LWCite-2063
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ If an organization deploys BYOD forensic readiness tooling that relies solely on
 
 ## References
 
-- [DFCite-2063] Asante & Amankona, 2021, "Digital Forensic Readiness Framework Based on Honeypot and Honeynet for BYOD", JDFSL 16(2). States that low-interaction honeypots "do not allow the capturing or identification of new exploits such as zero-day attacks" and identifies this as the limitation of the prior honeyd-based BYOD DFR model this paper improves on.
+- [LWCite-2063] Asante & Amankona, 2021, "Digital Forensic Readiness Framework Based on Honeypot and Honeynet for BYOD", JDFSL 16(2). States that low-interaction honeypots "do not allow the capturing or identification of new exploits such as zero-day attacks" and identifies this as the limitation of the prior honeyd-based BYOD DFR model this paper improves on.

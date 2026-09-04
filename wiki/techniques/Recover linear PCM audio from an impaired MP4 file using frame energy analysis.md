@@ -1,16 +1,16 @@
 ---
-id: DFT-1175
+id: LWT-1175
 type: technique
 name: Recover linear PCM audio from an impaired MP4 file using frame energy analysis
 description: Recover the linear PCM audio signal from an MP4 file whose "moov" atom was never written (e.g., because a dashboard camera's power was abruptly cut during recording), by treating the intact "mdat" atom's bitstream as pseudo audio and using per-frame high-band energy to distinguish true audio frames from video-stream noise.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-1182
+  - LWW-1182
 aliases:
   - Energy-based pseudo-audio recovery
 source_refs:
-  - DFCite-1185
+  - LWCite-1185
 updated_at: 2026-08-12
 status: complete
 ---
@@ -39,4 +39,4 @@ The mdat bitstream is read in the two possible byte-alignment offsets implied by
 
 ## References
 
-- [DFCite-1185] Park et al., 2021, "Energy-based linear PCM audio recovery method of impaired MP4 file stored in dashboard camera memory", FSI: Digital Investigation 39.
+- [LWCite-1185] Park et al., 2021, "Energy-based linear PCM audio recovery method of impaired MP4 file stored in dashboard camera memory", FSI: Digital Investigation 39.

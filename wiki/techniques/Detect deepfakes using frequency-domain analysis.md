@@ -1,19 +1,19 @@
 ---
-id: DFT-1016
+id: LWT-1016
 type: technique
 name: Detect deepfakes using frequency-domain analysis
 description: Transform a face image into the frequency domain (e.g., via discrete cosine transform) and exploit differences between real and generated content in specific frequency bands — often the high-frequency band — to flag deepfake video frames independent of which generation algorithm produced them.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1016
+  - LWW-1016
 aliases:
   - Frequency-domain deepfake detection
   - High-frequency DCT reconstruction deepfake detection
   - HFIR deepfake detection
   - dual descriptor deepfake detection
 source_refs:
-  - DFCite-1010
+  - LWCite-1010
 updated_at: 2026-08-09
 status: complete
 ---
@@ -42,4 +42,4 @@ The DCT converts an RGB face crop into a frequency-domain spectrogram in which h
 
 ## References
 
-- [DFCite-1010] Jin et al., 2024, "A dual descriptor combined with frequency domain reconstruction learning for face forgery detection in deepfake videos", FSI: Digital Investigation 49.
+- [LWCite-1010] Jin et al., 2024, "A dual descriptor combined with frequency domain reconstruction learning for face forgery detection in deepfake videos", FSI: Digital Investigation 49.

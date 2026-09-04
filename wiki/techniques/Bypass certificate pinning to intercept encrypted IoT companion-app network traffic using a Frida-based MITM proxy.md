@@ -1,16 +1,16 @@
 ---
-id: DFT-1166
+id: LWT-1166
 type: technique
 name: Bypass certificate pinning to intercept encrypted IoT companion-app network traffic using a Frida-based MITM proxy
 description: Route a rooted Android device's traffic through an HTTPS-intercepting MITM proxy with a trusted system-level CA certificate, then use a Frida-based instrumentation tool to patch the target companion app's certificate-pinning check at runtime, allowing an examiner to capture and decrypt the app's TLS-protected communication with an IoT device or its vendor cloud.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1172
+  - LWW-1172
 aliases:
   - Certificate un-pinning for IoT companion app traffic capture
 source_refs:
-  - DFCite-1177
+  - LWCite-1177
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ A Raspberry Pi configured as a Wi-Fi access point routes device traffic through 
 
 ## References
 
-- [DFCite-1177] Eichhorn and Pugliese, 2024, "Do You \"Relay\" Want to Give Me Away? - Forensic Cues of Smart Relays and Their IoT Companion Apps", FSI: Digital Investigation 50, 301810.
+- [LWCite-1177] Eichhorn and Pugliese, 2024, "Do You \"Relay\" Want to Give Me Away? - Forensic Cues of Smart Relays and Their IoT Companion Apps", FSI: Digital Investigation 50, 301810.

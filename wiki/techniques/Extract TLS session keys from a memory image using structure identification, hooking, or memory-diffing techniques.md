@@ -1,5 +1,5 @@
 ---
-id: DFT-2093
+id: LWT-2093
 type: technique
 name: Extract TLS session keys from a memory image using structure identification, hooking, or memory-diffing techniques
 description: Recover the cryptographic key material (master secret, or TLS 1.3 handshake/application traffic secrets) needed to decrypt a captured TLS session, from either a static memory dump (dead forensics) or a live running process (live forensics), by selecting an extraction approach appropriate to the target TLS library and version -- brute-force search, pattern matching on high-entropy regions, targeted searches for known library-specific data structures, debugger-based structure parsing, commencement-based path traversal, memory-diffing around the handshake, or function hooking of key-derivation/read-write calls.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1019
   - DFO-1017
 weakness_ids:
-  - DFW-2097
+  - LWW-2097
 aliases:
   - TLS key material identification and extraction in memory
 source_refs:
-  - DFCite-2114
+  - LWCite-2114
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ Because around 85% of internet traffic is now TLS-encrypted, an investigator exa
 
 ## References
 
-- [DFCite-2114] Baier, Basse, Hilgert, and Lambertz, 2024, "TLS key material identification and extraction in memory: Current state and future challenges", FSI: Digital Investigation 49, 301766.
+- [LWCite-2114] Baier, Basse, Hilgert, and Lambertz, 2024, "TLS key material identification and extraction in memory: Current state and future challenges", FSI: Digital Investigation 49, 301766.

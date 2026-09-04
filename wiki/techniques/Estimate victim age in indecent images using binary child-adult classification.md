@@ -1,17 +1,17 @@
 ---
-id: DFT-1123
+id: LWT-1123
 type: technique
 name: Estimate victim age in indecent images using binary child-adult classification
 description: Classify a facial image as depicting a child or an adult using a fine-tuned deep convolutional network, rather than predicting a specific age number or age band, to triage suspected indecent images of children (IIoC) during a digital forensic investigation.
 objective_ids:
   - DFO-1003
 weakness_ids:
-  - DFW-1127
+  - LWW-1127
 aliases:
   - Binary child/adult deep-learning age classification for IIoC triage
   - ResNet50 IIoC age triage
 source_refs:
-  - DFCite-1122
+  - LWCite-1122
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The comparative evaluation fine-tunes VGG16, ResNet50, InceptionV3, and Xception
 
 ## References
 
-- [DFCite-1122] Roopak et al., 2023, "Comparison of deep learning classification models for facial image age estimation in digital forensic investigations", FSI: Digital Investigation 47, 301637.
+- [LWCite-1122] Roopak et al., 2023, "Comparison of deep learning classification models for facial image age estimation in digital forensic investigations", FSI: Digital Investigation 47, 301637.

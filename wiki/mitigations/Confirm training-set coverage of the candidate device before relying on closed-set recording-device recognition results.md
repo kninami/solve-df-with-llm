@@ -1,10 +1,10 @@
 ---
-id: DFM-1093
+id: LWM-1093
 type: mitigation
 name: Confirm training-set coverage of the candidate device before relying on closed-set recording-device recognition results
 source_refs:
-  - DFCite-1085
-  - DFCite-1103
+  - LWCite-1085
+  - LWCite-1103
 updated_at: 2026-08-12
 status: complete
 ---
@@ -25,5 +25,5 @@ Check the model's documented training-set device list before treating its classi
 
 ## References
 
-- [DFCite-1085] Zeng et al., 2024, "Audio source recording device recognition based on representation learning of sequential Gaussian mean matrix", FSI: Digital Investigation 48.
-- [DFCite-1103] Irshad et al., 2023, "CAMID: An assuasive approach to reveal source camera through inconspicuous evidence", FSI: Digital Investigation 46.
+- [LWCite-1085] Zeng et al., 2024, "Audio source recording device recognition based on representation learning of sequential Gaussian mean matrix", FSI: Digital Investigation 48.
+- [LWCite-1103] Irshad et al., 2023, "CAMID: An assuasive approach to reveal source camera through inconspicuous evidence", FSI: Digital Investigation 46.

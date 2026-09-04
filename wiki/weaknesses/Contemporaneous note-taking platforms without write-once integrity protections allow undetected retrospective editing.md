@@ -1,14 +1,14 @@
 ---
-id: DFW-1131
+id: LWW-1131
 type: weakness
 name: Contemporaneous note-taking platforms without write-once integrity protections allow undetected retrospective editing
 description: Note-taking platforms that permit committed entries to be edited or removed after the fact allow a practitioner's examination record to be altered without a visible trace, undermining the audit-trail purpose contemporaneous notes are meant to serve.
 categories:
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-1131
+  - LWM-1131
 source_refs:
-  - DFCite-1128
+  - LWCite-1128
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ The evidential value of contemporaneous notes rests on their being an accurate, 
 
 ## References
 
-- [DFCite-1128] Horsman, 2021, "Contemporaneous notes for digital forensic examinations", FSI: Digital Investigation 37, 301173.
+- [LWCite-1128] Horsman, 2021, "Contemporaneous notes for digital forensic examinations", FSI: Digital Investigation 37, 301173.

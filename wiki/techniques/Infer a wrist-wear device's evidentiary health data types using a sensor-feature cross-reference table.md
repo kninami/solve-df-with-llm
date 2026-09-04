@@ -1,19 +1,19 @@
 ---
-id: DFT-2125
+id: LWT-2125
 type: technique
 name: Infer a wrist-wear device's evidentiary health data types using a sensor-feature cross-reference table
 description: Determine which health-related evidence categories (sleep, heart rate, SpO2, blood pressure, stress, activity) a wrist-wear device from any vendor is capable of producing by cross-referencing its documented sensors and features against a vendor-independent sensor-to-feature reference table, inferring undocumented features from the sensors actually present when a vendor's own manual is incomplete, to guide database extraction and identify potential circumstantial evidence before deep analysis begins.
 objective_ids:
   - DFO-1014
 weakness_ids:
-  - DFW-2134
-  - DFW-2135
+  - LWW-2134
+  - LWW-2135
 aliases:
   - WristSense
   - Sensor-Feature Cross-Reference Table (SFCRT)
   - Potential Circumstantial Evidence (PCE) identification
 source_refs:
-  - DFCite-2156
+  - LWCite-2156
 updated_at: 2026-08-17
 status: complete
 ---
@@ -44,4 +44,4 @@ To generate a device's PCE list, the investigator iterates through each feature 
 
 ## References
 
-- [DFCite-2156] Almubairik et al., 2025, "WristSense framework: Exploring the forensic potential of wrist-wear devices through case studies", FSI: Digital Investigation 52.
+- [LWCite-2156] Almubairik et al., 2025, "WristSense framework: Exploring the forensic potential of wrist-wear devices through case studies", FSI: Digital Investigation 52.

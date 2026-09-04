@@ -1,9 +1,9 @@
 ---
-id: DFM-1231
+id: LWM-1231
 type: mitigation
 name: Route ambiguous or low-confidence multi-class email threat classifications to human forensic linguistic review
 source_refs:
-  - DFCite-1242
+  - LWCite-1242
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Compute the per-class confusion matrix and precision/recall on a validation set 
 
 ## References
 
-- [DFCite-1242] Srivastava et al., 2026, "Forensically-integrated machine learning model for multi-class email threat detection using a high-fidelity synthetic dataset", FSI: Digital Investigation 57, 302108.
+- [LWCite-1242] Srivastava et al., 2026, "Forensically-integrated machine learning model for multi-class email threat detection using a high-fidelity synthetic dataset", FSI: Digital Investigation 57, 302108.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1195
+id: LWM-1195
 type: mitigation
 name: Re-run taxonomy coverage diagnosis and manual validation before reusing an extended taxonomy on a new corpus
 source_refs:
-  - DFCite-1204
+  - LWCite-1204
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Apply the existing deterministic rules to a sample of the new corpus and record 
 
 ## References
 
-- [DFCite-1204] Medina-Merodio et al., 2026, "Extending taxonomies for P2P crypto forum classification in the dark web: An iterative methodological approach", FSI: Digital Investigation 57.
+- [LWCite-1204] Medina-Merodio et al., 2026, "Extending taxonomies for P2P crypto forum classification in the dark web: An iterative methodological approach", FSI: Digital Investigation 57.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1294
+id: LWM-1294
 type: mitigation
 name: Supplement SSCA behavior-query detection with broader anomalous-behavior review for binaries outside the characterized attack set
 source_refs:
-  - DFCite-1325
+  - LWCite-1325
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When using [[techniques/Detect software supply chain attack behaviors in binarie
 
 ## References
 
-- [DFCite-1325] Andreoli, Lounis, Debbabi, and Hanna, 2023, "On the prevalence of software supply chain attacks: Empirical study and investigative framework", FSI: Digital Investigation 44, 301508.
+- [LWCite-1325] Andreoli, Lounis, Debbabi, and Hanna, 2023, "On the prevalence of software supply chain attacks: Empirical study and investigative framework", FSI: Digital Investigation 44, 301508.

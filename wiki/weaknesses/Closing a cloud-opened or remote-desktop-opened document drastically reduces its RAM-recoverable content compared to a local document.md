@@ -1,14 +1,14 @@
 ---
-id: DFW-2086
+id: LWW-2086
 type: weakness
 name: Closing a cloud-opened or remote-desktop-opened document drastically reduces its RAM-recoverable content compared to a local document
 description: Once a document opened from cloud storage or a remote desktop connection is closed, the amount of its content recoverable from a subsequent RAM image drops sharply compared to the same document opened from local storage, and for remote desktop connections the closed-state recovery can approach zero, so an investigator who captures memory only after such a document is closed may find little to no recoverable content even though the document was genuinely viewed or edited.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2086
+  - LWM-2086
 source_refs:
-  - DFCite-2101
+  - LWCite-2101
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who captures a memory image only after a document has been close
 
 ## References
 
-- [DFCite-2101] Al-Sharif, Al-Senjalawi, and Alzoubi, 2024, "The effects of document's format, size, and storage media on memory forensics", FSI: Digital Investigation 48, 301692.
+- [LWCite-2101] Al-Sharif, Al-Senjalawi, and Alzoubi, 2024, "The effects of document's format, size, and storage media on memory forensics", FSI: Digital Investigation 48, 301692.

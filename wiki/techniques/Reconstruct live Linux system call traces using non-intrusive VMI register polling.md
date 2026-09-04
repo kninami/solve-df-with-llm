@@ -1,16 +1,16 @@
 ---
-id: DFT-1256
+id: LWT-1256
 type: technique
 name: Reconstruct live Linux system call traces using non-intrusive VMI register polling
 description: Recover a running Linux virtual machine's per-process system call trace, with strace-equivalent accuracy, by continuously polling the physical memory addresses of a traced thread's saved kernel-stack registers via virtual machine introspection and inferring each invoked system call from the register values, rather than pausing the VM or placing execution-halting traps on the syscall handler.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1269
+  - LWW-1269
 aliases:
   - Non-intrusive VMI system call tracing
 source_refs:
-  - DFCite-1296
+  - LWCite-1296
 updated_at: 2026-08-14
 status: complete
 ---
@@ -40,4 +40,4 @@ In the preparation phase, the tool resolves the traced process's `task_struct` (
 
 ## References
 
-- [DFCite-1296] Nguyen, Orenbach and Atamli, 2022, "Live system call trace reconstruction on Linux", DFRWS 2022 USA; FSI: Digital Investigation 42, 301398.
+- [LWCite-1296] Nguyen, Orenbach and Atamli, 2022, "Live system call trace reconstruction on Linux", DFRWS 2022 USA; FSI: Digital Investigation 42, 301398.

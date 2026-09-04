@@ -1,16 +1,16 @@
 ---
-id: DFT-1002
+id: LWT-1002
 type: technique
 name: Attribute ICS anomalies to assets using Shapley values
 description: Fuse Classification and Regression Trees (CART), Shapley values, and KernelSHAP feature-importance scores to attribute an inferred ICS anomaly to the specific sensors/actuators responsible, for forensic triage prioritization.
 objective_ids:
   - DFO-1005
 weakness_ids:
-  - DFW-1002
+  - LWW-1002
 aliases:
   - Shapley value ICS asset attribution
 source_refs:
-  - DFCite-1001
+  - LWCite-1001
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ Each algorithm independently ranks ICS assets (sensors/actuators) by their contr
 
 ## References
 
-- [DFCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.
+- [LWCite-1001] Neshenko et al., 2021, "A behavioral-based forensic investigation approach for analyzing attacks on water plants using GANs", FSI: Digital Investigation 37.

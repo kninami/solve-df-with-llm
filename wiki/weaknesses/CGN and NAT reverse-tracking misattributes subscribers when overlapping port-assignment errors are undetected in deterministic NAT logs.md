@@ -1,14 +1,14 @@
 ---
-id: DFW-1116
+id: LWW-1116
 type: weakness
 name: CGN and NAT reverse-tracking misattributes subscribers when overlapping port-assignment errors are undetected in deterministic NAT logs
 description: A deterministic CGN's algorithmic internal-to-external IP/port mapping can silently assign overlapping port ranges to multiple concurrent subscribers ("port-jumping"), and separately, session logs can contain internally inconsistent, overlapping, or technically impossible entries (missing public IP/port fields, colliding session times, or upload/download volumes inconsistent with the session type), any of which can cause a reverse-tracked subscriber attribution to be wrong without the error being visible in the log output itself.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1116
+  - LWM-1116
 source_refs:
-  - DFCite-1109
+  - LWCite-1109
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or court relying on a CGN log's subscriber attribution as eviden
 
 ## References
 
-- [DFCite-1109] Gözükara, 2021, "Challenges and possible severe legal consequences of application users identification from CNG-Logs", FSI: Digital Investigation 39.
+- [LWCite-1109] Gözükara, 2021, "Challenges and possible severe legal consequences of application users identification from CNG-Logs", FSI: Digital Investigation 39.

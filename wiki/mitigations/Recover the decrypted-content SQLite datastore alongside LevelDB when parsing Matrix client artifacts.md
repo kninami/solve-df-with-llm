@@ -1,9 +1,9 @@
 ---
-id: DFM-1210
+id: LWM-1210
 type: mitigation
 name: Recover the decrypted-content SQLite datastore alongside LevelDB when parsing Matrix client artifacts
 source_refs:
-  - DFCite-1223
+  - LWCite-1223
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Acquire both the LevelDB IndexedDB directory and any accompanying SQLite databas
 
 ## References
 
-- [DFCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.
+- [LWCite-1223] Schipper et al., 2021, "Forensic analysis of Matrix protocol and Riot.im application", FSI: Digital Investigation 36.

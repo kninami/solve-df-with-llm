@@ -1,14 +1,14 @@
 ---
-id: DFW-2073
+id: LWW-2073
 type: weakness
 name: Re-registering a Bluetooth tracking tag overwrites cached identification data needed to recover its earlier registration
 description: When a physical Bluetooth tracking tag is deleted from a companion app and then re-registered (to the same or a different account), the app's cache files are updated in place to reflect the new registration, overwriting identification data (such as the logId) associated with the tag's earlier registration and preventing that history from being recovered.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2073
+  - LWM-2073
 source_refs:
-  - DFCite-2078
+  - LWCite-2078
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying solely on cache-file analysis to reconstruct a tag's ful
 
 ## References
 
-- [DFCite-2078] Yang, Han, Kim, and Kim, 2025, "Samsung tracking tag application forensics in criminal investigations", FSI: Digital Investigation 52, 301875. Documents the cache-overwrite recovery-failure case observed when a Samsung SmartTag2 was re-registered during S.TASER's tool-validation testing.
+- [LWCite-2078] Yang, Han, Kim, and Kim, 2025, "Samsung tracking tag application forensics in criminal investigations", FSI: Digital Investigation 52, 301875. Documents the cache-overwrite recovery-failure case observed when a Samsung SmartTag2 was re-registered during S.TASER's tool-validation testing.

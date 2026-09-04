@@ -1,9 +1,9 @@
 ---
-id: DFM-1265
+id: LWM-1265
 type: mitigation
 name: Supplement DCNN covert-channel detection with firewall log-verbosity and multi-scan correlation indicators of compromise
 source_refs:
-  - DFCite-1286
+  - LWCite-1286
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Correlate flagged or suspicious port scans against a longer observation window f
 
 ## References
 
-- [DFCite-1286] Lamshöft, Neubert, Hielscher, Vielhauer and Dittmann, 2022, "Knock, knock, log: Threat analysis, detection & mitigation of covert channels in syslog using port scans as cover", DFRWS 2022 EU; FSI: Digital Investigation 40, 301335.
+- [LWCite-1286] Lamshöft, Neubert, Hielscher, Vielhauer and Dittmann, 2022, "Knock, knock, log: Threat analysis, detection & mitigation of covert channels in syslog using port scans as cover", DFRWS 2022 EU; FSI: Digital Investigation 40, 301335.

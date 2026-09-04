@@ -1,9 +1,9 @@
 ---
-id: DFM-1146
+id: LWM-1146
 type: mitigation
 name: Search known Microsoft 365 remnant locations for recoverable document data using differential analysis
 source_refs:
-  - DFCite-1142
+  - LWCite-1142
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Maintain and consult a database of documented Data Remnants Files (DRFs) for the
 
 ## References
 
-- [DFCite-1142] Joun, Lee and Park, 2023, "Data remnants analysis of document files in Windows: Microsoft 365 as a case study", FSI: Digital Investigation 46.
+- [LWCite-1142] Joun, Lee and Park, 2023, "Data remnants analysis of document files in Windows: Microsoft 365 as a case study", FSI: Digital Investigation 46.

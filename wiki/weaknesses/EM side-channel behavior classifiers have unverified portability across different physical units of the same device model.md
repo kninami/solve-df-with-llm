@@ -1,14 +1,14 @@
 ---
-id: DFW-2026
+id: LWW-2026
 type: weakness
 name: EM side-channel behavior classifiers have unverified portability across different physical units of the same device model
 description: A machine-learning model trained to recognize a specific device model's software activities from its EM radiation has not been validated for use against a different physical unit of that same model encountered in a new investigation, and dynamic clock-frequency scaling on the target device can also cause the model's fixed information-leaking frequency assumption to miss signals entirely.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2026
+  - LWM-2026
 source_refs:
-  - DFCite-2026
+  - LWCite-2026
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator who deploys a pre-built EMvidence plug-in trained on one physica
 
 ## References
 
-- [DFCite-2026] Sayakkara and Le-Khac, 2021 — Section VII.A "Future Work" explicitly identifies cross-device model portability and DVFS/big.LITTLE-driven clock-frequency dynamics as unresolved challenges for EM-SCA plug-in reliability.
+- [LWCite-2026] Sayakkara and Le-Khac, 2021 — Section VII.A "Future Work" explicitly identifies cross-device model portability and DVFS/big.LITTLE-driven clock-frequency dynamics as unresolved challenges for EM-SCA plug-in reliability.

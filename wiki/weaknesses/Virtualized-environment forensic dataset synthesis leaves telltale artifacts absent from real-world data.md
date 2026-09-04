@@ -1,16 +1,16 @@
 ---
-id: DFW-1071
+id: LWW-1071
 type: weakness
 name: Virtualized-environment forensic dataset synthesis leaves telltale artifacts absent from real-world data
 description: Even a simple synthesized scenario run inside a virtualized environment through an automation agent produces virtualization- and agent-specific artifacts (evidence of virtualized hardware, automation-agent traces) that would not be present on a genuine, non-virtualized real-world system, meaning a synthetic dataset built this way is discoverably synthetic rather than an unbiased stand-in for real-world evidence.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1071
+  - LWM-1071
 source_refs:
-  - DFCite-1061
-  - DFCite-1247
-  - DFCite-1267
+  - LWCite-1061
+  - LWCite-1247
+  - LWCite-1267
 updated_at: 2026-08-13
 status: complete
 ---
@@ -35,7 +35,7 @@ A dataset built via virtualized-environment synthesis is well suited for testing
 
 ## References
 
-- [DFCite-1061] Gonzales et al., 2025, "AKF: A modern synthesis framework for building datasets in digital forensics", FSI: Digital Investigation 55.
-- [DFCite-1247] Göbel et al., 2022, "ForTrace - A holistic forensic data set synthesis framework", FSI: Digital Investigation 40, 301344. Catalogs concrete file-system, Registry, and Event Log traces left by its own synthesis framework, including a plaintext credential leak via the `changeUser()` function.
-- [DFCite-1267] Wolf, Göbel, and Baier, 2024, "Hypervisor-based data synthesis: On its potential to tackle the curse of client-side agent remnants in forensic image generation", FSI: Digital Investigation 48, 301690. Attributes most prior catalogued traces to the client-side agent specifically and demonstrates most (but not all) are eliminated by removing it.
-- [DFCite-2123] Du, Hargreaves, Sheppard, and Scanlon, 2021, "TraceGen: User activity emulation for digital forensic test image generation", FSI: Digital Investigation 38, 301133. An early documented case of this weakness: a Python `shutil`-based automated file-copy action omitted ShellBag registry-key artifacts that the same action performed manually via GUI copy-paste generated.
+- [LWCite-1061] Gonzales et al., 2025, "AKF: A modern synthesis framework for building datasets in digital forensics", FSI: Digital Investigation 55.
+- [LWCite-1247] Göbel et al., 2022, "ForTrace - A holistic forensic data set synthesis framework", FSI: Digital Investigation 40, 301344. Catalogs concrete file-system, Registry, and Event Log traces left by its own synthesis framework, including a plaintext credential leak via the `changeUser()` function.
+- [LWCite-1267] Wolf, Göbel, and Baier, 2024, "Hypervisor-based data synthesis: On its potential to tackle the curse of client-side agent remnants in forensic image generation", FSI: Digital Investigation 48, 301690. Attributes most prior catalogued traces to the client-side agent specifically and demonstrates most (but not all) are eliminated by removing it.
+- [LWCite-2123] Du, Hargreaves, Sheppard, and Scanlon, 2021, "TraceGen: User activity emulation for digital forensic test image generation", FSI: Digital Investigation 38, 301133. An early documented case of this weakness: a Python `shutil`-based automated file-copy action omitted ShellBag registry-key artifacts that the same action performed manually via GUI copy-paste generated.

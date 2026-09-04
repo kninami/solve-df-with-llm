@@ -1,17 +1,17 @@
 ---
-id: DFT-1187
+id: LWT-1187
 type: technique
 name: Reconstruct file events from Ext4 journal transaction replay
 description: Replay Ext4 journal transactions to rebuild file, directory, and directory-entry snapshots, then derive precise event times from transaction commit timestamps and full file paths by tracing parent-directory inode chains, producing a clear, time- and path-annotated timeline of file creation, deletion, renaming, movement, and modification events.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1194
+  - LWW-1194
 aliases:
   - Simulation of Ext4 Transaction (SET)
   - Ext4 Log Tracker
 source_refs:
-  - DFCite-1203
+  - LWCite-1203
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ The core technique, termed Simulation of Ext4 Transaction (SET), processes journ
 
 ## References
 
-- [DFCite-1203] Oh, 2026, "Ext4 Log Tracker: An enhanced approach to file event generation from Ext4 journal", FSI: Digital Investigation 58.
+- [LWCite-1203] Oh, 2026, "Ext4 Log Tracker: An enhanced approach to file event generation from Ext4 journal", FSI: Digital Investigation 58.

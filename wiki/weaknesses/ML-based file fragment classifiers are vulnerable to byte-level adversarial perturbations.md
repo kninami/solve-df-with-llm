@@ -1,14 +1,14 @@
 ---
-id: DFW-2012
+id: LWW-2012
 type: weakness
 name: ML-based file fragment classifiers are vulnerable to byte-level adversarial perturbations
 description: Machine-learning and deep-learning file fragment classifiers that rely on statistical byte-level features (byte-frequency histograms, entropy, n-gram distributions) can be induced to misclassify a fragment's file type through deliberately crafted, format-preserving byte-level perturbations such as bit-flipping, byte substitution, byte reordering, entropy manipulation, and padding manipulation.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2012
+  - LWM-2012
 source_refs:
-  - DFCite-2012
+  - LWCite-2012
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An adversary who anticipates automated ML-based file-type triage can deliberatel
 
 ## References
 
-- [DFCite-2012] Mary and Sreeja, 2026 — Sections III-V present the FFC-specific adversarial taxonomy, byte-level perturbation techniques (Table 3), and their differential effectiveness against low- vs. high-entropy fragments.
+- [LWCite-2012] Mary and Sreeja, 2026 — Sections III-V present the FFC-specific adversarial taxonomy, byte-level perturbation techniques (Table 3), and their differential effectiveness against low- vs. high-entropy fragments.

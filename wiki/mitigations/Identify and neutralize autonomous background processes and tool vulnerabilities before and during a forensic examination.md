@@ -1,10 +1,10 @@
 ---
-id: DFM-1132
+id: LWM-1132
 type: mitigation
 name: Identify and neutralize autonomous background processes and tool vulnerabilities before and during a forensic examination
 source_refs:
-  - DFCite-1127
-  - DFCite-2086
+  - LWCite-1127
+  - LWCite-2086
 updated_at: 2026-08-16
 status: complete
 ---
@@ -25,5 +25,5 @@ At scene, isolate network connectivity (airplane mode, Faraday enclosure, or SIM
 
 ## References
 
-- [DFCite-1127] Gruber, Hargreaves, and Freiling, 2023, "Contamination of digital evidence: Understanding an underexposed risk", FSI: Digital Investigation 44, 301501.
-- [DFCite-2086] Onik, Alsmadi, Baggili, and Webb, 2024, "So fresh, so clean: Cloud forensic analysis of the Amazon iRobot Roomba vacuum", FSI: Digital Investigation 48, 301686.
+- [LWCite-1127] Gruber, Hargreaves, and Freiling, 2023, "Contamination of digital evidence: Understanding an underexposed risk", FSI: Digital Investigation 44, 301501.
+- [LWCite-2086] Onik, Alsmadi, Baggili, and Webb, 2024, "So fresh, so clean: Cloud forensic analysis of the Amazon iRobot Roomba vacuum", FSI: Digital Investigation 48, 301686.

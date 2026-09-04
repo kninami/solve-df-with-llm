@@ -1,18 +1,18 @@
 ---
-id: DFT-1052
+id: LWT-1052
 type: technique
 name: Recover NVIDIA GPU driver structures from memory using cross-mapped pointer chasing
 description: Locate and parse NVIDIA GPU kernel driver data structures (NVOC — NVIDIA Object Compiler — objects) within a RAM memory dump by exploiting the fact that both the open-source and closed-source flavors of the driver follow the same underlying structural layout, using pointer-chasing lookup methods (recursive descent from a known kernel symbol, or reverse ascent from a known class identifier) to locate structures in either driver flavor and cross-map class definitions between the two, enabling forensic tools that work regardless of which driver variant a target system used.
 objective_ids:
   - DFO-1017
 weakness_ids:
-  - DFW-1054
+  - LWW-1054
 aliases:
   - Cross-mapped pointer-chasing recovery of NVIDIA GPU driver structures in memory
   - NVOC memory forensics
   - NVSYMMAP
 source_refs:
-  - DFCite-1044
+  - LWCite-1044
 updated_at: 2026-08-09
 status: complete
 ---
@@ -41,4 +41,4 @@ Recursive descent lookup starts from a known kallsym pointing to an NVOC structu
 
 ## References
 
-- [DFCite-1044] Bowen et al., 2024, "A step in a new direction: NVIDIA GPU kernel driver memory forensics", FSI: Digital Investigation 49.
+- [LWCite-1044] Bowen et al., 2024, "A step in a new direction: NVIDIA GPU kernel driver memory forensics", FSI: Digital Investigation 49.

@@ -1,14 +1,14 @@
 ---
-id: DFW-2072
+id: LWW-2072
 type: weakness
 name: Windows kernel token integrity hash checks do not detect Token Hijacking because the attack copies a legitimately-hashed higher-privileged token wholesale
 description: Windows kernel 6.x+'s SidHash-based token integrity check is designed to detect in-place patching of a process's SID list, but does not detect Token Hijacking, which instead wholesale-copies an entire legitimately-hashed higher-privileged process's SID list and hash into the target token, so the resulting hash check passes as valid.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2072
+  - LWM-2072
 source_refs:
-  - DFCite-2076
+  - LWCite-2076
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or automated defense that relies on the OS's own token-integrity
 
 ## References
 
-- [DFCite-2076] Korkin, 2021, "Windows Kernel Hijacking Is Not an Option: MemoryRanger Comes to the Rescue Again", JDFSL 16(4). States that the Token Hijacking attack "gains elevated privileges with the correct hash value" by fully copying the static and dynamic parts of a higher-privileged process's token, defeating the SidHash integrity mechanism added in Windows kernel 6.x specifically to prevent this class of attack.
+- [LWCite-2076] Korkin, 2021, "Windows Kernel Hijacking Is Not an Option: MemoryRanger Comes to the Rescue Again", JDFSL 16(4). States that the Token Hijacking attack "gains elevated privileges with the correct hash value" by fully copying the static and dynamic parts of a higher-privileged process's token, defeating the SidHash integrity mechanism added in Windows kernel 6.x specifically to prevent this class of attack.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1285
+id: LWW-1285
 type: weakness
 name: Reconstructing a network share's file system solely from SMB protocol structure conceals the source and destination hosts that produced it
 description: Organizing a reconstructed network-capture file system purely by SMB share and tree hierarchy — the default mounting behavior — presents files and directories without their originating IP addresses, ports, or which specific host generated a given entry, discarding network-layer context that may be essential to attributing file activity to a specific machine.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1286
+  - LWM-1286
 source_refs:
-  - DFCite-1313
+  - LWCite-1313
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator browsing the default reconstructed file system with ordinary fil
 
 ## References
 
-- [DFCite-1313] Hilgert, Mahr, and Lambertz, 2024, "Mount SMB.pcap: Reconstructing file systems and file operations from network traffic", FSI: Digital Investigation 50, 301807.
+- [LWCite-1313] Hilgert, Mahr, and Lambertz, 2024, "Mount SMB.pcap: Reconstructing file systems and file operations from network traffic", FSI: Digital Investigation 50, 301807.

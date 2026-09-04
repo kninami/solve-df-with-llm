@@ -1,17 +1,17 @@
 ---
-id: DFT-1014
+id: LWT-1014
 type: technique
 name: Carve out-of-order file fragments
 description: When carving a fragmented file whose later fragment is stored at a lower disk offset than an earlier one, search both backward and forward from a candidate fragment rather than assuming forward-only disk order, using empirical gap-size statistics to bound the search.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1014
+  - LWW-1014
 aliases:
   - Out-of-order fragment file carving
   - Out-of-order gap carving distance estimation
 source_refs:
-  - DFCite-1008
+  - LWCite-1008
 updated_at: 2026-08-09
 status: complete
 ---
@@ -40,4 +40,4 @@ Three metrics can describe the gap between two fragments of a bi-fragmented, out
 
 ## References
 
-- [DFCite-1008] van der Meer et al., 2021, "A contemporary investigation of NTFS file fragmentation", FSI: Digital Investigation 38.
+- [LWCite-1008] van der Meer et al., 2021, "A contemporary investigation of NTFS file fragmentation", FSI: Digital Investigation 38.

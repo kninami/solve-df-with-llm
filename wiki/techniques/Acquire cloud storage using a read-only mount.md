@@ -1,17 +1,17 @@
 ---
-id: DFT-1021
+id: LWT-1021
 type: technique
 name: Acquire cloud storage using a read-only mount
 description: Acquire data from a suspect's cloud storage account by mounting it as a local, OS-enforced read-only filesystem before copying, so that accidental write commands are blocked at the operating-system level rather than relying solely on tool-level safeguards.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1021
+  - LWW-1021
 aliases:
   - Read-only mount-based cloud storage acquisition
   - rclone read-only mount acquisition
 source_refs:
-  - DFCite-1014
+  - LWCite-1014
 updated_at: 2026-08-09
 status: complete
 ---
@@ -40,4 +40,4 @@ Because the read-only enforcement happens via standard OS filesystem mechanisms 
 
 ## References
 
-- [DFCite-1014] Breitinger et al., 2022, "A forensic analysis of rclone and rclone's prospects for digital forensic investigations of cloud storage", FSI: Digital Investigation 43.
+- [LWCite-1014] Breitinger et al., 2022, "A forensic analysis of rclone and rclone's prospects for digital forensic investigations of cloud storage", FSI: Digital Investigation 43.

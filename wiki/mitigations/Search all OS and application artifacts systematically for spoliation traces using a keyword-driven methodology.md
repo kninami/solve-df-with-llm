@@ -1,9 +1,9 @@
 ---
-id: DFM-1176
+id: LWM-1176
 type: mitigation
 name: Search all OS and application artifacts systematically for spoliation traces using a keyword-driven methodology
 source_refs:
-  - DFCite-1176
+  - LWCite-1176
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Build a target-specific dataset (create, access, modify, copy, up/download, and 
 
 ## References
 
-- [DFCite-1176] Joun et al., 2023, "Discovering spoliation of evidence through identifying traces on deleted files in macOS", FSI: Digital Investigation 44, 301502.
+- [LWCite-1176] Joun et al., 2023, "Discovering spoliation of evidence through identifying traces on deleted files in macOS", FSI: Digital Investigation 44, 301502.

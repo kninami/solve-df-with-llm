@@ -1,17 +1,17 @@
 ---
-id: DFT-1144
+id: LWT-1144
 type: technique
 name: Classify database query operations from memory using byte-frequency machine learning
 description: Reverse-engineer which type of SQL query operation (index sort, file sort, join, filter, or aggregate) recently ran against a DBMS by extracting an ASCII byte-frequency histogram from the process memory region the DBMS uses for query processing (the sort area) and classifying it with a trained support vector machine.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1147
+  - LWW-1147
 aliases:
   - SVM-based DBMS query type classification
   - Database memory forensics byte-frequency query classification
 source_refs:
-  - DFCite-1143
+  - LWCite-1143
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The technique first isolates the sort area within a DBMS process memory snapshot
 
 ## References
 
-- [DFCite-1143] Nissan, Wagner and Aktar, 2023, "Database memory forensics: A machine learning approach to reverse-engineer query activity", FSI: Digital Investigation 44.
+- [LWCite-1143] Nissan, Wagner and Aktar, 2023, "Database memory forensics: A machine learning approach to reverse-engineer query activity", FSI: Digital Investigation 44.

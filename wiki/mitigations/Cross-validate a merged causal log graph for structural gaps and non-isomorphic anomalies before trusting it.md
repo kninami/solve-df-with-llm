@@ -1,9 +1,9 @@
 ---
-id: DFM-2133
+id: LWM-2133
 type: mitigation
 name: Cross-validate a merged causal log graph for structural gaps and non-isomorphic anomalies before trusting it
 source_refs:
-  - DFCite-2154
+  - LWCite-2154
 updated_at: 2026-08-17
 status: complete
 ---
@@ -24,4 +24,4 @@ When merging per-application logs into the combined causal graph, flag every pre
 
 ## References
 
-- [DFCite-2154] Olegård, Axelsson, and Li, 2025, "When is logging sufficient? — Tracking event causality for improved forensic analysis and correlation", FSI: Digital Investigation 52.
+- [LWCite-2154] Olegård, Axelsson, and Li, 2025, "When is logging sufficient? — Tracking event causality for improved forensic analysis and correlation", FSI: Digital Investigation 52.

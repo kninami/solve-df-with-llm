@@ -1,5 +1,5 @@
 ---
-id: DFT-2103
+id: LWT-2103
 type: technique
 name: Assess location-trace reliability using the production-persistence-detection-interpretation error-stage model
 description: Evaluate how much confidence to place in a device-derived location trace (GPS, Wi-Fi, cell-tower, or app-recorded coordinates) by systematically considering which of five distinct stages -- trace generation/production, persistence, detection/extraction, examination/display, and interpretation/reconstruction -- could have introduced uncertainty or error into the specific trace being relied upon, rather than treating a recovered coordinate as an unqualified fact about where a device was.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1001
   - DFO-1004
 weakness_ids:
-  - DFW-2109
+  - LWW-2109
 aliases:
   - Location-trace error taxonomy
 source_refs:
-  - DFCite-2128
+  - LWCite-2128
 updated_at: 2026-08-16
 status: complete
 ---
@@ -45,4 +45,4 @@ A recovered location coordinate is the end product of a long chain of hardware, 
 
 ## References
 
-- [DFCite-2128] "Uncertainty and error in location traces", FSI: Digital Investigation 48, 2024.
+- [LWCite-2128] "Uncertainty and error in location traces", FSI: Digital Investigation 48, 2024.

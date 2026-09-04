@@ -1,14 +1,14 @@
 ---
-id: DFW-2099
+id: LWW-2099
 type: weakness
 name: PDF creator-tool classification accuracy is markedly lower for version-level identification than tool-level identification
 description: Byte-frequency-and-entropy machine-learning classification of a PDF's creator tool achieves high accuracy (90%+ for the best-performing models) when distinguishing between different tools, but accuracy drops substantially (to roughly 60-85% depending on model) when the same approach is applied to the finer-grained question of distinguishing between different versions of the same tool, in part because far fewer labeled training samples were available per individual tool version than per tool overall.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2100
+  - LWM-2100
 source_refs:
-  - DFCite-2116
+  - LWCite-2116
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on this classification approach to attribute a document 
 
 ## References
 
-- [DFCite-2116] Zia and Adedayo, 2025, "Tool type identification for forensic digital document examination", FSI: Digital Investigation 54, 301972.
+- [LWCite-2116] Zia and Adedayo, 2025, "Tool type identification for forensic digital document examination", FSI: Digital Investigation 54, 301972.

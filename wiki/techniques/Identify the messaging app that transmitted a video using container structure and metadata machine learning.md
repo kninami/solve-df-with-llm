@@ -1,5 +1,5 @@
 ---
-id: DFT-2115
+id: LWT-2115
 type: technique
 name: Identify the messaging app that transmitted a video using container structure and metadata machine learning
 description: Determine which of several instant messaging applications (IMAs) transmitted or re-encoded a given video file -- a distinct question from which camera originally captured it -- by extracting features from the video's ISOBMFF container box structure/sequence, video/audio metadata fields, and H.264/H.265 encoding parameters, then classifying the resulting feature vector with a trained ensemble machine-learning model.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1008
   - DFO-1002
 weakness_ids:
-  - DFW-2121
+  - LWW-2121
 aliases:
   - IMA video source application identification
 source_refs:
-  - DFCite-2144
+  - LWCite-2144
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ Container File Format (CFF) features capture the type and order of top-level "bo
 
 ## References
 
-- [DFCite-2144] Yang, Kim, and Park, 2024, "Video source identification using machine learning: A case study of 16 instant messaging applications", FSI: Digital Investigation 50, 301812.
+- [LWCite-2144] Yang, Kim, and Park, 2024, "Video source identification using machine learning: A case study of 16 instant messaging applications", FSI: Digital Investigation 50, 301812.

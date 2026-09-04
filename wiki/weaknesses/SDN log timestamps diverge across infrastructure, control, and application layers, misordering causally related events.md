@@ -1,5 +1,5 @@
 ---
-id: DFW-1134
+id: LWW-1134
 type: weakness
 name: SDN log timestamps diverge across infrastructure, control, and application layers, misordering causally related events
 description: Switches, the controller, and applications in a software-defined network each timestamp events using their own local clock and logging pipeline, so an unreconciled cross-layer timeline can present a controller decision and its switch-side effect out of their true causal order.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_AS
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1134
+  - LWM-1134
 source_refs:
-  - DFCite-1130
+  - LWCite-1130
 updated_at: 2026-08-12
 status: complete
 ---
@@ -34,4 +34,4 @@ An investigator reconstructing an SDN-based incident (e.g. an attacker exploitin
 
 ## References
 
-- [DFCite-1130] Koswane, Tabona and Maupong, 2026, "Controller-assisted timestamp reconciliation for reliable SDN forensics", FSI: Digital Investigation 58.
+- [LWCite-1130] Koswane, Tabona and Maupong, 2026, "Controller-assisted timestamp reconciliation for reliable SDN forensics", FSI: Digital Investigation 58.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1213
+id: LWW-1213
 type: weakness
 name: SQLite VACUUM overwrites freed record data with null bytes, preventing deleted-message recovery
 description: An application that periodically runs SQLite's VACUUM command physically rewrites its database file, overwriting the freed space previously occupied by deleted rows with null bytes rather than merely marking it free, which permanently destroys the record remnants that unallocated-space carving techniques would otherwise recover.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1213
+  - LWM-1213
 source_refs:
-  - DFCite-1225
+  - LWCite-1225
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Standard SQLite deleted-record-carving techniques assume deleted rows remain phy
 
 ## References
 
-- [DFCite-1225] Akinbi and Ojie, 2021, "Forensic analysis of open-source XMPP multi-client social networking apps on iOS devices", FSI: Digital Investigation 36.
+- [LWCite-1225] Akinbi and Ojie, 2021, "Forensic analysis of open-source XMPP multi-client social networking apps on iOS devices", FSI: Digital Investigation 36.

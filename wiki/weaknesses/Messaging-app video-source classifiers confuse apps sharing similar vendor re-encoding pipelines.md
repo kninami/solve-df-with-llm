@@ -1,14 +1,14 @@
 ---
-id: DFW-2121
+id: LWW-2121
 type: weakness
 name: Messaging-app video-source classifiers confuse apps sharing similar vendor re-encoding pipelines
 description: A container-structure-and-metadata-based messaging-app classifier can misattribute a video to the wrong application when two candidate apps are built on similar underlying re-encoding infrastructure (e.g. from the same vendor), since the container/metadata/encoding-parameter fingerprint the classifier relies on can converge for apps that share the same or similar transcoding pipeline despite being distinct products.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-2122
+  - LWM-2122
 source_refs:
-  - DFCite-2144
+  - LWCite-2144
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on this classifier's output to attribute a video's trans
 
 ## References
 
-- [DFCite-2144] Yang, Kim, and Park, 2024, "Video source identification using machine learning: A case study of 16 instant messaging applications", FSI: Digital Investigation 50, 301812.
+- [LWCite-2144] Yang, Kim, and Park, 2024, "Video source identification using machine learning: A case study of 16 instant messaging applications", FSI: Digital Investigation 50, 301812.

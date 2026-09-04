@@ -1,14 +1,14 @@
 ---
-id: DFW-1290
+id: LWW-1290
 type: weakness
 name: JIT-interpreter memory-forensics speed benchmarks may not generalize across hardware, OS, and interpreter configurations
 description: A reported Python-JIT-interpreter performance gain for Volatility was measured on one fixed hardware configuration and Docker image with default interpreter settings only, so the same speed improvement is not guaranteed to hold on different hardware, operating systems, or with non-default interpreter-specific optimizations and configuration alternatives, which the benchmark did not examine.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1291
+  - LWM-1291
 source_refs:
-  - DFCite-1321
+  - LWCite-1321
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator or lab that adopts PyPy (or another JIT interpreter) for Volatil
 
 ## References
 
-- [DFCite-1321] Gharaibeh, Baggili, and Mahmoud, 2024, "On enhancing memory forensics with FAME: Framework for advanced monitoring and execution", FSI: Digital Investigation 49, 301757.
+- [LWCite-1321] Gharaibeh, Baggili, and Mahmoud, 2024, "On enhancing memory forensics with FAME: Framework for advanced monitoring and execution", FSI: Digital Investigation 49, 301757.

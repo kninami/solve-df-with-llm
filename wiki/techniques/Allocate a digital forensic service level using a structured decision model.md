@@ -1,18 +1,18 @@
 ---
-id: DFT-1154
+id: LWT-1154
 type: technique
 name: Allocate a digital forensic service level using a structured decision model
 description: Route a digital forensic case to one of a defined hierarchy of "Service Levels" — from a brief consultation, through client-led screened data extraction, triage/preview examination, and up to a full standard, non-standard, or expert-evaluation examination — using a structured Service Level Allocator (SLA) decision model that questions the client about device type and investigative-data understanding, so that resources deployed match actual case need rather than defaulting to a full examination for every device.
 objective_ids:
   - DFO-1005
 weakness_ids:
-  - DFW-1157
+  - LWW-1157
 aliases:
   - Service Level Allocator
   - SLA decision model
   - DFS Service Levels framework
 source_refs:
-  - DFCite-1155
+  - LWCite-1155
 updated_at: 2026-08-12
 status: complete
 ---
@@ -41,4 +41,4 @@ The SLA begins with a foundational question (is the submitted device "standard" 
 
 ## References
 
-- [DFCite-1155] Horsman, 2021, "Defining 'service levels' for digital forensic science organisations", FSI: Digital Investigation 38.
+- [LWCite-1155] Horsman, 2021, "Defining 'service levels' for digital forensic science organisations", FSI: Digital Investigation 38.

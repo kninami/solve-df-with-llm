@@ -1,10 +1,10 @@
 ---
-id: DFM-1152
+id: LWM-1152
 type: mitigation
 name: Recalibrate CNN-RNN video classifier confidence thresholds using out-of-distribution validation data
 source_refs:
-  - DFCite-1151
-  - DFCite-1156
+  - LWCite-1151
+  - LWCite-1156
 updated_at: 2026-08-12
 status: complete
 ---
@@ -25,5 +25,5 @@ Before relying on a deployed CNN-RNN video classifier's score, evaluate it again
 
 ## References
 
-- [DFCite-1151] Chamot et al., 2022, "Deepfake forensics: Cross-manipulation robustness of feedforward- and recurrent convolutional forgery detection methods", FSI: Digital Investigation 40.
-- [DFCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.
+- [LWCite-1151] Chamot et al., 2022, "Deepfake forensics: Cross-manipulation robustness of feedforward- and recurrent convolutional forgery detection methods", FSI: Digital Investigation 40.
+- [LWCite-1156] Borg et al., 2022, "Detecting and ranking pornographic content in videos", FSI: Digital Investigation 42-43.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1066
+id: LWW-1066
 type: weakness
 name: Audio-file-only smartwatch recording authentication is weaker than authentication backed by the source device
 description: The strongest form of the proposed smartwatch audio authentication method requires comparing an audio file's internal timestamps against the source smartwatch's own file-system timestamps and file-naming convention, obtained by directly accessing the device via the Smart Development Bridge (SDB) tool; when only the audio file itself is available (without the originating smartwatch), authentication must rely solely on spectral (latency/tailing) and container-metadata features, which is a weaker basis for a conclusive determination.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1066
+  - LWM-1066
 source_refs:
-  - DFCite-1056
+  - LWCite-1056
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who receives only a copied or transferred audio file — without
 
 ## References
 
-- [DFCite-1056] Park et al., 2024, "Advanced forensic method to authenticate audio files from Tizen-based Samsung Galaxy Watches", FSI: Digital Investigation 48.
+- [LWCite-1056] Park et al., 2024, "Advanced forensic method to authenticate audio files from Tizen-based Samsung Galaxy Watches", FSI: Digital Investigation 48.

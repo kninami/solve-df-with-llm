@@ -1,14 +1,14 @@
 ---
-id: DFW-1193
+id: LWW-1193
 type: weakness
 name: Fine-tuned LLM author profiling misclassifies authors whose writing deviates from gender-stereotyped norms
 description: A fine-tuned LLM's age/gender predictions are learned from correlations in its training corpus rather than causal linguistic markers, so male authors with emotional or expressive writing styles and female authors with assertive or analytical styles are disproportionately misclassified, and adjacent age groups are frequently confused.
 categories:
   - ASTM_INAC_AS
 mitigation_ids:
-  - DFM-1193
+  - LWM-1193
 source_refs:
-  - DFCite-1201
+  - LWCite-1201
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator using LLM-predicted demographic characteristics to narrow a susp
 
 ## References
 
-- [DFCite-1201] Cho et al., 2024, "Exploring the potential of large language models for author profiling tasks in digital text forensics", FSI: Digital Investigation 50.
+- [LWCite-1201] Cho et al., 2024, "Exploring the potential of large language models for author profiling tasks in digital text forensics", FSI: Digital Investigation 50.

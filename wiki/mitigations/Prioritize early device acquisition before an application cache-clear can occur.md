@@ -1,9 +1,9 @@
 ---
-id: DFM-1022
+id: LWM-1022
 type: mitigation
 name: Prioritize early device acquisition before an application cache-clear can occur
 source_refs:
-  - DFCite-1015
+  - LWCite-1015
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When a streaming application is identified as forensically relevant, prioritize 
 
 ## References
 
-- [DFCite-1015] García Murias et al., 2023, "A forensic analysis of streaming platforms on Android OS", FSI: Digital Investigation 44.
+- [LWCite-1015] García Murias et al., 2023, "A forensic analysis of streaming platforms on Android OS", FSI: Digital Investigation 44.

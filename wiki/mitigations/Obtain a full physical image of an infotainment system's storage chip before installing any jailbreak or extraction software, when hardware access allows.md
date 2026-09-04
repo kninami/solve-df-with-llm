@@ -1,9 +1,9 @@
 ---
-id: DFM-1258
+id: LWM-1258
 type: mitigation
 name: Obtain a full physical image of an infotainment system's storage chip before installing any jailbreak or extraction software, when hardware access allows
 source_refs:
-  - DFCite-1275
+  - LWCite-1275
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Before applying any jailbreak, daemon-installer, or SSH-mod package to an infota
 
 ## References
 
-- [DFCite-1275] Antonson, Quick and Choo, 2025, "Infotainment system Forensics: Ford SYNC 3 gen 2 infotainment system as a use case", FSI: Digital Investigation 53, 301917.
+- [LWCite-1275] Antonson, Quick and Choo, 2025, "Infotainment system Forensics: Ford SYNC 3 gen 2 infotainment system as a use case", FSI: Digital Investigation 53, 301917.

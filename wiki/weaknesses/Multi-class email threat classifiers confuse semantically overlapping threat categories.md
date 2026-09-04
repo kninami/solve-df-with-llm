@@ -1,14 +1,14 @@
 ---
-id: DFW-1231
+id: LWW-1231
 type: weakness
 name: Multi-class email threat classifiers confuse semantically overlapping threat categories
 description: A multi-class email threat classifier's off-diagonal confusion errors cluster on categories whose defining language genuinely overlaps (e.g., vague anonymous tips versus subtle veiled threats), so a high overall accuracy figure can mask systematic misclassification exactly on the ambiguous, legally consequential cases where correct categorization matters most.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1231
+  - LWM-1231
 source_refs:
-  - DFCite-1242
+  - LWCite-1242
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who treats a multi-class threat-email classifier's high macro-ac
 
 ## References
 
-- [DFCite-1242] Srivastava et al., 2026, "Forensically-integrated machine learning model for multi-class email threat detection using a high-fidelity synthetic dataset", FSI: Digital Investigation 57, 302108.
+- [LWCite-1242] Srivastava et al., 2026, "Forensically-integrated machine learning model for multi-class email threat detection using a high-fidelity synthetic dataset", FSI: Digital Investigation 57, 302108.

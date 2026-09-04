@@ -1,14 +1,14 @@
 ---
-id: DFW-2131
+id: LWW-2131
 type: weakness
 name: Gaming console chat and voice communication content is not stored locally, only remotely with limited retention
 description: A gaming platform's text and voice chat feature leaves no local trace of message or call content on the device's storage, so this evidence exists only in the platform vendor's remote account data, which may be retained for only a short window and require account credentials to access.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2132
+  - LWM-2132
 source_refs:
-  - DFCite-2151
+  - LWCite-2151
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying solely on a local device image will conclude, incorrectl
 
 ## References
 
-- [DFCite-2151] Eichhorn et al., 2024, "Well Played, Suspect! - Forensic examination of the handheld gaming console 'Steam Deck'", FSI: Digital Investigation 48.
+- [LWCite-2151] Eichhorn et al., 2024, "Well Played, Suspect! - Forensic examination of the handheld gaming console 'Steam Deck'", FSI: Digital Investigation 48.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1017
+id: LWM-1017
 type: mitigation
 name: Corroborate flow-level reconstructions with absolute-timestamped logs and payload-level evidence
 source_refs:
-  - DFCite-1011
+  - LWCite-1011
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Where an investigation requires absolute timing (e.g., correlating an attack wit
 
 ## References
 
-- [DFCite-1011] Dias and Rao, 2026, "A forensic analysis framework for IoMT network traffic using temporal reconstruction and artefact profiling", FSI: Digital Investigation 57.
+- [LWCite-1011] Dias and Rao, 2026, "A forensic analysis framework for IoMT network traffic using temporal reconstruction and artefact profiling", FSI: Digital Investigation 57.

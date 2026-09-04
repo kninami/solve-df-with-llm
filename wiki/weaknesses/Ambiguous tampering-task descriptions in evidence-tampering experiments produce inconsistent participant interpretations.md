@@ -1,14 +1,14 @@
 ---
-id: DFW-1305
+id: LWW-1305
 type: weakness
 name: Ambiguous tampering-task descriptions in evidence-tampering experiments produce inconsistent participant interpretations
 description: A tampering-experiment task description that has not been precisely scoped is subject to varying subjective interpretation by different participants, and this ambiguity is easy to underestimate in advance, since a task description that reads as clear can turn out to admit dramatically different valid interpretations once participants actually attempt it.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1307
+  - LWM-1307
 source_refs:
-  - DFCite-1342
+  - LWCite-1342
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ A researcher whose tampering-experiment task description admits multiple valid i
 
 ## References
 
-- [DFCite-1342] Schneider, Düsel, Lorch, Drafz, and Freiling, 2022, "Prudent design principles for digital tampering experiments", FSI: Digital Investigation 40, 301334.
+- [LWCite-1342] Schneider, Düsel, Lorch, Drafz, and Freiling, 2022, "Prudent design principles for digital tampering experiments", FSI: Digital Investigation 40, 301334.

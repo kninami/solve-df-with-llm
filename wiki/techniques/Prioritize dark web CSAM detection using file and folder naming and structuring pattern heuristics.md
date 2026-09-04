@@ -1,5 +1,5 @@
 ---
-id: DFT-2111
+id: LWT-2111
 type: technique
 name: Prioritize dark web CSAM detection using file and folder naming and structuring pattern heuristics
 description: Improve the efficiency of automated child sexual abuse material (CSAM) detection on dark web sites by first analyzing file and folder naming conventions and directory structuring patterns known to be associated with CSAM distribution (e.g. specific keyword patterns, age-indicating abbreviations, or characteristic folder-organization schemes), and prioritizing image-content-analysis scanning toward files and folders matching these patterns rather than scanning an entire site's contents with equal priority.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1007
   - DFO-1012
 weakness_ids:
-  - DFW-2118
+  - LWW-2118
 aliases:
   - File/folder naming heuristics for CSAM detection prioritization
 source_refs:
-  - DFCite-2138
+  - LWCite-2138
 updated_at: 2026-08-16
 status: complete
 ---
@@ -41,4 +41,4 @@ The technique catalogs naming and structuring conventions empirically observed a
 
 ## References
 
-- [DFCite-2138] "Using file and folder naming and structuring to improve automated detection of child sexual abuse images on the Dark Web", FSI: Digital Investigation 48, 2024.
+- [LWCite-2138] "Using file and folder naming and structuring to improve automated detection of child sexual abuse images on the Dark Web", FSI: Digital Investigation 48, 2024.

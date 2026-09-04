@@ -1,13 +1,13 @@
 ---
-id: DFM-1105
+id: LWM-1105
 type: mitigation
 name: Select and configure similarity digest algorithms with awareness of their known reduction and emulation attack surface
 source_refs:
-  - DFCite-1100
-  - DFCite-1209
-  - DFCite-1249
-  - DFCite-2092
-  - DFCite-2131
+  - LWCite-1100
+  - LWCite-1209
+  - LWCite-1249
+  - LWCite-2092
+  - LWCite-2131
 updated_at: 2026-08-16
 status: complete
 ---
@@ -28,8 +28,8 @@ Before relying on a similarity digest match or non-match as significant evidence
 
 ## References
 
-- [DFCite-1100] Martín-Pérez et al., 2021, "Bringing order to approximate matching: Classification and attacks on similarity digest algorithms", FSI: Digital Investigation 36.
-- [DFCite-1209] Singh et al., 2022, "FbHash-E: A time and memory efficient version of FbHash similarity hashing algorithm", FSI: Digital Investigation 41, 301375.
-- [DFCite-1249] Göbel et al., 2022, "FRASHER -- A framework for automated evaluation of similarity hashing", FSI: Digital Investigation 42, 301407.
-- [DFCite-2092] Jakobs, Lambertz, and Hilgert, 2022, "ssdeeper: Evaluating and improving ssdeep", FSI: Digital Investigation 42, 301402. Source for the specific ssdeep patch-set recommendations (`-bugfix`, `-no32lim`, `-4b`, `-djb2`, and the security trade-offs of `-nocommonsub`/`-nopa`).
-- [DFCite-2131] Botacin, Galhardo Moia, and Ceschin, 2021, "Understanding uses and misuses of similarity hashing functions for malware detection and family clustering in actual scenarios", FSI: Digital Investigation 38, 301220. Source for the task-dependent threshold-selection guidance and the malware-packing similarity-reduction caveat.
+- [LWCite-1100] Martín-Pérez et al., 2021, "Bringing order to approximate matching: Classification and attacks on similarity digest algorithms", FSI: Digital Investigation 36.
+- [LWCite-1209] Singh et al., 2022, "FbHash-E: A time and memory efficient version of FbHash similarity hashing algorithm", FSI: Digital Investigation 41, 301375.
+- [LWCite-1249] Göbel et al., 2022, "FRASHER -- A framework for automated evaluation of similarity hashing", FSI: Digital Investigation 42, 301407.
+- [LWCite-2092] Jakobs, Lambertz, and Hilgert, 2022, "ssdeeper: Evaluating and improving ssdeep", FSI: Digital Investigation 42, 301402. Source for the specific ssdeep patch-set recommendations (`-bugfix`, `-no32lim`, `-4b`, `-djb2`, and the security trade-offs of `-nocommonsub`/`-nopa`).
+- [LWCite-2131] Botacin, Galhardo Moia, and Ceschin, 2021, "Understanding uses and misuses of similarity hashing functions for malware detection and family clustering in actual scenarios", FSI: Digital Investigation 38, 301220. Source for the task-dependent threshold-selection guidance and the malware-packing similarity-reduction caveat.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1166
+id: LWW-1166
 type: weakness
 name: Firmware RAID configuration is undetectable by standard forensic tools and indistinguishable from a standalone disk
 description: Firmware (chipset/BIOS-managed) RAID configures storage before OS boot, presents no visible controller card, and gives no OS-level or standard-setup indication that it exists, so widely used forensic tools (EnCase, X-Ways, R-Studio, UFS Explorer) fail to detect it at all, causing an investigator who images and examines one physical disk of an array in isolation to overlook the significant amount of striped or parity-distributed data actually stored across the full array.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1166
+  - LWM-1166
 source_refs:
-  - DFCite-1168
+  - LWCite-1168
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ Chipset-level firmware RAID has been accessible on ordinary desktop PCs since In
 
 ## References
 
-- [DFCite-1168] Yun et al., 2025, "Digital forensic approaches to Intel and AMD firmware RAID systems", FSI: Digital Investigation 54, 301971.
+- [LWCite-1168] Yun et al., 2025, "Digital forensic approaches to Intel and AMD firmware RAID systems", FSI: Digital Investigation 54, 301971.

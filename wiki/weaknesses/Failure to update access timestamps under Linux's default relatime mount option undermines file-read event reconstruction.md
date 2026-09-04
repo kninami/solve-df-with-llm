@@ -1,14 +1,14 @@
 ---
-id: DFW-1061
+id: LWW-1061
 type: weakness
 name: Failure to update access timestamps under Linux's default relatime mount option undermines file-read event reconstruction
 description: On Linux, the default `relatime` mount option only updates a file's last-access (A) timestamp if it was previously earlier than the modify or change timestamp, or at least a day old — meaning most ordinary file reads leave the access timestamp completely unchanged, silently deviating from POSIX's mandatory A-update requirement and making read-based event reconstruction from access timestamps unreliable unless the analyst independently confirms the mount option in effect.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1061
+  - LWM-1061
 source_refs:
-  - DFCite-1051
+  - LWCite-1051
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An analyst who observes an unchanged or stale access timestamp on a Linux system
 
 ## References
 
-- [DFCite-1051] Thierry and Müller, 2022, "A systematic approach to understanding MACB timestamps on Unix-like systems", FSI: Digital Investigation 40.
+- [LWCite-1051] Thierry and Müller, 2022, "A systematic approach to understanding MACB timestamps on Unix-like systems", FSI: Digital Investigation 40.

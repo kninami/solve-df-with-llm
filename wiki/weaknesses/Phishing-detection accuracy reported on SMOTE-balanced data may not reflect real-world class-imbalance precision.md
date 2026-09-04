@@ -1,14 +1,14 @@
 ---
-id: DFW-2040
+id: LWW-2040
 type: weakness
 name: Phishing-detection accuracy reported on SMOTE-balanced data may not reflect real-world class-imbalance precision
 description: A phishing-URL classifier's headline accuracy is measured on a SMOTE-balanced dataset where phishing and legitimate instances are roughly equal, but genuine phishing prevalence in real-world traffic is far lower, and the paper's own results show accuracy dropping substantially when SMOTE is not applied, so the reported figure may overstate real-world precision.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-2040
+  - LWM-2040
 source_refs:
-  - DFCite-2041
+  - LWCite-2041
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ An investigator or SOC deploying this class of phishing classifier operationally
 
 ## References
 
-- [DFCite-2041] Alsubaei et al., 2024 — Table 6 directly compares with-SMOTE and without-SMOTE accuracy for every tested model, and Section III.B/IV.A discuss the underlying real-world class imbalance the SMOTE step is meant to compensate for.
+- [LWCite-2041] Alsubaei et al., 2024 — Table 6 directly compares with-SMOTE and without-SMOTE accuracy for every tested model, and Section III.B/IV.A discuss the underlying real-world class imbalance the SMOTE step is meant to compensate for.

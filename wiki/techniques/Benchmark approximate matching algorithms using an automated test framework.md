@@ -1,17 +1,17 @@
 ---
-id: DFT-1219
+id: LWT-1219
 type: technique
 name: Benchmark approximate matching algorithms using an automated test framework
 description: Empirically determine which similarity-hashing (approximate matching) algorithm best suits a given forensic use case by running it through a modular, automated test framework covering efficiency (generation, comparison, compression), sensitivity and robustness (single-common-block correlation, fragment detection, alignment robustness), and adversarial resilience (digest generation impediment, digest comparison impediment, finding-the-needle), rather than choosing an algorithm from default tool settings or personal experience.
 objective_ids:
   - DFO-1004
 weakness_ids:
-  - DFW-1105
+  - LWW-1105
 aliases:
   - FRASHER
   - Automated approximate matching evaluation framework
 source_refs:
-  - DFCite-1249
+  - LWCite-1249
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ A JSON "playbook" configures which algorithms, test files, and test cases to run
 
 ## References
 
-- [DFCite-1249] Göbel et al., 2022, "FRASHER -- A framework for automated evaluation of similarity hashing", FSI: Digital Investigation 42, 301407.
+- [LWCite-1249] Göbel et al., 2022, "FRASHER -- A framework for automated evaluation of similarity hashing", FSI: Digital Investigation 42, 301407.

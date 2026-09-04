@@ -1,17 +1,17 @@
 ---
-id: DFT-1208
+id: LWT-1208
 type: technique
 name: Decode an app's proprietary BLOB-serialized object data using open-source-derived class signatures
 description: Recover structured, forensically relevant data from an application's SQLite BLOB columns by deriving each internal class's hash-based signature and per-attribute key/data-type encoding from the application's own open-source code, then locating and parsing matching class instances directly within the raw BLOB bytes.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-1219
+  - LWW-1219
 aliases:
   - Telegram iOS BLOB decoding via MurmurHash3 class signatures
   - PostboxEncoder BLOB decoding
 source_refs:
-  - DFCite-1230
+  - LWCite-1230
 updated_at: 2026-08-13
 status: complete
 ---
@@ -42,4 +42,4 @@ The method examines the application's serialization source file (e.g. an object 
 
 ## References
 
-- [DFCite-1230] Jaeckel, Spranger and Labudde, 2025, "Forensic analysis of Telegram Messenger on iOS smartphones", DFRWS EU 2025; FSI: Digital Investigation 52, 301866.
+- [LWCite-1230] Jaeckel, Spranger and Labudde, 2025, "Forensic analysis of Telegram Messenger on iOS smartphones", DFRWS EU 2025; FSI: Digital Investigation 52, 301866.

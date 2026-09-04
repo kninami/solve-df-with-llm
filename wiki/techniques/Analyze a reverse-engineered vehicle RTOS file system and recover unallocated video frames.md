@@ -1,16 +1,16 @@
 ---
-id: DFT-1078
+id: LWT-1078
 type: technique
 name: Analyze a reverse-engineered vehicle RTOS file system and recover unallocated video frames
 description: Recover data from a vehicle's built-in camera (dashcam/DVRS) onboard flash memory by reverse-engineering the manufacturer's real-time-operating-system-dedicated file system driver — since standard forensic file-system tools cannot read it — to parse log files, user-setting files, and video partitions across the system's multiple partitions, and additionally recover deleted video frames by searching for deletion-marked clusters within the unallocated area of the video storage partition and applying frame-by-frame reconstruction.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1084
+  - LWW-1084
 aliases:
   - Reverse-engineered RTOS-dedicated vehicle file system analysis with unallocated-space video frame recovery
 source_refs:
-  - DFCite-1074
+  - LWCite-1074
 updated_at: 2026-08-10
 status: complete
 ---
@@ -39,4 +39,4 @@ The method reverse-engineers the driver file in the system area to determine the
 
 ## References
 
-- [DFCite-1074] Lee et al., 2023, "Analysis of real-time operating systems' file systems: Built-in cameras from vehicles", FSI: Digital Investigation 44.
+- [LWCite-1074] Lee et al., 2023, "Analysis of real-time operating systems' file systems: Built-in cameras from vehicles", FSI: Digital Investigation 44.

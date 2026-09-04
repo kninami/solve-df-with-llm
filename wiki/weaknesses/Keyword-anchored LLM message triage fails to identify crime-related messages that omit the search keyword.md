@@ -1,14 +1,14 @@
 ---
-id: DFW-1168
+id: LWW-1168
 type: weakness
 name: Keyword-anchored LLM message triage fails to identify crime-related messages that omit the search keyword
 description: A pipeline that pre-filters messages by keyword match before LLM relevance classification can only ever judge messages containing the search term, so crime-related content phrased indirectly, metaphorically, or in slang without the flagged word is never presented to the model and is silently excluded from the investigation.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1168
+  - LWM-1168
 source_refs:
-  - DFCite-1173
+  - LWCite-1173
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ Investigators relying on this pipeline may reasonably assume that a low or zero 
 
 ## References
 
-- [DFCite-1173] Kim et al., 2025, "Digital forensics in law enforcement: A case study of LLM-driven evidence analysis", FSI: Digital Investigation 54, 301939.
+- [LWCite-1173] Kim et al., 2025, "Digital forensics in law enforcement: A case study of LLM-driven evidence analysis", FSI: Digital Investigation 54, 301939.

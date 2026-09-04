@@ -1,9 +1,9 @@
 ---
-id: DFM-2102
+id: LWM-2102
 type: mitigation
 name: Manually carve or separately handle inline and direct-pointer-referenced files a generic file-system recovery module fails to recover
 source_refs:
-  - DFCite-2118
+  - LWCite-2118
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Where the target file system supports inline data storage or direct-pointer addr
 
 ## References
 
-- [DFCite-2118] "Towards a practical usage for the Sleuth Kit supporting file system add-ons", FSI: Digital Investigation 48, 2024.
+- [LWCite-2118] "Towards a practical usage for the Sleuth Kit supporting file system add-ons", FSI: Digital Investigation 48, 2024.

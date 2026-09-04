@@ -1,5 +1,5 @@
 ---
-id: DFT-2085
+id: LWT-2085
 type: technique
 name: Visualize spatial and temporal crime hot-spots using k-means clustering and kernel density estimation
 description: Given a database of geolocated, timestamped crime records for a jurisdiction, identify when and where specific crime types cluster by grouping incident occurrences by day-of-week and hour-of-day, spatially partitioning incident locations with k-means clustering (selecting cluster count via the Calinski-Harabasz validity index), and generating a continuous risk-density surface with kernel density estimation, to visually and quantitatively support resource-allocation and patrol-planning decisions.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1009
   - DFO-1004
 weakness_ids:
-  - DFW-2088
+  - LWW-2088
 aliases:
   - Crime event spatial-temporal clustering and KDE visualization
 source_refs:
-  - DFCite-2103
+  - LWCite-2103
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ Temporal analysis first buckets each crime type's incidents by day of week and b
 
 ## References
 
-- [DFCite-2103] Kowalski, Kusy, and Kocierz, 2023, "The forensic information identification based on machine learning algorithms", FSI: Digital Investigation 47, 301619.
+- [LWCite-2103] Kowalski, Kusy, and Kocierz, 2023, "The forensic information identification based on machine learning algorithms", FSI: Digital Investigation 47, 301619.

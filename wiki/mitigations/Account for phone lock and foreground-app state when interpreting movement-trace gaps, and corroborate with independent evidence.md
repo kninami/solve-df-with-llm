@@ -1,9 +1,9 @@
 ---
-id: DFM-2092
+id: LWM-2092
 type: mitigation
 name: Account for phone lock and foreground-app state when interpreting movement-trace gaps, and corroborate with independent evidence
 source_refs:
-  - DFCite-2107
+  - LWCite-2107
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Before concluding a phone was stationary during a period with no recorded moveme
 
 ## References
 
-- [DFCite-2107] van Zandwijk and Boztas, 2021, "The phone reveals your motion: digital traces of walking, driving and other movements on iPhones", FSI: Digital Investigation 37, 301170.
+- [LWCite-2107] van Zandwijk and Boztas, 2021, "The phone reveals your motion: digital traces of walking, driving and other movements on iPhones", FSI: Digital Investigation 37, 301170.

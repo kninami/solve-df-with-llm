@@ -1,14 +1,14 @@
 ---
-id: DFW-1103
+id: LWW-1103
 type: weakness
 name: Synthetic-data-trained blind protocol identification assumes feature independence and has only been validated on one narrow protocol class
 description: The Random Forest models are trained under a simplified assumption that extracted protocol features are statistically independent, and the method's effectiveness has so far only been demonstrated on one narrow protocol class (geographic encoding protocols such as GPX and NMEA-derived formats) rather than across the broader range of protocol types blind protocol identification is meant to cover.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1103
+  - LWM-1103
 source_refs:
-  - DFCite-1098
+  - LWCite-1098
 updated_at: 2026-08-10
 status: complete
 ---
@@ -33,4 +33,4 @@ An organization considering this synthetic-dataset-training approach for a broad
 
 ## References
 
-- [DFCite-1098] Abbasi-Azar et al., 2025, "Blind protocol identification using synthetic dataset: A case study on geographic protocols", FSI: Digital Investigation 53.
+- [LWCite-1098] Abbasi-Azar et al., 2025, "Blind protocol identification using synthetic dataset: A case study on geographic protocols", FSI: Digital Investigation 53.

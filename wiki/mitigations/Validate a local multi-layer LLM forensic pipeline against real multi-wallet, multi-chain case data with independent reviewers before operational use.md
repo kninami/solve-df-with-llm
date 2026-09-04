@@ -1,9 +1,9 @@
 ---
-id: DFM-2006
+id: LWM-2006
 type: mitigation
 name: Validate a local multi-layer LLM forensic pipeline against real multi-wallet, multi-chain case data with independent reviewers before operational use
 source_refs:
-  - DFCite-2006
+  - LWCite-2006
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Extend the pipeline's evidence-extraction rule library and RAG reference corpus 
 
 ## References
 
-- [DFCite-2006] Kao et al., 2026 — the paper's own future-work section proposes exactly this: testing on anonymized real-case memory images under data-protection protocols, field trials against existing investigator workflows, and extension to multi-wallet/multi-chain scenarios.
+- [LWCite-2006] Kao et al., 2026 — the paper's own future-work section proposes exactly this: testing on anonymized real-case memory images under data-protection protocols, field trials against existing investigator workflows, and extension to multi-wallet/multi-chain scenarios.

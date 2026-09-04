@@ -1,18 +1,18 @@
 ---
-id: DFT-1161
+id: LWT-1161
 type: technique
 name: Reconstruct firmware RAID virtual disks from Intel and AMD metadata structures
 description: Detect that a set of physical disks is configured as a chipset-level (BIOS-managed, driverless-controller) firmware RAID array — Intel Rapid Storage Technology or AMD RAIDXpert2 — by locating and parsing each vendor's Common RAID Disk Data Format-derived metadata, then reconstruct the resulting virtual disk by recovering its five required parameters (physical disk identification, RAID level, disk order, start/end offsets, and stripe size) so it can be mounted and examined as a normal volume.
 objective_ids:
   - DFO-1013
 weakness_ids:
-  - DFW-1166
-  - DFW-1167
+  - LWW-1166
+  - LWW-1167
 aliases:
   - X-raid firmware RAID scanning, reconstruction, and recovery
   - Intel RST / AMD RAIDXpert2 virtual disk reconstruction
 source_refs:
-  - DFCite-1168
+  - LWCite-1168
 updated_at: 2026-08-12
 status: complete
 ---
@@ -43,4 +43,4 @@ Intel RAID metadata is written to the sector immediately preceding each physical
 
 ## References
 
-- [DFCite-1168] Yun et al., 2025, "Digital forensic approaches to Intel and AMD firmware RAID systems", FSI: Digital Investigation 54, 301971.
+- [LWCite-1168] Yun et al., 2025, "Digital forensic approaches to Intel and AMD firmware RAID systems", FSI: Digital Investigation 54, 301971.

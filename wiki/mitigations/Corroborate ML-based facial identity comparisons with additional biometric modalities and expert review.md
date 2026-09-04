@@ -1,9 +1,9 @@
 ---
-id: DFM-2001
+id: LWM-2001
 type: mitigation
 name: Corroborate ML-based facial identity comparisons with additional biometric modalities and expert review
 source_refs:
-  - DFCite-2001
+  - LWCite-2001
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Report the classifier's own accuracy/AUC figures alongside its same/different de
 
 ## References
 
-- [DFCite-2001] Sanil et al., 2023 — the paper's own conclusion and future work recommends a multi-modal FRS combining several biometric modalities to address the identical-twin/look-alike identification limitation of a single facial-landmark-ratio classifier.
+- [LWCite-2001] Sanil et al., 2023 — the paper's own conclusion and future work recommends a multi-modal FRS combining several biometric modalities to address the identical-twin/look-alike identification limitation of a single facial-landmark-ratio classifier.

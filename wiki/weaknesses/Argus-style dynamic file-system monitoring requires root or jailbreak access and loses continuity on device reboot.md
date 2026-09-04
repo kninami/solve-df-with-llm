@@ -1,15 +1,15 @@
 ---
-id: DFW-1090
+id: LWW-1090
 type: weakness
 name: Argus-style dynamic file-system monitoring requires root or jailbreak access and loses continuity on device reboot
 description: Differential file-system snapshot monitoring requires complete file-system access via a rooted Android device/emulator or a jailbroken iOS device; if these methods are unavailable for the target device or OS version, the methodology does not work at all, and even when available, restarting the phone during an experiment severs the monitoring connection and can destroy a non-persistent jailbreak, preventing collection of file system information for that session.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1090
+  - LWM-1090
 source_refs:
-  - DFCite-1082
-  - DFCite-2095
+  - LWCite-1082
+  - LWCite-2095
 updated_at: 2026-08-16
 status: complete
 ---
@@ -35,5 +35,5 @@ An investigator relying on this class of tool to build a reference library of ap
 
 ## References
 
-- [DFCite-1082] Boztas et al., 2025, "Argus: A new approach for forensic analysis of apps on mobile devices", FSI: Digital Investigation 53.
-- [DFCite-2095] Seiden, Webb, and Baggili, 2025, "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs", FSI: Digital Investigation 52, 301871. Source for a jailbreak-free alternative for the iOS side of this weakness.
+- [LWCite-1082] Boztas et al., 2025, "Argus: A new approach for forensic analysis of apps on mobile devices", FSI: Digital Investigation 53.
+- [LWCite-2095] Seiden, Webb, and Baggili, 2025, "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs", FSI: Digital Investigation 52, 301871. Source for a jailbreak-free alternative for the iOS side of this weakness.

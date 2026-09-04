@@ -1,17 +1,17 @@
 ---
-id: DFT-1217
+id: LWT-1217
 type: technique
 name: Formulate competing propositions for likelihood-ratio evaluation of Trojan horse defense claims
 description: Translate the prosecution's and defense's disputed explanations for the presence of illegal content on a device into a well-formed, mutually exclusive pair of propositions — addressing a disputed actor, disputed activity, or disputed intent — suitable as input to a likelihood-ratio (LR) evaluation, rather than evaluating evidence against loosely stated or overlapping explanations.
 objective_ids:
   - DFO-1003
 weakness_ids:
-  - DFW-1233
+  - LWW-1233
 aliases:
   - Trojan horse defense proposition formulation
   - Hierarchy-of-propositions method for digital evidence
 source_refs:
-  - DFCite-1246
+  - LWCite-1246
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ Explanations for the presence of illegal material on a device are first sorted i
 
 ## References
 
-- [DFCite-1246] Vink et al., 2025, "Formulating propositions in Trojan horse defense cases", FSI: Digital Investigation 53, 301915.
+- [LWCite-1246] Vink et al., 2025, "Formulating propositions in Trojan horse defense cases", FSI: Digital Investigation 53, 301915.

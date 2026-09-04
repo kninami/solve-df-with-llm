@@ -1,14 +1,14 @@
 ---
-id: DFW-1307
+id: LWW-1307
 type: weakness
 name: An analytical IoT flash-volatility model based only on known file system write-erase behavior underestimates true evidence volatility
 description: A theoretical data-volatility model derived purely from a file system's documented or reverse-engineered write/erase behavior systematically underestimates real-world data volatility on flash-based IoT storage compared to empirically measured behavior, meaning the model's evidence-survival-probability estimates are optimistic relative to reality.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1309
+  - LWM-1309
 source_refs:
-  - DFCite-1344
+  - LWCite-1344
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying solely on the analytical model's evidence-survival-proba
 
 ## References
 
-- [DFCite-1344] Sandvik, Franke, Abie, and Årnes, 2022, "Quantifying data volatility for IoT forensics with examples from Contiki OS", FSI: Digital Investigation 40, 301343.
+- [LWCite-1344] Sandvik, Franke, Abie, and Årnes, 2022, "Quantifying data volatility for IoT forensics with examples from Contiki OS", FSI: Digital Investigation 40, 301343.

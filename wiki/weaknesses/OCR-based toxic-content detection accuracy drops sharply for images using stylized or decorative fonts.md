@@ -1,14 +1,14 @@
 ---
-id: DFW-2117
+id: LWW-2117
 type: weakness
 name: OCR-based toxic-content detection accuracy drops sharply for images using stylized or decorative fonts
 description: An OCR-plus-classifier pipeline for detecting toxic content embedded as text within images degrades from roughly 92% accuracy on standard-font images to as low as 62% on images using stylized or decorative fonts, because OCR misreads of the underlying text propagate directly into the downstream classifier regardless of the classifier's own accuracy on correctly-transcribed text.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2118
+  - LWM-2118
 source_refs:
-  - DFCite-2137
+  - LWCite-2137
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ A user seeking to evade automated toxic-content detection has a direct incentive
 
 ## References
 
-- [DFCite-2137] "Using deep learning to detect social media 'trolls'", FSI: Digital Investigation 48, 2024.
+- [LWCite-2137] "Using deep learning to detect social media 'trolls'", FSI: Digital Investigation 48, 2024.

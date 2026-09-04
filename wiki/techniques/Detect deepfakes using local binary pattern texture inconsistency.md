@@ -1,16 +1,16 @@
 ---
-id: DFT-1250
+id: LWT-1250
 type: technique
 name: Detect deepfakes using local binary pattern texture inconsistency
 description: Convert a detected face region to a Local Binary Pattern (LBP) texture-coded image — which captures each pixel's local intensity relationship to its 3x3 neighborhood rather than raw pixel intensity — and classify the LBP-coded image with a CNN, exploiting the irregular texture patterns (blurring, blending seams, disrupted fine detail around eyes/nose/lips) that deepfake generation methods introduce but preserve pixel-intensity-based detectors may miss.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1265
+  - LWW-1265
 aliases:
   - LBPNet
 source_refs:
-  - DFCite-1288
+  - LWCite-1288
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ Preprocessing extracts the face region via MTCNN (with gamma correction for low-
 
 ## References
 
-- [DFCite-1288] Kingra, Aggarwal and Kaur, 2022, "LBPNet: Exploiting texture descriptor for deepfake detection", FSI: Digital Investigation 42-43, 301452.
+- [LWCite-1288] Kingra, Aggarwal and Kaur, 2022, "LBPNet: Exploiting texture descriptor for deepfake detection", FSI: Digital Investigation 42-43, 301452.

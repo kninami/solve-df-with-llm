@@ -1,9 +1,9 @@
 ---
-id: DFM-1216
+id: LWM-1216
 type: mitigation
 name: Correlate conversational AI records across platforms using content and timestamps in addition to conversation ID
 source_refs:
-  - DFCite-1226
+  - LWCite-1226
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Join conversation records across sources primarily by conversation ID, but flag 
 
 ## References
 
-- [DFCite-1226] Dragonas et al., 2024, "Forensic analysis of OpenAI's ChatGPT mobile application", FSI: Digital Investigation 50, 301801.
+- [LWCite-1226] Dragonas et al., 2024, "Forensic analysis of OpenAI's ChatGPT mobile application", FSI: Digital Investigation 50, 301801.

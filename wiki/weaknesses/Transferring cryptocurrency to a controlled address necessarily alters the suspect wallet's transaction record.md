@@ -1,14 +1,14 @@
 ---
-id: DFW-1013
+id: LWW-1013
 type: weakness
 name: Transferring cryptocurrency to a controlled address necessarily alters the suspect wallet's transaction record
 description: Preserving a suspect's cryptocurrency by transferring it to an investigator-controlled address inherently creates a new transaction record on the suspect's wallet and reduces its balance to zero before device imaging occurs, modifying digital evidence that the second digital-evidence-preservation principle otherwise requires to remain unaltered.
 categories:
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-1013
+  - LWM-1013
 source_refs:
-  - DFCite-1007
+  - LWCite-1007
 updated_at: 2026-08-09
 status: complete
 ---
@@ -33,4 +33,4 @@ Digital evidence preservation principles generally require that original evidenc
 
 ## References
 
-- [DFCite-1007] Taylor et al., 2022, "A comprehensive forensic preservation methodology for crypto wallets", FSI: Digital Investigation 42-43.
+- [LWCite-1007] Taylor et al., 2022, "A comprehensive forensic preservation methodology for crypto wallets", FSI: Digital Investigation 42-43.

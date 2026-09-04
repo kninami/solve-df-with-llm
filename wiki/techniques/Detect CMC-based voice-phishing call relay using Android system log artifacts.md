@@ -1,17 +1,17 @@
 ---
-id: DFT-1206
+id: LWT-1206
 type: technique
 name: Detect CMC-based voice-phishing call relay using Android system log artifacts
 description: Identify that a voice call was covertly relayed through a Samsung Call & Message Continuity (CMC) connection — rather than placed directly by the local dialer — by correlating a minimal, sequential set of device-level dumpstate/logcat and ADB logcat artifacts recorded on the secondary and primary devices involved.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1217
+  - LWW-1217
 aliases:
   - CMC voice-phishing artifact detection
   - Samsung Call & Message Continuity abuse detection
 source_refs:
-  - DFCite-1228
+  - LWCite-1228
 updated_at: 2026-08-13
 status: complete
 ---
@@ -42,4 +42,4 @@ The method classifies candidate log entries by indicator strength: "Strong" indi
 
 ## References
 
-- [DFCite-1228] Yoo, Park and Kim, 2026, "Forensic analysis of remote call service artifacts for detecting voice phishing via samsung call & message continuity (CMC)", FSI: Digital Investigation 57, 302107.
+- [LWCite-1228] Yoo, Park and Kim, 2026, "Forensic analysis of remote call service artifacts for detecting voice phishing via samsung call & message continuity (CMC)", FSI: Digital Investigation 57, 302107.

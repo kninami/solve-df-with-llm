@@ -1,5 +1,5 @@
 ---
-id: DFT-2117
+id: LWT-2117
 type: technique
 name: Extract and reconstruct on-scene credentials using a modular discovery-analysis framework
 description: Access password-protected resources (encrypted disks/containers, cryptocurrency wallets, secure messenger accounts) during an on-scene search and seizure by running a four-stage modular framework -- pre-definition (configuring target signatures/patterns), discovery (scanning live memory and storage for credential-related artifacts), analysis (reconstructing plausible passphrases from discovered fragments and verifying them against the target), and post-processing (validating and documenting results) -- rather than relying only on cooperative disclosure or later offline brute-force alone.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1016
   - DFO-1015
 weakness_ids:
-  - DFW-2123
+  - LWW-2123
 aliases:
   - Vision (on-scene credential-access framework)
 source_refs:
-  - DFCite-2146
+  - LWCite-2146
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ Password-protected resources -- full/file-based disk encryption, cryptocurrency 
 
 ## References
 
-- [DFCite-2146] Bang, Park, and Lee, 2022, "Vision: An empirical framework for examiners to accessing password-protected resources for on-the-scene digital investigations", FSI: Digital Investigation 40, 301376.
+- [LWCite-2146] Bang, Park, and Lee, 2022, "Vision: An empirical framework for examiners to accessing password-protected resources for on-the-scene digital investigations", FSI: Digital Investigation 40, 301376.

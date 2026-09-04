@@ -1,16 +1,16 @@
 ---
-id: DFT-1292
+id: LWT-1292
 type: technique
 name: Reverse-engineer a proprietary ICS protocol's fields using cross-protocol heuristic pattern transfer
 description: Identify the meaning and location of message fields (function code, message length, PLC memory address, session/transaction ID, checksum) in an unfamiliar proprietary industrial control system (ICS) protocol's captured network traffic by applying heuristics — rolling-window, vertical-window, and frequency-table analysis — built from an analyst's knowledge of a different, already-understood ICS protocol, on the hypothesis that ICS protocols share substantially overlapping field conventions due to their common underlying functions.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-1302
+  - LWW-1302
 aliases:
   - PREE (Protocol Reverse Engineering Engine)
 source_refs:
-  - DFCite-1337
+  - LWCite-1337
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ PREE provides a data-analytics layer of message-level functions (find similarity
 
 ## References
 
-- [DFCite-1337] Qasim, Jo, and Ahmed, 2023, "PREE: Heuristic builder for reverse engineering of network protocols in industrial control systems", FSI: Digital Investigation 45, 301565.
+- [LWCite-1337] Qasim, Jo, and Ahmed, 2023, "PREE: Heuristic builder for reverse engineering of network protocols in industrial control systems", FSI: Digital Investigation 45, 301565.

@@ -1,5 +1,5 @@
 ---
-id: DFW-1006
+id: LWW-1006
 type: weakness
 name: SQLite B-tree rebalancing causes valid data in freelist pages to be misidentified as deleted
 description: When SQLite merges two B-tree pages during rebalancing, the still-valid records copied to the surviving page are placed on the freelist along with genuinely deleted records, causing recovery tools that trust freelist-page membership to report valid, non-deleted data as recovered deleted data.
@@ -7,9 +7,9 @@ categories:
   - ASTM_INAC_EX
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1006
+  - LWM-1006
 source_refs:
-  - DFCite-1004
+  - LWCite-1004
 updated_at: 2026-08-09
 status: complete
 ---
@@ -34,4 +34,4 @@ This is a structural false-positive source distinct from ordinary deletion: in a
 
 ## References
 
-- [DFCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.
+- [LWCite-1004] Lee et al., 2025, "A comprehensive analysis and evaluation of SQLite deleted Record recovery techniques: A survey", FSI: Digital Investigation 55.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1057
+id: LWM-1057
 type: mitigation
 name: Supplement backup-protocol acquisition with standard file-system extraction for media files
 source_refs:
-  - DFCite-1047
+  - LWCite-1047
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When planning acquisition for a device, use the reverse-engineered backup-protoc
 
 ## References
 
-- [DFCite-1047] Park et al., 2022, "A study on data acquisition based on the Huawei smartphone backup protocol", FSI: Digital Investigation 41.
+- [LWCite-1047] Park et al., 2022, "A study on data acquisition based on the Huawei smartphone backup protocol", FSI: Digital Investigation 41.

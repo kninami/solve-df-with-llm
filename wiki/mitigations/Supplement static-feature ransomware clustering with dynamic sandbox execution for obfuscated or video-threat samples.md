@@ -1,9 +1,9 @@
 ---
-id: DFM-1310
+id: LWM-1310
 type: mitigation
 name: Supplement static-feature ransomware clustering with dynamic sandbox execution for obfuscated or video-threat samples
 source_refs:
-  - DFCite-1345
+  - LWCite-1345
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Treat [[techniques/Detect Android ransomware using unsupervised clustering of re
 
 ## References
 
-- [DFCite-1345] Sharma, Krishna, and Kumar, 2021, "RansomDroid: Forensic analysis and detection of Android Ransomware using unsupervised machine learning technique", FSI: Digital Investigation 37, 301168.
+- [LWCite-1345] Sharma, Krishna, and Kumar, 2021, "RansomDroid: Forensic analysis and detection of Android Ransomware using unsupervised machine learning technique", FSI: Digital Investigation 37, 301168.

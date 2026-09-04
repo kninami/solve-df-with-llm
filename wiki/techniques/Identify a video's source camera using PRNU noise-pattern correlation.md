@@ -1,12 +1,12 @@
 ---
-id: DFT-1157
+id: LWT-1157
 type: technique
 name: Identify a video's source camera using PRNU noise-pattern correlation
 description: Determine whether a video was recorded by a specific candidate camera by extracting each frame's sensor pattern noise (photo response non-uniformity, PRNU) via a denoising-filter residual, averaging enough frames to build a reference pattern, and correlating a query video's estimated pattern against the candidate camera's reference pattern using normalized cross-correlation (NCC) or peak-to-correlation energy (PCE).
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1161
+  - LWW-1161
 aliases:
   - Photo response non-uniformity (PRNU) video source camera identification
   - Sensor pattern noise (SPN) video device attribution
@@ -14,10 +14,10 @@ aliases:
   - Block-based PRNU matching for video capturing device identification
   - LBP-GLCM-PRNU feature fusion for video source camera identification (VSCI)
 source_refs:
-  - DFCite-1164
-  - DFCite-1314
-  - DFCite-2142
-  - DFCite-2143
+  - LWCite-1164
+  - LWCite-1314
+  - LWCite-2142
+  - LWCite-2143
 updated_at: 2026-08-16
 status: complete
 ---
@@ -56,7 +56,7 @@ For each of the video's N frames I_i, a denoising filter F (wavelet-based filter
 
 ## References
 
-- [DFCite-1164] Akbari et al., 2022, "Digital forensic analysis for source video identification: A survey", FSI: Digital Investigation 41, 301390.
-- [DFCite-1314] Su, Tian, and Pan, 2022, "Multimedia source identification using an improved weight photo response non-uniformity noise extraction model in short compressed videos", FSI: Digital Investigation 42-43, 301473.
-- [DFCite-2142] Li, Wang, Ma, Wang, and Wu, 2025, "Video capturing device identification through block-based PRNU matching", FSI: Digital Investigation 52, 301873. Source for the block-based PRNU matching algorithm addressing heterogeneous stabilization transformations.
-- [DFCite-2143] Anmol and Sitara, 2024, "Video source camera identification using fusion of texture features and noise fingerprint", FSI: Digital Investigation 49, 301746. Source for the LBP/GLCM/PRNU-HOWS feature-fusion SVM classification approach, including its inadequate cross-dataset (QUFVD) generalization finding.
+- [LWCite-1164] Akbari et al., 2022, "Digital forensic analysis for source video identification: A survey", FSI: Digital Investigation 41, 301390.
+- [LWCite-1314] Su, Tian, and Pan, 2022, "Multimedia source identification using an improved weight photo response non-uniformity noise extraction model in short compressed videos", FSI: Digital Investigation 42-43, 301473.
+- [LWCite-2142] Li, Wang, Ma, Wang, and Wu, 2025, "Video capturing device identification through block-based PRNU matching", FSI: Digital Investigation 52, 301873. Source for the block-based PRNU matching algorithm addressing heterogeneous stabilization transformations.
+- [LWCite-2143] Anmol and Sitara, 2024, "Video source camera identification using fusion of texture features and noise fingerprint", FSI: Digital Investigation 49, 301746. Source for the LBP/GLCM/PRNU-HOWS feature-fusion SVM classification approach, including its inadequate cross-dataset (QUFVD) generalization finding.

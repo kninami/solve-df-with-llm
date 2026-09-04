@@ -1,14 +1,14 @@
 ---
-id: DFW-1226
+id: LWW-1226
 type: weakness
 name: Intel DCI-based BitLocker VMK extraction depends on the target computer's debug interface being enableable
 description: Successfully enabling Intel DCI requires writing specific NVRAM/firmware settings that vary by system, are undocumented per-model, and can be write-protected or otherwise ineffective even when firmware modification itself succeeds, so a computer for which DCI cannot be enabled leaves the BitLocker VMK unreachable by this method regardless of correct procedure.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1226
+  - LWM-1226
 source_refs:
-  - DFCite-1237
+  - LWCite-1237
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Because Intel DCI enablement is system-dependent and its firmware settings are n
 
 ## References
 
-- [DFCite-1237] Bichara de Assumpção, dos Reis, Marcondes, da Silva Eleutério and Vieira, 2023, "Forensic method for decrypting TPM-protected BitLocker volumes using Intel DCI", DFRWS 2023 EU; FSI: Digital Investigation 44, 301514.
+- [LWCite-1237] Bichara de Assumpção, dos Reis, Marcondes, da Silva Eleutério and Vieira, 2023, "Forensic method for decrypting TPM-protected BitLocker volumes using Intel DCI", DFRWS 2023 EU; FSI: Digital Investigation 44, 301514.

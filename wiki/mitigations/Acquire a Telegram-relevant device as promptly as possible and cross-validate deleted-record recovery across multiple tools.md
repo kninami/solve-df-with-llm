@@ -1,9 +1,9 @@
 ---
-id: DFM-1316
+id: LWM-1316
 type: mitigation
 name: Acquire a Telegram-relevant device as promptly as possible and cross-validate deleted-record recovery across multiple tools
 source_refs:
-  - DFCite-1354
+  - LWCite-1354
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When Telegram deleted content is relevant to a case, prioritize prompt seizure a
 
 ## References
 
-- [DFCite-1354] Vasilaras, Dosis, Kotsis, and Rizomiliotis, 2022, "Retrieving deleted records from Telegram", FSI: Digital Investigation 43, 301447.
+- [LWCite-1354] Vasilaras, Dosis, Kotsis, and Rizomiliotis, 2022, "Retrieving deleted records from Telegram", FSI: Digital Investigation 43, 301447.

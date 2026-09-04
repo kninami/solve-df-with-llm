@@ -1,17 +1,17 @@
 ---
-id: DFT-1152
+id: LWT-1152
 type: technique
 name: Reconstruct Windows PE file-exfiltration timelines using NTFS $SI Atime and boot-order artifacts
 description: Detect and reconstruct file-exfiltration events carried out from a bypass boot environment such as the Windows Preinstallation Environment (Windows PE) by combining NTFS $STANDARD_INFORMATION Accessed Time ($SI Atime) updates on exfiltrated files with UEFI NVAR firmware evidence of abnormal boot-order modification, since neither endpoint logging nor security-agent telemetry is active while Windows PE is running.
 objective_ids:
   - DFO-1001
 weakness_ids:
-  - DFW-1155
+  - LWW-1155
 aliases:
   - Windows PE bypass-boot exfiltration detection via $SI Atime
   - NTFS Atime residual indicator analysis for bypass boot environments
 source_refs:
-  - DFCite-1153
+  - LWCite-1153
 updated_at: 2026-08-12
 status: complete
 ---
@@ -41,4 +41,4 @@ Controlled experiments show $SI Atime is updated on file-copy operations perform
 
 ## References
 
-- [DFCite-1153] Lee, Kim and Jeong, 2026, "Residual forensic indicators of file exfiltration in windows preinstallation environment", FSI: Digital Investigation 56.
+- [LWCite-1153] Lee, Kim and Jeong, 2026, "Residual forensic indicators of file exfiltration in windows preinstallation environment", FSI: Digital Investigation 56.

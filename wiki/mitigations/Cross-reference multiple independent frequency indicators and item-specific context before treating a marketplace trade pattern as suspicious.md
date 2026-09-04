@@ -1,9 +1,9 @@
 ---
-id: DFM-1284
+id: LWM-1284
 type: mitigation
 name: Cross-reference multiple independent frequency indicators and item-specific context before treating a marketplace trade pattern as suspicious
 source_refs:
-  - DFCite-1311
+  - LWCite-1311
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ When applying [[techniques/Detect potential money laundering using frequency-bas
 
 ## References
 
-- [DFCite-1311] Cooke and Marshall, 2024, "Money laundering through video games, a criminals' playground", FSI: Digital Investigation 50, 301802.
+- [LWCite-1311] Cooke and Marshall, 2024, "Money laundering through video games, a criminals' playground", FSI: Digital Investigation 50, 301802.

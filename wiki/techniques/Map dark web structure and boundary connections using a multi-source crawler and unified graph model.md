@@ -1,5 +1,5 @@
 ---
-id: DFT-2108
+id: LWT-2108
 type: technique
 name: Map dark web structure and boundary connections using a multi-source crawler and unified graph model
 description: Comprehensively map the dark web's structure -- including its connections to and from the surface web, which single-strategy crawlers largely miss -- by combining three complementary crawling strategies (seed-node expansion, dark web search engine querying, and surface web search engine querying for dark web links) into one closed-loop crawler, and representing the resulting data in a single "one-size-fits-all" graph model that simultaneously supports page-level and site-level analysis using multiple node and edge types (hyperlink and redirect, dark-to-dark, dark-to-surface, and surface-to-dark).
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1014
   - DFO-1012
 weakness_ids:
-  - DFW-2115
+  - LWW-2115
 aliases:
   - Multi-source multi-channel dark web crawler
 source_refs:
-  - DFCite-2135
+  - LWCite-2135
 updated_at: 2026-08-16
 status: complete
 ---
@@ -42,4 +42,4 @@ The extended dark web crawler based on seed nodes starts from a curated root set
 
 ## References
 
-- [DFCite-2135] Li, Zhang, Yan, Gao, Yin, and Gu, 2026, "Unveiling the mysteries of the dark web: A comprehensive graph-based multi-view analysis", FSI: Digital Investigation 57, 302105.
+- [LWCite-2135] Li, Zhang, Yan, Gao, Yin, and Gu, 2026, "Unveiling the mysteries of the dark web: A comprehensive graph-based multi-view analysis", FSI: Digital Investigation 57, 302105.

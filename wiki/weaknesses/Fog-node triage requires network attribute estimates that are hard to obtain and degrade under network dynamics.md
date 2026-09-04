@@ -1,14 +1,14 @@
 ---
-id: DFW-1189
+id: LWW-1189
 type: weakness
 name: Fog-node triage requires network attribute estimates that are hard to obtain and degrade under network dynamics
 description: Path-based centrality triage of fog computing nodes depends on the investigator being able to assess each connection's latency and bandwidth, the fog system's service-placement weighting, and each node's data volatility, but these attributes are not directly observable after the fact, must be estimated, and the resulting priority ranking degrades when the network's topology or connection quality has changed since the data was processed.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1189
+  - LWM-1189
 source_refs:
-  - DFCite-1194
+  - LWCite-1194
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator using this triage measure without being able to accurately estim
 
 ## References
 
-- [DFCite-1194] Sandvik et al., 2023, "Evidence in the fog - Triage in fog computing systems", FSI: Digital Investigation 44, 301506.
+- [LWCite-1194] Sandvik et al., 2023, "Evidence in the fog - Triage in fog computing systems", FSI: Digital Investigation 44, 301506.

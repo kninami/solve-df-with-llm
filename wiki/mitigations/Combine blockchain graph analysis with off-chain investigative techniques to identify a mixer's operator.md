@@ -1,9 +1,9 @@
 ---
-id: DFM-2114
+id: LWM-2114
 type: mitigation
 name: Combine blockchain graph analysis with off-chain investigative techniques to identify a mixer's operator
 source_refs:
-  - DFCite-2133
+  - LWCite-2133
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ Use [[techniques/Trace Bitcoin mixer transactions using graph-database traversal
 
 ## References
 
-- [DFCite-2133] Tippe and Deckers, 2025, "Unmixing the mix: Patterns and challenges in Bitcoin mixer investigations", FSI: Digital Investigation 52, 301876.
+- [LWCite-2133] Tippe and Deckers, 2025, "Unmixing the mix: Patterns and challenges in Bitcoin mixer investigations", FSI: Digital Investigation 52, 301876.

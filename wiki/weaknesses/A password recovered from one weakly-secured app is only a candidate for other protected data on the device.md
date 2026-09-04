@@ -1,14 +1,14 @@
 ---
-id: DFW-1212
+id: LWW-1212
 type: weakness
 name: A password recovered from one weakly-secured app is only a candidate for other protected data on the device
 description: A secret value recovered from a weakly-protected app is not a confirmed credential for any other app, account, or encrypted container on the same device; it is only a candidate value that may or may not have been reused, and treating it as a confirmed match without independently verifying it against the target risks a false or unsupported attribution.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1212
+  - LWM-1212
 source_refs:
-  - DFCite-1224
+  - LWCite-1224
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ Presenting a device-wide "password profile" as though it establishes the credent
 
 ## References
 
-- [DFCite-1224] Shin et al., 2022, "Forensic analysis of note and journal applications", FSI: Digital Investigation 40.
+- [LWCite-1224] Shin et al., 2022, "Forensic analysis of note and journal applications", FSI: Digital Investigation 40.

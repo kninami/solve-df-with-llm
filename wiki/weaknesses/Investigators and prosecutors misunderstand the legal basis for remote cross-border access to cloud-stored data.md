@@ -1,14 +1,14 @@
 ---
-id: DFW-2069
+id: LWW-2069
 type: weakness
 name: Investigators and prosecutors misunderstand the legal basis for remote cross-border access to cloud-stored data
 description: A substantial proportion of surveyed prosecutorial and judicial representatives incorrectly believed police have procedural authority to remotely search foreign-hosted IT resources or that searching a foreign-operated web-based email inbox is legally permitted, and many representatives directed police to secure data from foreign servers directly as part of routine procedural activities despite lacking the legal basis to do so.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2070
+  - LWM-2070
 source_refs:
-  - DFCite-2073
+  - LWCite-2073
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ Evidence acquired on a mistaken belief that remote cross-border access was legal
 
 ## References
 
-- [DFCite-2073] Olber, 2021, "The Survey on Cross-Border Collection of Digital Evidence by Representatives from Polish Prosecutors' Offices and Judicial Authorities", JDFSL 16(3). Reports the specific percentages of surveyed representatives holding each incorrect legal belief, and states that Polish police "should not conduct" remote search activities police were nonetheless commissioned to perform.
+- [LWCite-2073] Olber, 2021, "The Survey on Cross-Border Collection of Digital Evidence by Representatives from Polish Prosecutors' Offices and Judicial Authorities", JDFSL 16(3). Reports the specific percentages of surveyed representatives holding each incorrect legal belief, and states that Polish police "should not conduct" remote search activities police were nonetheless commissioned to perform.

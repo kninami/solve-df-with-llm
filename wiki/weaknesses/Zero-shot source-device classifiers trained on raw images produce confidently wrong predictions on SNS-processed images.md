@@ -1,14 +1,14 @@
 ---
-id: DFW-2111
+id: LWW-2111
 type: weakness
 name: Zero-shot source-device classifiers trained on raw images produce confidently wrong predictions on SNS-processed images
 description: A source-device identification classifier trained only on raw, unprocessed images and applied without adaptation to an image that has passed through a social networking service's re-encoding and resizing pipeline can produce a classification that is both essentially always wrong and reported with high apparent confidence, because SNS processing homogenizes the device-specific fingerprint features the classifier relies on without altering the shape of its output probability distribution.
 categories:
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-2112
+  - LWM-2112
 source_refs:
-  - DFCite-2130
+  - LWCite-2130
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on a source-device classifier's reported confidence scor
 
 ## References
 
-- [DFCite-2130] "Uncovering the impact of SNS processing on device source authentication", FSI: Digital Investigation 56, 2026.
+- [LWCite-2130] "Uncovering the impact of SNS processing on device source authentication", FSI: Digital Investigation 56, 2026.

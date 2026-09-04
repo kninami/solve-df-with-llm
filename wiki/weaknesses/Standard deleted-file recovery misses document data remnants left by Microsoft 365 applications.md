@@ -1,14 +1,14 @@
 ---
-id: DFW-1146
+id: LWW-1146
 type: weakness
 name: Standard deleted-file recovery misses document data remnants left by Microsoft 365 applications
 description: Conventional deleted-file recovery and carving techniques target unallocated space and known artifact types, so they miss document data remnants that Microsoft 365 applications retain in previously unstudied cache, sync-log, and activity-tracking files, even when those remnants are readily accessible in allocated space.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1146
+  - LWM-1146
 source_refs:
-  - DFCite-1142
+  - LWCite-1142
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator who relies solely on unallocated-space recovery and well-known a
 
 ## References
 
-- [DFCite-1142] Joun, Lee and Park, 2023, "Data remnants analysis of document files in Windows: Microsoft 365 as a case study", FSI: Digital Investigation 46.
+- [LWCite-1142] Joun, Lee and Park, 2023, "Data remnants analysis of document files in Windows: Microsoft 365 as a case study", FSI: Digital Investigation 46.

@@ -1,9 +1,9 @@
 ---
-id: DFM-1278
+id: LWM-1278
 type: mitigation
 name: Verify the Smart Switch app version before applying an existing decryption tool, and re-derive the algorithm for unmapped versions
 source_refs:
-  - DFCite-1305
+  - LWCite-1305
 updated_at: 2026-08-14
 status: complete
 ---
@@ -24,4 +24,4 @@ Extract the Smart Switch application version recorded in the backup's own metada
 
 ## References
 
-- [DFCite-1305] Kang, Kim, Park and Kim, 2021, "Methods for decrypting the data encrypted by the latest Samsung smartphone backup programs in Windows and macOS", FSI: Digital Investigation 39, 301310.
+- [LWCite-1305] Kang, Kim, Park and Kim, 2021, "Methods for decrypting the data encrypted by the latest Samsung smartphone backup programs in Windows and macOS", FSI: Digital Investigation 39, 301310.

@@ -1,14 +1,14 @@
 ---
-id: DFW-1241
+id: LWW-1241
 type: weakness
 name: Client-attached geotag metadata on public social media maps can be poisoned with false locations undetected by the platform
 description: A public social-media map feature displays media at the location its uploading user's client software attached to it, without the platform independently verifying that location against the media's actual content or capture location, so any user can broadcast media geotagged to an incorrect or fabricated location and the map will display it as if it were genuine, undetected by the platform.
 categories:
   - ASTM_INAC_EX
 mitigation_ids:
-  - DFM-1242
+  - LWM-1242
 source_refs:
-  - DFCite-1256
+  - LWCite-1256
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator using a harvested public social-media map as a surveillance or c
 
 ## References
 
-- [DFCite-1256] Matthews et al., 2021, "Ghost protocol -- Snapchat as a method of surveillance", FSI: Digital Investigation 36, 301112.
+- [LWCite-1256] Matthews et al., 2021, "Ghost protocol -- Snapchat as a method of surveillance", FSI: Digital Investigation 36, 301112.

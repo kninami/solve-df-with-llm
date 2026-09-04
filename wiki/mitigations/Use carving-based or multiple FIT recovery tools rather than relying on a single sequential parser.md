@@ -1,9 +1,9 @@
 ---
-id: DFM-1101
+id: LWM-1101
 type: mitigation
 name: Use carving-based or multiple FIT recovery tools rather than relying on a single sequential parser
 source_refs:
-  - DFCite-1095
+  - LWCite-1095
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Apply a sliding-window/signature-based carving pass to locate definition message
 
 ## References
 
-- [DFCite-1095] Song and Oh, 2023, "Bike computer forensics: An efficient and robust method for FIT file recovery", FSI: Digital Investigation 46.
+- [LWCite-1095] Song and Oh, 2023, "Bike computer forensics: An efficient and robust method for FIT file recovery", FSI: Digital Investigation 46.

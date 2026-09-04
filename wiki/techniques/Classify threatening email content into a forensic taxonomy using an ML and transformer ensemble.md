@@ -1,17 +1,17 @@
 ---
-id: DFT-1215
+id: LWT-1215
 type: technique
 name: Classify threatening email content into a forensic taxonomy using an ML and transformer ensemble
 description: Automatically triage threatening emails into a forensically grounded multi-class taxonomy (spam, phishing, direct/subtle/workplace/personal-vendetta threats, ransomware, hate speech, propaganda, and related classes) using lexical, stylometric, and header-metadata features fed to classical machine-learning and fine-tuned transformer classifiers, rather than a binary spam/phishing filter.
 objective_ids:
   - DFO-1012
 weakness_ids:
-  - DFW-1231
+  - LWW-1231
 aliases:
   - Forensically-integrated multi-class email threat detection
   - SET dataset classification
 source_refs:
-  - DFCite-1242
+  - LWCite-1242
 updated_at: 2026-08-13
 status: complete
 ---
@@ -41,4 +41,4 @@ Each of the twelve taxonomy classes (Spam, Phishing, Direct Threats, Subtle Thre
 
 ## References
 
-- [DFCite-1242] Srivastava et al., 2026, "Forensically-integrated machine learning model for multi-class email threat detection using a high-fidelity synthetic dataset", FSI: Digital Investigation 57, 302108.
+- [LWCite-1242] Srivastava et al., 2026, "Forensically-integrated machine learning model for multi-class email threat detection using a high-fidelity synthetic dataset", FSI: Digital Investigation 57, 302108.

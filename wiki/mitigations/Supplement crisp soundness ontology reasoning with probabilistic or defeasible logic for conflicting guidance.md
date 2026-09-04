@@ -1,9 +1,9 @@
 ---
-id: DFM-1035
+id: LWM-1035
 type: mitigation
 name: Supplement crisp soundness ontology reasoning with probabilistic or defeasible logic for conflicting guidance
 source_refs:
-  - DFCite-1025
+  - LWCite-1025
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ When extending or maintaining a description-logic soundness ontology, identify a
 
 ## References
 
-- [DFCite-1025] Matijević Gostojić and Vuković, 2023, "A knowledge-based system for supporting the soundness of digital forensic investigations", FSI: Digital Investigation 46.
+- [LWCite-1025] Matijević Gostojić and Vuković, 2023, "A knowledge-based system for supporting the soundness of digital forensic investigations", FSI: Digital Investigation 46.

@@ -1,16 +1,16 @@
 ---
-id: DFT-1054
+id: LWT-1054
 type: technique
 name: Acquire data by reverse-engineering a proprietary backup protocol
 description: Reconstruct a smartphone manufacturer's undocumented, proprietary device-backup protocol — its connection handshake, authentication/key-exchange sequence, and serialized backup-data message format — through a combination of USB packet capture, static and dynamic reverse engineering of the vendor's backup application, and log-based reconstruction of the serialization schema, in order to build an independent acquisition tool that does not depend on the vendor's own backup software.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1057
+  - LWW-1057
 aliases:
   - Reverse-engineered proprietary backup-protocol data acquisition
 source_refs:
-  - DFCite-1047
+  - LWCite-1047
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ The analysis proceeds in three coordinated parts: USB packet analysis (capturing
 
 ## References
 
-- [DFCite-1047] Park et al., 2022, "A study on data acquisition based on the Huawei smartphone backup protocol", FSI: Digital Investigation 41.
+- [LWCite-1047] Park et al., 2022, "A study on data acquisition based on the Huawei smartphone backup protocol", FSI: Digital Investigation 41.

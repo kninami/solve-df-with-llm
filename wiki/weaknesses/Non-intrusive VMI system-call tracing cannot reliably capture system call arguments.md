@@ -1,14 +1,14 @@
 ---
-id: DFW-1269
+id: LWW-1269
 type: weakness
 name: Non-intrusive VMI system-call tracing cannot reliably capture system call arguments
 description: A polling-based non-intrusive system-call tracer can reliably recover which system call was invoked and when, but cannot reliably recover the call's arguments — pointer-type arguments would require slow, translation-heavy dereferencing that defeats the timing requirements of non-intrusive polling, and the Linux kernel overwrites the last three argument registers with unrelated state before the polling thread can safely read them.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1270
+  - LWM-1270
 source_refs:
-  - DFCite-1296
+  - LWCite-1296
 updated_at: 2026-08-14
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on this technique to determine which system call a proce
 
 ## References
 
-- [DFCite-1296] Nguyen, Orenbach and Atamli, 2022, "Live system call trace reconstruction on Linux", DFRWS 2022 USA; FSI: Digital Investigation 42, 301398.
+- [LWCite-1296] Nguyen, Orenbach and Atamli, 2022, "Live system call trace reconstruction on Linux", DFRWS 2022 USA; FSI: Digital Investigation 42, 301398.

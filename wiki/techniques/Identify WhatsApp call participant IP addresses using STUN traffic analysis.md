@@ -1,16 +1,16 @@
 ---
-id: DFT-1236
+id: LWT-1236
 type: technique
 name: Identify WhatsApp call participant IP addresses using STUN traffic analysis
 description: Capture network traffic during a live WhatsApp voice or video call and extract each participant's public IP address from the unencrypted STUN (Session Traversal Utilities for NAT) protocol messages WhatsApp exchanges while establishing the peer-to-peer call connection.
 objective_ids:
   - DFO-1008
 weakness_ids:
-  - DFW-1253
+  - LWW-1253
 aliases:
   - WhatsApp call IP extraction via STUN
 source_refs:
-  - DFCite-1270
+  - LWCite-1270
 updated_at: 2026-08-14
 status: complete
 ---
@@ -39,4 +39,4 @@ The investigator (or a cooperating network operator) captures packet traffic fro
 
 ## References
 
-- [DFCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.
+- [LWCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.

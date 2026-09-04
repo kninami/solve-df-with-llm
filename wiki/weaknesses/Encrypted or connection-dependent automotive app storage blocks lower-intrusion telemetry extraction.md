@@ -1,14 +1,14 @@
 ---
-id: DFW-1163
+id: LWW-1163
 type: weakness
 name: Encrypted or connection-dependent automotive app storage blocks lower-intrusion telemetry extraction
 description: An automotive-maintenance app's dashboard can require an active Bluetooth connection to the OBD-II dongle before it will display any data at all, and an app's local log files can be stored in an encrypted format, either of which prevents the least-intrusive manual or logical extraction methods from recovering telemetry that is nonetheless present on the device.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1163
+  - LWM-1163
 source_refs:
-  - DFCite-1166
+  - LWCite-1166
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ A first responder or triage specialist who checks only the app's live dashboard,
 
 ## References
 
-- [DFCite-1166] Sumaila and Bahsi, 2022, "Digital forensic analysis of mobile automotive maintenance applications", FSI: Digital Investigation 43, 301440.
+- [LWCite-1166] Sumaila and Bahsi, 2022, "Digital forensic analysis of mobile automotive maintenance applications", FSI: Digital Investigation 43, 301440.

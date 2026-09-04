@@ -1,9 +1,9 @@
 ---
-id: DFM-2047
+id: LWM-2047
 type: mitigation
 name: Deploy tell-tale watermarking proactively for high-value media pipelines and use reactive detection elsewhere
 source_refs:
-  - DFCite-2048
+  - LWCite-2048
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ For organizations that control image capture or generation pipelines and anticip
 
 ## References
 
-- [DFCite-2048] Chang and Echizen, 2026 — the paper's own framing of the system as a proactive defence, and its comparison against reactive baselines that assume no preventative mechanism, directly motivates this proactive-versus-reactive deployment strategy.
+- [LWCite-2048] Chang and Echizen, 2026 — the paper's own framing of the system as a proactive defence, and its comparison against reactive baselines that assume no preventative mechanism, directly motivates this proactive-versus-reactive deployment strategy.

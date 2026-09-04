@@ -1,14 +1,14 @@
 ---
-id: DFW-2081
+id: LWW-2081
 type: weakness
 name: Native ARM-Mac execution of iOS applications fails to install or run a substantial proportion of App Store applications
 description: Running iOS applications natively on an ARM-based Mac requires downgrading to an older macOS version to preserve automatic IPA decryption, which in turn causes the platform to emulate an outdated iOS version; a majority of contemporary App Store applications specify a minimum iOS version newer than what the platform reports, so they refuse to install, and a further share crash or hang on launch for other environment-mismatch reasons.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2082
+  - LWM-2082
 source_refs:
-  - DFCite-2095
+  - LWCite-2095
 updated_at: 2026-08-16
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on native ARM-Mac execution as their primary or sole met
 
 ## References
 
-- [DFCite-2095] Seiden, Webb, and Baggili, 2025, "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs", FSI: Digital Investigation 52, 301871.
+- [LWCite-2095] Seiden, Webb, and Baggili, 2025, "Tapping .IPAs: An automated analysis of iPhone applications using apple silicon macs", FSI: Digital Investigation 52, 301871.

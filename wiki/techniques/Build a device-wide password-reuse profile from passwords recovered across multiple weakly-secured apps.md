@@ -1,16 +1,16 @@
 ---
-id: DFT-1203
+id: LWT-1203
 type: technique
 name: Build a device-wide password-reuse profile from passwords recovered across multiple weakly-secured apps
 description: Recover the plaintext or weakly-hashed secret values used to lock several different apps on the same seized device, and pool them into a candidate password list, exploiting the common real-world behavior of users reusing the same or similar passwords across services to attempt unlocking a separate, more strongly protected app or account with the same device.
 objective_ids:
   - DFO-1016
 weakness_ids:
-  - DFW-1212
+  - LWW-1212
 aliases:
   - Cross-app password pool inference
 source_refs:
-  - DFCite-1224
+  - LWCite-1224
 updated_at: 2026-08-13
 status: complete
 ---
@@ -39,4 +39,4 @@ Recovering secret values across multiple apps on the same device is more informa
 
 ## References
 
-- [DFCite-1224] Shin et al., 2022, "Forensic analysis of note and journal applications", FSI: Digital Investigation 40.
+- [LWCite-1224] Shin et al., 2022, "Forensic analysis of note and journal applications", FSI: Digital Investigation 40.

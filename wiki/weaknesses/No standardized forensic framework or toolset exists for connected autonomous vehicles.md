@@ -1,14 +1,14 @@
 ---
-id: DFW-2020
+id: LWW-2020
 type: weakness
 name: No standardized forensic framework or toolset exists for connected autonomous vehicles
 description: As of the source review, no CAV-specific forensic standard, guideline, or validated tool existed - NIST had not released CAV forensic standards, only one entry in NIST's tool catalog targeted passenger vehicles at all (and was incompatible with CAVs), and first responders lacked equipment and readiness to forensically investigate CAV accidents or attacks.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-2020
+  - LWM-2020
 source_refs:
-  - DFCite-2020
+  - LWCite-2020
 updated_at: 2026-08-14
 status: partial
 ---
@@ -33,4 +33,4 @@ Without a validated, CAV-specific framework or toolset, investigators must adapt
 
 ## References
 
-- [DFCite-2020] Sharma and Gillanders, 2022 — Sections IV.B and V.D explicitly document the absence of CAV-specific NIST standards/tools and describe the technical and legal challenges this creates for investigators and first responders.
+- [LWCite-2020] Sharma and Gillanders, 2022 — Sections IV.B and V.D explicitly document the absence of CAV-specific NIST standards/tools and describe the technical and legal challenges this creates for investigators and first responders.

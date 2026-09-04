@@ -1,9 +1,9 @@
 ---
-id: DFM-1091
+id: LWM-1091
 type: mitigation
 name: Forensically examine non-userdata system partitions after a claimed factory reset rather than assuming complete data elimination
 source_refs:
-  - DFCite-1083
+  - LWCite-1083
 updated_at: 2026-08-10
 status: complete
 ---
@@ -24,4 +24,4 @@ Perform a low-level partition extraction of the reset device and systematically 
 
 ## References
 
-- [DFCite-1083] Blankesteijn et al., 2023, "Assessing data remnants in modern smartphones after factory reset", FSI: Digital Investigation 46.
+- [LWCite-1083] Blankesteijn et al., 2023, "Assessing data remnants in modern smartphones after factory reset", FSI: Digital Investigation 46.

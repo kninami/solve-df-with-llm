@@ -1,9 +1,9 @@
 ---
-id: DFM-1189
+id: LWM-1189
 type: mitigation
 name: Estimate fog network attributes via active probing and re-run triage after topology changes
 source_refs:
-  - DFCite-1194
+  - LWCite-1194
 updated_at: 2026-08-13
 status: complete
 ---
@@ -24,4 +24,4 @@ Where direct measurement of a fog network's connections is possible (e.g. via se
 
 ## References
 
-- [DFCite-1194] Sandvik et al., 2023, "Evidence in the fog - Triage in fog computing systems", FSI: Digital Investigation 44, 301506.
+- [LWCite-1194] Sandvik et al., 2023, "Evidence in the fog - Triage in fog computing systems", FSI: Digital Investigation 44, 301506.

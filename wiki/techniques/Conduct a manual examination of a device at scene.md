@@ -1,17 +1,17 @@
 ---
-id: DFT-1127
+id: LWT-1127
 type: technique
 name: Conduct a manual examination of a device at scene
 description: Interrogate a complainant device live, at scene, by navigating and recording its interface directly instead of seizing it for a formal forensic extraction, following a structured seven-stage viability assessment to determine when doing so is appropriate.
 objective_ids:
   - DFO-1006
 weakness_ids:
-  - DFW-1130
+  - LWW-1130
 aliases:
   - Device manual examination (DME)
   - Manual examination procedure (MEP)
 source_refs:
-  - DFCite-1126
+  - LWCite-1126
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ The MEP begins with a device pre-assessment (confirming the device is operationa
 
 ## References
 
-- [DFCite-1126] Horsman, 2022, "Conducting a 'manual examination' of a device as part of a digital investigation", FSI: Digital Investigation 40, 301331.
+- [LWCite-1126] Horsman, 2022, "Conducting a 'manual examination' of a device as part of a digital investigation", FSI: Digital Investigation 40, 301331.

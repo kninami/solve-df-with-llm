@@ -1,14 +1,14 @@
 ---
-id: DFW-1159
+id: LWW-1159
 type: weakness
 name: Supervised cybercrime-message classifiers collapse against a communication source absent from training data
 description: A supervised cybercrime-message classifier that performs strongly on pooled, in-domain data can collapse to near-zero accuracy when applied to messages from an entire communication source domain (e.g. a different corpus of complaints or emails) that was withheld during training, because the model has learned corpus-specific lexical and topic cues rather than source-independent indicators of cybercrime.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1159
+  - LWM-1159
 source_refs:
-  - DFCite-1161
+  - LWCite-1161
 updated_at: 2026-08-12
 status: complete
 ---
@@ -33,4 +33,4 @@ An investigator relying on a cybercrime classifier's strong published in-domain 
 
 ## References
 
-- [DFCite-1161] Omeleze Baror et al., 2026, "DFR–HCI: A forensic-ready microservice architecture for human-to-human communication-based cybercrime detection", FSI: Digital Investigation 58, 302134.
+- [LWCite-1161] Omeleze Baror et al., 2026, "DFR–HCI: A forensic-ready microservice architecture for human-to-human communication-based cybercrime detection", FSI: Digital Investigation 58, 302134.

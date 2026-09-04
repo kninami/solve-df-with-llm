@@ -1,9 +1,9 @@
 ---
-id: DFM-1300
+id: LWM-1300
 type: mitigation
 name: Document and validate the memory-duplicator's footprint before and after PLC control-logic injection
 source_refs:
-  - DFCite-1331
+  - LWCite-1331
 updated_at: 2026-08-15
 status: complete
 ---
@@ -24,4 +24,4 @@ Before using [[techniques/Acquire a PLC's complete volatile memory remotely by i
 
 ## References
 
-- [DFCite-1331] Zubair, Ayub, Yoo, and Ahmed, 2022, "PEM: Remote forensic acquisition of PLC memory in industrial control systems", FSI: Digital Investigation 40, 301336.
+- [LWCite-1331] Zubair, Ayub, Yoo, and Ahmed, 2022, "PEM: Remote forensic acquisition of PLC memory in industrial control systems", FSI: Digital Investigation 40, 301336.

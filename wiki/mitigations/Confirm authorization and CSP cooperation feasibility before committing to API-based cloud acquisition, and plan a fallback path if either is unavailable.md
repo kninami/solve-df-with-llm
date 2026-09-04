@@ -1,9 +1,9 @@
 ---
-id: DFM-1122
+id: LWM-1122
 type: mitigation
 name: Confirm authorization and CSP cooperation feasibility before committing to API-based cloud acquisition, and plan a fallback path if either is unavailable
 source_refs:
-  - DFCite-1116
+  - LWCite-1116
 updated_at: 2026-08-12
 status: complete
 ---
@@ -24,4 +24,4 @@ Early in case planning, determine which of the two cooperative scenarios applies
 
 ## References
 
-- [DFCite-1116] Wu et al., 2022, "Cloud Evidence Tracing System: An integrated forensics investigation system for large-scale public cloud platform", FSI: Digital Investigation 41.
+- [LWCite-1116] Wu et al., 2022, "Cloud Evidence Tracing System: An integrated forensics investigation system for large-scale public cloud platform", FSI: Digital Investigation 41.

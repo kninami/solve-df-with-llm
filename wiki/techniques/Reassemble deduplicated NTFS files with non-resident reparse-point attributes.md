@@ -1,17 +1,17 @@
 ---
-id: DFT-1141
+id: LWT-1141
 type: technique
 name: Reassemble deduplicated NTFS files with non-resident reparse-point attributes
 description: Reconstruct the original content of a file deduplicated by Windows Server's Data Deduplication feature by parsing its MFT entry's $REPARSE_POINT attribute — resident on Windows Server 2012 but non-resident (spanning a data run) on Windows Server 2016, 2019, and 2022 — to recover the chunk-mapping structures needed to reassemble the file from the Chunk Store.
 objective_ids:
   - DFO-1013
 weakness_ids:
-  - DFW-1144
+  - LWW-1144
 aliases:
   - NTFS deduplicated file reassembly
   - Windows Server deduplication reparse-point reconstruction
 source_refs:
-  - DFCite-1141
+  - LWCite-1141
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ Reassembly requires identifying the deduplicated file's MFT entry via its `$REPA
 
 ## References
 
-- [DFCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.
+- [LWCite-1141] An, Lee and Han, 2023, "Data reconstruction and recovery of deduplicated files having non-resident attributes in NTFS volume", FSI: Digital Investigation 46.

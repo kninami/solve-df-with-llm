@@ -1,9 +1,9 @@
 ---
-id: DFM-1041
+id: LWM-1041
 type: mitigation
 name: Combine quantitative realism metrics with qualitative narrative-coherence review
 source_refs:
-  - DFCite-1031
+  - LWCite-1031
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ After a synthetic disk image passes quantitative realism benchmarking (comparing
 
 ## References
 
-- [DFCite-1031] Voigt et al., 2025, "A metrics-based look at disk images: Insights and applications", FSI: Digital Investigation 52.
+- [LWCite-1031] Voigt et al., 2025, "A metrics-based look at disk images: Insights and applications", FSI: Digital Investigation 52.

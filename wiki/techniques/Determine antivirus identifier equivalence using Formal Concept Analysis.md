@@ -1,16 +1,16 @@
 ---
-id: DFT-1027
+id: LWT-1027
 type: technique
 name: Determine antivirus identifier equivalence using Formal Concept Analysis
 description: Model a set of scanned files and the malware identifiers assigned to them by many different antivirus engines as a Formal Concept Analysis (FCA) formal context, then use context clarification and the resulting concept lattice to automatically detect which differently-named identifiers from different vendors refer to the same malware, and to derive a generalization-specialization hierarchy between malware categories.
 objective_ids:
   - DFO-1019
 weakness_ids:
-  - DFW-1027
+  - LWW-1027
 aliases:
   - Formal Concept Analysis of antivirus identifier equivalence and hierarchy
 source_refs:
-  - DFCite-1019
+  - LWCite-1019
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ A formal context K = (G, M, I) is built with G = scanned files, M = ⟨antivirus
 
 ## References
 
-- [DFCite-1019] Ojeda-Hernández et al., 2024, "A Formal Concept Analysis approach to hierarchical description of malware threats", FSI: Digital Investigation 50.
+- [LWCite-1019] Ojeda-Hernández et al., 2024, "A Formal Concept Analysis approach to hierarchical description of malware threats", FSI: Digital Investigation 50.

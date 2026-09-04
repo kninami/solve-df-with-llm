@@ -1,14 +1,14 @@
 ---
-id: DFW-1230
+id: LWW-1230
 type: weakness
 name: Fileless PowerShell and memory-resident execution evidence is unrecoverable without prospective logging or early volatile-memory acquisition
 description: PowerShell Script Block Logging and volatile in-memory execution artifacts are only ever recoverable if the relevant control was enabled, or the memory was acquired, before or during the intrusion; standard IR sequencing that begins with network isolation and disk imaging structurally forecloses both.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1230
+  - LWM-1230
 source_refs:
-  - DFCite-1240
+  - LWCite-1240
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ The 30.6% Script Block Log survival rate and the 0.0% memory-forensics-as-primar
 
 ## References
 
-- [DFCite-1240] Paul, 2026, "Forensic visibility gaps in fileless malware incidents: An empirical analysis of artefact survival rates across 49 confirmed intrusions", FSI: Digital Investigation 57, 302112.
+- [LWCite-1240] Paul, 2026, "Forensic visibility gaps in fileless malware incidents: An empirical analysis of artefact survival rates across 49 confirmed intrusions", FSI: Digital Investigation 57, 302112.

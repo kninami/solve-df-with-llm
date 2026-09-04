@@ -1,9 +1,9 @@
 ---
-id: DFM-2043
+id: LWM-2043
 type: mitigation
 name: Switch to streaming encryption or enforce a size ceiling before storing large potential digital evidence
 source_refs:
-  - DFCite-2044
+  - LWCite-2044
 updated_at: 2026-08-14
 status: partial
 ---
@@ -24,4 +24,4 @@ Where the organization's expected potential digital evidence includes large arti
 
 ## References
 
-- [DFCite-2044] Singh et al., 2022 — the paper's own future-work discussion (Section VIII) lists switching to file-streaming as the identified fix for this limitation.
+- [LWCite-2044] Singh et al., 2022 — the paper's own future-work discussion (Section VIII) lists switching to file-streaming as the identified fix for this limitation.

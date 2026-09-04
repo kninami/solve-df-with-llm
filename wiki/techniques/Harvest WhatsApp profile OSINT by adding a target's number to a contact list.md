@@ -1,5 +1,5 @@
 ---
-id: DFT-1237
+id: LWT-1237
 type: technique
 name: Harvest WhatsApp profile OSINT by adding a target's number to a contact list
 description: Add a target's phone number as a contact on an investigator-controlled device to surface any WhatsApp profile information (profile picture, "About" status text, last-seen presence) the target's privacy settings expose to their contacts, without requiring any account access or interception.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1004
   - DFO-1012
 weakness_ids:
-  - DFW-1254
+  - LWW-1254
 aliases:
   - WhatsApp contact-list OSINT
 source_refs:
-  - DFCite-1270
+  - LWCite-1270
 updated_at: 2026-08-14
 status: complete
 ---
@@ -41,4 +41,4 @@ Because this is a passive, non-interactive technique — the target's device mak
 
 ## References
 
-- [DFCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.
+- [LWCite-1270] van der Meer and Le-Khac, 2026, "Identifying interception possibilities for WhatsApp communication", FSI: Digital Investigation 56, 302070.

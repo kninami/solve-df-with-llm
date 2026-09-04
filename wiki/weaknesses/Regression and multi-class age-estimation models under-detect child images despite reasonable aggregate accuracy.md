@@ -1,5 +1,5 @@
 ---
-id: DFW-1127
+id: LWW-1127
 type: weakness
 name: Regression and multi-class age-estimation models under-detect child images despite reasonable aggregate accuracy
 description: Age-estimation models that predict a specific age or age band, rather than a simple child/adult label, achieve materially worse detection of child images than binary classification, even though their overall accuracy metrics can look reasonable.
@@ -7,10 +7,10 @@ categories:
   - ASTM_INCOMP
   - ASTM_MISINT
 mitigation_ids:
-  - DFM-1127
+  - LWM-1127
 source_refs:
-  - DFCite-1122
-  - DFCite-2141
+  - LWCite-1122
+  - LWCite-2141
 updated_at: 2026-08-16
 status: complete
 ---
@@ -38,5 +38,5 @@ A later regression-based approach (Vec2UAge) specifically targeting the underage
 
 ## References
 
-- [DFCite-1122] Roopak et al., 2023, "Comparison of deep learning classification models for facial image age estimation in digital forensic investigations", FSI: Digital Investigation 47, 301637.
-- [DFCite-2141] Anda, Dixon, and Bou-Harb, 2021, "Vec2UAge: Enhancing underage age estimation performance through facial embeddings", FSI: Digital Investigation 36, 301119.
+- [LWCite-1122] Roopak et al., 2023, "Comparison of deep learning classification models for facial image age estimation in digital forensic investigations", FSI: Digital Investigation 47, 301637.
+- [LWCite-2141] Anda, Dixon, and Bou-Harb, 2021, "Vec2UAge: Enhancing underage age estimation performance through facial embeddings", FSI: Digital Investigation 36, 301119.

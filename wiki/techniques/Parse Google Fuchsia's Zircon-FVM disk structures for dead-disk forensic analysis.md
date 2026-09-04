@@ -1,16 +1,16 @@
 ---
-id: DFT-1296
+id: LWT-1296
 type: technique
 name: Parse Google Fuchsia's Zircon-FVM disk structures for dead-disk forensic analysis
 description: Perform dead-disk (offline, post-mortem) forensic examination of a device running Google's Fuchsia operating system by identifying and interpreting the disk-level structures of Fuchsia's custom Fuchsia Volume Manager (FVM), its constituent partitions (including MinFS, BlobFS, and the Zircon Boot Image), and the boundaries these structures impose on evidence recovery, since Fuchsia uses a non-Linux, non-Android-derived custom microkernel (Zircon) and storage stack unfamiliar to most investigators and unsupported by existing forensic tooling.
 objective_ids:
   - DFO-1013
 weakness_ids:
-  - DFW-1306
+  - LWW-1306
 aliases:
   - Fuchsia FVM/Zircon/MinFS/BlobFS/ZBI forensic analysis
 source_refs:
-  - DFCite-1343
+  - LWCite-1343
 updated_at: 2026-08-15
 status: complete
 ---
@@ -40,4 +40,4 @@ The examination identifies and documents the disk-level identifiers and data sto
 
 ## References
 
-- [DFCite-1343] Jarrett and Morris, 2021, "Purple dawn: Dead disk forensics on Google's Fuchsia operating system", FSI: Digital Investigation 39, 301269.
+- [LWCite-1343] Jarrett and Morris, 2021, "Purple dawn: Dead disk forensics on Google's Fuchsia operating system", FSI: Digital Investigation 39, 301269.

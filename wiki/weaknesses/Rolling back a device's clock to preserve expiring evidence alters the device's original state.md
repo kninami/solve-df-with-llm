@@ -1,14 +1,14 @@
 ---
-id: DFW-1207
+id: LWW-1207
 type: weakness
 name: Rolling back a device's clock to preserve expiring evidence alters the device's original state
 description: Manually changing a seized device's system date/time to prevent a disappearing message from expiring modifies the device's data before acquisition, which conflicts with the principle that no action taken by an investigator should change data held on a device that may subsequently be relied upon as evidence.
 categories:
   - ASTM_INAC_ALT
 mitigation_ids:
-  - DFM-1207
+  - LWM-1207
 source_refs:
-  - DFCite-1218
+  - LWCite-1218
 updated_at: 2026-08-13
 status: complete
 ---
@@ -33,4 +33,4 @@ If challenged, an investigator must be able to account for every change made to 
 
 ## References
 
-- [DFCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.
+- [LWCite-1218] Heath et al., 2023, "Forensic analysis of ephemeral messaging applications: Disappearing messages or evidential data?", FSI: Digital Investigation 46.

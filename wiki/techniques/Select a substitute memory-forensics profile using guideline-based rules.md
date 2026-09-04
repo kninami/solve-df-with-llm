@@ -1,16 +1,16 @@
 ---
-id: DFT-1056
+id: LWT-1056
 type: technique
 name: Select a substitute memory-forensics profile using guideline-based rules
 description: When the exact kernel-version memory-forensics profile needed to interpret a target system's RAM dump is unavailable, select the best available alternative profile according to empirically derived, OS-specific substitution guidelines (which nearby kernel version, edition, or release type is least likely to have shifted the relevant data structure offsets), rather than guessing or defaulting to whatever profile happens to be on hand.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1059
+  - LWW-1059
 aliases:
   - Profile-substitution guideline selection for memory forensics
 source_refs:
-  - DFCite-1049
+  - LWCite-1049
 updated_at: 2026-08-09
 status: complete
 ---
@@ -39,4 +39,4 @@ A longitudinal measurement of 2298 Volatility 3 profiles across Linux, macOS, an
 
 ## References
 
-- [DFCite-1049] Oliveri et al., 2025, "A study on the evolution of kernel data types used in memory forensics and their dependency on compilation options", FSI: Digital Investigation 52.
+- [LWCite-1049] Oliveri et al., 2025, "A study on the evolution of kernel data types used in memory forensics and their dependency on compilation options", FSI: Digital Investigation 52.

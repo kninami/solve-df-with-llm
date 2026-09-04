@@ -1,10 +1,10 @@
 ---
-id: DFM-1158
+id: LWM-1158
 type: mitigation
 name: Extract the platform-protected auxiliary or database key manually to decrypt app data outside the original device environment
 source_refs:
-  - DFCite-1150
-  - DFCite-1217
+  - LWCite-1150
+  - LWCite-1217
 updated_at: 2026-08-13
 status: complete
 ---
@@ -25,5 +25,5 @@ Where the original user's live environment (or a faithful recreation of it) is a
 
 ## References
 
-- [DFCite-1150] Paulino et al., 2025, "Decrypting messages: Extracting digital evidence from signal desktop for windows", FSI: Digital Investigation 54.
-- [DFCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.
+- [LWCite-1150] Paulino et al., 2025, "Decrypting messages: Extracting digital evidence from signal desktop for windows", FSI: Digital Investigation 54.
+- [LWCite-1217] Hur et al., 2023, "Forensic analysis for multi-platform Cisco Webex", FSI: Digital Investigation 47, 301659.

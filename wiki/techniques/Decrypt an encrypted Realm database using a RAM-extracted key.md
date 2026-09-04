@@ -1,16 +1,16 @@
 ---
-id: DFT-1243
+id: LWT-1243
 type: technique
 name: Decrypt an encrypted Realm database using a RAM-extracted key
 description: Recover a mobile app's AES-encrypted Realm database key by searching a live process memory dump for the key string (e.g. via fridump3), converting it to its required hexadecimal form, and using it to open the encrypted .realm file directly in a Realm-aware viewer such as Realm Studio.
 objective_ids:
   - DFO-1018
 weakness_ids:
-  - DFW-1020
+  - LWW-1020
 aliases:
   - RAM-based Realm database decryption
 source_refs:
-  - DFCite-1280
+  - LWCite-1280
 updated_at: 2026-08-14
 status: complete
 ---
@@ -39,4 +39,4 @@ While the target app is running and logged in (or in a guest/visitor mode that s
 
 ## References
 
-- [DFCite-1280] Dragonas, Lambrinoudakis and Kotsis, 2023, "IoT forensics: Analysis of a HIKVISION's mobile app", DFRWS 2023 USA; FSI: Digital Investigation 45, 301560.
+- [LWCite-1280] Dragonas, Lambrinoudakis and Kotsis, 2023, "IoT forensics: Analysis of a HIKVISION's mobile app", DFRWS 2023 USA; FSI: Digital Investigation 45, 301560.

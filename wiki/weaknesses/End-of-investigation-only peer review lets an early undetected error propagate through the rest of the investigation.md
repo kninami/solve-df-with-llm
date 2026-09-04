@@ -1,14 +1,14 @@
 ---
-id: DFW-1296
+id: LWW-1296
 type: weakness
 name: End-of-investigation-only peer review lets an early undetected error propagate through the rest of the investigation
 description: When peer review is performed only once, after all investigative work is complete, an error introduced early (such as an incomplete or errored data acquisition) is not caught until the practitioner has already built and reported further analysis on top of it, forcing costly rework and increasing the risk that the error is never identified at all.
 categories:
   - ASTM_INCOMP
 mitigation_ids:
-  - DFM-1298
+  - LWM-1298
 source_refs:
-  - DFCite-1329
+  - LWCite-1329
 updated_at: 2026-08-15
 status: complete
 ---
@@ -33,4 +33,4 @@ Discovering a foundational error only at final review forces the practitioner to
 
 ## References
 
-- [DFCite-1329] Sunde and Horsman, 2021, "Part 2: The Phase-oriented Advice and Review Structure (PARS) for digital forensic investigations", FSI: Digital Investigation 36, 301074.
+- [LWCite-1329] Sunde and Horsman, 2021, "Part 2: The Phase-oriented Advice and Review Structure (PARS) for digital forensic investigations", FSI: Digital Investigation 36, 301074.

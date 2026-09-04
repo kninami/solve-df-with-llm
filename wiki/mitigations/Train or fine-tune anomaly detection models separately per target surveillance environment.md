@@ -1,9 +1,9 @@
 ---
-id: DFM-1052
+id: LWM-1052
 type: mitigation
 name: Train or fine-tune anomaly detection models separately per target surveillance environment
 source_refs:
-  - DFCite-1042
+  - LWCite-1042
 updated_at: 2026-08-09
 status: complete
 ---
@@ -24,4 +24,4 @@ Before deploying a video anomaly detector to a new surveillance environment, col
 
 ## References
 
-- [DFCite-1042] Khaire and Kumar, 2022, "A semi-supervised deep learning based video anomaly detection framework using RGB-D for surveillance of real-world critical environments", FSI: Digital Investigation 40.
+- [LWCite-1042] Khaire and Kumar, 2022, "A semi-supervised deep learning based video anomaly detection framework using RGB-D for surveillance of real-world critical environments", FSI: Digital Investigation 40.

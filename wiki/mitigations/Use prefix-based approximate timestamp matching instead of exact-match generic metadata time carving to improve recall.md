@@ -1,9 +1,9 @@
 ---
-id: DFM-2097
+id: LWM-2097
 type: mitigation
 name: Use prefix-based approximate timestamp matching instead of exact-match generic metadata time carving to improve recall
 source_refs:
-  - DFCite-2113
+  - LWCite-2113
 updated_at: 2026-08-16
 status: complete
 ---
@@ -24,4 +24,4 @@ When applying Generic Metadata Time Carving to a disk image, use a prefix-matchi
 
 ## References
 
-- [DFCite-2113] Porter, Nordvik, Toolan, and Axelsson, 2021, "Timestamp prefix carving for filesystem metadata extraction", FSI: Digital Investigation 38, 301266.
+- [LWCite-2113] Porter, Nordvik, Toolan, and Axelsson, 2021, "Timestamp prefix carving for filesystem metadata extraction", FSI: Digital Investigation 38, 301266.

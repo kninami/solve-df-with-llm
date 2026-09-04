@@ -1,16 +1,16 @@
 ---
-id: DFT-2127
+id: LWT-2127
 type: technique
 name: Extract Zoom video-conferencing artifacts across disk, network, and memory using JID-keyed database analysis
 description: Recover Zoom video-conferencing evidence (contacts, chat messages, exchanged files, meeting history, and account credentials) by locating each user account's Jabber ID (JID)-named data directory on disk across Android, iOS, macOS, and Windows, decrypting captured HTTPS traffic with a TLS-intercepting proxy, and inspecting process memory for residual chat content, then triaging the resulting SQLite databases with a prepared set of investigator queries.
 objective_ids:
   - DFO-1011
 weakness_ids:
-  - DFW-2137
+  - LWW-2137
 aliases:
   - Zoom forensic artifact analysis
 source_refs:
-  - DFCite-2158
+  - LWCite-2158
 updated_at: 2026-08-17
 status: complete
 ---
@@ -40,4 +40,4 @@ A TLS-intercepting proxy configured with a trusted root certificate on the devic
 
 ## References
 
-- [DFCite-2158] Mahr et al., 2021, "Zooming into the pandemic! A forensic analysis of the Zoom Application", FSI: Digital Investigation 36.
+- [LWCite-2158] Mahr et al., 2021, "Zooming into the pandemic! A forensic analysis of the Zoom Application", FSI: Digital Investigation 36.

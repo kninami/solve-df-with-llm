@@ -1,5 +1,5 @@
 ---
-id: DFT-2080
+id: LWT-2080
 type: technique
 name: Identify and access Linux disk and directory encryption at scene using live command-line detection
 description: On a live, powered-on Linux system, use standard command-line utilities (fdisk, blkid, the Disks GUI) and shell-history review to determine whether full-disk encryption (LUKS/dm-crypt) or per-directory encryption (eCryptfs or fscrypt) is present, then capture recovery keys, unwrap passphrases, or take a decrypted logical/physical image before the system is powered off or the user account is logged out, since each of these Linux encryption technologies becomes far harder or impossible to access once the live opportunity is lost.
@@ -7,11 +7,11 @@ objective_ids:
   - DFO-1016
   - DFO-1021
 weakness_ids:
-  - DFW-2082
+  - LWW-2082
 aliases:
   - Linux full disk encryption / home directory encryption at-scene identification
 source_refs:
-  - DFCite-2096
+  - LWCite-2096
 updated_at: 2026-08-16
 status: complete
 ---
@@ -43,4 +43,4 @@ Detection uses three complementary indicators on a live system: the `fdisk -l` c
 
 ## References
 
-- [DFCite-2096] Findlay, Ben, 2024, "Techniques and methods for obtaining access to data protected by linux-based encryption -- A reference guide for practitioners", FSI: Digital Investigation 48, 301662.
+- [LWCite-2096] Findlay, Ben, 2024, "Techniques and methods for obtaining access to data protected by linux-based encryption -- A reference guide for practitioners", FSI: Digital Investigation 48, 301662.

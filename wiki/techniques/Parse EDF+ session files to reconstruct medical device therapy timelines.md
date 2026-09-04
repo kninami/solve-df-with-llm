@@ -1,16 +1,16 @@
 ---
-id: DFT-1168
+id: LWT-1168
 type: technique
 name: Parse EDF+ session files to reconstruct medical device therapy timelines
 description: Parse a medical device's European Data Format Plus (EDF+) session files — a header-plus-fixed-duration-data-record structure used by many clinical monitoring devices — using a domain-specific library to recover patient session signals (e.g. therapy pressure, event flags, usage duration) and reconstruct a timeline of device operation and patient treatment.
 objective_ids:
   - DFO-1002
 weakness_ids:
-  - DFW-1174
+  - LWW-1174
 aliases:
   - CPAP EDF+ file parsing and OSCAR visualization
 source_refs:
-  - DFCite-1172
+  - LWCite-1172
 updated_at: 2026-08-12
 status: complete
 ---
@@ -40,4 +40,4 @@ Each EDF+ file's header records patient identification, recording start date/tim
 
 ## References
 
-- [DFCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.
+- [LWCite-1172] Schmitt and Butterfield, 2024, "Digital forensics in healthcare: An analysis of data associated with a CPAP machine", FSI: Digital Investigation 48, 301661.
