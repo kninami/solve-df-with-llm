@@ -46,6 +46,10 @@
     border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;width:100%}
   .empty{color:var(--mut);font-size:13px;padding:14px;border:1px dashed var(--line);
     border-radius:10px;text-align:center}
+  .toggle{width:100%;background:var(--card2);border:1px solid var(--line);
+    color:var(--acc);padding:10px;border-radius:9px;font-size:13px;font-weight:600;
+    cursor:pointer;margin-top:2px}
+  .toggle:hover{border-color:var(--acc)}
   .flags{font-size:12px;color:var(--mut);margin-top:6px}
   .badge{display:inline-block;background:var(--card2);border:1px solid var(--line);
     border-radius:20px;padding:2px 9px;font-size:11px;color:var(--mut);margin-left:6px}
@@ -138,10 +142,18 @@ function run(){
     const citeN=D.has_citations?(i.max_cited_by||0)/maxCite:0; // 0..1 보조
     i.score=relN*0.7 + citeN*0.3;
   }
-  const aug=pool.filter(i=>i.class==="augment").sort((a,b)=>b.score-a.score).slice(0,3);
-  const nw =pool.filter(i=>i.class==="new").sort((a,b)=>b.score-a.score).slice(0,3);
-  hint.innerHTML=`"<b>${q}</b>" 검색: 매칭 ${pool.length}건 중 보강 ${aug.length}·신규 ${nw.length} 상위 표시`;
-  render("aug",aug,terms); render("new",nw,terms);
+  const aug=pool.filter(i=>i.class==="augment").sort((a,b)=>b.score-a.score);
+  const nw =pool.filter(i=>i.class==="new").sort((a,b)=>b.score-a.score);
+  LAST={aug,nw,terms,showAllAug:false,showAllNew:false};
+  hint.innerHTML=`"<b>${q}</b>" 검색: 매칭 ${pool.length}건 (보강 ${aug.length} · 신규 ${nw.length}). 기본 상위 3건 표시.`;
+  render("aug",aug,terms,false); render("new",nw,terms,false);
+}
+
+let LAST=null;
+function toggleAll(which){
+  if(!LAST) return;
+  if(which==="aug"){LAST.showAllAug=!LAST.showAllAug; render("aug",LAST.aug,LAST.terms,LAST.showAllAug);}
+  else{LAST.showAllNew=!LAST.showAllNew; render("new",LAST.nw,LAST.terms,LAST.showAllNew);}
 }
 
 function refsHtml(item){
@@ -156,10 +168,11 @@ function refsHtml(item){
   }).join("<br>")+'</div>';
 }
 
-function render(el,list,terms){
+function render(el,fullList,terms,showAll){
   const box=document.getElementById(el);
-  if(!list.length){box.innerHTML='<div class="empty">해당 유형의 후보가 없습니다.</div>';return;}
-  box.innerHTML=list.map((i,idx)=>{
+  if(!fullList.length){box.innerHTML='<div class="empty">해당 유형의 후보가 없습니다.</div>';return;}
+  const list=showAll?fullList:fullList.slice(0,3);
+  const cards=list.map((i,idx)=>{
     const isAug=i.class==="augment";
     const tgt=isAug&&i.matches[0]
       ? `<div class="target">→ SOLVE-IT [${i.matches[0].id}] ${i.matches[0].name} 에 추가 (유사도 ${i.matches[0].sim})</div>`
@@ -176,6 +189,12 @@ function render(el,list,terms){
       <button class="mkbtn" onclick='mkIssue(${JSON.stringify(i.id)})'>이 항목으로 GitHub 이슈 작성 →</button>
     </div>`;
   }).join("");
+  let toggle="";
+  if(fullList.length>3){
+    toggle=`<button class="toggle" onclick="toggleAll('${el}')">`+
+      (showAll?`▲ 상위 3건만 보기`:`▼ 전체 ${fullList.length}건 보기`)+`</button>`;
+  }
+  box.innerHTML=cards+toggle;
 }
 
 function mkIssue(id){
